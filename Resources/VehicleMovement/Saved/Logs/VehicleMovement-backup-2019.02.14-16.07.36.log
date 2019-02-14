@@ -1,0 +1,1034 @@
+﻿Log file open, 02/14/19 16:00:36
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VehicleMovement
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.095239
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.517s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 750 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.14-21.00.37:774][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.14-21.00.37:775][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.14-21.00.37:806][  0]LogHAL: Display: Platform has ~ 8 GB [8536301568 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.14-21.00.37:807][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.14-21.00.37:808][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.14-21.00.37:810][  0]LogInit: Computer: DESKTOP-IAKBS29
+[2019.02.14-21.00.37:810][  0]LogInit: User: Sarfaraz
+[2019.02.14-21.00.37:810][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.14-21.00.37:810][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.14-21.00.37:811][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.02.14-21.00.37:811][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.14-21.00.37:811][  0]LogMemory: Process Physical Memory: 101.32 MB used, 101.33 MB peak
+[2019.02.14-21.00.37:811][  0]LogMemory: Process Virtual Memory: 84.25 MB used, 84.25 MB peak
+[2019.02.14-21.00.37:811][  0]LogMemory: Physical Memory: 6744.57 MB used,  1396.28 MB free, 8140.85 MB total
+[2019.02.14-21.00.37:811][  0]LogMemory: Virtual Memory: 4608.51 MB used,  1396.28 MB free, 134217728.00 MB total
+[2019.02.14-21.00.38:118][  0]LogInit: Using OS detected language (en-US).
+[2019.02.14-21.00.38:118][  0]LogInit: Using OS detected locale (en-CA).
+[2019.02.14-21.00.38:123][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.14-21.00.38:609][  0]LogStreaming: Display: Took  0.492s to InitEngineTextLocalization.
+[2019.02.14-21.00.38:613][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.14-21.00.38:727][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.14-21.00.38:727][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.14-21.00.39:295][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.14-21.00.39:295][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.14-21.00.39:451][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2019.02.14-21.00.39:451][  0]LogD3D11RHI:       2007/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.14-21.00.39:464][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.14-21.00.39:464][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.14-21.00.39:464][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.14-21.00.39:474][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.14-21.00.39:474][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.14-21.00.39:475][  0]LogWindows: EnumDisplayDevices:
+[2019.02.14-21.00.39:475][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2019.02.14-21.00.39:476][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:1)
+[2019.02.14-21.00.39:476][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2019.02.14-21.00.39:477][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2019.02.14-21.00.39:477][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.14-21.00.39:478][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2019.02.14-21.00.39:478][  0]LogD3D11RHI:   Driver Version: 418.91 (internal:25.21.14.1891, unified:418.91)
+[2019.02.14-21.00.39:478][  0]LogD3D11RHI:      Driver Date: 2-6-2019
+[2019.02.14-21.00.39:478][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2019.02.14-21.00.39:548][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.14-21.00.39:590][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.14-21.00.39:647][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Intermediate/Shaders/WorkingDirectory/10544/).
+[2019.02.14-21.00.39:648][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sarfaraz/AppData/Local/Temp/UnrealShaderWorkingDir/3A91A51342DE520F0E5B8A941C1DEEEE/'.
+[2019.02.14-21.00.40:168][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.14-21.00.40:193][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.14-21.00.40:220][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.14-21.00.40:245][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.14-21.00.40:277][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.14-21.00.40:307][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.14-21.00.40:335][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.14-21.00.40:361][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.14-21.00.40:379][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.14-21.00.40:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:530][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:531][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.00.40:542][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.14-21.00.40:647][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.14-21.00.40:647][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.14-21.00.40:689][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.14-21.00.40:694][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.14-21.00.40:724][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.14-21.00.40:748][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.14-21.00.40:773][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.14-21.00.40:800][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.14-21.00.40:821][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.14-21.00.40:822][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.14-21.00.41:166][  0]LogXGEController: Cleaning working directory: C:/Users/Sarfaraz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.14-21.00.41:170][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.14-21.00.41:171][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.14-21.00.41:171][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.14-21.00.43:225][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.14-21.00.43:502][  0]LogDerivedDataCache: Loaded boot cache 0.28s 73MB C:/Users/Sarfaraz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.14-21.00.43:503][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sarfaraz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.14-21.00.43:503][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.14-21.00.43:503][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.14-21.00.43:503][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.14-21.00.43:503][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.14-21.00.43:521][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.14-21.00.43:537][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sarfaraz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.14-21.00.43:537][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.14-21.00.43:537][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.14-21.00.43:561][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.14-21.00.43:567][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.14-21.00.43:572][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.14-21.00.43:759][  0]LogAssetRegistry: FAssetRegistry took 0.0344 seconds to start up
+[2019.02.14-21.00.44:415][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.14-21.00.44:775][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.14-21.00.44:809][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.14-21.00.44:809][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.14-21.00.44:810][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.14-21.00.44:810][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.14-21.00.44:874][  0]LogNetVersion: VehicleMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2966596176)
+[2019.02.14-21.00.46:003][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.170019 seconds
+[2019.02.14-21.00.46:012][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.14-21.00.46:012][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.02.14-21.00.46:012][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.14-21.00.48:554][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.14-21.00.48:578][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.14-21.00.49:265][  0]SourceControl: Source control is disabled
+[2019.02.14-21.00.49:265][  0]SourceControl: Source control is disabled
+[2019.02.14-21.00.49:281][  0]SourceControl: Source control is disabled
+[2019.02.14-21.00.49:290][  0]SourceControl: Source control is disabled
+[2019.02.14-21.00.49:841][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.14-21.00.50:040][  0]LogOcInput: OculusInput pre-init called
+[2019.02.14-21.00.50:217][  0]LogEngine: Initializing Engine...
+[2019.02.14-21.00.50:223][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.14-21.00.50:228][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.14-21.00.50:228][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.14-21.00.50:229][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.14-21.00.50:229][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.14-21.00.50:581][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.14-21.00.50:662][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.14-21.00.50:722][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.14-21.00.50:859][  0]LogInit: FAudioDevice initialized.
+[2019.02.14-21.00.50:860][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.14-21.00.50:941][  0]LogDerivedDataCache: Saved boot cache 0.08s 73MB C:/Users/Sarfaraz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.14-21.00.50:946][  0]LogInit: Texture streaming: Enabled
+[2019.02.14-21.00.51:052][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.14-21.00.51:086][  0]LogInit: Transaction tracking system initialized
+[2019.02.14-21.00.51:199][  0]BlueprintLog: New page: Editor Load
+[2019.02.14-21.00.51:557][  0]LocalizationService: Localization service is disabled
+[2019.02.14-21.00.52:328][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.14-21.00.52:329][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.14-21.00.52:331][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/' took 0.02s
+[2019.02.14-21.00.52:331][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.14-21.00.52:331][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.14-21.00.52:331][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.14-21.00.52:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.14-21.00.52:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.14-21.00.52:774][  0]SourceControl: Source control is disabled
+[2019.02.14-21.00.52:775][  0]Cmd: MAP LOAD FILE="D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.14-21.00.52:796][  0]LightingResults: New page: Lighting Build
+[2019.02.14-21.00.52:813][  0]MapCheck: New page: Map Check
+[2019.02.14-21.00.52:814][  0]LightingResults: New page: Lighting Build
+[2019.02.14-21.00.53:761][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.14-21.00.53:818][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.14-21.00.53:855][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.14-21.00.54:339][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 483.809ms to complete.
+[2019.02.14-21.00.54:344][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 1.570
+[2019.02.14-21.00.54:599][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.00.54:609][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.00.54:618][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.00.54:626][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.00.54:656][  0]LogCollectionManager: Loaded 0 collections in 0.004192 seconds
+[2019.02.14-21.00.54:739][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Saved/Collections/' took 0.01s
+[2019.02.14-21.00.54:739][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/Developers/Sarfaraz/Collections/' took 0.01s
+[2019.02.14-21.00.54:739][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/Collections/' took 0.01s
+[2019.02.14-21.00.54:739][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.14-21.00.54:758][  0]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 2580 classes and 608 folders.
+[2019.02.14-21.00.54:784][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.14-21.00.55:005][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.14-21.00.55:026][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.02.14-21.00.55:164][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.14-21.00.55:164][  0]LogLoad: (Engine Initialization) Total time: 23.03 seconds
+[2019.02.14-21.00.55:164][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.14-21.00.55:189][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.02.14-21.00.55:189][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.02.14-21.00.55:190][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2019.02.14-21.00.55:190][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2019.02.14-21.00.55:190][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2019.02.14-21.00.55:231][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.14-21.00.55:241][  0]LogSlate: Took 0.001305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.14-21.00.55:249][  0]LogSlate: Took 0.001384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.14-21.00.55:254][  0]LogSlate: Took 0.001268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.14-21.00.55:415][  0]LogRenderer: Reallocating scene render targets to support 1172x592 Format 10 NumSamples 1 (Frame:1).
+[2019.02.14-21.00.55:415][  0]LogSlate: Took 0.002171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.14-21.00.55:618][  1]LogAssetRegistry: Asset discovery search completed in 11.8843 seconds
+[2019.02.14-21.00.55:620][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.14-21.00.55:621][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000181 seconds (updated 0 objects)
+[2019.02.14-21.03.15:191][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.14-21.03.15:241][499]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.14-21.03.15:258][499]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.03.15:259][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.14-21.03.15:286][499]PIE: New page: PIE session: VehicleExampleMap (Feb 14, 2019, 11:03:15 AM)
+[2019.02.14-21.03.15:286][499]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2019.02.14-21.03.15:321][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034321s)
+[2019.02.14-21.03.15:322][499]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.14-21.03.15:322][499]LogPlayLevel: PIE: World Init took: (0.001338s)
+[2019.02.14-21.03.15:323][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.036883s)
+[2019.02.14-21.03.15:369][499]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.14-21.03.15:447][499]LogInit: FAudioDevice initialized.
+[2019.02.14-21.03.15:499][499]LogLoad: Game class is 'VehicleMovementGameMode'
+[2019.02.14-21.03.15:513][499]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.02.14-16.03.15
+[2019.02.14-21.03.15:517][499]LogWorld: Bringing up level for play took: 0.006169
+[2019.02.14-21.03.15:554][499]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 10 classes and 0 folders.
+[2019.02.14-21.03.15:557][499]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap -0.567
+[2019.02.14-21.03.15:558][499]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.03.15:610][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:612][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:613][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:613][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:613][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:613][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:613][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:613][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:613][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:614][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:614][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:614][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:614][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:614][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:614][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:615][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:616][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:616][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:616][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:616][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:616][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:616][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:616][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:616][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:616][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:616][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:616][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:616][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:616][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:617][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:617][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:617][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:617][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:617][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:617][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:617][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:617][500]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:631][501]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:631][501]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:647][502]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:647][502]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:659][503]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:668][504]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:676][505]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:684][506]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:693][507]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:702][508]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:719][510]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:729][511]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:738][512]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:747][513]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:755][514]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:763][515]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:771][516]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:780][517]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:796][519]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:806][520]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:813][521]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:822][522]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:830][523]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:847][525]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:855][526]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:864][527]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:872][528]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:880][529]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:888][530]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:905][532]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:913][533]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:922][534]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:930][535]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:938][536]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:946][537]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:963][539]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:971][540]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:982][541]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:989][542]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.15:997][543]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:005][544]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:022][546]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:030][547]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:039][548]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:047][549]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:056][550]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:072][552]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:080][553]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:089][554]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:097][555]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:106][556]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:114][557]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:130][559]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:139][560]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:147][561]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:156][562]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:164][563]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:172][564]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:189][566]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:197][567]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:206][568]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:214][569]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:222][570]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:239][572]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:247][573]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:256][574]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:264][575]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:272][576]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:280][577]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:297][579]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:306][580]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:314][581]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:322][582]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:336][583]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:340][584]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:357][586]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:365][587]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:373][588]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:382][589]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:390][590]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:398][591]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:416][593]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:423][594]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:432][595]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:440][596]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:449][597]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:457][598]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:474][600]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:482][601]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:490][602]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:499][603]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:507][604]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:515][605]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:532][607]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:540][608]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:549][609]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:556][610]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:565][611]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:581][613]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:590][614]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:598][615]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:607][616]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:615][617]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:623][618]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:640][620]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:648][621]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:657][622]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:665][623]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:673][624]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:682][625]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:698][627]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:707][628]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:715][629]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:723][630]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:732][631]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:748][633]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:757][634]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:765][635]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:774][636]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:782][637]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:790][638]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:807][640]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:816][641]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:824][642]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:832][643]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:841][644]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:849][645]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:866][647]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:876][648]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:884][649]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:893][650]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:901][651]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:909][652]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:918][653]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:934][655]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:943][656]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:951][657]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:959][658]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:968][659]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:976][660]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.16:993][662]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:001][663]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:009][664]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:018][665]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:026][666]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:043][668]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:051][669]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:059][670]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:068][671]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:076][672]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:084][673]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:101][675]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:109][676]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:118][677]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:126][678]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:135][679]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:143][680]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:160][682]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:168][683]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:176][684]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:185][685]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:193][686]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:201][687]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:218][689]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:226][690]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:235][691]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:243][692]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:251][693]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:268][695]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:277][696]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:285][697]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:293][698]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:301][699]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:310][700]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:326][702]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:335][703]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:343][704]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:351][705]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:360][706]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:368][707]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:385][709]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:393][710]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:402][711]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:410][712]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:418][713]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:435][715]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:443][716]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:462][717]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:466][717]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:470][718]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:479][719]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:487][720]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:495][721]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:513][723]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:521][724]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:534][725]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:552][726]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:553][726]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:560][727]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:568][728]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:577][729]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:586][730]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:593][731]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:610][733]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:618][734]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:626][735]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:635][736]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:643][737]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:651][738]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:668][740]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:676][741]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:685][742]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:693][743]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:701][744]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:718][746]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:726][747]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:735][748]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:743][749]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:751][750]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:760][751]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:776][753]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:785][754]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:793][755]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:801][756]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:810][757]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:818][758]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:835][760]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:843][761]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:852][762]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:860][763]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:868][764]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:885][766]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:893][767]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:902][768]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:910][769]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:918][770]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:926][771]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:943][773]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:951][774]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:960][775]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:968][776]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:976][777]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.17:985][778]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:002][780]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:010][781]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:018][782]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:027][783]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:035][784]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:052][786]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:060][787]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:068][788]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:077][789]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:085][790]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:093][791]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:110][793]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:119][794]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:127][795]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:135][796]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:143][797]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:152][798]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:168][800]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:177][801]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:185][802]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:193][803]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:202][804]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:210][805]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:227][807]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:235][808]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:243][809]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:252][810]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:260][811]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:277][813]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:285][814]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:293][815]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:302][816]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:310][817]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:318][818]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:335][820]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:343][821]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:352][822]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:360][823]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:368][824]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:377][825]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:393][827]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:402][828]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:410][829]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:418][830]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:427][831]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:443][833]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:452][834]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:460][835]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:468][836]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:477][837]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:485][838]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:502][840]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:510][841]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:518][842]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:527][843]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:535][844]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:543][845]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:560][847]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:568][848]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:577][849]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:585][850]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:593][851]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:610][853]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:618][854]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:627][855]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:635][856]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:643][857]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:652][858]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:669][860]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:677][861]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:686][862]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:694][863]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:703][864]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:711][865]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:727][867]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:736][868]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:744][869]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:753][870]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:760][871]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:777][873]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:785][874]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:793][875]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:801][876]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:810][877]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:818][878]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:835][880]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:843][881]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:852][882]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:860][883]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:868][884]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:877][885]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:893][887]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:902][888]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:910][889]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:918][890]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:927][891]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:943][893]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:952][894]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:960][895]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:968][896]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:977][897]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.18:985][898]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:002][900]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:010][901]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:018][902]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:027][903]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:035][904]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:043][905]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:060][907]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:068][908]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:077][909]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:085][910]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:093][911]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:110][913]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:118][914]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:127][915]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:135][916]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:143][917]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:152][918]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:168][920]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:177][921]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:185][922]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:193][923]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:202][924]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:210][925]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:227][927]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:235][928]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:243][929]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:252][930]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:260][931]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:268][932]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:285][934]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:293][935]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:302][936]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:310][937]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:318][938]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:335][940]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:343][941]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:352][942]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:360][943]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:368][944]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:377][945]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:393][947]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:402][948]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:410][949]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:418][950]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:427][951]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:435][952]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:452][954]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:460][955]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:468][956]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:477][957]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:485][958]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:502][960]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:511][961]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:519][962]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:527][963]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:535][964]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:544][965]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:560][967]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:569][968]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:577][969]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:585][970]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:594][971]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:602][972]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:619][974]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:627][975]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:635][976]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:644][977]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:652][978]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:669][980]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:677][981]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:685][982]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:694][983]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:702][984]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:711][985]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:727][987]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:736][988]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:744][989]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:752][990]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:760][991]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:769][992]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:785][994]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:794][995]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:802][996]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:811][997]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:819][998]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:827][999]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:844][  1]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:852][  2]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:861][  3]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:869][  4]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:877][  5]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:894][  7]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:903][  8]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:911][  9]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:919][ 10]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:927][ 11]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:936][ 12]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:953][ 14]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:961][ 15]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:969][ 16]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:978][ 17]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:986][ 18]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.19:994][ 19]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:011][ 21]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:019][ 22]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:028][ 23]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:036][ 24]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:044][ 25]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:053][ 26]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:069][ 28]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:077][ 29]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:086][ 30]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:094][ 31]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:102][ 32]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:119][ 34]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:128][ 35]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:136][ 36]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:145][ 37]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:153][ 38]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:161][ 39]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:178][ 41]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:186][ 42]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:195][ 43]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:203][ 44]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:211][ 45]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:220][ 46]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:236][ 48]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:245][ 49]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:253][ 50]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:261][ 51]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:270][ 52]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:278][ 53]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:295][ 55]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:303][ 56]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:312][ 57]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:320][ 58]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:329][ 59]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:337][ 60]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:353][ 61]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:361][ 62]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:369][ 63]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:377][ 64]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:394][ 66]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:402][ 67]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:411][ 68]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:419][ 69]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:427][ 70]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:436][ 71]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:452][ 73]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:461][ 74]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:469][ 75]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:477][ 76]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:486][ 77]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:494][ 78]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:511][ 80]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:519][ 81]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:527][ 82]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:536][ 83]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:544][ 84]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:552][ 85]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:569][ 87]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:577][ 88]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:586][ 89]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:594][ 90]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:602][ 91]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:619][ 93]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:627][ 94]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:636][ 95]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:644][ 96]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:652][ 97]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:661][ 98]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:677][100]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:686][101]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:694][102]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:702][103]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:711][104]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:719][105]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:736][107]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:744][108]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:753][109]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:761][110]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:769][111]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:786][113]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:794][114]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:802][115]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:811][116]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:819][117]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:839][118]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:839][118]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:847][119]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:856][120]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:873][122]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:881][123]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:890][124]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:898][125]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:906][126]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:923][128]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:931][129]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:940][130]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:949][131]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:957][132]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:966][133]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:982][135]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:990][136]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.20:999][137]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:007][138]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:016][139]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:024][140]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:040][142]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:049][143]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:057][144]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:065][145]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:074][146]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:082][147]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:099][149]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:107][150]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:116][151]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:124][152]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:132][153]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:149][155]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:157][156]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:165][157]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:174][158]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:182][159]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:190][160]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:207][162]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:216][163]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:224][164]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:232][165]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:240][166]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:249][167]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:266][169]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:274][170]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:282][171]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:291][172]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:299][173]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:307][174]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:324][176]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:332][177]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:341][178]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:349][179]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:357][180]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:374][182]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:382][183]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:391][184]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:399][185]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:407][186]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:416][187]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:432][189]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:441][190]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:449][191]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:457][192]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:466][193]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:474][194]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:491][196]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:499][197]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:507][198]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:516][199]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:524][200]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:541][202]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:549][203]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:557][204]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:566][205]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:576][206]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:583][207]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:591][208]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:608][210]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:617][211]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:625][212]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:633][213]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:642][214]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:659][216]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:667][217]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:675][218]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:684][219]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:692][220]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:700][221]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:717][223]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:725][224]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:734][225]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:742][226]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:750][227]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:759][228]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:776][230]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:784][231]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:792][232]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:800][233]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:809][234]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:825][236]LogTemp: It WOWORKSSSSSSSSS
+[2019.02.14-21.03.21:826][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.03.21:829][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.03.21:871][236]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.14-21.03.21:872][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.03.21:899][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.03.21:928][237]LogPlayLevel: Display: Destroying online subsystem :Context_3

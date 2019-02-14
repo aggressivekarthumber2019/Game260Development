@@ -1,0 +1,798 @@
+﻿Log file open, 02/14/19 16:18:21
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VehicleMovement
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.423846
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.471s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 750 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.14-21.18.22:561][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.14-21.18.22:561][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.14-21.18.22:576][  0]LogHAL: Display: Platform has ~ 8 GB [8536301568 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.14-21.18.22:576][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.14-21.18.22:576][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.14-21.18.22:577][  0]LogInit: Computer: DESKTOP-IAKBS29
+[2019.02.14-21.18.22:577][  0]LogInit: User: Sarfaraz
+[2019.02.14-21.18.22:577][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.14-21.18.22:577][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.14-21.18.22:578][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.02.14-21.18.22:578][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.14-21.18.22:578][  0]LogMemory: Process Physical Memory: 101.33 MB used, 101.33 MB peak
+[2019.02.14-21.18.22:578][  0]LogMemory: Process Virtual Memory: 84.27 MB used, 84.27 MB peak
+[2019.02.14-21.18.22:578][  0]LogMemory: Physical Memory: 6700.75 MB used,  1440.11 MB free, 8140.85 MB total
+[2019.02.14-21.18.22:578][  0]LogMemory: Virtual Memory: 4608.51 MB used,  1440.11 MB free, 134217728.00 MB total
+[2019.02.14-21.18.22:764][  0]LogInit: Using OS detected language (en-US).
+[2019.02.14-21.18.22:764][  0]LogInit: Using OS detected locale (en-CA).
+[2019.02.14-21.18.22:767][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.14-21.18.23:213][  0]LogStreaming: Display: Took  0.448s to InitEngineTextLocalization.
+[2019.02.14-21.18.23:213][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.14-21.18.23:305][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.14-21.18.23:305][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.14-21.18.23:790][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.14-21.18.23:790][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.14-21.18.23:923][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2019.02.14-21.18.23:923][  0]LogD3D11RHI:       2007/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.14-21.18.23:934][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.14-21.18.23:934][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.14-21.18.23:934][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.14-21.18.23:943][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.14-21.18.23:943][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.14-21.18.23:944][  0]LogWindows: EnumDisplayDevices:
+[2019.02.14-21.18.23:944][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2019.02.14-21.18.23:945][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:1)
+[2019.02.14-21.18.23:945][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2019.02.14-21.18.23:946][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2019.02.14-21.18.23:947][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.14-21.18.23:947][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2019.02.14-21.18.23:947][  0]LogD3D11RHI:   Driver Version: 418.91 (internal:25.21.14.1891, unified:418.91)
+[2019.02.14-21.18.23:947][  0]LogD3D11RHI:      Driver Date: 2-6-2019
+[2019.02.14-21.18.23:947][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2019.02.14-21.18.24:012][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.14-21.18.24:034][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.14-21.18.24:087][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Intermediate/Shaders/WorkingDirectory/8308/).
+[2019.02.14-21.18.24:088][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sarfaraz/AppData/Local/Temp/UnrealShaderWorkingDir/2EAB02404D94A159000127A0AA45323B/'.
+[2019.02.14-21.18.24:528][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.14-21.18.24:552][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.14-21.18.24:577][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.14-21.18.24:601][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.14-21.18.24:627][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.14-21.18.24:651][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.14-21.18.24:676][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.14-21.18.24:701][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.14-21.18.24:717][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.14-21.18.24:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:845][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:846][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:846][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:846][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:846][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:846][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.18.24:854][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.14-21.18.24:955][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.14-21.18.24:955][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.14-21.18.24:993][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.14-21.18.24:993][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.14-21.18.25:015][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.14-21.18.25:037][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.14-21.18.25:059][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.14-21.18.25:084][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.14-21.18.25:102][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.14-21.18.25:102][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.14-21.18.25:351][  0]LogXGEController: Cleaning working directory: C:/Users/Sarfaraz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.14-21.18.25:352][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.14-21.18.25:353][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.14-21.18.25:353][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.14-21.18.27:172][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.14-21.18.27:250][  0]LogDerivedDataCache: Loaded boot cache 0.08s 73MB C:/Users/Sarfaraz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.14-21.18.27:251][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sarfaraz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.14-21.18.27:251][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.14-21.18.27:251][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.14-21.18.27:251][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.14-21.18.27:252][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.14-21.18.27:266][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.14-21.18.27:281][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sarfaraz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.14-21.18.27:281][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.14-21.18.27:281][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.14-21.18.27:302][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.14-21.18.27:303][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.14-21.18.27:305][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.14-21.18.27:416][  0]LogAssetRegistry: FAssetRegistry took 0.0358 seconds to start up
+[2019.02.14-21.18.27:915][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.14-21.18.28:152][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.14-21.18.28:166][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.14-21.18.28:166][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.14-21.18.28:166][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.14-21.18.28:166][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.14-21.18.28:194][  0]LogNetVersion: VehicleMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2966596176)
+[2019.02.14-21.18.28:980][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.145157 seconds
+[2019.02.14-21.18.28:988][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.14-21.18.28:988][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.02.14-21.18.28:988][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.14-21.18.30:507][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.14-21.18.30:526][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.14-21.18.30:880][  0]SourceControl: Source control is disabled
+[2019.02.14-21.18.30:880][  0]SourceControl: Source control is disabled
+[2019.02.14-21.18.30:890][  0]SourceControl: Source control is disabled
+[2019.02.14-21.18.30:895][  0]SourceControl: Source control is disabled
+[2019.02.14-21.18.31:284][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.14-21.18.31:437][  0]LogOcInput: OculusInput pre-init called
+[2019.02.14-21.18.31:530][  0]LogEngine: Initializing Engine...
+[2019.02.14-21.18.31:533][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.14-21.18.31:534][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.14-21.18.31:534][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.14-21.18.31:535][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.14-21.18.31:535][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.14-21.18.31:793][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.14-21.18.31:830][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.14-21.18.31:858][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.14-21.18.31:968][  0]LogInit: FAudioDevice initialized.
+[2019.02.14-21.18.31:968][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.14-21.18.32:049][  0]LogDerivedDataCache: Saved boot cache 0.08s 73MB C:/Users/Sarfaraz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.14-21.18.32:059][  0]LogInit: Texture streaming: Enabled
+[2019.02.14-21.18.32:114][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.14-21.18.32:142][  0]LogInit: Transaction tracking system initialized
+[2019.02.14-21.18.32:227][  0]BlueprintLog: New page: Editor Load
+[2019.02.14-21.18.32:494][  0]LocalizationService: Localization service is disabled
+[2019.02.14-21.18.33:050][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.14-21.18.33:050][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.14-21.18.33:050][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.14-21.18.33:050][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.14-21.18.33:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.14-21.18.33:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.14-21.18.33:051][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.14-21.18.33:397][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/' took 0.02s
+[2019.02.14-21.18.33:397][  0]SourceControl: Source control is disabled
+[2019.02.14-21.18.33:397][  0]Cmd: MAP LOAD FILE="D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.14-21.18.33:399][  0]LightingResults: New page: Lighting Build
+[2019.02.14-21.18.33:406][  0]MapCheck: New page: Map Check
+[2019.02.14-21.18.33:406][  0]LightingResults: New page: Lighting Build
+[2019.02.14-21.18.33:839][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.14-21.18.33:852][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.14-21.18.33:877][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.14-21.18.34:349][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 472.129ms to complete.
+[2019.02.14-21.18.34:349][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 0.952
+[2019.02.14-21.18.34:519][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.18.34:528][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.18.34:536][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.18.34:545][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.18.34:563][  0]LogCollectionManager: Loaded 0 collections in 0.004280 seconds
+[2019.02.14-21.18.34:627][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Saved/Collections/' took 0.01s
+[2019.02.14-21.18.34:627][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/Developers/Sarfaraz/Collections/' took 0.01s
+[2019.02.14-21.18.34:627][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/Collections/' took 0.01s
+[2019.02.14-21.18.34:627][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.14-21.18.34:639][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2580 classes and 608 folders.
+[2019.02.14-21.18.34:656][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.14-21.18.34:854][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.14-21.18.34:868][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.02.14-21.18.34:946][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.14-21.18.34:946][  0]LogLoad: (Engine Initialization) Total time: 17.49 seconds
+[2019.02.14-21.18.34:946][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.14-21.18.34:960][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.02.14-21.18.34:960][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.02.14-21.18.34:961][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2019.02.14-21.18.34:961][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2019.02.14-21.18.34:961][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2019.02.14-21.18.34:981][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.14-21.18.34:984][  0]LogSlate: Took 0.001429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.14-21.18.34:988][  0]LogSlate: Took 0.001353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.14-21.18.34:992][  0]LogSlate: Took 0.001358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.14-21.18.35:096][  0]LogSlate: Took 0.004627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.14-21.18.35:116][  1]LogRenderer: Reallocating scene render targets to support 1172x592 Format 10 NumSamples 1 (Frame:1).
+[2019.02.14-21.18.35:207][  1]LogAssetRegistry: Asset discovery search completed in 7.8199 seconds
+[2019.02.14-21.18.35:209][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.14-21.18.35:209][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000184 seconds (updated 0 objects)
+[2019.02.14-21.19.10:101][621]LogRenderer: Reallocating scene render targets to support 1528x696 Format 10 NumSamples 1 (Frame:533).
+[2019.02.14-21.19.11:037][712]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.14-21.19.11:077][717]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.14-21.19.11:093][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.19.11:094][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.14-21.19.11:113][717]PIE: New page: PIE session: VehicleExampleMap (Feb 14, 2019, 11:19:11 AM)
+[2019.02.14-21.19.11:114][717]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2019.02.14-21.19.11:149][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035609s)
+[2019.02.14-21.19.11:151][717]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.14-21.19.11:152][717]LogPlayLevel: PIE: World Init took: (0.002458s)
+[2019.02.14-21.19.11:153][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.039724s)
+[2019.02.14-21.19.11:200][717]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.14-21.19.11:274][717]LogInit: FAudioDevice initialized.
+[2019.02.14-21.19.11:326][717]LogLoad: Game class is 'VehicleMovementGameMode'
+[2019.02.14-21.19.11:333][717]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.02.14-16.19.11
+[2019.02.14-21.19.11:336][717]LogWorld: Bringing up level for play took: 0.004747
+[2019.02.14-21.19.11:370][717]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2019.02.14-21.19.11:372][717]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 1.248
+[2019.02.14-21.19.11:372][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.19.11:416][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:416][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:416][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:416][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:416][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:417][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:417][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:417][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:417][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:417][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:418][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:418][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:418][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:419][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:419][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:419][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:419][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:419][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:420][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:421][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:421][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:421][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:422][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:422][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:423][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:423][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:423][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:423][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:424][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:424][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:424][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:424][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:425][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:425][718]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:437][719]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:437][719]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:452][720]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:452][720]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:471][721]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:471][721]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:479][722]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:497][724]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:505][725]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:513][726]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:522][727]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:530][728]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:547][730]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:555][731]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:563][732]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:572][733]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:580][734]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:589][735]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:605][737]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:614][738]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:622][739]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:630][740]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:639][741]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:647][742]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:667][744]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:667][744]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:683][746]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:692][747]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:700][748]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:709][749]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:717][750]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:725][751]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:742][753]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:750][754]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:758][755]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:767][756]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:775][757]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:792][759]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:801][760]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:809][761]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:817][762]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:825][763]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:833][764]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:849][766]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:858][767]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:866][768]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:875][769]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:883][770]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:891][771]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:908][773]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:916][774]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:924][775]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:933][776]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:941][777]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:958][779]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:966][780]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:975][781]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:983][782]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.11:991][783]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:000][784]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:016][786]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:025][787]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:033][788]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:041][789]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:050][790]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:058][791]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:075][793]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:083][794]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:091][795]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:100][796]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:108][797]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:125][799]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:133][800]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:141][801]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:150][802]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:158][803]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:166][804]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:183][806]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:191][807]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:200][808]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:208][809]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:216][810]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:225][811]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:241][813]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:250][814]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:258][815]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:266][816]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:275][817]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:291][819]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:300][820]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:308][821]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:316][822]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:325][823]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:333][824]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:350][826]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:358][827]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:366][828]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:375][829]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:383][830]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:391][831]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:408][833]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:417][834]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:425][835]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:433][836]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:441][837]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:451][838]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:467][840]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:475][841]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:484][842]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:492][843]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:500][844]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:517][846]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:525][847]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:534][848]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:542][849]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:551][850]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:559][851]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:576][853]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:584][854]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:592][855]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:600][856]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:608][857]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:617][858]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:634][860]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:643][861]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:652][862]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:660][863]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:668][864]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:676][865]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:693][867]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:701][868]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:710][869]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:718][870]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:726][871]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:734][872]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:751][874]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:760][875]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:768][876]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:776][877]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:785][878]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.12:786][878]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.19.12:787][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.19.12:828][878]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.14-21.19.12:828][878]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.19.12:856][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.19.12:889][879]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.02.14-21.19.13:614][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.14-21.19.13:618][950]LogSlate: Took 0.000996 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.02.14-21.19.14:258][ 19]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.14-21.19.14:272][ 19]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.19.14:272][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.14-21.19.14:273][ 19]PIE: New page: PIE session: VehicleExampleMap (Feb 14, 2019, 11:19:14 AM)
+[2019.02.14-21.19.14:273][ 19]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2019.02.14-21.19.14:294][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020505s)
+[2019.02.14-21.19.14:295][ 19]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.14-21.19.14:296][ 19]LogPlayLevel: PIE: World Init took: (0.001336s)
+[2019.02.14-21.19.14:297][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.024109s)
+[2019.02.14-21.19.14:338][ 19]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.14-21.19.14:412][ 19]LogInit: FAudioDevice initialized.
+[2019.02.14-21.19.14:449][ 19]LogLoad: Game class is 'VehicleMovementGameMode'
+[2019.02.14-21.19.14:454][ 19]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.02.14-16.19.14
+[2019.02.14-21.19.14:455][ 19]LogWorld: Bringing up level for play took: 0.002844
+[2019.02.14-21.19.14:468][ 19]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.343
+[2019.02.14-21.19.14:469][ 19]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.19.14:513][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:514][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:514][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:515][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:515][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:515][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:516][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:516][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:516][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:516][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:517][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:517][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:518][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:519][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:519][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:519][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:519][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:520][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:520][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:521][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:521][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:522][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:522][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:522][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:522][ 20]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:527][ 21]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:527][ 21]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:535][ 22]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:544][ 23]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:560][ 25]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:568][ 26]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:576][ 27]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:585][ 28]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:593][ 29]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:601][ 30]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:618][ 32]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:627][ 33]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:635][ 34]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:643][ 35]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:651][ 36]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:668][ 38]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:676][ 39]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:685][ 40]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:693][ 41]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:702][ 42]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:710][ 43]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:727][ 45]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:735][ 46]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:743][ 47]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:752][ 48]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:760][ 49]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:769][ 50]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:786][ 52]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:794][ 53]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:802][ 54]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:811][ 55]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:819][ 56]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:835][ 58]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:844][ 59]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:852][ 60]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:860][ 61]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:868][ 62]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:877][ 63]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:893][ 65]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:902][ 66]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:911][ 67]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:919][ 68]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:927][ 69]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:935][ 70]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:952][ 72]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:960][ 73]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:969][ 74]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:977][ 75]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.14:985][ 76]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:002][ 78]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:010][ 79]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:019][ 80]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:027][ 81]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:035][ 82]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:044][ 83]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:060][ 85]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:069][ 86]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:077][ 87]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:085][ 88]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:094][ 89]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:102][ 90]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:119][ 92]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:128][ 93]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:135][ 94]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:144][ 95]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:152][ 96]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:168][ 98]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:177][ 99]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:185][100]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:193][101]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:202][102]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:210][103]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:227][105]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:235][106]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:243][107]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:252][108]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:260][109]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:268][110]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:285][112]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:293][113]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:302][114]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:310][115]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:319][116]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:327][117]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:343][119]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:351][120]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:360][121]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:368][122]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:377][123]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:394][125]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:402][126]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:410][127]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:419][128]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:427][129]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:435][130]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:452][132]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:461][133]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:469][134]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:477][135]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:486][136]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:494][137]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:511][139]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:519][140]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:527][141]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:536][142]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:543][143]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:560][145]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:569][146]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:577][147]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:585][148]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:593][149]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:602][150]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:618][152]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:627][153]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:635][154]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:643][155]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:651][156]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:660][157]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:677][159]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:685][160]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:693][161]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:702][162]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:710][163]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:727][165]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:735][166]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:743][167]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:752][168]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:760][169]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:768][170]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:785][172]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:794][173]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:802][174]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:810][175]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:819][176]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:827][177]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:844][179]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:852][180]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:860][181]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:869][182]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:877][183]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:894][185]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:902][186]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:910][187]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:919][188]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:927][189]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:935][190]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:952][192]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:960][193]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:969][194]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:977][195]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:985][196]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.15:993][197]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:010][199]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:018][200]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:027][201]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:035][202]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:043][203]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:060][205]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:068][206]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:077][207]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:085][208]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:093][209]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:102][210]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:118][212]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:127][213]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:135][214]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:143][215]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:152][216]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:160][217]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:177][219]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:186][220]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:194][221]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:202][222]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:210][223]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:219][224]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:235][226]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:244][227]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:252][228]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:260][229]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:269][230]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:285][232]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:294][233]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:302][234]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:310][235]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:318][236]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:326][237]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:344][239]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:352][240]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:361][241]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:369][242]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:377][243]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:386][244]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:402][246]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:410][247]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:419][248]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:427][249]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:435][250]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:444][251]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:461][253]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:469][254]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:477][255]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:486][256]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:494][257]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:511][259]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:519][260]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:528][261]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:536][262]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:544][263]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:553][264]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:561][265]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:579][267]LogTemp: Current Speed: 0.000000
+[2019.02.14-21.19.16:582][267]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.19.16:583][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.19.16:624][267]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.14-21.19.16:625][267]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.19.16:650][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.19.16:705][269]LogPlayLevel: Display: Destroying online subsystem :Context_4
