@@ -1,0 +1,2665 @@
+﻿Log file open, 02/14/19 16:48:30
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VehicleMovement
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.886455
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.521s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 750 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.012s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.14-21.48.31:842][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.14-21.48.31:843][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.14-21.48.31:862][  0]LogHAL: Display: Platform has ~ 8 GB [8536301568 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.14-21.48.31:864][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.14-21.48.31:864][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.14-21.48.31:867][  0]LogInit: Computer: DESKTOP-IAKBS29
+[2019.02.14-21.48.31:867][  0]LogInit: User: Sarfaraz
+[2019.02.14-21.48.31:867][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.14-21.48.31:868][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.14-21.48.31:868][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.02.14-21.48.31:868][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.14-21.48.31:868][  0]LogMemory: Process Physical Memory: 101.31 MB used, 101.31 MB peak
+[2019.02.14-21.48.31:868][  0]LogMemory: Process Virtual Memory: 84.27 MB used, 84.27 MB peak
+[2019.02.14-21.48.31:868][  0]LogMemory: Physical Memory: 7582.15 MB used,  558.70 MB free, 8140.85 MB total
+[2019.02.14-21.48.31:868][  0]LogMemory: Virtual Memory: 4608.51 MB used,  558.70 MB free, 134217728.00 MB total
+[2019.02.14-21.48.32:206][  0]LogInit: Using OS detected language (en-US).
+[2019.02.14-21.48.32:206][  0]LogInit: Using OS detected locale (en-CA).
+[2019.02.14-21.48.32:213][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.14-21.48.32:709][  0]LogStreaming: Display: Took  0.503s to InitEngineTextLocalization.
+[2019.02.14-21.48.32:712][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.14-21.48.32:864][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.14-21.48.32:865][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.14-21.48.33:473][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.14-21.48.33:473][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.14-21.48.33:958][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2019.02.14-21.48.33:958][  0]LogD3D11RHI:       2007/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.14-21.48.34:031][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.14-21.48.34:031][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.14-21.48.34:031][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.14-21.48.34:046][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.14-21.48.34:046][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.14-21.48.34:047][  0]LogWindows: EnumDisplayDevices:
+[2019.02.14-21.48.34:047][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2019.02.14-21.48.34:048][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:1)
+[2019.02.14-21.48.34:049][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2019.02.14-21.48.34:050][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2019.02.14-21.48.34:050][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.14-21.48.34:050][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2019.02.14-21.48.34:051][  0]LogD3D11RHI:   Driver Version: 418.91 (internal:25.21.14.1891, unified:418.91)
+[2019.02.14-21.48.34:051][  0]LogD3D11RHI:      Driver Date: 2-6-2019
+[2019.02.14-21.48.34:051][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2019.02.14-21.48.34:326][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.14-21.48.34:376][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.14-21.48.34:461][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Intermediate/Shaders/WorkingDirectory/15672/).
+[2019.02.14-21.48.34:476][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sarfaraz/AppData/Local/Temp/UnrealShaderWorkingDir/764ADD194768AA12388E2A98F0852798/'.
+[2019.02.14-21.48.35:320][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.14-21.48.35:347][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.14-21.48.35:377][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.14-21.48.35:405][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.14-21.48.35:435][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.14-21.48.35:462][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.14-21.48.35:491][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.14-21.48.35:519][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.14-21.48.35:542][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.14-21.48.35:688][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:689][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:689][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:689][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:689][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:690][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:690][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:690][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:693][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:693][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:697][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:697][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:697][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:703][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:703][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:705][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-21.48.35:715][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.14-21.48.35:829][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.14-21.48.35:830][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.14-21.48.35:875][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.14-21.48.35:877][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.14-21.48.35:908][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.14-21.48.35:932][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.14-21.48.35:991][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.14-21.48.36:033][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.14-21.48.36:077][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.14-21.48.36:077][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.14-21.48.36:546][  0]LogXGEController: Cleaning working directory: C:/Users/Sarfaraz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.14-21.48.36:548][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.14-21.48.36:548][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.14-21.48.36:548][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.14-21.48.38:698][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.14-21.48.38:994][  0]LogDerivedDataCache: Loaded boot cache 0.29s 73MB C:/Users/Sarfaraz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.14-21.48.38:995][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sarfaraz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.14-21.48.38:995][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.14-21.48.38:995][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.14-21.48.38:996][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.14-21.48.38:996][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.14-21.48.39:015][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.14-21.48.39:032][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sarfaraz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.14-21.48.39:032][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.14-21.48.39:032][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.14-21.48.39:059][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.14-21.48.39:067][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.14-21.48.39:072][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.14-21.48.39:263][  0]LogAssetRegistry: FAssetRegistry took 0.0370 seconds to start up
+[2019.02.14-21.48.39:994][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.14-21.48.41:134][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.14-21.48.41:165][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.14-21.48.41:165][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.14-21.48.41:166][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.14-21.48.41:168][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.14-21.48.41:249][  0]LogNetVersion: VehicleMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2966596176)
+[2019.02.14-21.48.42:628][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.181300 seconds
+[2019.02.14-21.48.42:645][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.14-21.48.42:645][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.02.14-21.48.42:645][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.14-21.48.46:256][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.14-21.48.46:279][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.14-21.48.47:269][  0]SourceControl: Source control is disabled
+[2019.02.14-21.48.47:269][  0]SourceControl: Source control is disabled
+[2019.02.14-21.48.47:285][  0]SourceControl: Source control is disabled
+[2019.02.14-21.48.47:302][  0]SourceControl: Source control is disabled
+[2019.02.14-21.48.48:096][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.14-21.48.48:408][  0]LogOcInput: OculusInput pre-init called
+[2019.02.14-21.48.48:652][  0]LogEngine: Initializing Engine...
+[2019.02.14-21.48.48:663][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.14-21.48.48:681][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2019.02.14-21.48.48:683][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.14-21.48.48:683][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2019.02.14-21.48.48:685][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.14-21.48.49:606][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.14-21.48.49:751][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.14-21.48.49:817][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.14-21.48.51:101][  0]LogInit: FAudioDevice initialized.
+[2019.02.14-21.48.51:106][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.14-21.48.51:328][  0]LogDerivedDataCache: Saved boot cache 0.22s 73MB C:/Users/Sarfaraz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.14-21.48.51:392][  0]LogInit: Texture streaming: Enabled
+[2019.02.14-21.48.51:485][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.14-21.48.51:486][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={8760DBA8-4626-471D-DB7B-E9977F76602B}
+[2019.02.14-21.48.51:540][  0]LogInit: Transaction tracking system initialized
+[2019.02.14-21.48.51:678][  0]BlueprintLog: New page: Editor Load
+[2019.02.14-21.48.52:211][  0]LocalizationService: Localization service is disabled
+[2019.02.14-21.48.53:110][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/' took 0.05s
+[2019.02.14-21.48.53:131][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.14-21.48.53:132][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.14-21.48.53:134][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.14-21.48.53:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.14-21.48.53:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.14-21.48.53:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.14-21.48.53:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.14-21.48.53:968][  0]SourceControl: Source control is disabled
+[2019.02.14-21.48.53:970][  0]Cmd: MAP LOAD FILE="D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.14-21.48.54:000][  0]LightingResults: New page: Lighting Build
+[2019.02.14-21.48.54:025][  0]MapCheck: New page: Map Check
+[2019.02.14-21.48.54:026][  0]LightingResults: New page: Lighting Build
+[2019.02.14-21.48.55:773][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.14-21.48.55:825][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.14-21.48.55:867][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.14-21.48.56:371][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 503.62ms to complete.
+[2019.02.14-21.48.56:372][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 2.403
+[2019.02.14-21.48.57:625][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.48.57:636][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.48.57:645][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.48.57:655][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.48.57:701][  0]LogCollectionManager: Loaded 0 collections in 0.004542 seconds
+[2019.02.14-21.48.57:844][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Saved/Collections/' took 0.02s
+[2019.02.14-21.48.57:844][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/Developers/Sarfaraz/Collections/' took 0.01s
+[2019.02.14-21.48.57:844][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/Collections/' took 0.06s
+[2019.02.14-21.48.57:845][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.14-21.48.57:862][  0]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 2580 classes and 608 folders.
+[2019.02.14-21.48.57:896][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.14-21.48.58:130][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.14-21.48.58:152][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.02.14-21.48.58:295][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.14-21.48.58:295][  0]LogLoad: (Engine Initialization) Total time: 33.79 seconds
+[2019.02.14-21.48.58:295][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.14-21.48.58:322][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.02.14-21.48.58:323][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.02.14-21.48.58:324][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2019.02.14-21.48.58:325][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2019.02.14-21.48.58:327][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2019.02.14-21.48.58:375][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.14-21.48.58:396][  0]LogSlate: Took 0.001744 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.14-21.48.58:420][  0]LogSlate: Took 0.003883 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.14-21.48.58:426][  0]LogSlate: Took 0.001432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.14-21.48.58:657][  0]LogRenderer: Reallocating scene render targets to support 1172x592 Format 10 NumSamples 1 (Frame:1).
+[2019.02.14-21.48.58:658][  0]LogSlate: Took 0.001797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.14-21.48.59:575][  2]LogAssetRegistry: Asset discovery search completed in 20.3349 seconds
+[2019.02.14-21.48.59:583][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.14-21.48.59:585][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.002014 seconds (updated 0 objects)
+[2019.02.14-21.49.05:243][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.14-21.49.05:306][ 22]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.14-21.49.05:326][ 22]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.49.05:329][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.14-21.49.05:377][ 22]PIE: New page: PIE session: VehicleExampleMap (Feb 14, 2019, 11:49:05 AM)
+[2019.02.14-21.49.05:378][ 22]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2019.02.14-21.49.05:417][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039419s)
+[2019.02.14-21.49.05:419][ 22]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.14-21.49.05:419][ 22]LogPlayLevel: PIE: World Init took: (0.002018s)
+[2019.02.14-21.49.05:420][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.042743s)
+[2019.02.14-21.49.05:465][ 22]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.14-21.49.05:555][ 22]LogInit: FAudioDevice initialized.
+[2019.02.14-21.49.05:624][ 22]LogLoad: Game class is 'VehicleMovementGameMode'
+[2019.02.14-21.49.05:639][ 22]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.02.14-16.49.05
+[2019.02.14-21.49.05:642][ 22]LogWorld: Bringing up level for play took: 0.005557
+[2019.02.14-21.49.05:687][ 22]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 10 classes and 0 folders.
+[2019.02.14-21.49.05:693][ 22]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap -0.431
+[2019.02.14-21.49.05:696][ 22]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.49.06:292][ 56]LogTemp: Current Speed: -1.000000
+[2019.02.14-21.49.06:300][ 57]LogTemp: Current Speed: -2.000000
+[2019.02.14-21.49.06:316][ 58]LogTemp: Current Speed: -3.000000
+[2019.02.14-21.49.06:327][ 59]LogTemp: Current Speed: -4.000000
+[2019.02.14-21.49.06:337][ 60]LogTemp: Current Speed: -5.000000
+[2019.02.14-21.49.06:361][ 61]LogTemp: Current Speed: -6.000000
+[2019.02.14-21.49.06:374][ 62]LogTemp: Current Speed: -7.000000
+[2019.02.14-21.49.06:407][ 63]LogTemp: Current Speed: -8.000000
+[2019.02.14-21.49.06:420][ 64]LogTemp: Current Speed: -9.000000
+[2019.02.14-21.49.06:426][ 65]LogTemp: Current Speed: -10.000000
+[2019.02.14-21.49.06:445][ 66]LogTemp: Current Speed: -11.000000
+[2019.02.14-21.49.06:457][ 67]LogTemp: Current Speed: -12.000000
+[2019.02.14-21.49.06:469][ 68]LogTemp: Current Speed: -13.000000
+[2019.02.14-21.49.06:478][ 69]LogTemp: Current Speed: -14.000000
+[2019.02.14-21.49.06:488][ 70]LogTemp: Current Speed: -15.000000
+[2019.02.14-21.49.06:496][ 71]LogTemp: Current Speed: -16.000000
+[2019.02.14-21.49.06:503][ 72]LogTemp: Current Speed: -17.000000
+[2019.02.14-21.49.06:518][ 73]LogTemp: Current Speed: -18.000000
+[2019.02.14-21.49.06:531][ 74]LogTemp: Current Speed: -19.000000
+[2019.02.14-21.49.06:549][ 75]LogTemp: Current Speed: -20.000000
+[2019.02.14-21.49.06:560][ 76]LogTemp: Current Speed: -21.000000
+[2019.02.14-21.49.06:583][ 77]LogTemp: Current Speed: -22.000000
+[2019.02.14-21.49.06:611][ 78]LogTemp: Current Speed: -23.000000
+[2019.02.14-21.49.06:623][ 79]LogTemp: Current Speed: -24.000000
+[2019.02.14-21.49.06:640][ 80]LogTemp: Current Speed: -25.000000
+[2019.02.14-21.49.06:646][ 81]LogTemp: Current Speed: -26.000000
+[2019.02.14-21.49.06:663][ 82]LogTemp: Current Speed: -27.000000
+[2019.02.14-21.49.06:673][ 83]LogTemp: Current Speed: -28.000000
+[2019.02.14-21.49.06:681][ 84]LogTemp: Current Speed: -29.000000
+[2019.02.14-21.49.06:693][ 85]LogTemp: Current Speed: -30.000000
+[2019.02.14-21.49.06:723][ 86]LogTemp: Current Speed: -31.000000
+[2019.02.14-21.49.06:740][ 87]LogTemp: Current Speed: -32.000000
+[2019.02.14-21.49.06:750][ 88]LogTemp: Current Speed: -33.000000
+[2019.02.14-21.49.06:764][ 89]LogTemp: Current Speed: -34.000000
+[2019.02.14-21.49.06:773][ 90]LogTemp: Current Speed: -35.000000
+[2019.02.14-21.49.06:823][ 91]LogTemp: Current Speed: -36.000000
+[2019.02.14-21.49.06:842][ 92]LogTemp: Current Speed: -37.000000
+[2019.02.14-21.49.06:852][ 93]LogTemp: Current Speed: -38.000000
+[2019.02.14-21.49.06:863][ 94]LogTemp: Current Speed: -39.000000
+[2019.02.14-21.49.06:904][ 95]LogTemp: Current Speed: -40.000000
+[2019.02.14-21.49.06:945][ 96]LogTemp: Current Speed: -41.000000
+[2019.02.14-21.49.07:035][ 97]LogTemp: Current Speed: -42.000000
+[2019.02.14-21.49.07:109][ 98]LogTemp: Current Speed: -43.000000
+[2019.02.14-21.49.07:146][ 99]LogTemp: Current Speed: -44.000000
+[2019.02.14-21.49.07:166][100]LogTemp: Current Speed: -45.000000
+[2019.02.14-21.49.07:176][101]LogTemp: Current Speed: -46.000000
+[2019.02.14-21.49.07:199][102]LogTemp: Current Speed: -47.000000
+[2019.02.14-21.49.07:282][103]LogTemp: Current Speed: -48.000000
+[2019.02.14-21.49.07:299][104]LogTemp: Current Speed: -49.000000
+[2019.02.14-21.49.07:314][105]LogTemp: Current Speed: -50.000000
+[2019.02.14-21.49.07:424][106]LogTemp: Current Speed: -51.000000
+[2019.02.14-21.49.07:443][107]LogTemp: Current Speed: -52.000000
+[2019.02.14-21.49.07:471][108]LogTemp: Current Speed: -53.000000
+[2019.02.14-21.49.07:490][109]LogTemp: Current Speed: -54.000000
+[2019.02.14-21.49.07:513][110]LogTemp: Current Speed: -55.000000
+[2019.02.14-21.49.07:527][111]LogTemp: Current Speed: -56.000000
+[2019.02.14-21.49.07:560][112]LogTemp: Current Speed: -57.000000
+[2019.02.14-21.49.07:612][113]LogTemp: Current Speed: -58.000000
+[2019.02.14-21.49.07:627][114]LogTemp: Current Speed: -59.000000
+[2019.02.14-21.49.07:678][115]LogTemp: Current Speed: -60.000000
+[2019.02.14-21.49.07:739][116]LogTemp: Current Speed: -61.000000
+[2019.02.14-21.49.07:784][117]LogTemp: Current Speed: -62.000000
+[2019.02.14-21.49.07:799][118]LogTemp: Current Speed: -63.000000
+[2019.02.14-21.49.07:810][119]LogTemp: Current Speed: -64.000000
+[2019.02.14-21.49.07:853][120]LogTemp: Current Speed: -65.000000
+[2019.02.14-21.49.07:878][121]LogTemp: Current Speed: -66.000000
+[2019.02.14-21.49.07:912][122]LogTemp: Current Speed: -67.000000
+[2019.02.14-21.49.07:925][123]LogTemp: Current Speed: -68.000000
+[2019.02.14-21.49.07:936][124]LogTemp: Current Speed: -69.000000
+[2019.02.14-21.49.07:945][125]LogTemp: Current Speed: -70.000000
+[2019.02.14-21.49.07:957][126]LogTemp: Current Speed: -71.000000
+[2019.02.14-21.49.07:968][127]LogTemp: Current Speed: -72.000000
+[2019.02.14-21.49.07:976][128]LogTemp: Current Speed: -73.000000
+[2019.02.14-21.49.07:987][129]LogTemp: Current Speed: -74.000000
+[2019.02.14-21.49.07:995][130]LogTemp: Current Speed: -75.000000
+[2019.02.14-21.49.08:004][131]LogTemp: Current Speed: -76.000000
+[2019.02.14-21.49.08:017][132]LogTemp: Current Speed: -77.000000
+[2019.02.14-21.49.08:035][133]LogTemp: Current Speed: -78.000000
+[2019.02.14-21.49.08:043][134]LogTemp: Current Speed: -79.000000
+[2019.02.14-21.49.08:051][135]LogTemp: Current Speed: -80.000000
+[2019.02.14-21.49.08:062][136]LogTemp: Current Speed: -81.000000
+[2019.02.14-21.49.08:072][137]LogTemp: Current Speed: -82.000000
+[2019.02.14-21.49.08:082][138]LogTemp: Current Speed: -83.000000
+[2019.02.14-21.49.08:095][139]LogTemp: Current Speed: -84.000000
+[2019.02.14-21.49.08:103][140]LogTemp: Current Speed: -85.000000
+[2019.02.14-21.49.08:112][141]LogTemp: Current Speed: -86.000000
+[2019.02.14-21.49.08:124][142]LogTemp: Current Speed: -87.000000
+[2019.02.14-21.49.08:132][143]LogTemp: Current Speed: -88.000000
+[2019.02.14-21.49.08:141][144]LogTemp: Current Speed: -89.000000
+[2019.02.14-21.49.08:151][145]LogTemp: Current Speed: -90.000000
+[2019.02.14-21.49.08:163][146]LogTemp: Current Speed: -91.000000
+[2019.02.14-21.49.08:172][147]LogTemp: Current Speed: -92.000000
+[2019.02.14-21.49.08:181][148]LogTemp: Current Speed: -93.000000
+[2019.02.14-21.49.08:191][149]LogTemp: Current Speed: -94.000000
+[2019.02.14-21.49.08:207][150]LogTemp: Current Speed: -95.000000
+[2019.02.14-21.49.08:219][151]LogTemp: Current Speed: -96.000000
+[2019.02.14-21.49.08:232][152]LogTemp: Current Speed: -97.000000
+[2019.02.14-21.49.08:241][153]LogTemp: Current Speed: -98.000000
+[2019.02.14-21.49.08:251][154]LogTemp: Current Speed: -99.000000
+[2019.02.14-21.49.08:262][155]LogTemp: Current Speed: -100.000000
+[2019.02.14-21.49.08:274][156]LogTemp: Current Speed: -101.000000
+[2019.02.14-21.49.08:291][157]LogTemp: Current Speed: -102.000000
+[2019.02.14-21.49.08:304][158]LogTemp: Current Speed: -103.000000
+[2019.02.14-21.49.08:313][159]LogTemp: Current Speed: -104.000000
+[2019.02.14-21.49.08:322][160]LogTemp: Current Speed: -105.000000
+[2019.02.14-21.49.08:337][161]LogTemp: Current Speed: -106.000000
+[2019.02.14-21.49.08:345][162]LogTemp: Current Speed: -107.000000
+[2019.02.14-21.49.08:365][163]LogTemp: Current Speed: -108.000000
+[2019.02.14-21.49.08:377][164]LogTemp: Current Speed: -109.000000
+[2019.02.14-21.49.08:389][165]LogTemp: Current Speed: -110.000000
+[2019.02.14-21.49.08:435][166]LogTemp: Current Speed: -111.000000
+[2019.02.14-21.49.08:463][167]LogTemp: Current Speed: -112.000000
+[2019.02.14-21.49.08:490][168]LogTemp: Current Speed: -113.000000
+[2019.02.14-21.49.08:531][169]LogTemp: Current Speed: -114.000000
+[2019.02.14-21.49.08:547][170]LogTemp: Current Speed: -115.000000
+[2019.02.14-21.49.08:560][171]LogTemp: Current Speed: -116.000000
+[2019.02.14-21.49.08:570][172]LogTemp: Current Speed: -117.000000
+[2019.02.14-21.49.08:582][173]LogTemp: Current Speed: -118.000000
+[2019.02.14-21.49.08:601][174]LogTemp: Current Speed: -119.000000
+[2019.02.14-21.49.08:627][175]LogTemp: Current Speed: -120.000000
+[2019.02.14-21.49.08:645][176]LogTemp: Current Speed: -121.000000
+[2019.02.14-21.49.08:660][177]LogTemp: Current Speed: -122.000000
+[2019.02.14-21.49.08:668][178]LogTemp: Current Speed: -123.000000
+[2019.02.14-21.49.08:679][179]LogTemp: Current Speed: -124.000000
+[2019.02.14-21.49.08:688][180]LogTemp: Current Speed: -125.000000
+[2019.02.14-21.49.08:703][181]LogTemp: Current Speed: -126.000000
+[2019.02.14-21.49.08:711][182]LogTemp: Current Speed: -127.000000
+[2019.02.14-21.49.08:722][183]LogTemp: Current Speed: -128.000000
+[2019.02.14-21.49.08:737][184]LogTemp: Current Speed: -129.000000
+[2019.02.14-21.49.08:749][185]LogTemp: Current Speed: -130.000000
+[2019.02.14-21.49.08:758][186]LogTemp: Current Speed: -131.000000
+[2019.02.14-21.49.08:768][187]LogTemp: Current Speed: -132.000000
+[2019.02.14-21.49.08:780][188]LogTemp: Current Speed: -133.000000
+[2019.02.14-21.49.08:789][189]LogTemp: Current Speed: -134.000000
+[2019.02.14-21.49.08:802][190]LogTemp: Current Speed: -135.000000
+[2019.02.14-21.49.08:811][191]LogTemp: Current Speed: -136.000000
+[2019.02.14-21.49.08:820][192]LogTemp: Current Speed: -137.000000
+[2019.02.14-21.49.08:831][193]LogTemp: Current Speed: -138.000000
+[2019.02.14-21.49.08:842][194]LogTemp: Current Speed: -139.000000
+[2019.02.14-21.49.08:851][195]LogTemp: Current Speed: -140.000000
+[2019.02.14-21.49.08:862][196]LogTemp: Current Speed: -141.000000
+[2019.02.14-21.49.08:870][197]LogTemp: Current Speed: -142.000000
+[2019.02.14-21.49.08:881][198]LogTemp: Current Speed: -143.000000
+[2019.02.14-21.49.08:893][199]LogTemp: Current Speed: -144.000000
+[2019.02.14-21.49.08:905][200]LogTemp: Current Speed: -145.000000
+[2019.02.14-21.49.08:915][201]LogTemp: Current Speed: -146.000000
+[2019.02.14-21.49.08:924][202]LogTemp: Current Speed: -147.000000
+[2019.02.14-21.49.08:936][203]LogTemp: Current Speed: -148.000000
+[2019.02.14-21.49.08:944][204]LogTemp: Current Speed: -149.000000
+[2019.02.14-21.49.08:957][205]LogTemp: Current Speed: -150.000000
+[2019.02.14-21.49.08:967][206]LogTemp: Current Speed: -151.000000
+[2019.02.14-21.49.08:975][207]LogTemp: Current Speed: -152.000000
+[2019.02.14-21.49.08:989][208]LogTemp: Current Speed: -153.000000
+[2019.02.14-21.49.09:001][209]LogTemp: Current Speed: -154.000000
+[2019.02.14-21.49.09:015][210]LogTemp: Current Speed: -155.000000
+[2019.02.14-21.49.09:024][211]LogTemp: Current Speed: -156.000000
+[2019.02.14-21.49.09:035][212]LogTemp: Current Speed: -157.000000
+[2019.02.14-21.49.09:192][223]LogTemp: Current Speed: 1.000000
+[2019.02.14-21.49.09:214][224]LogTemp: Current Speed: 2.000000
+[2019.02.14-21.49.09:222][225]LogTemp: Current Speed: 3.000000
+[2019.02.14-21.49.09:232][226]LogTemp: Current Speed: 4.000000
+[2019.02.14-21.49.09:239][227]LogTemp: Current Speed: 5.000000
+[2019.02.14-21.49.09:249][228]LogTemp: Current Speed: 6.000000
+[2019.02.14-21.49.09:256][229]LogTemp: Current Speed: 7.000000
+[2019.02.14-21.49.09:269][230]LogTemp: Current Speed: 8.000000
+[2019.02.14-21.49.09:277][231]LogTemp: Current Speed: 9.000000
+[2019.02.14-21.49.09:287][232]LogTemp: Current Speed: 10.000000
+[2019.02.14-21.49.09:297][233]LogTemp: Current Speed: 11.000000
+[2019.02.14-21.49.09:304][234]LogTemp: Current Speed: 12.000000
+[2019.02.14-21.49.09:313][235]LogTemp: Current Speed: 13.000000
+[2019.02.14-21.49.09:323][236]LogTemp: Current Speed: 14.000000
+[2019.02.14-21.49.09:330][237]LogTemp: Current Speed: 15.000000
+[2019.02.14-21.49.09:341][238]LogTemp: Current Speed: 16.000000
+[2019.02.14-21.49.09:348][239]LogTemp: Current Speed: 17.000000
+[2019.02.14-21.49.09:358][240]LogTemp: Current Speed: 18.000000
+[2019.02.14-21.49.09:368][241]LogTemp: Current Speed: 19.000000
+[2019.02.14-21.49.09:378][242]LogTemp: Current Speed: 20.000000
+[2019.02.14-21.49.09:384][243]LogTemp: Current Speed: 21.000000
+[2019.02.14-21.49.09:396][244]LogTemp: Current Speed: 22.000000
+[2019.02.14-21.49.09:409][245]LogTemp: Current Speed: 23.000000
+[2019.02.14-21.49.09:415][246]LogTemp: Current Speed: 24.000000
+[2019.02.14-21.49.09:426][247]LogTemp: Current Speed: 25.000000
+[2019.02.14-21.49.09:440][248]LogTemp: Current Speed: 26.000000
+[2019.02.14-21.49.09:448][249]LogTemp: Current Speed: 27.000000
+[2019.02.14-21.49.09:459][250]LogTemp: Current Speed: 28.000000
+[2019.02.14-21.49.09:469][251]LogTemp: Current Speed: 29.000000
+[2019.02.14-21.49.09:476][252]LogTemp: Current Speed: 30.000000
+[2019.02.14-21.49.09:491][253]LogTemp: Current Speed: 31.000000
+[2019.02.14-21.49.09:502][254]LogTemp: Current Speed: 32.000000
+[2019.02.14-21.49.09:512][255]LogTemp: Current Speed: 33.000000
+[2019.02.14-21.49.09:518][256]LogTemp: Current Speed: 34.000000
+[2019.02.14-21.49.09:527][257]LogTemp: Current Speed: 35.000000
+[2019.02.14-21.49.09:535][258]LogTemp: Current Speed: 36.000000
+[2019.02.14-21.49.09:548][259]LogTemp: Current Speed: 37.000000
+[2019.02.14-21.49.09:559][260]LogTemp: Current Speed: 38.000000
+[2019.02.14-21.49.09:565][261]LogTemp: Current Speed: 39.000000
+[2019.02.14-21.49.09:575][262]LogTemp: Current Speed: 40.000000
+[2019.02.14-21.49.09:583][263]LogTemp: Current Speed: 41.000000
+[2019.02.14-21.49.09:592][264]LogTemp: Current Speed: 42.000000
+[2019.02.14-21.49.09:600][265]LogTemp: Current Speed: 43.000000
+[2019.02.14-21.49.09:611][266]LogTemp: Current Speed: 44.000000
+[2019.02.14-21.49.09:618][267]LogTemp: Current Speed: 45.000000
+[2019.02.14-21.49.09:627][268]LogTemp: Current Speed: 46.000000
+[2019.02.14-21.49.09:639][269]LogTemp: Current Speed: 47.000000
+[2019.02.14-21.49.09:645][270]LogTemp: Current Speed: 48.000000
+[2019.02.14-21.49.09:654][271]LogTemp: Current Speed: 49.000000
+[2019.02.14-21.49.09:663][272]LogTemp: Current Speed: 50.000000
+[2019.02.14-21.49.09:672][273]LogTemp: Current Speed: 51.000000
+[2019.02.14-21.49.09:679][274]LogTemp: Current Speed: 52.000000
+[2019.02.14-21.49.09:696][275]LogTemp: Current Speed: 53.000000
+[2019.02.14-21.49.09:709][276]LogTemp: Current Speed: 54.000000
+[2019.02.14-21.49.09:723][277]LogTemp: Current Speed: 55.000000
+[2019.02.14-21.49.09:733][278]LogTemp: Current Speed: 56.000000
+[2019.02.14-21.49.09:740][279]LogTemp: Current Speed: 57.000000
+[2019.02.14-21.49.09:749][280]LogTemp: Current Speed: 58.000000
+[2019.02.14-21.49.09:757][281]LogTemp: Current Speed: 59.000000
+[2019.02.14-21.49.09:766][282]LogTemp: Current Speed: 60.000000
+[2019.02.14-21.49.09:774][283]LogTemp: Current Speed: 61.000000
+[2019.02.14-21.49.09:783][284]LogTemp: Current Speed: 62.000000
+[2019.02.14-21.49.09:791][285]LogTemp: Current Speed: 63.000000
+[2019.02.14-21.49.09:801][286]LogTemp: Current Speed: 64.000000
+[2019.02.14-21.49.09:809][287]LogTemp: Current Speed: 65.000000
+[2019.02.14-21.49.09:817][288]LogTemp: Current Speed: 66.000000
+[2019.02.14-21.49.09:826][289]LogTemp: Current Speed: 67.000000
+[2019.02.14-21.49.09:834][290]LogTemp: Current Speed: 68.000000
+[2019.02.14-21.49.09:842][291]LogTemp: Current Speed: 69.000000
+[2019.02.14-21.49.09:851][292]LogTemp: Current Speed: 70.000000
+[2019.02.14-21.49.09:859][293]LogTemp: Current Speed: 71.000000
+[2019.02.14-21.49.09:868][294]LogTemp: Current Speed: 72.000000
+[2019.02.14-21.49.09:876][295]LogTemp: Current Speed: 73.000000
+[2019.02.14-21.49.09:887][296]LogTemp: Current Speed: 74.000000
+[2019.02.14-21.49.09:893][297]LogTemp: Current Speed: 75.000000
+[2019.02.14-21.49.09:903][298]LogTemp: Current Speed: 76.000000
+[2019.02.14-21.49.09:909][299]LogTemp: Current Speed: 77.000000
+[2019.02.14-21.49.09:920][300]LogTemp: Current Speed: 78.000000
+[2019.02.14-21.49.09:927][301]LogTemp: Current Speed: 79.000000
+[2019.02.14-21.49.09:936][302]LogTemp: Current Speed: 80.000000
+[2019.02.14-21.49.09:944][303]LogTemp: Current Speed: 81.000000
+[2019.02.14-21.49.09:952][304]LogTemp: Current Speed: 82.000000
+[2019.02.14-21.49.09:961][305]LogTemp: Current Speed: 83.000000
+[2019.02.14-21.49.09:970][306]LogTemp: Current Speed: 84.000000
+[2019.02.14-21.49.09:978][307]LogTemp: Current Speed: 85.000000
+[2019.02.14-21.49.09:988][308]LogTemp: Current Speed: 86.000000
+[2019.02.14-21.49.09:995][309]LogTemp: Current Speed: 87.000000
+[2019.02.14-21.49.10:004][310]LogTemp: Current Speed: 88.000000
+[2019.02.14-21.49.10:013][311]LogTemp: Current Speed: 89.000000
+[2019.02.14-21.49.10:021][312]LogTemp: Current Speed: 90.000000
+[2019.02.14-21.49.10:030][313]LogTemp: Current Speed: 91.000000
+[2019.02.14-21.49.10:039][314]LogTemp: Current Speed: 92.000000
+[2019.02.14-21.49.10:048][315]LogTemp: Current Speed: 93.000000
+[2019.02.14-21.49.10:061][316]LogTemp: Current Speed: 94.000000
+[2019.02.14-21.49.10:069][317]LogTemp: Current Speed: 95.000000
+[2019.02.14-21.49.10:078][318]LogTemp: Current Speed: 96.000000
+[2019.02.14-21.49.10:085][319]LogTemp: Current Speed: 97.000000
+[2019.02.14-21.49.10:094][320]LogTemp: Current Speed: 98.000000
+[2019.02.14-21.49.10:102][321]LogTemp: Current Speed: 99.000000
+[2019.02.14-21.49.10:111][322]LogTemp: Current Speed: 100.000000
+[2019.02.14-21.49.10:119][323]LogTemp: Current Speed: 101.000000
+[2019.02.14-21.49.10:128][324]LogTemp: Current Speed: 102.000000
+[2019.02.14-21.49.10:140][325]LogTemp: Current Speed: 103.000000
+[2019.02.14-21.49.10:147][326]LogTemp: Current Speed: 104.000000
+[2019.02.14-21.49.10:155][327]LogTemp: Current Speed: 105.000000
+[2019.02.14-21.49.10:164][328]LogTemp: Current Speed: 106.000000
+[2019.02.14-21.49.10:172][329]LogTemp: Current Speed: 107.000000
+[2019.02.14-21.49.10:182][330]LogTemp: Current Speed: 108.000000
+[2019.02.14-21.49.10:189][331]LogTemp: Current Speed: 109.000000
+[2019.02.14-21.49.10:198][332]LogTemp: Current Speed: 110.000000
+[2019.02.14-21.49.10:207][333]LogTemp: Current Speed: 111.000000
+[2019.02.14-21.49.10:215][334]LogTemp: Current Speed: 112.000000
+[2019.02.14-21.49.10:223][335]LogTemp: Current Speed: 113.000000
+[2019.02.14-21.49.10:232][336]LogTemp: Current Speed: 114.000000
+[2019.02.14-21.49.10:240][337]LogTemp: Current Speed: 115.000000
+[2019.02.14-21.49.10:249][338]LogTemp: Current Speed: 116.000000
+[2019.02.14-21.49.10:257][339]LogTemp: Current Speed: 117.000000
+[2019.02.14-21.49.10:266][340]LogTemp: Current Speed: 118.000000
+[2019.02.14-21.49.10:278][341]LogTemp: Current Speed: 119.000000
+[2019.02.14-21.49.10:286][342]LogTemp: Current Speed: 120.000000
+[2019.02.14-21.49.10:297][343]LogTemp: Current Speed: 121.000000
+[2019.02.14-21.49.10:304][344]LogTemp: Current Speed: 122.000000
+[2019.02.14-21.49.10:316][345]LogTemp: Current Speed: 123.000000
+[2019.02.14-21.49.10:325][346]LogTemp: Current Speed: 124.000000
+[2019.02.14-21.49.10:334][347]LogTemp: Current Speed: 125.000000
+[2019.02.14-21.49.10:342][348]LogTemp: Current Speed: 126.000000
+[2019.02.14-21.49.10:351][349]LogTemp: Current Speed: 127.000000
+[2019.02.14-21.49.10:362][350]LogTemp: Current Speed: 128.000000
+[2019.02.14-21.49.10:371][351]LogTemp: Current Speed: 129.000000
+[2019.02.14-21.49.10:377][352]LogTemp: Current Speed: 130.000000
+[2019.02.14-21.49.10:388][353]LogTemp: Current Speed: 131.000000
+[2019.02.14-21.49.10:394][354]LogTemp: Current Speed: 132.000000
+[2019.02.14-21.49.10:403][355]LogTemp: Current Speed: 133.000000
+[2019.02.14-21.49.10:412][356]LogTemp: Current Speed: 134.000000
+[2019.02.14-21.49.10:420][357]LogTemp: Current Speed: 135.000000
+[2019.02.14-21.49.10:429][358]LogTemp: Current Speed: 136.000000
+[2019.02.14-21.49.10:438][359]LogTemp: Current Speed: 137.000000
+[2019.02.14-21.49.10:447][360]LogTemp: Current Speed: 138.000000
+[2019.02.14-21.49.10:455][361]LogTemp: Current Speed: 139.000000
+[2019.02.14-21.49.10:465][362]LogTemp: Current Speed: 140.000000
+[2019.02.14-21.49.10:473][363]LogTemp: Current Speed: 141.000000
+[2019.02.14-21.49.10:483][364]LogTemp: Current Speed: 142.000000
+[2019.02.14-21.49.10:490][365]LogTemp: Current Speed: 143.000000
+[2019.02.14-21.49.10:499][366]LogTemp: Current Speed: 144.000000
+[2019.02.14-21.49.10:507][367]LogTemp: Current Speed: 145.000000
+[2019.02.14-21.49.10:516][368]LogTemp: Current Speed: 146.000000
+[2019.02.14-21.49.10:524][369]LogTemp: Current Speed: 147.000000
+[2019.02.14-21.49.10:535][370]LogTemp: Current Speed: 148.000000
+[2019.02.14-21.49.10:541][371]LogTemp: Current Speed: 149.000000
+[2019.02.14-21.49.10:550][372]LogTemp: Current Speed: 150.000000
+[2019.02.14-21.49.10:560][373]LogTemp: Current Speed: 151.000000
+[2019.02.14-21.49.10:567][374]LogTemp: Current Speed: 152.000000
+[2019.02.14-21.49.10:576][375]LogTemp: Current Speed: 153.000000
+[2019.02.14-21.49.10:585][376]LogTemp: Current Speed: 154.000000
+[2019.02.14-21.49.10:593][377]LogTemp: Current Speed: 155.000000
+[2019.02.14-21.49.10:602][378]LogTemp: Current Speed: 156.000000
+[2019.02.14-21.49.10:612][379]LogTemp: Current Speed: 157.000000
+[2019.02.14-21.49.10:620][380]LogTemp: Current Speed: 158.000000
+[2019.02.14-21.49.10:627][381]LogTemp: Current Speed: 159.000000
+[2019.02.14-21.49.10:638][382]LogTemp: Current Speed: 160.000000
+[2019.02.14-21.49.10:644][383]LogTemp: Current Speed: 161.000000
+[2019.02.14-21.49.10:653][384]LogTemp: Current Speed: 162.000000
+[2019.02.14-21.49.10:661][385]LogTemp: Current Speed: 163.000000
+[2019.02.14-21.49.10:670][386]LogTemp: Current Speed: 164.000000
+[2019.02.14-21.49.10:678][387]LogTemp: Current Speed: 165.000000
+[2019.02.14-21.49.10:687][388]LogTemp: Current Speed: 166.000000
+[2019.02.14-21.49.10:695][389]LogTemp: Current Speed: 167.000000
+[2019.02.14-21.49.10:706][390]LogTemp: Current Speed: 168.000000
+[2019.02.14-21.49.10:715][391]LogTemp: Current Speed: 169.000000
+[2019.02.14-21.49.10:723][392]LogTemp: Current Speed: 170.000000
+[2019.02.14-21.49.10:732][393]LogTemp: Current Speed: 171.000000
+[2019.02.14-21.49.10:748][394]LogTemp: Current Speed: 172.000000
+[2019.02.14-21.49.10:762][395]LogTemp: Current Speed: 173.000000
+[2019.02.14-21.49.10:770][396]LogTemp: Current Speed: 174.000000
+[2019.02.14-21.49.10:779][397]LogTemp: Current Speed: 175.000000
+[2019.02.14-21.49.10:787][398]LogTemp: Current Speed: 176.000000
+[2019.02.14-21.49.10:796][399]LogTemp: Current Speed: 177.000000
+[2019.02.14-21.49.10:804][400]LogTemp: Current Speed: 178.000000
+[2019.02.14-21.49.10:813][401]LogTemp: Current Speed: 179.000000
+[2019.02.14-21.49.10:821][402]LogTemp: Current Speed: 180.000000
+[2019.02.14-21.49.10:830][403]LogTemp: Current Speed: 181.000000
+[2019.02.14-21.49.10:840][404]LogTemp: Current Speed: 182.000000
+[2019.02.14-21.49.10:846][405]LogTemp: Current Speed: 183.000000
+[2019.02.14-21.49.10:855][406]LogTemp: Current Speed: 184.000000
+[2019.02.14-21.49.10:865][407]LogTemp: Current Speed: 185.000000
+[2019.02.14-21.49.10:875][408]LogTemp: Current Speed: 186.000000
+[2019.02.14-21.49.10:880][409]LogTemp: Current Speed: 187.000000
+[2019.02.14-21.49.10:889][410]LogTemp: Current Speed: 188.000000
+[2019.02.14-21.49.10:897][411]LogTemp: Current Speed: 189.000000
+[2019.02.14-21.49.10:907][412]LogTemp: Current Speed: 190.000000
+[2019.02.14-21.49.10:915][413]LogTemp: Current Speed: 191.000000
+[2019.02.14-21.49.10:925][414]LogTemp: Current Speed: 192.000000
+[2019.02.14-21.49.10:936][415]LogTemp: Current Speed: 193.000000
+[2019.02.14-21.49.10:944][416]LogTemp: Current Speed: 194.000000
+[2019.02.14-21.49.10:954][417]LogTemp: Current Speed: 195.000000
+[2019.02.14-21.49.10:961][418]LogTemp: Current Speed: 196.000000
+[2019.02.14-21.49.10:970][419]LogTemp: Current Speed: 197.000000
+[2019.02.14-21.49.10:979][420]LogTemp: Current Speed: 198.000000
+[2019.02.14-21.49.10:988][421]LogTemp: Current Speed: 199.000000
+[2019.02.14-21.49.10:997][422]LogTemp: Current Speed: 200.000000
+[2019.02.14-21.49.11:004][423]LogTemp: Current Speed: 201.000000
+[2019.02.14-21.49.11:013][424]LogTemp: Current Speed: 202.000000
+[2019.02.14-21.49.11:021][425]LogTemp: Current Speed: 203.000000
+[2019.02.14-21.49.11:029][426]LogTemp: Current Speed: 204.000000
+[2019.02.14-21.49.11:038][427]LogTemp: Current Speed: 205.000000
+[2019.02.14-21.49.11:047][428]LogTemp: Current Speed: 206.000000
+[2019.02.14-21.49.11:056][429]LogTemp: Current Speed: 207.000000
+[2019.02.14-21.49.11:064][430]LogTemp: Current Speed: 208.000000
+[2019.02.14-21.49.11:073][431]LogTemp: Current Speed: 209.000000
+[2019.02.14-21.49.11:084][432]LogTemp: Current Speed: 210.000000
+[2019.02.14-21.49.11:094][433]LogTemp: Current Speed: 211.000000
+[2019.02.14-21.49.11:102][434]LogTemp: Current Speed: 212.000000
+[2019.02.14-21.49.11:113][435]LogTemp: Current Speed: 213.000000
+[2019.02.14-21.49.11:124][436]LogTemp: Current Speed: 214.000000
+[2019.02.14-21.49.11:130][437]LogTemp: Current Speed: 215.000000
+[2019.02.14-21.49.11:139][438]LogTemp: Current Speed: 216.000000
+[2019.02.14-21.49.11:147][439]LogTemp: Current Speed: 217.000000
+[2019.02.14-21.49.11:156][440]LogTemp: Current Speed: 218.000000
+[2019.02.14-21.49.11:164][441]LogTemp: Current Speed: 219.000000
+[2019.02.14-21.49.11:173][442]LogTemp: Current Speed: 220.000000
+[2019.02.14-21.49.11:184][443]LogTemp: Current Speed: 221.000000
+[2019.02.14-21.49.11:189][444]LogTemp: Current Speed: 222.000000
+[2019.02.14-21.49.11:198][445]LogTemp: Current Speed: 223.000000
+[2019.02.14-21.49.11:207][446]LogTemp: Current Speed: 224.000000
+[2019.02.14-21.49.11:216][447]LogTemp: Current Speed: 225.000000
+[2019.02.14-21.49.11:223][448]LogTemp: Current Speed: 226.000000
+[2019.02.14-21.49.11:232][449]LogTemp: Current Speed: 227.000000
+[2019.02.14-21.49.11:241][450]LogTemp: Current Speed: 228.000000
+[2019.02.14-21.49.11:250][451]LogTemp: Current Speed: 229.000000
+[2019.02.14-21.49.11:258][452]LogTemp: Current Speed: 230.000000
+[2019.02.14-21.49.11:267][453]LogTemp: Current Speed: 231.000000
+[2019.02.14-21.49.11:277][454]LogTemp: Current Speed: 232.000000
+[2019.02.14-21.49.11:285][455]LogTemp: Current Speed: 233.000000
+[2019.02.14-21.49.11:296][456]LogTemp: Current Speed: 234.000000
+[2019.02.14-21.49.11:304][457]LogTemp: Current Speed: 235.000000
+[2019.02.14-21.49.11:314][458]LogTemp: Current Speed: 236.000000
+[2019.02.14-21.49.11:323][459]LogTemp: Current Speed: 237.000000
+[2019.02.14-21.49.11:331][460]LogTemp: Current Speed: 238.000000
+[2019.02.14-21.49.11:342][461]LogTemp: Current Speed: 239.000000
+[2019.02.14-21.49.11:351][462]LogTemp: Current Speed: 240.000000
+[2019.02.14-21.49.11:361][463]LogTemp: Current Speed: 241.000000
+[2019.02.14-21.49.11:374][464]LogTemp: Current Speed: 242.000000
+[2019.02.14-21.49.11:378][465]LogTemp: Current Speed: 243.000000
+[2019.02.14-21.49.11:388][466]LogTemp: Current Speed: 244.000000
+[2019.02.14-21.49.11:395][467]LogTemp: Current Speed: 245.000000
+[2019.02.14-21.49.11:404][468]LogTemp: Current Speed: 246.000000
+[2019.02.14-21.49.11:412][469]LogTemp: Current Speed: 247.000000
+[2019.02.14-21.49.11:422][470]LogTemp: Current Speed: 248.000000
+[2019.02.14-21.49.11:429][471]LogTemp: Current Speed: 249.000000
+[2019.02.14-21.49.11:438][472]LogTemp: Current Speed: 250.000000
+[2019.02.14-21.49.11:447][473]LogTemp: Current Speed: 251.000000
+[2019.02.14-21.49.11:456][474]LogTemp: Current Speed: 252.000000
+[2019.02.14-21.49.11:465][475]LogTemp: Current Speed: 253.000000
+[2019.02.14-21.49.11:472][476]LogTemp: Current Speed: 254.000000
+[2019.02.14-21.49.11:482][477]LogTemp: Current Speed: 255.000000
+[2019.02.14-21.49.11:489][478]LogTemp: Current Speed: 256.000000
+[2019.02.14-21.49.11:499][479]LogTemp: Current Speed: 257.000000
+[2019.02.14-21.49.11:506][480]LogTemp: Current Speed: 258.000000
+[2019.02.14-21.49.11:514][481]LogTemp: Current Speed: 259.000000
+[2019.02.14-21.49.11:522][482]LogTemp: Current Speed: 260.000000
+[2019.02.14-21.49.11:530][483]LogTemp: Current Speed: 261.000000
+[2019.02.14-21.49.11:539][484]LogTemp: Current Speed: 262.000000
+[2019.02.14-21.49.11:548][485]LogTemp: Current Speed: 263.000000
+[2019.02.14-21.49.11:555][486]LogTemp: Current Speed: 264.000000
+[2019.02.14-21.49.11:564][487]LogTemp: Current Speed: 265.000000
+[2019.02.14-21.49.11:574][488]LogTemp: Current Speed: 266.000000
+[2019.02.14-21.49.11:581][489]LogTemp: Current Speed: 267.000000
+[2019.02.14-21.49.11:590][490]LogTemp: Current Speed: 268.000000
+[2019.02.14-21.49.11:598][491]LogTemp: Current Speed: 269.000000
+[2019.02.14-21.49.11:606][492]LogTemp: Current Speed: 270.000000
+[2019.02.14-21.49.11:614][493]LogTemp: Current Speed: 271.000000
+[2019.02.14-21.49.11:624][494]LogTemp: Current Speed: 272.000000
+[2019.02.14-21.49.11:631][495]LogTemp: Current Speed: 273.000000
+[2019.02.14-21.49.11:640][496]LogTemp: Current Speed: 274.000000
+[2019.02.14-21.49.11:649][497]LogTemp: Current Speed: 275.000000
+[2019.02.14-21.49.12:685][609]LogTemp: Current Speed: -1.000000
+[2019.02.14-21.49.12:690][610]LogTemp: Current Speed: -2.000000
+[2019.02.14-21.49.12:700][611]LogTemp: Current Speed: -3.000000
+[2019.02.14-21.49.12:708][612]LogTemp: Current Speed: -4.000000
+[2019.02.14-21.49.12:717][613]LogTemp: Current Speed: -5.000000
+[2019.02.14-21.49.12:726][614]LogTemp: Current Speed: -6.000000
+[2019.02.14-21.49.12:736][615]LogTemp: Current Speed: -7.000000
+[2019.02.14-21.49.12:744][616]LogTemp: Current Speed: -8.000000
+[2019.02.14-21.49.12:752][617]LogTemp: Current Speed: -9.000000
+[2019.02.14-21.49.12:761][618]LogTemp: Current Speed: -10.000000
+[2019.02.14-21.49.12:770][619]LogTemp: Current Speed: -11.000000
+[2019.02.14-21.49.12:779][620]LogTemp: Current Speed: -12.000000
+[2019.02.14-21.49.12:787][621]LogTemp: Current Speed: -13.000000
+[2019.02.14-21.49.12:796][622]LogTemp: Current Speed: -14.000000
+[2019.02.14-21.49.12:807][623]LogTemp: Current Speed: -15.000000
+[2019.02.14-21.49.12:814][624]LogTemp: Current Speed: -16.000000
+[2019.02.14-21.49.12:824][625]LogTemp: Current Speed: -17.000000
+[2019.02.14-21.49.12:833][626]LogTemp: Current Speed: -18.000000
+[2019.02.14-21.49.12:842][627]LogTemp: Current Speed: -19.000000
+[2019.02.14-21.49.12:849][628]LogTemp: Current Speed: -20.000000
+[2019.02.14-21.49.12:858][629]LogTemp: Current Speed: -21.000000
+[2019.02.14-21.49.12:866][630]LogTemp: Current Speed: -22.000000
+[2019.02.14-21.49.12:876][631]LogTemp: Current Speed: -23.000000
+[2019.02.14-21.49.12:884][632]LogTemp: Current Speed: -24.000000
+[2019.02.14-21.49.12:893][633]LogTemp: Current Speed: -25.000000
+[2019.02.14-21.49.12:904][634]LogTemp: Current Speed: -26.000000
+[2019.02.14-21.49.12:910][635]LogTemp: Current Speed: -27.000000
+[2019.02.14-21.49.12:918][636]LogTemp: Current Speed: -28.000000
+[2019.02.14-21.49.12:927][637]LogTemp: Current Speed: -29.000000
+[2019.02.14-21.49.12:936][638]LogTemp: Current Speed: -30.000000
+[2019.02.14-21.49.12:944][639]LogTemp: Current Speed: -31.000000
+[2019.02.14-21.49.12:954][640]LogTemp: Current Speed: -32.000000
+[2019.02.14-21.49.12:961][641]LogTemp: Current Speed: -33.000000
+[2019.02.14-21.49.12:969][642]LogTemp: Current Speed: -34.000000
+[2019.02.14-21.49.12:977][643]LogTemp: Current Speed: -35.000000
+[2019.02.14-21.49.12:987][644]LogTemp: Current Speed: -36.000000
+[2019.02.14-21.49.12:994][645]LogTemp: Current Speed: -37.000000
+[2019.02.14-21.49.13:003][646]LogTemp: Current Speed: -38.000000
+[2019.02.14-21.49.13:013][647]LogTemp: Current Speed: -39.000000
+[2019.02.14-21.49.13:019][648]LogTemp: Current Speed: -40.000000
+[2019.02.14-21.49.13:029][649]LogTemp: Current Speed: -41.000000
+[2019.02.14-21.49.13:036][650]LogTemp: Current Speed: -42.000000
+[2019.02.14-21.49.13:045][651]LogTemp: Current Speed: -43.000000
+[2019.02.14-21.49.13:053][652]LogTemp: Current Speed: -44.000000
+[2019.02.14-21.49.13:061][653]LogTemp: Current Speed: -45.000000
+[2019.02.14-21.49.13:070][654]LogTemp: Current Speed: -46.000000
+[2019.02.14-21.49.13:080][655]LogTemp: Current Speed: -47.000000
+[2019.02.14-21.49.13:086][656]LogTemp: Current Speed: -48.000000
+[2019.02.14-21.49.13:095][657]LogTemp: Current Speed: -49.000000
+[2019.02.14-21.49.13:107][658]LogTemp: Current Speed: -50.000000
+[2019.02.14-21.49.13:113][659]LogTemp: Current Speed: -51.000000
+[2019.02.14-21.49.13:122][660]LogTemp: Current Speed: -52.000000
+[2019.02.14-21.49.13:130][661]LogTemp: Current Speed: -53.000000
+[2019.02.14-21.49.13:138][662]LogTemp: Current Speed: -54.000000
+[2019.02.14-21.49.13:147][663]LogTemp: Current Speed: -55.000000
+[2019.02.14-21.49.13:155][664]LogTemp: Current Speed: -56.000000
+[2019.02.14-21.49.13:163][665]LogTemp: Current Speed: -57.000000
+[2019.02.14-21.49.13:173][666]LogTemp: Current Speed: -58.000000
+[2019.02.14-21.49.13:184][667]LogTemp: Current Speed: -59.000000
+[2019.02.14-21.49.13:189][668]LogTemp: Current Speed: -60.000000
+[2019.02.14-21.49.13:197][669]LogTemp: Current Speed: -61.000000
+[2019.02.14-21.49.13:207][670]LogTemp: Current Speed: -62.000000
+[2019.02.14-21.49.13:217][671]LogTemp: Current Speed: -63.000000
+[2019.02.14-21.49.13:223][672]LogTemp: Current Speed: -64.000000
+[2019.02.14-21.49.13:231][673]LogTemp: Current Speed: -65.000000
+[2019.02.14-21.49.13:240][674]LogTemp: Current Speed: -66.000000
+[2019.02.14-21.49.13:249][675]LogTemp: Current Speed: -67.000000
+[2019.02.14-21.49.13:257][676]LogTemp: Current Speed: -68.000000
+[2019.02.14-21.49.13:265][677]LogTemp: Current Speed: -69.000000
+[2019.02.14-21.49.13:273][678]LogTemp: Current Speed: -70.000000
+[2019.02.14-21.49.13:283][679]LogTemp: Current Speed: -71.000000
+[2019.02.14-21.49.13:292][680]LogTemp: Current Speed: -72.000000
+[2019.02.14-21.49.13:299][681]LogTemp: Current Speed: -73.000000
+[2019.02.14-21.49.13:310][682]LogTemp: Current Speed: -74.000000
+[2019.02.14-21.49.13:318][683]LogTemp: Current Speed: -75.000000
+[2019.02.14-21.49.13:327][684]LogTemp: Current Speed: -76.000000
+[2019.02.14-21.49.13:336][685]LogTemp: Current Speed: -77.000000
+[2019.02.14-21.49.13:344][686]LogTemp: Current Speed: -78.000000
+[2019.02.14-21.49.13:353][687]LogTemp: Current Speed: -79.000000
+[2019.02.14-21.49.13:362][688]LogTemp: Current Speed: -80.000000
+[2019.02.14-21.49.13:372][689]LogTemp: Current Speed: -81.000000
+[2019.02.14-21.49.13:378][690]LogTemp: Current Speed: -82.000000
+[2019.02.14-21.49.13:388][691]LogTemp: Current Speed: -83.000000
+[2019.02.14-21.49.13:395][692]LogTemp: Current Speed: -84.000000
+[2019.02.14-21.49.13:405][693]LogTemp: Current Speed: -85.000000
+[2019.02.14-21.49.13:413][694]LogTemp: Current Speed: -86.000000
+[2019.02.14-21.49.13:421][695]LogTemp: Current Speed: -87.000000
+[2019.02.14-21.49.13:429][696]LogTemp: Current Speed: -88.000000
+[2019.02.14-21.49.13:438][697]LogTemp: Current Speed: -89.000000
+[2019.02.14-21.49.13:446][698]LogTemp: Current Speed: -90.000000
+[2019.02.14-21.49.13:460][699]LogTemp: Current Speed: -91.000000
+[2019.02.14-21.49.13:467][700]LogTemp: Current Speed: -92.000000
+[2019.02.14-21.49.13:475][701]LogTemp: Current Speed: -93.000000
+[2019.02.14-21.49.13:489][702]LogTemp: Current Speed: -94.000000
+[2019.02.14-21.49.13:498][703]LogTemp: Current Speed: -95.000000
+[2019.02.14-21.49.13:506][704]LogTemp: Current Speed: -96.000000
+[2019.02.14-21.49.13:515][705]LogTemp: Current Speed: -97.000000
+[2019.02.14-21.49.13:523][706]LogTemp: Current Speed: -98.000000
+[2019.02.14-21.49.13:533][707]LogTemp: Current Speed: -99.000000
+[2019.02.14-21.49.13:540][708]LogTemp: Current Speed: -100.000000
+[2019.02.14-21.49.13:561][709]LogTemp: Current Speed: -101.000000
+[2019.02.14-21.49.13:568][710]LogTemp: Current Speed: -102.000000
+[2019.02.14-21.49.13:578][711]LogTemp: Current Speed: -103.000000
+[2019.02.14-21.49.13:587][712]LogTemp: Current Speed: -104.000000
+[2019.02.14-21.49.13:595][713]LogTemp: Current Speed: -105.000000
+[2019.02.14-21.49.13:603][714]LogTemp: Current Speed: -106.000000
+[2019.02.14-21.49.13:612][715]LogTemp: Current Speed: -107.000000
+[2019.02.14-21.49.13:623][716]LogTemp: Current Speed: -108.000000
+[2019.02.14-21.49.13:629][717]LogTemp: Current Speed: -109.000000
+[2019.02.14-21.49.13:639][718]LogTemp: Current Speed: -110.000000
+[2019.02.14-21.49.13:647][719]LogTemp: Current Speed: -111.000000
+[2019.02.14-21.49.13:665][720]LogTemp: Current Speed: -112.000000
+[2019.02.14-21.49.13:676][721]LogTemp: Current Speed: -113.000000
+[2019.02.14-21.49.13:686][722]LogTemp: Current Speed: -114.000000
+[2019.02.14-21.49.13:708][723]LogTemp: Current Speed: -115.000000
+[2019.02.14-21.49.13:717][724]LogTemp: Current Speed: -116.000000
+[2019.02.14-21.49.13:725][725]LogTemp: Current Speed: -117.000000
+[2019.02.14-21.49.13:733][726]LogTemp: Current Speed: -118.000000
+[2019.02.14-21.49.13:742][727]LogTemp: Current Speed: -119.000000
+[2019.02.14-21.49.13:752][728]LogTemp: Current Speed: -120.000000
+[2019.02.14-21.49.13:763][729]LogTemp: Current Speed: -121.000000
+[2019.02.14-21.49.13:770][730]LogTemp: Current Speed: -122.000000
+[2019.02.14-21.49.13:779][731]LogTemp: Current Speed: -123.000000
+[2019.02.14-21.49.13:787][732]LogTemp: Current Speed: -124.000000
+[2019.02.14-21.49.13:796][733]LogTemp: Current Speed: -125.000000
+[2019.02.14-21.49.13:803][734]LogTemp: Current Speed: -126.000000
+[2019.02.14-21.49.13:812][735]LogTemp: Current Speed: -127.000000
+[2019.02.14-21.49.13:821][736]LogTemp: Current Speed: -128.000000
+[2019.02.14-21.49.13:830][737]LogTemp: Current Speed: -129.000000
+[2019.02.14-21.49.13:841][738]LogTemp: Current Speed: -130.000000
+[2019.02.14-21.49.13:853][739]LogTemp: Current Speed: -131.000000
+[2019.02.14-21.49.13:863][740]LogTemp: Current Speed: -132.000000
+[2019.02.14-21.49.13:877][741]LogTemp: Current Speed: -133.000000
+[2019.02.14-21.49.13:887][742]LogTemp: Current Speed: -134.000000
+[2019.02.14-21.49.13:894][743]LogTemp: Current Speed: -135.000000
+[2019.02.14-21.49.13:904][744]LogTemp: Current Speed: -136.000000
+[2019.02.14-21.49.13:911][745]LogTemp: Current Speed: -137.000000
+[2019.02.14-21.49.13:920][746]LogTemp: Current Speed: -138.000000
+[2019.02.14-21.49.13:927][747]LogTemp: Current Speed: -139.000000
+[2019.02.14-21.49.13:936][748]LogTemp: Current Speed: -140.000000
+[2019.02.14-21.49.13:944][749]LogTemp: Current Speed: -141.000000
+[2019.02.14-21.49.13:953][750]LogTemp: Current Speed: -142.000000
+[2019.02.14-21.49.13:964][751]LogTemp: Current Speed: -143.000000
+[2019.02.14-21.49.13:971][752]LogTemp: Current Speed: -144.000000
+[2019.02.14-21.49.13:980][753]LogTemp: Current Speed: -145.000000
+[2019.02.14-21.49.13:988][754]LogTemp: Current Speed: -146.000000
+[2019.02.14-21.49.13:998][755]LogTemp: Current Speed: -147.000000
+[2019.02.14-21.49.14:006][756]LogTemp: Current Speed: -148.000000
+[2019.02.14-21.49.14:015][757]LogTemp: Current Speed: -149.000000
+[2019.02.14-21.49.14:024][758]LogTemp: Current Speed: -150.000000
+[2019.02.14-21.49.14:035][759]LogTemp: Current Speed: -151.000000
+[2019.02.14-21.49.14:044][760]LogTemp: Current Speed: -152.000000
+[2019.02.14-21.49.14:051][761]LogTemp: Current Speed: -153.000000
+[2019.02.14-21.49.14:060][762]LogTemp: Current Speed: -154.000000
+[2019.02.14-21.49.14:068][763]LogTemp: Current Speed: -155.000000
+[2019.02.14-21.49.14:079][764]LogTemp: Current Speed: -156.000000
+[2019.02.14-21.49.14:085][765]LogTemp: Current Speed: -157.000000
+[2019.02.14-21.49.14:094][766]LogTemp: Current Speed: -158.000000
+[2019.02.14-21.49.14:104][767]LogTemp: Current Speed: -159.000000
+[2019.02.14-21.49.14:113][768]LogTemp: Current Speed: -160.000000
+[2019.02.14-21.49.14:139][769]LogTemp: Current Speed: -161.000000
+[2019.02.14-21.49.14:148][770]LogTemp: Current Speed: -162.000000
+[2019.02.14-21.49.14:157][771]LogTemp: Current Speed: -163.000000
+[2019.02.14-21.49.14:166][772]LogTemp: Current Speed: -164.000000
+[2019.02.14-21.49.14:175][773]LogTemp: Current Speed: -165.000000
+[2019.02.14-21.49.14:184][774]LogTemp: Current Speed: -166.000000
+[2019.02.14-21.49.14:194][775]LogTemp: Current Speed: -167.000000
+[2019.02.14-21.49.14:206][776]LogTemp: Current Speed: -168.000000
+[2019.02.14-21.49.14:211][777]LogTemp: Current Speed: -169.000000
+[2019.02.14-21.49.14:220][778]LogTemp: Current Speed: -170.000000
+[2019.02.14-21.49.14:228][779]LogTemp: Current Speed: -171.000000
+[2019.02.14-21.49.14:239][780]LogTemp: Current Speed: -172.000000
+[2019.02.14-21.49.14:247][781]LogTemp: Current Speed: -173.000000
+[2019.02.14-21.49.14:257][782]LogTemp: Current Speed: -174.000000
+[2019.02.14-21.49.14:267][783]LogTemp: Current Speed: -175.000000
+[2019.02.14-21.49.14:279][784]LogTemp: Current Speed: -176.000000
+[2019.02.14-21.49.14:286][785]LogTemp: Current Speed: -177.000000
+[2019.02.14-21.49.14:298][786]LogTemp: Current Speed: -178.000000
+[2019.02.14-21.49.14:309][787]LogTemp: Current Speed: -179.000000
+[2019.02.14-21.49.14:315][788]LogTemp: Current Speed: -180.000000
+[2019.02.14-21.49.14:324][789]LogTemp: Current Speed: -181.000000
+[2019.02.14-21.49.14:332][790]LogTemp: Current Speed: -182.000000
+[2019.02.14-21.49.14:342][791]LogTemp: Current Speed: -183.000000
+[2019.02.14-21.49.14:350][792]LogTemp: Current Speed: -184.000000
+[2019.02.14-21.49.14:358][793]LogTemp: Current Speed: -185.000000
+[2019.02.14-21.49.14:367][794]LogTemp: Current Speed: -186.000000
+[2019.02.14-21.49.14:378][795]LogTemp: Current Speed: -187.000000
+[2019.02.14-21.49.14:387][796]LogTemp: Current Speed: -188.000000
+[2019.02.14-21.49.14:395][797]LogTemp: Current Speed: -189.000000
+[2019.02.14-21.49.14:406][798]LogTemp: Current Speed: -190.000000
+[2019.02.14-21.49.14:413][799]LogTemp: Current Speed: -191.000000
+[2019.02.14-21.49.14:423][800]LogTemp: Current Speed: -192.000000
+[2019.02.14-21.49.14:432][801]LogTemp: Current Speed: -193.000000
+[2019.02.14-21.49.14:439][802]LogTemp: Current Speed: -194.000000
+[2019.02.14-21.49.14:447][803]LogTemp: Current Speed: -195.000000
+[2019.02.14-21.49.14:456][804]LogTemp: Current Speed: -196.000000
+[2019.02.14-21.49.14:465][805]LogTemp: Current Speed: -197.000000
+[2019.02.14-21.49.14:473][806]LogTemp: Current Speed: -198.000000
+[2019.02.14-21.49.14:482][807]LogTemp: Current Speed: -199.000000
+[2019.02.14-21.49.14:490][808]LogTemp: Current Speed: -200.000000
+[2019.02.14-21.49.14:498][809]LogTemp: Current Speed: -201.000000
+[2019.02.14-21.49.14:507][810]LogTemp: Current Speed: -202.000000
+[2019.02.14-21.49.14:515][811]LogTemp: Current Speed: -203.000000
+[2019.02.14-21.49.14:524][812]LogTemp: Current Speed: -204.000000
+[2019.02.14-21.49.14:533][813]LogTemp: Current Speed: -205.000000
+[2019.02.14-21.49.14:541][814]LogTemp: Current Speed: -206.000000
+[2019.02.14-21.49.14:549][815]LogTemp: Current Speed: -207.000000
+[2019.02.14-21.49.14:559][816]LogTemp: Current Speed: -208.000000
+[2019.02.14-21.49.14:568][817]LogTemp: Current Speed: -209.000000
+[2019.02.14-21.49.14:578][818]LogTemp: Current Speed: -210.000000
+[2019.02.14-21.49.14:585][819]LogTemp: Current Speed: -211.000000
+[2019.02.14-21.49.14:593][820]LogTemp: Current Speed: -212.000000
+[2019.02.14-21.49.14:602][821]LogTemp: Current Speed: -213.000000
+[2019.02.14-21.49.14:611][822]LogTemp: Current Speed: -214.000000
+[2019.02.14-21.49.14:621][823]LogTemp: Current Speed: -215.000000
+[2019.02.14-21.49.14:627][824]LogTemp: Current Speed: -216.000000
+[2019.02.14-21.49.14:639][825]LogTemp: Current Speed: -217.000000
+[2019.02.14-21.49.14:644][826]LogTemp: Current Speed: -218.000000
+[2019.02.14-21.49.14:654][827]LogTemp: Current Speed: -219.000000
+[2019.02.14-21.49.14:661][828]LogTemp: Current Speed: -220.000000
+[2019.02.14-21.49.14:671][829]LogTemp: Current Speed: -221.000000
+[2019.02.14-21.49.14:677][830]LogTemp: Current Speed: -222.000000
+[2019.02.14-21.49.14:686][831]LogTemp: Current Speed: -223.000000
+[2019.02.14-21.49.14:704][832]LogTemp: Current Speed: -224.000000
+[2019.02.14-21.49.14:712][833]LogTemp: Current Speed: -225.000000
+[2019.02.14-21.49.14:721][834]LogTemp: Current Speed: -226.000000
+[2019.02.14-21.49.14:729][835]LogTemp: Current Speed: -227.000000
+[2019.02.14-21.49.14:740][836]LogTemp: Current Speed: -228.000000
+[2019.02.14-21.49.14:747][837]LogTemp: Current Speed: -229.000000
+[2019.02.14-21.49.14:754][838]LogTemp: Current Speed: -230.000000
+[2019.02.14-21.49.14:764][839]LogTemp: Current Speed: -231.000000
+[2019.02.14-21.49.14:771][840]LogTemp: Current Speed: -232.000000
+[2019.02.14-21.49.14:779][841]LogTemp: Current Speed: -233.000000
+[2019.02.14-21.49.14:787][842]LogTemp: Current Speed: -234.000000
+[2019.02.14-21.49.14:796][843]LogTemp: Current Speed: -235.000000
+[2019.02.14-21.49.14:804][844]LogTemp: Current Speed: -236.000000
+[2019.02.14-21.49.14:813][845]LogTemp: Current Speed: -237.000000
+[2019.02.14-21.49.14:821][846]LogTemp: Current Speed: -238.000000
+[2019.02.14-21.49.14:830][847]LogTemp: Current Speed: -239.000000
+[2019.02.14-21.49.14:839][848]LogTemp: Current Speed: -240.000000
+[2019.02.14-21.49.14:846][849]LogTemp: Current Speed: -241.000000
+[2019.02.14-21.49.14:855][850]LogTemp: Current Speed: -242.000000
+[2019.02.14-21.49.14:863][851]LogTemp: Current Speed: -243.000000
+[2019.02.14-21.49.14:872][852]LogTemp: Current Speed: -244.000000
+[2019.02.14-21.49.14:880][853]LogTemp: Current Speed: -245.000000
+[2019.02.14-21.49.14:889][854]LogTemp: Current Speed: -246.000000
+[2019.02.14-21.49.14:896][855]LogTemp: Current Speed: -247.000000
+[2019.02.14-21.49.14:906][856]LogTemp: Current Speed: -248.000000
+[2019.02.14-21.49.14:913][857]LogTemp: Current Speed: -249.000000
+[2019.02.14-21.49.14:922][858]LogTemp: Current Speed: -250.000000
+[2019.02.14-21.49.14:930][859]LogTemp: Current Speed: -251.000000
+[2019.02.14-21.49.14:938][860]LogTemp: Current Speed: -252.000000
+[2019.02.14-21.49.14:946][861]LogTemp: Current Speed: -253.000000
+[2019.02.14-21.49.14:956][862]LogTemp: Current Speed: -254.000000
+[2019.02.14-21.49.14:968][863]LogTemp: Current Speed: -255.000000
+[2019.02.14-21.49.14:974][864]LogTemp: Current Speed: -256.000000
+[2019.02.14-21.49.14:984][865]LogTemp: Current Speed: -257.000000
+[2019.02.14-21.49.14:991][866]LogTemp: Current Speed: -258.000000
+[2019.02.14-21.49.14:999][867]LogTemp: Current Speed: -259.000000
+[2019.02.14-21.49.15:007][868]LogTemp: Current Speed: -260.000000
+[2019.02.14-21.49.15:016][869]LogTemp: Current Speed: -261.000000
+[2019.02.14-21.49.15:024][870]LogTemp: Current Speed: -262.000000
+[2019.02.14-21.49.15:033][871]LogTemp: Current Speed: -263.000000
+[2019.02.14-21.49.15:041][872]LogTemp: Current Speed: -264.000000
+[2019.02.14-21.49.15:051][873]LogTemp: Current Speed: -265.000000
+[2019.02.14-21.49.15:060][874]LogTemp: Current Speed: -266.000000
+[2019.02.14-21.49.15:066][875]LogTemp: Current Speed: -267.000000
+[2019.02.14-21.49.15:074][876]LogTemp: Current Speed: -268.000000
+[2019.02.14-21.49.15:083][877]LogTemp: Current Speed: -269.000000
+[2019.02.14-21.49.15:092][878]LogTemp: Current Speed: -270.000000
+[2019.02.14-21.49.15:099][879]LogTemp: Current Speed: -271.000000
+[2019.02.14-21.49.15:108][880]LogTemp: Current Speed: -272.000000
+[2019.02.14-21.49.15:117][881]LogTemp: Current Speed: -273.000000
+[2019.02.14-21.49.15:125][882]LogTemp: Current Speed: -274.000000
+[2019.02.14-21.49.15:135][883]LogTemp: Current Speed: -275.000000
+[2019.02.14-21.49.15:142][884]LogTemp: Current Speed: -276.000000
+[2019.02.14-21.49.15:156][885]LogTemp: Current Speed: -277.000000
+[2019.02.14-21.49.15:165][886]LogTemp: Current Speed: -278.000000
+[2019.02.14-21.49.15:174][887]LogTemp: Current Speed: -279.000000
+[2019.02.14-21.49.15:185][888]LogTemp: Current Speed: -280.000000
+[2019.02.14-21.49.15:190][889]LogTemp: Current Speed: -281.000000
+[2019.02.14-21.49.15:198][890]LogTemp: Current Speed: -282.000000
+[2019.02.14-21.49.15:207][891]LogTemp: Current Speed: -283.000000
+[2019.02.14-21.49.15:215][892]LogTemp: Current Speed: -284.000000
+[2019.02.14-21.49.15:223][893]LogTemp: Current Speed: -285.000000
+[2019.02.14-21.49.15:232][894]LogTemp: Current Speed: -286.000000
+[2019.02.14-21.49.15:240][895]LogTemp: Current Speed: -287.000000
+[2019.02.14-21.49.15:248][896]LogTemp: Current Speed: -288.000000
+[2019.02.14-21.49.15:257][897]LogTemp: Current Speed: -289.000000
+[2019.02.14-21.49.15:265][898]LogTemp: Current Speed: -290.000000
+[2019.02.14-21.49.15:273][899]LogTemp: Current Speed: -291.000000
+[2019.02.14-21.49.15:282][900]LogTemp: Current Speed: -292.000000
+[2019.02.14-21.49.15:295][901]LogTemp: Current Speed: -293.000000
+[2019.02.14-21.49.15:299][902]LogTemp: Current Speed: -294.000000
+[2019.02.14-21.49.15:309][903]LogTemp: Current Speed: -295.000000
+[2019.02.14-21.49.15:315][904]LogTemp: Current Speed: -296.000000
+[2019.02.14-21.49.15:329][905]LogTemp: Current Speed: -297.000000
+[2019.02.14-21.49.15:334][906]LogTemp: Current Speed: -298.000000
+[2019.02.14-21.49.15:343][907]LogTemp: Current Speed: -299.000000
+[2019.02.14-21.49.15:352][908]LogTemp: Current Speed: -300.000000
+[2019.02.14-21.49.15:364][909]LogTemp: Current Speed: -301.000000
+[2019.02.14-21.49.15:373][910]LogTemp: Current Speed: -302.000000
+[2019.02.14-21.49.15:380][911]LogTemp: Current Speed: -303.000000
+[2019.02.14-21.49.15:389][912]LogTemp: Current Speed: -304.000000
+[2019.02.14-21.49.15:397][913]LogTemp: Current Speed: -305.000000
+[2019.02.14-21.49.15:405][914]LogTemp: Current Speed: -306.000000
+[2019.02.14-21.49.15:414][915]LogTemp: Current Speed: -307.000000
+[2019.02.14-21.49.15:422][916]LogTemp: Current Speed: -308.000000
+[2019.02.14-21.49.15:430][917]LogTemp: Current Speed: -309.000000
+[2019.02.14-21.49.15:439][918]LogTemp: Current Speed: -310.000000
+[2019.02.14-21.49.15:447][919]LogTemp: Current Speed: -311.000000
+[2019.02.14-21.49.15:457][920]LogTemp: Current Speed: -312.000000
+[2019.02.14-21.49.15:467][921]LogTemp: Current Speed: -313.000000
+[2019.02.14-21.49.15:472][922]LogTemp: Current Speed: -314.000000
+[2019.02.14-21.49.15:481][923]LogTemp: Current Speed: -315.000000
+[2019.02.14-21.49.15:489][924]LogTemp: Current Speed: -316.000000
+[2019.02.14-21.49.15:498][925]LogTemp: Current Speed: -317.000000
+[2019.02.14-21.49.15:506][926]LogTemp: Current Speed: -318.000000
+[2019.02.14-21.49.15:514][927]LogTemp: Current Speed: -319.000000
+[2019.02.14-21.49.15:522][928]LogTemp: Current Speed: -320.000000
+[2019.02.14-21.49.15:532][929]LogTemp: Current Speed: -321.000000
+[2019.02.14-21.49.15:539][930]LogTemp: Current Speed: -322.000000
+[2019.02.14-21.49.15:547][931]LogTemp: Current Speed: -323.000000
+[2019.02.14-21.49.15:557][932]LogTemp: Current Speed: -324.000000
+[2019.02.14-21.49.15:563][933]LogTemp: Current Speed: -325.000000
+[2019.02.14-21.49.15:572][934]LogTemp: Current Speed: -326.000000
+[2019.02.14-21.49.15:581][935]LogTemp: Current Speed: -327.000000
+[2019.02.14-21.49.15:589][936]LogTemp: Current Speed: -328.000000
+[2019.02.14-21.49.15:597][937]LogTemp: Current Speed: -329.000000
+[2019.02.14-21.49.15:605][938]LogTemp: Current Speed: -330.000000
+[2019.02.14-21.49.15:613][939]LogTemp: Current Speed: -331.000000
+[2019.02.14-21.49.15:623][940]LogTemp: Current Speed: -332.000000
+[2019.02.14-21.49.15:630][941]LogTemp: Current Speed: -333.000000
+[2019.02.14-21.49.15:638][942]LogTemp: Current Speed: -334.000000
+[2019.02.14-21.49.15:647][943]LogTemp: Current Speed: -335.000000
+[2019.02.14-21.49.15:655][944]LogTemp: Current Speed: -336.000000
+[2019.02.14-21.49.15:663][945]LogTemp: Current Speed: -337.000000
+[2019.02.14-21.49.15:672][946]LogTemp: Current Speed: -338.000000
+[2019.02.14-21.49.15:682][947]LogTemp: Current Speed: -339.000000
+[2019.02.14-21.49.15:689][948]LogTemp: Current Speed: -340.000000
+[2019.02.14-21.49.15:697][949]LogTemp: Current Speed: -341.000000
+[2019.02.14-21.49.15:705][950]LogTemp: Current Speed: -342.000000
+[2019.02.14-21.49.15:714][951]LogTemp: Current Speed: -343.000000
+[2019.02.14-21.49.15:722][952]LogTemp: Current Speed: -344.000000
+[2019.02.14-21.49.15:730][953]LogTemp: Current Speed: -345.000000
+[2019.02.14-21.49.15:739][954]LogTemp: Current Speed: -346.000000
+[2019.02.14-21.49.15:749][955]LogTemp: Current Speed: -347.000000
+[2019.02.14-21.49.15:755][956]LogTemp: Current Speed: -348.000000
+[2019.02.14-21.49.15:764][957]LogTemp: Current Speed: -349.000000
+[2019.02.14-21.49.15:772][958]LogTemp: Current Speed: -350.000000
+[2019.02.14-21.49.15:784][959]LogTemp: Current Speed: -351.000000
+[2019.02.14-21.49.15:789][960]LogTemp: Current Speed: -352.000000
+[2019.02.14-21.49.15:798][961]LogTemp: Current Speed: -353.000000
+[2019.02.14-21.49.15:808][962]LogTemp: Current Speed: -354.000000
+[2019.02.14-21.49.15:815][963]LogTemp: Current Speed: -355.000000
+[2019.02.14-21.49.15:823][964]LogTemp: Current Speed: -356.000000
+[2019.02.14-21.49.15:832][965]LogTemp: Current Speed: -357.000000
+[2019.02.14-21.49.15:840][966]LogTemp: Current Speed: -358.000000
+[2019.02.14-21.49.15:848][967]LogTemp: Current Speed: -359.000000
+[2019.02.14-21.49.15:857][968]LogTemp: Current Speed: -360.000000
+[2019.02.14-21.49.15:865][969]LogTemp: Current Speed: -361.000000
+[2019.02.14-21.49.15:874][970]LogTemp: Current Speed: -362.000000
+[2019.02.14-21.49.15:882][971]LogTemp: Current Speed: -363.000000
+[2019.02.14-21.49.15:890][972]LogTemp: Current Speed: -364.000000
+[2019.02.14-21.49.15:898][973]LogTemp: Current Speed: -365.000000
+[2019.02.14-21.49.15:908][974]LogTemp: Current Speed: -366.000000
+[2019.02.14-21.49.15:915][975]LogTemp: Current Speed: -367.000000
+[2019.02.14-21.49.15:923][976]LogTemp: Current Speed: -368.000000
+[2019.02.14-21.49.15:933][977]LogTemp: Current Speed: -369.000000
+[2019.02.14-21.49.15:940][978]LogTemp: Current Speed: -370.000000
+[2019.02.14-21.49.15:948][979]LogTemp: Current Speed: -371.000000
+[2019.02.14-21.49.15:957][980]LogTemp: Current Speed: -372.000000
+[2019.02.14-21.49.15:965][981]LogTemp: Current Speed: -373.000000
+[2019.02.14-21.49.15:974][982]LogTemp: Current Speed: -374.000000
+[2019.02.14-21.49.15:983][983]LogTemp: Current Speed: -375.000000
+[2019.02.14-21.49.15:991][984]LogTemp: Current Speed: -376.000000
+[2019.02.14-21.49.16:002][985]LogTemp: Current Speed: -377.000000
+[2019.02.14-21.49.16:012][986]LogTemp: Current Speed: -378.000000
+[2019.02.14-21.49.16:019][987]LogTemp: Current Speed: -379.000000
+[2019.02.14-21.49.16:027][988]LogTemp: Current Speed: -380.000000
+[2019.02.14-21.49.16:036][989]LogTemp: Current Speed: -381.000000
+[2019.02.14-21.49.16:046][990]LogTemp: Current Speed: -382.000000
+[2019.02.14-21.49.16:053][991]LogTemp: Current Speed: -383.000000
+[2019.02.14-21.49.16:061][992]LogTemp: Current Speed: -384.000000
+[2019.02.14-21.49.16:070][993]LogTemp: Current Speed: -385.000000
+[2019.02.14-21.49.16:080][994]LogTemp: Current Speed: -386.000000
+[2019.02.14-21.49.16:089][995]LogTemp: Current Speed: -387.000000
+[2019.02.14-21.49.16:097][996]LogTemp: Current Speed: -388.000000
+[2019.02.14-21.49.16:109][997]LogTemp: Current Speed: -389.000000
+[2019.02.14-21.49.16:122][998]LogTemp: Current Speed: -390.000000
+[2019.02.14-21.49.16:126][999]LogTemp: Current Speed: -391.000000
+[2019.02.14-21.49.16:136][  0]LogTemp: Current Speed: -392.000000
+[2019.02.14-21.49.16:143][  1]LogTemp: Current Speed: -393.000000
+[2019.02.14-21.49.16:153][  2]LogTemp: Current Speed: -394.000000
+[2019.02.14-21.49.16:165][  3]LogTemp: Current Speed: -395.000000
+[2019.02.14-21.49.16:174][  4]LogTemp: Current Speed: -396.000000
+[2019.02.14-21.49.16:184][  5]LogTemp: Current Speed: -397.000000
+[2019.02.14-21.49.16:192][  6]LogTemp: Current Speed: -398.000000
+[2019.02.14-21.49.16:200][  7]LogTemp: Current Speed: -399.000000
+[2019.02.14-21.49.16:210][  8]LogTemp: Current Speed: -400.000000
+[2019.02.14-21.49.16:219][  9]LogTemp: Current Speed: -401.000000
+[2019.02.14-21.49.16:227][ 10]LogTemp: Current Speed: -402.000000
+[2019.02.14-21.49.16:238][ 11]LogTemp: Current Speed: -403.000000
+[2019.02.14-21.49.16:248][ 12]LogTemp: Current Speed: -404.000000
+[2019.02.14-21.49.16:254][ 13]LogTemp: Current Speed: -405.000000
+[2019.02.14-21.49.16:263][ 14]LogTemp: Current Speed: -406.000000
+[2019.02.14-21.49.16:270][ 15]LogTemp: Current Speed: -407.000000
+[2019.02.14-21.49.16:280][ 16]LogTemp: Current Speed: -408.000000
+[2019.02.14-21.49.16:287][ 17]LogTemp: Current Speed: -409.000000
+[2019.02.14-21.49.16:296][ 18]LogTemp: Current Speed: -410.000000
+[2019.02.14-21.49.16:304][ 19]LogTemp: Current Speed: -411.000000
+[2019.02.14-21.49.16:313][ 20]LogTemp: Current Speed: -412.000000
+[2019.02.14-21.49.16:321][ 21]LogTemp: Current Speed: -413.000000
+[2019.02.14-21.49.16:330][ 22]LogTemp: Current Speed: -414.000000
+[2019.02.14-21.49.16:340][ 23]LogTemp: Current Speed: -415.000000
+[2019.02.14-21.49.16:348][ 24]LogTemp: Current Speed: -416.000000
+[2019.02.14-21.49.16:356][ 25]LogTemp: Current Speed: -417.000000
+[2019.02.14-21.49.16:366][ 26]LogTemp: Current Speed: -418.000000
+[2019.02.14-21.49.16:374][ 27]LogTemp: Current Speed: -419.000000
+[2019.02.14-21.49.16:388][ 28]LogTemp: Current Speed: -420.000000
+[2019.02.14-21.49.16:393][ 29]LogTemp: Current Speed: -421.000000
+[2019.02.14-21.49.16:402][ 30]LogTemp: Current Speed: -422.000000
+[2019.02.14-21.49.16:413][ 31]LogTemp: Current Speed: -423.000000
+[2019.02.14-21.49.16:422][ 32]LogTemp: Current Speed: -424.000000
+[2019.02.14-21.49.16:441][ 33]LogTemp: Current Speed: -425.000000
+[2019.02.14-21.49.16:452][ 34]LogTemp: Current Speed: -426.000000
+[2019.02.14-21.49.16:461][ 35]LogTemp: Current Speed: -427.000000
+[2019.02.14-21.49.16:469][ 36]LogTemp: Current Speed: -428.000000
+[2019.02.14-21.49.16:478][ 37]LogTemp: Current Speed: -429.000000
+[2019.02.14-21.49.16:487][ 38]LogTemp: Current Speed: -430.000000
+[2019.02.14-21.49.16:497][ 39]LogTemp: Current Speed: -431.000000
+[2019.02.14-21.49.16:504][ 40]LogTemp: Current Speed: -432.000000
+[2019.02.14-21.49.16:513][ 41]LogTemp: Current Speed: -433.000000
+[2019.02.14-21.49.16:521][ 42]LogTemp: Current Speed: -434.000000
+[2019.02.14-21.49.16:529][ 43]LogTemp: Current Speed: -435.000000
+[2019.02.14-21.49.16:537][ 44]LogTemp: Current Speed: -436.000000
+[2019.02.14-21.49.16:547][ 45]LogTemp: Current Speed: -437.000000
+[2019.02.14-21.49.16:557][ 46]LogTemp: Current Speed: -438.000000
+[2019.02.14-21.49.16:572][ 47]LogTemp: Current Speed: -439.000000
+[2019.02.14-21.49.16:589][ 48]LogTemp: Current Speed: -440.000000
+[2019.02.14-21.49.16:607][ 49]LogTemp: Current Speed: -441.000000
+[2019.02.14-21.49.16:615][ 50]LogTemp: Current Speed: -442.000000
+[2019.02.14-21.49.16:624][ 51]LogTemp: Current Speed: -443.000000
+[2019.02.14-21.49.16:632][ 52]LogTemp: Current Speed: -444.000000
+[2019.02.14-21.49.16:641][ 53]LogTemp: Current Speed: -445.000000
+[2019.02.14-21.49.16:650][ 54]LogTemp: Current Speed: -446.000000
+[2019.02.14-21.49.16:658][ 55]LogTemp: Current Speed: -447.000000
+[2019.02.14-21.49.16:667][ 56]LogTemp: Current Speed: -448.000000
+[2019.02.14-21.49.16:676][ 57]LogTemp: Current Speed: -449.000000
+[2019.02.14-21.49.16:803][ 71]LogTemp: Current Speed: 1.000000
+[2019.02.14-21.49.16:812][ 72]LogTemp: Current Speed: 2.000000
+[2019.02.14-21.49.16:820][ 73]LogTemp: Current Speed: 3.000000
+[2019.02.14-21.49.16:830][ 74]LogTemp: Current Speed: 4.000000
+[2019.02.14-21.49.16:837][ 75]LogTemp: Current Speed: 5.000000
+[2019.02.14-21.49.16:845][ 76]LogTemp: Current Speed: 6.000000
+[2019.02.14-21.49.16:853][ 77]LogTemp: Current Speed: 7.000000
+[2019.02.14-21.49.16:863][ 78]LogTemp: Current Speed: 8.000000
+[2019.02.14-21.49.16:872][ 79]LogTemp: Current Speed: 9.000000
+[2019.02.14-21.49.16:878][ 80]LogTemp: Current Speed: 10.000000
+[2019.02.14-21.49.16:888][ 81]LogTemp: Current Speed: 11.000000
+[2019.02.14-21.49.16:895][ 82]LogTemp: Current Speed: 12.000000
+[2019.02.14-21.49.16:904][ 83]LogTemp: Current Speed: 13.000000
+[2019.02.14-21.49.16:912][ 84]LogTemp: Current Speed: 14.000000
+[2019.02.14-21.49.16:921][ 85]LogTemp: Current Speed: 15.000000
+[2019.02.14-21.49.16:929][ 86]LogTemp: Current Speed: 16.000000
+[2019.02.14-21.49.16:937][ 87]LogTemp: Current Speed: 17.000000
+[2019.02.14-21.49.16:945][ 88]LogTemp: Current Speed: 18.000000
+[2019.02.14-21.49.16:955][ 89]LogTemp: Current Speed: 19.000000
+[2019.02.14-21.49.16:964][ 90]LogTemp: Current Speed: 20.000000
+[2019.02.14-21.49.16:970][ 91]LogTemp: Current Speed: 21.000000
+[2019.02.14-21.49.16:980][ 92]LogTemp: Current Speed: 22.000000
+[2019.02.14-21.49.16:987][ 93]LogTemp: Current Speed: 23.000000
+[2019.02.14-21.49.16:996][ 94]LogTemp: Current Speed: 24.000000
+[2019.02.14-21.49.17:004][ 95]LogTemp: Current Speed: 25.000000
+[2019.02.14-21.49.17:014][ 96]LogTemp: Current Speed: 26.000000
+[2019.02.14-21.49.17:021][ 97]LogTemp: Current Speed: 27.000000
+[2019.02.14-21.49.17:029][ 98]LogTemp: Current Speed: 28.000000
+[2019.02.14-21.49.17:039][ 99]LogTemp: Current Speed: 29.000000
+[2019.02.14-21.49.17:047][100]LogTemp: Current Speed: 30.000000
+[2019.02.14-21.49.17:056][101]LogTemp: Current Speed: 31.000000
+[2019.02.14-21.49.17:064][102]LogTemp: Current Speed: 32.000000
+[2019.02.14-21.49.17:072][103]LogTemp: Current Speed: 33.000000
+[2019.02.14-21.49.17:082][104]LogTemp: Current Speed: 34.000000
+[2019.02.14-21.49.17:091][105]LogTemp: Current Speed: 35.000000
+[2019.02.14-21.49.17:099][106]LogTemp: Current Speed: 36.000000
+[2019.02.14-21.49.17:107][107]LogTemp: Current Speed: 37.000000
+[2019.02.14-21.49.17:116][108]LogTemp: Current Speed: 38.000000
+[2019.02.14-21.49.17:124][109]LogTemp: Current Speed: 39.000000
+[2019.02.14-21.49.17:132][110]LogTemp: Current Speed: 40.000000
+[2019.02.14-21.49.17:141][111]LogTemp: Current Speed: 41.000000
+[2019.02.14-21.49.17:149][112]LogTemp: Current Speed: 42.000000
+[2019.02.14-21.49.17:159][113]LogTemp: Current Speed: 43.000000
+[2019.02.14-21.49.17:166][114]LogTemp: Current Speed: 44.000000
+[2019.02.14-21.49.17:174][115]LogTemp: Current Speed: 45.000000
+[2019.02.14-21.49.17:186][116]LogTemp: Current Speed: 46.000000
+[2019.02.14-21.49.17:195][117]LogTemp: Current Speed: 47.000000
+[2019.02.14-21.49.17:205][118]LogTemp: Current Speed: 48.000000
+[2019.02.14-21.49.17:211][119]LogTemp: Current Speed: 49.000000
+[2019.02.14-21.49.17:221][120]LogTemp: Current Speed: 50.000000
+[2019.02.14-21.49.17:231][121]LogTemp: Current Speed: 51.000000
+[2019.02.14-21.49.17:238][122]LogTemp: Current Speed: 52.000000
+[2019.02.14-21.49.17:248][123]LogTemp: Current Speed: 53.000000
+[2019.02.14-21.49.17:255][124]LogTemp: Current Speed: 54.000000
+[2019.02.14-21.49.17:263][125]LogTemp: Current Speed: 55.000000
+[2019.02.14-21.49.17:271][126]LogTemp: Current Speed: 56.000000
+[2019.02.14-21.49.17:283][127]LogTemp: Current Speed: 57.000000
+[2019.02.14-21.49.17:291][128]LogTemp: Current Speed: 58.000000
+[2019.02.14-21.49.17:302][129]LogTemp: Current Speed: 59.000000
+[2019.02.14-21.49.17:310][130]LogTemp: Current Speed: 60.000000
+[2019.02.14-21.49.17:318][131]LogTemp: Current Speed: 61.000000
+[2019.02.14-21.49.17:329][132]LogTemp: Current Speed: 62.000000
+[2019.02.14-21.49.17:336][133]LogTemp: Current Speed: 63.000000
+[2019.02.14-21.49.17:345][134]LogTemp: Current Speed: 64.000000
+[2019.02.14-21.49.17:353][135]LogTemp: Current Speed: 65.000000
+[2019.02.14-21.49.17:362][136]LogTemp: Current Speed: 66.000000
+[2019.02.14-21.49.17:374][137]LogTemp: Current Speed: 67.000000
+[2019.02.14-21.49.17:379][138]LogTemp: Current Speed: 68.000000
+[2019.02.14-21.49.17:388][139]LogTemp: Current Speed: 69.000000
+[2019.02.14-21.49.17:395][140]LogTemp: Current Speed: 70.000000
+[2019.02.14-21.49.17:404][141]LogTemp: Current Speed: 71.000000
+[2019.02.14-21.49.17:412][142]LogTemp: Current Speed: 72.000000
+[2019.02.14-21.49.17:423][143]LogTemp: Current Speed: 73.000000
+[2019.02.14-21.49.17:436][144]LogTemp: Current Speed: 74.000000
+[2019.02.14-21.49.17:442][145]LogTemp: Current Speed: 75.000000
+[2019.02.14-21.49.17:453][146]LogTemp: Current Speed: 76.000000
+[2019.02.14-21.49.17:459][147]LogTemp: Current Speed: 77.000000
+[2019.02.14-21.49.17:469][148]LogTemp: Current Speed: 78.000000
+[2019.02.14-21.49.17:476][149]LogTemp: Current Speed: 79.000000
+[2019.02.14-21.49.17:484][150]LogTemp: Current Speed: 80.000000
+[2019.02.14-21.49.17:495][151]LogTemp: Current Speed: 81.000000
+[2019.02.14-21.49.17:501][152]LogTemp: Current Speed: 82.000000
+[2019.02.14-21.49.17:511][153]LogTemp: Current Speed: 83.000000
+[2019.02.14-21.49.17:518][154]LogTemp: Current Speed: 84.000000
+[2019.02.14-21.49.17:527][155]LogTemp: Current Speed: 85.000000
+[2019.02.14-21.49.17:534][156]LogTemp: Current Speed: 86.000000
+[2019.02.14-21.49.17:543][157]LogTemp: Current Speed: 87.000000
+[2019.02.14-21.49.17:551][158]LogTemp: Current Speed: 88.000000
+[2019.02.14-21.49.17:561][159]LogTemp: Current Speed: 89.000000
+[2019.02.14-21.49.17:568][160]LogTemp: Current Speed: 90.000000
+[2019.02.14-21.49.17:577][161]LogTemp: Current Speed: 91.000000
+[2019.02.14-21.49.17:584][162]LogTemp: Current Speed: 92.000000
+[2019.02.14-21.49.17:594][163]LogTemp: Current Speed: 93.000000
+[2019.02.14-21.49.17:601][164]LogTemp: Current Speed: 94.000000
+[2019.02.14-21.49.17:611][165]LogTemp: Current Speed: 95.000000
+[2019.02.14-21.49.17:618][166]LogTemp: Current Speed: 96.000000
+[2019.02.14-21.49.17:627][167]LogTemp: Current Speed: 97.000000
+[2019.02.14-21.49.17:638][168]LogTemp: Current Speed: 98.000000
+[2019.02.14-21.49.17:645][169]LogTemp: Current Speed: 99.000000
+[2019.02.14-21.49.17:654][170]LogTemp: Current Speed: 100.000000
+[2019.02.14-21.49.17:661][171]LogTemp: Current Speed: 101.000000
+[2019.02.14-21.49.17:671][172]LogTemp: Current Speed: 102.000000
+[2019.02.14-21.49.17:679][173]LogTemp: Current Speed: 103.000000
+[2019.02.14-21.49.17:687][174]LogTemp: Current Speed: 104.000000
+[2019.02.14-21.49.17:695][175]LogTemp: Current Speed: 105.000000
+[2019.02.14-21.49.17:706][176]LogTemp: Current Speed: 106.000000
+[2019.02.14-21.49.17:714][177]LogTemp: Current Speed: 107.000000
+[2019.02.14-21.49.17:721][178]LogTemp: Current Speed: 108.000000
+[2019.02.14-21.49.17:731][179]LogTemp: Current Speed: 109.000000
+[2019.02.14-21.49.17:737][180]LogTemp: Current Speed: 110.000000
+[2019.02.14-21.49.17:747][181]LogTemp: Current Speed: 111.000000
+[2019.02.14-21.49.17:754][182]LogTemp: Current Speed: 112.000000
+[2019.02.14-21.49.17:763][183]LogTemp: Current Speed: 113.000000
+[2019.02.14-21.49.17:771][184]LogTemp: Current Speed: 114.000000
+[2019.02.14-21.49.17:780][185]LogTemp: Current Speed: 115.000000
+[2019.02.14-21.49.17:787][186]LogTemp: Current Speed: 116.000000
+[2019.02.14-21.49.17:796][187]LogTemp: Current Speed: 117.000000
+[2019.02.14-21.49.17:804][188]LogTemp: Current Speed: 118.000000
+[2019.02.14-21.49.17:813][189]LogTemp: Current Speed: 119.000000
+[2019.02.14-21.49.17:821][190]LogTemp: Current Speed: 120.000000
+[2019.02.14-21.49.17:831][191]LogTemp: Current Speed: 121.000000
+[2019.02.14-21.49.17:841][192]LogTemp: Current Speed: 122.000000
+[2019.02.14-21.49.17:848][193]LogTemp: Current Speed: 123.000000
+[2019.02.14-21.49.17:858][194]LogTemp: Current Speed: 124.000000
+[2019.02.14-21.49.17:865][195]LogTemp: Current Speed: 125.000000
+[2019.02.14-21.49.17:875][196]LogTemp: Current Speed: 126.000000
+[2019.02.14-21.49.17:882][197]LogTemp: Current Speed: 127.000000
+[2019.02.14-21.49.17:890][198]LogTemp: Current Speed: 128.000000
+[2019.02.14-21.49.17:899][199]LogTemp: Current Speed: 129.000000
+[2019.02.14-21.49.17:907][200]LogTemp: Current Speed: 130.000000
+[2019.02.14-21.49.17:915][201]LogTemp: Current Speed: 131.000000
+[2019.02.14-21.49.17:927][202]LogTemp: Current Speed: 132.000000
+[2019.02.14-21.49.17:934][203]LogTemp: Current Speed: 133.000000
+[2019.02.14-21.49.17:942][204]LogTemp: Current Speed: 134.000000
+[2019.02.14-21.49.17:952][205]LogTemp: Current Speed: 135.000000
+[2019.02.14-21.49.17:959][206]LogTemp: Current Speed: 136.000000
+[2019.02.14-21.49.17:967][207]LogTemp: Current Speed: 137.000000
+[2019.02.14-21.49.17:975][208]LogTemp: Current Speed: 138.000000
+[2019.02.14-21.49.17:987][209]LogTemp: Current Speed: 139.000000
+[2019.02.14-21.49.17:993][210]LogTemp: Current Speed: 140.000000
+[2019.02.14-21.49.18:002][211]LogTemp: Current Speed: 141.000000
+[2019.02.14-21.49.18:013][212]LogTemp: Current Speed: 142.000000
+[2019.02.14-21.49.18:018][213]LogTemp: Current Speed: 143.000000
+[2019.02.14-21.49.18:028][214]LogTemp: Current Speed: 144.000000
+[2019.02.14-21.49.18:035][215]LogTemp: Current Speed: 145.000000
+[2019.02.14-21.49.18:043][216]LogTemp: Current Speed: 146.000000
+[2019.02.14-21.49.18:052][217]LogTemp: Current Speed: 147.000000
+[2019.02.14-21.49.18:061][218]LogTemp: Current Speed: 148.000000
+[2019.02.14-21.49.18:069][219]LogTemp: Current Speed: 149.000000
+[2019.02.14-21.49.18:080][220]LogTemp: Current Speed: 150.000000
+[2019.02.14-21.49.18:091][221]LogTemp: Current Speed: 151.000000
+[2019.02.14-21.49.18:097][222]LogTemp: Current Speed: 152.000000
+[2019.02.14-21.49.18:106][223]LogTemp: Current Speed: 153.000000
+[2019.02.14-21.49.18:114][224]LogTemp: Current Speed: 154.000000
+[2019.02.14-21.49.18:123][225]LogTemp: Current Speed: 155.000000
+[2019.02.14-21.49.18:131][226]LogTemp: Current Speed: 156.000000
+[2019.02.14-21.49.18:139][227]LogTemp: Current Speed: 157.000000
+[2019.02.14-21.49.18:147][228]LogTemp: Current Speed: 158.000000
+[2019.02.14-21.49.18:157][229]LogTemp: Current Speed: 159.000000
+[2019.02.14-21.49.18:164][230]LogTemp: Current Speed: 160.000000
+[2019.02.14-21.49.18:173][231]LogTemp: Current Speed: 161.000000
+[2019.02.14-21.49.18:183][232]LogTemp: Current Speed: 162.000000
+[2019.02.14-21.49.18:189][233]LogTemp: Current Speed: 163.000000
+[2019.02.14-21.49.18:197][234]LogTemp: Current Speed: 164.000000
+[2019.02.14-21.49.18:206][235]LogTemp: Current Speed: 165.000000
+[2019.02.14-21.49.18:215][236]LogTemp: Current Speed: 166.000000
+[2019.02.14-21.49.18:223][237]LogTemp: Current Speed: 167.000000
+[2019.02.14-21.49.18:231][238]LogTemp: Current Speed: 168.000000
+[2019.02.14-21.49.18:239][239]LogTemp: Current Speed: 169.000000
+[2019.02.14-21.49.18:249][240]LogTemp: Current Speed: 170.000000
+[2019.02.14-21.49.18:256][241]LogTemp: Current Speed: 171.000000
+[2019.02.14-21.49.18:264][242]LogTemp: Current Speed: 172.000000
+[2019.02.14-21.49.18:273][243]LogTemp: Current Speed: 173.000000
+[2019.02.14-21.49.18:283][244]LogTemp: Current Speed: 174.000000
+[2019.02.14-21.49.18:294][245]LogTemp: Current Speed: 175.000000
+[2019.02.14-21.49.18:300][246]LogTemp: Current Speed: 176.000000
+[2019.02.14-21.49.18:310][247]LogTemp: Current Speed: 177.000000
+[2019.02.14-21.49.18:317][248]LogTemp: Current Speed: 178.000000
+[2019.02.14-21.49.18:325][249]LogTemp: Current Speed: 179.000000
+[2019.02.14-21.49.18:334][250]LogTemp: Current Speed: 180.000000
+[2019.02.14-21.49.18:342][251]LogTemp: Current Speed: 181.000000
+[2019.02.14-21.49.18:350][252]LogTemp: Current Speed: 182.000000
+[2019.02.14-21.49.18:359][253]LogTemp: Current Speed: 183.000000
+[2019.02.14-21.49.18:367][254]LogTemp: Current Speed: 184.000000
+[2019.02.14-21.49.18:375][255]LogTemp: Current Speed: 185.000000
+[2019.02.14-21.49.18:387][256]LogTemp: Current Speed: 186.000000
+[2019.02.14-21.49.18:392][257]LogTemp: Current Speed: 187.000000
+[2019.02.14-21.49.18:400][258]LogTemp: Current Speed: 188.000000
+[2019.02.14-21.49.18:409][259]LogTemp: Current Speed: 189.000000
+[2019.02.14-21.49.18:421][260]LogTemp: Current Speed: 190.000000
+[2019.02.14-21.49.18:426][261]LogTemp: Current Speed: 191.000000
+[2019.02.14-21.49.18:435][262]LogTemp: Current Speed: 192.000000
+[2019.02.14-21.49.18:442][263]LogTemp: Current Speed: 193.000000
+[2019.02.14-21.49.18:451][264]LogTemp: Current Speed: 194.000000
+[2019.02.14-21.49.18:459][265]LogTemp: Current Speed: 195.000000
+[2019.02.14-21.49.18:468][266]LogTemp: Current Speed: 196.000000
+[2019.02.14-21.49.18:476][267]LogTemp: Current Speed: 197.000000
+[2019.02.14-21.49.18:487][268]LogTemp: Current Speed: 198.000000
+[2019.02.14-21.49.18:495][269]LogTemp: Current Speed: 199.000000
+[2019.02.14-21.49.18:503][270]LogTemp: Current Speed: 200.000000
+[2019.02.14-21.49.18:514][271]LogTemp: Current Speed: 201.000000
+[2019.02.14-21.49.18:521][272]LogTemp: Current Speed: 202.000000
+[2019.02.14-21.49.18:529][273]LogTemp: Current Speed: 203.000000
+[2019.02.14-21.49.18:539][274]LogTemp: Current Speed: 204.000000
+[2019.02.14-21.49.18:547][275]LogTemp: Current Speed: 205.000000
+[2019.02.14-21.49.18:555][276]LogTemp: Current Speed: 206.000000
+[2019.02.14-21.49.18:564][277]LogTemp: Current Speed: 207.000000
+[2019.02.14-21.49.18:572][278]LogTemp: Current Speed: 208.000000
+[2019.02.14-21.49.18:582][279]LogTemp: Current Speed: 209.000000
+[2019.02.14-21.49.18:591][280]LogTemp: Current Speed: 210.000000
+[2019.02.14-21.49.18:597][281]LogTemp: Current Speed: 211.000000
+[2019.02.14-21.49.18:608][282]LogTemp: Current Speed: 212.000000
+[2019.02.14-21.49.18:614][283]LogTemp: Current Speed: 213.000000
+[2019.02.14-21.49.18:624][284]LogTemp: Current Speed: 214.000000
+[2019.02.14-21.49.18:631][285]LogTemp: Current Speed: 215.000000
+[2019.02.14-21.49.18:639][286]LogTemp: Current Speed: 216.000000
+[2019.02.14-21.49.18:648][287]LogTemp: Current Speed: 217.000000
+[2019.02.14-21.49.18:658][288]LogTemp: Current Speed: 218.000000
+[2019.02.14-21.49.18:664][289]LogTemp: Current Speed: 219.000000
+[2019.02.14-21.49.18:673][290]LogTemp: Current Speed: 220.000000
+[2019.02.14-21.49.18:682][291]LogTemp: Current Speed: 221.000000
+[2019.02.14-21.49.18:689][292]LogTemp: Current Speed: 222.000000
+[2019.02.14-21.49.18:698][293]LogTemp: Current Speed: 223.000000
+[2019.02.14-21.49.18:707][294]LogTemp: Current Speed: 224.000000
+[2019.02.14-21.49.18:716][295]LogTemp: Current Speed: 225.000000
+[2019.02.14-21.49.18:723][296]LogTemp: Current Speed: 226.000000
+[2019.02.14-21.49.18:732][297]LogTemp: Current Speed: 227.000000
+[2019.02.14-21.49.18:740][298]LogTemp: Current Speed: 228.000000
+[2019.02.14-21.49.18:748][299]LogTemp: Current Speed: 229.000000
+[2019.02.14-21.49.18:757][300]LogTemp: Current Speed: 230.000000
+[2019.02.14-21.49.18:765][301]LogTemp: Current Speed: 231.000000
+[2019.02.14-21.49.18:773][302]LogTemp: Current Speed: 232.000000
+[2019.02.14-21.49.18:782][303]LogTemp: Current Speed: 233.000000
+[2019.02.14-21.49.18:790][304]LogTemp: Current Speed: 234.000000
+[2019.02.14-21.49.18:798][305]LogTemp: Current Speed: 235.000000
+[2019.02.14-21.49.18:808][306]LogTemp: Current Speed: 236.000000
+[2019.02.14-21.49.18:815][307]LogTemp: Current Speed: 237.000000
+[2019.02.14-21.49.18:823][308]LogTemp: Current Speed: 238.000000
+[2019.02.14-21.49.18:832][309]LogTemp: Current Speed: 239.000000
+[2019.02.14-21.49.18:841][310]LogTemp: Current Speed: 240.000000
+[2019.02.14-21.49.18:848][311]LogTemp: Current Speed: 241.000000
+[2019.02.14-21.49.18:857][312]LogTemp: Current Speed: 242.000000
+[2019.02.14-21.49.18:865][313]LogTemp: Current Speed: 243.000000
+[2019.02.14-21.49.18:875][314]LogTemp: Current Speed: 244.000000
+[2019.02.14-21.49.18:882][315]LogTemp: Current Speed: 245.000000
+[2019.02.14-21.49.18:890][316]LogTemp: Current Speed: 246.000000
+[2019.02.14-21.49.18:899][317]LogTemp: Current Speed: 247.000000
+[2019.02.14-21.49.18:907][318]LogTemp: Current Speed: 248.000000
+[2019.02.14-21.49.18:915][319]LogTemp: Current Speed: 249.000000
+[2019.02.14-21.49.18:924][320]LogTemp: Current Speed: 250.000000
+[2019.02.14-21.49.18:934][321]LogTemp: Current Speed: 251.000000
+[2019.02.14-21.49.18:941][322]LogTemp: Current Speed: 252.000000
+[2019.02.14-21.49.18:949][323]LogTemp: Current Speed: 253.000000
+[2019.02.14-21.49.18:957][324]LogTemp: Current Speed: 254.000000
+[2019.02.14-21.49.18:966][325]LogTemp: Current Speed: 255.000000
+[2019.02.14-21.49.18:974][326]LogTemp: Current Speed: 256.000000
+[2019.02.14-21.49.18:983][327]LogTemp: Current Speed: 257.000000
+[2019.02.14-21.49.18:991][328]LogTemp: Current Speed: 258.000000
+[2019.02.14-21.49.18:999][329]LogTemp: Current Speed: 259.000000
+[2019.02.14-21.49.19:007][330]LogTemp: Current Speed: 260.000000
+[2019.02.14-21.49.19:016][331]LogTemp: Current Speed: 261.000000
+[2019.02.14-21.49.19:024][332]LogTemp: Current Speed: 262.000000
+[2019.02.14-21.49.19:035][333]LogTemp: Current Speed: 263.000000
+[2019.02.14-21.49.19:041][334]LogTemp: Current Speed: 264.000000
+[2019.02.14-21.49.19:049][335]LogTemp: Current Speed: 265.000000
+[2019.02.14-21.49.19:059][336]LogTemp: Current Speed: 266.000000
+[2019.02.14-21.49.19:066][337]LogTemp: Current Speed: 267.000000
+[2019.02.14-21.49.19:074][338]LogTemp: Current Speed: 268.000000
+[2019.02.14-21.49.19:083][339]LogTemp: Current Speed: 269.000000
+[2019.02.14-21.49.19:092][340]LogTemp: Current Speed: 270.000000
+[2019.02.14-21.49.19:099][341]LogTemp: Current Speed: 271.000000
+[2019.02.14-21.49.19:108][342]LogTemp: Current Speed: 272.000000
+[2019.02.14-21.49.19:116][343]LogTemp: Current Speed: 273.000000
+[2019.02.14-21.49.19:124][344]LogTemp: Current Speed: 274.000000
+[2019.02.14-21.49.19:133][345]LogTemp: Current Speed: 275.000000
+[2019.02.14-21.49.19:141][346]LogTemp: Current Speed: 276.000000
+[2019.02.14-21.49.19:151][347]LogTemp: Current Speed: 277.000000
+[2019.02.14-21.49.19:158][348]LogTemp: Current Speed: 278.000000
+[2019.02.14-21.49.19:166][349]LogTemp: Current Speed: 279.000000
+[2019.02.14-21.49.19:175][350]LogTemp: Current Speed: 280.000000
+[2019.02.14-21.49.19:184][351]LogTemp: Current Speed: 281.000000
+[2019.02.14-21.49.19:191][352]LogTemp: Current Speed: 282.000000
+[2019.02.14-21.49.19:200][353]LogTemp: Current Speed: 283.000000
+[2019.02.14-21.49.19:224][354]LogTemp: Current Speed: 284.000000
+[2019.02.14-21.49.19:233][355]LogTemp: Current Speed: 285.000000
+[2019.02.14-21.49.19:242][356]LogTemp: Current Speed: 286.000000
+[2019.02.14-21.49.19:250][357]LogTemp: Current Speed: 287.000000
+[2019.02.14-21.49.19:260][358]LogTemp: Current Speed: 288.000000
+[2019.02.14-21.49.19:267][359]LogTemp: Current Speed: 289.000000
+[2019.02.14-21.49.19:277][360]LogTemp: Current Speed: 290.000000
+[2019.02.14-21.49.19:284][361]LogTemp: Current Speed: 291.000000
+[2019.02.14-21.49.19:294][362]LogTemp: Current Speed: 292.000000
+[2019.02.14-21.49.19:301][363]LogTemp: Current Speed: 293.000000
+[2019.02.14-21.49.19:310][364]LogTemp: Current Speed: 294.000000
+[2019.02.14-21.49.19:317][365]LogTemp: Current Speed: 295.000000
+[2019.02.14-21.49.19:326][366]LogTemp: Current Speed: 296.000000
+[2019.02.14-21.49.19:334][367]LogTemp: Current Speed: 297.000000
+[2019.02.14-21.49.19:342][368]LogTemp: Current Speed: 298.000000
+[2019.02.14-21.49.19:350][369]LogTemp: Current Speed: 299.000000
+[2019.02.14-21.49.19:360][370]LogTemp: Current Speed: 300.000000
+[2019.02.14-21.49.19:367][371]LogTemp: Current Speed: 301.000000
+[2019.02.14-21.49.19:375][372]LogTemp: Current Speed: 302.000000
+[2019.02.14-21.49.19:385][373]LogTemp: Current Speed: 303.000000
+[2019.02.14-21.49.19:392][374]LogTemp: Current Speed: 304.000000
+[2019.02.14-21.49.19:400][375]LogTemp: Current Speed: 305.000000
+[2019.02.14-21.49.19:409][376]LogTemp: Current Speed: 306.000000
+[2019.02.14-21.49.19:419][377]LogTemp: Current Speed: 307.000000
+[2019.02.14-21.49.19:425][378]LogTemp: Current Speed: 308.000000
+[2019.02.14-21.49.19:435][379]LogTemp: Current Speed: 309.000000
+[2019.02.14-21.49.19:442][380]LogTemp: Current Speed: 310.000000
+[2019.02.14-21.49.19:450][381]LogTemp: Current Speed: 311.000000
+[2019.02.14-21.49.19:459][382]LogTemp: Current Speed: 312.000000
+[2019.02.14-21.49.19:467][383]LogTemp: Current Speed: 313.000000
+[2019.02.14-21.49.19:475][384]LogTemp: Current Speed: 314.000000
+[2019.02.14-21.49.19:484][385]LogTemp: Current Speed: 315.000000
+[2019.02.14-21.49.19:492][386]LogTemp: Current Speed: 316.000000
+[2019.02.14-21.49.19:500][387]LogTemp: Current Speed: 317.000000
+[2019.02.14-21.49.19:510][388]LogTemp: Current Speed: 318.000000
+[2019.02.14-21.49.19:517][389]LogTemp: Current Speed: 319.000000
+[2019.02.14-21.49.19:525][390]LogTemp: Current Speed: 320.000000
+[2019.02.14-21.49.19:534][391]LogTemp: Current Speed: 321.000000
+[2019.02.14-21.49.19:542][392]LogTemp: Current Speed: 322.000000
+[2019.02.14-21.49.19:551][393]LogTemp: Current Speed: 323.000000
+[2019.02.14-21.49.19:560][394]LogTemp: Current Speed: 324.000000
+[2019.02.14-21.49.19:567][395]LogTemp: Current Speed: 325.000000
+[2019.02.14-21.49.19:576][396]LogTemp: Current Speed: 326.000000
+[2019.02.14-21.49.19:584][397]LogTemp: Current Speed: 327.000000
+[2019.02.14-21.49.19:593][398]LogTemp: Current Speed: 328.000000
+[2019.02.14-21.49.19:601][399]LogTemp: Current Speed: 329.000000
+[2019.02.14-21.49.19:611][400]LogTemp: Current Speed: 330.000000
+[2019.02.14-21.49.19:618][401]LogTemp: Current Speed: 331.000000
+[2019.02.14-21.49.19:626][402]LogTemp: Current Speed: 332.000000
+[2019.02.14-21.49.19:636][403]LogTemp: Current Speed: 333.000000
+[2019.02.14-21.49.19:643][404]LogTemp: Current Speed: 334.000000
+[2019.02.14-21.49.19:651][405]LogTemp: Current Speed: 335.000000
+[2019.02.14-21.49.19:660][406]LogTemp: Current Speed: 336.000000
+[2019.02.14-21.49.19:669][407]LogTemp: Current Speed: 337.000000
+[2019.02.14-21.49.19:677][408]LogTemp: Current Speed: 338.000000
+[2019.02.14-21.49.19:686][409]LogTemp: Current Speed: 339.000000
+[2019.02.14-21.49.19:693][410]LogTemp: Current Speed: 340.000000
+[2019.02.14-21.49.19:703][411]LogTemp: Current Speed: 341.000000
+[2019.02.14-21.49.19:710][412]LogTemp: Current Speed: 342.000000
+[2019.02.14-21.49.19:719][413]LogTemp: Current Speed: 343.000000
+[2019.02.14-21.49.19:727][414]LogTemp: Current Speed: 344.000000
+[2019.02.14-21.49.19:736][415]LogTemp: Current Speed: 345.000000
+[2019.02.14-21.49.19:746][416]LogTemp: Current Speed: 346.000000
+[2019.02.14-21.49.19:761][417]LogTemp: Current Speed: 347.000000
+[2019.02.14-21.49.19:768][418]LogTemp: Current Speed: 348.000000
+[2019.02.14-21.49.19:776][419]LogTemp: Current Speed: 349.000000
+[2019.02.14-21.49.19:786][420]LogTemp: Current Speed: 350.000000
+[2019.02.14-21.49.19:795][421]LogTemp: Current Speed: 351.000000
+[2019.02.14-21.49.19:802][422]LogTemp: Current Speed: 352.000000
+[2019.02.14-21.49.19:810][423]LogTemp: Current Speed: 353.000000
+[2019.02.14-21.49.19:818][424]LogTemp: Current Speed: 354.000000
+[2019.02.14-21.49.19:827][425]LogTemp: Current Speed: 355.000000
+[2019.02.14-21.49.19:835][426]LogTemp: Current Speed: 356.000000
+[2019.02.14-21.49.19:843][427]LogTemp: Current Speed: 357.000000
+[2019.02.14-21.49.19:852][428]LogTemp: Current Speed: 358.000000
+[2019.02.14-21.49.19:860][429]LogTemp: Current Speed: 359.000000
+[2019.02.14-21.49.19:870][430]LogTemp: Current Speed: 360.000000
+[2019.02.14-21.49.19:877][431]LogTemp: Current Speed: 361.000000
+[2019.02.14-21.49.19:887][432]LogTemp: Current Speed: 362.000000
+[2019.02.14-21.49.19:894][433]LogTemp: Current Speed: 363.000000
+[2019.02.14-21.49.19:902][434]LogTemp: Current Speed: 364.000000
+[2019.02.14-21.49.19:910][435]LogTemp: Current Speed: 365.000000
+[2019.02.14-21.49.19:919][436]LogTemp: Current Speed: 366.000000
+[2019.02.14-21.49.19:927][437]LogTemp: Current Speed: 367.000000
+[2019.02.14-21.49.19:936][438]LogTemp: Current Speed: 368.000000
+[2019.02.14-21.49.19:944][439]LogTemp: Current Speed: 369.000000
+[2019.02.14-21.49.19:953][440]LogTemp: Current Speed: 370.000000
+[2019.02.14-21.49.19:960][441]LogTemp: Current Speed: 371.000000
+[2019.02.14-21.49.19:969][442]LogTemp: Current Speed: 372.000000
+[2019.02.14-21.49.19:977][443]LogTemp: Current Speed: 373.000000
+[2019.02.14-21.49.19:987][444]LogTemp: Current Speed: 374.000000
+[2019.02.14-21.49.19:996][445]LogTemp: Current Speed: 375.000000
+[2019.02.14-21.49.20:002][446]LogTemp: Current Speed: 376.000000
+[2019.02.14-21.49.20:012][447]LogTemp: Current Speed: 377.000000
+[2019.02.14-21.49.20:019][448]LogTemp: Current Speed: 378.000000
+[2019.02.14-21.49.20:028][449]LogTemp: Current Speed: 379.000000
+[2019.02.14-21.49.20:035][450]LogTemp: Current Speed: 380.000000
+[2019.02.14-21.49.20:045][451]LogTemp: Current Speed: 381.000000
+[2019.02.14-21.49.20:052][452]LogTemp: Current Speed: 382.000000
+[2019.02.14-21.49.20:060][453]LogTemp: Current Speed: 383.000000
+[2019.02.14-21.49.20:069][454]LogTemp: Current Speed: 384.000000
+[2019.02.14-21.49.20:079][455]LogTemp: Current Speed: 385.000000
+[2019.02.14-21.49.20:086][456]LogTemp: Current Speed: 386.000000
+[2019.02.14-21.49.20:094][457]LogTemp: Current Speed: 387.000000
+[2019.02.14-21.49.20:102][458]LogTemp: Current Speed: 388.000000
+[2019.02.14-21.49.20:112][459]LogTemp: Current Speed: 389.000000
+[2019.02.14-21.49.20:119][460]LogTemp: Current Speed: 390.000000
+[2019.02.14-21.49.20:127][461]LogTemp: Current Speed: 391.000000
+[2019.02.14-21.49.20:137][462]LogTemp: Current Speed: 392.000000
+[2019.02.14-21.49.20:144][463]LogTemp: Current Speed: 393.000000
+[2019.02.14-21.49.20:153][464]LogTemp: Current Speed: 394.000000
+[2019.02.14-21.49.20:161][465]LogTemp: Current Speed: 395.000000
+[2019.02.14-21.49.20:170][466]LogTemp: Current Speed: 396.000000
+[2019.02.14-21.49.20:177][467]LogTemp: Current Speed: 397.000000
+[2019.02.14-21.49.20:186][468]LogTemp: Current Speed: 398.000000
+[2019.02.14-21.49.20:194][469]LogTemp: Current Speed: 399.000000
+[2019.02.14-21.49.20:202][470]LogTemp: Current Speed: 400.000000
+[2019.02.14-21.49.20:211][471]LogTemp: Current Speed: 401.000000
+[2019.02.14-21.49.20:219][472]LogTemp: Current Speed: 402.000000
+[2019.02.14-21.49.20:227][473]LogTemp: Current Speed: 403.000000
+[2019.02.14-21.49.20:237][474]LogTemp: Current Speed: 404.000000
+[2019.02.14-21.49.20:247][475]LogTemp: Current Speed: 405.000000
+[2019.02.14-21.49.20:252][476]LogTemp: Current Speed: 406.000000
+[2019.02.14-21.49.20:264][477]LogTemp: Current Speed: 407.000000
+[2019.02.14-21.49.20:270][478]LogTemp: Current Speed: 408.000000
+[2019.02.14-21.49.20:278][479]LogTemp: Current Speed: 409.000000
+[2019.02.14-21.49.20:286][480]LogTemp: Current Speed: 410.000000
+[2019.02.14-21.49.20:295][481]LogTemp: Current Speed: 411.000000
+[2019.02.14-21.49.20:303][482]LogTemp: Current Speed: 412.000000
+[2019.02.14-21.49.20:311][483]LogTemp: Current Speed: 413.000000
+[2019.02.14-21.49.20:320][484]LogTemp: Current Speed: 414.000000
+[2019.02.14-21.49.20:330][485]LogTemp: Current Speed: 415.000000
+[2019.02.14-21.49.20:336][486]LogTemp: Current Speed: 416.000000
+[2019.02.14-21.49.20:345][487]LogTemp: Current Speed: 417.000000
+[2019.02.14-21.49.20:353][488]LogTemp: Current Speed: 418.000000
+[2019.02.14-21.49.20:361][489]LogTemp: Current Speed: 419.000000
+[2019.02.14-21.49.20:370][490]LogTemp: Current Speed: 420.000000
+[2019.02.14-21.49.20:378][491]LogTemp: Current Speed: 421.000000
+[2019.02.14-21.49.20:388][492]LogTemp: Current Speed: 422.000000
+[2019.02.14-21.49.20:395][493]LogTemp: Current Speed: 423.000000
+[2019.02.14-21.49.20:405][494]LogTemp: Current Speed: 424.000000
+[2019.02.14-21.49.20:413][495]LogTemp: Current Speed: 425.000000
+[2019.02.14-21.49.20:421][496]LogTemp: Current Speed: 426.000000
+[2019.02.14-21.49.20:430][497]LogTemp: Current Speed: 427.000000
+[2019.02.14-21.49.20:438][498]LogTemp: Current Speed: 428.000000
+[2019.02.14-21.49.20:446][499]LogTemp: Current Speed: 429.000000
+[2019.02.14-21.49.20:456][500]LogTemp: Current Speed: 430.000000
+[2019.02.14-21.49.20:464][501]LogTemp: Current Speed: 431.000000
+[2019.02.14-21.49.20:471][502]LogTemp: Current Speed: 432.000000
+[2019.02.14-21.49.20:481][503]LogTemp: Current Speed: 433.000000
+[2019.02.14-21.49.20:488][504]LogTemp: Current Speed: 434.000000
+[2019.02.14-21.49.20:497][505]LogTemp: Current Speed: 435.000000
+[2019.02.14-21.49.20:505][506]LogTemp: Current Speed: 436.000000
+[2019.02.14-21.49.20:514][507]LogTemp: Current Speed: 437.000000
+[2019.02.14-21.49.20:521][508]LogTemp: Current Speed: 438.000000
+[2019.02.14-21.49.20:531][509]LogTemp: Current Speed: 439.000000
+[2019.02.14-21.49.20:538][510]LogTemp: Current Speed: 440.000000
+[2019.02.14-21.49.20:548][511]LogTemp: Current Speed: 441.000000
+[2019.02.14-21.49.20:555][512]LogTemp: Current Speed: 442.000000
+[2019.02.14-21.49.20:563][513]LogTemp: Current Speed: 443.000000
+[2019.02.14-21.49.20:574][514]LogTemp: Current Speed: 444.000000
+[2019.02.14-21.49.20:580][515]LogTemp: Current Speed: 445.000000
+[2019.02.14-21.49.20:590][516]LogTemp: Current Speed: 446.000000
+[2019.02.14-21.49.20:597][517]LogTemp: Current Speed: 447.000000
+[2019.02.14-21.49.20:605][518]LogTemp: Current Speed: 448.000000
+[2019.02.14-21.49.20:613][519]LogTemp: Current Speed: 449.000000
+[2019.02.14-21.49.20:623][520]LogTemp: Current Speed: 450.000000
+[2019.02.14-21.49.20:630][521]LogTemp: Current Speed: 451.000000
+[2019.02.14-21.49.20:638][522]LogTemp: Current Speed: 452.000000
+[2019.02.14-21.49.20:646][523]LogTemp: Current Speed: 453.000000
+[2019.02.14-21.49.20:655][524]LogTemp: Current Speed: 454.000000
+[2019.02.14-21.49.20:664][525]LogTemp: Current Speed: 455.000000
+[2019.02.14-21.49.20:672][526]LogTemp: Current Speed: 456.000000
+[2019.02.14-21.49.20:680][527]LogTemp: Current Speed: 457.000000
+[2019.02.14-21.49.20:689][528]LogTemp: Current Speed: 458.000000
+[2019.02.14-21.49.20:697][529]LogTemp: Current Speed: 459.000000
+[2019.02.14-21.49.20:706][530]LogTemp: Current Speed: 460.000000
+[2019.02.14-21.49.20:717][531]LogTemp: Current Speed: 461.000000
+[2019.02.14-21.49.20:722][532]LogTemp: Current Speed: 462.000000
+[2019.02.14-21.49.20:730][533]LogTemp: Current Speed: 463.000000
+[2019.02.14-21.49.20:739][534]LogTemp: Current Speed: 464.000000
+[2019.02.14-21.49.20:749][535]LogTemp: Current Speed: 465.000000
+[2019.02.14-21.49.20:755][536]LogTemp: Current Speed: 466.000000
+[2019.02.14-21.49.20:764][537]LogTemp: Current Speed: 467.000000
+[2019.02.14-21.49.20:772][538]LogTemp: Current Speed: 468.000000
+[2019.02.14-21.49.20:780][539]LogTemp: Current Speed: 469.000000
+[2019.02.14-21.49.20:789][540]LogTemp: Current Speed: 470.000000
+[2019.02.14-21.49.20:800][541]LogTemp: Current Speed: 471.000000
+[2019.02.14-21.49.20:808][542]LogTemp: Current Speed: 472.000000
+[2019.02.14-21.49.20:815][543]LogTemp: Current Speed: 473.000000
+[2019.02.14-21.49.20:824][544]LogTemp: Current Speed: 474.000000
+[2019.02.14-21.49.20:832][545]LogTemp: Current Speed: 475.000000
+[2019.02.14-21.49.20:841][546]LogTemp: Current Speed: 476.000000
+[2019.02.14-21.49.20:849][547]LogTemp: Current Speed: 477.000000
+[2019.02.14-21.49.20:859][548]LogTemp: Current Speed: 478.000000
+[2019.02.14-21.49.20:865][549]LogTemp: Current Speed: 479.000000
+[2019.02.14-21.49.20:875][550]LogTemp: Current Speed: 480.000000
+[2019.02.14-21.49.20:882][551]LogTemp: Current Speed: 481.000000
+[2019.02.14-21.49.20:890][552]LogTemp: Current Speed: 482.000000
+[2019.02.14-21.49.20:899][553]LogTemp: Current Speed: 483.000000
+[2019.02.14-21.49.20:909][554]LogTemp: Current Speed: 484.000000
+[2019.02.14-21.49.20:915][555]LogTemp: Current Speed: 485.000000
+[2019.02.14-21.49.20:924][556]LogTemp: Current Speed: 486.000000
+[2019.02.14-21.49.20:933][557]LogTemp: Current Speed: 487.000000
+[2019.02.14-21.49.20:940][558]LogTemp: Current Speed: 488.000000
+[2019.02.14-21.49.20:949][559]LogTemp: Current Speed: 489.000000
+[2019.02.14-21.49.20:957][560]LogTemp: Current Speed: 490.000000
+[2019.02.14-21.49.20:966][561]LogTemp: Current Speed: 491.000000
+[2019.02.14-21.49.20:974][562]LogTemp: Current Speed: 492.000000
+[2019.02.14-21.49.20:982][563]LogTemp: Current Speed: 493.000000
+[2019.02.14-21.49.20:990][564]LogTemp: Current Speed: 494.000000
+[2019.02.14-21.49.21:000][565]LogTemp: Current Speed: 495.000000
+[2019.02.14-21.49.21:007][566]LogTemp: Current Speed: 496.000000
+[2019.02.14-21.49.21:016][567]LogTemp: Current Speed: 497.000000
+[2019.02.14-21.49.21:024][568]LogTemp: Current Speed: 498.000000
+[2019.02.14-21.49.21:035][569]LogTemp: Current Speed: 499.000000
+[2019.02.14-21.49.21:040][570]LogTemp: Current Speed: 500.000000
+[2019.02.14-21.49.21:050][571]LogTemp: Current Speed: 501.000000
+[2019.02.14-21.49.21:059][572]LogTemp: Current Speed: 502.000000
+[2019.02.14-21.49.21:066][573]LogTemp: Current Speed: 503.000000
+[2019.02.14-21.49.21:075][574]LogTemp: Current Speed: 504.000000
+[2019.02.14-21.49.21:083][575]LogTemp: Current Speed: 505.000000
+[2019.02.14-21.49.21:092][576]LogTemp: Current Speed: 506.000000
+[2019.02.14-21.49.21:100][577]LogTemp: Current Speed: 507.000000
+[2019.02.14-21.49.21:110][578]LogTemp: Current Speed: 508.000000
+[2019.02.14-21.49.21:116][579]LogTemp: Current Speed: 509.000000
+[2019.02.14-21.49.21:125][580]LogTemp: Current Speed: 510.000000
+[2019.02.14-21.49.21:133][581]LogTemp: Current Speed: 511.000000
+[2019.02.14-21.49.21:141][582]LogTemp: Current Speed: 512.000000
+[2019.02.14-21.49.21:150][583]LogTemp: Current Speed: 513.000000
+[2019.02.14-21.49.21:158][584]LogTemp: Current Speed: 514.000000
+[2019.02.14-21.49.21:168][585]LogTemp: Current Speed: 515.000000
+[2019.02.14-21.49.21:175][586]LogTemp: Current Speed: 516.000000
+[2019.02.14-21.49.21:184][587]LogTemp: Current Speed: 517.000000
+[2019.02.14-21.49.21:191][588]LogTemp: Current Speed: 518.000000
+[2019.02.14-21.49.21:200][589]LogTemp: Current Speed: 519.000000
+[2019.02.14-21.49.21:208][590]LogTemp: Current Speed: 520.000000
+[2019.02.14-21.49.21:218][591]LogTemp: Current Speed: 521.000000
+[2019.02.14-21.49.21:225][592]LogTemp: Current Speed: 522.000000
+[2019.02.14-21.49.21:235][593]LogTemp: Current Speed: 523.000000
+[2019.02.14-21.49.21:242][594]LogTemp: Current Speed: 524.000000
+[2019.02.14-21.49.21:250][595]LogTemp: Current Speed: 525.000000
+[2019.02.14-21.49.21:258][596]LogTemp: Current Speed: 526.000000
+[2019.02.14-21.49.21:266][597]LogTemp: Current Speed: 527.000000
+[2019.02.14-21.49.21:275][598]LogTemp: Current Speed: 528.000000
+[2019.02.14-21.49.21:284][599]LogTemp: Current Speed: 529.000000
+[2019.02.14-21.49.21:292][600]LogTemp: Current Speed: 530.000000
+[2019.02.14-21.49.21:300][601]LogTemp: Current Speed: 531.000000
+[2019.02.14-21.49.21:309][602]LogTemp: Current Speed: 532.000000
+[2019.02.14-21.49.21:317][603]LogTemp: Current Speed: 533.000000
+[2019.02.14-21.49.21:327][604]LogTemp: Current Speed: 534.000000
+[2019.02.14-21.49.21:333][605]LogTemp: Current Speed: 535.000000
+[2019.02.14-21.49.21:342][606]LogTemp: Current Speed: 536.000000
+[2019.02.14-21.49.21:350][607]LogTemp: Current Speed: 537.000000
+[2019.02.14-21.49.21:360][608]LogTemp: Current Speed: 538.000000
+[2019.02.14-21.49.21:367][609]LogTemp: Current Speed: 539.000000
+[2019.02.14-21.49.21:375][610]LogTemp: Current Speed: 540.000000
+[2019.02.14-21.49.21:383][611]LogTemp: Current Speed: 541.000000
+[2019.02.14-21.49.21:392][612]LogTemp: Current Speed: 542.000000
+[2019.02.14-21.49.21:400][613]LogTemp: Current Speed: 543.000000
+[2019.02.14-21.49.21:409][614]LogTemp: Current Speed: 544.000000
+[2019.02.14-21.49.21:419][615]LogTemp: Current Speed: 545.000000
+[2019.02.14-21.49.21:425][616]LogTemp: Current Speed: 546.000000
+[2019.02.14-21.49.21:434][617]LogTemp: Current Speed: 547.000000
+[2019.02.14-21.49.21:442][618]LogTemp: Current Speed: 548.000000
+[2019.02.14-21.49.21:452][619]LogTemp: Current Speed: 549.000000
+[2019.02.14-21.49.21:459][620]LogTemp: Current Speed: 550.000000
+[2019.02.14-21.49.21:467][621]LogTemp: Current Speed: 551.000000
+[2019.02.14-21.49.21:475][622]LogTemp: Current Speed: 552.000000
+[2019.02.14-21.49.21:484][623]LogTemp: Current Speed: 553.000000
+[2019.02.14-21.49.21:492][624]LogTemp: Current Speed: 554.000000
+[2019.02.14-21.49.21:500][625]LogTemp: Current Speed: 555.000000
+[2019.02.14-21.49.21:510][626]LogTemp: Current Speed: 556.000000
+[2019.02.14-21.49.21:517][627]LogTemp: Current Speed: 557.000000
+[2019.02.14-21.49.21:525][628]LogTemp: Current Speed: 558.000000
+[2019.02.14-21.49.21:534][629]LogTemp: Current Speed: 559.000000
+[2019.02.14-21.49.21:543][630]LogTemp: Current Speed: 560.000000
+[2019.02.14-21.49.21:550][631]LogTemp: Current Speed: 561.000000
+[2019.02.14-21.49.21:559][632]LogTemp: Current Speed: 562.000000
+[2019.02.14-21.49.21:567][633]LogTemp: Current Speed: 563.000000
+[2019.02.14-21.49.21:575][634]LogTemp: Current Speed: 564.000000
+[2019.02.14-21.49.21:584][635]LogTemp: Current Speed: 565.000000
+[2019.02.14-21.49.21:592][636]LogTemp: Current Speed: 566.000000
+[2019.02.14-21.49.21:601][637]LogTemp: Current Speed: 567.000000
+[2019.02.14-21.49.21:611][638]LogTemp: Current Speed: 568.000000
+[2019.02.14-21.49.21:617][639]LogTemp: Current Speed: 569.000000
+[2019.02.14-21.49.21:626][640]LogTemp: Current Speed: 570.000000
+[2019.02.14-21.49.21:637][641]LogTemp: Current Speed: 571.000000
+[2019.02.14-21.49.21:642][642]LogTemp: Current Speed: 572.000000
+[2019.02.14-21.49.21:652][643]LogTemp: Current Speed: 573.000000
+[2019.02.14-21.49.21:659][644]LogTemp: Current Speed: 574.000000
+[2019.02.14-21.49.21:668][645]LogTemp: Current Speed: 575.000000
+[2019.02.14-21.49.21:676][646]LogTemp: Current Speed: 576.000000
+[2019.02.14-21.49.21:685][647]LogTemp: Current Speed: 577.000000
+[2019.02.14-21.49.21:693][648]LogTemp: Current Speed: 578.000000
+[2019.02.14-21.49.21:701][649]LogTemp: Current Speed: 579.000000
+[2019.02.14-21.49.21:709][650]LogTemp: Current Speed: 580.000000
+[2019.02.14-21.49.21:717][651]LogTemp: Current Speed: 581.000000
+[2019.02.14-21.49.21:726][652]LogTemp: Current Speed: 582.000000
+[2019.02.14-21.49.21:735][653]LogTemp: Current Speed: 583.000000
+[2019.02.14-21.49.21:746][654]LogTemp: Current Speed: 584.000000
+[2019.02.14-21.49.21:751][655]LogTemp: Current Speed: 585.000000
+[2019.02.14-21.49.21:760][656]LogTemp: Current Speed: 586.000000
+[2019.02.14-21.49.21:768][657]LogTemp: Current Speed: 587.000000
+[2019.02.14-21.49.21:776][658]LogTemp: Current Speed: 588.000000
+[2019.02.14-21.49.21:785][659]LogTemp: Current Speed: 589.000000
+[2019.02.14-21.49.21:794][660]LogTemp: Current Speed: 590.000000
+[2019.02.14-21.49.21:801][661]LogTemp: Current Speed: 591.000000
+[2019.02.14-21.49.21:810][662]LogTemp: Current Speed: 592.000000
+[2019.02.14-21.49.21:818][663]LogTemp: Current Speed: 593.000000
+[2019.02.14-21.49.21:828][664]LogTemp: Current Speed: 594.000000
+[2019.02.14-21.49.21:835][665]LogTemp: Current Speed: 595.000000
+[2019.02.14-21.49.21:843][666]LogTemp: Current Speed: 596.000000
+[2019.02.14-21.49.21:851][667]LogTemp: Current Speed: 597.000000
+[2019.02.14-21.49.21:860][668]LogTemp: Current Speed: 598.000000
+[2019.02.14-21.49.21:868][669]LogTemp: Current Speed: 599.000000
+[2019.02.14-21.49.21:876][670]LogTemp: Current Speed: 600.000000
+[2019.02.14-21.49.21:886][671]LogTemp: Current Speed: 601.000000
+[2019.02.14-21.49.21:893][672]LogTemp: Current Speed: 602.000000
+[2019.02.14-21.49.21:901][673]LogTemp: Current Speed: 603.000000
+[2019.02.14-21.49.21:910][674]LogTemp: Current Speed: 604.000000
+[2019.02.14-21.49.21:920][675]LogTemp: Current Speed: 605.000000
+[2019.02.14-21.49.21:927][676]LogTemp: Current Speed: 606.000000
+[2019.02.14-21.49.21:935][677]LogTemp: Current Speed: 607.000000
+[2019.02.14-21.49.21:943][678]LogTemp: Current Speed: 608.000000
+[2019.02.14-21.49.21:951][679]LogTemp: Current Speed: 609.000000
+[2019.02.14-21.49.21:960][680]LogTemp: Current Speed: 610.000000
+[2019.02.14-21.49.21:968][681]LogTemp: Current Speed: 611.000000
+[2019.02.14-21.49.21:976][682]LogTemp: Current Speed: 612.000000
+[2019.02.14-21.49.21:985][683]LogTemp: Current Speed: 613.000000
+[2019.02.14-21.49.21:993][684]LogTemp: Current Speed: 614.000000
+[2019.02.14-21.49.22:001][685]LogTemp: Current Speed: 615.000000
+[2019.02.14-21.49.22:011][686]LogTemp: Current Speed: 616.000000
+[2019.02.14-21.49.22:018][687]LogTemp: Current Speed: 617.000000
+[2019.02.14-21.49.22:027][688]LogTemp: Current Speed: 618.000000
+[2019.02.14-21.49.22:035][689]LogTemp: Current Speed: 619.000000
+[2019.02.14-21.49.22:044][690]LogTemp: Current Speed: 620.000000
+[2019.02.14-21.49.22:052][691]LogTemp: Current Speed: 621.000000
+[2019.02.14-21.49.22:060][692]LogTemp: Current Speed: 622.000000
+[2019.02.14-21.49.22:068][693]LogTemp: Current Speed: 623.000000
+[2019.02.14-21.49.22:076][694]LogTemp: Current Speed: 624.000000
+[2019.02.14-21.49.22:085][695]LogTemp: Current Speed: 625.000000
+[2019.02.14-21.49.22:093][696]LogTemp: Current Speed: 626.000000
+[2019.02.14-21.49.22:103][697]LogTemp: Current Speed: 627.000000
+[2019.02.14-21.49.22:112][698]LogTemp: Current Speed: 628.000000
+[2019.02.14-21.49.22:121][699]LogTemp: Current Speed: 629.000000
+[2019.02.14-21.49.22:128][700]LogTemp: Current Speed: 630.000000
+[2019.02.14-21.49.22:137][701]LogTemp: Current Speed: 631.000000
+[2019.02.14-21.49.22:144][702]LogTemp: Current Speed: 632.000000
+[2019.02.14-21.49.22:153][703]LogTemp: Current Speed: 633.000000
+[2019.02.14-21.49.22:161][704]LogTemp: Current Speed: 634.000000
+[2019.02.14-21.49.22:169][705]LogTemp: Current Speed: 635.000000
+[2019.02.14-21.49.22:178][706]LogTemp: Current Speed: 636.000000
+[2019.02.14-21.49.22:186][707]LogTemp: Current Speed: 637.000000
+[2019.02.14-21.49.22:194][708]LogTemp: Current Speed: 638.000000
+[2019.02.14-21.49.22:203][709]LogTemp: Current Speed: 639.000000
+[2019.02.14-21.49.22:211][710]LogTemp: Current Speed: 640.000000
+[2019.02.14-21.49.22:219][711]LogTemp: Current Speed: 641.000000
+[2019.02.14-21.49.22:232][712]LogTemp: Current Speed: 642.000000
+[2019.02.14-21.49.22:236][713]LogTemp: Current Speed: 643.000000
+[2019.02.14-21.49.22:246][714]LogTemp: Current Speed: 644.000000
+[2019.02.14-21.49.22:253][715]LogTemp: Current Speed: 645.000000
+[2019.02.14-21.49.22:263][716]LogTemp: Current Speed: 646.000000
+[2019.02.14-21.49.22:270][717]LogTemp: Current Speed: 647.000000
+[2019.02.14-21.49.22:278][718]LogTemp: Current Speed: 648.000000
+[2019.02.14-21.49.22:286][719]LogTemp: Current Speed: 649.000000
+[2019.02.14-21.49.22:295][720]LogTemp: Current Speed: 650.000000
+[2019.02.14-21.49.22:303][721]LogTemp: Current Speed: 651.000000
+[2019.02.14-21.49.22:311][722]LogTemp: Current Speed: 652.000000
+[2019.02.14-21.49.22:320][723]LogTemp: Current Speed: 653.000000
+[2019.02.14-21.49.22:329][724]LogTemp: Current Speed: 654.000000
+[2019.02.14-21.49.22:336][725]LogTemp: Current Speed: 655.000000
+[2019.02.14-21.49.22:345][726]LogTemp: Current Speed: 656.000000
+[2019.02.14-21.49.22:353][727]LogTemp: Current Speed: 657.000000
+[2019.02.14-21.49.22:362][728]LogTemp: Current Speed: 658.000000
+[2019.02.14-21.49.22:370][729]LogTemp: Current Speed: 659.000000
+[2019.02.14-21.49.22:378][730]LogTemp: Current Speed: 660.000000
+[2019.02.14-21.49.22:387][731]LogTemp: Current Speed: 661.000000
+[2019.02.14-21.49.22:395][732]LogTemp: Current Speed: 662.000000
+[2019.02.14-21.49.22:403][733]LogTemp: Current Speed: 663.000000
+[2019.02.14-21.49.22:412][734]LogTemp: Current Speed: 664.000000
+[2019.02.14-21.49.22:421][735]LogTemp: Current Speed: 665.000000
+[2019.02.14-21.49.22:428][736]LogTemp: Current Speed: 666.000000
+[2019.02.14-21.49.22:437][737]LogTemp: Current Speed: 667.000000
+[2019.02.14-21.49.22:445][738]LogTemp: Current Speed: 668.000000
+[2019.02.14-21.49.22:454][739]LogTemp: Current Speed: 669.000000
+[2019.02.14-21.49.22:463][740]LogTemp: Current Speed: 670.000000
+[2019.02.14-21.49.22:470][741]LogTemp: Current Speed: 671.000000
+[2019.02.14-21.49.22:478][742]LogTemp: Current Speed: 672.000000
+[2019.02.14-21.49.22:487][743]LogTemp: Current Speed: 673.000000
+[2019.02.14-21.49.22:495][744]LogTemp: Current Speed: 674.000000
+[2019.02.14-21.49.22:503][745]LogTemp: Current Speed: 675.000000
+[2019.02.14-21.49.22:513][746]LogTemp: Current Speed: 676.000000
+[2019.02.14-21.49.22:520][747]LogTemp: Current Speed: 677.000000
+[2019.02.14-21.49.22:528][748]LogTemp: Current Speed: 678.000000
+[2019.02.14-21.49.22:537][749]LogTemp: Current Speed: 679.000000
+[2019.02.14-21.49.22:545][750]LogTemp: Current Speed: 680.000000
+[2019.02.14-21.49.22:553][751]LogTemp: Current Speed: 681.000000
+[2019.02.14-21.49.22:562][752]LogTemp: Current Speed: 682.000000
+[2019.02.14-21.49.22:570][753]LogTemp: Current Speed: 683.000000
+[2019.02.14-21.49.22:579][754]LogTemp: Current Speed: 684.000000
+[2019.02.14-21.49.22:587][755]LogTemp: Current Speed: 685.000000
+[2019.02.14-21.49.22:595][756]LogTemp: Current Speed: 686.000000
+[2019.02.14-21.49.22:605][757]LogTemp: Current Speed: 687.000000
+[2019.02.14-21.49.22:612][758]LogTemp: Current Speed: 688.000000
+[2019.02.14-21.49.22:621][759]LogTemp: Current Speed: 689.000000
+[2019.02.14-21.49.22:628][760]LogTemp: Current Speed: 690.000000
+[2019.02.14-21.49.22:638][761]LogTemp: Current Speed: 691.000000
+[2019.02.14-21.49.22:645][762]LogTemp: Current Speed: 692.000000
+[2019.02.14-21.49.22:654][763]LogTemp: Current Speed: 693.000000
+[2019.02.14-21.49.22:662][764]LogTemp: Current Speed: 694.000000
+[2019.02.14-21.49.22:670][765]LogTemp: Current Speed: 695.000000
+[2019.02.14-21.49.22:679][766]LogTemp: Current Speed: 696.000000
+[2019.02.14-21.49.22:687][767]LogTemp: Current Speed: 697.000000
+[2019.02.14-21.49.22:695][768]LogTemp: Current Speed: 698.000000
+[2019.02.14-21.49.22:704][769]LogTemp: Current Speed: 699.000000
+[2019.02.14-21.49.22:714][770]LogTemp: Current Speed: 700.000000
+[2019.02.14-21.49.22:720][771]LogTemp: Current Speed: 701.000000
+[2019.02.14-21.49.22:729][772]LogTemp: Current Speed: 702.000000
+[2019.02.14-21.49.22:738][773]LogTemp: Current Speed: 703.000000
+[2019.02.14-21.49.22:746][774]LogTemp: Current Speed: 704.000000
+[2019.02.14-21.49.22:754][775]LogTemp: Current Speed: 705.000000
+[2019.02.14-21.49.22:762][776]LogTemp: Current Speed: 706.000000
+[2019.02.14-21.49.22:770][777]LogTemp: Current Speed: 707.000000
+[2019.02.14-21.49.22:779][778]LogTemp: Current Speed: 708.000000
+[2019.02.14-21.49.22:787][779]LogTemp: Current Speed: 709.000000
+[2019.02.14-21.49.22:797][780]LogTemp: Current Speed: 710.000000
+[2019.02.14-21.49.22:804][781]LogTemp: Current Speed: 711.000000
+[2019.02.14-21.49.22:812][782]LogTemp: Current Speed: 712.000000
+[2019.02.14-21.49.22:820][783]LogTemp: Current Speed: 713.000000
+[2019.02.14-21.49.22:830][784]LogTemp: Current Speed: 714.000000
+[2019.02.14-21.49.22:838][785]LogTemp: Current Speed: 715.000000
+[2019.02.14-21.49.22:845][786]LogTemp: Current Speed: 716.000000
+[2019.02.14-21.49.22:854][787]LogTemp: Current Speed: 717.000000
+[2019.02.14-21.49.22:863][788]LogTemp: Current Speed: 718.000000
+[2019.02.14-21.49.22:870][789]LogTemp: Current Speed: 719.000000
+[2019.02.14-21.49.22:879][790]LogTemp: Current Speed: 720.000000
+[2019.02.14-21.49.22:888][791]LogTemp: Current Speed: 721.000000
+[2019.02.14-21.49.22:895][792]LogTemp: Current Speed: 722.000000
+[2019.02.14-21.49.22:904][793]LogTemp: Current Speed: 723.000000
+[2019.02.14-21.49.22:912][794]LogTemp: Current Speed: 724.000000
+[2019.02.14-21.49.22:920][795]LogTemp: Current Speed: 725.000000
+[2019.02.14-21.49.22:929][796]LogTemp: Current Speed: 726.000000
+[2019.02.14-21.49.22:937][797]LogTemp: Current Speed: 727.000000
+[2019.02.14-21.49.22:946][798]LogTemp: Current Speed: 728.000000
+[2019.02.14-21.49.22:955][799]LogTemp: Current Speed: 729.000000
+[2019.02.14-21.49.22:963][800]LogTemp: Current Speed: 730.000000
+[2019.02.14-21.49.22:971][801]LogTemp: Current Speed: 731.000000
+[2019.02.14-21.49.22:979][802]LogTemp: Current Speed: 732.000000
+[2019.02.14-21.49.22:988][803]LogTemp: Current Speed: 733.000000
+[2019.02.14-21.49.22:997][804]LogTemp: Current Speed: 734.000000
+[2019.02.14-21.49.23:004][805]LogTemp: Current Speed: 735.000000
+[2019.02.14-21.49.23:013][806]LogTemp: Current Speed: 736.000000
+[2019.02.14-21.49.23:021][807]LogTemp: Current Speed: 737.000000
+[2019.02.14-21.49.23:030][808]LogTemp: Current Speed: 738.000000
+[2019.02.14-21.49.23:037][809]LogTemp: Current Speed: 739.000000
+[2019.02.14-21.49.23:046][810]LogTemp: Current Speed: 740.000000
+[2019.02.14-21.49.23:055][811]LogTemp: Current Speed: 741.000000
+[2019.02.14-21.49.23:064][812]LogTemp: Current Speed: 742.000000
+[2019.02.14-21.49.23:072][813]LogTemp: Current Speed: 743.000000
+[2019.02.14-21.49.23:081][814]LogTemp: Current Speed: 744.000000
+[2019.02.14-21.49.23:090][815]LogTemp: Current Speed: 745.000000
+[2019.02.14-21.49.23:097][816]LogTemp: Current Speed: 746.000000
+[2019.02.14-21.49.23:106][817]LogTemp: Current Speed: 747.000000
+[2019.02.14-21.49.23:114][818]LogTemp: Current Speed: 748.000000
+[2019.02.14-21.49.23:123][819]LogTemp: Current Speed: 749.000000
+[2019.02.14-21.49.23:130][820]LogTemp: Current Speed: 750.000000
+[2019.02.14-21.49.23:138][821]LogTemp: Current Speed: 751.000000
+[2019.02.14-21.49.23:147][822]LogTemp: Current Speed: 752.000000
+[2019.02.14-21.49.23:158][823]LogTemp: Current Speed: 753.000000
+[2019.02.14-21.49.23:163][824]LogTemp: Current Speed: 754.000000
+[2019.02.14-21.49.23:322][843]LogTemp: Current Speed: -1.000000
+[2019.02.14-21.49.23:330][844]LogTemp: Current Speed: -2.000000
+[2019.02.14-21.49.23:340][845]LogTemp: Current Speed: -3.000000
+[2019.02.14-21.49.23:347][846]LogTemp: Current Speed: -4.000000
+[2019.02.14-21.49.23:355][847]LogTemp: Current Speed: -5.000000
+[2019.02.14-21.49.23:364][848]LogTemp: Current Speed: -6.000000
+[2019.02.14-21.49.23:373][849]LogTemp: Current Speed: -7.000000
+[2019.02.14-21.49.23:380][850]LogTemp: Current Speed: -8.000000
+[2019.02.14-21.49.23:389][851]LogTemp: Current Speed: -9.000000
+[2019.02.14-21.49.23:397][852]LogTemp: Current Speed: -10.000000
+[2019.02.14-21.49.23:405][853]LogTemp: Current Speed: -11.000000
+[2019.02.14-21.49.23:414][854]LogTemp: Current Speed: -12.000000
+[2019.02.14-21.49.23:422][855]LogTemp: Current Speed: -13.000000
+[2019.02.14-21.49.23:432][856]LogTemp: Current Speed: -14.000000
+[2019.02.14-21.49.23:439][857]LogTemp: Current Speed: -15.000000
+[2019.02.14-21.49.23:447][858]LogTemp: Current Speed: -16.000000
+[2019.02.14-21.49.23:457][859]LogTemp: Current Speed: -17.000000
+[2019.02.14-21.49.23:465][860]LogTemp: Current Speed: -18.000000
+[2019.02.14-21.49.23:472][861]LogTemp: Current Speed: -19.000000
+[2019.02.14-21.49.23:481][862]LogTemp: Current Speed: -20.000000
+[2019.02.14-21.49.23:489][863]LogTemp: Current Speed: -21.000000
+[2019.02.14-21.49.23:498][864]LogTemp: Current Speed: -22.000000
+[2019.02.14-21.49.23:505][865]LogTemp: Current Speed: -23.000000
+[2019.02.14-21.49.23:514][866]LogTemp: Current Speed: -24.000000
+[2019.02.14-21.49.23:522][867]LogTemp: Current Speed: -25.000000
+[2019.02.14-21.49.23:530][868]LogTemp: Current Speed: -26.000000
+[2019.02.14-21.49.23:539][869]LogTemp: Current Speed: -27.000000
+[2019.02.14-21.49.23:547][870]LogTemp: Current Speed: -28.000000
+[2019.02.14-21.49.23:555][871]LogTemp: Current Speed: -29.000000
+[2019.02.14-21.49.23:564][872]LogTemp: Current Speed: -30.000000
+[2019.02.14-21.49.23:572][873]LogTemp: Current Speed: -31.000000
+[2019.02.14-21.49.23:581][874]LogTemp: Current Speed: -32.000000
+[2019.02.14-21.49.23:591][875]LogTemp: Current Speed: -33.000000
+[2019.02.14-21.49.23:597][876]LogTemp: Current Speed: -34.000000
+[2019.02.14-21.49.23:605][877]LogTemp: Current Speed: -35.000000
+[2019.02.14-21.49.23:614][878]LogTemp: Current Speed: -36.000000
+[2019.02.14-21.49.23:624][879]LogTemp: Current Speed: -37.000000
+[2019.02.14-21.49.23:630][880]LogTemp: Current Speed: -38.000000
+[2019.02.14-21.49.23:639][881]LogTemp: Current Speed: -39.000000
+[2019.02.14-21.49.23:647][882]LogTemp: Current Speed: -40.000000
+[2019.02.14-21.49.23:655][883]LogTemp: Current Speed: -41.000000
+[2019.02.14-21.49.23:664][884]LogTemp: Current Speed: -42.000000
+[2019.02.14-21.49.23:673][885]LogTemp: Current Speed: -43.000000
+[2019.02.14-21.49.23:684][886]LogTemp: Current Speed: -44.000000
+[2019.02.14-21.49.23:689][887]LogTemp: Current Speed: -45.000000
+[2019.02.14-21.49.23:698][888]LogTemp: Current Speed: -46.000000
+[2019.02.14-21.49.23:706][889]LogTemp: Current Speed: -47.000000
+[2019.02.14-21.49.23:715][890]LogTemp: Current Speed: -48.000000
+[2019.02.14-21.49.23:723][891]LogTemp: Current Speed: -49.000000
+[2019.02.14-21.49.23:731][892]LogTemp: Current Speed: -50.000000
+[2019.02.14-21.49.23:739][893]LogTemp: Current Speed: -51.000000
+[2019.02.14-21.49.23:748][894]LogTemp: Current Speed: -52.000000
+[2019.02.14-21.49.23:756][895]LogTemp: Current Speed: -53.000000
+[2019.02.14-21.49.23:764][896]LogTemp: Current Speed: -54.000000
+[2019.02.14-21.49.23:773][897]LogTemp: Current Speed: -55.000000
+[2019.02.14-21.49.23:784][898]LogTemp: Current Speed: -56.000000
+[2019.02.14-21.49.23:789][899]LogTemp: Current Speed: -57.000000
+[2019.02.14-21.49.23:798][900]LogTemp: Current Speed: -58.000000
+[2019.02.14-21.49.23:807][901]LogTemp: Current Speed: -59.000000
+[2019.02.14-21.49.23:814][902]LogTemp: Current Speed: -60.000000
+[2019.02.14-21.49.23:823][903]LogTemp: Current Speed: -61.000000
+[2019.02.14-21.49.23:832][904]LogTemp: Current Speed: -62.000000
+[2019.02.14-21.49.23:841][905]LogTemp: Current Speed: -63.000000
+[2019.02.14-21.49.23:849][906]LogTemp: Current Speed: -64.000000
+[2019.02.14-21.49.23:857][907]LogTemp: Current Speed: -65.000000
+[2019.02.14-21.49.23:865][908]LogTemp: Current Speed: -66.000000
+[2019.02.14-21.49.23:875][909]LogTemp: Current Speed: -67.000000
+[2019.02.14-21.49.23:882][910]LogTemp: Current Speed: -68.000000
+[2019.02.14-21.49.23:891][911]LogTemp: Current Speed: -69.000000
+[2019.02.14-21.49.23:900][912]LogTemp: Current Speed: -70.000000
+[2019.02.14-21.49.23:910][913]LogTemp: Current Speed: -71.000000
+[2019.02.14-21.49.23:920][914]LogTemp: Current Speed: -72.000000
+[2019.02.14-21.49.23:926][915]LogTemp: Current Speed: -73.000000
+[2019.02.14-21.49.23:936][916]LogTemp: Current Speed: -74.000000
+[2019.02.14-21.49.23:943][917]LogTemp: Current Speed: -75.000000
+[2019.02.14-21.49.23:952][918]LogTemp: Current Speed: -76.000000
+[2019.02.14-21.49.23:960][919]LogTemp: Current Speed: -77.000000
+[2019.02.14-21.49.23:969][920]LogTemp: Current Speed: -78.000000
+[2019.02.14-21.49.23:976][921]LogTemp: Current Speed: -79.000000
+[2019.02.14-21.49.23:986][922]LogTemp: Current Speed: -80.000000
+[2019.02.14-21.49.23:994][923]LogTemp: Current Speed: -81.000000
+[2019.02.14-21.49.24:004][924]LogTemp: Current Speed: -82.000000
+[2019.02.14-21.49.24:013][925]LogTemp: Current Speed: -83.000000
+[2019.02.14-21.49.24:020][926]LogTemp: Current Speed: -84.000000
+[2019.02.14-21.49.24:028][927]LogTemp: Current Speed: -85.000000
+[2019.02.14-21.49.24:037][928]LogTemp: Current Speed: -86.000000
+[2019.02.14-21.49.24:046][929]LogTemp: Current Speed: -87.000000
+[2019.02.14-21.49.24:053][930]LogTemp: Current Speed: -88.000000
+[2019.02.14-21.49.24:062][931]LogTemp: Current Speed: -89.000000
+[2019.02.14-21.49.24:070][932]LogTemp: Current Speed: -90.000000
+[2019.02.14-21.49.24:081][933]LogTemp: Current Speed: -91.000000
+[2019.02.14-21.49.24:090][934]LogTemp: Current Speed: -92.000000
+[2019.02.14-21.49.24:097][935]LogTemp: Current Speed: -93.000000
+[2019.02.14-21.49.24:107][936]LogTemp: Current Speed: -94.000000
+[2019.02.14-21.49.24:114][937]LogTemp: Current Speed: -95.000000
+[2019.02.14-21.49.24:123][938]LogTemp: Current Speed: -96.000000
+[2019.02.14-21.49.24:131][939]LogTemp: Current Speed: -97.000000
+[2019.02.14-21.49.24:140][940]LogTemp: Current Speed: -98.000000
+[2019.02.14-21.49.24:147][941]LogTemp: Current Speed: -99.000000
+[2019.02.14-21.49.24:157][942]LogTemp: Current Speed: -100.000000
+[2019.02.14-21.49.24:164][943]LogTemp: Current Speed: -101.000000
+[2019.02.14-21.49.24:175][944]LogTemp: Current Speed: -102.000000
+[2019.02.14-21.49.24:187][945]LogTemp: Current Speed: -103.000000
+[2019.02.14-21.49.24:198][946]LogTemp: Current Speed: -104.000000
+[2019.02.14-21.49.24:204][947]LogTemp: Current Speed: -105.000000
+[2019.02.14-21.49.24:215][948]LogTemp: Current Speed: -106.000000
+[2019.02.14-21.49.24:221][949]LogTemp: Current Speed: -107.000000
+[2019.02.14-21.49.24:229][950]LogTemp: Current Speed: -108.000000
+[2019.02.14-21.49.24:239][951]LogTemp: Current Speed: -109.000000
+[2019.02.14-21.49.24:249][952]LogTemp: Current Speed: -110.000000
+[2019.02.14-21.49.24:254][953]LogTemp: Current Speed: -111.000000
+[2019.02.14-21.49.24:263][954]LogTemp: Current Speed: -112.000000
+[2019.02.14-21.49.24:271][955]LogTemp: Current Speed: -113.000000
+[2019.02.14-21.49.24:279][956]LogTemp: Current Speed: -114.000000
+[2019.02.14-21.49.24:288][957]LogTemp: Current Speed: -115.000000
+[2019.02.14-21.49.24:297][958]LogTemp: Current Speed: -116.000000
+[2019.02.14-21.49.24:305][959]LogTemp: Current Speed: -117.000000
+[2019.02.14-21.49.24:316][960]LogTemp: Current Speed: -118.000000
+[2019.02.14-21.49.24:325][961]LogTemp: Current Speed: -119.000000
+[2019.02.14-21.49.24:332][962]LogTemp: Current Speed: -120.000000
+[2019.02.14-21.49.24:342][963]LogTemp: Current Speed: -121.000000
+[2019.02.14-21.49.24:349][964]LogTemp: Current Speed: -122.000000
+[2019.02.14-21.49.24:358][965]LogTemp: Current Speed: -123.000000
+[2019.02.14-21.49.24:366][966]LogTemp: Current Speed: -124.000000
+[2019.02.14-21.49.24:374][967]LogTemp: Current Speed: -125.000000
+[2019.02.14-21.49.24:382][968]LogTemp: Current Speed: -126.000000
+[2019.02.14-21.49.24:391][969]LogTemp: Current Speed: -127.000000
+[2019.02.14-21.49.24:399][970]LogTemp: Current Speed: -128.000000
+[2019.02.14-21.49.24:407][971]LogTemp: Current Speed: -129.000000
+[2019.02.14-21.49.24:416][972]LogTemp: Current Speed: -130.000000
+[2019.02.14-21.49.24:424][973]LogTemp: Current Speed: -131.000000
+[2019.02.14-21.49.24:436][974]LogTemp: Current Speed: -132.000000
+[2019.02.14-21.49.24:442][975]LogTemp: Current Speed: -133.000000
+[2019.02.14-21.49.24:454][976]LogTemp: Current Speed: -134.000000
+[2019.02.14-21.49.24:461][977]LogTemp: Current Speed: -135.000000
+[2019.02.14-21.49.24:470][978]LogTemp: Current Speed: -136.000000
+[2019.02.14-21.49.24:479][979]LogTemp: Current Speed: -137.000000
+[2019.02.14-21.49.24:486][980]LogTemp: Current Speed: -138.000000
+[2019.02.14-21.49.24:497][981]LogTemp: Current Speed: -139.000000
+[2019.02.14-21.49.24:503][982]LogTemp: Current Speed: -140.000000
+[2019.02.14-21.49.24:512][983]LogTemp: Current Speed: -141.000000
+[2019.02.14-21.49.24:520][984]LogTemp: Current Speed: -142.000000
+[2019.02.14-21.49.24:529][985]LogTemp: Current Speed: -143.000000
+[2019.02.14-21.49.24:536][986]LogTemp: Current Speed: -144.000000
+[2019.02.14-21.49.24:545][987]LogTemp: Current Speed: -145.000000
+[2019.02.14-21.49.24:554][988]LogTemp: Current Speed: -146.000000
+[2019.02.14-21.49.24:561][989]LogTemp: Current Speed: -147.000000
+[2019.02.14-21.49.24:570][990]LogTemp: Current Speed: -148.000000
+[2019.02.14-21.49.24:578][991]LogTemp: Current Speed: -149.000000
+[2019.02.14-21.49.24:586][992]LogTemp: Current Speed: -150.000000
+[2019.02.14-21.49.24:595][993]LogTemp: Current Speed: -151.000000
+[2019.02.14-21.49.24:603][994]LogTemp: Current Speed: -152.000000
+[2019.02.14-21.49.24:611][995]LogTemp: Current Speed: -153.000000
+[2019.02.14-21.49.24:620][996]LogTemp: Current Speed: -154.000000
+[2019.02.14-21.49.24:628][997]LogTemp: Current Speed: -155.000000
+[2019.02.14-21.49.24:637][998]LogTemp: Current Speed: -156.000000
+[2019.02.14-21.49.24:645][999]LogTemp: Current Speed: -157.000000
+[2019.02.14-21.49.24:653][  0]LogTemp: Current Speed: -158.000000
+[2019.02.14-21.49.24:661][  1]LogTemp: Current Speed: -159.000000
+[2019.02.14-21.49.24:670][  2]LogTemp: Current Speed: -160.000000
+[2019.02.14-21.49.24:678][  3]LogTemp: Current Speed: -161.000000
+[2019.02.14-21.49.24:686][  4]LogTemp: Current Speed: -162.000000
+[2019.02.14-21.49.24:695][  5]LogTemp: Current Speed: -163.000000
+[2019.02.14-21.49.24:704][  6]LogTemp: Current Speed: -164.000000
+[2019.02.14-21.49.24:711][  7]LogTemp: Current Speed: -165.000000
+[2019.02.14-21.49.24:720][  8]LogTemp: Current Speed: -166.000000
+[2019.02.14-21.49.24:729][  9]LogTemp: Current Speed: -167.000000
+[2019.02.14-21.49.24:737][ 10]LogTemp: Current Speed: -168.000000
+[2019.02.14-21.49.24:747][ 11]LogTemp: Current Speed: -169.000000
+[2019.02.14-21.49.24:754][ 12]LogTemp: Current Speed: -170.000000
+[2019.02.14-21.49.24:762][ 13]LogTemp: Current Speed: -171.000000
+[2019.02.14-21.49.24:770][ 14]LogTemp: Current Speed: -172.000000
+[2019.02.14-21.49.24:779][ 15]LogTemp: Current Speed: -173.000000
+[2019.02.14-21.49.24:787][ 16]LogTemp: Current Speed: -174.000000
+[2019.02.14-21.49.24:797][ 17]LogTemp: Current Speed: -175.000000
+[2019.02.14-21.49.24:804][ 18]LogTemp: Current Speed: -176.000000
+[2019.02.14-21.49.24:812][ 19]LogTemp: Current Speed: -177.000000
+[2019.02.14-21.49.24:820][ 20]LogTemp: Current Speed: -178.000000
+[2019.02.14-21.49.24:831][ 21]LogTemp: Current Speed: -179.000000
+[2019.02.14-21.49.24:837][ 22]LogTemp: Current Speed: -180.000000
+[2019.02.14-21.49.24:845][ 23]LogTemp: Current Speed: -181.000000
+[2019.02.14-21.49.24:854][ 24]LogTemp: Current Speed: -182.000000
+[2019.02.14-21.49.24:862][ 25]LogTemp: Current Speed: -183.000000
+[2019.02.14-21.49.24:870][ 26]LogTemp: Current Speed: -184.000000
+[2019.02.14-21.49.24:879][ 27]LogTemp: Current Speed: -185.000000
+[2019.02.14-21.49.24:887][ 28]LogTemp: Current Speed: -186.000000
+[2019.02.14-21.49.24:895][ 29]LogTemp: Current Speed: -187.000000
+[2019.02.14-21.49.24:904][ 30]LogTemp: Current Speed: -188.000000
+[2019.02.14-21.49.24:912][ 31]LogTemp: Current Speed: -189.000000
+[2019.02.14-21.49.24:921][ 32]LogTemp: Current Speed: -190.000000
+[2019.02.14-21.49.24:929][ 33]LogTemp: Current Speed: -191.000000
+[2019.02.14-21.49.24:937][ 34]LogTemp: Current Speed: -192.000000
+[2019.02.14-21.49.24:946][ 35]LogTemp: Current Speed: -193.000000
+[2019.02.14-21.49.24:955][ 36]LogTemp: Current Speed: -194.000000
+[2019.02.14-21.49.24:966][ 37]LogTemp: Current Speed: -195.000000
+[2019.02.14-21.49.24:974][ 38]LogTemp: Current Speed: -196.000000
+[2019.02.14-21.49.24:984][ 39]LogTemp: Current Speed: -197.000000
+[2019.02.14-21.49.24:991][ 40]LogTemp: Current Speed: -198.000000
+[2019.02.14-21.49.24:999][ 41]LogTemp: Current Speed: -199.000000
+[2019.02.14-21.49.25:007][ 42]LogTemp: Current Speed: -200.000000
+[2019.02.14-21.49.25:015][ 43]LogTemp: Current Speed: -201.000000
+[2019.02.14-21.49.25:024][ 44]LogTemp: Current Speed: -202.000000
+[2019.02.14-21.49.25:033][ 45]LogTemp: Current Speed: -203.000000
+[2019.02.14-21.49.25:041][ 46]LogTemp: Current Speed: -204.000000
+[2019.02.14-21.49.25:049][ 47]LogTemp: Current Speed: -205.000000
+[2019.02.14-21.49.25:059][ 48]LogTemp: Current Speed: -206.000000
+[2019.02.14-21.49.25:065][ 49]LogTemp: Current Speed: -207.000000
+[2019.02.14-21.49.25:074][ 50]LogTemp: Current Speed: -208.000000
+[2019.02.14-21.49.25:082][ 51]LogTemp: Current Speed: -209.000000
+[2019.02.14-21.49.25:091][ 52]LogTemp: Current Speed: -210.000000
+[2019.02.14-21.49.25:099][ 53]LogTemp: Current Speed: -211.000000
+[2019.02.14-21.49.25:107][ 54]LogTemp: Current Speed: -212.000000
+[2019.02.14-21.49.25:116][ 55]LogTemp: Current Speed: -213.000000
+[2019.02.14-21.49.25:124][ 56]LogTemp: Current Speed: -214.000000
+[2019.02.14-21.49.25:132][ 57]LogTemp: Current Speed: -215.000000
+[2019.02.14-21.49.25:141][ 58]LogTemp: Current Speed: -216.000000
+[2019.02.14-21.49.25:149][ 59]LogTemp: Current Speed: -217.000000
+[2019.02.14-21.49.25:157][ 60]LogTemp: Current Speed: -218.000000
+[2019.02.14-21.49.25:166][ 61]LogTemp: Current Speed: -219.000000
+[2019.02.14-21.49.25:174][ 62]LogTemp: Current Speed: -220.000000
+[2019.02.14-21.49.25:184][ 63]LogTemp: Current Speed: -221.000000
+[2019.02.14-21.49.25:191][ 64]LogTemp: Current Speed: -222.000000
+[2019.02.14-21.49.25:199][ 65]LogTemp: Current Speed: -223.000000
+[2019.02.14-21.49.25:207][ 66]LogTemp: Current Speed: -224.000000
+[2019.02.14-21.49.25:216][ 67]LogTemp: Current Speed: -225.000000
+[2019.02.14-21.49.25:224][ 68]LogTemp: Current Speed: -226.000000
+[2019.02.14-21.49.25:232][ 69]LogTemp: Current Speed: -227.000000
+[2019.02.14-21.49.25:241][ 70]LogTemp: Current Speed: -228.000000
+[2019.02.14-21.49.25:249][ 71]LogTemp: Current Speed: -229.000000
+[2019.02.14-21.49.25:257][ 72]LogTemp: Current Speed: -230.000000
+[2019.02.14-21.49.25:266][ 73]LogTemp: Current Speed: -231.000000
+[2019.02.14-21.49.25:274][ 74]LogTemp: Current Speed: -232.000000
+[2019.02.14-21.49.25:284][ 75]LogTemp: Current Speed: -233.000000
+[2019.02.14-21.49.25:291][ 76]LogTemp: Current Speed: -234.000000
+[2019.02.14-21.49.25:299][ 77]LogTemp: Current Speed: -235.000000
+[2019.02.14-21.49.25:309][ 78]LogTemp: Current Speed: -236.000000
+[2019.02.14-21.49.25:316][ 79]LogTemp: Current Speed: -237.000000
+[2019.02.14-21.49.25:324][ 80]LogTemp: Current Speed: -238.000000
+[2019.02.14-21.49.25:332][ 81]LogTemp: Current Speed: -239.000000
+[2019.02.14-21.49.25:342][ 82]LogTemp: Current Speed: -240.000000
+[2019.02.14-21.49.25:349][ 83]LogTemp: Current Speed: -241.000000
+[2019.02.14-21.49.25:358][ 84]LogTemp: Current Speed: -242.000000
+[2019.02.14-21.49.25:366][ 85]LogTemp: Current Speed: -243.000000
+[2019.02.14-21.49.25:374][ 86]LogTemp: Current Speed: -244.000000
+[2019.02.14-21.49.25:382][ 87]LogTemp: Current Speed: -245.000000
+[2019.02.14-21.49.25:391][ 88]LogTemp: Current Speed: -246.000000
+[2019.02.14-21.49.25:399][ 89]LogTemp: Current Speed: -247.000000
+[2019.02.14-21.49.25:409][ 90]LogTemp: Current Speed: -248.000000
+[2019.02.14-21.49.25:418][ 91]LogTemp: Current Speed: -249.000000
+[2019.02.14-21.49.25:424][ 92]LogTemp: Current Speed: -250.000000
+[2019.02.14-21.49.25:433][ 93]LogTemp: Current Speed: -251.000000
+[2019.02.14-21.49.25:441][ 94]LogTemp: Current Speed: -252.000000
+[2019.02.14-21.49.25:449][ 95]LogTemp: Current Speed: -253.000000
+[2019.02.14-21.49.25:458][ 96]LogTemp: Current Speed: -254.000000
+[2019.02.14-21.49.25:466][ 97]LogTemp: Current Speed: -255.000000
+[2019.02.14-21.49.25:474][ 98]LogTemp: Current Speed: -256.000000
+[2019.02.14-21.49.25:483][ 99]LogTemp: Current Speed: -257.000000
+[2019.02.14-21.49.25:491][100]LogTemp: Current Speed: -258.000000
+[2019.02.14-21.49.25:499][101]LogTemp: Current Speed: -259.000000
+[2019.02.14-21.49.25:508][102]LogTemp: Current Speed: -260.000000
+[2019.02.14-21.49.25:516][103]LogTemp: Current Speed: -261.000000
+[2019.02.14-21.49.25:524][104]LogTemp: Current Speed: -262.000000
+[2019.02.14-21.49.25:533][105]LogTemp: Current Speed: -263.000000
+[2019.02.14-21.49.25:541][106]LogTemp: Current Speed: -264.000000
+[2019.02.14-21.49.25:549][107]LogTemp: Current Speed: -265.000000
+[2019.02.14-21.49.25:560][108]LogTemp: Current Speed: -266.000000
+[2019.02.14-21.49.25:566][109]LogTemp: Current Speed: -267.000000
+[2019.02.14-21.49.25:575][110]LogTemp: Current Speed: -268.000000
+[2019.02.14-21.49.25:583][111]LogTemp: Current Speed: -269.000000
+[2019.02.14-21.49.25:592][112]LogTemp: Current Speed: -270.000000
+[2019.02.14-21.49.25:600][113]LogTemp: Current Speed: -271.000000
+[2019.02.14-21.49.25:608][114]LogTemp: Current Speed: -272.000000
+[2019.02.14-21.49.25:617][115]LogTemp: Current Speed: -273.000000
+[2019.02.14-21.49.25:625][116]LogTemp: Current Speed: -274.000000
+[2019.02.14-21.49.25:633][117]LogTemp: Current Speed: -275.000000
+[2019.02.14-21.49.25:641][118]LogTemp: Current Speed: -276.000000
+[2019.02.14-21.49.25:650][119]LogTemp: Current Speed: -277.000000
+[2019.02.14-21.49.25:658][120]LogTemp: Current Speed: -278.000000
+[2019.02.14-21.49.25:667][121]LogTemp: Current Speed: -279.000000
+[2019.02.14-21.49.25:675][122]LogTemp: Current Speed: -280.000000
+[2019.02.14-21.49.25:683][123]LogTemp: Current Speed: -281.000000
+[2019.02.14-21.49.25:692][124]LogTemp: Current Speed: -282.000000
+[2019.02.14-21.49.25:700][125]LogTemp: Current Speed: -283.000000
+[2019.02.14-21.49.25:708][126]LogTemp: Current Speed: -284.000000
+[2019.02.14-21.49.25:717][127]LogTemp: Current Speed: -285.000000
+[2019.02.14-21.49.25:725][128]LogTemp: Current Speed: -286.000000
+[2019.02.14-21.49.25:733][129]LogTemp: Current Speed: -287.000000
+[2019.02.14-21.49.25:741][130]LogTemp: Current Speed: -288.000000
+[2019.02.14-21.49.25:750][131]LogTemp: Current Speed: -289.000000
+[2019.02.14-21.49.25:758][132]LogTemp: Current Speed: -290.000000
+[2019.02.14-21.49.25:767][133]LogTemp: Current Speed: -291.000000
+[2019.02.14-21.49.25:775][134]LogTemp: Current Speed: -292.000000
+[2019.02.14-21.49.25:784][135]LogTemp: Current Speed: -293.000000
+[2019.02.14-21.49.25:792][136]LogTemp: Current Speed: -294.000000
+[2019.02.14-21.49.25:800][137]LogTemp: Current Speed: -295.000000
+[2019.02.14-21.49.25:809][138]LogTemp: Current Speed: -296.000000
+[2019.02.14-21.49.25:817][139]LogTemp: Current Speed: -297.000000
+[2019.02.14-21.49.25:826][140]LogTemp: Current Speed: -298.000000
+[2019.02.14-21.49.25:833][141]LogTemp: Current Speed: -299.000000
+[2019.02.14-21.49.25:842][142]LogTemp: Current Speed: -300.000000
+[2019.02.14-21.49.25:850][143]LogTemp: Current Speed: -301.000000
+[2019.02.14-21.49.25:858][144]LogTemp: Current Speed: -302.000000
+[2019.02.14-21.49.25:867][145]LogTemp: Current Speed: -303.000000
+[2019.02.14-21.49.25:875][146]LogTemp: Current Speed: -304.000000
+[2019.02.14-21.49.25:884][147]LogTemp: Current Speed: -305.000000
+[2019.02.14-21.49.25:892][148]LogTemp: Current Speed: -306.000000
+[2019.02.14-21.49.25:900][149]LogTemp: Current Speed: -307.000000
+[2019.02.14-21.49.25:910][150]LogTemp: Current Speed: -308.000000
+[2019.02.14-21.49.25:917][151]LogTemp: Current Speed: -309.000000
+[2019.02.14-21.49.25:925][152]LogTemp: Current Speed: -310.000000
+[2019.02.14-21.49.25:936][153]LogTemp: Current Speed: -311.000000
+[2019.02.14-21.49.25:942][154]LogTemp: Current Speed: -312.000000
+[2019.02.14-21.49.25:952][155]LogTemp: Current Speed: -313.000000
+[2019.02.14-21.49.25:959][156]LogTemp: Current Speed: -314.000000
+[2019.02.14-21.49.25:967][157]LogTemp: Current Speed: -315.000000
+[2019.02.14-21.49.25:975][158]LogTemp: Current Speed: -316.000000
+[2019.02.14-21.49.25:984][159]LogTemp: Current Speed: -317.000000
+[2019.02.14-21.49.25:992][160]LogTemp: Current Speed: -318.000000
+[2019.02.14-21.49.26:000][161]LogTemp: Current Speed: -319.000000
+[2019.02.14-21.49.26:009][162]LogTemp: Current Speed: -320.000000
+[2019.02.14-21.49.26:017][163]LogTemp: Current Speed: -321.000000
+[2019.02.14-21.49.26:025][164]LogTemp: Current Speed: -322.000000
+[2019.02.14-21.49.26:034][165]LogTemp: Current Speed: -323.000000
+[2019.02.14-21.49.26:042][166]LogTemp: Current Speed: -324.000000
+[2019.02.14-21.49.26:050][167]LogTemp: Current Speed: -325.000000
+[2019.02.14-21.49.26:060][168]LogTemp: Current Speed: -326.000000
+[2019.02.14-21.49.26:067][169]LogTemp: Current Speed: -327.000000
+[2019.02.14-21.49.26:075][170]LogTemp: Current Speed: -328.000000
+[2019.02.14-21.49.26:084][171]LogTemp: Current Speed: -329.000000
+[2019.02.14-21.49.26:092][172]LogTemp: Current Speed: -330.000000
+[2019.02.14-21.49.26:101][173]LogTemp: Current Speed: -331.000000
+[2019.02.14-21.49.26:109][174]LogTemp: Current Speed: -332.000000
+[2019.02.14-21.49.26:117][175]LogTemp: Current Speed: -333.000000
+[2019.02.14-21.49.26:125][176]LogTemp: Current Speed: -334.000000
+[2019.02.14-21.49.26:136][177]LogTemp: Current Speed: -335.000000
+[2019.02.14-21.49.26:142][178]LogTemp: Current Speed: -336.000000
+[2019.02.14-21.49.26:152][179]LogTemp: Current Speed: -337.000000
+[2019.02.14-21.49.26:159][180]LogTemp: Current Speed: -338.000000
+[2019.02.14-21.49.26:170][181]LogTemp: Current Speed: -339.000000
+[2019.02.14-21.49.26:175][182]LogTemp: Current Speed: -340.000000
+[2019.02.14-21.49.26:185][183]LogTemp: Current Speed: -341.000000
+[2019.02.14-21.49.26:192][184]LogTemp: Current Speed: -342.000000
+[2019.02.14-21.49.26:201][185]LogTemp: Current Speed: -343.000000
+[2019.02.14-21.49.26:471][217]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.49.26:474][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.49.26:517][217]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.14-21.49.26:517][217]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.14-21.49.26:547][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-21.49.26:579][218]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.02.14-21.49.27:716][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.14-21.49.27:869][351]LogSlate: Window 'VehicleMovement - Unreal Editor' being destroyed
+[2019.02.14-21.49.27:874][351]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.14-21.49.28:150][352]Cmd: QUIT_EDITOR
+[2019.02.14-21.49.28:511][352]LogExit: Preparing to exit.
+[2019.02.14-21.49.29:179][352]LogExit: Editor shut down
+[2019.02.14-21.49.29:180][352]LogExit: Transaction tracking system shut down
+[2019.02.14-21.49.29:775][352]LogExit: Object subsystem successfully closed.
+[2019.02.14-21.49.29:850][352]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.02.14-21.49.29:855][352]LogD3D11RHI: Shutdown
+[2019.02.14-21.49.29:856][352]LogD3D11RHI: CleanupD3DDevice
+[2019.02.14-21.49.29:871][352]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.02.14-21.49.30:082][352]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2019.02.14-21.49.30:083][352]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2019.02.14-21.49.30:084][352]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
+[2019.02.14-21.49.30:084][352]LogModuleManager: Shutting down and abandoning module SceneOutliner (612)
+[2019.02.14-21.49.30:085][352]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2019.02.14-21.49.30:086][352]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2019.02.14-21.49.30:086][352]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2019.02.14-21.49.30:086][352]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2019.02.14-21.49.30:088][352]LogModuleManager: Shutting down and abandoning module StatsViewer (602)
+[2019.02.14-21.49.30:089][352]LogModuleManager: Shutting down and abandoning module FoliageEdit (600)
+[2019.02.14-21.49.30:090][352]LogModuleManager: Shutting down and abandoning module LandscapeEditor (598)
+[2019.02.14-21.49.30:092][352]LogModuleManager: Shutting down and abandoning module MeshPaintMode (596)
+[2019.02.14-21.49.30:092][352]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (594)
+[2019.02.14-21.49.30:093][352]LogModuleManager: Shutting down and abandoning module ActorPickerMode (592)
+[2019.02.14-21.49.30:093][352]LogModuleManager: Shutting down and abandoning module GeometryMode (590)
+[2019.02.14-21.49.30:093][352]LogModuleManager: Shutting down and abandoning module TextureAlignMode (588)
+[2019.02.14-21.49.30:093][352]LogModuleManager: Shutting down and abandoning module BspMode (586)
+[2019.02.14-21.49.30:093][352]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (584)
+[2019.02.14-21.49.30:093][352]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (582)
+[2019.02.14-21.49.30:094][352]LogModuleManager: Shutting down and abandoning module AutomationWorker (580)
+[2019.02.14-21.49.30:094][352]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (578)
+[2019.02.14-21.49.30:094][352]LogModuleManager: Shutting down and abandoning module SequenceRecorder (577)
+[2019.02.14-21.49.30:095][352]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (574)
+[2019.02.14-21.49.30:096][352]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (572)
+[2019.02.14-21.49.30:097][352]LogModuleManager: Shutting down and abandoning module PlacementMode (571)
+[2019.02.14-21.49.30:098][352]LogModuleManager: Shutting down and abandoning module MaterialEditor (570)
+[2019.02.14-21.49.30:099][352]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (566)
+[2019.02.14-21.49.30:099][352]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (564)
+[2019.02.14-21.49.30:099][352]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (562)
+[2019.02.14-21.49.30:101][352]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
+[2019.02.14-21.49.30:101][352]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
+[2019.02.14-21.49.30:101][352]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
+[2019.02.14-21.49.30:102][352]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
+[2019.02.14-21.49.30:102][352]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
+[2019.02.14-21.49.30:102][352]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
+[2019.02.14-21.49.30:102][352]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
+[2019.02.14-21.49.30:102][352]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
+[2019.02.14-21.49.30:102][352]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
+[2019.02.14-21.49.30:102][352]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
+[2019.02.14-21.49.30:102][352]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
+[2019.02.14-21.49.30:102][352]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
+[2019.02.14-21.49.30:102][352]LogModuleManager: Shutting down and abandoning module SessionServices (536)
+[2019.02.14-21.49.30:102][352]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
+[2019.02.14-21.49.30:102][352]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
+[2019.02.14-21.49.30:102][352]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
+[2019.02.14-21.49.30:104][352]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
+[2019.02.14-21.49.30:105][352]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
+[2019.02.14-21.49.30:107][352]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
+[2019.02.14-21.49.30:108][352]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
+[2019.02.14-21.49.30:108][352]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
+[2019.02.14-21.49.30:108][352]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
+[2019.02.14-21.49.30:109][352]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
+[2019.02.14-21.49.30:109][352]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
+[2019.02.14-21.49.30:109][352]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
+[2019.02.14-21.49.30:975][352]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
+[2019.02.14-21.49.30:975][352]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
+[2019.02.14-21.49.30:975][352]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
+[2019.02.14-21.49.30:975][352]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
+[2019.02.14-21.49.30:975][352]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.02.14-21.49.30:980][352]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.02.14-21.49.30:981][352]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.02.14-21.49.30:981][352]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.02.14-21.49.30:982][352]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.02.14-21.49.30:982][352]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.02.14-21.49.30:982][352]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.02.14-21.49.30:982][352]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.02.14-21.49.30:983][352]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.02.14-21.49.30:983][352]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.02.14-21.49.30:983][352]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.02.14-21.49.30:983][352]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.02.14-21.49.30:983][352]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.02.14-21.49.30:985][352]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.02.14-21.49.30:985][352]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.02.14-21.49.30:986][352]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.02.14-21.49.30:986][352]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.02.14-21.49.30:986][352]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.02.14-21.49.31:052][352]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.02.14-21.49.31:053][352]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.02.14-21.49.31:054][352]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.02.14-21.49.31:056][352]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.02.14-21.49.31:056][352]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.02.14-21.49.31:058][352]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.02.14-21.49.31:058][352]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.02.14-21.49.31:061][352]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.02.14-21.49.31:061][352]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.02.14-21.49.31:062][352]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.02.14-21.49.31:066][352]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.02.14-21.49.31:069][352]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.02.14-21.49.31:070][352]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.02.14-21.49.31:071][352]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
+[2019.02.14-21.49.31:071][352]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.02.14-21.49.31:072][352]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.02.14-21.49.31:075][352]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.02.14-21.49.31:075][352]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.02.14-21.49.31:075][352]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.02.14-21.49.31:075][352]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.02.14-21.49.31:075][352]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.02.14-21.49.31:076][352]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.02.14-21.49.31:076][352]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.02.14-21.49.31:077][352]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.02.14-21.49.31:077][352]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.02.14-21.49.31:077][352]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.02.14-21.49.31:077][352]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.02.14-21.49.31:077][352]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.02.14-21.49.31:077][352]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.02.14-21.49.31:078][352]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.02.14-21.49.31:078][352]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.02.14-21.49.31:079][352]LogModuleManager: Shutting down and abandoning module ProfilerService (404)
+[2019.02.14-21.49.31:212][352]LogModuleManager: Shutting down and abandoning module TaskGraph (402)
+[2019.02.14-21.49.31:213][352]LogModuleManager: Shutting down and abandoning module SteamVRController (400)
+[2019.02.14-21.49.31:213][352]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (398)
+[2019.02.14-21.49.31:213][352]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (396)
+[2019.02.14-21.49.31:214][352]LogModuleManager: Shutting down and abandoning module OculusInput (394)
+[2019.02.14-21.49.31:214][352]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
+[2019.02.14-21.49.31:214][352]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
+[2019.02.14-21.49.31:214][352]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
+[2019.02.14-21.49.31:214][352]LogModuleManager: Shutting down and abandoning module CableComponent (386)
+[2019.02.14-21.49.31:214][352]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
+[2019.02.14-21.49.31:214][352]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
+[2019.02.14-21.49.31:214][352]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
+[2019.02.14-21.49.31:215][352]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
+[2019.02.14-21.49.31:215][352]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
+[2019.02.14-21.49.31:216][352]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (374)
+[2019.02.14-21.49.31:217][352]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.02.14-21.49.31:217][352]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.02.14-21.49.31:217][352]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.02.14-21.49.31:228][352]LogModuleManager: Shutting down and abandoning module RawInput (366)
+[2019.02.14-21.49.31:231][352]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.02.14-21.49.31:231][352]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.02.14-21.49.31:231][352]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.02.14-21.49.31:231][352]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.02.14-21.49.31:232][352]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.02.14-21.49.31:232][352]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.02.14-21.49.31:232][352]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.02.14-21.49.31:232][352]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.02.14-21.49.31:233][352]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.02.14-21.49.31:233][352]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.02.14-21.49.31:234][352]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.02.14-21.49.31:234][352]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.02.14-21.49.31:237][352]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.02.14-21.49.31:237][352]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.02.14-21.49.31:239][352]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.02.14-21.49.31:240][352]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.02.14-21.49.31:240][352]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.02.14-21.49.31:240][352]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.02.14-21.49.31:241][352]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.02.14-21.49.31:241][352]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.02.14-21.49.31:241][352]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.02.14-21.49.31:241][352]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.02.14-21.49.31:241][352]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.02.14-21.49.31:242][352]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.02.14-21.49.31:243][352]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.02.14-21.49.31:245][352]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.02.14-21.49.31:245][352]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.02.14-21.49.31:245][352]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.02.14-21.49.31:245][352]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.02.14-21.49.31:245][352]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.02.14-21.49.31:245][352]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.02.14-21.49.31:246][352]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.02.14-21.49.31:247][352]LogModuleManager: Shutting down and abandoning module VehicleMovement (300)
+[2019.02.14-21.49.31:247][352]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.02.14-21.49.31:247][352]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.02.14-21.49.31:247][352]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.02.14-21.49.31:247][352]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.02.14-21.49.31:247][352]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.02.14-21.49.31:247][352]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.02.14-21.49.31:247][352]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.02.14-21.49.31:248][352]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.02.14-21.49.31:248][352]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.02.14-21.49.31:350][352]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.02.14-21.49.31:451][352]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.02.14-21.49.31:451][352]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.02.14-21.49.31:451][352]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.02.14-21.49.31:452][352]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.02.14-21.49.31:452][352]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.02.14-21.49.31:452][352]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.02.14-21.49.31:453][352]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.02.14-21.49.31:455][352]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.02.14-21.49.31:456][352]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.02.14-21.49.31:457][352]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.02.14-21.49.31:457][352]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.02.14-21.49.31:459][352]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.02.14-21.49.31:460][352]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.02.14-21.49.31:461][352]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.02.14-21.49.31:461][352]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.02.14-21.49.31:461][352]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.02.14-21.49.31:462][352]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.02.14-21.49.31:463][352]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.02.14-21.49.31:470][352]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.02.14-21.49.31:477][352]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.02.14-21.49.31:477][352]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.02.14-21.49.31:477][352]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.02.14-21.49.31:478][352]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.02.14-21.49.31:478][352]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.02.14-21.49.31:478][352]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.02.14-21.49.31:478][352]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.02.14-21.49.31:479][352]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.02.14-21.49.31:479][352]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.02.14-21.49.31:479][352]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.02.14-21.49.31:481][352]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.02.14-21.49.31:482][352]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.02.14-21.49.31:483][352]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.02.14-21.49.31:483][352]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.02.14-21.49.31:484][352]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.02.14-21.49.31:487][352]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.02.14-21.49.31:490][352]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.02.14-21.49.31:490][352]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.02.14-21.49.31:493][352]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.02.14-21.49.31:493][352]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.02.14-21.49.31:499][352]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.02.14-21.49.31:500][352]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.02.14-21.49.31:500][352]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.02.14-21.49.31:500][352]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.02.14-21.49.31:501][352]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.02.14-21.49.31:501][352]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.02.14-21.49.31:501][352]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.02.14-21.49.31:501][352]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.02.14-21.49.31:501][352]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.02.14-21.49.31:503][352]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.02.14-21.49.31:504][352]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.02.14-21.49.31:504][352]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.02.14-21.49.31:505][352]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.02.14-21.49.31:507][352]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.02.14-21.49.31:508][352]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.02.14-21.49.31:509][352]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.02.14-21.49.31:509][352]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.02.14-21.49.31:513][352]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.02.14-21.49.31:736][352]LogDerivedDataCache: Shutdown
+[2019.02.14-21.49.31:736][352]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.02.14-21.49.31:737][352]LogXGEController: Cleaning working directory: C:/Users/Sarfaraz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.14-21.49.31:738][352]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.02.14-21.49.31:740][352]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.02.14-21.49.31:740][352]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.02.14-21.49.31:741][352]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.02.14-21.49.31:742][352]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.02.14-21.49.31:742][352]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.02.14-21.49.31:743][352]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.02.14-21.49.31:743][352]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.02.14-21.49.31:743][352]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.02.14-21.49.31:744][352]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.02.14-21.49.31:748][352]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.02.14-21.49.31:748][352]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.02.14-21.49.31:748][352]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.02.14-21.49.31:748][352]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.02.14-21.49.31:750][352]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.02.14-21.49.31:750][352]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.02.14-21.49.31:750][352]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.02.14-21.49.31:751][352]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.02.14-21.49.31:752][352]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.02.14-21.49.31:753][352]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.02.14-21.49.31:753][352]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.02.14-21.49.31:753][352]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.02.14-21.49.31:784][352]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.02.14-21.49.31:784][352]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.02.14-21.49.31:808][352]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.02.14-21.49.31:809][352]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.02.14-21.49.31:923][352]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.02.14-21.49.31:924][352]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.02.14-21.49.31:924][352]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.02.14-21.49.31:925][352]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.02.14-21.49.31:925][352]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.02.14-21.49.31:926][352]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.02.14-21.49.31:927][352]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.02.14-21.49.31:927][352]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.02.14-21.49.31:927][352]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.02.14-21.49.31:927][352]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.02.14-21.49.31:927][352]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.02.14-21.49.31:928][352]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.02.14-21.49.31:928][352]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.02.14-21.49.31:928][352]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.02.14-21.49.31:929][352]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.02.14-21.49.31:929][352]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.02.14-21.49.31:929][352]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.02.14-21.49.31:929][352]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.02.14-21.49.31:933][352]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.02.14-21.49.31:937][352]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.02.14-21.49.31:962][352]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.02.14-21.49.31:962][352]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.02.14-21.49.31:962][352]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A64846D-46F9-35C7-41B3-46BD65B791E6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=3fb737224a51bc632581bd91c14d1591%7C8ae81fff8fc647328846e802f56b3813%7Cedc5a6d1-e041-41b6-9db5-cad6714b3343&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.02.14-21.49.31:992][352]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.02.14-21.49.31:995][352]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.02.14-21.49.31:995][352]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.02.14-21.49.31:995][352]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.02.14-21.49.31:996][352]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.02.14-21.49.31:996][352]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.02.14-21.49.31:996][352]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.02.14-21.49.31:996][352]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.02.14-21.49.31:996][352]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.02.14-21.49.31:997][352]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.02.14-21.49.31:999][352]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.02.14-21.49.32:000][352]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.02.14-21.49.32:000][352]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.02.14-21.49.32:002][352]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.02.14-21.49.32:003][352]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.02.14-21.49.32:004][352]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.02.14-21.49.32:011][352]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.02.14-21.49.32:011][352]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.02.14-21.49.32:011][352]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.02.14-21.49.32:013][352]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.02.14-21.49.32:014][352]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.02.14-21.49.32:014][352]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.02.14-21.49.32:014][352]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.02.14-21.49.32:014][352]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.02.14-21.49.32:014][352]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.02.14-21.49.32:014][352]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.02.14-21.49.32:014][352]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.02.14-21.49.32:014][352]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.02.14-21.49.32:015][352]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.02.14-21.49.32:015][352]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.02.14-21.49.32:023][352]LogExit: Exiting.
+[2019.02.14-21.49.32:070][352]Log file closed, 02/14/19 16:49:32
