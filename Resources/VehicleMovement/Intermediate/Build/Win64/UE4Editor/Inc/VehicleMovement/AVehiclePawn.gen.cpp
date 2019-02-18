@@ -37,6 +37,18 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PawnBrakeDeceleration_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PawnBrakeDeceleration;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_frameRate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_frameRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WaitTimer_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_WaitTimer;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WheelBL_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_WheelBL;
@@ -69,13 +81,13 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_WheelBaseFR;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PawnDeceleration_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PawnDeceleration;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PawnAcceleration_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PawnAcceleration;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_frameRate_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_frameRate;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PawnBoostSpeed_MetaData[];
 #endif
@@ -131,6 +143,27 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 		{ "ModuleRelativePath", "AVehiclePawn.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnBrakeDeceleration_MetaData[] = {
+		{ "Category", "Game Parts" },
+		{ "ModuleRelativePath", "AVehiclePawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnBrakeDeceleration = { UE4CodeGen_Private::EPropertyClass::Float, "PawnBrakeDeceleration", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, PawnBrakeDeceleration), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnBrakeDeceleration_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnBrakeDeceleration_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_frameRate_MetaData[] = {
+		{ "Category", "Game Parts" },
+		{ "ModuleRelativePath", "AVehiclePawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_frameRate = { UE4CodeGen_Private::EPropertyClass::Float, "frameRate", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, frameRate), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_frameRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_frameRate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WaitTimer_MetaData[] = {
+		{ "Category", "Game Parts" },
+		{ "ModuleRelativePath", "AVehiclePawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WaitTimer = { UE4CodeGen_Private::EPropertyClass::Float, "WaitTimer", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, WaitTimer), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WaitTimer_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WaitTimer_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WheelBL_MetaData[] = {
 		{ "Category", "Vehicle Parts" },
@@ -196,19 +229,19 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WheelBaseFR = { UE4CodeGen_Private::EPropertyClass::Object, "WheelBaseFR", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000008000d, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, WheelBaseFR), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WheelBaseFR_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WheelBaseFR_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnDeceleration_MetaData[] = {
+		{ "Category", "Vehicle Parts" },
+		{ "ModuleRelativePath", "AVehiclePawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnDeceleration = { UE4CodeGen_Private::EPropertyClass::Float, "PawnDeceleration", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, PawnDeceleration), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnDeceleration_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnDeceleration_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnAcceleration_MetaData[] = {
 		{ "Category", "Vehicle Parts" },
 		{ "ModuleRelativePath", "AVehiclePawn.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnAcceleration = { UE4CodeGen_Private::EPropertyClass::Float, "PawnAcceleration", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, PawnAcceleration), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnAcceleration_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnAcceleration_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_frameRate_MetaData[] = {
-		{ "Category", "Vehicle Parts" },
-		{ "ModuleRelativePath", "AVehiclePawn.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_frameRate = { UE4CodeGen_Private::EPropertyClass::Float, "frameRate", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, frameRate), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_frameRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_frameRate_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnBoostSpeed_MetaData[] = {
 		{ "Category", "Vehicle Parts" },
@@ -289,6 +322,9 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_MeshComponent = { UE4CodeGen_Private::EPropertyClass::Object, "MeshComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000008000d, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, MeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_MeshComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_MeshComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAVehiclePawn_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnBrakeDeceleration,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_frameRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WaitTimer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WheelBL,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WheelBR,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WheelFL,
@@ -297,8 +333,8 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WheelBaseBR,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WheelBaseFL,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WheelBaseFR,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnDeceleration,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnAcceleration,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_frameRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnBoostSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnNormalSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_boostMaxSpeed,
@@ -333,7 +369,7 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAVehiclePawn, 3935591835);
+	IMPLEMENT_CLASS(AAVehiclePawn, 2658818643);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAVehiclePawn(Z_Construct_UClass_AAVehiclePawn, &AAVehiclePawn::StaticClass, TEXT("/Script/VehicleMovement"), TEXT("AAVehiclePawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAVehiclePawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

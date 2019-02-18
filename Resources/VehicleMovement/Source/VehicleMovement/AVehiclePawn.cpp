@@ -43,6 +43,7 @@ AAVehiclePawn::AAVehiclePawn()
 	// Movement Component
 	PawnMovementComponent = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("Car Movement Component"));
 
+	// vehicle wheel component
 	WheelBaseFR = CreateDefaultSubobject<USceneComponent>(TEXT("Wheel Base Front Right"));
 	WheelBaseFL = CreateDefaultSubobject<USceneComponent>(TEXT("Wheel Base Front Left"));
 	WheelBaseBR = CreateDefaultSubobject<USceneComponent>(TEXT("Wheel Base Back Right"));
@@ -82,13 +83,21 @@ AAVehiclePawn::AAVehiclePawn()
 	MinSpeed = -0.5;
 	currentSpeed = 0;
 	currenTurn = 0;
+
+	PawnAcceleration = 50;
+	PawnDeceleration = 0.5;
+	PawnBrakeDeceleration = 1000;
+
 	PawnNormalSpeed = 5200;
 	PawnBoostSpeed = 9200;
-	PawnAcceleration = 50;
 	normalMaxSpeed = 1.0;
 	boostMaxSpeed = 1.5;
 
 	frameRate = 0.0098;
+	WaitTimer = 3.0f;
+	canMove = true;
+	gravity = -25;
+
 }
 
 // Called when the game starts or when spawned
@@ -99,6 +108,7 @@ void AAVehiclePawn::BeginPlay()
 	PawnMovementComponent->MaxSpeed = PawnNormalSpeed;
 
 	GetWorld()->GetTimerManager().SetTimer(LoopTimerHandle, this, &AAVehiclePawn::FixedUpdate, frameRate, true);
+	//GetWorld()->GetTimerManager().SetTimer(StartGameTimerHandle, this, &AAVehiclePawn::GameStart, WaitTimer, false);
 }
 
 // Called every frame
@@ -114,10 +124,19 @@ void AAVehiclePawn::Tick(float DeltaTime)
 void AAVehiclePawn::FixedUpdate()
 {
 	RayCastGround();
-	ReducedValues();
-	MoveCar();
+	
+	if (canMove)
+	{
+		ReducedValues();
+		MoveCar();
+	}
 }
 
+void AAVehiclePawn::GameStart()
+{
+	canMove = true;
+	GetWorld()->GetTimerManager().ClearTimer(StartGameTimerHandle);
+}
 // Called to bind functionality to input
 void AAVehiclePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -130,6 +149,7 @@ void AAVehiclePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 	PlayerInputComponent->BindAxis("MoveRight", this, &AAVehiclePawn::MoveY);  // call the MoveY method with keys bind to 'MoveRight'
 	PlayerInputComponent->BindAction("Boost", IE_Pressed, this, &AAVehiclePawn::BoostPress);
 	PlayerInputComponent->BindAction("Boost", IE_Released, this, &AAVehiclePawn::BoostRelease);
+	PlayerInputComponent->BindAxis("Brakes", this, &AAVehiclePawn::Brake);
 }
 
 void AAVehiclePawn::BoostPress()
@@ -141,25 +161,19 @@ void AAVehiclePawn::BoostRelease()
 {
 	MaxSpeed = normalMaxSpeed;
 	PawnMovementComponent->MaxSpeed = PawnNormalSpeed;
-
 }
 
 // Movement on x direction
 void AAVehiclePawn::MoveX(float AxisValue)
 {
 	velocity = AxisValue;
-	/*float tempVel = AxisValue / 1000;
-	float tempSpeed = currentSpeed + tempVel;
-	currentSpeed = FMath::Clamp(tempSpeed, MinSpeed, MaxSpeed);*/
 	if (AxisValue > 0)
 	{
 		currentSpeed += PawnAcceleration * 0.02f;
-		UE_LOG(LogTemp, Log, TEXT("Current Speed: %f"), currentSpeed);
 	}
-	if(AxisValue < 0)
+	if (AxisValue < 0)
 	{
 		currentSpeed -= PawnAcceleration * 0.02f;
-		UE_LOG(LogTemp, Log, TEXT("Current Speed: %f"), currentSpeed);
 	}
 }
 
@@ -172,13 +186,29 @@ void AAVehiclePawn::MoveY(float AxisValue)
 	currenTurn = FMath::Clamp(tempTurn, -1.5f, 1.5f);
 }
 
+void AAVehiclePawn::Brake(float AxisValue)
+{
+	if(AxisValue > 0)
+	{
+		if(currentSpeed > 0)
+		{
+			currentSpeed -= PawnBrakeDeceleration * 0.02f;
+			UE_LOG(LogTemp, Log, TEXT("Break Speed:  %f"), currentSpeed);
+
+		}else if(currentSpeed < 0)
+		{
+			currentSpeed += PawnBrakeDeceleration * 0.02f;
+		}
+	}	
+}
+
 void AAVehiclePawn::ReducedValues()
 {
 
 	// if the velocity is low and the car is moving slow it down
 	if (velocity < 1 && currentSpeed > 0)
 	{
-		currentSpeed -= 0.5;
+		currentSpeed -= PawnDeceleration * 0.02f;
 
 	}
 	else
@@ -186,7 +216,7 @@ void AAVehiclePawn::ReducedValues()
 		// if the velocity is low and the car is moving slow it down but in reverse
 		if (velocity > -1 && currentSpeed < 0)
 		{
-			currentSpeed += 0.5;
+			currentSpeed += PawnDeceleration * 0.02f;
 
 		}
 	}
@@ -194,6 +224,7 @@ void AAVehiclePawn::ReducedValues()
 	{
 		currentSpeed = 0;
 	}
+
 
 	// if the turn velocity is low and the car is turning slow it down
 	if (TurnVel < 1 && currenTurn > 0)
@@ -220,14 +251,13 @@ void AAVehiclePawn::ReducedValues()
 void AAVehiclePawn::MoveCar()
 {
 	// multiply the foward vector by the speed
-	FVector TempFowardVector = FVector(GetActorForwardVector().X * currentSpeed, GetActorForwardVector().Y * currentSpeed, 0);
-	//UE_LOG(LogTemp, Log, TEXT("Current Speed: %f"), currentSpeed);
+	FVector TempFowardVector = FVector(GetActorForwardVector().X * currentSpeed, GetActorForwardVector().Y * currentSpeed, gravity);
 	TempFowardVector.Normalize(1);
-	PawnMovementComponent->AddInputVector(TempFowardVector, true);
-	
+	PawnMovementComponent->AddInputVector(TempFowardVector);
+
+
 	// set the turn speed
 	AddActorLocalRotation(FRotator(0, currenTurn, 0));
-
 }
 
 void AAVehiclePawn::RayCastGround()

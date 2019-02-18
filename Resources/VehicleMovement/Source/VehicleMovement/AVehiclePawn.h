@@ -39,7 +39,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
 		float RCDistance;
 
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
 		float MinSpeed;
 
@@ -56,10 +55,10 @@ public:
 		float PawnBoostSpeed;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
-		float frameRate;
+		float PawnAcceleration;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
-		float PawnAcceleration;
+		float PawnDeceleration;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Wheels")
 		class USceneComponent* WheelBaseFR;
@@ -85,15 +84,28 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
 		class UStaticMeshComponent* WheelBL;
 
-	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game Parts")
+		float  WaitTimer;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game Parts")
+		float frameRate;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game Parts")
+		float PawnBrakeDeceleration;
+
+
+	// timer function 
 	FTimerHandle LoopTimerHandle;
-	
+	FTimerHandle StartGameTimerHandle;
+
 private:
 	float MaxSpeed;
 	float currentSpeed;
 	float currenTurn;
 	float velocity;
 	float TurnVel;
+	bool  canMove;
+	float gravity;
 
 protected:
 	// Called when the game starts or when spawned
@@ -115,5 +127,6 @@ public:
 	void BoostPress();
 	void BoostRelease();
 	void FixedUpdate();
-
+	void GameStart();
+	void Brake(float AxisValue);
 };

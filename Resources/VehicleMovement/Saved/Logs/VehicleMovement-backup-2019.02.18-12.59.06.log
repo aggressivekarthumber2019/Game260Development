@@ -1,0 +1,2114 @@
+﻿Log file open, 02/18/19 12:55:01
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VehicleMovement
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.352617
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.160s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 750 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.18-17.55.01:890][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.18-17.55.01:890][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.18-17.55.01:900][  0]LogHAL: Display: Platform has ~ 8 GB [8536301568 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.18-17.55.01:900][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.18-17.55.01:900][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.18-17.55.01:901][  0]LogInit: Computer: DESKTOP-IAKBS29
+[2019.02.18-17.55.01:901][  0]LogInit: User: Sarfaraz
+[2019.02.18-17.55.01:901][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.18-17.55.01:901][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.18-17.55.01:901][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.02.18-17.55.01:901][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.18-17.55.01:901][  0]LogMemory: Process Physical Memory: 101.38 MB used, 101.39 MB peak
+[2019.02.18-17.55.01:901][  0]LogMemory: Process Virtual Memory: 84.20 MB used, 84.20 MB peak
+[2019.02.18-17.55.01:901][  0]LogMemory: Physical Memory: 6538.55 MB used,  1602.30 MB free, 8140.85 MB total
+[2019.02.18-17.55.01:902][  0]LogMemory: Virtual Memory: 4608.51 MB used,  1602.30 MB free, 134217728.00 MB total
+[2019.02.18-17.55.02:025][  0]LogInit: Using OS detected language (en-US).
+[2019.02.18-17.55.02:025][  0]LogInit: Using OS detected locale (en-CA).
+[2019.02.18-17.55.02:027][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.18-17.55.02:453][  0]LogStreaming: Display: Took  0.428s to InitEngineTextLocalization.
+[2019.02.18-17.55.02:453][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.18-17.55.02:516][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.18-17.55.02:516][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.18-17.55.02:852][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.18-17.55.02:852][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.18-17.55.02:952][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2019.02.18-17.55.02:953][  0]LogD3D11RHI:       2007/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.18-17.55.02:959][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.18-17.55.02:959][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.18-17.55.02:959][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.18-17.55.02:969][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.18-17.55.02:970][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.18-17.55.02:970][  0]LogWindows: EnumDisplayDevices:
+[2019.02.18-17.55.02:970][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2019.02.18-17.55.02:971][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:1)
+[2019.02.18-17.55.02:971][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2019.02.18-17.55.02:972][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2019.02.18-17.55.02:973][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.18-17.55.02:973][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2019.02.18-17.55.02:973][  0]LogD3D11RHI:   Driver Version: 418.91 (internal:25.21.14.1891, unified:418.91)
+[2019.02.18-17.55.02:973][  0]LogD3D11RHI:      Driver Date: 2-6-2019
+[2019.02.18-17.55.02:973][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2019.02.18-17.55.03:032][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.18-17.55.03:054][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.18-17.55.03:109][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Intermediate/Shaders/WorkingDirectory/15608/).
+[2019.02.18-17.55.03:109][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sarfaraz/AppData/Local/Temp/UnrealShaderWorkingDir/9C4341E6454BD66BEC734F8C8F8341D8/'.
+[2019.02.18-17.55.03:509][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.18-17.55.03:530][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.18-17.55.03:551][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.18-17.55.03:572][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.18-17.55.03:593][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.18-17.55.03:613][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.18-17.55.03:633][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.18-17.55.03:657][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.18-17.55.03:670][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.18-17.55.03:766][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:766][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:767][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-17.55.03:772][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.18-17.55.03:851][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.18-17.55.03:851][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.18-17.55.03:884][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.18-17.55.03:884][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.18-17.55.03:902][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.18-17.55.03:920][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.18-17.55.03:936][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.18-17.55.03:954][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.18-17.55.03:968][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.18-17.55.03:968][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.18-17.55.04:140][  0]LogXGEController: Cleaning working directory: C:/Users/Sarfaraz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.18-17.55.04:140][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.18-17.55.04:141][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.18-17.55.04:141][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.18-17.55.05:162][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.18-17.55.05:243][  0]LogDerivedDataCache: Loaded boot cache 0.08s 73MB C:/Users/Sarfaraz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.18-17.55.05:243][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sarfaraz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.18-17.55.05:243][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.18-17.55.05:243][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.18-17.55.05:244][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.18-17.55.05:244][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.18-17.55.05:258][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.18-17.55.05:272][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sarfaraz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.18-17.55.05:272][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.18-17.55.05:272][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.18-17.55.05:294][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.18-17.55.05:295][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.18-17.55.05:296][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.18-17.55.05:403][  0]LogAssetRegistry: FAssetRegistry took 0.0295 seconds to start up
+[2019.02.18-17.55.05:775][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.18-17.55.05:983][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.18-17.55.05:995][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.18-17.55.05:995][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.18-17.55.05:995][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.18-17.55.05:995][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.18-17.55.06:020][  0]LogNetVersion: VehicleMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2966596176)
+[2019.02.18-17.55.06:638][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.113441 seconds
+[2019.02.18-17.55.06:645][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.18-17.55.06:645][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.02.18-17.55.06:645][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.18-17.55.08:958][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.18-17.55.08:979][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.18-17.55.10:517][  0]SourceControl: Source control is disabled
+[2019.02.18-17.55.10:517][  0]SourceControl: Source control is disabled
+[2019.02.18-17.55.10:531][  0]SourceControl: Source control is disabled
+[2019.02.18-17.55.10:542][  0]SourceControl: Source control is disabled
+[2019.02.18-17.55.10:981][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.18-17.55.11:153][  0]LogOcInput: OculusInput pre-init called
+[2019.02.18-17.55.11:296][  0]LogEngine: Initializing Engine...
+[2019.02.18-17.55.11:299][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.18-17.55.11:303][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2019.02.18-17.55.11:303][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.18-17.55.11:304][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.18-17.55.11:304][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.18-17.55.11:565][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.18-17.55.11:620][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.18-17.55.11:671][  0]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.18-17.55.11:766][  0]LogInit: FAudioDevice initialized.
+[2019.02.18-17.55.11:766][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.18-17.55.11:847][  0]LogDerivedDataCache: Saved boot cache 0.08s 73MB C:/Users/Sarfaraz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.18-17.55.11:848][  0]LogInit: Texture streaming: Enabled
+[2019.02.18-17.55.11:906][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.18-17.55.11:934][  0]LogInit: Transaction tracking system initialized
+[2019.02.18-17.55.12:027][  0]BlueprintLog: New page: Editor Load
+[2019.02.18-17.55.12:343][  0]LocalizationService: Localization service is disabled
+[2019.02.18-17.55.12:827][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.18-17.55.12:828][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.18-17.55.12:829][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/' took 0.02s
+[2019.02.18-17.55.12:829][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.18-17.55.12:830][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.18-17.55.12:830][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.18-17.55.12:830][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.18-17.55.12:830][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.18-17.55.13:239][  0]SourceControl: Source control is disabled
+[2019.02.18-17.55.13:241][  0]Cmd: MAP LOAD FILE="D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.18-17.55.13:282][  0]LightingResults: New page: Lighting Build
+[2019.02.18-17.55.13:296][  0]MapCheck: New page: Map Check
+[2019.02.18-17.55.13:296][  0]LightingResults: New page: Lighting Build
+[2019.02.18-17.55.14:045][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.18-17.55.14:086][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.18-17.55.14:119][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.18-17.55.14:259][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 139.221ms to complete.
+[2019.02.18-17.55.14:259][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 1.019
+[2019.02.18-17.55.14:499][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-17.55.14:509][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-17.55.14:520][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-17.55.14:534][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-17.55.14:561][  0]LogCollectionManager: Loaded 0 collections in 0.004426 seconds
+[2019.02.18-17.55.14:645][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Saved/Collections/' took 0.01s
+[2019.02.18-17.55.14:665][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/Developers/Sarfaraz/Collections/' took 0.02s
+[2019.02.18-17.55.14:665][  0]LogFileCache: Scanning file cache for directory 'D:/Humber/Semester 4/Game 260_Game Production/Assignments/VehicleMovement/Content/Collections/' took 0.01s
+[2019.02.18-17.55.14:669][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.18-17.55.14:687][  0]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 2580 classes and 608 folders.
+[2019.02.18-17.55.14:726][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.18-17.55.14:928][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.18-17.55.15:004][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.02.18-17.55.15:090][  0]LogSlate: Took 0.001413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.18-17.55.15:102][  0]LogSlate: Took 0.001367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.18-17.55.15:108][  0]LogSlate: Took 0.001344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.18-17.55.15:110][  0]LogSlate: Took 0.000955 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.02.18-17.55.15:235][  0]LogRenderer: Reallocating scene render targets to support 1528x644 Format 10 NumSamples 1 (Frame:1).
+[2019.02.18-17.55.15:523][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.02.18-17.55.15:524][  0]LogLoad: (Engine Initialization) Total time: 17.19 seconds
+[2019.02.18-17.55.15:524][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.18-17.55.15:541][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.02.18-17.55.15:542][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.02.18-17.55.15:542][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2019.02.18-17.55.15:542][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2019.02.18-17.55.15:543][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2019.02.18-17.55.15:572][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.18-17.55.15:609][  1]LogAssetRegistry: Asset discovery search completed in 10.2294 seconds
+[2019.02.18-17.55.15:611][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.18-17.55.15:612][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000316 seconds (updated 0 objects)
+[2019.02.18-17.55.19:416][405]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-17.55.19:481][413]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.18-17.55.19:496][413]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.18-17.55.19:498][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.18-17.55.19:517][413]PIE: New page: PIE session: VehicleExampleMap (Feb 18, 2019, 7:55:19 AM)
+[2019.02.18-17.55.19:518][413]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2019.02.18-17.55.19:552][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034454s)
+[2019.02.18-17.55.19:554][413]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.18-17.55.19:555][413]LogPlayLevel: PIE: World Init took: (0.002248s)
+[2019.02.18-17.55.19:556][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.038335s)
+[2019.02.18-17.55.19:598][413]LogInit: XAudio2 using 'Headset Earphone (Razer ManO'War 7.1)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.18-17.55.19:665][413]LogInit: FAudioDevice initialized.
+[2019.02.18-17.55.19:719][413]LogLoad: Game class is 'VehicleMovementGameMode'
+[2019.02.18-17.55.19:728][413]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.02.18-12.55.19
+[2019.02.18-17.55.19:731][413]LogWorld: Bringing up level for play took: 0.005796
+[2019.02.18-17.55.19:760][413]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2019.02.18-17.55.19:762][413]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.628
+[2019.02.18-17.55.19:763][413]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.18-17.55.33:758][ 84]LogTemp: Break Speed:  1430.000000
+[2019.02.18-17.55.33:767][ 85]LogTemp: Break Speed:  1429.000000
+[2019.02.18-17.55.33:776][ 86]LogTemp: Break Speed:  1428.000000
+[2019.02.18-17.55.33:784][ 87]LogTemp: Break Speed:  1427.000000
+[2019.02.18-17.55.33:792][ 88]LogTemp: Break Speed:  1426.000000
+[2019.02.18-17.55.33:800][ 89]LogTemp: Break Speed:  1425.000000
+[2019.02.18-17.55.33:809][ 90]LogTemp: Break Speed:  1424.000000
+[2019.02.18-17.55.33:817][ 91]LogTemp: Break Speed:  1423.000000
+[2019.02.18-17.55.33:825][ 92]LogTemp: Break Speed:  1422.000000
+[2019.02.18-17.55.33:834][ 93]LogTemp: Break Speed:  1421.000000
+[2019.02.18-17.55.33:842][ 94]LogTemp: Break Speed:  1420.000000
+[2019.02.18-17.55.33:850][ 95]LogTemp: Break Speed:  1419.000000
+[2019.02.18-17.55.33:859][ 96]LogTemp: Break Speed:  1418.000000
+[2019.02.18-17.55.33:867][ 97]LogTemp: Break Speed:  1417.000000
+[2019.02.18-17.55.33:875][ 98]LogTemp: Break Speed:  1416.000000
+[2019.02.18-17.55.33:884][ 99]LogTemp: Break Speed:  1415.000000
+[2019.02.18-17.55.33:892][100]LogTemp: Break Speed:  1414.000000
+[2019.02.18-17.55.33:900][101]LogTemp: Break Speed:  1413.000000
+[2019.02.18-17.55.33:909][102]LogTemp: Break Speed:  1412.000000
+[2019.02.18-17.55.33:917][103]LogTemp: Break Speed:  1411.000000
+[2019.02.18-17.55.33:925][104]LogTemp: Break Speed:  1410.000000
+[2019.02.18-17.55.33:934][105]LogTemp: Break Speed:  1409.000000
+[2019.02.18-17.55.33:942][106]LogTemp: Break Speed:  1408.000000
+[2019.02.18-17.55.33:950][107]LogTemp: Break Speed:  1407.000000
+[2019.02.18-17.55.33:958][108]LogTemp: Break Speed:  1406.000000
+[2019.02.18-17.55.33:967][109]LogTemp: Break Speed:  1405.000000
+[2019.02.18-17.55.33:976][110]LogTemp: Break Speed:  1404.000000
+[2019.02.18-17.55.33:983][111]LogTemp: Break Speed:  1403.000000
+[2019.02.18-17.55.33:992][112]LogTemp: Break Speed:  1402.000000
+[2019.02.18-17.55.34:000][113]LogTemp: Break Speed:  1401.000000
+[2019.02.18-17.55.34:008][114]LogTemp: Break Speed:  1400.000000
+[2019.02.18-17.55.34:017][115]LogTemp: Break Speed:  1399.000000
+[2019.02.18-17.55.34:025][116]LogTemp: Break Speed:  1398.000000
+[2019.02.18-17.55.34:033][117]LogTemp: Break Speed:  1397.000000
+[2019.02.18-17.55.34:042][118]LogTemp: Break Speed:  1396.000000
+[2019.02.18-17.55.34:050][119]LogTemp: Break Speed:  1395.000000
+[2019.02.18-17.55.34:059][120]LogTemp: Break Speed:  1394.000000
+[2019.02.18-17.55.34:067][121]LogTemp: Break Speed:  1393.000000
+[2019.02.18-17.55.34:075][122]LogTemp: Break Speed:  1392.000000
+[2019.02.18-17.55.34:084][123]LogTemp: Break Speed:  1391.000000
+[2019.02.18-17.55.34:092][124]LogTemp: Break Speed:  1390.000000
+[2019.02.18-17.55.34:100][125]LogTemp: Break Speed:  1389.000000
+[2019.02.18-17.55.34:108][126]LogTemp: Break Speed:  1388.000000
+[2019.02.18-17.55.34:117][127]LogTemp: Break Speed:  1387.000000
+[2019.02.18-17.55.34:125][128]LogTemp: Break Speed:  1386.000000
+[2019.02.18-17.55.34:133][129]LogTemp: Break Speed:  1385.000000
+[2019.02.18-17.55.34:142][130]LogTemp: Break Speed:  1384.000000
+[2019.02.18-17.55.34:150][131]LogTemp: Break Speed:  1383.000000
+[2019.02.18-17.55.34:158][132]LogTemp: Break Speed:  1382.000000
+[2019.02.18-17.55.34:166][133]LogTemp: Break Speed:  1381.000000
+[2019.02.18-17.55.34:176][134]LogTemp: Break Speed:  1380.000000
+[2019.02.18-17.55.34:184][135]LogTemp: Break Speed:  1379.000000
+[2019.02.18-17.55.34:192][136]LogTemp: Break Speed:  1378.000000
+[2019.02.18-17.55.34:201][137]LogTemp: Break Speed:  1377.000000
+[2019.02.18-17.55.34:209][138]LogTemp: Break Speed:  1376.000000
+[2019.02.18-17.55.34:217][139]LogTemp: Break Speed:  1375.000000
+[2019.02.18-17.55.34:226][140]LogTemp: Break Speed:  1374.000000
+[2019.02.18-17.55.34:234][141]LogTemp: Break Speed:  1373.000000
+[2019.02.18-17.55.34:242][142]LogTemp: Break Speed:  1372.000000
+[2019.02.18-17.55.34:251][143]LogTemp: Break Speed:  1371.000000
+[2019.02.18-17.55.34:259][144]LogTemp: Break Speed:  1370.000000
+[2019.02.18-17.55.34:267][145]LogTemp: Break Speed:  1369.000000
+[2019.02.18-17.55.34:276][146]LogTemp: Break Speed:  1368.000000
+[2019.02.18-17.55.34:284][147]LogTemp: Break Speed:  1367.000000
+[2019.02.18-17.55.34:293][148]LogTemp: Break Speed:  1366.000000
+[2019.02.18-17.55.34:301][149]LogTemp: Break Speed:  1365.000000
+[2019.02.18-17.55.34:309][150]LogTemp: Break Speed:  1364.000000
+[2019.02.18-17.55.34:318][151]LogTemp: Break Speed:  1363.000000
+[2019.02.18-17.55.34:326][152]LogTemp: Break Speed:  1362.000000
+[2019.02.18-17.55.34:334][153]LogTemp: Break Speed:  1361.000000
+[2019.02.18-17.55.34:343][154]LogTemp: Break Speed:  1360.000000
+[2019.02.18-17.55.34:351][155]LogTemp: Break Speed:  1359.000000
+[2019.02.18-17.55.34:359][156]LogTemp: Break Speed:  1358.000000
+[2019.02.18-17.55.34:368][157]LogTemp: Break Speed:  1357.000000
+[2019.02.18-17.55.34:376][158]LogTemp: Break Speed:  1356.000000
+[2019.02.18-17.55.34:384][159]LogTemp: Break Speed:  1355.000000
+[2019.02.18-17.55.34:392][160]LogTemp: Break Speed:  1354.000000
+[2019.02.18-17.55.34:400][161]LogTemp: Break Speed:  1353.000000
+[2019.02.18-17.55.34:408][162]LogTemp: Break Speed:  1352.000000
+[2019.02.18-17.55.34:417][163]LogTemp: Break Speed:  1351.000000
+[2019.02.18-17.55.34:425][164]LogTemp: Break Speed:  1350.000000
+[2019.02.18-17.55.34:433][165]LogTemp: Break Speed:  1349.000000
+[2019.02.18-17.55.34:442][166]LogTemp: Break Speed:  1348.000000
+[2019.02.18-17.55.34:450][167]LogTemp: Break Speed:  1347.000000
+[2019.02.18-17.55.34:458][168]LogTemp: Break Speed:  1346.000000
+[2019.02.18-17.55.34:467][169]LogTemp: Break Speed:  1345.000000
+[2019.02.18-17.55.34:475][170]LogTemp: Break Speed:  1344.000000
+[2019.02.18-17.55.34:483][171]LogTemp: Break Speed:  1343.000000
+[2019.02.18-17.55.34:492][172]LogTemp: Break Speed:  1342.000000
+[2019.02.18-17.55.34:500][173]LogTemp: Break Speed:  1341.000000
+[2019.02.18-17.55.34:508][174]LogTemp: Break Speed:  1340.000000
+[2019.02.18-17.55.34:517][175]LogTemp: Break Speed:  1339.000000
+[2019.02.18-17.55.34:525][176]LogTemp: Break Speed:  1338.000000
+[2019.02.18-17.55.34:533][177]LogTemp: Break Speed:  1337.000000
+[2019.02.18-17.55.34:542][178]LogTemp: Break Speed:  1336.000000
+[2019.02.18-17.55.34:550][179]LogTemp: Break Speed:  1335.000000
+[2019.02.18-17.55.34:559][180]LogTemp: Break Speed:  1334.000000
+[2019.02.18-17.55.34:567][181]LogTemp: Break Speed:  1333.000000
+[2019.02.18-17.55.34:575][182]LogTemp: Break Speed:  1332.000000
+[2019.02.18-17.55.34:584][183]LogTemp: Break Speed:  1331.000000
+[2019.02.18-17.55.34:592][184]LogTemp: Break Speed:  1330.000000
+[2019.02.18-17.55.34:600][185]LogTemp: Break Speed:  1329.000000
+[2019.02.18-17.55.34:609][186]LogTemp: Break Speed:  1328.000000
+[2019.02.18-17.55.34:618][187]LogTemp: Break Speed:  1327.000000
+[2019.02.18-17.55.34:626][188]LogTemp: Break Speed:  1326.000000
+[2019.02.18-17.55.34:634][189]LogTemp: Break Speed:  1325.000000
+[2019.02.18-17.55.34:642][190]LogTemp: Break Speed:  1324.000000
+[2019.02.18-17.55.34:650][191]LogTemp: Break Speed:  1323.000000
+[2019.02.18-17.55.34:659][192]LogTemp: Break Speed:  1322.000000
+[2019.02.18-17.55.34:667][193]LogTemp: Break Speed:  1321.000000
+[2019.02.18-17.55.34:675][194]LogTemp: Break Speed:  1320.000000
+[2019.02.18-17.55.34:684][195]LogTemp: Break Speed:  1319.000000
+[2019.02.18-17.55.34:692][196]LogTemp: Break Speed:  1318.000000
+[2019.02.18-17.55.34:700][197]LogTemp: Break Speed:  1317.000000
+[2019.02.18-17.55.34:709][198]LogTemp: Break Speed:  1316.000000
+[2019.02.18-17.55.34:717][199]LogTemp: Break Speed:  1315.000000
+[2019.02.18-17.55.34:725][200]LogTemp: Break Speed:  1314.000000
+[2019.02.18-17.55.34:734][201]LogTemp: Break Speed:  1313.000000
+[2019.02.18-17.55.34:742][202]LogTemp: Break Speed:  1312.000000
+[2019.02.18-17.55.34:750][203]LogTemp: Break Speed:  1311.000000
+[2019.02.18-17.55.34:759][204]LogTemp: Break Speed:  1310.000000
+[2019.02.18-17.55.34:767][205]LogTemp: Break Speed:  1309.000000
+[2019.02.18-17.55.34:776][206]LogTemp: Break Speed:  1308.000000
+[2019.02.18-17.55.34:785][207]LogTemp: Break Speed:  1307.000000
+[2019.02.18-17.55.34:793][208]LogTemp: Break Speed:  1306.000000
+[2019.02.18-17.55.34:801][209]LogTemp: Break Speed:  1305.000000
+[2019.02.18-17.55.34:808][210]LogTemp: Break Speed:  1304.000000
+[2019.02.18-17.55.34:817][211]LogTemp: Break Speed:  1303.000000
+[2019.02.18-17.55.34:826][212]LogTemp: Break Speed:  1302.000000
+[2019.02.18-17.55.34:834][213]LogTemp: Break Speed:  1301.000000
+[2019.02.18-17.55.34:842][214]LogTemp: Break Speed:  1300.000000
+[2019.02.18-17.55.34:850][215]LogTemp: Break Speed:  1299.000000
+[2019.02.18-17.55.34:859][216]LogTemp: Break Speed:  1298.000000
+[2019.02.18-17.55.34:867][217]LogTemp: Break Speed:  1297.000000
+[2019.02.18-17.55.34:876][218]LogTemp: Break Speed:  1296.000000
+[2019.02.18-17.55.34:884][219]LogTemp: Break Speed:  1295.000000
+[2019.02.18-17.55.34:892][220]LogTemp: Break Speed:  1294.000000
+[2019.02.18-17.55.34:901][221]LogTemp: Break Speed:  1293.000000
+[2019.02.18-17.55.34:909][222]LogTemp: Break Speed:  1292.000000
+[2019.02.18-17.55.34:917][223]LogTemp: Break Speed:  1291.000000
+[2019.02.18-17.55.34:926][224]LogTemp: Break Speed:  1290.000000
+[2019.02.18-17.55.34:934][225]LogTemp: Break Speed:  1289.000000
+[2019.02.18-17.55.34:942][226]LogTemp: Break Speed:  1288.000000
+[2019.02.18-17.55.34:951][227]LogTemp: Break Speed:  1287.000000
+[2019.02.18-17.55.34:959][228]LogTemp: Break Speed:  1286.000000
+[2019.02.18-17.55.34:967][229]LogTemp: Break Speed:  1285.000000
+[2019.02.18-17.55.34:976][230]LogTemp: Break Speed:  1284.000000
+[2019.02.18-17.55.34:984][231]LogTemp: Break Speed:  1283.000000
+[2019.02.18-17.55.34:992][232]LogTemp: Break Speed:  1282.000000
+[2019.02.18-17.55.35:000][233]LogTemp: Break Speed:  1281.000000
+[2019.02.18-17.55.35:009][234]LogTemp: Break Speed:  1280.000000
+[2019.02.18-17.55.35:017][235]LogTemp: Break Speed:  1279.000000
+[2019.02.18-17.55.35:025][236]LogTemp: Break Speed:  1278.000000
+[2019.02.18-17.55.35:034][237]LogTemp: Break Speed:  1277.000000
+[2019.02.18-17.55.35:042][238]LogTemp: Break Speed:  1276.000000
+[2019.02.18-17.55.35:050][239]LogTemp: Break Speed:  1275.000000
+[2019.02.18-17.55.35:059][240]LogTemp: Break Speed:  1274.000000
+[2019.02.18-17.55.35:067][241]LogTemp: Break Speed:  1273.000000
+[2019.02.18-17.55.35:075][242]LogTemp: Break Speed:  1272.000000
+[2019.02.18-17.55.35:084][243]LogTemp: Break Speed:  1271.000000
+[2019.02.18-17.55.35:092][244]LogTemp: Break Speed:  1270.000000
+[2019.02.18-17.55.35:101][245]LogTemp: Break Speed:  1269.000000
+[2019.02.18-17.55.35:109][246]LogTemp: Break Speed:  1268.000000
+[2019.02.18-17.55.35:117][247]LogTemp: Break Speed:  1267.000000
+[2019.02.18-17.55.35:126][248]LogTemp: Break Speed:  1266.000000
+[2019.02.18-17.55.35:134][249]LogTemp: Break Speed:  1265.000000
+[2019.02.18-17.55.35:142][250]LogTemp: Break Speed:  1264.000000
+[2019.02.18-17.55.35:151][251]LogTemp: Break Speed:  1263.000000
+[2019.02.18-17.55.35:159][252]LogTemp: Break Speed:  1262.000000
+[2019.02.18-17.55.35:167][253]LogTemp: Break Speed:  1261.000000
+[2019.02.18-17.55.35:176][254]LogTemp: Break Speed:  1260.000000
+[2019.02.18-17.55.35:184][255]LogTemp: Break Speed:  1259.000000
+[2019.02.18-17.55.35:192][256]LogTemp: Break Speed:  1258.000000
+[2019.02.18-17.55.35:201][257]LogTemp: Break Speed:  1257.000000
+[2019.02.18-17.55.35:209][258]LogTemp: Break Speed:  1256.000000
+[2019.02.18-17.55.35:217][259]LogTemp: Break Speed:  1255.000000
+[2019.02.18-17.55.35:226][260]LogTemp: Break Speed:  1254.000000
+[2019.02.18-17.55.35:234][261]LogTemp: Break Speed:  1253.000000
+[2019.02.18-17.55.35:242][262]LogTemp: Break Speed:  1252.000000
+[2019.02.18-17.55.35:251][263]LogTemp: Break Speed:  1251.000000
+[2019.02.18-17.55.35:259][264]LogTemp: Break Speed:  1250.000000
+[2019.02.18-17.55.35:267][265]LogTemp: Break Speed:  1249.000000
+[2019.02.18-17.55.35:276][266]LogTemp: Break Speed:  1248.000000
+[2019.02.18-17.55.35:284][267]LogTemp: Break Speed:  1247.000000
+[2019.02.18-17.55.35:292][268]LogTemp: Break Speed:  1246.000000
+[2019.02.18-17.55.35:301][269]LogTemp: Break Speed:  1245.000000
+[2019.02.18-17.55.35:309][270]LogTemp: Break Speed:  1244.000000
+[2019.02.18-17.55.35:317][271]LogTemp: Break Speed:  1243.000000
+[2019.02.18-17.55.35:326][272]LogTemp: Break Speed:  1242.000000
+[2019.02.18-17.55.35:334][273]LogTemp: Break Speed:  1241.000000
+[2019.02.18-17.55.35:342][274]LogTemp: Break Speed:  1240.000000
+[2019.02.18-17.55.35:351][275]LogTemp: Break Speed:  1239.000000
+[2019.02.18-17.55.35:359][276]LogTemp: Break Speed:  1238.000000
+[2019.02.18-17.55.35:367][277]LogTemp: Break Speed:  1237.000000
+[2019.02.18-17.55.35:376][278]LogTemp: Break Speed:  1236.000000
+[2019.02.18-17.55.35:384][279]LogTemp: Break Speed:  1235.000000
+[2019.02.18-17.55.35:392][280]LogTemp: Break Speed:  1234.000000
+[2019.02.18-17.55.35:401][281]LogTemp: Break Speed:  1233.000000
+[2019.02.18-17.55.35:409][282]LogTemp: Break Speed:  1232.000000
+[2019.02.18-17.55.35:418][283]LogTemp: Break Speed:  1231.000000
+[2019.02.18-17.55.35:426][284]LogTemp: Break Speed:  1230.000000
+[2019.02.18-17.55.35:434][285]LogTemp: Break Speed:  1229.000000
+[2019.02.18-17.55.35:443][286]LogTemp: Break Speed:  1228.000000
+[2019.02.18-17.55.35:451][287]LogTemp: Break Speed:  1227.000000
+[2019.02.18-17.55.35:460][288]LogTemp: Break Speed:  1226.000000
+[2019.02.18-17.55.35:468][289]LogTemp: Break Speed:  1225.000000
+[2019.02.18-17.55.35:476][290]LogTemp: Break Speed:  1224.000000
+[2019.02.18-17.55.35:484][291]LogTemp: Break Speed:  1223.000000
+[2019.02.18-17.55.35:492][292]LogTemp: Break Speed:  1222.000000
+[2019.02.18-17.55.35:500][293]LogTemp: Break Speed:  1221.000000
+[2019.02.18-17.55.35:509][294]LogTemp: Break Speed:  1220.000000
+[2019.02.18-17.55.35:517][295]LogTemp: Break Speed:  1219.000000
+[2019.02.18-17.55.35:525][296]LogTemp: Break Speed:  1218.000000
+[2019.02.18-17.55.35:534][297]LogTemp: Break Speed:  1217.000000
+[2019.02.18-17.55.35:542][298]LogTemp: Break Speed:  1216.000000
+[2019.02.18-17.55.35:550][299]LogTemp: Break Speed:  1215.000000
+[2019.02.18-17.55.35:559][300]LogTemp: Break Speed:  1214.000000
+[2019.02.18-17.55.35:567][301]LogTemp: Break Speed:  1213.000000
+[2019.02.18-17.55.35:575][302]LogTemp: Break Speed:  1212.000000
+[2019.02.18-17.55.35:584][303]LogTemp: Break Speed:  1211.000000
+[2019.02.18-17.55.35:592][304]LogTemp: Break Speed:  1210.000000
+[2019.02.18-17.55.35:601][305]LogTemp: Break Speed:  1209.000000
+[2019.02.18-17.55.35:609][306]LogTemp: Break Speed:  1208.000000
+[2019.02.18-17.55.35:617][307]LogTemp: Break Speed:  1207.000000
+[2019.02.18-17.55.35:626][308]LogTemp: Break Speed:  1206.000000
+[2019.02.18-17.55.35:634][309]LogTemp: Break Speed:  1205.000000
+[2019.02.18-17.55.35:642][310]LogTemp: Break Speed:  1204.000000
+[2019.02.18-17.55.35:651][311]LogTemp: Break Speed:  1203.000000
+[2019.02.18-17.55.35:659][312]LogTemp: Break Speed:  1202.000000
+[2019.02.18-17.55.35:668][313]LogTemp: Break Speed:  1201.000000
+[2019.02.18-17.55.35:676][314]LogTemp: Break Speed:  1200.000000
+[2019.02.18-17.55.35:684][315]LogTemp: Break Speed:  1199.000000
+[2019.02.18-17.55.35:693][316]LogTemp: Break Speed:  1198.000000
+[2019.02.18-17.55.35:701][317]LogTemp: Break Speed:  1197.000000
+[2019.02.18-17.55.35:710][318]LogTemp: Break Speed:  1196.000000
+[2019.02.18-17.55.35:718][319]LogTemp: Break Speed:  1195.000000
+[2019.02.18-17.55.35:727][320]LogTemp: Break Speed:  1194.000000
+[2019.02.18-17.55.35:735][321]LogTemp: Break Speed:  1193.000000
+[2019.02.18-17.55.35:743][322]LogTemp: Break Speed:  1192.000000
+[2019.02.18-17.55.35:752][323]LogTemp: Break Speed:  1191.000000
+[2019.02.18-17.55.35:760][324]LogTemp: Break Speed:  1190.000000
+[2019.02.18-17.55.35:769][325]LogTemp: Break Speed:  1189.000000
+[2019.02.18-17.55.35:777][326]LogTemp: Break Speed:  1188.000000
+[2019.02.18-17.55.35:785][327]LogTemp: Break Speed:  1187.000000
+[2019.02.18-17.55.35:794][328]LogTemp: Break Speed:  1186.000000
+[2019.02.18-17.55.35:802][329]LogTemp: Break Speed:  1185.000000
+[2019.02.18-17.55.35:810][330]LogTemp: Break Speed:  1184.000000
+[2019.02.18-17.55.35:819][331]LogTemp: Break Speed:  1183.000000
+[2019.02.18-17.55.35:829][332]LogTemp: Break Speed:  1182.000000
+[2019.02.18-17.55.35:838][333]LogTemp: Break Speed:  1181.000000
+[2019.02.18-17.55.35:846][334]LogTemp: Break Speed:  1180.000000
+[2019.02.18-17.55.35:855][335]LogTemp: Break Speed:  1179.000000
+[2019.02.18-17.55.35:863][336]LogTemp: Break Speed:  1178.000000
+[2019.02.18-17.55.35:871][337]LogTemp: Break Speed:  1177.000000
+[2019.02.18-17.55.35:879][338]LogTemp: Break Speed:  1176.000000
+[2019.02.18-17.55.35:888][339]LogTemp: Break Speed:  1175.000000
+[2019.02.18-17.55.35:896][340]LogTemp: Break Speed:  1174.000000
+[2019.02.18-17.55.35:905][341]LogTemp: Break Speed:  1173.000000
+[2019.02.18-17.55.35:913][342]LogTemp: Break Speed:  1172.000000
+[2019.02.18-17.55.35:921][343]LogTemp: Break Speed:  1171.000000
+[2019.02.18-17.55.35:929][344]LogTemp: Break Speed:  1170.000000
+[2019.02.18-17.55.35:938][345]LogTemp: Break Speed:  1169.000000
+[2019.02.18-17.55.35:946][346]LogTemp: Break Speed:  1168.000000
+[2019.02.18-17.55.35:955][347]LogTemp: Break Speed:  1167.000000
+[2019.02.18-17.55.35:963][348]LogTemp: Break Speed:  1166.000000
+[2019.02.18-17.55.35:971][349]LogTemp: Break Speed:  1165.000000
+[2019.02.18-17.55.35:980][350]LogTemp: Break Speed:  1164.000000
+[2019.02.18-17.55.35:988][351]LogTemp: Break Speed:  1163.000000
+[2019.02.18-17.55.35:996][352]LogTemp: Break Speed:  1162.000000
+[2019.02.18-17.55.36:005][353]LogTemp: Break Speed:  1161.000000
+[2019.02.18-17.55.36:013][354]LogTemp: Break Speed:  1160.000000
+[2019.02.18-17.55.36:021][355]LogTemp: Break Speed:  1159.000000
+[2019.02.18-17.55.36:030][356]LogTemp: Break Speed:  1158.000000
+[2019.02.18-17.55.36:038][357]LogTemp: Break Speed:  1157.000000
+[2019.02.18-17.55.36:047][358]LogTemp: Break Speed:  1156.000000
+[2019.02.18-17.55.36:055][359]LogTemp: Break Speed:  1155.000000
+[2019.02.18-17.55.36:063][360]LogTemp: Break Speed:  1154.000000
+[2019.02.18-17.55.36:071][361]LogTemp: Break Speed:  1153.000000
+[2019.02.18-17.55.36:080][362]LogTemp: Break Speed:  1152.000000
+[2019.02.18-17.55.36:088][363]LogTemp: Break Speed:  1151.000000
+[2019.02.18-17.55.36:096][364]LogTemp: Break Speed:  1150.000000
+[2019.02.18-17.55.36:105][365]LogTemp: Break Speed:  1149.000000
+[2019.02.18-17.55.36:113][366]LogTemp: Break Speed:  1148.000000
+[2019.02.18-17.55.36:121][367]LogTemp: Break Speed:  1147.000000
+[2019.02.18-17.55.36:130][368]LogTemp: Break Speed:  1146.000000
+[2019.02.18-17.55.36:138][369]LogTemp: Break Speed:  1145.000000
+[2019.02.18-17.55.36:147][370]LogTemp: Break Speed:  1144.000000
+[2019.02.18-17.55.36:155][371]LogTemp: Break Speed:  1143.000000
+[2019.02.18-17.55.36:163][372]LogTemp: Break Speed:  1142.000000
+[2019.02.18-17.55.36:171][373]LogTemp: Break Speed:  1141.000000
+[2019.02.18-17.55.36:180][374]LogTemp: Break Speed:  1140.000000
+[2019.02.18-17.55.36:188][375]LogTemp: Break Speed:  1139.000000
+[2019.02.18-17.55.36:197][376]LogTemp: Break Speed:  1138.000000
+[2019.02.18-17.55.36:205][377]LogTemp: Break Speed:  1137.000000
+[2019.02.18-17.55.36:213][378]LogTemp: Break Speed:  1136.000000
+[2019.02.18-17.55.36:221][379]LogTemp: Break Speed:  1135.000000
+[2019.02.18-17.55.36:230][380]LogTemp: Break Speed:  1134.000000
+[2019.02.18-17.55.36:238][381]LogTemp: Break Speed:  1133.000000
+[2019.02.18-17.55.36:246][382]LogTemp: Break Speed:  1132.000000
+[2019.02.18-17.55.36:255][383]LogTemp: Break Speed:  1131.000000
+[2019.02.18-17.55.36:263][384]LogTemp: Break Speed:  1130.000000
+[2019.02.18-17.55.36:271][385]LogTemp: Break Speed:  1129.000000
+[2019.02.18-17.55.36:280][386]LogTemp: Break Speed:  1128.000000
+[2019.02.18-17.55.36:288][387]LogTemp: Break Speed:  1127.000000
+[2019.02.18-17.55.36:296][388]LogTemp: Break Speed:  1126.000000
+[2019.02.18-17.55.36:305][389]LogTemp: Break Speed:  1125.000000
+[2019.02.18-17.55.36:313][390]LogTemp: Break Speed:  1124.000000
+[2019.02.18-17.55.36:321][391]LogTemp: Break Speed:  1123.000000
+[2019.02.18-17.55.36:330][392]LogTemp: Break Speed:  1122.000000
+[2019.02.18-17.55.36:338][393]LogTemp: Break Speed:  1121.000000
+[2019.02.18-17.55.36:347][394]LogTemp: Break Speed:  1120.000000
+[2019.02.18-17.55.36:355][395]LogTemp: Break Speed:  1119.000000
+[2019.02.18-17.55.36:363][396]LogTemp: Break Speed:  1118.000000
+[2019.02.18-17.55.36:372][397]LogTemp: Break Speed:  1117.000000
+[2019.02.18-17.55.36:380][398]LogTemp: Break Speed:  1116.000000
+[2019.02.18-17.55.36:388][399]LogTemp: Break Speed:  1115.000000
+[2019.02.18-17.55.36:397][400]LogTemp: Break Speed:  1114.000000
+[2019.02.18-17.55.36:405][401]LogTemp: Break Speed:  1113.000000
+[2019.02.18-17.55.36:413][402]LogTemp: Break Speed:  1112.000000
+[2019.02.18-17.55.36:422][403]LogTemp: Break Speed:  1111.000000
+[2019.02.18-17.55.36:430][404]LogTemp: Break Speed:  1110.000000
+[2019.02.18-17.55.36:438][405]LogTemp: Break Speed:  1109.000000
+[2019.02.18-17.55.36:447][406]LogTemp: Break Speed:  1108.000000
+[2019.02.18-17.55.36:455][407]LogTemp: Break Speed:  1107.000000
+[2019.02.18-17.55.36:463][408]LogTemp: Break Speed:  1106.000000
+[2019.02.18-17.55.36:472][409]LogTemp: Break Speed:  1105.000000
+[2019.02.18-17.55.36:480][410]LogTemp: Break Speed:  1104.000000
+[2019.02.18-17.55.36:488][411]LogTemp: Break Speed:  1103.000000
+[2019.02.18-17.55.36:496][412]LogTemp: Break Speed:  1102.000000
+[2019.02.18-17.55.36:505][413]LogTemp: Break Speed:  1101.000000
+[2019.02.18-17.55.36:513][414]LogTemp: Break Speed:  1100.000000
+[2019.02.18-17.55.36:521][415]LogTemp: Break Speed:  1099.000000
+[2019.02.18-17.55.36:530][416]LogTemp: Break Speed:  1098.000000
+[2019.02.18-17.55.36:538][417]LogTemp: Break Speed:  1097.000000
+[2019.02.18-17.55.36:546][418]LogTemp: Break Speed:  1096.000000
+[2019.02.18-17.55.36:555][419]LogTemp: Break Speed:  1095.000000
+[2019.02.18-17.55.36:563][420]LogTemp: Break Speed:  1094.000000
+[2019.02.18-17.55.36:571][421]LogTemp: Break Speed:  1093.000000
+[2019.02.18-17.55.36:580][422]LogTemp: Break Speed:  1092.000000
+[2019.02.18-17.55.36:588][423]LogTemp: Break Speed:  1091.000000
+[2019.02.18-17.55.36:596][424]LogTemp: Break Speed:  1090.000000
+[2019.02.18-17.55.36:605][425]LogTemp: Break Speed:  1089.000000
+[2019.02.18-17.55.36:613][426]LogTemp: Break Speed:  1088.000000
+[2019.02.18-17.55.36:621][427]LogTemp: Break Speed:  1087.000000
+[2019.02.18-17.55.36:630][428]LogTemp: Break Speed:  1086.000000
+[2019.02.18-17.55.36:638][429]LogTemp: Break Speed:  1085.000000
+[2019.02.18-17.55.36:646][430]LogTemp: Break Speed:  1084.000000
+[2019.02.18-17.55.36:655][431]LogTemp: Break Speed:  1083.000000
+[2019.02.18-17.55.36:663][432]LogTemp: Break Speed:  1082.000000
+[2019.02.18-17.55.36:671][433]LogTemp: Break Speed:  1081.000000
+[2019.02.18-17.55.36:679][434]LogTemp: Break Speed:  1080.000000
+[2019.02.18-17.55.36:688][435]LogTemp: Break Speed:  1079.000000
+[2019.02.18-17.55.36:696][436]LogTemp: Break Speed:  1078.000000
+[2019.02.18-17.55.36:704][437]LogTemp: Break Speed:  1077.000000
+[2019.02.18-17.55.36:713][438]LogTemp: Break Speed:  1076.000000
+[2019.02.18-17.55.36:721][439]LogTemp: Break Speed:  1075.000000
+[2019.02.18-17.55.36:729][440]LogTemp: Break Speed:  1074.000000
+[2019.02.18-17.55.36:738][441]LogTemp: Break Speed:  1073.000000
+[2019.02.18-17.55.36:746][442]LogTemp: Break Speed:  1072.000000
+[2019.02.18-17.55.36:754][443]LogTemp: Break Speed:  1071.000000
+[2019.02.18-17.55.36:763][444]LogTemp: Break Speed:  1070.000000
+[2019.02.18-17.55.36:771][445]LogTemp: Break Speed:  1069.000000
+[2019.02.18-17.55.36:779][446]LogTemp: Break Speed:  1068.000000
+[2019.02.18-17.55.36:788][447]LogTemp: Break Speed:  1067.000000
+[2019.02.18-17.55.36:796][448]LogTemp: Break Speed:  1066.000000
+[2019.02.18-17.55.36:804][449]LogTemp: Break Speed:  1065.000000
+[2019.02.18-17.55.36:813][450]LogTemp: Break Speed:  1064.000000
+[2019.02.18-17.55.36:821][451]LogTemp: Break Speed:  1063.000000
+[2019.02.18-17.55.36:829][452]LogTemp: Break Speed:  1062.000000
+[2019.02.18-17.55.36:838][453]LogTemp: Break Speed:  1061.000000
+[2019.02.18-17.55.36:846][454]LogTemp: Break Speed:  1060.000000
+[2019.02.18-17.55.36:854][455]LogTemp: Break Speed:  1059.000000
+[2019.02.18-17.55.36:863][456]LogTemp: Break Speed:  1058.000000
+[2019.02.18-17.55.36:871][457]LogTemp: Break Speed:  1057.000000
+[2019.02.18-17.55.36:879][458]LogTemp: Break Speed:  1056.000000
+[2019.02.18-17.55.36:888][459]LogTemp: Break Speed:  1055.000000
+[2019.02.18-17.55.36:896][460]LogTemp: Break Speed:  1054.000000
+[2019.02.18-17.55.36:904][461]LogTemp: Break Speed:  1053.000000
+[2019.02.18-17.55.36:913][462]LogTemp: Break Speed:  1052.000000
+[2019.02.18-17.55.36:921][463]LogTemp: Break Speed:  1051.000000
+[2019.02.18-17.55.36:929][464]LogTemp: Break Speed:  1050.000000
+[2019.02.18-17.55.36:938][465]LogTemp: Break Speed:  1049.000000
+[2019.02.18-17.55.36:946][466]LogTemp: Break Speed:  1048.000000
+[2019.02.18-17.55.36:955][467]LogTemp: Break Speed:  1047.000000
+[2019.02.18-17.55.36:963][468]LogTemp: Break Speed:  1046.000000
+[2019.02.18-17.55.36:971][469]LogTemp: Break Speed:  1045.000000
+[2019.02.18-17.55.36:980][470]LogTemp: Break Speed:  1044.000000
+[2019.02.18-17.55.36:988][471]LogTemp: Break Speed:  1043.000000
+[2019.02.18-17.55.36:996][472]LogTemp: Break Speed:  1042.000000
+[2019.02.18-17.55.37:005][473]LogTemp: Break Speed:  1041.000000
+[2019.02.18-17.55.37:013][474]LogTemp: Break Speed:  1040.000000
+[2019.02.18-17.55.37:021][475]LogTemp: Break Speed:  1039.000000
+[2019.02.18-17.55.37:030][476]LogTemp: Break Speed:  1038.000000
+[2019.02.18-17.55.37:038][477]LogTemp: Break Speed:  1037.000000
+[2019.02.18-17.55.37:046][478]LogTemp: Break Speed:  1036.000000
+[2019.02.18-17.55.37:055][479]LogTemp: Break Speed:  1035.000000
+[2019.02.18-17.55.37:063][480]LogTemp: Break Speed:  1034.000000
+[2019.02.18-17.55.37:071][481]LogTemp: Break Speed:  1033.000000
+[2019.02.18-17.55.37:080][482]LogTemp: Break Speed:  1032.000000
+[2019.02.18-17.55.37:088][483]LogTemp: Break Speed:  1031.000000
+[2019.02.18-17.55.37:096][484]LogTemp: Break Speed:  1030.000000
+[2019.02.18-17.55.37:105][485]LogTemp: Break Speed:  1029.000000
+[2019.02.18-17.55.37:113][486]LogTemp: Break Speed:  1028.000000
+[2019.02.18-17.55.37:121][487]LogTemp: Break Speed:  1027.000000
+[2019.02.18-17.55.37:130][488]LogTemp: Break Speed:  1026.000000
+[2019.02.18-17.55.37:138][489]LogTemp: Break Speed:  1025.000000
+[2019.02.18-17.55.37:146][490]LogTemp: Break Speed:  1024.000000
+[2019.02.18-17.55.37:155][491]LogTemp: Break Speed:  1023.000000
+[2019.02.18-17.55.37:163][492]LogTemp: Break Speed:  1022.000000
+[2019.02.18-17.55.37:171][493]LogTemp: Break Speed:  1021.000000
+[2019.02.18-17.55.37:180][494]LogTemp: Break Speed:  1020.000000
+[2019.02.18-17.55.37:188][495]LogTemp: Break Speed:  1019.000000
+[2019.02.18-17.55.37:196][496]LogTemp: Break Speed:  1018.000000
+[2019.02.18-17.55.37:205][497]LogTemp: Break Speed:  1017.000000
+[2019.02.18-17.55.37:213][498]LogTemp: Break Speed:  1016.000000
+[2019.02.18-17.55.37:221][499]LogTemp: Break Speed:  1015.000000
+[2019.02.18-17.55.37:230][500]LogTemp: Break Speed:  1014.000000
+[2019.02.18-17.55.37:238][501]LogTemp: Break Speed:  1013.000000
+[2019.02.18-17.55.37:247][502]LogTemp: Break Speed:  1012.000000
+[2019.02.18-17.55.37:255][503]LogTemp: Break Speed:  1011.000000
+[2019.02.18-17.55.37:263][504]LogTemp: Break Speed:  1010.000000
+[2019.02.18-17.55.37:271][505]LogTemp: Break Speed:  1009.000000
+[2019.02.18-17.55.37:279][506]LogTemp: Break Speed:  1008.000000
+[2019.02.18-17.55.37:289][507]LogTemp: Break Speed:  1007.000000
+[2019.02.18-17.55.37:297][508]LogTemp: Break Speed:  1006.000000
+[2019.02.18-17.55.37:305][509]LogTemp: Break Speed:  1005.000000
+[2019.02.18-17.55.37:314][510]LogTemp: Break Speed:  1004.000000
+[2019.02.18-17.55.37:322][511]LogTemp: Break Speed:  1003.000000
+[2019.02.18-17.55.37:330][512]LogTemp: Break Speed:  1002.000000
+[2019.02.18-17.55.37:339][513]LogTemp: Break Speed:  1001.000000
+[2019.02.18-17.55.37:347][514]LogTemp: Break Speed:  1000.000000
+[2019.02.18-17.55.37:355][515]LogTemp: Break Speed:  999.000000
+[2019.02.18-17.55.37:363][516]LogTemp: Break Speed:  998.000000
+[2019.02.18-17.55.37:372][517]LogTemp: Break Speed:  997.000000
+[2019.02.18-17.55.37:380][518]LogTemp: Break Speed:  996.000000
+[2019.02.18-17.55.37:388][519]LogTemp: Break Speed:  995.000000
+[2019.02.18-17.55.37:397][520]LogTemp: Break Speed:  994.000000
+[2019.02.18-17.55.37:405][521]LogTemp: Break Speed:  993.000000
+[2019.02.18-17.55.37:413][522]LogTemp: Break Speed:  992.000000
+[2019.02.18-17.55.37:422][523]LogTemp: Break Speed:  991.000000
+[2019.02.18-17.55.37:430][524]LogTemp: Break Speed:  990.000000
+[2019.02.18-17.55.37:438][525]LogTemp: Break Speed:  989.000000
+[2019.02.18-17.55.37:447][526]LogTemp: Break Speed:  988.000000
+[2019.02.18-17.55.37:455][527]LogTemp: Break Speed:  987.000000
+[2019.02.18-17.55.37:463][528]LogTemp: Break Speed:  986.000000
+[2019.02.18-17.55.37:472][529]LogTemp: Break Speed:  985.000000
+[2019.02.18-17.55.37:480][530]LogTemp: Break Speed:  984.000000
+[2019.02.18-17.55.37:488][531]LogTemp: Break Speed:  983.000000
+[2019.02.18-17.55.37:497][532]LogTemp: Break Speed:  982.000000
+[2019.02.18-17.55.37:505][533]LogTemp: Break Speed:  981.000000
+[2019.02.18-17.55.37:513][534]LogTemp: Break Speed:  980.000000
+[2019.02.18-17.55.37:522][535]LogTemp: Break Speed:  979.000000
+[2019.02.18-17.55.37:530][536]LogTemp: Break Speed:  978.000000
+[2019.02.18-17.55.37:538][537]LogTemp: Break Speed:  977.000000
+[2019.02.18-17.55.37:547][538]LogTemp: Break Speed:  976.000000
+[2019.02.18-17.55.37:555][539]LogTemp: Break Speed:  975.000000
+[2019.02.18-17.55.37:563][540]LogTemp: Break Speed:  974.000000
+[2019.02.18-17.55.37:572][541]LogTemp: Break Speed:  973.000000
+[2019.02.18-17.55.37:580][542]LogTemp: Break Speed:  972.000000
+[2019.02.18-17.55.37:589][543]LogTemp: Break Speed:  971.000000
+[2019.02.18-17.55.37:597][544]LogTemp: Break Speed:  970.000000
+[2019.02.18-17.55.37:605][545]LogTemp: Break Speed:  969.000000
+[2019.02.18-17.55.37:614][546]LogTemp: Break Speed:  968.000000
+[2019.02.18-17.55.37:622][547]LogTemp: Break Speed:  967.000000
+[2019.02.18-17.55.37:630][548]LogTemp: Break Speed:  966.000000
+[2019.02.18-17.55.37:639][549]LogTemp: Break Speed:  965.000000
+[2019.02.18-17.55.37:647][550]LogTemp: Break Speed:  964.000000
+[2019.02.18-17.55.37:655][551]LogTemp: Break Speed:  963.000000
+[2019.02.18-17.55.37:664][552]LogTemp: Break Speed:  962.000000
+[2019.02.18-17.55.37:672][553]LogTemp: Break Speed:  961.000000
+[2019.02.18-17.55.37:681][554]LogTemp: Break Speed:  960.000000
+[2019.02.18-17.55.37:689][555]LogTemp: Break Speed:  959.000000
+[2019.02.18-17.55.37:697][556]LogTemp: Break Speed:  958.000000
+[2019.02.18-17.55.37:706][557]LogTemp: Break Speed:  957.000000
+[2019.02.18-17.55.37:714][558]LogTemp: Break Speed:  956.000000
+[2019.02.18-17.55.37:722][559]LogTemp: Break Speed:  955.000000
+[2019.02.18-17.55.37:731][560]LogTemp: Break Speed:  954.000000
+[2019.02.18-17.55.37:739][561]LogTemp: Break Speed:  953.000000
+[2019.02.18-17.55.37:747][562]LogTemp: Break Speed:  952.000000
+[2019.02.18-17.55.37:755][563]LogTemp: Break Speed:  951.000000
+[2019.02.18-17.55.37:764][564]LogTemp: Break Speed:  950.000000
+[2019.02.18-17.55.37:772][565]LogTemp: Break Speed:  949.000000
+[2019.02.18-17.55.37:781][566]LogTemp: Break Speed:  948.000000
+[2019.02.18-17.55.37:789][567]LogTemp: Break Speed:  947.000000
+[2019.02.18-17.55.37:797][568]LogTemp: Break Speed:  946.000000
+[2019.02.18-17.55.37:806][569]LogTemp: Break Speed:  945.000000
+[2019.02.18-17.55.37:814][570]LogTemp: Break Speed:  944.000000
+[2019.02.18-17.55.37:822][571]LogTemp: Break Speed:  943.000000
+[2019.02.18-17.55.37:831][572]LogTemp: Break Speed:  942.000000
+[2019.02.18-17.55.37:839][573]LogTemp: Break Speed:  941.000000
+[2019.02.18-17.55.37:848][574]LogTemp: Break Speed:  940.000000
+[2019.02.18-17.55.37:856][575]LogTemp: Break Speed:  939.000000
+[2019.02.18-17.55.37:864][576]LogTemp: Break Speed:  938.000000
+[2019.02.18-17.55.37:873][577]LogTemp: Break Speed:  937.000000
+[2019.02.18-17.55.37:881][578]LogTemp: Break Speed:  936.000000
+[2019.02.18-17.55.37:889][579]LogTemp: Break Speed:  935.000000
+[2019.02.18-17.55.37:898][580]LogTemp: Break Speed:  934.000000
+[2019.02.18-17.55.37:906][581]LogTemp: Break Speed:  933.000000
+[2019.02.18-17.55.37:914][582]LogTemp: Break Speed:  932.000000
+[2019.02.18-17.55.37:923][583]LogTemp: Break Speed:  931.000000
+[2019.02.18-17.55.37:931][584]LogTemp: Break Speed:  930.000000
+[2019.02.18-17.55.37:939][585]LogTemp: Break Speed:  929.000000
+[2019.02.18-17.55.37:948][586]LogTemp: Break Speed:  928.000000
+[2019.02.18-17.55.37:956][587]LogTemp: Break Speed:  927.000000
+[2019.02.18-17.55.37:964][588]LogTemp: Break Speed:  926.000000
+[2019.02.18-17.55.37:973][589]LogTemp: Break Speed:  925.000000
+[2019.02.18-17.55.37:981][590]LogTemp: Break Speed:  924.000000
+[2019.02.18-17.55.37:990][591]LogTemp: Break Speed:  923.000000
+[2019.02.18-17.55.37:998][592]LogTemp: Break Speed:  922.000000
+[2019.02.18-17.55.38:006][593]LogTemp: Break Speed:  921.000000
+[2019.02.18-17.55.38:015][594]LogTemp: Break Speed:  920.000000
+[2019.02.18-17.55.38:023][595]LogTemp: Break Speed:  919.000000
+[2019.02.18-17.55.38:031][596]LogTemp: Break Speed:  918.000000
+[2019.02.18-17.55.38:040][597]LogTemp: Break Speed:  917.000000
+[2019.02.18-17.55.38:048][598]LogTemp: Break Speed:  916.000000
+[2019.02.18-17.55.38:056][599]LogTemp: Break Speed:  915.000000
+[2019.02.18-17.55.38:065][600]LogTemp: Break Speed:  914.000000
+[2019.02.18-17.55.38:073][601]LogTemp: Break Speed:  913.000000
+[2019.02.18-17.55.38:081][602]LogTemp: Break Speed:  912.000000
+[2019.02.18-17.55.38:090][603]LogTemp: Break Speed:  911.000000
+[2019.02.18-17.55.38:098][604]LogTemp: Break Speed:  910.000000
+[2019.02.18-17.55.38:107][605]LogTemp: Break Speed:  909.000000
+[2019.02.18-17.55.38:115][606]LogTemp: Break Speed:  908.000000
+[2019.02.18-17.55.38:123][607]LogTemp: Break Speed:  907.000000
+[2019.02.18-17.55.38:132][608]LogTemp: Break Speed:  906.000000
+[2019.02.18-17.55.38:140][609]LogTemp: Break Speed:  905.000000
+[2019.02.18-17.55.38:148][610]LogTemp: Break Speed:  904.000000
+[2019.02.18-17.55.38:157][611]LogTemp: Break Speed:  903.000000
+[2019.02.18-17.55.38:165][612]LogTemp: Break Speed:  902.000000
+[2019.02.18-17.55.38:173][613]LogTemp: Break Speed:  901.000000
+[2019.02.18-17.55.38:182][614]LogTemp: Break Speed:  900.000000
+[2019.02.18-17.55.38:190][615]LogTemp: Break Speed:  899.000000
+[2019.02.18-17.55.38:198][616]LogTemp: Break Speed:  898.000000
+[2019.02.18-17.55.38:207][617]LogTemp: Break Speed:  897.000000
+[2019.02.18-17.55.38:215][618]LogTemp: Break Speed:  896.000000
+[2019.02.18-17.55.38:223][619]LogTemp: Break Speed:  895.000000
+[2019.02.18-17.55.38:232][620]LogTemp: Break Speed:  894.000000
+[2019.02.18-17.55.38:240][621]LogTemp: Break Speed:  893.000000
+[2019.02.18-17.55.38:248][622]LogTemp: Break Speed:  892.000000
+[2019.02.18-17.55.38:257][623]LogTemp: Break Speed:  891.000000
+[2019.02.18-17.55.38:265][624]LogTemp: Break Speed:  890.000000
+[2019.02.18-17.55.38:273][625]LogTemp: Break Speed:  889.000000
+[2019.02.18-17.55.38:282][626]LogTemp: Break Speed:  888.000000
+[2019.02.18-17.55.38:290][627]LogTemp: Break Speed:  887.000000
+[2019.02.18-17.55.38:298][628]LogTemp: Break Speed:  886.000000
+[2019.02.18-17.55.38:307][629]LogTemp: Break Speed:  885.000000
+[2019.02.18-17.55.38:315][630]LogTemp: Break Speed:  884.000000
+[2019.02.18-17.55.38:323][631]LogTemp: Break Speed:  883.000000
+[2019.02.18-17.55.38:332][632]LogTemp: Break Speed:  882.000000
+[2019.02.18-17.55.38:340][633]LogTemp: Break Speed:  881.000000
+[2019.02.18-17.55.38:348][634]LogTemp: Break Speed:  880.000000
+[2019.02.18-17.55.38:357][635]LogTemp: Break Speed:  879.000000
+[2019.02.18-17.55.38:365][636]LogTemp: Break Speed:  878.000000
+[2019.02.18-17.55.38:373][637]LogTemp: Break Speed:  877.000000
+[2019.02.18-17.55.38:382][638]LogTemp: Break Speed:  876.000000
+[2019.02.18-17.55.38:390][639]LogTemp: Break Speed:  875.000000
+[2019.02.18-17.55.38:398][640]LogTemp: Break Speed:  874.000000
+[2019.02.18-17.55.38:407][641]LogTemp: Break Speed:  873.000000
+[2019.02.18-17.55.38:415][642]LogTemp: Break Speed:  872.000000
+[2019.02.18-17.55.38:423][643]LogTemp: Break Speed:  871.000000
+[2019.02.18-17.55.38:432][644]LogTemp: Break Speed:  870.000000
+[2019.02.18-17.55.38:440][645]LogTemp: Break Speed:  869.000000
+[2019.02.18-17.55.38:449][646]LogTemp: Break Speed:  868.000000
+[2019.02.18-17.55.38:457][647]LogTemp: Break Speed:  867.000000
+[2019.02.18-17.55.38:465][648]LogTemp: Break Speed:  866.000000
+[2019.02.18-17.55.38:473][649]LogTemp: Break Speed:  865.000000
+[2019.02.18-17.55.38:482][650]LogTemp: Break Speed:  864.000000
+[2019.02.18-17.55.38:490][651]LogTemp: Break Speed:  863.000000
+[2019.02.18-17.55.38:498][652]LogTemp: Break Speed:  862.000000
+[2019.02.18-17.55.38:507][653]LogTemp: Break Speed:  861.000000
+[2019.02.18-17.55.38:515][654]LogTemp: Break Speed:  860.000000
+[2019.02.18-17.55.38:524][655]LogTemp: Break Speed:  859.000000
+[2019.02.18-17.55.38:532][656]LogTemp: Break Speed:  858.000000
+[2019.02.18-17.55.38:540][657]LogTemp: Break Speed:  857.000000
+[2019.02.18-17.55.38:548][658]LogTemp: Break Speed:  856.000000
+[2019.02.18-17.55.38:557][659]LogTemp: Break Speed:  855.000000
+[2019.02.18-17.55.38:565][660]LogTemp: Break Speed:  854.000000
+[2019.02.18-17.55.38:573][661]LogTemp: Break Speed:  853.000000
+[2019.02.18-17.55.38:582][662]LogTemp: Break Speed:  852.000000
+[2019.02.18-17.55.38:590][663]LogTemp: Break Speed:  851.000000
+[2019.02.18-17.55.38:598][664]LogTemp: Break Speed:  850.000000
+[2019.02.18-17.55.38:607][665]LogTemp: Break Speed:  849.000000
+[2019.02.18-17.55.38:615][666]LogTemp: Break Speed:  848.000000
+[2019.02.18-17.55.38:623][667]LogTemp: Break Speed:  847.000000
+[2019.02.18-17.55.38:632][668]LogTemp: Break Speed:  846.000000
+[2019.02.18-17.55.38:640][669]LogTemp: Break Speed:  845.000000
+[2019.02.18-17.55.38:648][670]LogTemp: Break Speed:  844.000000
+[2019.02.18-17.55.38:657][671]LogTemp: Break Speed:  843.000000
+[2019.02.18-17.55.38:665][672]LogTemp: Break Speed:  842.000000
+[2019.02.18-17.55.38:673][673]LogTemp: Break Speed:  841.000000
+[2019.02.18-17.55.38:682][674]LogTemp: Break Speed:  840.000000
+[2019.02.18-17.55.38:690][675]LogTemp: Break Speed:  839.000000
+[2019.02.18-17.55.38:698][676]LogTemp: Break Speed:  838.000000
+[2019.02.18-17.55.38:707][677]LogTemp: Break Speed:  837.000000
+[2019.02.18-17.55.38:715][678]LogTemp: Break Speed:  836.000000
+[2019.02.18-17.55.38:723][679]LogTemp: Break Speed:  835.000000
+[2019.02.18-17.55.38:732][680]LogTemp: Break Speed:  834.000000
+[2019.02.18-17.55.38:740][681]LogTemp: Break Speed:  833.000000
+[2019.02.18-17.55.38:748][682]LogTemp: Break Speed:  832.000000
+[2019.02.18-17.55.38:757][683]LogTemp: Break Speed:  831.000000
+[2019.02.18-17.55.38:765][684]LogTemp: Break Speed:  830.000000
+[2019.02.18-17.55.38:773][685]LogTemp: Break Speed:  829.000000
+[2019.02.18-17.55.38:781][686]LogTemp: Break Speed:  828.000000
+[2019.02.18-17.55.38:790][687]LogTemp: Break Speed:  827.000000
+[2019.02.18-17.55.38:798][688]LogTemp: Break Speed:  826.000000
+[2019.02.18-17.55.38:806][689]LogTemp: Break Speed:  825.000000
+[2019.02.18-17.55.38:815][690]LogTemp: Break Speed:  824.000000
+[2019.02.18-17.55.38:823][691]LogTemp: Break Speed:  823.000000
+[2019.02.18-17.55.38:831][692]LogTemp: Break Speed:  822.000000
+[2019.02.18-17.55.38:840][693]LogTemp: Break Speed:  821.000000
+[2019.02.18-17.55.38:848][694]LogTemp: Break Speed:  820.000000
+[2019.02.18-17.55.38:856][695]LogTemp: Break Speed:  819.000000
+[2019.02.18-17.55.38:865][696]LogTemp: Break Speed:  818.000000
+[2019.02.18-17.55.38:873][697]LogTemp: Break Speed:  817.000000
+[2019.02.18-17.55.38:881][698]LogTemp: Break Speed:  816.000000
+[2019.02.18-17.55.38:890][699]LogTemp: Break Speed:  815.000000
+[2019.02.18-17.55.38:898][700]LogTemp: Break Speed:  814.000000
+[2019.02.18-17.55.38:906][701]LogTemp: Break Speed:  813.000000
+[2019.02.18-17.55.38:915][702]LogTemp: Break Speed:  812.000000
+[2019.02.18-17.55.38:923][703]LogTemp: Break Speed:  811.000000
+[2019.02.18-17.55.38:931][704]LogTemp: Break Speed:  810.000000
+[2019.02.18-17.55.38:940][705]LogTemp: Break Speed:  809.000000
+[2019.02.18-17.55.38:948][706]LogTemp: Break Speed:  808.000000
+[2019.02.18-17.55.38:956][707]LogTemp: Break Speed:  807.000000
+[2019.02.18-17.55.38:965][708]LogTemp: Break Speed:  806.000000
+[2019.02.18-17.55.38:973][709]LogTemp: Break Speed:  805.000000
+[2019.02.18-17.55.38:981][710]LogTemp: Break Speed:  804.000000
+[2019.02.18-17.55.38:990][711]LogTemp: Break Speed:  803.000000
+[2019.02.18-17.55.38:998][712]LogTemp: Break Speed:  802.000000
+[2019.02.18-17.55.39:006][713]LogTemp: Break Speed:  801.000000
+[2019.02.18-17.55.39:015][714]LogTemp: Break Speed:  800.000000
+[2019.02.18-17.55.39:023][715]LogTemp: Break Speed:  799.000000
+[2019.02.18-17.55.39:031][716]LogTemp: Break Speed:  798.000000
+[2019.02.18-17.55.39:040][717]LogTemp: Break Speed:  797.000000
+[2019.02.18-17.55.39:048][718]LogTemp: Break Speed:  796.000000
+[2019.02.18-17.55.39:057][719]LogTemp: Break Speed:  795.000000
+[2019.02.18-17.55.39:065][720]LogTemp: Break Speed:  794.000000
+[2019.02.18-17.55.39:073][721]LogTemp: Break Speed:  793.000000
+[2019.02.18-17.55.39:081][722]LogTemp: Break Speed:  792.000000
+[2019.02.18-17.55.39:090][723]LogTemp: Break Speed:  791.000000
+[2019.02.18-17.55.39:099][724]LogTemp: Break Speed:  790.000000
+[2019.02.18-17.55.39:107][725]LogTemp: Break Speed:  789.000000
+[2019.02.18-17.55.39:115][726]LogTemp: Break Speed:  788.000000
+[2019.02.18-17.55.39:123][727]LogTemp: Break Speed:  787.000000
+[2019.02.18-17.55.39:132][728]LogTemp: Break Speed:  786.000000
+[2019.02.18-17.55.39:140][729]LogTemp: Break Speed:  785.000000
+[2019.02.18-17.55.39:149][730]LogTemp: Break Speed:  784.000000
+[2019.02.18-17.55.39:157][731]LogTemp: Break Speed:  783.000000
+[2019.02.18-17.55.39:165][732]LogTemp: Break Speed:  782.000000
+[2019.02.18-17.55.39:173][733]LogTemp: Break Speed:  781.000000
+[2019.02.18-17.55.39:182][734]LogTemp: Break Speed:  780.000000
+[2019.02.18-17.55.39:190][735]LogTemp: Break Speed:  779.000000
+[2019.02.18-17.55.39:198][736]LogTemp: Break Speed:  778.000000
+[2019.02.18-17.55.39:207][737]LogTemp: Break Speed:  777.000000
+[2019.02.18-17.55.39:215][738]LogTemp: Break Speed:  776.000000
+[2019.02.18-17.55.39:223][739]LogTemp: Break Speed:  775.000000
+[2019.02.18-17.55.39:232][740]LogTemp: Break Speed:  774.000000
+[2019.02.18-17.55.39:240][741]LogTemp: Break Speed:  773.000000
+[2019.02.18-17.55.39:248][742]LogTemp: Break Speed:  772.000000
+[2019.02.18-17.55.39:257][743]LogTemp: Break Speed:  771.000000
+[2019.02.18-17.55.39:265][744]LogTemp: Break Speed:  770.000000
+[2019.02.18-17.55.39:273][745]LogTemp: Break Speed:  769.000000
+[2019.02.18-17.55.39:282][746]LogTemp: Break Speed:  768.000000
+[2019.02.18-17.55.39:290][747]LogTemp: Break Speed:  767.000000
+[2019.02.18-17.55.39:298][748]LogTemp: Break Speed:  766.000000
+[2019.02.18-17.55.39:307][749]LogTemp: Break Speed:  765.000000
+[2019.02.18-17.55.39:315][750]LogTemp: Break Speed:  764.000000
+[2019.02.18-17.55.39:324][751]LogTemp: Break Speed:  763.000000
+[2019.02.18-17.55.39:332][752]LogTemp: Break Speed:  762.000000
+[2019.02.18-17.55.39:340][753]LogTemp: Break Speed:  761.000000
+[2019.02.18-17.55.39:349][754]LogTemp: Break Speed:  760.000000
+[2019.02.18-17.55.39:357][755]LogTemp: Break Speed:  759.000000
+[2019.02.18-17.55.39:365][756]LogTemp: Break Speed:  758.000000
+[2019.02.18-17.55.39:374][757]LogTemp: Break Speed:  757.000000
+[2019.02.18-17.55.39:382][758]LogTemp: Break Speed:  756.000000
+[2019.02.18-17.55.39:391][759]LogTemp: Break Speed:  755.000000
+[2019.02.18-17.55.39:399][760]LogTemp: Break Speed:  754.000000
+[2019.02.18-17.55.39:407][761]LogTemp: Break Speed:  753.000000
+[2019.02.18-17.55.39:415][762]LogTemp: Break Speed:  752.000000
+[2019.02.18-17.55.39:424][763]LogTemp: Break Speed:  751.000000
+[2019.02.18-17.55.39:432][764]LogTemp: Break Speed:  750.000000
+[2019.02.18-17.55.39:440][765]LogTemp: Break Speed:  749.000000
+[2019.02.18-17.55.39:449][766]LogTemp: Break Speed:  748.000000
+[2019.02.18-17.55.39:457][767]LogTemp: Break Speed:  747.000000
+[2019.02.18-17.55.39:465][768]LogTemp: Break Speed:  746.000000
+[2019.02.18-17.55.39:474][769]LogTemp: Break Speed:  745.000000
+[2019.02.18-17.55.39:482][770]LogTemp: Break Speed:  744.000000
+[2019.02.18-17.55.39:490][771]LogTemp: Break Speed:  743.000000
+[2019.02.18-17.55.39:499][772]LogTemp: Break Speed:  742.000000
+[2019.02.18-17.55.39:507][773]LogTemp: Break Speed:  741.000000
+[2019.02.18-17.55.39:515][774]LogTemp: Break Speed:  740.000000
+[2019.02.18-17.55.39:524][775]LogTemp: Break Speed:  739.000000
+[2019.02.18-17.55.39:532][776]LogTemp: Break Speed:  738.000000
+[2019.02.18-17.55.39:540][777]LogTemp: Break Speed:  737.000000
+[2019.02.18-17.55.39:549][778]LogTemp: Break Speed:  736.000000
+[2019.02.18-17.55.39:557][779]LogTemp: Break Speed:  735.000000
+[2019.02.18-17.55.39:565][780]LogTemp: Break Speed:  734.000000
+[2019.02.18-17.55.39:574][781]LogTemp: Break Speed:  733.000000
+[2019.02.18-17.55.39:582][782]LogTemp: Break Speed:  732.000000
+[2019.02.18-17.55.39:590][783]LogTemp: Break Speed:  731.000000
+[2019.02.18-17.55.39:599][784]LogTemp: Break Speed:  730.000000
+[2019.02.18-17.55.39:608][785]LogTemp: Break Speed:  729.000000
+[2019.02.18-17.55.39:616][786]LogTemp: Break Speed:  728.000000
+[2019.02.18-17.55.39:624][787]LogTemp: Break Speed:  727.000000
+[2019.02.18-17.55.39:632][788]LogTemp: Break Speed:  726.000000
+[2019.02.18-17.55.39:640][789]LogTemp: Break Speed:  725.000000
+[2019.02.18-17.55.39:649][790]LogTemp: Break Speed:  724.000000
+[2019.02.18-17.55.39:658][791]LogTemp: Break Speed:  723.000000
+[2019.02.18-17.55.39:666][792]LogTemp: Break Speed:  722.000000
+[2019.02.18-17.55.39:675][793]LogTemp: Break Speed:  721.000000
+[2019.02.18-17.55.39:683][794]LogTemp: Break Speed:  720.000000
+[2019.02.18-17.55.39:691][795]LogTemp: Break Speed:  719.000000
+[2019.02.18-17.55.39:699][796]LogTemp: Break Speed:  718.000000
+[2019.02.18-17.55.39:708][797]LogTemp: Break Speed:  717.000000
+[2019.02.18-17.55.39:716][798]LogTemp: Break Speed:  716.000000
+[2019.02.18-17.55.39:725][799]LogTemp: Break Speed:  715.000000
+[2019.02.18-17.55.39:733][800]LogTemp: Break Speed:  714.000000
+[2019.02.18-17.55.39:741][801]LogTemp: Break Speed:  713.000000
+[2019.02.18-17.55.39:749][802]LogTemp: Break Speed:  712.000000
+[2019.02.18-17.55.39:758][803]LogTemp: Break Speed:  711.000000
+[2019.02.18-17.55.39:765][804]LogTemp: Break Speed:  710.000000
+[2019.02.18-17.55.39:774][805]LogTemp: Break Speed:  709.000000
+[2019.02.18-17.55.39:782][806]LogTemp: Break Speed:  708.000000
+[2019.02.18-17.55.39:790][807]LogTemp: Break Speed:  707.000000
+[2019.02.18-17.55.39:798][808]LogTemp: Break Speed:  706.000000
+[2019.02.18-17.55.39:807][809]LogTemp: Break Speed:  705.000000
+[2019.02.18-17.55.39:815][810]LogTemp: Break Speed:  704.000000
+[2019.02.18-17.55.39:824][811]LogTemp: Break Speed:  703.000000
+[2019.02.18-17.55.39:832][812]LogTemp: Break Speed:  702.000000
+[2019.02.18-17.55.39:840][813]LogTemp: Break Speed:  701.000000
+[2019.02.18-17.55.39:849][814]LogTemp: Break Speed:  700.000000
+[2019.02.18-17.55.39:857][815]LogTemp: Break Speed:  699.000000
+[2019.02.18-17.55.39:865][816]LogTemp: Break Speed:  698.000000
+[2019.02.18-17.55.39:874][817]LogTemp: Break Speed:  697.000000
+[2019.02.18-17.55.39:882][818]LogTemp: Break Speed:  696.000000
+[2019.02.18-17.55.39:890][819]LogTemp: Break Speed:  695.000000
+[2019.02.18-17.55.39:898][820]LogTemp: Break Speed:  694.000000
+[2019.02.18-17.55.39:907][821]LogTemp: Break Speed:  693.000000
+[2019.02.18-17.55.39:915][822]LogTemp: Break Speed:  692.000000
+[2019.02.18-17.55.39:924][823]LogTemp: Break Speed:  691.000000
+[2019.02.18-17.55.39:932][824]LogTemp: Break Speed:  690.000000
+[2019.02.18-17.55.39:940][825]LogTemp: Break Speed:  689.000000
+[2019.02.18-17.55.39:949][826]LogTemp: Break Speed:  688.000000
+[2019.02.18-17.55.39:957][827]LogTemp: Break Speed:  687.000000
+[2019.02.18-17.55.39:965][828]LogTemp: Break Speed:  686.000000
+[2019.02.18-17.55.39:974][829]LogTemp: Break Speed:  685.000000
+[2019.02.18-17.55.39:982][830]LogTemp: Break Speed:  684.000000
+[2019.02.18-17.55.39:990][831]LogTemp: Break Speed:  683.000000
+[2019.02.18-17.55.39:999][832]LogTemp: Break Speed:  682.000000
+[2019.02.18-17.55.40:007][833]LogTemp: Break Speed:  681.000000
+[2019.02.18-17.55.40:015][834]LogTemp: Break Speed:  680.000000
+[2019.02.18-17.55.40:024][835]LogTemp: Break Speed:  679.000000
+[2019.02.18-17.55.40:032][836]LogTemp: Break Speed:  678.000000
+[2019.02.18-17.55.40:040][837]LogTemp: Break Speed:  677.000000
+[2019.02.18-17.55.40:049][838]LogTemp: Break Speed:  676.000000
+[2019.02.18-17.55.40:057][839]LogTemp: Break Speed:  675.000000
+[2019.02.18-17.55.40:065][840]LogTemp: Break Speed:  674.000000
+[2019.02.18-17.55.40:074][841]LogTemp: Break Speed:  673.000000
+[2019.02.18-17.55.40:082][842]LogTemp: Break Speed:  672.000000
+[2019.02.18-17.55.40:090][843]LogTemp: Break Speed:  671.000000
+[2019.02.18-17.55.40:099][844]LogTemp: Break Speed:  670.000000
+[2019.02.18-17.55.40:107][845]LogTemp: Break Speed:  669.000000
+[2019.02.18-17.55.40:115][846]LogTemp: Break Speed:  668.000000
+[2019.02.18-17.55.40:124][847]LogTemp: Break Speed:  667.000000
+[2019.02.18-17.55.40:132][848]LogTemp: Break Speed:  666.000000
+[2019.02.18-17.55.40:140][849]LogTemp: Break Speed:  665.000000
+[2019.02.18-17.55.40:149][850]LogTemp: Break Speed:  664.000000
+[2019.02.18-17.55.40:157][851]LogTemp: Break Speed:  663.000000
+[2019.02.18-17.55.40:165][852]LogTemp: Break Speed:  662.000000
+[2019.02.18-17.55.40:174][853]LogTemp: Break Speed:  661.000000
+[2019.02.18-17.55.40:182][854]LogTemp: Break Speed:  660.000000
+[2019.02.18-17.55.40:190][855]LogTemp: Break Speed:  659.000000
+[2019.02.18-17.55.40:199][856]LogTemp: Break Speed:  658.000000
+[2019.02.18-17.55.40:207][857]LogTemp: Break Speed:  657.000000
+[2019.02.18-17.55.40:215][858]LogTemp: Break Speed:  656.000000
+[2019.02.18-17.55.40:224][859]LogTemp: Break Speed:  655.000000
+[2019.02.18-17.55.40:232][860]LogTemp: Break Speed:  654.000000
+[2019.02.18-17.55.40:240][861]LogTemp: Break Speed:  653.000000
+[2019.02.18-17.55.40:249][862]LogTemp: Break Speed:  652.000000
+[2019.02.18-17.55.40:257][863]LogTemp: Break Speed:  651.000000
+[2019.02.18-17.55.40:265][864]LogTemp: Break Speed:  650.000000
+[2019.02.18-17.55.40:274][865]LogTemp: Break Speed:  649.000000
+[2019.02.18-17.55.40:282][866]LogTemp: Break Speed:  648.000000
+[2019.02.18-17.55.40:290][867]LogTemp: Break Speed:  647.000000
+[2019.02.18-17.55.40:299][868]LogTemp: Break Speed:  646.000000
+[2019.02.18-17.55.40:307][869]LogTemp: Break Speed:  645.000000
+[2019.02.18-17.55.40:315][870]LogTemp: Break Speed:  644.000000
+[2019.02.18-17.55.40:324][871]LogTemp: Break Speed:  643.000000
+[2019.02.18-17.55.40:332][872]LogTemp: Break Speed:  642.000000
+[2019.02.18-17.55.40:340][873]LogTemp: Break Speed:  641.000000
+[2019.02.18-17.55.40:349][874]LogTemp: Break Speed:  640.000000
+[2019.02.18-17.55.40:357][875]LogTemp: Break Speed:  639.000000
+[2019.02.18-17.55.40:366][876]LogTemp: Break Speed:  638.000000
+[2019.02.18-17.55.40:374][877]LogTemp: Break Speed:  637.000000
+[2019.02.18-17.55.40:382][878]LogTemp: Break Speed:  636.000000
+[2019.02.18-17.55.40:391][879]LogTemp: Break Speed:  635.000000
+[2019.02.18-17.55.40:399][880]LogTemp: Break Speed:  634.000000
+[2019.02.18-17.55.40:407][881]LogTemp: Break Speed:  633.000000
+[2019.02.18-17.55.40:416][882]LogTemp: Break Speed:  632.000000
+[2019.02.18-17.55.40:424][883]LogTemp: Break Speed:  631.000000
+[2019.02.18-17.55.40:433][884]LogTemp: Break Speed:  630.000000
+[2019.02.18-17.55.40:441][885]LogTemp: Break Speed:  629.000000
+[2019.02.18-17.55.40:449][886]LogTemp: Break Speed:  628.000000
+[2019.02.18-17.55.40:458][887]LogTemp: Break Speed:  627.000000
+[2019.02.18-17.55.40:466][888]LogTemp: Break Speed:  626.000000
+[2019.02.18-17.55.40:474][889]LogTemp: Break Speed:  625.000000
+[2019.02.18-17.55.40:483][890]LogTemp: Break Speed:  624.000000
+[2019.02.18-17.55.40:491][891]LogTemp: Break Speed:  623.000000
+[2019.02.18-17.55.40:499][892]LogTemp: Break Speed:  622.000000
+[2019.02.18-17.55.40:508][893]LogTemp: Break Speed:  621.000000
+[2019.02.18-17.55.40:516][894]LogTemp: Break Speed:  620.000000
+[2019.02.18-17.55.40:524][895]LogTemp: Break Speed:  619.000000
+[2019.02.18-17.55.40:533][896]LogTemp: Break Speed:  618.000000
+[2019.02.18-17.55.40:541][897]LogTemp: Break Speed:  617.000000
+[2019.02.18-17.55.40:549][898]LogTemp: Break Speed:  616.000000
+[2019.02.18-17.55.40:558][899]LogTemp: Break Speed:  615.000000
+[2019.02.18-17.55.40:566][900]LogTemp: Break Speed:  614.000000
+[2019.02.18-17.55.40:574][901]LogTemp: Break Speed:  613.000000
+[2019.02.18-17.55.40:583][902]LogTemp: Break Speed:  612.000000
+[2019.02.18-17.55.40:591][903]LogTemp: Break Speed:  611.000000
+[2019.02.18-17.55.40:599][904]LogTemp: Break Speed:  610.000000
+[2019.02.18-17.55.40:608][905]LogTemp: Break Speed:  609.000000
+[2019.02.18-17.55.40:616][906]LogTemp: Break Speed:  608.000000
+[2019.02.18-17.55.40:625][907]LogTemp: Break Speed:  607.000000
+[2019.02.18-17.55.40:633][908]LogTemp: Break Speed:  606.000000
+[2019.02.18-17.55.40:641][909]LogTemp: Break Speed:  605.000000
+[2019.02.18-17.55.40:649][910]LogTemp: Break Speed:  604.000000
+[2019.02.18-17.55.40:658][911]LogTemp: Break Speed:  603.000000
+[2019.02.18-17.55.40:666][912]LogTemp: Break Speed:  602.000000
+[2019.02.18-17.55.40:675][913]LogTemp: Break Speed:  601.000000
+[2019.02.18-17.55.40:683][914]LogTemp: Break Speed:  600.000000
+[2019.02.18-17.55.40:691][915]LogTemp: Break Speed:  599.000000
+[2019.02.18-17.55.40:700][916]LogTemp: Break Speed:  598.000000
+[2019.02.18-17.55.40:708][917]LogTemp: Break Speed:  597.000000
+[2019.02.18-17.55.40:716][918]LogTemp: Break Speed:  596.000000
+[2019.02.18-17.55.40:725][919]LogTemp: Break Speed:  595.000000
+[2019.02.18-17.55.40:733][920]LogTemp: Break Speed:  594.000000
+[2019.02.18-17.55.40:742][921]LogTemp: Break Speed:  593.000000
+[2019.02.18-17.55.40:750][922]LogTemp: Break Speed:  592.000000
+[2019.02.18-17.55.40:758][923]LogTemp: Break Speed:  591.000000
+[2019.02.18-17.55.40:767][924]LogTemp: Break Speed:  590.000000
+[2019.02.18-17.55.40:775][925]LogTemp: Break Speed:  589.000000
+[2019.02.18-17.55.40:783][926]LogTemp: Break Speed:  588.000000
+[2019.02.18-17.55.40:792][927]LogTemp: Break Speed:  587.000000
+[2019.02.18-17.55.40:800][928]LogTemp: Break Speed:  586.000000
+[2019.02.18-17.55.40:808][929]LogTemp: Break Speed:  585.000000
+[2019.02.18-17.55.40:817][930]LogTemp: Break Speed:  584.000000
+[2019.02.18-17.55.40:825][931]LogTemp: Break Speed:  583.000000
+[2019.02.18-17.55.40:833][932]LogTemp: Break Speed:  582.000000
+[2019.02.18-17.55.40:841][933]LogTemp: Break Speed:  581.000000
+[2019.02.18-17.55.40:849][934]LogTemp: Break Speed:  580.000000
+[2019.02.18-17.55.40:858][935]LogTemp: Break Speed:  579.000000
+[2019.02.18-17.55.40:866][936]LogTemp: Break Speed:  578.000000
+[2019.02.18-17.55.40:874][937]LogTemp: Break Speed:  577.000000
+[2019.02.18-17.55.40:883][938]LogTemp: Break Speed:  576.000000
+[2019.02.18-17.55.40:891][939]LogTemp: Break Speed:  575.000000
+[2019.02.18-17.55.40:899][940]LogTemp: Break Speed:  574.000000
+[2019.02.18-17.55.40:908][941]LogTemp: Break Speed:  573.000000
+[2019.02.18-17.55.40:916][942]LogTemp: Break Speed:  572.000000
+[2019.02.18-17.55.40:924][943]LogTemp: Break Speed:  571.000000
+[2019.02.18-17.55.40:933][944]LogTemp: Break Speed:  570.000000
+[2019.02.18-17.55.40:941][945]LogTemp: Break Speed:  569.000000
+[2019.02.18-17.55.40:950][946]LogTemp: Break Speed:  568.000000
+[2019.02.18-17.55.40:958][947]LogTemp: Break Speed:  567.000000
+[2019.02.18-17.55.40:966][948]LogTemp: Break Speed:  566.000000
+[2019.02.18-17.55.40:975][949]LogTemp: Break Speed:  565.000000
+[2019.02.18-17.55.40:983][950]LogTemp: Break Speed:  564.000000
+[2019.02.18-17.55.40:992][951]LogTemp: Break Speed:  563.000000
+[2019.02.18-17.55.41:000][952]LogTemp: Break Speed:  562.000000
+[2019.02.18-17.55.41:008][953]LogTemp: Break Speed:  561.000000
+[2019.02.18-17.55.41:016][954]LogTemp: Break Speed:  560.000000
+[2019.02.18-17.55.41:025][955]LogTemp: Break Speed:  559.000000
+[2019.02.18-17.55.41:033][956]LogTemp: Break Speed:  558.000000
+[2019.02.18-17.55.41:041][957]LogTemp: Break Speed:  557.000000
+[2019.02.18-17.55.41:049][958]LogTemp: Break Speed:  556.000000
+[2019.02.18-17.55.41:058][959]LogTemp: Break Speed:  555.000000
+[2019.02.18-17.55.41:066][960]LogTemp: Break Speed:  554.000000
+[2019.02.18-17.55.41:074][961]LogTemp: Break Speed:  553.000000
+[2019.02.18-17.55.41:083][962]LogTemp: Break Speed:  552.000000
+[2019.02.18-17.55.41:091][963]LogTemp: Break Speed:  551.000000
+[2019.02.18-17.55.41:099][964]LogTemp: Break Speed:  550.000000
+[2019.02.18-17.55.41:108][965]LogTemp: Break Speed:  549.000000
+[2019.02.18-17.55.41:116][966]LogTemp: Break Speed:  548.000000
+[2019.02.18-17.55.41:124][967]LogTemp: Break Speed:  547.000000
+[2019.02.18-17.55.41:132][968]LogTemp: Break Speed:  546.000000
+[2019.02.18-17.55.41:142][969]LogTemp: Break Speed:  545.000000
+[2019.02.18-17.55.41:150][970]LogTemp: Break Speed:  544.000000
+[2019.02.18-17.55.41:158][971]LogTemp: Break Speed:  543.000000
+[2019.02.18-17.55.41:167][972]LogTemp: Break Speed:  542.000000
+[2019.02.18-17.55.41:175][973]LogTemp: Break Speed:  541.000000
+[2019.02.18-17.55.41:183][974]LogTemp: Break Speed:  540.000000
+[2019.02.18-17.55.41:192][975]LogTemp: Break Speed:  539.000000
+[2019.02.18-17.55.41:200][976]LogTemp: Break Speed:  538.000000
+[2019.02.18-17.55.41:208][977]LogTemp: Break Speed:  537.000000
+[2019.02.18-17.55.41:217][978]LogTemp: Break Speed:  536.000000
+[2019.02.18-17.55.41:225][979]LogTemp: Break Speed:  535.000000
+[2019.02.18-17.55.41:233][980]LogTemp: Break Speed:  534.000000
+[2019.02.18-17.55.41:241][981]LogTemp: Break Speed:  533.000000
+[2019.02.18-17.55.41:249][982]LogTemp: Break Speed:  532.000000
+[2019.02.18-17.55.41:257][983]LogTemp: Break Speed:  531.000000
+[2019.02.18-17.55.41:266][984]LogTemp: Break Speed:  530.000000
+[2019.02.18-17.55.41:274][985]LogTemp: Break Speed:  529.000000
+[2019.02.18-17.55.41:283][986]LogTemp: Break Speed:  528.000000
+[2019.02.18-17.55.41:291][987]LogTemp: Break Speed:  527.000000
+[2019.02.18-17.55.41:299][988]LogTemp: Break Speed:  526.000000
+[2019.02.18-17.55.41:308][989]LogTemp: Break Speed:  525.000000
+[2019.02.18-17.55.41:316][990]LogTemp: Break Speed:  524.000000
+[2019.02.18-17.55.41:325][991]LogTemp: Break Speed:  523.000000
+[2019.02.18-17.55.41:333][992]LogTemp: Break Speed:  522.000000
+[2019.02.18-17.55.41:341][993]LogTemp: Break Speed:  521.000000
+[2019.02.18-17.55.41:350][994]LogTemp: Break Speed:  520.000000
+[2019.02.18-17.55.41:358][995]LogTemp: Break Speed:  519.000000
+[2019.02.18-17.55.41:367][996]LogTemp: Break Speed:  518.000000
+[2019.02.18-17.55.41:375][997]LogTemp: Break Speed:  517.000000
+[2019.02.18-17.55.41:383][998]LogTemp: Break Speed:  516.000000
+[2019.02.18-17.55.41:392][999]LogTemp: Break Speed:  515.000000
+[2019.02.18-17.55.41:400][  0]LogTemp: Break Speed:  514.000000
+[2019.02.18-17.55.41:408][  1]LogTemp: Break Speed:  513.000000
+[2019.02.18-17.55.41:417][  2]LogTemp: Break Speed:  512.000000
+[2019.02.18-17.55.41:425][  3]LogTemp: Break Speed:  511.000000
+[2019.02.18-17.55.41:433][  4]LogTemp: Break Speed:  510.000000
+[2019.02.18-17.55.41:442][  5]LogTemp: Break Speed:  509.000000
+[2019.02.18-17.55.41:450][  6]LogTemp: Break Speed:  508.000000
+[2019.02.18-17.55.41:458][  7]LogTemp: Break Speed:  507.000000
+[2019.02.18-17.55.41:467][  8]LogTemp: Break Speed:  506.000000
+[2019.02.18-17.55.41:475][  9]LogTemp: Break Speed:  505.000000
+[2019.02.18-17.55.41:483][ 10]LogTemp: Break Speed:  504.000000
+[2019.02.18-17.55.41:492][ 11]LogTemp: Break Speed:  503.000000
+[2019.02.18-17.55.41:500][ 12]LogTemp: Break Speed:  502.000000
+[2019.02.18-17.55.41:508][ 13]LogTemp: Break Speed:  501.000000
+[2019.02.18-17.55.41:517][ 14]LogTemp: Break Speed:  500.000000
+[2019.02.18-17.55.41:525][ 15]LogTemp: Break Speed:  499.000000
+[2019.02.18-17.55.41:533][ 16]LogTemp: Break Speed:  498.000000
+[2019.02.18-17.55.41:542][ 17]LogTemp: Break Speed:  497.000000
+[2019.02.18-17.55.41:550][ 18]LogTemp: Break Speed:  496.000000
+[2019.02.18-17.55.41:558][ 19]LogTemp: Break Speed:  495.000000
+[2019.02.18-17.55.41:567][ 20]LogTemp: Break Speed:  494.000000
+[2019.02.18-17.55.41:575][ 21]LogTemp: Break Speed:  493.000000
+[2019.02.18-17.55.41:583][ 22]LogTemp: Break Speed:  492.000000
+[2019.02.18-17.55.41:592][ 23]LogTemp: Break Speed:  491.000000
+[2019.02.18-17.55.41:600][ 24]LogTemp: Break Speed:  490.000000
+[2019.02.18-17.55.41:609][ 25]LogTemp: Break Speed:  489.000000
+[2019.02.18-17.55.41:618][ 26]LogTemp: Break Speed:  488.000000
+[2019.02.18-17.55.41:631][ 27]LogTemp: Break Speed:  487.000000
+[2019.02.18-17.55.41:640][ 28]LogTemp: Break Speed:  486.000000
+[2019.02.18-17.55.41:648][ 29]LogTemp: Break Speed:  485.000000
+[2019.02.18-17.55.41:656][ 30]LogTemp: Break Speed:  484.000000
+[2019.02.18-17.55.41:664][ 31]LogTemp: Break Speed:  483.000000
+[2019.02.18-17.55.41:674][ 32]LogTemp: Break Speed:  482.000000
+[2019.02.18-17.55.41:682][ 33]LogTemp: Break Speed:  481.000000
+[2019.02.18-17.55.41:690][ 34]LogTemp: Break Speed:  480.000000
+[2019.02.18-17.55.41:699][ 35]LogTemp: Break Speed:  479.000000
+[2019.02.18-17.55.41:707][ 36]LogTemp: Break Speed:  478.000000
+[2019.02.18-17.55.41:715][ 37]LogTemp: Break Speed:  477.000000
+[2019.02.18-17.55.41:724][ 38]LogTemp: Break Speed:  476.000000
+[2019.02.18-17.55.41:732][ 39]LogTemp: Break Speed:  475.000000
+[2019.02.18-17.55.41:740][ 40]LogTemp: Break Speed:  474.000000
+[2019.02.18-17.55.41:749][ 41]LogTemp: Break Speed:  473.000000
+[2019.02.18-17.55.41:757][ 42]LogTemp: Break Speed:  472.000000
+[2019.02.18-17.55.41:765][ 43]LogTemp: Break Speed:  471.000000
+[2019.02.18-17.55.41:774][ 44]LogTemp: Break Speed:  470.000000
+[2019.02.18-17.55.41:782][ 45]LogTemp: Break Speed:  469.000000
+[2019.02.18-17.55.41:790][ 46]LogTemp: Break Speed:  468.000000
+[2019.02.18-17.55.41:799][ 47]LogTemp: Break Speed:  467.000000
+[2019.02.18-17.55.41:807][ 48]LogTemp: Break Speed:  466.000000
+[2019.02.18-17.55.41:815][ 49]LogTemp: Break Speed:  465.000000
+[2019.02.18-17.55.41:824][ 50]LogTemp: Break Speed:  464.000000
+[2019.02.18-17.55.41:832][ 51]LogTemp: Break Speed:  463.000000
+[2019.02.18-17.55.41:840][ 52]LogTemp: Break Speed:  462.000000
+[2019.02.18-17.55.41:848][ 53]LogTemp: Break Speed:  461.000000
+[2019.02.18-17.55.41:856][ 54]LogTemp: Break Speed:  460.000000
+[2019.02.18-17.55.41:865][ 55]LogTemp: Break Speed:  459.000000
+[2019.02.18-17.55.41:873][ 56]LogTemp: Break Speed:  458.000000
+[2019.02.18-17.55.41:881][ 57]LogTemp: Break Speed:  457.000000
+[2019.02.18-17.55.41:889][ 58]LogTemp: Break Speed:  456.000000
+[2019.02.18-17.55.41:899][ 59]LogTemp: Break Speed:  455.000000
+[2019.02.18-17.55.41:907][ 60]LogTemp: Break Speed:  454.000000
+[2019.02.18-17.55.41:915][ 61]LogTemp: Break Speed:  453.000000
+[2019.02.18-17.55.41:923][ 62]LogTemp: Break Speed:  452.000000
+[2019.02.18-17.55.41:932][ 63]LogTemp: Break Speed:  451.000000
+[2019.02.18-17.55.41:940][ 64]LogTemp: Break Speed:  450.000000
+[2019.02.18-17.55.41:948][ 65]LogTemp: Break Speed:  449.000000
+[2019.02.18-17.55.41:957][ 66]LogTemp: Break Speed:  448.000000
+[2019.02.18-17.55.41:965][ 67]LogTemp: Break Speed:  447.000000
+[2019.02.18-17.55.41:973][ 68]LogTemp: Break Speed:  446.000000
+[2019.02.18-17.55.41:982][ 69]LogTemp: Break Speed:  445.000000
+[2019.02.18-17.55.41:990][ 70]LogTemp: Break Speed:  444.000000
+[2019.02.18-17.55.41:998][ 71]LogTemp: Break Speed:  443.000000
+[2019.02.18-17.55.42:007][ 72]LogTemp: Break Speed:  442.000000
+[2019.02.18-17.55.42:015][ 73]LogTemp: Break Speed:  441.000000
+[2019.02.18-17.55.42:024][ 74]LogTemp: Break Speed:  440.000000
+[2019.02.18-17.55.42:032][ 75]LogTemp: Break Speed:  439.000000
+[2019.02.18-17.55.42:040][ 76]LogTemp: Break Speed:  438.000000
+[2019.02.18-17.55.42:049][ 77]LogTemp: Break Speed:  437.000000
+[2019.02.18-17.55.42:057][ 78]LogTemp: Break Speed:  436.000000
+[2019.02.18-17.55.42:065][ 79]LogTemp: Break Speed:  435.000000
+[2019.02.18-17.55.42:073][ 80]LogTemp: Break Speed:  434.000000
+[2019.02.18-17.55.42:082][ 81]LogTemp: Break Speed:  433.000000
+[2019.02.18-17.55.42:090][ 82]LogTemp: Break Speed:  432.000000
+[2019.02.18-17.55.42:098][ 83]LogTemp: Break Speed:  431.000000
+[2019.02.18-17.55.42:107][ 84]LogTemp: Break Speed:  430.000000
+[2019.02.18-17.55.42:115][ 85]LogTemp: Break Speed:  429.000000
+[2019.02.18-17.55.42:123][ 86]LogTemp: Break Speed:  428.000000
+[2019.02.18-17.55.42:132][ 87]LogTemp: Break Speed:  427.000000
+[2019.02.18-17.55.42:140][ 88]LogTemp: Break Speed:  426.000000
+[2019.02.18-17.55.42:148][ 89]LogTemp: Break Speed:  425.000000
+[2019.02.18-17.55.42:157][ 90]LogTemp: Break Speed:  424.000000
+[2019.02.18-17.55.42:165][ 91]LogTemp: Break Speed:  423.000000
+[2019.02.18-17.55.42:173][ 92]LogTemp: Break Speed:  422.000000
+[2019.02.18-17.55.42:182][ 93]LogTemp: Break Speed:  421.000000
+[2019.02.18-17.55.42:190][ 94]LogTemp: Break Speed:  420.000000
+[2019.02.18-17.55.42:198][ 95]LogTemp: Break Speed:  419.000000
+[2019.02.18-17.55.42:207][ 96]LogTemp: Break Speed:  418.000000
+[2019.02.18-17.55.42:215][ 97]LogTemp: Break Speed:  417.000000
+[2019.02.18-17.55.42:223][ 98]LogTemp: Break Speed:  416.000000
+[2019.02.18-17.55.42:232][ 99]LogTemp: Break Speed:  415.000000
+[2019.02.18-17.55.42:240][100]LogTemp: Break Speed:  414.000000
+[2019.02.18-17.55.42:248][101]LogTemp: Break Speed:  413.000000
+[2019.02.18-17.55.42:257][102]LogTemp: Break Speed:  412.000000
+[2019.02.18-17.55.42:265][103]LogTemp: Break Speed:  411.000000
+[2019.02.18-17.55.42:273][104]LogTemp: Break Speed:  410.000000
+[2019.02.18-17.55.42:282][105]LogTemp: Break Speed:  409.000000
+[2019.02.18-17.55.42:290][106]LogTemp: Break Speed:  408.000000
+[2019.02.18-17.55.42:298][107]LogTemp: Break Speed:  407.000000
+[2019.02.18-17.55.42:307][108]LogTemp: Break Speed:  406.000000
+[2019.02.18-17.55.42:315][109]LogTemp: Break Speed:  405.000000
+[2019.02.18-17.55.42:323][110]LogTemp: Break Speed:  404.000000
+[2019.02.18-17.55.42:332][111]LogTemp: Break Speed:  403.000000
+[2019.02.18-17.55.42:340][112]LogTemp: Break Speed:  402.000000
+[2019.02.18-17.55.42:348][113]LogTemp: Break Speed:  401.000000
+[2019.02.18-17.55.42:357][114]LogTemp: Break Speed:  400.000000
+[2019.02.18-17.55.42:365][115]LogTemp: Break Speed:  399.000000
+[2019.02.18-17.55.42:373][116]LogTemp: Break Speed:  398.000000
+[2019.02.18-17.55.42:382][117]LogTemp: Break Speed:  397.000000
+[2019.02.18-17.55.42:390][118]LogTemp: Break Speed:  396.000000
+[2019.02.18-17.55.42:398][119]LogTemp: Break Speed:  395.000000
+[2019.02.18-17.55.42:407][120]LogTemp: Break Speed:  394.000000
+[2019.02.18-17.55.42:415][121]LogTemp: Break Speed:  393.000000
+[2019.02.18-17.55.42:423][122]LogTemp: Break Speed:  392.000000
+[2019.02.18-17.55.42:432][123]LogTemp: Break Speed:  391.000000
+[2019.02.18-17.55.42:440][124]LogTemp: Break Speed:  390.000000
+[2019.02.18-17.55.42:448][125]LogTemp: Break Speed:  389.000000
+[2019.02.18-17.55.42:457][126]LogTemp: Break Speed:  388.000000
+[2019.02.18-17.55.42:465][127]LogTemp: Break Speed:  387.000000
+[2019.02.18-17.55.42:473][128]LogTemp: Break Speed:  386.000000
+[2019.02.18-17.55.42:482][129]LogTemp: Break Speed:  385.000000
+[2019.02.18-17.55.42:490][130]LogTemp: Break Speed:  384.000000
+[2019.02.18-17.55.42:498][131]LogTemp: Break Speed:  383.000000
+[2019.02.18-17.55.42:507][132]LogTemp: Break Speed:  382.000000
+[2019.02.18-17.55.42:515][133]LogTemp: Break Speed:  381.000000
+[2019.02.18-17.55.42:523][134]LogTemp: Break Speed:  380.000000
+[2019.02.18-17.55.42:532][135]LogTemp: Break Speed:  379.000000
+[2019.02.18-17.55.42:540][136]LogTemp: Break Speed:  378.000000
+[2019.02.18-17.55.42:548][137]LogTemp: Break Speed:  377.000000
+[2019.02.18-17.55.42:557][138]LogTemp: Break Speed:  376.000000
+[2019.02.18-17.55.42:565][139]LogTemp: Break Speed:  375.000000
+[2019.02.18-17.55.42:573][140]LogTemp: Break Speed:  374.000000
+[2019.02.18-17.55.42:582][141]LogTemp: Break Speed:  373.000000
+[2019.02.18-17.55.42:590][142]LogTemp: Break Speed:  372.000000
+[2019.02.18-17.55.42:598][143]LogTemp: Break Speed:  371.000000
+[2019.02.18-17.55.42:607][144]LogTemp: Break Speed:  370.000000
+[2019.02.18-17.55.42:615][145]LogTemp: Break Speed:  369.000000
+[2019.02.18-17.55.42:623][146]LogTemp: Break Speed:  368.000000
+[2019.02.18-17.55.42:632][147]LogTemp: Break Speed:  367.000000
+[2019.02.18-17.55.42:640][148]LogTemp: Break Speed:  366.000000
+[2019.02.18-17.55.42:649][149]LogTemp: Break Speed:  365.000000
+[2019.02.18-17.55.42:657][150]LogTemp: Break Speed:  364.000000
+[2019.02.18-17.55.42:665][151]LogTemp: Break Speed:  363.000000
+[2019.02.18-17.55.42:674][152]LogTemp: Break Speed:  362.000000
+[2019.02.18-17.55.42:682][153]LogTemp: Break Speed:  361.000000
+[2019.02.18-17.55.42:690][154]LogTemp: Break Speed:  360.000000
+[2019.02.18-17.55.42:699][155]LogTemp: Break Speed:  359.000000
+[2019.02.18-17.55.42:707][156]LogTemp: Break Speed:  358.000000
+[2019.02.18-17.55.42:715][157]LogTemp: Break Speed:  357.000000
+[2019.02.18-17.55.42:724][158]LogTemp: Break Speed:  356.000000
+[2019.02.18-17.55.42:732][159]LogTemp: Break Speed:  355.000000
+[2019.02.18-17.55.42:740][160]LogTemp: Break Speed:  354.000000
+[2019.02.18-17.55.42:749][161]LogTemp: Break Speed:  353.000000
+[2019.02.18-17.55.42:757][162]LogTemp: Break Speed:  352.000000
+[2019.02.18-17.55.42:765][163]LogTemp: Break Speed:  351.000000
+[2019.02.18-17.55.42:774][164]LogTemp: Break Speed:  350.000000
+[2019.02.18-17.55.42:782][165]LogTemp: Break Speed:  349.000000
+[2019.02.18-17.55.42:790][166]LogTemp: Break Speed:  348.000000
+[2019.02.18-17.55.42:799][167]LogTemp: Break Speed:  347.000000
+[2019.02.18-17.55.42:807][168]LogTemp: Break Speed:  346.000000
+[2019.02.18-17.55.42:815][169]LogTemp: Break Speed:  345.000000
+[2019.02.18-17.55.42:824][170]LogTemp: Break Speed:  344.000000
+[2019.02.18-17.55.42:832][171]LogTemp: Break Speed:  343.000000
+[2019.02.18-17.55.42:840][172]LogTemp: Break Speed:  342.000000
+[2019.02.18-17.55.42:849][173]LogTemp: Break Speed:  341.000000
+[2019.02.18-17.55.42:857][174]LogTemp: Break Speed:  340.000000
+[2019.02.18-17.55.42:865][175]LogTemp: Break Speed:  339.000000
+[2019.02.18-17.55.42:874][176]LogTemp: Break Speed:  338.000000
+[2019.02.18-17.55.42:882][177]LogTemp: Break Speed:  337.000000
+[2019.02.18-17.55.42:890][178]LogTemp: Break Speed:  336.000000
+[2019.02.18-17.55.42:899][179]LogTemp: Break Speed:  335.000000
+[2019.02.18-17.55.42:907][180]LogTemp: Break Speed:  334.000000
+[2019.02.18-17.55.42:915][181]LogTemp: Break Speed:  333.000000
+[2019.02.18-17.55.42:924][182]LogTemp: Break Speed:  332.000000
+[2019.02.18-17.55.42:932][183]LogTemp: Break Speed:  331.000000
+[2019.02.18-17.55.42:940][184]LogTemp: Break Speed:  330.000000
+[2019.02.18-17.55.42:949][185]LogTemp: Break Speed:  329.000000
+[2019.02.18-17.55.42:957][186]LogTemp: Break Speed:  328.000000
+[2019.02.18-17.55.42:965][187]LogTemp: Break Speed:  327.000000
+[2019.02.18-17.55.42:974][188]LogTemp: Break Speed:  326.000000
+[2019.02.18-17.55.42:982][189]LogTemp: Break Speed:  325.000000
+[2019.02.18-17.55.42:990][190]LogTemp: Break Speed:  324.000000
+[2019.02.18-17.55.42:999][191]LogTemp: Break Speed:  323.000000
+[2019.02.18-17.55.43:007][192]LogTemp: Break Speed:  322.000000
+[2019.02.18-17.55.43:015][193]LogTemp: Break Speed:  321.000000
+[2019.02.18-17.55.43:024][194]LogTemp: Break Speed:  320.000000
+[2019.02.18-17.55.43:032][195]LogTemp: Break Speed:  319.000000
+[2019.02.18-17.55.43:041][196]LogTemp: Break Speed:  318.000000
+[2019.02.18-17.55.43:049][197]LogTemp: Break Speed:  317.000000
+[2019.02.18-17.55.43:057][198]LogTemp: Break Speed:  316.000000
+[2019.02.18-17.55.43:066][199]LogTemp: Break Speed:  315.000000
+[2019.02.18-17.55.43:074][200]LogTemp: Break Speed:  314.000000
+[2019.02.18-17.55.43:083][201]LogTemp: Break Speed:  313.000000
+[2019.02.18-17.55.43:091][202]LogTemp: Break Speed:  312.000000
+[2019.02.18-17.55.43:099][203]LogTemp: Break Speed:  311.000000
+[2019.02.18-17.55.43:108][204]LogTemp: Break Speed:  310.000000
+[2019.02.18-17.55.43:116][205]LogTemp: Break Speed:  309.000000
+[2019.02.18-17.55.43:125][206]LogTemp: Break Speed:  308.000000
+[2019.02.18-17.55.43:133][207]LogTemp: Break Speed:  307.000000
+[2019.02.18-17.55.43:142][208]LogTemp: Break Speed:  306.000000
+[2019.02.18-17.55.43:150][209]LogTemp: Break Speed:  305.000000
+[2019.02.18-17.55.43:158][210]LogTemp: Break Speed:  304.000000
+[2019.02.18-17.55.43:167][211]LogTemp: Break Speed:  303.000000
+[2019.02.18-17.55.43:175][212]LogTemp: Break Speed:  302.000000
+[2019.02.18-17.55.43:183][213]LogTemp: Break Speed:  301.000000
+[2019.02.18-17.55.43:192][214]LogTemp: Break Speed:  300.000000
+[2019.02.18-17.55.43:200][215]LogTemp: Break Speed:  299.000000
+[2019.02.18-17.55.43:208][216]LogTemp: Break Speed:  298.000000
+[2019.02.18-17.55.43:217][217]LogTemp: Break Speed:  297.000000
+[2019.02.18-17.55.43:225][218]LogTemp: Break Speed:  296.000000
+[2019.02.18-17.55.43:233][219]LogTemp: Break Speed:  295.000000
+[2019.02.18-17.55.43:242][220]LogTemp: Break Speed:  294.000000
+[2019.02.18-17.55.43:250][221]LogTemp: Break Speed:  293.000000
+[2019.02.18-17.55.43:258][222]LogTemp: Break Speed:  292.000000
+[2019.02.18-17.55.43:267][223]LogTemp: Break Speed:  291.000000
+[2019.02.18-17.55.43:275][224]LogTemp: Break Speed:  290.000000
+[2019.02.18-17.55.43:283][225]LogTemp: Break Speed:  289.000000
+[2019.02.18-17.55.43:292][226]LogTemp: Break Speed:  288.000000
+[2019.02.18-17.55.43:300][227]LogTemp: Break Speed:  287.000000
+[2019.02.18-17.55.43:308][228]LogTemp: Break Speed:  286.000000
+[2019.02.18-17.55.43:317][229]LogTemp: Break Speed:  285.000000
+[2019.02.18-17.55.43:325][230]LogTemp: Break Speed:  284.000000
+[2019.02.18-17.55.43:333][231]LogTemp: Break Speed:  283.000000
+[2019.02.18-17.55.43:342][232]LogTemp: Break Speed:  282.000000
+[2019.02.18-17.55.43:350][233]LogTemp: Break Speed:  281.000000
+[2019.02.18-17.55.43:358][234]LogTemp: Break Speed:  280.000000
+[2019.02.18-17.55.43:366][235]LogTemp: Break Speed:  279.000000
+[2019.02.18-17.55.43:375][236]LogTemp: Break Speed:  278.000000
+[2019.02.18-17.55.43:383][237]LogTemp: Break Speed:  277.000000
+[2019.02.18-17.55.43:391][238]LogTemp: Break Speed:  276.000000
+[2019.02.18-17.55.43:400][239]LogTemp: Break Speed:  275.000000
+[2019.02.18-17.55.43:408][240]LogTemp: Break Speed:  274.000000
+[2019.02.18-17.55.43:416][241]LogTemp: Break Speed:  273.000000
+[2019.02.18-17.55.43:425][242]LogTemp: Break Speed:  272.000000
+[2019.02.18-17.55.43:433][243]LogTemp: Break Speed:  271.000000
+[2019.02.18-17.55.43:441][244]LogTemp: Break Speed:  270.000000
+[2019.02.18-17.55.43:450][245]LogTemp: Break Speed:  269.000000
+[2019.02.18-17.55.43:458][246]LogTemp: Break Speed:  268.000000
+[2019.02.18-17.55.43:466][247]LogTemp: Break Speed:  267.000000
+[2019.02.18-17.55.43:475][248]LogTemp: Break Speed:  266.000000
+[2019.02.18-17.55.43:483][249]LogTemp: Break Speed:  265.000000
+[2019.02.18-17.55.43:491][250]LogTemp: Break Speed:  264.000000
+[2019.02.18-17.55.43:500][251]LogTemp: Break Speed:  263.000000
+[2019.02.18-17.55.43:508][252]LogTemp: Break Speed:  262.000000
+[2019.02.18-17.55.43:516][253]LogTemp: Break Speed:  261.000000
+[2019.02.18-17.55.43:525][254]LogTemp: Break Speed:  260.000000
+[2019.02.18-17.55.43:533][255]LogTemp: Break Speed:  259.000000
+[2019.02.18-17.55.43:541][256]LogTemp: Break Speed:  258.000000
+[2019.02.18-17.55.43:550][257]LogTemp: Break Speed:  257.000000
+[2019.02.18-17.55.43:558][258]LogTemp: Break Speed:  256.000000
+[2019.02.18-17.55.43:566][259]LogTemp: Break Speed:  255.000000
+[2019.02.18-17.55.43:575][260]LogTemp: Break Speed:  254.000000
+[2019.02.18-17.55.43:583][261]LogTemp: Break Speed:  253.000000
+[2019.02.18-17.55.43:591][262]LogTemp: Break Speed:  252.000000
+[2019.02.18-17.55.43:600][263]LogTemp: Break Speed:  251.000000
+[2019.02.18-17.55.43:608][264]LogTemp: Break Speed:  250.000000
+[2019.02.18-17.55.43:616][265]LogTemp: Break Speed:  249.000000
+[2019.02.18-17.55.43:624][266]LogTemp: Break Speed:  248.000000
+[2019.02.18-17.55.43:633][267]LogTemp: Break Speed:  247.000000
+[2019.02.18-17.55.43:642][268]LogTemp: Break Speed:  246.000000
+[2019.02.18-17.55.43:650][269]LogTemp: Break Speed:  245.000000
+[2019.02.18-17.55.43:659][270]LogTemp: Break Speed:  244.000000
+[2019.02.18-17.55.43:667][271]LogTemp: Break Speed:  243.000000
+[2019.02.18-17.55.43:675][272]LogTemp: Break Speed:  242.000000
+[2019.02.18-17.55.43:684][273]LogTemp: Break Speed:  241.000000
+[2019.02.18-17.55.43:692][274]LogTemp: Break Speed:  240.000000
+[2019.02.18-17.55.43:700][275]LogTemp: Break Speed:  239.000000
+[2019.02.18-17.55.43:709][276]LogTemp: Break Speed:  238.000000
+[2019.02.18-17.55.43:716][277]LogTemp: Break Speed:  237.000000
+[2019.02.18-17.55.43:724][278]LogTemp: Break Speed:  236.000000
+[2019.02.18-17.55.43:734][279]LogTemp: Break Speed:  235.000000
+[2019.02.18-17.55.43:741][280]LogTemp: Break Speed:  234.000000
+[2019.02.18-17.55.43:749][281]LogTemp: Break Speed:  233.000000
+[2019.02.18-17.55.43:758][282]LogTemp: Break Speed:  232.000000
+[2019.02.18-17.55.43:766][283]LogTemp: Break Speed:  231.000000
+[2019.02.18-17.55.43:775][284]LogTemp: Break Speed:  230.000000
+[2019.02.18-17.55.43:783][285]LogTemp: Break Speed:  229.000000
+[2019.02.18-17.55.43:791][286]LogTemp: Break Speed:  228.000000
+[2019.02.18-17.55.43:800][287]LogTemp: Break Speed:  227.000000
+[2019.02.18-17.55.43:808][288]LogTemp: Break Speed:  226.000000
+[2019.02.18-17.55.43:816][289]LogTemp: Break Speed:  225.000000
+[2019.02.18-17.55.43:825][290]LogTemp: Break Speed:  224.000000
+[2019.02.18-17.55.43:833][291]LogTemp: Break Speed:  223.000000
+[2019.02.18-17.55.43:841][292]LogTemp: Break Speed:  222.000000
+[2019.02.18-17.55.43:850][293]LogTemp: Break Speed:  221.000000
+[2019.02.18-17.55.43:858][294]LogTemp: Break Speed:  220.000000
+[2019.02.18-17.55.43:866][295]LogTemp: Break Speed:  219.000000
+[2019.02.18-17.55.43:875][296]LogTemp: Break Speed:  218.000000
+[2019.02.18-17.55.43:883][297]LogTemp: Break Speed:  217.000000
+[2019.02.18-17.55.43:892][298]LogTemp: Break Speed:  216.000000
+[2019.02.18-17.55.43:900][299]LogTemp: Break Speed:  215.000000
+[2019.02.18-17.55.43:908][300]LogTemp: Break Speed:  214.000000
+[2019.02.18-17.55.43:916][301]LogTemp: Break Speed:  213.000000
+[2019.02.18-17.55.43:925][302]LogTemp: Break Speed:  212.000000
+[2019.02.18-17.55.43:933][303]LogTemp: Break Speed:  211.000000
+[2019.02.18-17.55.43:941][304]LogTemp: Break Speed:  210.000000
+[2019.02.18-17.55.43:950][305]LogTemp: Break Speed:  209.000000
+[2019.02.18-17.55.43:958][306]LogTemp: Break Speed:  208.000000
+[2019.02.18-17.55.43:966][307]LogTemp: Break Speed:  207.000000
+[2019.02.18-17.55.43:975][308]LogTemp: Break Speed:  206.000000
+[2019.02.18-17.55.43:983][309]LogTemp: Break Speed:  205.000000
+[2019.02.18-17.55.43:991][310]LogTemp: Break Speed:  204.000000
+[2019.02.18-17.55.44:000][311]LogTemp: Break Speed:  203.000000
+[2019.02.18-17.55.44:008][312]LogTemp: Break Speed:  202.000000
+[2019.02.18-17.55.44:016][313]LogTemp: Break Speed:  201.000000
+[2019.02.18-17.55.44:025][314]LogTemp: Break Speed:  200.000000
+[2019.02.18-17.55.44:033][315]LogTemp: Break Speed:  199.000000
+[2019.02.18-17.55.44:041][316]LogTemp: Break Speed:  198.000000
+[2019.02.18-17.55.44:050][317]LogTemp: Break Speed:  197.000000
+[2019.02.18-17.55.44:058][318]LogTemp: Break Speed:  196.000000
+[2019.02.18-17.55.44:066][319]LogTemp: Break Speed:  195.000000
+[2019.02.18-17.55.44:075][320]LogTemp: Break Speed:  194.000000
+[2019.02.18-17.55.44:083][321]LogTemp: Break Speed:  193.000000
+[2019.02.18-17.55.44:091][322]LogTemp: Break Speed:  192.000000
+[2019.02.18-17.55.44:100][323]LogTemp: Break Speed:  191.000000
+[2019.02.18-17.55.44:108][324]LogTemp: Break Speed:  190.000000
+[2019.02.18-17.55.44:116][325]LogTemp: Break Speed:  189.000000
+[2019.02.18-17.55.44:125][326]LogTemp: Break Speed:  188.000000
+[2019.02.18-17.55.44:133][327]LogTemp: Break Speed:  187.000000
+[2019.02.18-17.55.44:142][328]LogTemp: Break Speed:  186.000000
+[2019.02.18-17.55.44:150][329]LogTemp: Break Speed:  185.000000
+[2019.02.18-17.55.44:158][330]LogTemp: Break Speed:  184.000000
+[2019.02.18-17.55.44:166][331]LogTemp: Break Speed:  183.000000
+[2019.02.18-17.55.44:175][332]LogTemp: Break Speed:  182.000000
+[2019.02.18-17.55.44:184][333]LogTemp: Break Speed:  181.000000
+[2019.02.18-17.55.44:192][334]LogTemp: Break Speed:  180.000000
+[2019.02.18-17.55.44:200][335]LogTemp: Break Speed:  179.000000
+[2019.02.18-17.55.44:209][336]LogTemp: Break Speed:  178.000000
+[2019.02.18-17.55.44:217][337]LogTemp: Break Speed:  177.000000
+[2019.02.18-17.55.44:225][338]LogTemp: Break Speed:  176.000000
+[2019.02.18-17.55.44:234][339]LogTemp: Break Speed:  175.000000
+[2019.02.18-17.55.44:242][340]LogTemp: Break Speed:  174.000000
+[2019.02.18-17.55.44:250][341]LogTemp: Break Speed:  173.000000
+[2019.02.18-17.55.44:259][342]LogTemp: Break Speed:  172.000000
+[2019.02.18-17.55.44:267][343]LogTemp: Break Speed:  171.000000
+[2019.02.18-17.55.44:275][344]LogTemp: Break Speed:  170.000000
+[2019.02.18-17.55.44:284][345]LogTemp: Break Speed:  169.000000
+[2019.02.18-17.55.44:292][346]LogTemp: Break Speed:  168.000000
+[2019.02.18-17.55.44:300][347]LogTemp: Break Speed:  167.000000
+[2019.02.18-17.55.44:309][348]LogTemp: Break Speed:  166.000000
+[2019.02.18-17.55.44:317][349]LogTemp: Break Speed:  165.000000
+[2019.02.18-17.55.44:325][350]LogTemp: Break Speed:  164.000000
+[2019.02.18-17.55.44:334][351]LogTemp: Break Speed:  163.000000
+[2019.02.18-17.55.44:342][352]LogTemp: Break Speed:  162.000000
+[2019.02.18-17.55.44:350][353]LogTemp: Break Speed:  161.000000
+[2019.02.18-17.55.44:359][354]LogTemp: Break Speed:  160.000000
+[2019.02.18-17.55.44:367][355]LogTemp: Break Speed:  159.000000
+[2019.02.18-17.55.44:375][356]LogTemp: Break Speed:  158.000000
+[2019.02.18-17.55.44:384][357]LogTemp: Break Speed:  157.000000
+[2019.02.18-17.55.44:392][358]LogTemp: Break Speed:  156.000000
+[2019.02.18-17.55.44:400][359]LogTemp: Break Speed:  155.000000
+[2019.02.18-17.55.44:409][360]LogTemp: Break Speed:  154.000000
+[2019.02.18-17.55.44:417][361]LogTemp: Break Speed:  153.000000
+[2019.02.18-17.55.44:425][362]LogTemp: Break Speed:  152.000000
+[2019.02.18-17.55.44:434][363]LogTemp: Break Speed:  151.000000
+[2019.02.18-17.55.44:442][364]LogTemp: Break Speed:  150.000000
+[2019.02.18-17.55.44:450][365]LogTemp: Break Speed:  149.000000
+[2019.02.18-17.55.44:459][366]LogTemp: Break Speed:  148.000000
+[2019.02.18-17.55.44:467][367]LogTemp: Break Speed:  147.000000
+[2019.02.18-17.55.44:476][368]LogTemp: Break Speed:  146.000000
+[2019.02.18-17.55.44:484][369]LogTemp: Break Speed:  145.000000
+[2019.02.18-17.55.44:492][370]LogTemp: Break Speed:  144.000000
+[2019.02.18-17.55.44:500][371]LogTemp: Break Speed:  143.000000
+[2019.02.18-17.55.44:509][372]LogTemp: Break Speed:  142.000000
+[2019.02.18-17.55.44:517][373]LogTemp: Break Speed:  141.000000
+[2019.02.18-17.55.44:526][374]LogTemp: Break Speed:  140.000000
+[2019.02.18-17.55.44:534][375]LogTemp: Break Speed:  139.000000
+[2019.02.18-17.55.44:542][376]LogTemp: Break Speed:  138.000000
+[2019.02.18-17.55.44:550][377]LogTemp: Break Speed:  137.000000
+[2019.02.18-17.55.44:558][378]LogTemp: Break Speed:  136.000000
+[2019.02.18-17.55.44:566][379]LogTemp: Break Speed:  135.000000
+[2019.02.18-17.55.44:575][380]LogTemp: Break Speed:  134.000000
+[2019.02.18-17.55.44:583][381]LogTemp: Break Speed:  133.000000
+[2019.02.18-17.55.44:592][382]LogTemp: Break Speed:  132.000000
+[2019.02.18-17.55.44:600][383]LogTemp: Break Speed:  131.000000
+[2019.02.18-17.55.44:608][384]LogTemp: Break Speed:  130.000000
+[2019.02.18-17.55.44:617][385]LogTemp: Break Speed:  129.000000
+[2019.02.18-17.55.44:625][386]LogTemp: Break Speed:  128.000000
+[2019.02.18-17.55.44:633][387]LogTemp: Break Speed:  127.000000
+[2019.02.18-17.55.44:642][388]LogTemp: Break Speed:  126.000000
+[2019.02.18-17.55.44:651][389]LogTemp: Break Speed:  125.000000
+[2019.02.18-17.55.44:659][390]LogTemp: Break Speed:  124.000000
+[2019.02.18-17.55.44:667][391]LogTemp: Break Speed:  123.000000
+[2019.02.18-17.55.44:675][392]LogTemp: Break Speed:  122.000000
+[2019.02.18-17.55.44:684][393]LogTemp: Break Speed:  121.000000
+[2019.02.18-17.55.44:692][394]LogTemp: Break Speed:  120.000000
+[2019.02.18-17.55.44:700][395]LogTemp: Break Speed:  119.000000
+[2019.02.18-17.55.44:709][396]LogTemp: Break Speed:  118.000000
+[2019.02.18-17.55.44:717][397]LogTemp: Break Speed:  117.000000
+[2019.02.18-17.55.44:726][398]LogTemp: Break Speed:  116.000000
+[2019.02.18-17.55.44:734][399]LogTemp: Break Speed:  115.000000
+[2019.02.18-17.55.44:742][400]LogTemp: Break Speed:  114.000000
+[2019.02.18-17.55.44:751][401]LogTemp: Break Speed:  113.000000
+[2019.02.18-17.55.44:759][402]LogTemp: Break Speed:  112.000000
+[2019.02.18-17.55.44:767][403]LogTemp: Break Speed:  111.000000
+[2019.02.18-17.55.44:775][404]LogTemp: Break Speed:  110.000000
+[2019.02.18-17.55.44:783][405]LogTemp: Break Speed:  109.000000
+[2019.02.18-17.55.44:791][406]LogTemp: Break Speed:  108.000000
+[2019.02.18-17.55.44:800][407]LogTemp: Break Speed:  107.000000
+[2019.02.18-17.55.44:808][408]LogTemp: Break Speed:  106.000000
+[2019.02.18-17.55.44:816][409]LogTemp: Break Speed:  105.000000
+[2019.02.18-17.55.44:825][410]LogTemp: Break Speed:  104.000000
+[2019.02.18-17.55.44:833][411]LogTemp: Break Speed:  103.000000
+[2019.02.18-17.55.44:842][412]LogTemp: Break Speed:  102.000000
+[2019.02.18-17.55.44:851][413]LogTemp: Break Speed:  101.000000
+[2019.02.18-17.55.44:859][414]LogTemp: Break Speed:  100.000000
+[2019.02.18-17.55.44:867][415]LogTemp: Break Speed:  99.000000
+[2019.02.18-17.55.44:876][416]LogTemp: Break Speed:  98.000000
+[2019.02.18-17.55.44:883][417]LogTemp: Break Speed:  97.000000
+[2019.02.18-17.55.44:891][418]LogTemp: Break Speed:  96.000000
+[2019.02.18-17.55.44:900][419]LogTemp: Break Speed:  95.000000
+[2019.02.18-17.55.44:908][420]LogTemp: Break Speed:  94.000000
+[2019.02.18-17.55.44:916][421]LogTemp: Break Speed:  93.000000
+[2019.02.18-17.55.44:925][422]LogTemp: Break Speed:  92.000000
+[2019.02.18-17.55.44:933][423]LogTemp: Break Speed:  91.000000
+[2019.02.18-17.55.44:941][424]LogTemp: Break Speed:  90.000000
+[2019.02.18-17.55.44:950][425]LogTemp: Break Speed:  89.000000
+[2019.02.18-17.55.44:958][426]LogTemp: Break Speed:  88.000000
+[2019.02.18-17.55.44:966][427]LogTemp: Break Speed:  87.000000
+[2019.02.18-17.55.44:975][428]LogTemp: Break Speed:  86.000000
+[2019.02.18-17.55.44:983][429]LogTemp: Break Speed:  85.000000
+[2019.02.18-17.55.44:991][430]LogTemp: Break Speed:  84.000000
+[2019.02.18-17.55.45:000][431]LogTemp: Break Speed:  83.000000
+[2019.02.18-17.55.45:008][432]LogTemp: Break Speed:  82.000000
+[2019.02.18-17.55.45:016][433]LogTemp: Break Speed:  81.000000
+[2019.02.18-17.55.45:025][434]LogTemp: Break Speed:  80.000000
+[2019.02.18-17.55.45:033][435]LogTemp: Break Speed:  79.000000
+[2019.02.18-17.55.45:041][436]LogTemp: Break Speed:  78.000000
+[2019.02.18-17.55.45:050][437]LogTemp: Break Speed:  77.000000
+[2019.02.18-17.55.45:058][438]LogTemp: Break Speed:  76.000000
+[2019.02.18-17.55.45:066][439]LogTemp: Break Speed:  75.000000
+[2019.02.18-17.55.45:075][440]LogTemp: Break Speed:  74.000000
+[2019.02.18-17.55.45:083][441]LogTemp: Break Speed:  73.000000
+[2019.02.18-17.55.45:091][442]LogTemp: Break Speed:  72.000000
+[2019.02.18-17.55.45:100][443]LogTemp: Break Speed:  71.000000
+[2019.02.18-17.55.45:108][444]LogTemp: Break Speed:  70.000000
+[2019.02.18-17.55.45:116][445]LogTemp: Break Speed:  69.000000
+[2019.02.18-17.55.45:125][446]LogTemp: Break Speed:  68.000000
+[2019.02.18-17.55.45:133][447]LogTemp: Break Speed:  67.000000
+[2019.02.18-17.55.45:141][448]LogTemp: Break Speed:  66.000000
+[2019.02.18-17.55.45:150][449]LogTemp: Break Speed:  65.000000
+[2019.02.18-17.55.45:158][450]LogTemp: Break Speed:  64.000000
+[2019.02.18-17.55.45:167][451]LogTemp: Break Speed:  63.000000
+[2019.02.18-17.55.45:175][452]LogTemp: Break Speed:  62.000000
+[2019.02.18-17.55.45:184][453]LogTemp: Break Speed:  61.000000
+[2019.02.18-17.55.45:192][454]LogTemp: Break Speed:  60.000000
+[2019.02.18-17.55.45:200][455]LogTemp: Break Speed:  59.000000
+[2019.02.18-17.55.45:208][456]LogTemp: Break Speed:  58.000000
+[2019.02.18-17.55.45:217][457]LogTemp: Break Speed:  57.000000
+[2019.02.18-17.55.45:225][458]LogTemp: Break Speed:  56.000000
+[2019.02.18-17.55.45:234][459]LogTemp: Break Speed:  55.000000
+[2019.02.18-17.55.45:242][460]LogTemp: Break Speed:  54.000000
+[2019.02.18-17.55.45:250][461]LogTemp: Break Speed:  53.000000
+[2019.02.18-17.55.45:258][462]LogTemp: Break Speed:  52.000000
+[2019.02.18-17.55.45:267][463]LogTemp: Break Speed:  51.000000
+[2019.02.18-17.55.45:275][464]LogTemp: Break Speed:  50.000000
+[2019.02.18-17.55.45:283][465]LogTemp: Break Speed:  49.000000
+[2019.02.18-17.55.45:292][466]LogTemp: Break Speed:  48.000000
+[2019.02.18-17.55.45:300][467]LogTemp: Break Speed:  47.000000
+[2019.02.18-17.55.45:308][468]LogTemp: Break Speed:  46.000000
+[2019.02.18-17.55.45:317][469]LogTemp: Break Speed:  45.000000
+[2019.02.18-17.55.45:325][470]LogTemp: Break Speed:  44.000000
+[2019.02.18-17.55.45:334][471]LogTemp: Break Speed:  43.000000
+[2019.02.18-17.55.45:342][472]LogTemp: Break Speed:  42.000000
+[2019.02.18-17.55.45:350][473]LogTemp: Break Speed:  41.000000
+[2019.02.18-17.55.45:358][474]LogTemp: Break Speed:  40.000000
+[2019.02.18-17.55.45:367][475]LogTemp: Break Speed:  39.000000
+[2019.02.18-17.55.45:375][476]LogTemp: Break Speed:  38.000000
+[2019.02.18-17.55.45:384][477]LogTemp: Break Speed:  37.000000
+[2019.02.18-17.55.45:392][478]LogTemp: Break Speed:  36.000000
+[2019.02.18-17.55.45:401][479]LogTemp: Break Speed:  35.000000
+[2019.02.18-17.55.45:409][480]LogTemp: Break Speed:  34.000000
+[2019.02.18-17.55.45:417][481]LogTemp: Break Speed:  33.000000
+[2019.02.18-17.55.45:426][482]LogTemp: Break Speed:  32.000000
+[2019.02.18-17.55.45:434][483]LogTemp: Break Speed:  31.000000
+[2019.02.18-17.55.45:442][484]LogTemp: Break Speed:  30.000000
+[2019.02.18-17.55.45:450][485]LogTemp: Break Speed:  29.000000
+[2019.02.18-17.55.45:458][486]LogTemp: Break Speed:  28.000000
+[2019.02.18-17.55.45:467][487]LogTemp: Break Speed:  27.000000
+[2019.02.18-17.55.45:475][488]LogTemp: Break Speed:  26.000000
+[2019.02.18-17.55.45:484][489]LogTemp: Break Speed:  25.000000
+[2019.02.18-17.55.45:492][490]LogTemp: Break Speed:  24.000000
+[2019.02.18-17.55.45:500][491]LogTemp: Break Speed:  23.000000
+[2019.02.18-17.55.45:508][492]LogTemp: Break Speed:  22.000000
+[2019.02.18-17.55.45:517][493]LogTemp: Break Speed:  21.000000
+[2019.02.18-17.55.45:525][494]LogTemp: Break Speed:  20.000000
+[2019.02.18-17.55.45:534][495]LogTemp: Break Speed:  19.000000
+[2019.02.18-17.55.45:542][496]LogTemp: Break Speed:  18.000000
+[2019.02.18-17.55.45:550][497]LogTemp: Break Speed:  17.000000
+[2019.02.18-17.55.45:558][498]LogTemp: Break Speed:  16.000000
+[2019.02.18-17.55.45:567][499]LogTemp: Break Speed:  15.000000
+[2019.02.18-17.55.45:575][500]LogTemp: Break Speed:  14.000000
+[2019.02.18-17.55.45:584][501]LogTemp: Break Speed:  13.000000
+[2019.02.18-17.55.45:592][502]LogTemp: Break Speed:  12.000000
+[2019.02.18-17.55.45:600][503]LogTemp: Break Speed:  11.000000
+[2019.02.18-17.55.45:609][504]LogTemp: Break Speed:  10.000000
+[2019.02.18-17.55.45:617][505]LogTemp: Break Speed:  9.000000
+[2019.02.18-17.55.45:625][506]LogTemp: Break Speed:  8.000000
+[2019.02.18-17.55.45:634][507]LogTemp: Break Speed:  7.000000
+[2019.02.18-17.55.45:643][508]LogTemp: Break Speed:  6.000000
+[2019.02.18-17.55.45:651][509]LogTemp: Break Speed:  5.000000
+[2019.02.18-17.55.45:664][510]LogTemp: Break Speed:  4.000000
+[2019.02.18-17.55.45:669][511]LogTemp: Break Speed:  3.000000
+[2019.02.18-17.55.45:677][512]LogTemp: Break Speed:  2.000000
+[2019.02.18-17.55.45:686][513]LogTemp: Break Speed:  1.000000
+[2019.02.18-17.55.45:694][514]LogTemp: Break Speed:  0.000000
+[2019.02.18-17.55.45:702][515]LogTemp: Break Speed:  -1.000000
+[2019.02.18-17.55.45:711][516]LogTemp: Break Speed:  -1.990000
+[2019.02.18-17.55.45:719][517]LogTemp: Break Speed:  -2.980000
+[2019.02.18-17.55.45:727][518]LogTemp: Break Speed:  -3.970000
+[2019.02.18-17.55.45:736][519]LogTemp: Break Speed:  -4.960000
+[2019.02.18-17.55.45:744][520]LogTemp: Break Speed:  -5.960000
+[2019.02.18-17.55.45:752][521]LogTemp: Break Speed:  -6.950000
+[2019.02.18-17.55.45:761][522]LogTemp: Break Speed:  -7.940000
+[2019.02.18-17.55.45:769][523]LogTemp: Break Speed:  -8.929999
+[2019.02.18-17.55.45:777][524]LogTemp: Break Speed:  -9.919999
+[2019.02.18-17.55.45:786][525]LogTemp: Break Speed:  -10.909999
+[2019.02.18-17.55.45:794][526]LogTemp: Break Speed:  -11.899999
+[2019.02.18-17.55.45:802][527]LogTemp: Break Speed:  -12.899999
+[2019.02.18-17.55.45:811][528]LogTemp: Break Speed:  -13.889998
+[2019.02.18-17.55.45:819][529]LogTemp: Break Speed:  -14.879998
+[2019.02.18-17.55.45:827][530]LogTemp: Break Speed:  -15.869998
+[2019.02.18-17.55.45:835][531]LogTemp: Break Speed:  -16.859997
+[2019.02.18-17.55.45:843][532]LogTemp: Break Speed:  -17.849997
+[2019.02.18-17.55.45:851][533]LogTemp: Break Speed:  -18.839996
+[2019.02.18-17.55.45:860][534]LogTemp: Break Speed:  -19.839996
+[2019.02.18-17.55.45:868][535]LogTemp: Break Speed:  -20.829996
+[2019.02.18-17.55.45:876][536]LogTemp: Break Speed:  -21.819996
+[2019.02.18-17.55.45:885][537]LogTemp: Break Speed:  -22.809996
+[2019.02.18-17.55.45:893][538]LogTemp: Break Speed:  -23.799995
+[2019.02.18-17.55.45:901][539]LogTemp: Break Speed:  -24.789995
+[2019.02.18-17.55.45:910][540]LogTemp: Break Speed:  -25.789995
+[2019.02.18-17.55.45:918][541]LogTemp: Break Speed:  -26.779995
+[2019.02.18-17.55.45:926][542]LogTemp: Break Speed:  -27.769995
+[2019.02.18-17.55.45:935][543]LogTemp: Break Speed:  -28.759995
+[2019.02.18-17.55.45:943][544]LogTemp: Break Speed:  -29.749994
+[2019.02.18-17.55.45:951][545]LogTemp: Break Speed:  -30.739994
+[2019.02.18-17.55.45:960][546]LogTemp: Break Speed:  -31.729994
+[2019.02.18-17.55.45:968][547]LogTemp: Break Speed:  -32.729996
+[2019.02.18-17.55.45:977][548]LogTemp: Break Speed:  -33.719997
+[2019.02.18-17.55.45:985][549]LogTemp: Break Speed:  -34.709999
+[2019.02.18-17.55.45:993][550]LogTemp: Break Speed:  -35.700001
+[2019.02.18-17.55.46:001][551]LogTemp: Break Speed:  -36.690002
+[2019.02.18-17.55.46:010][552]LogTemp: Break Speed:  -37.680004
+[2019.02.18-17.55.46:018][553]LogTemp: Break Speed:  -38.670006
+[2019.02.18-17.55.46:026][554]LogTemp: Break Speed:  -39.670006
+[2019.02.18-17.55.46:035][555]LogTemp: Break Speed:  -40.660007
+[2019.02.18-17.55.46:043][556]LogTemp: Break Speed:  -41.650009
+[2019.02.18-17.55.46:051][557]LogTemp: Break Speed:  -42.640011
+[2019.02.18-17.55.46:060][558]LogTemp: Break Speed:  -43.630013
+[2019.02.18-17.55.46:068][559]LogTemp: Break Speed:  -44.620014
+[2019.02.18-17.55.46:076][560]LogTemp: Break Speed:  -45.620014
+[2019.02.18-17.55.46:085][561]LogTemp: Break Speed:  -46.610016
+[2019.02.18-17.55.46:093][562]LogTemp: Break Speed:  -47.600018
+[2019.02.18-17.55.46:101][563]LogTemp: Break Speed:  -48.590019
+[2019.02.18-17.55.46:110][564]LogTemp: Break Speed:  -49.580021
+[2019.02.18-17.55.46:118][565]LogTemp: Break Speed:  -50.570023
+[2019.02.18-17.55.46:126][566]LogTemp: Break Speed:  -51.560024
+[2019.02.18-17.55.46:135][567]LogTemp: Break Speed:  -52.560024
+[2019.02.18-17.55.46:143][568]LogTemp: Break Speed:  -53.550026
+[2019.02.18-17.55.46:151][569]LogTemp: Break Speed:  -54.540028
+[2019.02.18-17.55.46:160][570]LogTemp: Break Speed:  -55.530029
+[2019.02.18-17.55.46:168][571]LogTemp: Break Speed:  -56.520031
+[2019.02.18-17.55.46:176][572]LogTemp: Break Speed:  -57.510033
+[2019.02.18-17.55.46:185][573]LogTemp: Break Speed:  -58.500034
+[2019.02.18-17.55.46:194][574]LogTemp: Break Speed:  -59.500034
+[2019.02.18-17.55.46:201][575]LogTemp: Break Speed:  -60.490036
+[2019.02.18-17.55.46:210][576]LogTemp: Break Speed:  -61.480038
+[2019.02.18-17.55.46:218][577]LogTemp: Break Speed:  -62.470039
+[2019.02.18-17.55.46:226][578]LogTemp: Break Speed:  -63.460041
+[2019.02.18-17.55.46:235][579]LogTemp: Break Speed:  -64.450043
+[2019.02.18-17.55.46:243][580]LogTemp: Break Speed:  -65.450043
+[2019.02.18-17.55.46:251][581]LogTemp: Break Speed:  -66.440041
+[2019.02.18-17.55.46:260][582]LogTemp: Break Speed:  -67.430038
+[2019.02.18-17.55.46:268][583]LogTemp: Break Speed:  -68.420036
+[2019.02.18-17.55.46:277][584]LogTemp: Break Speed:  -69.410034
+[2019.02.18-17.55.46:285][585]LogTemp: Break Speed:  -70.400032
+[2019.02.18-17.55.46:293][586]LogTemp: Break Speed:  -71.390030
+[2019.02.18-17.55.46:301][587]LogTemp: Break Speed:  -72.390030
+[2019.02.18-17.55.46:310][588]LogTemp: Break Speed:  -73.380028
+[2019.02.18-17.55.46:318][589]LogTemp: Break Speed:  -74.370026
+[2019.02.18-17.55.46:326][590]LogTemp: Break Speed:  -75.360023
+[2019.02.18-17.55.46:335][591]LogTemp: Break Speed:  -76.350021
+[2019.02.18-17.55.46:343][592]LogTemp: Break Speed:  -77.340019
+[2019.02.18-17.55.46:351][593]LogTemp: Break Speed:  -78.330017
+[2019.02.18-17.55.46:360][594]LogTemp: Break Speed:  -79.330017
+[2019.02.18-17.55.46:368][595]LogTemp: Break Speed:  -80.320015
+[2019.02.18-17.55.46:377][596]LogTemp: Break Speed:  -81.310013
+[2019.02.18-17.55.46:385][597]LogTemp: Break Speed:  -82.300011
+[2019.02.18-17.55.46:393][598]LogTemp: Break Speed:  -83.290009
+[2019.02.18-17.55.46:402][599]LogTemp: Break Speed:  -84.280006
+[2019.02.18-17.55.46:410][600]LogTemp: Break Speed:  -85.270004
+[2019.02.18-17.55.46:419][601]LogTemp: Break Speed:  -86.270004
+[2019.02.18-17.55.46:427][602]LogTemp: Break Speed:  -87.260002
+[2019.02.18-17.55.46:436][603]LogTemp: Break Speed:  -88.250000
+[2019.02.18-17.55.46:445][604]LogTemp: Break Speed:  -89.239998
+[2019.02.18-17.55.46:452][605]LogTemp: Break Speed:  -90.229996
+[2019.02.18-17.55.46:460][606]LogTemp: Break Speed:  -91.219994
+[2019.02.18-17.55.46:469][607]LogTemp: Break Speed:  -92.209991
+[2019.02.18-17.55.46:477][608]LogTemp: Break Speed:  -93.209991
+[2019.02.18-17.55.46:485][609]LogTemp: Break Speed:  -94.199989
+[2019.02.18-17.55.46:494][610]LogTemp: Break Speed:  -95.189987
+[2019.02.18-17.55.46:502][611]LogTemp: Break Speed:  -96.179985
+[2019.02.18-17.55.46:510][612]LogTemp: Break Speed:  -97.169983
+[2019.02.18-17.55.46:519][613]LogTemp: Break Speed:  -98.159981
+[2019.02.18-17.55.46:527][614]LogTemp: Break Speed:  -99.159981
+[2019.02.18-17.55.46:535][615]LogTemp: Break Speed:  -100.149979
+[2019.02.18-17.55.46:544][616]LogTemp: Break Speed:  -101.139977
+[2019.02.18-17.55.46:552][617]LogTemp: Break Speed:  -102.129974
+[2019.02.18-17.55.46:560][618]LogTemp: Break Speed:  -103.119972
+[2019.02.18-17.55.46:569][619]LogTemp: Break Speed:  -104.109970
+[2019.02.18-17.55.46:577][620]LogTemp: Break Speed:  -105.099968
+[2019.02.18-17.55.46:586][621]LogTemp: Break Speed:  -106.099968
+[2019.02.18-17.55.46:594][622]LogTemp: Break Speed:  -107.089966
+[2019.02.18-17.55.46:603][623]LogTemp: Break Speed:  -108.079964
+[2019.02.18-17.55.46:611][624]LogTemp: Break Speed:  -109.069962
+[2019.02.18-17.55.46:619][625]LogTemp: Break Speed:  -110.059959
+[2019.02.18-17.55.46:628][626]LogTemp: Break Speed:  -111.049957
+[2019.02.18-17.55.46:636][627]LogTemp: Break Speed:  -112.039955
+[2019.02.18-17.55.46:645][628]LogTemp: Break Speed:  -113.039955
+[2019.02.18-17.55.46:653][629]LogTemp: Break Speed:  -114.029953
+[2019.02.18-17.55.46:661][630]LogTemp: Break Speed:  -115.019951
+[2019.02.18-17.55.46:669][631]LogTemp: Break Speed:  -116.009949
+[2019.02.18-17.55.46:678][632]LogTemp: Break Speed:  -116.999947
+[2019.02.18-17.55.46:686][633]LogTemp: Break Speed:  -117.989944
+[2019.02.18-17.55.46:694][634]LogTemp: Break Speed:  -118.979942
+[2019.02.18-17.55.46:703][635]LogTemp: Break Speed:  -119.979942
+[2019.02.18-17.55.46:711][636]LogTemp: Break Speed:  -120.969940
+[2019.02.18-17.55.46:720][637]LogTemp: Break Speed:  -121.959938
+[2019.02.18-17.55.46:728][638]LogTemp: Break Speed:  -122.949936
+[2019.02.18-17.55.46:736][639]LogTemp: Break Speed:  -123.939934
+[2019.02.18-17.55.46:745][640]LogTemp: Break Speed:  -124.929932
+[2019.02.18-17.55.46:753][641]LogTemp: Break Speed:  -125.929932
+[2019.02.18-17.55.46:761][642]LogTemp: Break Speed:  -126.919930
+[2019.02.18-17.55.46:770][643]LogTemp: Break Speed:  -127.909927
+[2019.02.18-17.55.46:778][644]LogTemp: Break Speed:  -128.899933
+[2019.02.18-17.55.46:786][645]LogTemp: Break Speed:  -129.889938
+[2019.02.18-17.55.46:795][646]LogTemp: Break Speed:  -130.879944
+[2019.02.18-17.55.46:803][647]LogTemp: Break Speed:  -131.869949
+[2019.02.18-17.55.46:811][648]LogTemp: Break Speed:  -132.869949
+[2019.02.18-17.55.46:820][649]LogTemp: Break Speed:  -133.859955
+[2019.02.18-17.55.46:828][650]LogTemp: Break Speed:  -134.849960
+[2019.02.18-17.55.46:836][651]LogTemp: Break Speed:  -135.839966
+[2019.02.18-17.55.46:844][652]LogTemp: Break Speed:  -136.829971
+[2019.02.18-17.55.46:853][653]LogTemp: Break Speed:  -137.819977
+[2019.02.18-17.55.46:861][654]LogTemp: Break Speed:  -138.809982
+[2019.02.18-17.55.46:869][655]LogTemp: Break Speed:  -139.809982
+[2019.02.18-17.55.46:877][656]LogTemp: Break Speed:  -140.799988
+[2019.02.18-17.55.46:887][657]LogTemp: Break Speed:  -141.789993
+[2019.02.18-17.55.46:895][658]LogTemp: Break Speed:  -142.779999
+[2019.02.18-17.55.46:903][659]LogTemp: Break Speed:  -143.770004
+[2019.02.18-17.55.46:912][660]LogTemp: Break Speed:  -144.760010
+[2019.02.18-17.55.46:920][661]LogTemp: Break Speed:  -145.760010
+[2019.02.18-17.55.46:928][662]LogTemp: Break Speed:  -146.750015
+[2019.02.18-17.55.46:937][663]LogTemp: Break Speed:  -147.740021
+[2019.02.18-17.55.46:945][664]LogTemp: Break Speed:  -148.730026
+[2019.02.18-17.55.46:953][665]LogTemp: Break Speed:  -149.720032
+[2019.02.18-17.55.46:962][666]LogTemp: Break Speed:  -150.710037
+[2019.02.18-17.55.46:970][667]LogTemp: Break Speed:  -151.700043
+[2019.02.18-17.55.46:978][668]LogTemp: Break Speed:  -152.700043
+[2019.02.18-17.55.46:987][669]LogTemp: Break Speed:  -153.690048
+[2019.02.18-17.55.46:995][670]LogTemp: Break Speed:  -154.680054
+[2019.02.18-17.55.47:003][671]LogTemp: Break Speed:  -155.670059
+[2019.02.18-17.55.47:012][672]LogTemp: Break Speed:  -156.660065
+[2019.02.18-17.55.47:020][673]LogTemp: Break Speed:  -157.650070
+[2019.02.18-17.55.47:028][674]LogTemp: Break Speed:  -158.640076
+[2019.02.18-17.55.47:037][675]LogTemp: Break Speed:  -159.640076
+[2019.02.18-17.55.47:045][676]LogTemp: Break Speed:  -160.630081
+[2019.02.18-17.55.47:053][677]LogTemp: Break Speed:  -161.620087
+[2019.02.18-17.55.47:061][678]LogTemp: Break Speed:  -162.610092
+[2019.02.18-17.55.47:070][679]LogTemp: Break Speed:  -163.600098
+[2019.02.18-17.55.47:078][680]LogTemp: Break Speed:  -164.590103
+[2019.02.18-17.55.47:086][681]LogTemp: Break Speed:  -165.590103
+[2019.02.18-17.55.47:094][682]LogTemp: Break Speed:  -166.580109
+[2019.02.18-17.55.47:103][683]LogTemp: Break Speed:  -167.570114
+[2019.02.18-17.55.47:111][684]LogTemp: Break Speed:  -168.560120
+[2019.02.18-17.55.47:119][685]LogTemp: Break Speed:  -169.550125
+[2019.02.18-17.55.47:128][686]LogTemp: Break Speed:  -170.540131
+[2019.02.18-17.55.47:136][687]LogTemp: Break Speed:  -171.530136
+[2019.02.18-17.55.47:144][688]LogTemp: Break Speed:  -172.530136
+[2019.02.18-17.55.47:153][689]LogTemp: Break Speed:  -173.520142
+[2019.02.18-17.55.47:161][690]LogTemp: Break Speed:  -174.510147
+[2019.02.18-17.55.47:169][691]LogTemp: Break Speed:  -175.500153
+[2019.02.18-17.55.47:178][692]LogTemp: Break Speed:  -176.490158
+[2019.02.18-17.55.47:186][693]LogTemp: Break Speed:  -177.480164
+[2019.02.18-17.55.47:194][694]LogTemp: Break Speed:  -178.470169
+[2019.02.18-17.55.47:203][695]LogTemp: Break Speed:  -179.470169
+[2019.02.18-17.55.47:211][696]LogTemp: Break Speed:  -180.460175
+[2019.02.18-17.55.47:219][697]LogTemp: Break Speed:  -181.450180
+[2019.02.18-17.55.47:228][698]LogTemp: Break Speed:  -182.440186
+[2019.02.18-17.55.47:236][699]LogTemp: Break Speed:  -183.430191
+[2019.02.18-17.55.47:244][700]LogTemp: Break Speed:  -184.420197
+[2019.02.18-17.55.47:253][701]LogTemp: Break Speed:  -185.420197
+[2019.02.18-17.55.47:261][702]LogTemp: Break Speed:  -186.410202
+[2019.02.18-17.55.47:269][703]LogTemp: Break Speed:  -187.400208
+[2019.02.18-17.55.47:278][704]LogTemp: Break Speed:  -188.390213
+[2019.02.18-17.55.47:286][705]LogTemp: Break Speed:  -189.380219
+[2019.02.18-17.55.47:295][706]LogTemp: Break Speed:  -190.370224
+[2019.02.18-17.55.47:303][707]LogTemp: Break Speed:  -191.360229
+[2019.02.18-17.55.47:311][708]LogTemp: Break Speed:  -192.360229
+[2019.02.18-17.55.47:320][709]LogTemp: Break Speed:  -193.350235
+[2019.02.18-17.55.47:328][710]LogTemp: Break Speed:  -194.340240
+[2019.02.18-17.55.47:336][711]LogTemp: Break Speed:  -195.330246
+[2019.02.18-17.55.47:345][712]LogTemp: Break Speed:  -196.320251
+[2019.02.18-17.55.47:353][713]LogTemp: Break Speed:  -197.310257
+[2019.02.18-17.55.47:361][714]LogTemp: Break Speed:  -198.300262
+[2019.02.18-17.55.47:370][715]LogTemp: Break Speed:  -199.300262
+[2019.02.18-17.55.47:378][716]LogTemp: Break Speed:  -200.290268
+[2019.02.18-17.55.47:387][717]LogTemp: Break Speed:  -201.280273
+[2019.02.18-17.55.47:395][718]LogTemp: Break Speed:  -202.270279
+[2019.02.18-17.55.47:403][719]LogTemp: Break Speed:  -203.260284
+[2019.02.18-17.55.47:412][720]LogTemp: Break Speed:  -204.250290
+[2019.02.18-17.55.47:420][721]LogTemp: Break Speed:  -205.240295
+[2019.02.18-17.55.47:428][722]LogTemp: Break Speed:  -206.240295
+[2019.02.18-17.55.47:437][723]LogTemp: Break Speed:  -207.230301
+[2019.02.18-17.55.47:445][724]LogTemp: Break Speed:  -208.220306
+[2019.02.18-17.55.47:453][725]LogTemp: Break Speed:  -209.210312
+[2019.02.18-17.55.47:462][726]LogTemp: Break Speed:  -210.200317
+[2019.02.18-17.55.47:470][727]LogTemp: Break Speed:  -211.190323
+[2019.02.18-17.55.47:478][728]LogTemp: Break Speed:  -212.190323
+[2019.02.18-17.55.47:487][729]LogTemp: Break Speed:  -213.180328
+[2019.02.18-17.55.47:495][730]LogTemp: Break Speed:  -214.170334
+[2019.02.18-17.55.47:503][731]LogTemp: Break Speed:  -215.160339
+[2019.02.18-17.55.47:512][732]LogTemp: Break Speed:  -216.150345
+[2019.02.18-17.55.47:520][733]LogTemp: Break Speed:  -217.140350
+[2019.02.18-17.55.47:528][734]LogTemp: Break Speed:  -218.130356
+[2019.02.18-17.55.47:537][735]LogTemp: Break Speed:  -219.130356
+[2019.02.18-17.55.47:545][736]LogTemp: Break Speed:  -220.120361
+[2019.02.18-17.55.47:553][737]LogTemp: Break Speed:  -221.110367
+[2019.02.18-17.55.47:562][738]LogTemp: Break Speed:  -222.100372
+[2019.02.18-17.55.47:570][739]LogTemp: Break Speed:  -223.090378
+[2019.02.18-17.55.47:578][740]LogTemp: Break Speed:  -224.080383
+[2019.02.18-17.55.47:587][741]LogTemp: Break Speed:  -226.070389
+[2019.02.18-17.55.47:595][742]LogTemp: Break Speed:  -228.070389
+[2019.02.18-17.55.47:603][743]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:612][744]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:620][745]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:628][746]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:637][747]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:645][748]LogTemp: Break Speed:  -4.000000
+[2019.02.18-17.55.47:653][749]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:662][750]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:670][751]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:678][752]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:686][753]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:695][754]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:703][755]LogTemp: Break Speed:  -4.000000
+[2019.02.18-17.55.47:711][756]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:720][757]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:729][758]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:737][759]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:745][760]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:754][761]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:762][762]LogTemp: Break Speed:  -4.000000
+[2019.02.18-17.55.47:769][763]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:778][764]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:786][765]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:794][766]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:803][767]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:811][768]LogTemp: Break Speed:  -4.000000
+[2019.02.18-17.55.47:819][769]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:828][770]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:836][771]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:844][772]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:853][773]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:861][774]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:869][775]LogTemp: Break Speed:  -4.000000
+[2019.02.18-17.55.47:878][776]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:886][777]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:895][778]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:904][779]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:912][780]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:920][781]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:929][782]LogTemp: Break Speed:  -4.000000
+[2019.02.18-17.55.47:937][783]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:945][784]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:954][785]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:962][786]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:970][787]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:979][788]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.47:987][789]LogTemp: Break Speed:  -4.000000
+[2019.02.18-17.55.47:995][790]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:004][791]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:012][792]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:020][793]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:029][794]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:037][795]LogTemp: Break Speed:  -4.000000
+[2019.02.18-17.55.48:045][796]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:054][797]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:062][798]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:071][799]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:079][800]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:087][801]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:095][802]LogTemp: Break Speed:  -4.000000
+[2019.02.18-17.55.48:104][803]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:112][804]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:120][805]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:128][806]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:137][807]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:145][808]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:153][809]LogTemp: Break Speed:  -4.000000
+[2019.02.18-17.55.48:162][810]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:170][811]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:178][812]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:187][813]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:195][814]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:203][815]LogTemp: Break Speed:  -4.000000
+[2019.02.18-17.55.48:212][816]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:220][817]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:228][818]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:237][819]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:245][820]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:253][821]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:262][822]LogTemp: Break Speed:  -4.000000
+[2019.02.18-17.55.48:270][823]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:278][824]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:287][825]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:295][826]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:304][827]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:312][828]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:321][829]LogTemp: Break Speed:  -4.000000
+[2019.02.18-17.55.48:329][830]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:337][831]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:345][832]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:354][833]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.48:362][834]LogTemp: Break Speed:  -2.000000
+[2019.02.18-17.55.49:919][ 20]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.18-17.55.49:922][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-17.55.49:969][ 20]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.18-17.55.49:970][ 20]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.18-17.55.49:997][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-17.55.50:030][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_1
