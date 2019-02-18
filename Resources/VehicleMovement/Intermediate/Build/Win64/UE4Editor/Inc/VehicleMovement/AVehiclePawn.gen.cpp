@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 	UPackage* Z_Construct_UPackage__Script_VehicleMovement();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
+	VEHICLEMOVEMENT_API UClass* Z_Construct_UClass_UPawnStatComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UFloatingPawnMovement_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
@@ -85,33 +86,21 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PawnDeceleration;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PawnAcceleration_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PawnAcceleration;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PawnBoostSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PawnBoostSpeed;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PawnNormalSpeed_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PawnNormalSpeed;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_boostMaxSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_boostMaxSpeed;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_normalMaxSpeed_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_normalMaxSpeed;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MinSpeed_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MinSpeed;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RCDistance_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RCDistance;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PawnStatComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PawnStatComponent;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PawnMovementComponent_MetaData[];
 #endif
@@ -232,51 +221,26 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnDeceleration_MetaData[] = {
 		{ "Category", "Vehicle Parts" },
 		{ "ModuleRelativePath", "AVehiclePawn.h" },
+		{ "ToolTip", "UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Vehicle Parts\")\n        float PawnAcceleration;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnDeceleration = { UE4CodeGen_Private::EPropertyClass::Float, "PawnDeceleration", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, PawnDeceleration), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnDeceleration_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnDeceleration_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnAcceleration_MetaData[] = {
-		{ "Category", "Vehicle Parts" },
-		{ "ModuleRelativePath", "AVehiclePawn.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnAcceleration = { UE4CodeGen_Private::EPropertyClass::Float, "PawnAcceleration", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, PawnAcceleration), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnAcceleration_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnAcceleration_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnBoostSpeed_MetaData[] = {
 		{ "Category", "Vehicle Parts" },
 		{ "ModuleRelativePath", "AVehiclePawn.h" },
+		{ "ToolTip", "UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Vehicle Parts\")\n        float PawnNormalSpeed;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnBoostSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "PawnBoostSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, PawnBoostSpeed), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnBoostSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnBoostSpeed_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnNormalSpeed_MetaData[] = {
-		{ "Category", "Vehicle Parts" },
-		{ "ModuleRelativePath", "AVehiclePawn.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnNormalSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "PawnNormalSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, PawnNormalSpeed), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnNormalSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnNormalSpeed_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_boostMaxSpeed_MetaData[] = {
 		{ "Category", "Vehicle Parts" },
 		{ "ModuleRelativePath", "AVehiclePawn.h" },
+		{ "ToolTip", "UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Vehicle Parts\")\n               float MinSpeed;\n\n       UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = \"Vehicle Parts\")\n               float normalMaxSpeed;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_boostMaxSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "boostMaxSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, boostMaxSpeed), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_boostMaxSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_boostMaxSpeed_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_normalMaxSpeed_MetaData[] = {
-		{ "Category", "Vehicle Parts" },
-		{ "ModuleRelativePath", "AVehiclePawn.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_normalMaxSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "normalMaxSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, normalMaxSpeed), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_normalMaxSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_normalMaxSpeed_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_MinSpeed_MetaData[] = {
-		{ "Category", "Vehicle Parts" },
-		{ "ModuleRelativePath", "AVehiclePawn.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_MinSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "MinSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, MinSpeed), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_MinSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_MinSpeed_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_RCDistance_MetaData[] = {
 		{ "Category", "Vehicle Parts" },
@@ -285,6 +249,15 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_RCDistance = { UE4CodeGen_Private::EPropertyClass::Float, "RCDistance", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, RCDistance), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_RCDistance_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_RCDistance_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnStatComponent_MetaData[] = {
+		{ "Category", "Vehicle Parts" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "AVehiclePawn.h" },
+		{ "ToolTip", "Pawn stat component" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnStatComponent = { UE4CodeGen_Private::EPropertyClass::Object, "PawnStatComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000a000d, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, PawnStatComponent), Z_Construct_UClass_UPawnStatComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnStatComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnStatComponent_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnMovementComponent_MetaData[] = {
 		{ "Category", "Vehicle Parts" },
@@ -334,13 +307,10 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WheelBaseFL,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WheelBaseFR,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnDeceleration,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnAcceleration,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnBoostSpeed,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnNormalSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_boostMaxSpeed,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_normalMaxSpeed,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_MinSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_RCDistance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnStatComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnMovementComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_CameraSpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_CameraComponent,
@@ -369,7 +339,7 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAVehiclePawn, 2658818643);
+	IMPLEMENT_CLASS(AAVehiclePawn, 188238676);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAVehiclePawn(Z_Construct_UClass_AAVehiclePawn, &AAVehiclePawn::StaticClass, TEXT("/Script/VehicleMovement"), TEXT("AAVehiclePawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAVehiclePawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

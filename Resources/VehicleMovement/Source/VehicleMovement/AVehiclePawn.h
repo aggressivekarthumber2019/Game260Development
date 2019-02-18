@@ -35,27 +35,33 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
 		class UFloatingPawnMovement* PawnMovementComponent;
 
+	// Pawn stat component
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
+	class UPawnStatComponent* PawnStatComponent;
+
 	// distance for ray cast
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
 		float RCDistance;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
+	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
 		float MinSpeed;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
-		float normalMaxSpeed;
+		float normalMaxSpeed;*/
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
 		float boostMaxSpeed;
 
+		/*
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
-		float PawnNormalSpeed;
+		float PawnNormalSpeed;*/
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
 		float PawnBoostSpeed;
 
+		/*
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
-		float PawnAcceleration;
+		float PawnAcceleration;*/
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts")
 		float PawnDeceleration;
@@ -99,13 +105,15 @@ public:
 	FTimerHandle StartGameTimerHandle;
 
 private:
-	float MaxSpeed;
+	//float MaxSpeed;
 	float currentSpeed;
 	float currenTurn;
 	float velocity;
 	float TurnVel;
 	bool  canMove;
 	float gravity;
+
+	class UCarStat* CurrentStat;
 
 protected:
 	// Called when the game starts or when spawned

@@ -1,0 +1,659 @@
+﻿Log file open, 02/18/19 18:13:33
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VehicleMovement
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.398711
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.133s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.18-23.13.33:609][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.18-23.13.33:609][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.18-23.13.33:621][  0]LogHAL: Display: Platform has ~ 16 GB [17125281792 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.18-23.13.33:621][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.18-23.13.33:621][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.18-23.13.33:621][  0]LogInit: Computer: DESKTOP-6JV4Q76
+[2019.02.18-23.13.33:621][  0]LogInit: User: Windows
+[2019.02.18-23.13.33:621][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.02.18-23.13.33:621][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.18-23.13.33:621][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.02.18-23.13.33:621][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.18-23.13.33:621][  0]LogMemory: Process Physical Memory: 102.22 MB used, 102.22 MB peak
+[2019.02.18-23.13.33:621][  0]LogMemory: Process Virtual Memory: 94.03 MB used, 94.03 MB peak
+[2019.02.18-23.13.33:621][  0]LogMemory: Physical Memory: 8183.64 MB used,  8148.30 MB free, 16331.94 MB total
+[2019.02.18-23.13.33:621][  0]LogMemory: Virtual Memory: 4663.15 MB used,  8148.30 MB free, 134217728.00 MB total
+[2019.02.18-23.13.33:649][  0]LogInit: Using OS detected language (en-US).
+[2019.02.18-23.13.33:649][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.18-23.13.33:650][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.18-23.13.33:908][  0]LogStreaming: Display: Took  0.259s to InitEngineTextLocalization.
+[2019.02.18-23.13.33:908][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.18-23.13.33:939][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.18-23.13.33:939][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.18-23.13.34:101][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.18-23.13.34:101][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.18-23.13.34:167][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.02.18-23.13.34:167][  0]LogD3D11RHI:       6052/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.18-23.13.34:169][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.18-23.13.34:169][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.18-23.13.34:170][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.18-23.13.34:176][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.18-23.13.34:176][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.18-23.13.34:176][  0]LogWindows: EnumDisplayDevices:
+[2019.02.18-23.13.34:176][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.02.18-23.13.34:176][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.02.18-23.13.34:176][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.02.18-23.13.34:177][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.02.18-23.13.34:177][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.18-23.13.34:177][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.02.18-23.13.34:177][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.02.18-23.13.34:177][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.02.18-23.13.34:177][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.02.18-23.13.34:211][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.18-23.13.34:238][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.18-23.13.34:238][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Intermediate/Shaders/WorkingDirectory/24440/).
+[2019.02.18-23.13.34:238][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Windows/AppData/Local/Temp/UnrealShaderWorkingDir/6E5F318C488D874C10E99BB966CD8C3B/'.
+[2019.02.18-23.13.34:498][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.18-23.13.34:510][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.18-23.13.34:523][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.18-23.13.34:536][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.18-23.13.34:548][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.18-23.13.34:560][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.18-23.13.34:575][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.18-23.13.34:588][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.18-23.13.34:594][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:656][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.18-23.13.34:658][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.18-23.13.34:722][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.18-23.13.34:722][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.18-23.13.34:747][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.18-23.13.34:747][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.18-23.13.34:758][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.18-23.13.34:768][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.18-23.13.34:779][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.18-23.13.34:790][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.18-23.13.34:798][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.18-23.13.34:798][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.18-23.13.34:875][  0]LogXGEController: Cleaning working directory: C:/Users/Windows/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.18-23.13.34:876][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.18-23.13.34:876][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.18-23.13.34:876][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.18-23.13.35:512][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.18-23.13.35:561][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/Windows/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.18-23.13.35:562][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Windows/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.18-23.13.35:562][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.18-23.13.35:562][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.18-23.13.35:562][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.18-23.13.35:562][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.18-23.13.35:572][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.18-23.13.35:585][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Windows/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.18-23.13.35:585][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.18-23.13.35:585][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.18-23.13.35:598][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.18-23.13.35:599][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.18-23.13.35:600][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.18-23.13.35:666][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2019.02.18-23.13.35:900][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.18-23.13.36:015][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.18-23.13.36:020][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.18-23.13.36:020][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.18-23.13.36:020][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.18-23.13.36:020][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.18-23.13.36:032][  0]LogNetVersion: VehicleMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2966596176)
+[2019.02.18-23.13.36:481][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.092900 seconds
+[2019.02.18-23.13.36:486][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.18-23.13.36:487][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.18-23.13.36:487][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.18-23.13.37:256][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.18-23.13.37:270][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.18-23.13.37:511][  0]SourceControl: Source control is disabled
+[2019.02.18-23.13.37:511][  0]SourceControl: Source control is disabled
+[2019.02.18-23.13.37:512][  0]SourceControl: Source control is disabled
+[2019.02.18-23.13.37:514][  0]SourceControl: Source control is disabled
+[2019.02.18-23.13.37:694][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.18-23.13.37:817][  0]LogOcInput: OculusInput pre-init called
+[2019.02.18-23.13.37:869][  0]LogEngine: Initializing Engine...
+[2019.02.18-23.13.37:870][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.18-23.13.37:871][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.18-23.13.37:871][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.18-23.13.37:871][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.18-23.13.37:871][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.18-23.13.38:024][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.18-23.13.38:039][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.18-23.13.38:113][  0]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.18-23.13.38:137][  0]LogInit: FAudioDevice initialized.
+[2019.02.18-23.13.38:138][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.18-23.13.38:207][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/Windows/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.18-23.13.38:213][  0]LogInit: Texture streaming: Enabled
+[2019.02.18-23.13.38:235][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.18-23.13.38:249][  0]LogInit: Transaction tracking system initialized
+[2019.02.18-23.13.38:279][  0]BlueprintLog: New page: Editor Load
+[2019.02.18-23.13.38:372][  0]LocalizationService: Localization service is disabled
+[2019.02.18-23.13.38:608][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.18-23.13.38:608][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.18-23.13.38:608][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.18-23.13.38:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.18-23.13.38:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.18-23.13.38:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.18-23.13.38:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.18-23.13.38:735][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/' took 0.01s
+[2019.02.18-23.13.38:735][  0]SourceControl: Source control is disabled
+[2019.02.18-23.13.38:736][  0]Cmd: MAP LOAD FILE="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.18-23.13.38:736][  0]LightingResults: New page: Lighting Build
+[2019.02.18-23.13.38:739][  0]MapCheck: New page: Map Check
+[2019.02.18-23.13.38:739][  0]LightingResults: New page: Lighting Build
+[2019.02.18-23.13.38:835][  0]LogLinker: Warning: Can't find file '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData'
+[2019.02.18-23.13.38:835][  0]LogLinker: Warning: Can't find file for asset '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData' while loading E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap.
+[2019.02.18-23.13.38:835][  0]LoadErrors: Error: /Game/VehicleCPP/Maps/VehicleExampleMap : Can't find file for asset. /Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData
+[2019.02.18-23.13.38:847][  0]LogLinker: Warning: Can't find file '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData'
+[2019.02.18-23.13.38:847][  0]LogLinker: Warning: Can't find file for asset '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData' while loading E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap.
+[2019.02.18-23.13.38:847][  0]LoadErrors: Error: /Game/VehicleCPP/Maps/VehicleExampleMap : Can't find file for asset. /Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData
+[2019.02.18-23.13.38:849][  0]LogLinker: Warning: Can't find file '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData'
+[2019.02.18-23.13.38:849][  0]LogLinker: Warning: Can't find file for asset '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData' while loading NULL.
+[2019.02.18-23.13.38:849][  0]LogLinker: Warning: Can't find file '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData'
+[2019.02.18-23.13.38:849][  0]LogLinker: Warning: Can't find file for asset '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData' while loading NULL.
+[2019.02.18-23.13.38:860][  0]LogLinker: Warning: Can't find file '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData'
+[2019.02.18-23.13.38:860][  0]LoadErrors: Failed to load /Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData.VehicleExampleMap_BuiltData Referenced by PersistentLevel
+[2019.02.18-23.13.38:861][  0]LogLinker: Warning: Can't find file for asset '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData' while loading NULL.
+[2019.02.18-23.13.38:861][  0]LoadErrors: Failed to load /Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData.VehicleExampleMap_BuiltData Referenced by PersistentLevel
+[2019.02.18-23.13.38:942][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.18-23.13.38:948][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.18-23.13.38:969][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.18-23.13.39:044][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 74.695ms to complete.
+[2019.02.18-23.13.39:044][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 0.309
+[2019.02.18-23.13.39:121][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-23.13.39:126][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-23.13.39:131][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-23.13.39:137][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.18-23.13.39:145][  0]LogCollectionManager: Loaded 0 collections in 0.002826 seconds
+[2019.02.18-23.13.39:186][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/Collections/' took 0.01s
+[2019.02.18-23.13.39:186][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/Developers/Windows/Collections/' took 0.01s
+[2019.02.18-23.13.39:186][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/Collections/' took 0.01s
+[2019.02.18-23.13.39:186][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.18-23.13.39:194][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2580 classes and 608 folders.
+[2019.02.18-23.13.39:203][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.18-23.13.39:250][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.18-23.13.39:256][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.02.18-23.13.39:297][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.18-23.13.39:297][  0]LogLoad: (Engine Initialization) Total time: 7.56 seconds
+[2019.02.18-23.13.39:297][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.18-23.13.39:309][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.02.18-23.13.39:309][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.02.18-23.13.39:309][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2019.02.18-23.13.39:309][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2019.02.18-23.13.39:309][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2019.02.18-23.13.39:326][  0]LogAssetRegistry: Asset discovery search completed in 3.6836 seconds
+[2019.02.18-23.13.39:329][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.02.18-23.13.39:329][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
+[2019.02.18-23.13.39:330][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.18-23.13.39:338][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.18-23.13.39:342][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.18-23.13.39:343][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.18-23.13.39:348][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.18-23.13.39:423][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.18-23.13.39:440][  1]LogRenderer: Reallocating scene render targets to support 928x476 Format 10 NumSamples 1 (Frame:1).
+[2019.02.18-23.13.45:428][701]LogSlate: Window 'Message Log' being destroyed
+[2019.02.18-23.13.45:431][701]LogSlate: Window 'Message Log' being destroyed
+[2019.02.18-23.13.46:428][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-23.13.46:521][828]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:806).
+[2019.02.18-23.13.59:731][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.18-23.14.04:665][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.18-23.14.04:703][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.18-23.15.05:888][486]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" -invalidatemakefilesonly
+[2019.02.18-23.15.06:703][486]Invalidating makefiles only in this run.
+[2019.02.18-23.15.06:824][486]Candidate modules for hot reload:
+[2019.02.18-23.15.06:824][486]  VehicleMovement
+[2019.02.18-23.15.06:824][486]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=VehicleMovement,8233 Win64 Development -TargetType=Editor -Project="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" -canskiplink "E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" ]
+[2019.02.18-23.15.21:645][486]CompilerResultsLog: New page: Compilation - Feb 18, 2019, 1:15:21 PM
+[2019.02.18-23.15.21:645][486]CompilerResultsLog: Creating makefile for hot reloading VehicleMovementEditor (no existing makefile)
+[2019.02.18-23.15.21:645][486]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.18-23.15.21:645][486]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.18-23.15.21:645][486]CompilerResultsLog: Parsing headers for VehicleMovementEditor
+[2019.02.18-23.15.21:645][486]CompilerResultsLog:   Running UnrealHeaderTool "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\VehicleMovement.uproject" "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.18-23.15.21:645][486]CompilerResultsLog: Reflection code generated for VehicleMovementEditor in 7.6134157 seconds
+[2019.02.18-23.15.21:645][486]CompilerResultsLog: Building 5 actions with 12 processes...
+[2019.02.18-23.15.21:645][486]CompilerResultsLog:   [1/5] VehicleMovement.init.gen.cpp
+[2019.02.18-23.15.21:645][486]CompilerResultsLog:   [2/5] PawnStat.cpp
+[2019.02.18-23.15.21:645][486]CompilerResultsLog:   [3/5] PawnStat.gen.cpp
+[2019.02.18-23.15.21:645][486]CompilerResultsLog:   [4/5] UE4Editor-VehicleMovement-8233.lib
+[2019.02.18-23.15.21:645][486]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-8233.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-8233.exp
+[2019.02.18-23.15.21:645][486]CompilerResultsLog:   [5/5] UE4Editor-VehicleMovement-8233.dll
+[2019.02.18-23.15.21:645][486]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-8233.suppressed.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-8233.suppressed.exp
+[2019.02.18-23.15.21:645][486]CompilerResultsLog: Total build time: 14.56 seconds (Parallel executor: 1.36 seconds)
+[2019.02.18-23.15.21:645][486]LogMainFrame: MainFrame: Module compiling took 14.825 seconds
+[2019.02.18-23.15.21:693][486]LogClass: Could not find existing class PawnStat in package /Script/VehicleMovement for HotReload, assuming new class
+[2019.02.18-23.15.21:705][486]LogContentBrowser: Native class hierarchy updated for 'VehicleMovement' in 0.0006 seconds. Added 7 classes and 2 folders.
+[2019.02.18-23.15.21:707][486]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.18-23.15.21:860][486]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2582 classes and 610 folders.
+[2019.02.18-23.15.21:860][486]Display: HotReload took 15.0s.
+[2019.02.18-23.15.21:862][486]Warning: HotReload operation took 15.0s.
+[2019.02.18-23.15.22:229][486]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.02.18-23.15.22:233][486]LogHotReload: New module detected: UE4Editor-VehicleMovement-8233.dll
+[2019.02.18-23.15.22:263][487]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.18-23.15.22:306][487]LogContentBrowser: Native class hierarchy updated for 'VehicleMovement' in 0.0005 seconds. Added 7 classes and 2 folders.
+[2019.02.18-23.15.22:308][487]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.18-23.15.22:339][487]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2582 classes and 610 folders.
+[2019.02.18-23.15.22:343][487]Display: HotReload took  0.1s.
+[2019.02.18-23.20.29:975][739]Candidate modules for hot reload:
+[2019.02.18-23.20.29:975][739]  VehicleMovement
+[2019.02.18-23.20.29:975][739]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=VehicleMovement,1949 Win64 Development -TargetType=Editor -Project="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" -canskiplink "E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" ]
+[2019.02.18-23.20.30:000][739]Warning: Starting HotReload took  0.0s.
+[2019.02.18-23.20.43:421][348]CompilerResultsLog: New page: Compilation - Feb 18, 2019, 1:20:43 PM
+[2019.02.18-23.20.43:421][348]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.18-23.20.43:421][348]CompilerResultsLog: Parsing headers for VehicleMovementEditor
+[2019.02.18-23.20.43:421][348]CompilerResultsLog:   Running UnrealHeaderTool "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\VehicleMovement.uproject" "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.18-23.20.43:421][348]CompilerResultsLog: Reflection code generated for VehicleMovementEditor in 8.6301126 seconds
+[2019.02.18-23.20.43:421][348]CompilerResultsLog: Building 5 actions with 12 processes...
+[2019.02.18-23.20.43:421][348]CompilerResultsLog:   [1/5] VehicleMovement.init.gen.cpp
+[2019.02.18-23.20.43:421][348]CompilerResultsLog:   [2/5] PawnStat.cpp
+[2019.02.18-23.20.43:421][348]CompilerResultsLog:   [3/5] PawnStat.gen.cpp
+[2019.02.18-23.20.43:421][348]CompilerResultsLog:   [4/5] UE4Editor-VehicleMovement-1949.lib
+[2019.02.18-23.20.43:421][348]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-1949.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-1949.exp
+[2019.02.18-23.20.43:421][348]CompilerResultsLog:   [5/5] UE4Editor-VehicleMovement-1949.dll
+[2019.02.18-23.20.43:421][348]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-1949.suppressed.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-1949.suppressed.exp
+[2019.02.18-23.20.43:421][348]CompilerResultsLog: Total build time: 13.12 seconds (Parallel executor: 1.85 seconds)
+[2019.02.18-23.20.43:422][348]LogMainFrame: MainFrame: Module compiling took 13.451 seconds
+[2019.02.18-23.20.43:462][348]LogClass: Could not find existing class PawnStat in package /Script/VehicleMovement for HotReload, assuming new class
+[2019.02.18-23.20.43:467][348]LogHotReload: Re-instancing PawnStat after hot-reload.
+[2019.02.18-23.20.43:507][348]LogContentBrowser: Native class hierarchy updated for 'VehicleMovement' in 0.0006 seconds. Added 7 classes and 2 folders.
+[2019.02.18-23.20.43:509][348]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.18-23.20.43:551][348]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2582 classes and 610 folders.
+[2019.02.18-23.20.43:551][348]Display: HotReload took 13.6s.
+[2019.02.18-23.20.57:781][973]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" -invalidatemakefilesonly
+[2019.02.18-23.20.58:493][973]Invalidating makefiles only in this run.
+[2019.02.18-23.20.58:608][973]Candidate modules for hot reload:
+[2019.02.18-23.20.58:609][973]  VehicleMovement
+[2019.02.18-23.20.58:609][973]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=VehicleMovement,9113 Win64 Development -TargetType=Editor -Project="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" -canskiplink "E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" ]
+[2019.02.18-23.21.13:338][973]CompilerResultsLog: New page: Compilation - Feb 18, 2019, 1:21:13 PM
+[2019.02.18-23.21.13:338][973]CompilerResultsLog: Creating makefile for hot reloading VehicleMovementEditor (no existing makefile)
+[2019.02.18-23.21.13:338][973]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.18-23.21.13:338][973]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.18-23.21.13:338][973]CompilerResultsLog: Parsing headers for VehicleMovementEditor
+[2019.02.18-23.21.13:338][973]CompilerResultsLog:   Running UnrealHeaderTool "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\VehicleMovement.uproject" "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.18-23.21.13:338][973]CompilerResultsLog: Reflection code generated for VehicleMovementEditor in 7.6400625 seconds
+[2019.02.18-23.21.13:338][973]CompilerResultsLog: Building 5 actions with 12 processes...
+[2019.02.18-23.21.13:338][973]CompilerResultsLog:   [1/5] VehicleMovement.init.gen.cpp
+[2019.02.18-23.21.13:338][973]CompilerResultsLog:   [2/5] CarStat.cpp
+[2019.02.18-23.21.13:338][973]CompilerResultsLog:   [3/5] CarStat.gen.cpp
+[2019.02.18-23.21.13:338][973]CompilerResultsLog:   [4/5] UE4Editor-VehicleMovement-9113.lib
+[2019.02.18-23.21.13:338][973]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-9113.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-9113.exp
+[2019.02.18-23.21.13:338][973]CompilerResultsLog:   [5/5] UE4Editor-VehicleMovement-9113.dll
+[2019.02.18-23.21.13:338][973]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-9113.suppressed.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-9113.suppressed.exp
+[2019.02.18-23.21.13:338][973]CompilerResultsLog: Total build time: 14.47 seconds (Parallel executor: 1.36 seconds)
+[2019.02.18-23.21.13:338][973]LogMainFrame: MainFrame: Module compiling took 14.734 seconds
+[2019.02.18-23.21.13:379][973]LogClass: Could not find existing class CarStat in package /Script/VehicleMovement for HotReload, assuming new class
+[2019.02.18-23.21.13:387][973]LogContentBrowser: Native class hierarchy updated for 'VehicleMovement' in 0.0006 seconds. Added 8 classes and 2 folders.
+[2019.02.18-23.21.13:388][973]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.18-23.21.13:430][973]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2583 classes and 610 folders.
+[2019.02.18-23.21.13:430][973]Display: HotReload took 14.8s.
+[2019.02.18-23.21.13:431][973]Warning: HotReload operation took 14.8s.
+[2019.02.18-23.21.13:691][973]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.02.18-23.21.13:695][973]LogHotReload: New module detected: UE4Editor-VehicleMovement-9113.dll
+[2019.02.18-23.21.13:721][974]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.18-23.21.13:762][974]LogContentBrowser: Native class hierarchy updated for 'VehicleMovement' in 0.0006 seconds. Added 8 classes and 2 folders.
+[2019.02.18-23.21.13:764][974]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.18-23.21.13:792][974]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2583 classes and 610 folders.
+[2019.02.18-23.21.13:795][974]Display: HotReload took  0.1s.
+[2019.02.18-23.30.41:173][829]Candidate modules for hot reload:
+[2019.02.18-23.30.41:174][829]  VehicleMovement
+[2019.02.18-23.30.41:174][829]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=VehicleMovement,6369 Win64 Development -TargetType=Editor -Project="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" -canskiplink "E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" ]
+[2019.02.18-23.30.41:182][829]Warning: Starting HotReload took  0.0s.
+[2019.02.18-23.30.51:766][436]CompilerResultsLog: New page: Compilation - Feb 18, 2019, 1:30:51 PM
+[2019.02.18-23.30.51:766][436]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.18-23.30.51:766][436]CompilerResultsLog: Parsing headers for VehicleMovementEditor
+[2019.02.18-23.30.51:766][436]CompilerResultsLog:   Running UnrealHeaderTool "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\VehicleMovement.uproject" "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.18-23.30.51:766][436]CompilerResultsLog: Error: E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Source/VehicleMovement/CarStat.h(18)  : LogCompile: Error: BlueprintReadWrite should not be used on private members
+[2019.02.18-23.30.51:766][436]CompilerResultsLog: Error: E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Source/VehicleMovement/CarStat.h(22)  : LogCompile: Error: BlueprintReadWrite should not be used on private members
+[2019.02.18-23.30.51:766][436]CompilerResultsLog: Error: E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Source/VehicleMovement/CarStat.h(26)  : LogCompile: Error: BlueprintReadWrite should not be used on private members
+[2019.02.18-23.30.51:766][436]CompilerResultsLog: Error: E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Source/VehicleMovement/CarStat.h(53)  : LogCompile: Error: Construct: Override of UFUNCTION in parent class (PawnStat) cannot have a UFUNCTION() declaration above it; it will use the same parameters as the original declaration.
+[2019.02.18-23.30.51:766][436]CompilerResultsLog: UnrealHeaderTool failed for target 'VehicleMovementEditor' (platform: Win64, module info: E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest).
+[2019.02.18-23.30.51:766][436]LogMainFrame: MainFrame: Module compiling took 10.596 seconds
+[2019.02.18-23.30.51:766][436]Warning: HotReload failed, recompile failed
+[2019.02.18-23.32.01:448][484]Candidate modules for hot reload:
+[2019.02.18-23.32.01:448][484]  VehicleMovement
+[2019.02.18-23.32.01:448][484]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=VehicleMovement,4150 Win64 Development -TargetType=Editor -Project="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" -canskiplink "E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" ]
+[2019.02.18-23.32.01:456][484]Warning: Starting HotReload took  0.0s.
+[2019.02.18-23.32.02:180][571]LogSlate: Window 'Message Log' being destroyed
+[2019.02.18-23.32.02:184][571]LogSlate: Window 'Message Log' being destroyed
+[2019.02.18-23.32.12:102][762]CompilerResultsLog: New page: Compilation - Feb 18, 2019, 1:32:12 PM
+[2019.02.18-23.32.12:102][762]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.18-23.32.12:102][762]CompilerResultsLog: Parsing headers for VehicleMovementEditor
+[2019.02.18-23.32.12:102][762]CompilerResultsLog:   Running UnrealHeaderTool "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\VehicleMovement.uproject" "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.18-23.32.12:102][762]CompilerResultsLog: Error: E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Source/VehicleMovement/CarStat.h(53)  : LogCompile: Error: Construct: Override of UFUNCTION in parent class (PawnStat) cannot have a UFUNCTION() declaration above it; it will use the same parameters as the original declaration.
+[2019.02.18-23.32.12:102][762]CompilerResultsLog: UnrealHeaderTool failed for target 'VehicleMovementEditor' (platform: Win64, module info: E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest).
+[2019.02.18-23.32.12:102][762]LogMainFrame: MainFrame: Module compiling took 10.658 seconds
+[2019.02.18-23.32.12:102][762]Warning: HotReload failed, recompile failed
+[2019.02.18-23.33.06:132][652]LogSlate: Window 'Message Log' being destroyed
+[2019.02.18-23.33.06:136][652]LogSlate: Window 'Message Log' being destroyed
+[2019.02.18-23.33.06:749][725]Candidate modules for hot reload:
+[2019.02.18-23.33.06:749][725]  VehicleMovement
+[2019.02.18-23.33.06:750][725]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=VehicleMovement,4108 Win64 Development -TargetType=Editor -Project="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" -canskiplink "E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" ]
+[2019.02.18-23.33.06:758][725]Warning: Starting HotReload took  0.0s.
+[2019.02.18-23.33.19:178][216]CompilerResultsLog: New page: Compilation - Feb 18, 2019, 1:33:19 PM
+[2019.02.18-23.33.19:178][216]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.18-23.33.19:178][216]CompilerResultsLog: Parsing headers for VehicleMovementEditor
+[2019.02.18-23.33.19:178][216]CompilerResultsLog:   Running UnrealHeaderTool "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\VehicleMovement.uproject" "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.18-23.33.19:178][216]CompilerResultsLog: Reflection code generated for VehicleMovementEditor in 8.1130547 seconds
+[2019.02.18-23.33.19:178][216]CompilerResultsLog: Building 7 actions with 12 processes...
+[2019.02.18-23.33.19:178][216]CompilerResultsLog:   [1/7] VehicleMovement.init.gen.cpp
+[2019.02.18-23.33.19:178][216]CompilerResultsLog:   [2/7] PawnStat.cpp
+[2019.02.18-23.33.19:178][216]CompilerResultsLog:   [3/7] CarStat.cpp
+[2019.02.18-23.33.19:178][216]CompilerResultsLog:   [4/7] CarStat.gen.cpp
+[2019.02.18-23.33.19:178][216]CompilerResultsLog:   [5/7] PawnStat.gen.cpp
+[2019.02.18-23.33.19:178][216]CompilerResultsLog:   [6/7] UE4Editor-VehicleMovement-4108.lib
+[2019.02.18-23.33.19:178][216]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-4108.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-4108.exp
+[2019.02.18-23.33.19:178][216]CompilerResultsLog:   [7/7] UE4Editor-VehicleMovement-4108.dll
+[2019.02.18-23.33.19:178][216]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-4108.suppressed.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-4108.suppressed.exp
+[2019.02.18-23.33.19:178][216]CompilerResultsLog: Total build time: 12.15 seconds (Parallel executor: 1.62 seconds)
+[2019.02.18-23.33.19:178][216]LogMainFrame: MainFrame: Module compiling took 12.432 seconds
+[2019.02.18-23.33.19:219][216]LogClass: Could not find existing class CarStat in package /Script/VehicleMovement for HotReload, assuming new class
+[2019.02.18-23.33.19:219][216]LogClass: Could not find existing class PawnStat in package /Script/VehicleMovement for HotReload, assuming new class
+[2019.02.18-23.33.19:219][216]LogClass: Function ConstructPawnStat is new.
+[2019.02.18-23.33.19:219][216]LogClass: Function ConstructCarStat is new.
+[2019.02.18-23.33.19:225][216]LogHotReload: Re-instancing CarStat after hot-reload.
+[2019.02.18-23.33.19:263][216]LogHotReload: Re-instancing PawnStat after hot-reload.
+[2019.02.18-23.33.19:302][216]LogContentBrowser: Native class hierarchy updated for 'VehicleMovement' in 0.0006 seconds. Added 8 classes and 2 folders.
+[2019.02.18-23.33.19:304][216]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.18-23.33.19:347][216]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2583 classes and 610 folders.
+[2019.02.18-23.33.19:347][216]Display: HotReload took 12.6s.
+[2019.02.18-23.33.47:367][644]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" -invalidatemakefilesonly
+[2019.02.18-23.33.48:281][644]Invalidating makefiles only in this run.
+[2019.02.18-23.33.48:396][644]Candidate modules for hot reload:
+[2019.02.18-23.33.48:397][644]  VehicleMovement
+[2019.02.18-23.33.48:397][644]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=VehicleMovement,5478 Win64 Development -TargetType=Editor -Project="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" -canskiplink "E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" ]
+[2019.02.18-23.34.03:003][644]CompilerResultsLog: New page: Compilation - Feb 18, 2019, 1:34:03 PM
+[2019.02.18-23.34.03:003][644]CompilerResultsLog: Creating makefile for hot reloading VehicleMovementEditor (no existing makefile)
+[2019.02.18-23.34.03:003][644]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.18-23.34.03:003][644]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.18-23.34.03:003][644]CompilerResultsLog: Parsing headers for VehicleMovementEditor
+[2019.02.18-23.34.03:003][644]CompilerResultsLog:   Running UnrealHeaderTool "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\VehicleMovement.uproject" "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.18-23.34.03:003][644]CompilerResultsLog: Reflection code generated for VehicleMovementEditor in 7.5897395 seconds
+[2019.02.18-23.34.03:003][644]CompilerResultsLog: Building 5 actions with 12 processes...
+[2019.02.18-23.34.03:003][644]CompilerResultsLog:   [1/5] VehicleMovement.init.gen.cpp
+[2019.02.18-23.34.03:003][644]CompilerResultsLog:   [2/5] PawnStatComponent.cpp
+[2019.02.18-23.34.03:003][644]CompilerResultsLog:   [3/5] PawnStatComponent.gen.cpp
+[2019.02.18-23.34.03:003][644]CompilerResultsLog:   [4/5] UE4Editor-VehicleMovement-5478.lib
+[2019.02.18-23.34.03:003][644]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-5478.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-5478.exp
+[2019.02.18-23.34.03:003][644]CompilerResultsLog:   [5/5] UE4Editor-VehicleMovement-5478.dll
+[2019.02.18-23.34.03:003][644]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-5478.suppressed.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-5478.suppressed.exp
+[2019.02.18-23.34.03:003][644]CompilerResultsLog: Total build time: 14.35 seconds (Parallel executor: 1.35 seconds)
+[2019.02.18-23.34.03:003][644]LogMainFrame: MainFrame: Module compiling took 14.609 seconds
+[2019.02.18-23.34.03:045][644]LogClass: Could not find existing class PawnStatComponent in package /Script/VehicleMovement for HotReload, assuming new class
+[2019.02.18-23.34.03:051][644]LogContentBrowser: Native class hierarchy updated for 'VehicleMovement' in 0.0006 seconds. Added 9 classes and 2 folders.
+[2019.02.18-23.34.03:053][644]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.18-23.34.03:093][644]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2584 classes and 610 folders.
+[2019.02.18-23.34.03:093][644]Display: HotReload took 14.7s.
+[2019.02.18-23.34.03:094][644]Warning: HotReload operation took 14.7s.
+[2019.02.18-23.34.03:392][644]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.02.18-23.34.03:400][644]LogHotReload: New module detected: UE4Editor-VehicleMovement-5478.dll
+[2019.02.18-23.34.03:425][645]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.18-23.34.03:464][645]LogContentBrowser: Native class hierarchy updated for 'VehicleMovement' in 0.0005 seconds. Added 9 classes and 2 folders.
+[2019.02.18-23.34.03:465][645]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.18-23.34.03:606][645]LogContentBrowser: Native class hierarchy populated in 0.1174 seconds. Added 2584 classes and 610 folders.
+[2019.02.18-23.34.03:609][645]Display: HotReload took  0.2s.
+[2019.02.18-23.37.05:524][681]Candidate modules for hot reload:
+[2019.02.18-23.37.05:524][681]  VehicleMovement
+[2019.02.18-23.37.05:525][681]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=VehicleMovement,5477 Win64 Development -TargetType=Editor -Project="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" -canskiplink "E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" ]
+[2019.02.18-23.37.05:533][681]Warning: Starting HotReload took  0.0s.
+[2019.02.18-23.37.18:000][177]CompilerResultsLog: New page: Compilation - Feb 18, 2019, 1:37:18 PM
+[2019.02.18-23.37.18:001][177]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.18-23.37.18:001][177]CompilerResultsLog: Parsing headers for VehicleMovementEditor
+[2019.02.18-23.37.18:001][177]CompilerResultsLog:   Running UnrealHeaderTool "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\VehicleMovement.uproject" "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.18-23.37.18:001][177]CompilerResultsLog: Reflection code generated for VehicleMovementEditor in 8.1367211 seconds
+[2019.02.18-23.37.18:001][177]CompilerResultsLog: Building 9 actions with 12 processes...
+[2019.02.18-23.37.18:001][177]CompilerResultsLog:   [1/9] CarStat.cpp
+[2019.02.18-23.37.18:001][177]CompilerResultsLog:   [2/9] PawnStatComponent.cpp
+[2019.02.18-23.37.18:001][177]CompilerResultsLog:   [3/9] VehicleMovement.init.gen.cpp
+[2019.02.18-23.37.18:001][177]CompilerResultsLog:   [4/9] PawnStat.cpp
+[2019.02.18-23.37.18:001][177]CompilerResultsLog:   [5/9] PawnStat.gen.cpp
+[2019.02.18-23.37.18:001][177]CompilerResultsLog:   [6/9] CarStat.gen.cpp
+[2019.02.18-23.37.18:001][177]CompilerResultsLog:   [7/9] PawnStatComponent.gen.cpp
+[2019.02.18-23.37.18:001][177]CompilerResultsLog:   [8/9] UE4Editor-VehicleMovement-5477.lib
+[2019.02.18-23.37.18:001][177]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-5477.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-5477.exp
+[2019.02.18-23.37.18:001][177]CompilerResultsLog:   [9/9] UE4Editor-VehicleMovement-5477.dll
+[2019.02.18-23.37.18:001][177]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-5477.suppressed.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-5477.suppressed.exp
+[2019.02.18-23.37.18:001][177]CompilerResultsLog: Total build time: 12.20 seconds (Parallel executor: 1.64 seconds)
+[2019.02.18-23.37.18:001][177]LogMainFrame: MainFrame: Module compiling took 12.480 seconds
+[2019.02.18-23.37.18:040][177]LogClass: Could not find existing class PawnStatComponent in package /Script/VehicleMovement for HotReload, assuming new class
+[2019.02.18-23.37.18:045][177]LogHotReload: Re-instancing PawnStatComponent after hot-reload.
+[2019.02.18-23.37.18:086][177]LogContentBrowser: Native class hierarchy updated for 'VehicleMovement' in 0.0006 seconds. Added 9 classes and 2 folders.
+[2019.02.18-23.37.18:088][177]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.18-23.37.18:129][177]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2584 classes and 610 folders.
+[2019.02.18-23.37.18:129][177]Display: HotReload took 12.6s.
+[2019.02.18-23.47.05:345][961]Candidate modules for hot reload:
+[2019.02.18-23.47.05:345][961]  VehicleMovement
+[2019.02.18-23.47.05:345][961]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=VehicleMovement,6016 Win64 Development -TargetType=Editor -Project="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" -canskiplink "E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" ]
+[2019.02.18-23.47.05:353][961]Warning: Starting HotReload took  0.0s.
+[2019.02.18-23.47.18:131][495]CompilerResultsLog: New page: Compilation - Feb 18, 2019, 1:47:18 PM
+[2019.02.18-23.47.18:131][495]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.18-23.47.18:131][495]CompilerResultsLog: Parsing headers for VehicleMovementEditor
+[2019.02.18-23.47.18:131][495]CompilerResultsLog:   Running UnrealHeaderTool "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\VehicleMovement.uproject" "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.18-23.47.18:131][495]CompilerResultsLog: Reflection code generated for VehicleMovementEditor in 8.3565204 seconds
+[2019.02.18-23.47.18:131][495]CompilerResultsLog: Building 5 actions with 12 processes...
+[2019.02.18-23.47.18:131][495]CompilerResultsLog:   [1/5] VehicleMovement.init.gen.cpp
+[2019.02.18-23.47.18:131][495]CompilerResultsLog:   [2/5] AVehiclePawn.gen.cpp
+[2019.02.18-23.47.18:131][495]CompilerResultsLog:   [3/5] AVehiclePawn.cpp
+[2019.02.18-23.47.18:131][495]CompilerResultsLog:   [4/5] UE4Editor-VehicleMovement-6016.lib
+[2019.02.18-23.47.18:131][495]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-6016.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-6016.exp
+[2019.02.18-23.47.18:131][495]CompilerResultsLog:   [5/5] UE4Editor-VehicleMovement-6016.dll
+[2019.02.18-23.47.18:131][495]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-6016.suppressed.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-6016.suppressed.exp
+[2019.02.18-23.47.18:131][495]CompilerResultsLog: Total build time: 12.51 seconds (Parallel executor: 1.64 seconds)
+[2019.02.18-23.47.18:131][495]LogMainFrame: MainFrame: Module compiling took 12.790 seconds
+[2019.02.18-23.47.18:171][495]LogClass: Could not find existing class AVehiclePawn in package /Script/VehicleMovement for HotReload, assuming new class
+[2019.02.18-23.47.18:179][495]LogHotReload: Re-instancing AVehiclePawn after hot-reload.
+[2019.02.18-23.47.18:262][495]LogContentBrowser: Native class hierarchy updated for 'VehicleMovement' in 0.0006 seconds. Added 9 classes and 2 folders.
+[2019.02.18-23.47.18:264][495]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.18-23.47.18:304][495]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2584 classes and 610 folders.
+[2019.02.18-23.47.18:304][495]Display: HotReload took 13.0s.
+[2019.02.18-23.47.19:672][657]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.18-23.47.19:682][657]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.18-23.47.19:682][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.18-23.47.19:695][657]PIE: New page: PIE session: VehicleExampleMap (Feb 18, 2019, 1:47:19 PM)
+[2019.02.18-23.47.19:695][657]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2019.02.18-23.47.19:714][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018913s)
+[2019.02.18-23.47.19:715][657]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.18-23.47.19:715][657]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2019.02.18-23.47.19:715][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.019849s)
+[2019.02.18-23.47.19:771][657]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.18-23.47.19:788][657]LogInit: FAudioDevice initialized.
+[2019.02.18-23.47.19:832][657]LogLoad: Game class is 'VehicleMovementGameMode'
+[2019.02.18-23.47.19:837][657]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.02.18-18.47.19
+[2019.02.18-23.47.19:837][657]LogWorld: Bringing up level for play took: 0.001649
+[2019.02.18-23.47.19:875][657]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2019.02.18-23.47.19:875][657]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap -0.08
+[2019.02.18-23.47.19:876][657]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.18-23.47.30:405][ 15]LogWindows: Error: === Critical error: ===
+[2019.02.18-23.47.30:405][ 15]LogWindows: Error: 
+[2019.02.18-23.47.30:405][ 15]LogWindows: Error: Fatal error!
+[2019.02.18-23.47.30:405][ 15]LogWindows: Error: 
+[2019.02.18-23.47.30:405][ 15]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000004c
+[2019.02.18-23.47.30:405][ 15]LogWindows: Error: 
+[2019.02.18-23.47.30:405][ 15]LogWindows: Error: [Callstack] 0x00007ffdb38e5f70 UE4Editor-VehicleMovement-6016.dll!UCarStat::GetAccelerationFactor() [e:\myprogram\udk\school\s4\battledrifter\game260development\resources\vehiclemovement\source\vehiclemovement\carstat.cpp:31]
+[2019.02.18-23.47.30:405][ 15]LogWindows: Error: [Callstack] 0x00007ffdb38e4f92 UE4Editor-VehicleMovement-6016.dll!AAVehiclePawn::MoveX() [e:\myprogram\udk\school\s4\battledrifter\game260development\resources\vehiclemovement\source\vehiclemovement\avehiclepawn.cpp:182]
+[2019.02.18-23.47.30:405][ 15]LogWindows: Error: [Callstack] 0x00007ffd4d534377 UE4Editor-Engine.dll!UPlayerInput::ProcessInputStack() [d:\build\++ue4\sync\engine\source\runtime\engine\private\userinterface\playerinput.cpp:1282]
+[2019.02.18-23.47.30:405][ 15]LogWindows: Error: [Callstack] 0x00007ffd4d00017c UE4Editor-Engine.dll!APlayerController::ProcessPlayerInput() [d:\build\++ue4\sync\engine\source\runtime\engine\private\playercontroller.cpp:2476]
+[2019.02.18-23.47.30:405][ 15]LogWindows: Error: [Callstack] 0x00007ffd4d014608 UE4Editor-Engine.dll!APlayerController::TickPlayerInput() [d:\build\++ue4\sync\engine\source\runtime\engine\private\playercontroller.cpp:4393]
+[2019.02.18-23.47.30:405][ 15]LogWindows: Error: [Callstack] 0x00007ffd4cffdbcb UE4Editor-Engine.dll!APlayerController::PlayerTick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\playercontroller.cpp:2137]
+[2019.02.18-23.47.30:405][ 15]LogWindows: Error: [Callstack] 0x00007ffd4d0134c3 UE4Editor-Engine.dll!APlayerController::TickActor() [d:\build\++ue4\sync\engine\source\runtime\engine\private\playercontroller.cpp:4488]
+[2019.02.18-23.47.30:405][ 15]LogWindows: Error: [Callstack] 0x00007ffd4c235630 UE4Editor-Engine.dll!FActorTickFunction::ExecuteTick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\actor.cpp:137]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ffd4d4316bd UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [d:\build\++ue4\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:829]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ffd4f3e1f92 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:665]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ffd4f3e2456 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:574]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ffd4f3f6d25 UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:1358]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ffd4d485b04 UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:541]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ffd4d494d92 UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:1455]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ffd4cb987e4 UE4Editor-Engine.dll!UWorld::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:780]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ffd4cba4003 UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:1454]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ffd4a857335 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:1691]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ffd4b14f666 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:403]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ff758bf5cbd UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3495]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ff758c05b3c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ff758c05bba UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:144]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ff758c13dac UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:223]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ff758c15aaa UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:283]
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ffdc62081f4 KERNEL32.DLL!UnknownFunction []
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: [Callstack] 0x00007ffdc8e8a251 ntdll.dll!UnknownFunction []
+[2019.02.18-23.47.30:406][ 15]LogWindows: Error: 
+[2019.02.18-23.47.30:415][ 15]LogExit: Executing StaticShutdownAfterError
+[2019.02.18-23.47.30:425][ 15]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.02.18-23.47.30:429][ 15]Log file closed, 02/18/19 18:47:30

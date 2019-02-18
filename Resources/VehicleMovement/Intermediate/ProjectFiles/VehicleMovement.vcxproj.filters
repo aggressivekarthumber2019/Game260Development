@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\VehicleMovement.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{36FB8977-7BB1-435D-9536-431461E99086}</UniqueIdentifier>
+      <UniqueIdentifier>{030737CC-77C6-4DE5-8122-6D499B647183}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VehicleMovement.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{68D82EA6-0CB9-4F08-8EF9-218637A43F46}</UniqueIdentifier>
+      <UniqueIdentifier>{89C36ED0-DC5F-4A75-B9E4-847D0C944EA0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\VehicleMovement">
-      <UniqueIdentifier>{06477602-46BB-4994-B2BF-D45519DDF8F0}</UniqueIdentifier>
+      <UniqueIdentifier>{7F223610-6744-4683-8181-E2556694FDF0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\VehicleMovement\AVehiclePawn.cpp">
       <Filter>Source\VehicleMovement</Filter>
@@ -77,5 +77,27 @@
     <ClInclude Include="..\..\Source\VehicleMovement\VehicleMovementWheelRear.h">
       <Filter>Source\VehicleMovement</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\VehicleMovement\PawnStat.h">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\VehicleMovement\CarStat.h">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\VehicleMovement\PawnStatComponent.h">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\VehicleMovement\PawnStat.cpp">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VehicleMovement\CarStat.cpp">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VehicleMovement\PawnStatComponent.cpp">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -10,6 +10,8 @@
 #include "DrawDebugHelpers.h"
 #include "Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h"
 #include "TimerManager.h"
+#include "PawnStatComponent.h"
+#include "CarStat.h"
 
 // Sets default values
 AAVehiclePawn::AAVehiclePawn()
@@ -40,8 +42,11 @@ AAVehiclePawn::AAVehiclePawn()
 	CameraComponent->bUsePawnControlRotation = false;
 	CameraComponent->FieldOfView = 90.0f;
 
-	// Movement Component
+	// Movement component
 	PawnMovementComponent = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("Car Movement Component"));
+
+	// Pawn stat component
+	PawnStatComponent = CreateDefaultSubobject<UPawnStatComponent>(TEXT("Pawn Stat Component"));
 
 	// vehicle wheel component
 	WheelBaseFR = CreateDefaultSubobject<USceneComponent>(TEXT("Wheel Base Front Right"));
@@ -80,17 +85,17 @@ AAVehiclePawn::AAVehiclePawn()
 	RCDistance = 1.0f;
 
 	// set the vehicle component
-	MinSpeed = -0.5;
+	//MinSpeed = -0.5;
 	currentSpeed = 0;
 	currenTurn = 0;
 
-	PawnAcceleration = 50;
+	//PawnAcceleration = 50;
 	PawnDeceleration = 0.5;
 	PawnBrakeDeceleration = 1000;
 
-	PawnNormalSpeed = 5200;
+	//PawnNormalSpeed = 5200;
 	PawnBoostSpeed = 9200;
-	normalMaxSpeed = 1.0;
+	//normalMaxSpeed = 1.0;
 	boostMaxSpeed = 1.5;
 
 	frameRate = 0.0098;
@@ -104,8 +109,13 @@ AAVehiclePawn::AAVehiclePawn()
 void AAVehiclePawn::BeginPlay()
 {
 	Super::BeginPlay();
-	MaxSpeed = normalMaxSpeed;
-	PawnMovementComponent->MaxSpeed = PawnNormalSpeed;
+	//MaxSpeed = normalMaxSpeed;
+	
+	if (PawnStatComponent->GetCurrentStat() != nullptr)
+	{
+		CurrentStat = CastChecked<UCarStat>(PawnStatComponent->GetCurrentStat());
+		PawnMovementComponent->MaxSpeed = CurrentStat->GetMaxSpeedFactor();
+	}
 
 	GetWorld()->GetTimerManager().SetTimer(LoopTimerHandle, this, &AAVehiclePawn::FixedUpdate, frameRate, true);
 	//GetWorld()->GetTimerManager().SetTimer(StartGameTimerHandle, this, &AAVehiclePawn::GameStart, WaitTimer, false);
@@ -142,7 +152,7 @@ void AAVehiclePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	// checking for gameplay key bindings
+	// checking for Gameplay key bindings
 	check(PlayerInputComponent);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AAVehiclePawn::MoveX); // call the MoveX method with keys bind to 'MoveForward'
@@ -154,13 +164,13 @@ void AAVehiclePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 
 void AAVehiclePawn::BoostPress()
 {
-	MaxSpeed = boostMaxSpeed;
+	//MaxSpeed = boostMaxSpeed;
 	PawnMovementComponent->MaxSpeed = PawnBoostSpeed;
 }
 void AAVehiclePawn::BoostRelease()
 {
-	MaxSpeed = normalMaxSpeed;
-	PawnMovementComponent->MaxSpeed = PawnNormalSpeed;
+	//MaxSpeed = normalMaxSpeed;
+	PawnMovementComponent->MaxSpeed = CurrentStat->GetMaxSpeedFactor();
 }
 
 // Movement on x direction
@@ -169,11 +179,11 @@ void AAVehiclePawn::MoveX(float AxisValue)
 	velocity = AxisValue;
 	if (AxisValue > 0)
 	{
-		currentSpeed += PawnAcceleration * 0.02f;
+		currentSpeed += CurrentStat->GetAccelerationFactor() * 0.02f;
 	}
 	if (AxisValue < 0)
 	{
-		currentSpeed -= PawnAcceleration * 0.02f;
+		currentSpeed -= CurrentStat->GetAccelerationFactor() * 0.02f;
 	}
 }
 
@@ -250,7 +260,7 @@ void AAVehiclePawn::ReducedValues()
 
 void AAVehiclePawn::MoveCar()
 {
-	// multiply the foward vector by the speed
+	// multiply the forward vector by the speed
 	FVector TempFowardVector = FVector(GetActorForwardVector().X * currentSpeed, GetActorForwardVector().Y * currentSpeed, gravity);
 	TempFowardVector.Normalize(1);
 	PawnMovementComponent->AddInputVector(TempFowardVector);
