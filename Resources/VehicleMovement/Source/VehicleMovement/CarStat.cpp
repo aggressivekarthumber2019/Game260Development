@@ -36,3 +36,13 @@ float UCarStat::GetWeightFactor() const
 {
 	return MWeightFactor;
 }
+
+void UCarStat::AcceptEnableMod(const UPawnStatMod* Mod)
+{
+	Mod->EnableMod(this);
+}
+
+void UCarStat::AcceptDisableMod(const UPawnStatMod* Mod)
+{
+	Mod->DisableMod(this);
+}

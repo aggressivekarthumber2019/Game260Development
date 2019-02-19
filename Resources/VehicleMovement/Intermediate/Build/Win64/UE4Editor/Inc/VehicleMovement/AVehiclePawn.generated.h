@@ -57,7 +57,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAVehiclePawn); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAVehiclePawn)
 
 
-#define VehicleMovement_Source_VehicleMovement_AVehiclePawn_h_12_PRIVATE_PROPERTY_OFFSET
+#define VehicleMovement_Source_VehicleMovement_AVehiclePawn_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CurrentStat() { return STRUCT_OFFSET(AAVehiclePawn, CurrentStat); } \
+	FORCEINLINE static uint32 __PPO__SpeedCapMod() { return STRUCT_OFFSET(AAVehiclePawn, SpeedCapMod); }
+
+
 #define VehicleMovement_Source_VehicleMovement_AVehiclePawn_h_9_PROLOG
 #define VehicleMovement_Source_VehicleMovement_AVehiclePawn_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

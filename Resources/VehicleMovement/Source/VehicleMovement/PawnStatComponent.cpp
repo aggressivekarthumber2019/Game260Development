@@ -37,3 +37,50 @@ UPawnStat* UPawnStatComponent::GetCurrentStat() const
 	return MBasePawnStat;
 }
 
+void UPawnStatComponent::EnableMod(const UPawnStatMod* Mod)
+{
+	if (MStatModifiers.Contains(Mod->GetGUID())) // Already has this mod
+	{
+		auto ModTracker = &MStatModifiers[Mod->GetGUID()];
+		auto CurrentStackCount = ModTracker->MStackCount;
+		auto MaxStackCount = ModTracker->MMod->MMaxStackCount;
+
+		// Can still be stacked
+		if (CurrentStackCount < MaxStackCount)
+		{
+			++ModTracker->MStackCount;
+		}
+	}
+	else
+	{
+		UStatModTracker ModTracker;
+
+		ModTracker.MMod = Mod;
+		ModTracker.MModTimeRemainMS = ModTracker.MMod->MMaxTimeMS;
+		ModTracker.MStackCount = 1;
+
+		MStatModifiers.Emplace(Mod->GetGUID(), MoveTemp(ModTracker));
+	}
+
+	MBasePawnStat->AcceptEnableMod(Mod);
+}
+
+void UPawnStatComponent::DisableMod(const UPawnStatMod* Mod)
+{
+	if (MStatModifiers.Contains(Mod->GetGUID())) // Already has this mod
+	{
+		auto ModTracker = &MStatModifiers[Mod->GetGUID()];
+
+		if (ModTracker->MStackCount == 1) // Last stack
+		{
+			MBasePawnStat->AcceptDisableMod(Mod);
+
+			MStatModifiers.Remove(Mod->GetGUID());
+		}
+		else // Remove 1 stack
+		{
+			ModTracker->MStackCount--;
+		}
+	}
+}
+

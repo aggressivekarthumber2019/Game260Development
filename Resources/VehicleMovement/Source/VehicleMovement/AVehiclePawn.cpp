@@ -12,6 +12,7 @@
 #include "TimerManager.h"
 #include "PawnStatComponent.h"
 #include "CarStat.h"
+#include "SpeedCapMod.h"
 
 // Sets default values
 AAVehiclePawn::AAVehiclePawn()
@@ -102,7 +103,6 @@ AAVehiclePawn::AAVehiclePawn()
 	WaitTimer = 3.0f;
 	canMove = true;
 	gravity = -25;
-
 }
 
 // Called when the game starts or when spawned
@@ -110,6 +110,11 @@ void AAVehiclePawn::BeginPlay()
 {
 	Super::BeginPlay();
 	//MaxSpeed = normalMaxSpeed;
+	
+	SpeedCapMod = NewObject<USpeedCapMod>(this);
+	SpeedCapMod->guid = 1;
+	SpeedCapMod->MMaxStackCount = 1;
+	SpeedCapMod->MBoostedSpeed = 5200.f;
 	
 	if (PawnStatComponent->GetCurrentStat() != nullptr)
 	{
@@ -164,12 +169,20 @@ void AAVehiclePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 
 void AAVehiclePawn::BoostPress()
 {
+	UE_LOG(LogTemp, Warning, TEXT("Boost Pressed"));
+
 	//MaxSpeed = boostMaxSpeed;
-	PawnMovementComponent->MaxSpeed = PawnBoostSpeed;
+
+	PawnStatComponent->EnableMod(SpeedCapMod);
+	PawnMovementComponent->MaxSpeed = CurrentStat->GetMaxSpeedFactor();
 }
 void AAVehiclePawn::BoostRelease()
 {
+	UE_LOG(LogTemp, Warning, TEXT("Boost Un-Pressed"));
+
 	//MaxSpeed = normalMaxSpeed;
+	
+	PawnStatComponent->DisableMod(SpeedCapMod);
 	PawnMovementComponent->MaxSpeed = CurrentStat->GetMaxSpeedFactor();
 }
 

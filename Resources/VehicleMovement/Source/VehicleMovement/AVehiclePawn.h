@@ -113,7 +113,11 @@ private:
 	bool  canMove;
 	float gravity;
 
+	UPROPERTY()
 	class UCarStat* CurrentStat;
+
+	UPROPERTY()
+	class USpeedCapMod* SpeedCapMod;
 
 protected:
 	// Called when the game starts or when spawned

@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
+#include "PawnStatMod.h"
 #include "PawnStat.generated.h"
 
 /**
@@ -13,6 +14,8 @@ UCLASS(BlueprintType)
 class VEHICLEMOVEMENT_API UPawnStat : public UObject
 {
 	GENERATED_BODY()
+
+		friend class USpeedCapMod;
 	
 protected:
 	UPROPERTY(BlueprintReadWrite)
@@ -80,4 +83,28 @@ public:
 	 * \returns	The minimum speed factor.
 	 */
 	float GetMinSpeedFactor() const;
+
+	/**
+	 * \fn	virtual void UPawnStat::AcceptEnableMod(const UPawnStatMod& Mod) = 0;
+	 *
+	 * \brief	Visitor for enable modifier
+	 *
+	 * \author	Jaymie
+	 * \date	2/18/2019
+	 *
+	 * \param	Mod	The modifier.
+	 */
+	virtual void AcceptEnableMod(const UPawnStatMod* Mod) {};
+
+	/**
+	 * \fn	virtual void UPawnStat::AcceptDisableMod(const UPawnStatMod& Mod) = 0;
+	 *
+	 * \brief	Visitor for disable modifier
+	 *
+	 * \author	Jaymie
+	 * \date	2/18/2019
+	 *
+	 * \param	Mod	The modifier.
+	 */
+	virtual void AcceptDisableMod(const UPawnStatMod* Mod) {};
 };

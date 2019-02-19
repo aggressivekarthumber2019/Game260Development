@@ -13,6 +13,8 @@ UCLASS(BlueprintType)
 class VEHICLEMOVEMENT_API UCarStat : public UPawnStat
 {
 	GENERATED_BODY()
+
+		friend class USpeedCapMod;
 	
 protected:
 	UPROPERTY(BlueprintReadWrite)
@@ -87,4 +89,11 @@ public:
 	 * \returns	The weight factor.
 	 */
 	float GetWeightFactor() const;
+
+
+	virtual void AcceptEnableMod(const UPawnStatMod* Mod) override;
+
+
+	virtual void AcceptDisableMod(const UPawnStatMod* Mod) override;
+
 };
