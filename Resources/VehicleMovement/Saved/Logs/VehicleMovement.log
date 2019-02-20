@@ -1,4 +1,4 @@
-﻿Log file open, 02/18/19 23:22:40
+﻿Log file open, 02/20/19 17:32:35
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VehicleMovement
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.504033
+LogStats: Stats thread started at 0.672623
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.145s to configure plugins.
+LogStreaming: Display: Took  0.211s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -124,7 +124,7 @@ LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  -skipcompile
+LogInit: Command Line:  
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -148,593 +148,504 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.02.19-04.22.40:834][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.19-04.22.40:834][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.19-04.22.40:842][  0]LogHAL: Display: Platform has ~ 16 GB [17125281792 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.19-04.22.40:842][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.02.19-04.22.40:842][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.19-04.22.40:842][  0]LogInit: Computer: DESKTOP-6JV4Q76
-[2019.02.19-04.22.40:842][  0]LogInit: User: Windows
-[2019.02.19-04.22.40:842][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.02.19-04.22.40:842][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.02.19-04.22.40:843][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.02.19-04.22.40:843][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.19-04.22.40:843][  0]LogMemory: Process Physical Memory: 103.17 MB used, 103.17 MB peak
-[2019.02.19-04.22.40:843][  0]LogMemory: Process Virtual Memory: 94.69 MB used, 94.69 MB peak
-[2019.02.19-04.22.40:843][  0]LogMemory: Physical Memory: 9642.48 MB used,  6689.46 MB free, 16331.94 MB total
-[2019.02.19-04.22.40:843][  0]LogMemory: Virtual Memory: 4663.53 MB used,  6689.46 MB free, 134217728.00 MB total
-[2019.02.19-04.22.40:946][  0]LogInit: Using OS detected language (en-US).
-[2019.02.19-04.22.40:946][  0]LogInit: Using OS detected locale (en-US).
-[2019.02.19-04.22.40:947][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.02.19-04.22.41:213][  0]LogStreaming: Display: Took  0.267s to InitEngineTextLocalization.
-[2019.02.19-04.22.41:213][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.19-04.22.41:246][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.19-04.22.41:246][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.19-04.22.41:424][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.19-04.22.41:424][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.19-04.22.41:504][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2019.02.19-04.22.41:504][  0]LogD3D11RHI:       6052/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.02.19-04.22.41:511][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.19-04.22.41:511][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.19-04.22.41:511][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.19-04.22.41:519][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.19-04.22.41:519][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2019.02.19-04.22.41:519][  0]LogWindows: EnumDisplayDevices:
-[2019.02.19-04.22.41:519][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2019.02.19-04.22.41:520][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2019.02.19-04.22.41:520][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2019.02.19-04.22.41:520][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2019.02.19-04.22.41:521][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.02.19-04.22.41:521][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2019.02.19-04.22.41:521][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
-[2019.02.19-04.22.41:521][  0]LogD3D11RHI:      Driver Date: 12-11-2018
-[2019.02.19-04.22.41:521][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2019.02.19-04.22.41:561][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.19-04.22.41:586][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.02.19-04.22.41:587][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Intermediate/Shaders/WorkingDirectory/8388/).
-[2019.02.19-04.22.41:588][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Windows/AppData/Local/Temp/UnrealShaderWorkingDir/2D3F0238460A83177F9A65BAF7703B9B/'.
-[2019.02.19-04.22.41:863][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.19-04.22.41:880][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.19-04.22.41:896][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.19-04.22.41:913][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.19-04.22.41:930][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.19-04.22.41:947][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.19-04.22.41:963][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.19-04.22.41:980][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.19-04.22.41:991][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.19-04.22.42:056][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:056][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:056][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:056][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:056][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:056][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:056][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:056][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:056][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:057][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:057][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:057][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:057][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:057][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:057][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:057][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:057][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:057][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.19-04.22.42:062][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.19-04.22.42:131][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.19-04.22.42:131][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.19-04.22.42:153][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.19-04.22.42:154][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.19-04.22.42:168][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.19-04.22.42:182][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.19-04.22.42:196][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.19-04.22.42:210][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.19-04.22.42:221][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.19-04.22.42:221][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.19-04.22.42:391][  0]LogXGEController: Cleaning working directory: C:/Users/Windows/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.02.19-04.22.42:391][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.19-04.22.42:392][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.19-04.22.42:392][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.19-04.22.43:004][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.19-04.22.43:048][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/Windows/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.19-04.22.43:048][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Windows/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.02.19-04.22.43:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.19-04.22.43:048][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.19-04.22.43:049][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.19-04.22.43:049][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.19-04.22.43:059][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.19-04.22.43:073][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Windows/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.19-04.22.43:073][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.19-04.22.43:073][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.19-04.22.43:087][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.19-04.22.43:089][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.19-04.22.43:089][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.19-04.22.43:160][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
-[2019.02.19-04.22.43:399][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.19-04.22.43:554][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.19-04.22.43:571][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.19-04.22.43:571][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.19-04.22.43:571][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.19-04.22.43:571][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.19-04.22.43:582][  0]LogNetVersion: VehicleMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2966596176)
-[2019.02.19-04.22.44:034][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.094478 seconds
-[2019.02.19-04.22.44:039][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.02.19-04.22.44:040][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.02.19-04.22.44:040][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.19-04.22.45:049][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.19-04.22.45:068][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.19-04.22.45:373][  0]SourceControl: Source control is disabled
-[2019.02.19-04.22.45:373][  0]SourceControl: Source control is disabled
-[2019.02.19-04.22.45:385][  0]SourceControl: Source control is disabled
-[2019.02.19-04.22.45:390][  0]SourceControl: Source control is disabled
-[2019.02.19-04.22.45:759][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.19-04.22.45:944][  0]LogOcInput: OculusInput pre-init called
-[2019.02.19-04.22.46:020][  0]LogEngine: Initializing Engine...
-[2019.02.19-04.22.46:021][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.19-04.22.46:022][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.19-04.22.46:023][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.19-04.22.46:023][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.19-04.22.46:023][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.19-04.22.46:186][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.19-04.22.46:204][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.19-04.22.46:286][  0]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.19-04.22.46:324][  0]LogInit: FAudioDevice initialized.
-[2019.02.19-04.22.46:325][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.19-04.22.46:392][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/Windows/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.19-04.22.46:398][  0]LogInit: Texture streaming: Enabled
-[2019.02.19-04.22.46:438][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.19-04.22.46:438][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={CD274FE1-4587-147C-60D9-36B032461309}
-[2019.02.19-04.22.46:453][  0]LogInit: Transaction tracking system initialized
-[2019.02.19-04.22.46:507][  0]BlueprintLog: New page: Editor Load
-[2019.02.19-04.22.46:704][  0]LocalizationService: Localization service is disabled
-[2019.02.19-04.22.47:007][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.19-04.22.47:007][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.19-04.22.47:007][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.19-04.22.47:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.19-04.22.47:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.19-04.22.47:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.19-04.22.47:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.19-04.22.47:068][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/' took 0.02s
-[2019.02.19-04.22.47:269][  0]SourceControl: Source control is disabled
-[2019.02.19-04.22.47:270][  0]Cmd: MAP LOAD FILE="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.19-04.22.47:270][  0]LightingResults: New page: Lighting Build
-[2019.02.19-04.22.47:273][  0]MapCheck: New page: Map Check
-[2019.02.19-04.22.47:273][  0]LightingResults: New page: Lighting Build
-[2019.02.19-04.22.47:477][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
-[2019.02.19-04.22.47:486][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.19-04.22.47:508][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.19-04.22.47:583][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 74.61ms to complete.
-[2019.02.19-04.22.47:583][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 0.314
-[2019.02.19-04.22.47:681][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-04.22.47:686][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-04.22.47:692][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-04.22.47:696][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-04.22.47:709][  0]LogCollectionManager: Loaded 0 collections in 0.002891 seconds
-[2019.02.19-04.22.47:755][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/Collections/' took 0.01s
-[2019.02.19-04.22.47:756][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/Developers/Windows/Collections/' took 0.01s
-[2019.02.19-04.22.47:756][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/Collections/' took 0.01s
-[2019.02.19-04.22.47:756][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.02.19-04.22.47:764][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2585 classes and 608 folders.
-[2019.02.19-04.22.47:771][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.02.19-04.22.47:817][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.02.19-04.22.47:829][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2019.02.19-04.22.47:841][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.19-04.22.47:842][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.19-04.22.47:847][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.19-04.22.47:907][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.02.19-04.22.47:937][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.19-04.22.48:038][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.02.19-04.22.48:038][  0]LogLoad: (Engine Initialization) Total time: 9.43 seconds
-[2019.02.19-04.22.48:038][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.19-04.22.48:056][  0]LogRawInputWindows: Warning: Found device 0 devices
-[2019.02.19-04.22.48:056][  0]LogRawInputWindows: Warning: Found device 0 devices
-[2019.02.19-04.22.48:056][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
-[2019.02.19-04.22.48:056][  0]LogRawInputWindows: Warning: Found device 1 devices
-[2019.02.19-04.22.48:056][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
-[2019.02.19-04.22.48:083][  0]LogAssetRegistry: Asset discovery search completed in 4.9470 seconds
-[2019.02.19-04.22.48:084][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.19-04.22.48:084][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000131 seconds (updated 0 objects)
-[2019.02.19-04.22.48:086][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.19-04.22.51:257][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.22.51:348][146]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.19-04.22.51:357][146]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2019.02.19-04.22.51:357][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.19-04.22.51:371][146]PIE: New page: PIE session: VehicleExampleMap (Feb 18, 2019, 6:22:51 PM)
-[2019.02.19-04.22.51:371][146]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
-[2019.02.19-04.22.51:390][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019434s)
-[2019.02.19-04.22.51:391][146]LogAIModule: Creating AISystem for world VehicleExampleMap
-[2019.02.19-04.22.51:391][146]LogPlayLevel: PIE: World Init took: (0.000948s)
-[2019.02.19-04.22.51:391][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.020783s)
-[2019.02.19-04.22.51:447][146]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.19-04.22.51:461][146]LogInit: FAudioDevice initialized.
-[2019.02.19-04.22.51:505][146]LogLoad: Game class is 'VehicleMovementGameMode'
-[2019.02.19-04.22.51:510][146]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.02.18-23.22.51
-[2019.02.19-04.22.51:511][146]LogWorld: Bringing up level for play took: 0.001942
-[2019.02.19-04.22.51:530][146]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
-[2019.02.19-04.22.51:531][146]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap -0.127
-[2019.02.19-04.22.51:531][146]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2019.02.19-04.22.54:267][472]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.22.54:592][511]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.22.54:917][550]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.22.59:667][120]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.23.01:534][344]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.23.03:768][612]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.23.05:202][784]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.23.09:276][273]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.23.09:552][306]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.23.10:427][411]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.23.10:651][438]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.23.10:811][457]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.23.10:901][468]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.23.10:985][478]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.23.11:068][488]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.23.11:177][501]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.23.11:277][513]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.23.12:527][663]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.23.12:843][701]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.23.13:735][808]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.23.15:678][949]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.23.18:748][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2019.02.19-04.23.18:749][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-04.23.18:790][292]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.19-04.23.18:790][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2019.02.19-04.23.18:814][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-04.23.18:858][296]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2019.02.19-04.23.23:331][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.19-04.23.27:624][330]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.02.19-04.23.47:230][676]Candidate modules for hot reload:
-[2019.02.19-04.23.47:230][676]  VehicleMovement
-[2019.02.19-04.23.47:230][676]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=VehicleMovement,6854 Win64 Development -TargetType=Editor -Project="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" -canskiplink "E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" ]
-[2019.02.19-04.23.47:238][676]Warning: Starting HotReload took  0.0s.
-[2019.02.19-04.23.53:643][296]CompilerResultsLog: New page: Compilation - Feb 18, 2019, 6:23:53 PM
-[2019.02.19-04.23.53:643][296]CompilerResultsLog: Creating makefile for hot reloading VehicleMovementEditor (ini files are newer than UBTMakefile)
-[2019.02.19-04.23.53:643][296]CompilerResultsLog: Compiling game modules for hot reload
-[2019.02.19-04.23.53:643][296]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.02.19-04.23.53:643][296]CompilerResultsLog: Target is up to date
-[2019.02.19-04.23.53:643][296]CompilerResultsLog: Total build time: 6.13 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2019.02.19-04.23.53:644][296]LogMainFrame: MainFrame: Module compiling took 6.416 seconds
-[2019.02.19-04.23.53:674][296]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2586 classes and 610 folders.
-[2019.02.19-04.23.53:674][296]Display: HotReload took  6.5s.
-[2019.02.19-04.23.54:884][441]LogTemp: Repeating last play command: Selected Viewport
-[2019.02.19-04.23.54:894][441]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2019.02.19-04.23.54:894][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.19-04.23.54:894][441]PIE: New page: PIE session: VehicleExampleMap (Feb 18, 2019, 6:23:54 PM)
-[2019.02.19-04.23.54:894][441]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
-[2019.02.19-04.23.54:905][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011921s)
-[2019.02.19-04.23.54:906][441]LogAIModule: Creating AISystem for world VehicleExampleMap
-[2019.02.19-04.23.54:906][441]LogPlayLevel: PIE: World Init took: (0.000725s)
-[2019.02.19-04.23.54:906][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.012932s)
-[2019.02.19-04.23.54:992][441]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.19-04.23.55:006][441]LogInit: FAudioDevice initialized.
-[2019.02.19-04.23.55:044][441]LogLoad: Game class is 'VehicleMovementGameMode'
-[2019.02.19-04.23.55:049][441]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.02.18-23.23.55
-[2019.02.19-04.23.55:049][441]LogWorld: Bringing up level for play took: 0.001956
-[2019.02.19-04.23.55:062][441]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap -0.595
-[2019.02.19-04.23.55:062][441]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2019.02.19-04.23.56:151][570]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.23.56:343][593]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.23.57:019][674]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.23.57:410][721]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.23.58:360][835]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.24.06:852][854]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.24.08:602][ 64]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.24.12:511][533]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.24.12:877][577]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.24.13:044][597]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.24.13:170][612]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.24.13:294][627]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.24.20:618][870]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.24.21:410][965]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.24.21:876][ 21]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.24.22:593][107]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.24.23:002][156]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.24.23:969][272]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.24.24:251][306]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.24.27:302][672]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.24.27:960][751]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.24.37:124][849]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.24.38:066][962]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.24.40:008][195]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.24.42:467][490]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.24.43:467][610]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.24.44:383][720]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.24.45:258][825]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.24.45:917][904]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.24.47:167][ 54]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.24.47:241][ 63]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.24.47:516][ 96]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.24.52:229][593]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.19-04.25.00:794][607]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2019.02.19-04.25.04:293][ 24]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.04:942][102]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.06:018][231]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.06:176][250]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.06:343][270]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.06:443][282]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.06:642][306]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.06:751][319]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.06:842][330]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.06:918][339]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.07:001][349]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.07:092][360]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.07:167][369]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.07:242][378]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.07:318][387]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.07:376][394]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.07:451][403]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.07:501][409]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.07:576][418]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.07:626][424]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.07:701][433]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.07:751][439]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.07:817][447]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.07:885][455]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.07:984][467]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.08:068][477]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.08:118][483]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.08:176][490]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.08:268][501]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.08:310][506]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.08:393][516]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.08:460][524]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.08:526][532]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.08:609][542]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.08:668][549]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.08:759][560]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.08:826][568]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.08:868][573]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.08:968][585]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.09:009][590]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.09:110][602]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.09:151][607]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.09:284][623]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.09:384][635]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.09:460][644]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.09:526][652]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.09:618][663]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.09:693][672]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.09:784][683]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.09:876][694]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.09:935][701]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.10:035][713]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.10:085][719]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.10:176][730]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.10:235][737]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.10:318][747]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.10:343][750]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.10:452][763]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.10:485][767]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.10:559][776]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.10:643][786]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.10:685][791]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.10:718][795]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.10:809][806]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.10:909][818]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.12:093][960]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.12:301][985]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.12:393][996]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.12:501][  9]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.12:551][ 15]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.12:643][ 26]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.12:702][ 33]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.12:793][ 44]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.12:876][ 54]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.13:018][ 71]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.13:127][ 84]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.13:851][171]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.15:218][335]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.15:552][375]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.25:836][609]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.29:736][ 77]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.39:533][251]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.43:200][691]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.44:299][823]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.44:599][859]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.45:625][982]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.46:016][ 29]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.46:683][109]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.47:174][168]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.47:466][203]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.47:616][221]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.48:725][354]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.49:033][391]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.50:883][613]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.51:658][706]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.53:325][906]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.54:517][ 49]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.55:826][206]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.56:259][258]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.58:534][531]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.58:734][555]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.25.59:476][644]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.25.59:900][695]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.26.00:942][820]LogTemp: Break Speed:  255.000000
-[2019.02.19-04.26.00:950][821]LogTemp: Break Speed:  236.000000
-[2019.02.19-04.26.00:959][822]LogTemp: Break Speed:  217.000000
-[2019.02.19-04.26.00:967][823]LogTemp: Break Speed:  198.000000
-[2019.02.19-04.26.00:975][824]LogTemp: Break Speed:  179.000000
-[2019.02.19-04.26.00:984][825]LogTemp: Break Speed:  160.000000
-[2019.02.19-04.26.00:992][826]LogTemp: Break Speed:  141.000000
-[2019.02.19-04.26.01:000][827]LogTemp: Break Speed:  122.000000
-[2019.02.19-04.26.01:009][828]LogTemp: Break Speed:  103.000000
-[2019.02.19-04.26.01:017][829]LogTemp: Break Speed:  84.000000
-[2019.02.19-04.26.01:025][830]LogTemp: Break Speed:  65.000000
-[2019.02.19-04.26.01:034][831]LogTemp: Break Speed:  46.000000
-[2019.02.19-04.26.01:042][832]LogTemp: Break Speed:  27.000000
-[2019.02.19-04.26.01:050][833]LogTemp: Break Speed:  8.000000
-[2019.02.19-04.26.01:059][834]LogTemp: Break Speed:  -11.000000
-[2019.02.19-04.26.01:076][836]LogTemp: Break Speed:  -8.990000
-[2019.02.19-04.26.01:092][838]LogTemp: Break Speed:  -6.980000
-[2019.02.19-04.26.01:109][840]LogTemp: Break Speed:  -4.980000
-[2019.02.19-04.26.01:126][842]LogTemp: Break Speed:  -2.969999
-[2019.02.19-04.26.01:142][844]LogTemp: Break Speed:  -0.959999
-[2019.02.19-04.26.01:151][845]LogTemp: Break Speed:  -19.959999
-[2019.02.19-04.26.01:167][847]LogTemp: Break Speed:  -17.949999
-[2019.02.19-04.26.01:184][849]LogTemp: Break Speed:  -15.939999
-[2019.02.19-04.26.01:201][851]LogTemp: Break Speed:  -13.929998
-[2019.02.19-04.26.01:218][853]LogTemp: Break Speed:  -11.929998
-[2019.02.19-04.26.01:234][855]LogTemp: Break Speed:  -9.919998
-[2019.02.19-04.26.01:251][857]LogTemp: Break Speed:  -7.909998
-[2019.02.19-04.26.01:267][859]LogTemp: Break Speed:  -5.899998
-[2019.02.19-04.26.01:284][861]LogTemp: Break Speed:  -3.889997
-[2019.02.19-04.26.01:300][863]LogTemp: Break Speed:  -1.879997
-[2019.02.19-04.26.01:317][865]LogTemp: Break Speed:  0.130003
-[2019.02.19-04.26.01:326][866]LogTemp: Break Speed:  -18.869997
-[2019.02.19-04.26.01:342][868]LogTemp: Break Speed:  -16.859997
-[2019.02.19-04.26.01:359][870]LogTemp: Break Speed:  -14.849997
-[2019.02.19-04.26.01:375][872]LogTemp: Break Speed:  -12.839996
-[2019.02.19-04.26.01:392][874]LogTemp: Break Speed:  -10.829996
-[2019.02.19-04.26.01:409][876]LogTemp: Break Speed:  -8.819996
-[2019.02.19-04.26.01:425][878]LogTemp: Break Speed:  -6.809996
-[2019.02.19-04.26.01:442][880]LogTemp: Break Speed:  -4.809996
-[2019.02.19-04.26.01:459][882]LogTemp: Break Speed:  -2.799995
-[2019.02.19-04.26.01:476][884]LogTemp: Break Speed:  -0.789995
-[2019.02.19-04.26.01:484][885]LogTemp: Break Speed:  -19.789995
-[2019.02.19-04.26.01:501][887]LogTemp: Break Speed:  -17.779995
-[2019.02.19-04.26.01:517][889]LogTemp: Break Speed:  -15.769995
-[2019.02.19-04.26.01:534][891]LogTemp: Break Speed:  -13.759995
-[2019.02.19-04.26.01:551][893]LogTemp: Break Speed:  -11.759995
-[2019.02.19-04.26.01:568][895]LogTemp: Break Speed:  -9.749994
-[2019.02.19-04.26.01:584][897]LogTemp: Break Speed:  -7.739994
-[2019.02.19-04.26.01:601][899]LogTemp: Break Speed:  -5.729994
-[2019.02.19-04.26.01:618][901]LogTemp: Break Speed:  -3.719994
-[2019.02.19-04.26.01:634][903]LogTemp: Break Speed:  -1.709993
-[2019.02.19-04.26.01:651][905]LogTemp: Break Speed:  0.300007
-[2019.02.19-04.26.01:659][906]LogTemp: Break Speed:  -18.699993
-[2019.02.19-04.26.01:675][908]LogTemp: Break Speed:  -16.689993
-[2019.02.19-04.26.01:692][910]LogTemp: Break Speed:  -14.679993
-[2019.02.19-04.26.01:709][912]LogTemp: Break Speed:  -12.669992
-[2019.02.19-04.26.01:725][914]LogTemp: Break Speed:  -10.659992
-[2019.02.19-04.26.01:742][916]LogTemp: Break Speed:  -8.649992
-[2019.02.19-04.26.01:759][918]LogTemp: Break Speed:  -6.639992
-[2019.02.19-04.26.01:775][920]LogTemp: Break Speed:  -4.639992
-[2019.02.19-04.26.01:793][922]LogTemp: Break Speed:  -2.629992
-[2019.02.19-04.26.01:809][924]LogTemp: Break Speed:  -0.619991
-[2019.02.19-04.26.01:817][925]LogTemp: Break Speed:  -19.619991
-[2019.02.19-04.26.01:834][927]LogTemp: Break Speed:  -17.609991
-[2019.02.19-04.26.01:850][929]LogTemp: Break Speed:  -15.599991
-[2019.02.19-04.26.01:867][931]LogTemp: Break Speed:  -13.589991
-[2019.02.19-04.26.01:884][933]LogTemp: Break Speed:  -11.589991
-[2019.02.19-04.26.01:900][935]LogTemp: Break Speed:  -9.579990
-[2019.02.19-04.26.01:917][937]LogTemp: Break Speed:  -7.569990
-[2019.02.19-04.26.01:934][939]LogTemp: Break Speed:  -5.559990
-[2019.02.19-04.26.01:950][941]LogTemp: Break Speed:  -3.549990
-[2019.02.19-04.26.02:076][956]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.26.03:659][146]LogTemp: Break Speed:  -2.000000
-[2019.02.19-04.26.03:675][148]LogTemp: Break Speed:  -4.010000
-[2019.02.19-04.26.03:692][150]LogTemp: Break Speed:  -6.020000
-[2019.02.19-04.26.03:709][152]LogTemp: Break Speed:  -8.030001
-[2019.02.19-04.26.03:725][154]LogTemp: Break Speed:  -10.040001
-[2019.02.19-04.26.03:742][156]LogTemp: Break Speed:  -12.050001
-[2019.02.19-04.26.03:759][158]LogTemp: Break Speed:  -14.060001
-[2019.02.19-04.26.03:776][160]LogTemp: Break Speed:  -16.070002
-[2019.02.19-04.26.03:792][162]LogTemp: Break Speed:  -18.080002
-[2019.02.19-04.26.03:818][165]LogTemp: Break Speed:  -1.100002
-[2019.02.19-04.26.03:834][167]LogTemp: Break Speed:  -3.110003
-[2019.02.19-04.26.03:851][169]LogTemp: Break Speed:  -5.120003
-[2019.02.19-04.26.03:868][171]LogTemp: Break Speed:  -7.130003
-[2019.02.19-04.26.03:884][173]LogTemp: Break Speed:  -9.130003
-[2019.02.19-04.26.03:901][175]LogTemp: Break Speed:  -11.140003
-[2019.02.19-04.26.03:918][177]LogTemp: Break Speed:  -13.150003
-[2019.02.19-04.26.03:934][179]LogTemp: Break Speed:  -15.150003
-[2019.02.19-04.26.03:951][181]LogTemp: Break Speed:  -17.160004
-[2019.02.19-04.26.03:967][183]LogTemp: Break Speed:  -19.170004
-[2019.02.19-04.26.03:992][186]LogTemp: Break Speed:  -2.170004
-[2019.02.19-04.26.04:009][188]LogTemp: Break Speed:  -4.180004
-[2019.02.19-04.26.04:026][190]LogTemp: Break Speed:  -6.190004
-[2019.02.19-04.26.04:042][192]LogTemp: Break Speed:  -8.200005
-[2019.02.19-04.26.04:059][194]LogTemp: Break Speed:  -10.210005
-[2019.02.19-04.26.04:076][196]LogTemp: Break Speed:  -12.220005
-[2019.02.19-04.26.04:092][198]LogTemp: Break Speed:  -14.230005
-[2019.02.19-04.26.04:109][200]LogTemp: Break Speed:  -16.230005
-[2019.02.19-04.26.04:126][202]LogTemp: Break Speed:  -18.240005
-[2019.02.19-04.26.04:151][205]LogTemp: Break Speed:  -1.260006
-[2019.02.19-04.26.04:167][207]LogTemp: Break Speed:  -3.270006
-[2019.02.19-04.26.04:184][209]LogTemp: Break Speed:  -5.280006
-[2019.02.19-04.26.04:201][211]LogTemp: Break Speed:  -7.290007
-[2019.02.19-04.26.04:218][213]LogTemp: Break Speed:  -9.290007
-[2019.02.19-04.26.04:234][215]LogTemp: Break Speed:  -11.300007
-[2019.02.19-04.26.04:251][217]LogTemp: Break Speed:  -13.310007
-[2019.02.19-04.26.04:268][219]LogTemp: Break Speed:  -15.320007
-[2019.02.19-04.26.04:284][221]LogTemp: Break Speed:  -17.330008
-[2019.02.19-04.26.04:301][223]LogTemp: Break Speed:  -19.340008
-[2019.02.19-04.26.04:327][226]LogTemp: Break Speed:  -2.340008
-[2019.02.19-04.26.04:344][228]LogTemp: Break Speed:  -4.350008
-[2019.02.19-04.26.04:360][230]LogTemp: Break Speed:  -6.360008
-[2019.02.19-04.26.04:377][232]LogTemp: Break Speed:  -8.370008
-[2019.02.19-04.26.04:392][234]LogTemp: Break Speed:  -10.380009
-[2019.02.19-04.26.04:409][236]LogTemp: Break Speed:  -12.390009
-[2019.02.19-04.26.04:425][238]LogTemp: Break Speed:  -14.400009
-[2019.02.19-04.26.04:442][240]LogTemp: Break Speed:  -16.400009
-[2019.02.19-04.26.04:459][242]LogTemp: Break Speed:  -18.410009
-[2019.02.19-04.26.04:484][245]LogTemp: Break Speed:  -1.430010
-[2019.02.19-04.26.04:500][247]LogTemp: Break Speed:  -3.440010
-[2019.02.19-04.26.04:517][249]LogTemp: Break Speed:  -5.450010
-[2019.02.19-04.26.04:534][251]LogTemp: Break Speed:  -7.460011
-[2019.02.19-04.26.04:551][253]LogTemp: Break Speed:  -9.460011
-[2019.02.19-04.26.04:567][255]LogTemp: Break Speed:  -11.470011
-[2019.02.19-04.26.04:584][257]LogTemp: Break Speed:  -13.480011
-[2019.02.19-04.26.04:601][259]LogTemp: Break Speed:  -15.490011
-[2019.02.19-04.26.04:617][261]LogTemp: Break Speed:  -17.500011
-[2019.02.19-04.26.04:634][263]LogTemp: Break Speed:  -19.510012
-[2019.02.19-04.26.04:659][266]LogTemp: Break Speed:  -2.510012
-[2019.02.19-04.26.04:676][268]LogTemp: Break Speed:  -4.520012
-[2019.02.19-04.26.04:693][270]LogTemp: Break Speed:  -6.530012
-[2019.02.19-04.26.04:709][272]LogTemp: Break Speed:  -8.540012
-[2019.02.19-04.26.04:726][274]LogTemp: Break Speed:  -10.550013
-[2019.02.19-04.26.04:743][276]LogTemp: Break Speed:  -12.560013
-[2019.02.19-04.26.04:759][278]LogTemp: Break Speed:  -14.570013
-[2019.02.19-04.26.04:776][280]LogTemp: Break Speed:  -16.570013
-[2019.02.19-04.26.04:793][282]LogTemp: Break Speed:  -18.580013
-[2019.02.19-04.26.04:818][285]LogTemp: Break Speed:  -1.600014
-[2019.02.19-04.26.04:835][287]LogTemp: Break Speed:  -3.610014
-[2019.02.19-04.26.04:850][289]LogTemp: Break Speed:  -5.620014
-[2019.02.19-04.26.05:384][353]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.26.10:134][923]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.26.13:385][313]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.26.13:918][377]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.26.18:477][924]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.26.19:794][ 82]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.26.23:094][478]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.26.25:344][748]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.26.25:619][781]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.26.29:127][202]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.26.30:102][319]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.26.31:519][489]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.26.32:444][600]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.26.35:369][951]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.26.36:078][ 36]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.26.38:069][275]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.26.38:436][319]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.26.43:640][942]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.26.46:366][269]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.26.50:866][809]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.26.51:924][936]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.26.55:142][322]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.26.55:841][406]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.26.57:067][553]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.26.57:484][603]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.26.58:416][715]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.26.58:633][741]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.27.01:016][ 27]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.27.01:442][ 78]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.27.19:568][253]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.27.22:601][617]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.27.28:127][280]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.27.29:686][467]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.27.33:544][930]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.27.34:911][ 94]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.27.35:944][218]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.27.36:002][225]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.27.52:842][244]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.27.58:341][904]LogTemp: Warning: Boost Pressed
-[2019.02.19-04.28.01:575][292]LogTemp: Warning: Boost Un-Pressed
-[2019.02.19-04.28.04:484][641]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2019.02.19-04.28.04:484][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-04.28.04:519][641]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.19-04.28.04:520][641]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
-[2019.02.19-04.28.04:544][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.19-04.28.04:588][644]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.02.20-22.32.36:895][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.20-22.32.36:895][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.20-22.32.36:908][  0]LogHAL: Display: Platform has ~ 16 GB [17125281792 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.20-22.32.36:908][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.20-22.32.36:908][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.20-22.32.36:910][  0]LogInit: Computer: DESKTOP-6JV4Q76
+[2019.02.20-22.32.36:910][  0]LogInit: User: Windows
+[2019.02.20-22.32.36:910][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.02.20-22.32.36:910][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.20-22.32.36:910][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.02.20-22.32.36:910][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.20-22.32.36:910][  0]LogMemory: Process Physical Memory: 102.27 MB used, 102.27 MB peak
+[2019.02.20-22.32.36:910][  0]LogMemory: Process Virtual Memory: 93.86 MB used, 93.86 MB peak
+[2019.02.20-22.32.36:910][  0]LogMemory: Physical Memory: 6801.74 MB used,  9530.20 MB free, 16331.94 MB total
+[2019.02.20-22.32.36:910][  0]LogMemory: Virtual Memory: 4663.15 MB used,  9530.20 MB free, 134217728.00 MB total
+[2019.02.20-22.32.37:215][  0]LogInit: Using OS detected language (en-US).
+[2019.02.20-22.32.37:215][  0]LogInit: Using OS detected locale (en-US).
+[2019.02.20-22.32.37:218][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.20-22.32.37:527][  0]LogStreaming: Display: Took  0.312s to InitEngineTextLocalization.
+[2019.02.20-22.32.37:527][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.20-22.32.37:585][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.20-22.32.37:585][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.20-22.32.37:995][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.20-22.32.37:995][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.20-22.32.38:109][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.02.20-22.32.38:109][  0]LogD3D11RHI:       6052/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.20-22.32.38:111][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.20-22.32.38:111][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.20-22.32.38:111][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.20-22.32.38:117][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.20-22.32.38:117][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.20-22.32.38:117][  0]LogWindows: EnumDisplayDevices:
+[2019.02.20-22.32.38:117][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.02.20-22.32.38:117][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.02.20-22.32.38:118][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.02.20-22.32.38:118][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.02.20-22.32.38:118][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.20-22.32.38:118][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.02.20-22.32.38:118][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.02.20-22.32.38:118][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.02.20-22.32.38:118][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.02.20-22.32.38:158][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.20-22.32.38:181][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.20-22.32.38:183][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Intermediate/Shaders/WorkingDirectory/14804/).
+[2019.02.20-22.32.38:184][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Windows/AppData/Local/Temp/UnrealShaderWorkingDir/2A1BFCFE4259BE72E884869589DAF123/'.
+[2019.02.20-22.32.39:004][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.20-22.32.39:036][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.20-22.32.39:066][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.20-22.32.39:096][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.20-22.32.39:130][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.20-22.32.39:161][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.20-22.32.39:192][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.20-22.32.39:223][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.20-22.32.39:247][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:339][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.20-22.32.39:358][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.20-22.32.39:479][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.20-22.32.39:479][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.20-22.32.39:515][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.20-22.32.39:515][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.20-22.32.39:544][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.20-22.32.39:574][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.20-22.32.39:608][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.20-22.32.39:644][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.20-22.32.39:671][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.20-22.32.39:671][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.20-22.32.40:292][  0]LogXGEController: Cleaning working directory: C:/Users/Windows/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.20-22.32.40:292][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.20-22.32.40:292][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.20-22.32.40:292][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.20-22.32.41:080][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.20-22.32.41:332][  0]LogDerivedDataCache: Loaded boot cache 0.25s 73MB C:/Users/Windows/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.20-22.32.41:333][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Windows/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.20-22.32.41:333][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.20-22.32.41:333][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.20-22.32.41:333][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.20-22.32.41:333][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.20-22.32.41:349][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.20-22.32.41:363][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Windows/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.20-22.32.41:363][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.20-22.32.41:363][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.20-22.32.41:378][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.20-22.32.41:380][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.20-22.32.41:385][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.20-22.32.41:531][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2019.02.20-22.32.41:809][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.20-22.32.42:249][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.20-22.32.42:325][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.20-22.32.42:325][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.20-22.32.42:325][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.20-22.32.42:325][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.20-22.32.42:359][  0]LogNetVersion: VehicleMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2966596176)
+[2019.02.20-22.32.42:966][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.096790 seconds
+[2019.02.20-22.32.42:972][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.20-22.32.42:972][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.20-22.32.42:972][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.20-22.32.45:492][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.20-22.32.45:526][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.20-22.32.46:342][  0]SourceControl: Source control is disabled
+[2019.02.20-22.32.46:342][  0]SourceControl: Source control is disabled
+[2019.02.20-22.32.46:386][  0]SourceControl: Source control is disabled
+[2019.02.20-22.32.46:410][  0]SourceControl: Source control is disabled
+[2019.02.20-22.32.47:442][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.20-22.32.47:680][  0]LogOcInput: OculusInput pre-init called
+[2019.02.20-22.32.47:845][  0]LogEngine: Initializing Engine...
+[2019.02.20-22.32.47:847][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.20-22.32.47:848][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.20-22.32.47:848][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.20-22.32.47:848][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.20-22.32.47:848][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.20-22.32.48:049][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.20-22.32.48:090][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.20-22.32.48:160][  0]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.20-22.32.48:186][  0]LogInit: FAudioDevice initialized.
+[2019.02.20-22.32.48:186][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.20-22.32.48:258][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/Windows/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.20-22.32.48:265][  0]LogInit: Texture streaming: Enabled
+[2019.02.20-22.32.48:358][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.20-22.32.48:390][  0]LogInit: Transaction tracking system initialized
+[2019.02.20-22.32.48:529][  0]BlueprintLog: New page: Editor Load
+[2019.02.20-22.32.49:176][  0]LocalizationService: Localization service is disabled
+[2019.02.20-22.32.49:828][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.20-22.32.49:828][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.20-22.32.49:828][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.20-22.32.49:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.20-22.32.49:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.20-22.32.49:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.20-22.32.49:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.20-22.32.50:580][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/' took 0.02s
+[2019.02.20-22.32.50:580][  0]SourceControl: Source control is disabled
+[2019.02.20-22.32.50:581][  0]Cmd: MAP LOAD FILE="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.20-22.32.50:633][  0]LightingResults: New page: Lighting Build
+[2019.02.20-22.32.50:637][  0]MapCheck: New page: Map Check
+[2019.02.20-22.32.50:637][  0]LightingResults: New page: Lighting Build
+[2019.02.20-22.32.51:228][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.20-22.32.51:240][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.20-22.32.51:264][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.20-22.32.51:345][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.098ms to complete.
+[2019.02.20-22.32.51:345][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 0.764
+[2019.02.20-22.32.51:449][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-22.32.51:455][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-22.32.51:460][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-22.32.51:465][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-22.32.51:495][  0]LogCollectionManager: Loaded 0 collections in 0.002900 seconds
+[2019.02.20-22.32.51:536][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/Collections/' took 0.01s
+[2019.02.20-22.32.51:536][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/Developers/Windows/Collections/' took 0.01s
+[2019.02.20-22.32.51:536][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/Collections/' took 0.01s
+[2019.02.20-22.32.51:536][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.20-22.32.51:544][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2585 classes and 608 folders.
+[2019.02.20-22.32.51:551][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.20-22.32.51:692][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.20-22.32.51:727][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.02.20-22.32.51:742][  0]LogSlate: Took 0.001375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.20-22.32.51:745][  0]LogSlate: Took 0.001503 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.20-22.32.51:750][  0]LogSlate: Took 0.001188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.20-22.32.51:751][  0]LogSlate: Took 0.000861 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.02.20-22.32.51:844][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.02.20-22.32.51:995][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.20-22.32.51:995][  0]LogLoad: (Engine Initialization) Total time: 20.18 seconds
+[2019.02.20-22.32.51:995][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.20-22.32.52:012][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.02.20-22.32.52:012][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.02.20-22.32.52:012][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2019.02.20-22.32.52:013][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2019.02.20-22.32.52:013][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2019.02.20-22.32.52:028][  0]LogAssetRegistry: Asset discovery search completed in 10.5200 seconds
+[2019.02.20-22.32.52:029][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.20-22.32.52:029][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000153 seconds (updated 0 objects)
+[2019.02.20-22.32.52:032][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.20-22.33.31:885][388]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-22.33.31:941][395]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.20-22.33.31:951][395]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-22.33.31:952][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.20-22.33.31:964][395]PIE: New page: PIE session: VehicleExampleMap (Feb 20, 2019, 12:33:31 PM)
+[2019.02.20-22.33.31:964][395]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2019.02.20-22.33.31:989][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024223s)
+[2019.02.20-22.33.31:989][395]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.20-22.33.31:990][395]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2019.02.20-22.33.31:990][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.025445s)
+[2019.02.20-22.33.32:051][395]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.20-22.33.32:065][395]LogInit: FAudioDevice initialized.
+[2019.02.20-22.33.32:105][395]LogLoad: Game class is 'VehicleMovementGameMode'
+[2019.02.20-22.33.32:110][395]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.02.20-17.33.32
+[2019.02.20-22.33.32:110][395]LogWorld: Bringing up level for play took: 0.001846
+[2019.02.20-22.33.32:128][395]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2019.02.20-22.33.32:129][395]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.169
+[2019.02.20-22.33.32:129][395]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-22.33.33:744][586]LogTemp: Warning: Boost Pressed
+[2019.02.20-22.33.37:304][ 13]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-22.33.38:195][120]LogTemp: Warning: Boost Pressed
+[2019.02.20-22.33.38:878][202]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-22.33.40:070][345]LogTemp: Warning: Boost Pressed
+[2019.02.20-22.33.54:092][ 21]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-22.33.58:142][507]LogTemp: Warning: Boost Pressed
+[2019.02.20-22.33.58:933][602]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-22.34.00:192][753]LogTemp: Warning: Boost Pressed
+[2019.02.20-22.34.01:784][944]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-22.34.03:451][144]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-22.34.03:452][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-22.34.03:487][144]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.20-22.34.03:488][144]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-22.34.03:510][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-22.34.03:554][147]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.02.20-22.45.18:104][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-22.45.18:122][520]LogSlate: Took 0.004930 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.20-22.45.27:144][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-22.46.17:797][573]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.20-22.46.17:809][573]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/CarData_Struct67B3083C45BA3758350843BB90286E3B.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/BluePrint/Data/CarData_Struct.uasset'
+[2019.02.20-22.46.18:437][647]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/BluePrint/Data/CarData_Struct.CarData_Struct
+[2019.02.20-22.46.19:944][819]LogSlate: Took 0.004652 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.02.20-22.46.29:525][882]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrint/MyAVehiclePawn.MyAVehiclePawn
+[2019.02.20-22.46.29:893][882]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2019.02.20-22.46.30:477][882]LogSlate: Took 0.001477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.20-22.46.32:863][130]LogSlate: Took 0.004420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.20-22.48.19:805][ 22]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/CarData_Struct9371F68C4E6EBBE7B8542CB83F4B321E.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/BluePrint/Data/CarData_Struct.uasset'
+[2019.02.20-22.48.20:376][ 90]LogSlate: Window 'MyAVehiclePawn' being destroyed
+[2019.02.20-22.48.20:379][ 90]LogSlate: Window 'MyAVehiclePawn' being destroyed
+[2019.02.20-22.48.34:519][318]LogSlate: Window 'Pick Structure' being destroyed
+[2019.02.20-22.48.46:399][731]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/CarStat_DtataTableB3AEF10049CCF9F6326617BD2E0C00DB.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/BluePrint/Data/CarStat_DtataTable.uasset'
+[2019.02.20-22.48.47:158][821]LogAssetEditorManager: Opening Asset editor for DataTable /Game/BluePrint/Data/CarStat_DtataTable.CarStat_DtataTable
+[2019.02.20-22.49.12:085][736]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/CarStat_DtataTable1C58F68B45D7EBADAF76B0BD4F661273.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/BluePrint/Data/CarStat_DtataTable.uasset'
+[2019.02.20-22.49.17:346][240]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrint/MyAVehiclePawn.MyAVehiclePawn
+[2019.02.20-22.49.35:580][365]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/CarStat_DtataTableC4CCA6F24A6A888705E912A9E8D5152E.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/BluePrint/Data/CarStat_DtataTable.uasset'
+[2019.02.20-22.49.38:352][697]LogSlate: Window 'MyAVehiclePawn' being destroyed
+[2019.02.20-22.49.38:355][697]LogSlate: Window 'MyAVehiclePawn' being destroyed
+[2019.02.20-22.49.41:403][ 55]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrint/MyAVehiclePawn.MyAVehiclePawn
+[2019.02.20-22.50.20:038][610]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/MyAVehiclePawn10A835E642D178A3102207B34A1817E5.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/BluePrint/MyAVehiclePawn.uasset'
+[2019.02.20-22.51.14:302][334]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/MyAVehiclePawn4A1B6168443D6FAC6887FDBA7FB2136F.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/BluePrint/MyAVehiclePawn.uasset'
+[2019.02.20-22.51.51:633][636]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.02.20-22.51.51:639][636]LogClass: Warning: Type mismatch in CarArchetype of SKEL_MyAVehiclePawn_C - Previous (StructProperty) Current(NameProperty) for package:  FObjectReader
+[2019.02.20-22.51.53:944][899]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.02.20-22.51.53:947][899]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.02.20-22.52.27:888][941]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/MyAVehiclePawnD639501C4AE5F2A9822D318ACDBEBF6B.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/BluePrint/MyAVehiclePawn.uasset'
+[2019.02.20-22.53.03:787][240]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleCPP/Maps/VehicleExampleMap' took 0.026
+[2019.02.20-22.53.03:789][240]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/MyAVehiclePawn] ([1] browsable assets)...
+[2019.02.20-22.53.03:789][240]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/MyAVehiclePawn]
+[2019.02.20-22.53.04:224][240]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/MyAVehiclePawn_Auto17DB926DA4AE28AF8B4D50083CBBC99CE.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/Autosaves/Game/BluePrint/MyAVehiclePawn_Auto1.uasset'
+[2019.02.20-22.53.04:226][240]LogFileHelpers: Auto-saving content packages took 0.438
+[2019.02.20-23.10.58:312][606]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/MyAVehiclePawn46C63C0F4707B3BF9ED982A53F5E3B85.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/BluePrint/MyAVehiclePawn.uasset'
+[2019.02.20-23.11.05:663][486]BlueprintLog: New page: Compile MyAVehiclePawn
+[2019.02.20-23.11.07:393][677]LogSlate: Window 'MyAVehiclePawn' being destroyed
+[2019.02.20-23.11.07:398][677]LogSlate: Window 'MyAVehiclePawn' being destroyed
+[2019.02.20-23.11.18:211][954]LogAssetEditorManager: Opening Asset editor for DataTable /Game/BluePrint/Data/CarStat_DtataTable.CarStat_DtataTable
+[2019.02.20-23.11.21:610][357]LogSlate: Window 'CarStat_DtataTable' being destroyed
+[2019.02.20-23.11.21:614][357]LogSlate: Window 'CarStat_DtataTable' being destroyed
+[2019.02.20-23.11.25:193][760]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/VehicleExampleMap01F346FB4CF71EA1FEF1008F3F5DE64A.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap'
+[2019.02.20-23.11.26:214][879]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.20-23.11.26:224][879]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.11.26:224][879]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.20-23.11.26:224][879]PIE: New page: PIE session: VehicleExampleMap (Feb 20, 2019, 1:11:26 PM)
+[2019.02.20-23.11.26:225][879]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2019.02.20-23.11.26:239][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013842s)
+[2019.02.20-23.11.26:239][879]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.20-23.11.26:240][879]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2019.02.20-23.11.26:240][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.015350s)
+[2019.02.20-23.11.26:350][879]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.20-23.11.26:365][879]LogInit: FAudioDevice initialized.
+[2019.02.20-23.11.26:395][879]LogLoad: Game class is 'VehicleMovementGameMode'
+[2019.02.20-23.11.26:400][879]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.02.20-18.11.26
+[2019.02.20-23.11.26:400][879]LogWorld: Bringing up level for play took: 0.001748
+[2019.02.20-23.11.26:413][879]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.453
+[2019.02.20-23.11.26:413][879]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.11.28:637][144]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.11.46:730][315]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.11.47:038][352]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.11.47:238][376]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.11.47:605][420]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.12.04:415][435]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.12.14:774][678]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.12.15:991][824]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.12.17:890][ 52]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.12.19:382][231]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.12.27:483][203]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.12.32:600][817]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.12.34:142][  2]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.12.34:143][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-23.12.34:177][  2]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.20-23.12.34:178][  2]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.12.34:204][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-23.12.34:245][  5]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.02.20-23.12.36:696][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-23.12.36:851][317]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/BluePrint/Data/CarData_Struct.CarData_Struct
+[2019.02.20-23.12.43:619][124]LogSlate: Window 'CarData_Struct' being destroyed
+[2019.02.20-23.12.43:623][124]LogSlate: Window 'CarData_Struct' being destroyed
+[2019.02.20-23.12.54:197][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-23.12.54:272][400]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.20-23.12.54:281][400]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.12.54:282][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.20-23.12.54:282][400]PIE: New page: PIE session: VehicleExampleMap (Feb 20, 2019, 1:12:54 PM)
+[2019.02.20-23.12.54:282][400]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2019.02.20-23.12.54:295][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013310s)
+[2019.02.20-23.12.54:296][400]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.20-23.12.54:296][400]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2019.02.20-23.12.54:296][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.014480s)
+[2019.02.20-23.12.54:361][400]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.20-23.12.54:374][400]LogInit: FAudioDevice initialized.
+[2019.02.20-23.12.54:406][400]LogLoad: Game class is 'VehicleMovementGameMode'
+[2019.02.20-23.12.54:410][400]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.02.20-18.12.54
+[2019.02.20-23.12.54:410][400]LogWorld: Bringing up level for play took: 0.001687
+[2019.02.20-23.12.54:423][400]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.463
+[2019.02.20-23.12.54:423][400]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.12.55:189][490]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.12.55:789][562]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.12.56:273][620]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.12.59:132][963]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.12.59:372][992]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.13.01:481][245]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.13.02:465][363]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.13.04:931][659]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.13.05:257][698]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.13.05:514][729]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.13.05:648][745]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.13.07:356][950]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.13.10:833][367]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.13.10:833][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-23.13.10:867][367]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.20-23.13.10:867][367]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.13.10:892][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-23.13.10:940][371]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.02.20-23.13.18:364][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-23.13.23:501][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-23.15.53:007][658]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-23.15.58:361][277]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrint/MyAVehiclePawn.MyAVehiclePawn
+[2019.02.20-23.16.27:090][380]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.02.20-23.16.28:854][581]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.02.20-23.16.28:857][581]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.02.20-23.17.32:981][176]LogEditorTransaction: Undo Create Pin Link
+[2019.02.20-23.17.42:946][353]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/MyAVehiclePawn80498BF84D81DC1A6F3558AB486808D5.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/BluePrint/MyAVehiclePawn.uasset'
+[2019.02.20-23.17.58:743][233]BlueprintLog: New page: Compile MyAVehiclePawn
+[2019.02.20-23.17.58:752][233]LogClass: Warning: Type mismatch in CarArchetype of MyAVehiclePawn_C - Previous (NameProperty) Current(StructProperty) for package:  FObjectReader
+[2019.02.20-23.17.58:753][233]LogClass: Warning: Type mismatch in CarArchetype of MyAVehiclePawn_C - Previous (NameProperty) Current(StructProperty) for package:  FObjectReader
+[2019.02.20-23.18.00:168][359]LogSlate: Window 'MyAVehiclePawn*' being destroyed
+[2019.02.20-23.18.00:173][359]LogSlate: Window 'MyAVehiclePawn*' being destroyed
+[2019.02.20-23.18.15:093][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-23.18.15:348][143]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/VehicleExampleMap7BDED1114F116309206B939055C06840.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap'
+[2019.02.20-23.18.16:847][320]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.20-23.18.16:857][320]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.18.16:857][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.20-23.18.16:857][320]PIE: New page: PIE session: VehicleExampleMap (Feb 20, 2019, 1:18:16 PM)
+[2019.02.20-23.18.16:857][320]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2019.02.20-23.18.16:870][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012680s)
+[2019.02.20-23.18.16:871][320]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.20-23.18.16:871][320]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2019.02.20-23.18.16:871][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.013881s)
+[2019.02.20-23.18.16:955][320]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.20-23.18.16:969][320]LogInit: FAudioDevice initialized.
+[2019.02.20-23.18.17:001][320]LogLoad: Game class is 'VehicleMovementGameMode'
+[2019.02.20-23.18.17:006][320]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.02.20-18.18.17
+[2019.02.20-23.18.17:006][320]LogWorld: Bringing up level for play took: 0.001761
+[2019.02.20-23.18.17:019][320]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 1.06
+[2019.02.20-23.18.17:020][320]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.18.18:817][534]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.18.19:593][627]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.18.19:768][648]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.18.19:769][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-23.18.19:801][648]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.20-23.18.19:802][648]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.18.19:827][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-23.18.19:867][651]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.02.20-23.18.22:773][842]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-23.18.22:958][842]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/VehicleExampleMapC20441B1487CC5A59935F69DADB2CD08.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap'
+[2019.02.20-23.18.23:406][893]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-23.18.23:547][909]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrint/MyAVehiclePawn.MyAVehiclePawn
+[2019.02.20-23.18.36:736][260]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.02.20-23.18.36:742][260]LogClass: Warning: Property CarArchetype of CarArchetype has a struct type mismatch (tag DataTableRowHandle != prop DataTableCategoryHandle) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2019.02.20-23.18.38:172][423]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.02.20-23.18.38:175][423]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.02.20-23.18.51:283][982]LogEditorTransaction: Undo Delete current selection
+[2019.02.20-23.18.51:627][ 19]LogEditorTransaction: Undo Add Node
+[2019.02.20-23.18.51:952][ 55]LogEditorTransaction: Undo Delete current selection
+[2019.02.20-23.18.52:637][134]LogEditorTransaction: Undo Create Pin Link
+[2019.02.20-23.18.53:005][178]LogEditorTransaction: Undo Change Parameter Type
+[2019.02.20-23.18.53:017][178]LogClass: Warning: Property CarArchetype of CarArchetype has a struct type mismatch (tag DataTableCategoryHandle != prop DataTableRowHandle) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2019.02.20-23.18.54:475][344]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/MyAVehiclePawn17BE00624958227E64C88CB7F6DA3B59.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/BluePrint/MyAVehiclePawn.uasset'
+[2019.02.20-23.19.03:013][356]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/MyAVehiclePawnA8D263894B700752A76D119C40AFDBB4.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/BluePrint/MyAVehiclePawn.uasset'
+[2019.02.20-23.19.07:316][870]BlueprintLog: New page: Compile MyAVehiclePawn
+[2019.02.20-23.19.09:119][ 70]LogSlate: Window 'MyAVehiclePawn' being destroyed
+[2019.02.20-23.19.09:123][ 70]LogSlate: Window 'MyAVehiclePawn' being destroyed
+[2019.02.20-23.19.14:588][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-23.19.30:312][590]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrint/MyAVehiclePawn.MyAVehiclePawn
+[2019.02.20-23.20.25:980][157]BlueprintLog: New page: Compile MyAVehiclePawn
+[2019.02.20-23.20.27:992][348]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/MyAVehiclePawn465E6A75475494A807637194D5650B8B.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/BluePrint/MyAVehiclePawn.uasset'
+[2019.02.20-23.20.28:581][417]LogSlate: Window 'MyAVehiclePawn' being destroyed
+[2019.02.20-23.20.28:585][417]LogSlate: Window 'MyAVehiclePawn' being destroyed
+[2019.02.20-23.20.33:862][ 21]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/VehicleExampleMap3AD775954992A61EF41B30AA1E207DD6.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap'
+[2019.02.20-23.20.34:533][ 98]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.20-23.20.34:543][ 98]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.20.34:543][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.20-23.20.34:544][ 98]PIE: New page: PIE session: VehicleExampleMap (Feb 20, 2019, 1:20:34 PM)
+[2019.02.20-23.20.34:544][ 98]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2019.02.20-23.20.34:556][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011974s)
+[2019.02.20-23.20.34:557][ 98]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.02.20-23.20.34:557][ 98]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2019.02.20-23.20.34:557][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.013127s)
+[2019.02.20-23.20.34:660][ 98]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.20-23.20.34:674][ 98]LogInit: FAudioDevice initialized.
+[2019.02.20-23.20.34:709][ 98]LogLoad: Game class is 'VehicleMovementGameMode'
+[2019.02.20-23.20.34:713][ 98]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.02.20-18.20.34
+[2019.02.20-23.20.34:714][ 98]LogWorld: Bringing up level for play took: 0.002053
+[2019.02.20-23.20.34:727][ 98]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap 0.767
+[2019.02.20-23.20.34:727][ 98]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.20.36:027][252]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.20.38:370][531]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.20.44:104][219]LogTemp: Break Speed:  376.000000
+[2019.02.20-23.20.44:112][220]LogTemp: Break Speed:  357.000000
+[2019.02.20-23.20.44:120][221]LogTemp: Break Speed:  338.000000
+[2019.02.20-23.20.44:129][222]LogTemp: Break Speed:  319.000000
+[2019.02.20-23.20.44:137][223]LogTemp: Break Speed:  300.000000
+[2019.02.20-23.20.44:145][224]LogTemp: Break Speed:  281.000000
+[2019.02.20-23.20.44:154][225]LogTemp: Break Speed:  262.000000
+[2019.02.20-23.20.44:162][226]LogTemp: Break Speed:  243.000000
+[2019.02.20-23.20.44:170][227]LogTemp: Break Speed:  224.000000
+[2019.02.20-23.20.44:179][228]LogTemp: Break Speed:  205.000000
+[2019.02.20-23.20.44:187][229]LogTemp: Break Speed:  186.000000
+[2019.02.20-23.20.44:196][230]LogTemp: Break Speed:  167.000000
+[2019.02.20-23.20.44:204][231]LogTemp: Break Speed:  148.000000
+[2019.02.20-23.20.44:212][232]LogTemp: Break Speed:  129.000000
+[2019.02.20-23.20.44:220][233]LogTemp: Break Speed:  110.000000
+[2019.02.20-23.20.44:228][234]LogTemp: Break Speed:  91.000000
+[2019.02.20-23.20.44:237][235]LogTemp: Break Speed:  72.000000
+[2019.02.20-23.20.44:245][236]LogTemp: Break Speed:  53.000000
+[2019.02.20-23.20.44:254][237]LogTemp: Break Speed:  34.000000
+[2019.02.20-23.20.44:262][238]LogTemp: Break Speed:  15.000000
+[2019.02.20-23.20.44:270][239]LogTemp: Break Speed:  -4.000000
+[2019.02.20-23.20.44:287][241]LogTemp: Break Speed:  -1.990000
+[2019.02.20-23.20.44:304][243]LogTemp: Break Speed:  0.020000
+[2019.02.20-23.20.44:312][244]LogTemp: Break Speed:  -18.980000
+[2019.02.20-23.20.44:329][246]LogTemp: Break Speed:  -16.969999
+[2019.02.20-23.20.44:346][248]LogTemp: Break Speed:  -14.959999
+[2019.02.20-23.20.44:362][250]LogTemp: Break Speed:  -12.949999
+[2019.02.20-23.20.44:379][252]LogTemp: Break Speed:  -10.949999
+[2019.02.20-23.20.44:396][254]LogTemp: Break Speed:  -8.939999
+[2019.02.20-23.20.44:411][256]LogTemp: Break Speed:  -6.929998
+[2019.02.20-23.20.44:428][258]LogTemp: Break Speed:  -4.919998
+[2019.02.20-23.20.44:445][260]LogTemp: Break Speed:  -2.909998
+[2019.02.20-23.20.44:462][262]LogTemp: Break Speed:  -0.899998
+[2019.02.20-23.20.44:470][263]LogTemp: Break Speed:  -19.889997
+[2019.02.20-23.20.44:487][265]LogTemp: Break Speed:  -17.889997
+[2019.02.20-23.20.44:503][267]LogTemp: Break Speed:  -15.879997
+[2019.02.20-23.20.44:520][269]LogTemp: Break Speed:  -13.869997
+[2019.02.20-23.20.44:537][271]LogTemp: Break Speed:  -11.859997
+[2019.02.20-23.20.44:553][273]LogTemp: Break Speed:  -9.849997
+[2019.02.20-23.20.44:570][275]LogTemp: Break Speed:  -7.839996
+[2019.02.20-23.20.44:587][277]LogTemp: Break Speed:  -5.829996
+[2019.02.20-23.20.44:603][279]LogTemp: Break Speed:  -3.829996
+[2019.02.20-23.20.44:620][281]LogTemp: Break Speed:  -1.819996
+[2019.02.20-23.20.44:637][283]LogTemp: Break Speed:  0.190004
+[2019.02.20-23.20.44:645][284]LogTemp: Break Speed:  -18.809996
+[2019.02.20-23.20.44:662][286]LogTemp: Break Speed:  -16.799995
+[2019.02.20-23.20.44:679][288]LogTemp: Break Speed:  -14.789995
+[2019.02.20-23.20.44:695][290]LogTemp: Break Speed:  -12.779995
+[2019.02.20-23.20.44:712][292]LogTemp: Break Speed:  -10.779995
+[2019.02.20-23.20.44:729][294]LogTemp: Break Speed:  -8.769995
+[2019.02.20-23.20.44:745][296]LogTemp: Break Speed:  -6.759995
+[2019.02.20-23.20.44:762][298]LogTemp: Break Speed:  -4.749994
+[2019.02.20-23.20.44:779][300]LogTemp: Break Speed:  -2.739994
+[2019.02.20-23.20.44:796][302]LogTemp: Break Speed:  -0.729994
+[2019.02.20-23.20.44:804][303]LogTemp: Break Speed:  -19.719994
+[2019.02.20-23.20.44:821][305]LogTemp: Break Speed:  -17.719994
+[2019.02.20-23.20.44:837][307]LogTemp: Break Speed:  -15.709993
+[2019.02.20-23.20.44:853][309]LogTemp: Break Speed:  -13.699993
+[2019.02.20-23.20.44:870][311]LogTemp: Break Speed:  -11.689993
+[2019.02.20-23.20.44:886][313]LogTemp: Break Speed:  -9.679993
+[2019.02.20-23.20.44:903][315]LogTemp: Break Speed:  -7.669992
+[2019.02.20-23.20.44:920][317]LogTemp: Break Speed:  -5.659992
+[2019.02.20-23.20.52:296][202]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.20.57:038][771]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.20.58:296][922]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.21.10:156][345]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.21.12:698][650]LogTemp: Warning: Boost Pressed
+[2019.02.20-23.21.15:322][965]LogTemp: Warning: Boost Un-Pressed
+[2019.02.20-23.21.15:658][  5]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.21.15:658][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-23.21.15:692][  5]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.20-23.21.15:693][  5]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.02.20-23.21.15:719][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.20-23.21.15:760][  8]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.02.20-23.21.19:160][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Physic_Cube)
+[2019.02.20-23.21.20:420][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.20-23.21.45:827][595]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.20-23.21.46:003][595]LogSavePackage: Moving 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/VehicleExampleMap21D7D0F4407CA8961BF564A0542E1175.tmp' to 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap'
