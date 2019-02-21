@@ -102,7 +102,7 @@ AAVehiclePawn::AAVehiclePawn()
 	frameRate = 0.0098;
 	//WaitTimer = 3.0f;
 	canMove = true;
-	gravity = -25;
+	gravity = -9.8;
 }
 
 // Called when the game starts or when spawned
