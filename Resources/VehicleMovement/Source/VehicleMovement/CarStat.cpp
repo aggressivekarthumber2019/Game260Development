@@ -34,7 +34,7 @@ float UCarStat::GetAccelerationFactor() const
 
 float UCarStat::GetWeightFactor() const
 {
-	return MWeightFactor;
+	return FGenericPlatformMath::Abs(1.f - MWeightFactor);
 }
 
 void UCarStat::AcceptEnableMod(const UPawnStatMod* Mod)

@@ -92,15 +92,15 @@ AAVehiclePawn::AAVehiclePawn()
 
 	//PawnAcceleration = 50;
 	PawnDeceleration = 0.5;
-	PawnBrakeDeceleration = 1000;
+	PawnBrakeDeceleration = 5000.f;
 
 	//PawnNormalSpeed = 5200;
-	PawnBoostSpeed = 9200;
+	//PawnBoostSpeed = 9200;
 	//normalMaxSpeed = 1.0;
-	boostMaxSpeed = 1.5;
+	//boostMaxSpeed = 1.5;
 
 	frameRate = 0.0098;
-	WaitTimer = 3.0f;
+	//WaitTimer = 3.0f;
 	canMove = true;
 	gravity = -25;
 }
@@ -119,7 +119,10 @@ void AAVehiclePawn::BeginPlay()
 	if (PawnStatComponent->GetCurrentStat() != nullptr)
 	{
 		CurrentStat = CastChecked<UCarStat>(PawnStatComponent->GetCurrentStat());
+
 		PawnMovementComponent->MaxSpeed = CurrentStat->GetMaxSpeedFactor();
+		PawnMovementComponent->Acceleration = CurrentStat->GetAccelerationFactor() * CurrentStat->GetWeightFactor();
+		PawnMovementComponent->Deceleration = PawnBrakeDeceleration * CurrentStat->GetWeightFactor();
 	}
 
 	GetWorld()->GetTimerManager().SetTimer(LoopTimerHandle, this, &AAVehiclePawn::FixedUpdate, frameRate, true);
@@ -192,11 +195,11 @@ void AAVehiclePawn::MoveX(float AxisValue)
 	velocity = AxisValue;
 	if (AxisValue > 0)
 	{
-		currentSpeed += CurrentStat->GetAccelerationFactor() * 0.02f;
+		currentSpeed += AxisValue;
 	}
 	if (AxisValue < 0)
 	{
-		currentSpeed -= CurrentStat->GetAccelerationFactor() * 0.02f;
+		currentSpeed -= AxisValue;
 	}
 }
 
@@ -204,9 +207,8 @@ void AAVehiclePawn::MoveX(float AxisValue)
 void AAVehiclePawn::MoveY(float AxisValue)
 {
 	TurnVel = AxisValue;
-	float tempTurnCar = AxisValue / 20;
-	float tempTurn = currenTurn + tempTurnCar;
-	currenTurn = FMath::Clamp(tempTurn, -1.5f, 1.5f);
+	float tempTurn = currenTurn + AxisValue;
+	currenTurn = FMath::Clamp(tempTurn * CurrentStat->GetHandleFactor(), -1.f, 1.f);
 }
 
 void AAVehiclePawn::Brake(float AxisValue)
@@ -215,12 +217,12 @@ void AAVehiclePawn::Brake(float AxisValue)
 	{
 		if(currentSpeed > 0)
 		{
-			currentSpeed -= PawnBrakeDeceleration * 0.02f;
+			currentSpeed -= PawnBrakeDeceleration * CurrentStat->GetWeightFactor();
 			UE_LOG(LogTemp, Log, TEXT("Break Speed:  %f"), currentSpeed);
 
 		}else if(currentSpeed < 0)
 		{
-			currentSpeed += PawnBrakeDeceleration * 0.02f;
+			currentSpeed += PawnBrakeDeceleration * CurrentStat->GetWeightFactor();
 		}
 	}	
 }
@@ -229,20 +231,20 @@ void AAVehiclePawn::ReducedValues()
 {
 
 	// if the velocity is low and the car is moving slow it down
-	if (velocity < 1 && currentSpeed > 0)
-	{
-		currentSpeed -= PawnDeceleration * 0.02f;
+	//if (velocity < 1 && currentSpeed > 0)
+	//{
+	//	currentSpeed -= PawnDeceleration * CurrentStat->GetWeightFactor();
 
-	}
-	else
-	{
-		// if the velocity is low and the car is moving slow it down but in reverse
-		if (velocity > -1 && currentSpeed < 0)
-		{
-			currentSpeed += PawnDeceleration * 0.02f;
+	//}
+	//else
+	//{
+	//	// if the velocity is low and the car is moving slow it down but in reverse
+	//	if (velocity > -1 && currentSpeed < 0)
+	//	{
+	//		currentSpeed += PawnDeceleration * CurrentStat->GetWeightFactor();
 
-		}
-	}
+	//	}
+	//}
 	if (velocity == 0 && (currentSpeed <= 0.5 || currentSpeed >= -0.5))
 	{
 		currentSpeed = 0;
@@ -277,7 +279,6 @@ void AAVehiclePawn::MoveCar()
 	FVector TempFowardVector = FVector(GetActorForwardVector().X * currentSpeed, GetActorForwardVector().Y * currentSpeed, gravity);
 	TempFowardVector.Normalize(1);
 	PawnMovementComponent->AddInputVector(TempFowardVector);
-
 
 	// set the turn speed
 	AddActorLocalRotation(FRotator(0, currenTurn, 0));

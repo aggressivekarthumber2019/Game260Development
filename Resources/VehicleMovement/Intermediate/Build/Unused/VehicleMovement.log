@@ -1,13 +1,6 @@
-﻿  Parsing headers for VehicleMovementEditor
-    Running UnrealHeaderTool "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\VehicleMovement.uproject" "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for VehicleMovementEditor in 7.1097091 seconds
-  Building 5 actions with 12 processes...
-    [1/5] VehicleMovement.init.gen.cpp
-    [2/5] AVehiclePawn.gen.cpp
-    [3/5] AVehiclePawn.cpp
-    [4/5] UE4Editor-VehicleMovement.lib
-       Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.exp
-    [5/5] UE4Editor-VehicleMovement.dll
-       Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.suppressed.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.suppressed.exp
+﻿  Creating makefile for hot reloading VehicleMovementEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Target is up to date
   Deploying VehicleMovementEditor Win64 Development...
-  Total build time: 12.83 seconds (Parallel executor: 3.89 seconds)
+  Total build time: 5.37 seconds (NoActionsToExecute executor: 0.00 seconds)
