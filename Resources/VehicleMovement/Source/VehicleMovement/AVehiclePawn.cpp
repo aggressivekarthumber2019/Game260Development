@@ -25,6 +25,7 @@ AAVehiclePawn::AAVehiclePawn()
 	MeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Vehicle Mesh"));
 	SetRootComponent(MeshComponent);// make the vehicle into a root component
 
+
 	// Spring arm component
 	CameraSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Spring Arm"));
 	CameraSpringArm->TargetOffset = FVector(0.f, 0.f, 200.f);
@@ -100,9 +101,10 @@ AAVehiclePawn::AAVehiclePawn()
 	//boostMaxSpeed = 1.5;
 
 	frameRate = 0.0098;
-	//WaitTimer = 3.0f;
+	WaitTimer = 3.0f;
 	canMove = true;
 	gravity = -9.8;
+
 }
 
 // Called when the game starts or when spawned
@@ -142,7 +144,7 @@ void AAVehiclePawn::Tick(float DeltaTime)
 void AAVehiclePawn::FixedUpdate()
 {
 	RayCastGround();
-	
+
 	if (canMove)
 	{
 		ReducedValues();
@@ -200,7 +202,7 @@ void AAVehiclePawn::MoveX(float AxisValue)
 	}
 	if (AxisValue < 0)
 	{
-		currentSpeed -= AxisValue;
+		currentSpeed += AxisValue;
 	}
 }
 
