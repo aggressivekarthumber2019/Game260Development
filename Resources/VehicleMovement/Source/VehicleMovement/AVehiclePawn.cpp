@@ -112,7 +112,7 @@ void AAVehiclePawn::BeginPlay()
 	//MaxSpeed = normalMaxSpeed;
 	
 	SpeedCapMod = NewObject<USpeedCapMod>(this);
-	SpeedCapMod->guid = 1;
+	SpeedCapMod->MGUID = 1;
 	SpeedCapMod->MMaxStackCount = 1;
 	SpeedCapMod->MBoostedSpeed = 5200.f;
 	
@@ -179,6 +179,7 @@ void AAVehiclePawn::BoostPress()
 	PawnStatComponent->EnableMod(SpeedCapMod);
 	PawnMovementComponent->MaxSpeed = CurrentStat->GetMaxSpeedFactor();
 }
+
 void AAVehiclePawn::BoostRelease()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Boost Un-Pressed"));

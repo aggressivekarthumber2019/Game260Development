@@ -15,7 +15,8 @@ class VEHICLEMOVEMENT_API UPawnStat : public UObject
 {
 	GENERATED_BODY()
 
-		friend class USpeedCapMod;
+	friend class USpeedCapMod;
+	friend class UItemSpeedCapMod;
 	
 protected:
 	UPROPERTY(BlueprintReadWrite)

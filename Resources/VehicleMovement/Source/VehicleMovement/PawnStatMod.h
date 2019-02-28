@@ -13,25 +13,26 @@ class UMiscStat;
 /**
  * 
  */
-UCLASS()
+UCLASS(editinlinenew)
 class VEHICLEMOVEMENT_API UPawnStatMod : public UObject
 {
 	GENERATED_BODY()
 
 public:
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		/** \brief	Unique identifier */
-		int32 guid;
+		int32 MGUID;
 
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		/** \brief	Number of maximum stacks */
 		int32 MMaxStackCount;
 	
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		/** \brief	The maximum time of this mod in milliseconds */
 		float MMaxTimeMS;
 
-	UPawnStatMod();
+	UFUNCTION(BlueprintCallable)
+	void Construct(int32 GUID, int32 MaxStack, float MaxTimeMS);
 
 	int32 GetGUID() const;
 

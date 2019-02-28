@@ -56,7 +56,7 @@ void EmptyLinkFunctionForGeneratedCodeSpeedCapMod() {}
 		{ "ToolTip", "\\brief The amount of boosted speed" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_USpeedCapMod_Statics::NewProp_MBoostedSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "MBoostedSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000004, 1, nullptr, STRUCT_OFFSET(USpeedCapMod, MBoostedSpeed), METADATA_PARAMS(Z_Construct_UClass_USpeedCapMod_Statics::NewProp_MBoostedSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_USpeedCapMod_Statics::NewProp_MBoostedSpeed_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_USpeedCapMod_Statics::NewProp_MBoostedSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "MBoostedSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(USpeedCapMod, MBoostedSpeed), METADATA_PARAMS(Z_Construct_UClass_USpeedCapMod_Statics::NewProp_MBoostedSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_USpeedCapMod_Statics::NewProp_MBoostedSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_USpeedCapMod_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USpeedCapMod_Statics::NewProp_MBoostedSpeed,
 	};
@@ -66,7 +66,7 @@ void EmptyLinkFunctionForGeneratedCodeSpeedCapMod() {}
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_USpeedCapMod_Statics::ClassParams = {
 		&USpeedCapMod::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x001000A0u,
+		0x001010A0u,
 		nullptr, 0,
 		Z_Construct_UClass_USpeedCapMod_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_USpeedCapMod_Statics::PropPointers),
 		nullptr,
@@ -83,7 +83,7 @@ void EmptyLinkFunctionForGeneratedCodeSpeedCapMod() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USpeedCapMod, 3344275567);
+	IMPLEMENT_CLASS(USpeedCapMod, 273079539);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_USpeedCapMod(Z_Construct_UClass_USpeedCapMod, &USpeedCapMod::StaticClass, TEXT("/Script/VehicleMovement"), TEXT("USpeedCapMod"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(USpeedCapMod);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

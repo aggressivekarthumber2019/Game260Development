@@ -13,8 +13,34 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define VEHICLEMOVEMENT_PawnStatMod_generated_h
 
-#define VehicleMovement_Source_VehicleMovement_PawnStatMod_h_19_RPC_WRAPPERS
-#define VehicleMovement_Source_VehicleMovement_PawnStatMod_h_19_RPC_WRAPPERS_NO_PURE_DECLS
+#define VehicleMovement_Source_VehicleMovement_PawnStatMod_h_19_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execConstruct) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_GUID); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_MaxStack); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_MaxTimeMS); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Construct(Z_Param_GUID,Z_Param_MaxStack,Z_Param_MaxTimeMS); \
+		P_NATIVE_END; \
+	}
+
+
+#define VehicleMovement_Source_VehicleMovement_PawnStatMod_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execConstruct) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_GUID); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_MaxStack); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_MaxTimeMS); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Construct(Z_Param_GUID,Z_Param_MaxStack,Z_Param_MaxTimeMS); \
+		P_NATIVE_END; \
+	}
+
+
 #define VehicleMovement_Source_VehicleMovement_PawnStatMod_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPawnStatMod(); \
@@ -35,7 +61,7 @@ public: \
 
 #define VehicleMovement_Source_VehicleMovement_PawnStatMod_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UPawnStatMod(const FObjectInitializer& ObjectInitializer); \
+	NO_API UPawnStatMod(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPawnStatMod) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPawnStatMod); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPawnStatMod); \
@@ -47,6 +73,8 @@ public:
 
 
 #define VehicleMovement_Source_VehicleMovement_PawnStatMod_h_19_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPawnStatMod(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UPawnStatMod(UPawnStatMod&&); \
@@ -54,7 +82,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPawnStatMod); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPawnStatMod); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UPawnStatMod)
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPawnStatMod)
 
 
 #define VehicleMovement_Source_VehicleMovement_PawnStatMod_h_19_PRIVATE_PROPERTY_OFFSET

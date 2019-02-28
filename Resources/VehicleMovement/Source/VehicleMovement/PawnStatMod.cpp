@@ -2,11 +2,14 @@
 
 #include "PawnStatMod.h"
 
-UPawnStatMod::UPawnStatMod()
+void UPawnStatMod::Construct(int32 GUID, int32 MaxStack, float MaxTimeMS)
 {
+	MGUID = GUID;
+	MMaxStackCount = MaxStack;
+	MMaxTimeMS = MaxTimeMS;
 }
 
 int32 UPawnStatMod::GetGUID() const
 {
-	return guid;
+	return MGUID;
 }

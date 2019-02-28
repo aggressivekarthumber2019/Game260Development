@@ -9,14 +9,14 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(editinlinenew)
 class VEHICLEMOVEMENT_API USpeedCapMod : public UPawnStatMod
 {
 	GENERATED_BODY()
 	
 	
 public:
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		/** \brief	The amount of boosted speed */
 		float MBoostedSpeed;
 
