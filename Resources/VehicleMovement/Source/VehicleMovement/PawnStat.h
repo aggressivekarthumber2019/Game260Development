@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
-#include "PawnStatMod.h"
+#include "Items/Mods/PawnStatMod.h"
 #include "PawnStat.generated.h"
 
 /**
@@ -95,7 +95,7 @@ public:
 	 *
 	 * \param	Mod	The modifier.
 	 */
-	virtual void AcceptEnableMod(const UPawnStatMod* Mod) {};
+	virtual void AcceptEnableMod(UPawnStatMod* Mod) {};
 
 	/**
 	 * \fn	virtual void UPawnStat::AcceptDisableMod(const UPawnStatMod& Mod) = 0;
@@ -107,5 +107,5 @@ public:
 	 *
 	 * \param	Mod	The modifier.
 	 */
-	virtual void AcceptDisableMod(const UPawnStatMod* Mod) {};
+	virtual void AcceptDisableMod(UPawnStatMod* Mod) {};
 };

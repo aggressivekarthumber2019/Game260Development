@@ -37,7 +37,7 @@ UPawnStat* UPawnStatComponent::GetCurrentStat() const
 	return MBasePawnStat;
 }
 
-void UPawnStatComponent::EnableMod(const UPawnStatMod* Mod)
+void UPawnStatComponent::EnableMod(UPawnStatMod* Mod)
 {
 	if (MStatModifiers.Contains(Mod->GetGUID())) // Already has this mod
 	{
@@ -65,7 +65,7 @@ void UPawnStatComponent::EnableMod(const UPawnStatMod* Mod)
 	MBasePawnStat->AcceptEnableMod(Mod);
 }
 
-void UPawnStatComponent::DisableMod(const UPawnStatMod* Mod)
+void UPawnStatComponent::DisableMod(UPawnStatMod* Mod)
 {
 	if (MStatModifiers.Contains(Mod->GetGUID())) // Already has this mod
 	{

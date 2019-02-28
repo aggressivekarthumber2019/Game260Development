@@ -12,7 +12,7 @@
 #include "TimerManager.h"
 #include "PawnStatComponent.h"
 #include "CarStat.h"
-#include "SpeedCapMod.h"
+#include "Items/Mods/SpeedCapMod.h"
 
 // Sets default values
 AAVehiclePawn::AAVehiclePawn()

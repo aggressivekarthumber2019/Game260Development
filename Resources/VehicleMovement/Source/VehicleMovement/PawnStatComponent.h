@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "PawnStat.h"
-#include "PawnStatMod.h"
+#include "Items/Mods/PawnStatMod.h"
 #include "PawnStatComponent.generated.h"
 
 
@@ -46,7 +46,7 @@ public:
 
 	UPawnStat* GetCurrentStat() const;
 
-	void EnableMod(const UPawnStatMod* Mod);
+	void EnableMod(UPawnStatMod* Mod);
 
-	void DisableMod(const UPawnStatMod* Mod);
+	void DisableMod(UPawnStatMod* Mod);
 };

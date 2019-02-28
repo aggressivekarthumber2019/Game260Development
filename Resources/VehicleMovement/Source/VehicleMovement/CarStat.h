@@ -91,9 +91,9 @@ public:
 	float GetWeightFactor() const;
 
 
-	virtual void AcceptEnableMod(const UPawnStatMod* Mod) override;
+	virtual void AcceptEnableMod(UPawnStatMod* Mod) override;
 
 
-	virtual void AcceptDisableMod(const UPawnStatMod* Mod) override;
+	virtual void AcceptDisableMod(UPawnStatMod* Mod) override;
 
 };
