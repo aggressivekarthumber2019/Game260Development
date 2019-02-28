@@ -305,3 +305,7 @@ void AAVehiclePawn::RayCastGround()
 
 }
 
+void AAVehiclePawn::addPoint()
+{
+	NumberOfCheckpoints += 1;
+}

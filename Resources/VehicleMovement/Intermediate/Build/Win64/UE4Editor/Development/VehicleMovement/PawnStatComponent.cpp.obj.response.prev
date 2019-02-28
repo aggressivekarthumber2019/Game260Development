@@ -24,6 +24,7 @@
 /wd4838
 /we4668
 /I .
+/I D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Source\VehicleMovement\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -401,9 +402,10 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Inc\VehicleMovement
-/I E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Source
-/I E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Source\VehicleMovement
+/I D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Inc\VehicleMovement
+/I D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Source
+/I D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Source\VehicleMovement\Public
+/I D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Source\VehicleMovement
 /I ..\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles
 /I ..\Plugins\Runtime\PhysXVehicles\Source
 /I ..\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles\Public
@@ -416,18 +418,18 @@
 /I Runtime\AnimGraphRuntime\Public\BoneControllers
 /I Runtime\AnimGraphRuntime\Public\RBF
 /I ..\Plugins\Runtime\PhysXVehicles\Source\ThirdParty
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Source\VehicleMovement\PawnStatComponent.cpp"
-/FI"E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\Definitions.VehicleMovement.h"
-/Fo"E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\PawnStatComponent.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/FI"D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Source\VehicleMovement\PawnStatComponent.cpp"
+/FI"D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\Definitions.VehicleMovement.h"
+/Fo"D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\PawnStatComponent.cpp.obj"
 /TP
 /GR-
 /W4

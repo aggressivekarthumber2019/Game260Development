@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 	VEHICLEMOVEMENT_API UClass* Z_Construct_UClass_AAVehiclePawn();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_VehicleMovement();
+	VEHICLEMOVEMENT_API UFunction* Z_Construct_UFunction_AAVehiclePawn_addPoint();
 	VEHICLEMOVEMENT_API UClass* Z_Construct_UClass_USpeedCapMod_NoRegister();
 	VEHICLEMOVEMENT_API UClass* Z_Construct_UClass_UCarStat_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -28,6 +29,34 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 // End Cross Module References
 	void AAVehiclePawn::StaticRegisterNativesAAVehiclePawn()
 	{
+		UClass* Class = AAVehiclePawn::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "addPoint", &AAVehiclePawn::execaddPoint },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AAVehiclePawn_addPoint_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAVehiclePawn_addPoint_Statics::Function_MetaDataParams[] = {
+		{ "Category", "CheckPoint" },
+		{ "ModuleRelativePath", "AVehiclePawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAVehiclePawn_addPoint_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAVehiclePawn, "addPoint", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAVehiclePawn_addPoint_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAVehiclePawn_addPoint_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAVehiclePawn_addPoint()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAVehiclePawn_addPoint_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AAVehiclePawn_NoRegister()
 	{
@@ -36,6 +65,7 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 	struct Z_Construct_UClass_AAVehiclePawn_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -47,6 +77,10 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentStat_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentStat;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NumberOfCheckpoints_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_NumberOfCheckpoints;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PawnBrakeDeceleration_MetaData[];
 #endif
@@ -135,6 +169,9 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 		(UObject* (*)())Z_Construct_UClass_APawn,
 		(UObject* (*)())Z_Construct_UPackage__Script_VehicleMovement,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AAVehiclePawn_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AAVehiclePawn_addPoint, "addPoint" }, // 323545634
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
@@ -154,6 +191,13 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_CurrentStat = { UE4CodeGen_Private::EPropertyClass::Object, "CurrentStat", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000000, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, CurrentStat), Z_Construct_UClass_UCarStat_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_CurrentStat_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_CurrentStat_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_NumberOfCheckpoints_MetaData[] = {
+		{ "Category", "CHeckPoint" },
+		{ "ModuleRelativePath", "AVehiclePawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_NumberOfCheckpoints = { UE4CodeGen_Private::EPropertyClass::Int, "NumberOfCheckpoints", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000004, 1, nullptr, STRUCT_OFFSET(AAVehiclePawn, NumberOfCheckpoints), METADATA_PARAMS(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_NumberOfCheckpoints_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_NumberOfCheckpoints_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnBrakeDeceleration_MetaData[] = {
 		{ "Category", "Game Parts" },
@@ -319,6 +363,7 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAVehiclePawn_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_SpeedCapMod,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_CurrentStat,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_NumberOfCheckpoints,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_PawnBrakeDeceleration,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_frameRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAVehiclePawn_Statics::NewProp_WaitTimer,
@@ -347,7 +392,7 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 		&AAVehiclePawn::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
 		Z_Construct_UClass_AAVehiclePawn_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
@@ -363,7 +408,7 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAVehiclePawn, 2931226866);
+	IMPLEMENT_CLASS(AAVehiclePawn, 1728629417);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAVehiclePawn(Z_Construct_UClass_AAVehiclePawn, &AAVehiclePawn::StaticClass, TEXT("/Script/VehicleMovement"), TEXT("AAVehiclePawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAVehiclePawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

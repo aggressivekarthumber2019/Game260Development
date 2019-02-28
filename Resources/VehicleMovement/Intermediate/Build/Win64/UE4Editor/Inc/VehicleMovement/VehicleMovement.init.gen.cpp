@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeVehicleMovement_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/VehicleMovement",
 				PKG_CompiledIn | 0x00000000,
-				0x5FCCF3BC,
-				0x01538DBC,
+				0x71932842,
+				0xE966AF5E,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

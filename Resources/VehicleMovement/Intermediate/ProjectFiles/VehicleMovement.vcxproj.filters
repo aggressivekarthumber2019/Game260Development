@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\VehicleMovement.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{B6A450D1-9120-4684-8226-E1433A225AE3}</UniqueIdentifier>
+			<UniqueIdentifier>{F471732F-8DEA-46C3-8E46-B8D1B7C04672}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\VehicleMovement.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{0DD18831-568E-462C-B0F4-A52C9ACFA09D}</UniqueIdentifier>
+			<UniqueIdentifier>{DF7EB7B8-BB16-4F33-8B50-171D72365866}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\VehicleMovement">
-			<UniqueIdentifier>{B5BC8F0B-24D0-476A-A8DA-AE526E2F4BED}</UniqueIdentifier>
+			<UniqueIdentifier>{75D2B045-7464-4376-844E-0A89F7293A27}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\VehicleMovement\AVehiclePawn.cpp">
 			<Filter>Source\VehicleMovement</Filter>
