@@ -400,9 +400,9 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Inc\VehicleMovement
-/I E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Source
-/I E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Source\VehicleMovement
+/I "D:\Humber\Semester 4\Game 260_Game Production\RacingGame\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Inc\VehicleMovement"
+/I "D:\Humber\Semester 4\Game 260_Game Production\RacingGame\Game260Development\Resources\VehicleMovement\Source"
+/I "D:\Humber\Semester 4\Game 260_Game Production\RacingGame\Game260Development\Resources\VehicleMovement\Source\VehicleMovement"
 /I ..\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles
 /I ..\Plugins\Runtime\PhysXVehicles\Source
 /I ..\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles\Public
@@ -415,18 +415,18 @@
 /I Runtime\AnimGraphRuntime\Public\BoneControllers
 /I Runtime\AnimGraphRuntime\Public\RBF
 /I ..\Plugins\Runtime\PhysXVehicles\Source\ThirdParty
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Inc\VehicleMovement\CarStat.gen.cpp"
-/FI"E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\Definitions.VehicleMovement.h"
-/Fo"E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\CarStat.gen.cpp.obj"
+/FI"D:\Humber\Semester 4\Game 260_Game Production\RacingGame\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Humber\Semester 4\Game 260_Game Production\RacingGame\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Humber\Semester 4\Game 260_Game Production\RacingGame\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Humber\Semester 4\Game 260_Game Production\RacingGame\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Inc\VehicleMovement\CarStat.gen.cpp"
+/FI"D:\Humber\Semester 4\Game 260_Game Production\RacingGame\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\Definitions.VehicleMovement.h"
+/Fo"D:\Humber\Semester 4\Game 260_Game Production\RacingGame\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\CarStat.gen.cpp.obj"
 /TP
 /GR-
 /W4
