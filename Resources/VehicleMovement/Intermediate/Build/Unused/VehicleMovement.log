@@ -1,8 +1,8 @@
 ﻿  Building 3 actions with 12 processes...
-    [1/3] AVehiclePawn.cpp
+    [1/3] PawnStatComponent.cpp
     [2/3] UE4Editor-VehicleMovement.lib
        Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.exp
     [3/3] UE4Editor-VehicleMovement.dll
        Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.suppressed.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.suppressed.exp
   Deploying VehicleMovementEditor Win64 Development...
-  Total build time: 3.53 seconds (Parallel executor: 1.97 seconds)
+  Total build time: 4.29 seconds (Parallel executor: 2.63 seconds)

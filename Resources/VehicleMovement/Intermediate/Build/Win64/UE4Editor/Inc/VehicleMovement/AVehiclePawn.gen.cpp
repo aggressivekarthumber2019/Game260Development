@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 	VEHICLEMOVEMENT_API UClass* Z_Construct_UClass_AAVehiclePawn();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_VehicleMovement();
+	VEHICLEMOVEMENT_API UFunction* Z_Construct_UFunction_AAVehiclePawn_OnStatAccelerationChange();
 	VEHICLEMOVEMENT_API UClass* Z_Construct_UClass_USpeedCapMod_NoRegister();
 	VEHICLEMOVEMENT_API UClass* Z_Construct_UClass_UCarStat_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -28,6 +29,34 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 // End Cross Module References
 	void AAVehiclePawn::StaticRegisterNativesAAVehiclePawn()
 	{
+		UClass* Class = AAVehiclePawn::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "OnStatAccelerationChange", &AAVehiclePawn::execOnStatAccelerationChange },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AAVehiclePawn_OnStatAccelerationChange_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAVehiclePawn_OnStatAccelerationChange_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "AVehiclePawn.h" },
+		{ "ToolTip", "\\fn  void AAVehiclePawn::OnStatAccelerationChange();\n\n\\brief       Callback function that gets triggered when the acceleration stat was changed anywhere\n\n\\author      Jaymie\n\\date        2/28/2019" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAVehiclePawn_OnStatAccelerationChange_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAVehiclePawn, "OnStatAccelerationChange", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAVehiclePawn_OnStatAccelerationChange_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AAVehiclePawn_OnStatAccelerationChange_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAVehiclePawn_OnStatAccelerationChange()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAVehiclePawn_OnStatAccelerationChange_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AAVehiclePawn_NoRegister()
 	{
@@ -36,6 +65,7 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 	struct Z_Construct_UClass_AAVehiclePawn_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -134,6 +164,9 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 	UObject* (*const Z_Construct_UClass_AAVehiclePawn_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_APawn,
 		(UObject* (*)())Z_Construct_UPackage__Script_VehicleMovement,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AAVehiclePawn_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AAVehiclePawn_OnStatAccelerationChange, "OnStatAccelerationChange" }, // 4072837541
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAVehiclePawn_Statics::Class_MetaDataParams[] = {
@@ -347,7 +380,7 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 		&AAVehiclePawn::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
 		Z_Construct_UClass_AAVehiclePawn_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AAVehiclePawn_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
@@ -363,7 +396,7 @@ void EmptyLinkFunctionForGeneratedCodeAVehiclePawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAVehiclePawn, 2931226866);
+	IMPLEMENT_CLASS(AAVehiclePawn, 1697816572);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAVehiclePawn(Z_Construct_UClass_AAVehiclePawn, &AAVehiclePawn::StaticClass, TEXT("/Script/VehicleMovement"), TEXT("AAVehiclePawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAVehiclePawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -88,7 +88,7 @@ AAVehiclePawn::AAVehiclePawn()
 
 	// set the vehicle component
 	//MinSpeed = -0.5;
-	currentSpeed = 0;
+	//currentSpeed = 0;
 	currenTurn = 0;
 
 	//PawnAcceleration = 50;
@@ -118,14 +118,20 @@ void AAVehiclePawn::BeginPlay()
 	SpeedCapMod->MMaxStackCount = 1;
 	SpeedCapMod->MBoostedSpeed = 5200.f;
 	
+	// Setup component
 	if (PawnStatComponent->GetCurrentStat() != nullptr)
 	{
 		CurrentStat = CastChecked<UCarStat>(PawnStatComponent->GetCurrentStat());
 
 		PawnMovementComponent->MaxSpeed = CurrentStat->GetMaxSpeedFactor();
-		PawnMovementComponent->Acceleration = CurrentStat->GetAccelerationFactor() * CurrentStat->GetWeightFactor();
+		OnStatAccelerationChange();
 		PawnMovementComponent->Deceleration = PawnBrakeDeceleration * CurrentStat->GetWeightFactor();
+
+		CurrentStat->SetCurrentSpeed(0.f);
 	}
+
+	// Setup component callbacks
+	CurrentStat->OnAccelerationChanged.AddDynamic(this, &AAVehiclePawn::OnStatAccelerationChange);
 
 	GetWorld()->GetTimerManager().SetTimer(LoopTimerHandle, this, &AAVehiclePawn::FixedUpdate, frameRate, true);
 	//GetWorld()->GetTimerManager().SetTimer(StartGameTimerHandle, this, &AAVehiclePawn::GameStart, WaitTimer, false);
@@ -196,14 +202,7 @@ void AAVehiclePawn::BoostRelease()
 void AAVehiclePawn::MoveX(float AxisValue)
 {
 	velocity = AxisValue;
-	if (AxisValue > 0)
-	{
-		currentSpeed += AxisValue;
-	}
-	if (AxisValue < 0)
-	{
-		currentSpeed += AxisValue;
-	}
+	CurrentStat->AppendCurrentSpeed(AxisValue);
 }
 
 // Movement on y direction
@@ -218,16 +217,23 @@ void AAVehiclePawn::Brake(float AxisValue)
 {
 	if(AxisValue > 0)
 	{
-		if(currentSpeed > 0)
+		if(CurrentStat->GetCurrentSpeed() > 0)
 		{
-			currentSpeed -= PawnBrakeDeceleration * CurrentStat->GetWeightFactor();
-			UE_LOG(LogTemp, Log, TEXT("Break Speed:  %f"), currentSpeed);
+			CurrentStat->AppendCurrentSpeed(-PawnBrakeDeceleration * CurrentStat->GetWeightFactor());
+			//currentSpeed -= PawnBrakeDeceleration * CurrentStat->GetWeightFactor();
+			UE_LOG(LogTemp, Log, TEXT("Break Speed:  %f"), CurrentStat->GetCurrentSpeed());
 
-		}else if(currentSpeed < 0)
+		}else if(CurrentStat->GetCurrentSpeed() < 0)
 		{
-			currentSpeed += PawnBrakeDeceleration * CurrentStat->GetWeightFactor();
+			CurrentStat->AppendCurrentSpeed(PawnBrakeDeceleration * CurrentStat->GetWeightFactor());
+			//currentSpeed += PawnBrakeDeceleration * CurrentStat->GetWeightFactor();
 		}
 	}	
+}
+
+void AAVehiclePawn::OnStatAccelerationChange()
+{
+	PawnMovementComponent->Acceleration = CurrentStat->GetAccelerationFactor() * CurrentStat->GetWeightFactor();
 }
 
 void AAVehiclePawn::ReducedValues()
@@ -248,9 +254,9 @@ void AAVehiclePawn::ReducedValues()
 
 	//	}
 	//}
-	if (velocity == 0 && (currentSpeed <= 0.5 || currentSpeed >= -0.5))
+	if (velocity == 0 && (CurrentStat->GetCurrentSpeed() <= 0.5 || CurrentStat->GetCurrentSpeed() >= -0.5))
 	{
-		currentSpeed = 0;
+		CurrentStat->SetCurrentSpeed(0.f);
 	}
 
 
@@ -279,7 +285,7 @@ void AAVehiclePawn::ReducedValues()
 void AAVehiclePawn::MoveCar()
 {
 	// multiply the forward vector by the speed
-	FVector TempFowardVector = FVector(GetActorForwardVector().X * currentSpeed, GetActorForwardVector().Y * currentSpeed, gravity);
+	FVector TempFowardVector = FVector(GetActorForwardVector().X * CurrentStat->GetCurrentSpeed(), GetActorForwardVector().Y * CurrentStat->GetCurrentSpeed(), gravity);
 	TempFowardVector.Normalize(1);
 	PawnMovementComponent->AddInputVector(TempFowardVector);
 

@@ -5,6 +5,18 @@
 
 
 
+void UCarStat::SetAccelerationFactor(const float AccelerationFactor)
+{
+	// Change acceleration factor
+	MAccelerationFactor = AccelerationFactor;
+
+	// Invoke delegates
+	if (OnAccelerationChanged.IsBound())
+	{
+		OnAccelerationChanged.Broadcast();
+	}
+}
+
 void UCarStat::ConstructCarStat
 (
 	const float HealthFactor,

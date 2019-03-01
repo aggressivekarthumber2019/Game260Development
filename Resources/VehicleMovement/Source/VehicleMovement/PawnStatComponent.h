@@ -35,7 +35,7 @@ private:
 		float MModTimeRemainMS;
 
 		/** \brief	The modifier */
-		const UPawnStatMod* MMod;
+		UPawnStatMod* MMod;
 	};
 
 	TMap<int32, UStatModTracker> MStatModifiers;

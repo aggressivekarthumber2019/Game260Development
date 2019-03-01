@@ -4,12 +4,15 @@
 
 #include "CoreMinimal.h"
 #include "PawnStat.h"
+#include "Delegates/Delegate.h"
 #include "CarStat.generated.h"
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnAccelerationChangedSignature);
 
 /**
  * 
  */
-UCLASS(BlueprintType)
+UCLASS(Blueprintable, BlueprintType)
 class VEHICLEMOVEMENT_API UCarStat : public UPawnStat
 {
 	GENERATED_BODY()
@@ -21,15 +24,28 @@ protected:
 		/** \brief	The handle factor */
 		float MHandleFactor;
 
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, BlueprintSetter = SetAccelerationFactor)
 		/** \brief	The acceleration factor */
 		float MAccelerationFactor;
 
 	UPROPERTY(BlueprintReadWrite)
 		/** \brief	The weight factor */
 		float MWeightFactor;
+
+	/**
+	 * \fn	void UCarStat::SetAccelerationFactor();
+	 *
+	 * \brief	Sets acceleration factor
+	 *
+	 * \author	Jaymie
+	 * \date	2/28/2019
+	 */
+	UFUNCTION(BlueprintCallable)
+	void SetAccelerationFactor(const float AccelerationFactor);
 	
 public:
+	UPROPERTY(BlueprintAssignable)
+	FOnAccelerationChangedSignature OnAccelerationChanged;
 
 	UFUNCTION(BlueprintCallable)
 	/**
