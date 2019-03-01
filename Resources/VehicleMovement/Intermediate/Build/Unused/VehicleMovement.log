@@ -1,8 +1,41 @@
-﻿  Building 3 actions with 12 processes...
-    [1/3] PawnStatComponent.cpp
-    [2/3] UE4Editor-VehicleMovement.lib
-       Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.exp
-    [3/3] UE4Editor-VehicleMovement.dll
-       Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.suppressed.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.suppressed.exp
+﻿  Creating makefile for VehicleMovementEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for VehicleMovementEditor
+    Running UnrealHeaderTool "C:\Users\finfa\Documents\GitHub\Game260Development\Resources\VehicleMovement\VehicleMovement.uproject" "C:\Users\finfa\Documents\GitHub\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for VehicleMovementEditor in 32.2556988 seconds
+  Building 30 actions with 8 processes...
+    [1/30] PCLaunch.rc
+    [2/30] SharedPCH.Engine.cpp
+    [3/30] PawnStatMod.gen.cpp
+    [4/30] VehicleMovementHud.gen.cpp
+    [5/30] VehicleMovement.init.gen.cpp
+    [6/30] VehicleMovementWheelFront.gen.cpp
+    [7/30] SpeedCapMod.gen.cpp
+    [8/30] TriggerableItem.gen.cpp
+    [9/30] VehicleMovementPawn.gen.cpp
+    [10/30] VehicleMovementGameMode.gen.cpp
+    [11/30] PawnStatComponent.gen.cpp
+    [12/30] VehicleMovementWheelRear.cpp
+    [13/30] VehicleMovementWheelFront.cpp
+    [14/30] PawnStat.gen.cpp
+    [15/30] TriggerableItem.cpp
+    [16/30] PawnStatMod.cpp
+    [17/30] CarStat.gen.cpp
+    [18/30] AVehiclePawn.gen.cpp
+    [19/30] VehicleMovement.cpp
+    [20/30] PawnStat.cpp
+    [21/30] VehicleMovementHud.cpp
+    [22/30] VehicleMovementGameMode.cpp
+    [23/30] CarStat.cpp
+    [24/30] VehicleMovementPawn.cpp
+    [25/30] VehicleMovementWheelRear.gen.cpp
+    [26/30] SpeedCapMod.cpp
+    [27/30] PawnStatComponent.cpp
+    [28/30] AVehiclePawn.cpp
+    [29/30] UE4Editor-VehicleMovement.lib
+       Creating library C:\Users\finfa\Documents\GitHub\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.lib and object C:\Users\finfa\Documents\GitHub\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.exp
+    [30/30] UE4Editor-VehicleMovement.dll
+       Creating library C:\Users\finfa\Documents\GitHub\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.suppressed.lib and object C:\Users\finfa\Documents\GitHub\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.suppressed.exp
   Deploying VehicleMovementEditor Win64 Development...
-  Total build time: 4.29 seconds (Parallel executor: 2.63 seconds)
+  Total build time: 278.86 seconds (Parallel executor: 119.93 seconds)
