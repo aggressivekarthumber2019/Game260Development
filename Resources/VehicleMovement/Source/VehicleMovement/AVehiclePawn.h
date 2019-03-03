@@ -106,7 +106,7 @@ public:
 
 private:
 	//float MaxSpeed;
-	float currentSpeed;
+	// float currentSpeed;
 	float currenTurn;
 	float velocity;
 	float TurnVel;
@@ -141,4 +141,15 @@ public:
 	void FixedUpdate();
 	void GameStart();
 	void Brake(float AxisValue);
+
+	/**
+	 * \fn	void AAVehiclePawn::OnStatAccelerationChange();
+	 *
+	 * \brief	Callback function that gets triggered when the acceleration stat was changed anywhere
+	 *
+	 * \author	Jaymie
+	 * \date	2/28/2019
+	 */
+	UFUNCTION()
+	void OnStatAccelerationChange();
 };

@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "VehicleMovement/SpeedCapMod.h"
+#include "VehicleMovement/Items/Mods/SpeedCapMod.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -45,14 +45,14 @@ void EmptyLinkFunctionForGeneratedCodeSpeedCapMod() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USpeedCapMod_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "SpeedCapMod.h" },
-		{ "ModuleRelativePath", "SpeedCapMod.h" },
+		{ "IncludePath", "Items/Mods/SpeedCapMod.h" },
+		{ "ModuleRelativePath", "Items/Mods/SpeedCapMod.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USpeedCapMod_Statics::NewProp_MBoostedSpeed_MetaData[] = {
 		{ "Category", "SpeedCapMod" },
-		{ "ModuleRelativePath", "SpeedCapMod.h" },
+		{ "ModuleRelativePath", "Items/Mods/SpeedCapMod.h" },
 		{ "ToolTip", "\\brief The amount of boosted speed" },
 	};
 #endif
@@ -83,7 +83,7 @@ void EmptyLinkFunctionForGeneratedCodeSpeedCapMod() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USpeedCapMod, 273079539);
+	IMPLEMENT_CLASS(USpeedCapMod, 1469457342);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_USpeedCapMod(Z_Construct_UClass_USpeedCapMod, &USpeedCapMod::StaticClass, TEXT("/Script/VehicleMovement"), TEXT("USpeedCapMod"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(USpeedCapMod);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

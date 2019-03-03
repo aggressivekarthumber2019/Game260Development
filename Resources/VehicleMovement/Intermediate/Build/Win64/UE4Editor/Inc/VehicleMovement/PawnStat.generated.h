@@ -15,6 +15,56 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define VehicleMovement_Source_VehicleMovement_PawnStat_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execAppendCurrentSpeed) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Amount); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AppendCurrentSpeed(Z_Param_Amount); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetCurrentSpeed) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_NewSpeed); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetCurrentSpeed(Z_Param_NewSpeed); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetCurrentSpeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetCurrentSpeed(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMinSpeedFactor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetMinSpeedFactor(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMaxSpeedFactor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetMaxSpeedFactor(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetHealthFactor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetHealthFactor(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execConstructPawnStat) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_HealthFactor); \
@@ -28,6 +78,56 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define VehicleMovement_Source_VehicleMovement_PawnStat_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAppendCurrentSpeed) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Amount); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AppendCurrentSpeed(Z_Param_Amount); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetCurrentSpeed) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_NewSpeed); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetCurrentSpeed(Z_Param_NewSpeed); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetCurrentSpeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetCurrentSpeed(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMinSpeedFactor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetMinSpeedFactor(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetMaxSpeedFactor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetMaxSpeedFactor(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetHealthFactor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->GetHealthFactor(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execConstructPawnStat) \
 	{ \
@@ -86,7 +186,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPawnStat); \
 #define VehicleMovement_Source_VehicleMovement_PawnStat_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MHealthFactor() { return STRUCT_OFFSET(UPawnStat, MHealthFactor); } \
 	FORCEINLINE static uint32 __PPO__MMaxSpeedFactor() { return STRUCT_OFFSET(UPawnStat, MMaxSpeedFactor); } \
-	FORCEINLINE static uint32 __PPO__MMinSpeedFactor() { return STRUCT_OFFSET(UPawnStat, MMinSpeedFactor); }
+	FORCEINLINE static uint32 __PPO__MMinSpeedFactor() { return STRUCT_OFFSET(UPawnStat, MMinSpeedFactor); } \
+	FORCEINLINE static uint32 __PPO__MCurrentSpeed() { return STRUCT_OFFSET(UPawnStat, MCurrentSpeed); }
 
 
 #define VehicleMovement_Source_VehicleMovement_PawnStat_h_13_PROLOG

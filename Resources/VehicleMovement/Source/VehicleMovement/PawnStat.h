@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
-#include "PawnStatMod.h"
+#include "Items/Mods/PawnStatMod.h"
 #include "PawnStat.generated.h"
 
 /**
  * 
  */
-UCLASS(BlueprintType)
+UCLASS(Blueprintable, BlueprintType)
 class VEHICLEMOVEMENT_API UPawnStat : public UObject
 {
 	GENERATED_BODY()
@@ -20,21 +20,24 @@ class VEHICLEMOVEMENT_API UPawnStat : public UObject
 	
 protected:
 	UPROPERTY(BlueprintReadWrite)
-		/** \brief	The health factor */
-		float MHealthFactor;
+	/** \brief	The health factor */
+	float MHealthFactor;
 
 	UPROPERTY(BlueprintReadWrite)
-		/** \brief	The maximum speed factor */
-		float MMaxSpeedFactor;
+	/** \brief	The maximum speed factor */
+	float MMaxSpeedFactor;
 
 	UPROPERTY(BlueprintReadWrite)
-		/** \brief	The minimum speed factor */
-		float MMinSpeedFactor;
+	/** \brief	The minimum speed factor */
+	float MMinSpeedFactor;
+
+	UPROPERTY(BlueprintReadWrite)
+	/** \brief	The current speed */
+	float MCurrentSpeed;
 
 public:
 	UPawnStat() = default;
 
-	UFUNCTION(BlueprintCallable)
 	/**
 	 * \fn	void UPawnStat::Construct(const float HealthFactor, const float MaxSpeedFactor, const float MinSpeedFactor);
 	 *
@@ -47,6 +50,7 @@ public:
 	 * \param	MaxSpeedFactor	The maximum speed factor.
 	 * \param	MinSpeedFactor	The minimum speed factor.
 	 */
+	UFUNCTION(BlueprintCallable)
 	void ConstructPawnStat(const float HealthFactor, const float MaxSpeedFactor, const float MinSpeedFactor);
 
 	/**
@@ -59,6 +63,7 @@ public:
 	 *
 	 * \returns	The health factor.
 	 */
+	UFUNCTION(BlueprintCallable)
 	float GetHealthFactor() const;
 
 	/**
@@ -71,6 +76,7 @@ public:
 	 *
 	 * \returns	The maximum speed factor.
 	 */
+	UFUNCTION(BlueprintCallable)
 	float GetMaxSpeedFactor() const;
 
 	/**
@@ -83,7 +89,45 @@ public:
 	 *
 	 * \returns	The minimum speed factor.
 	 */
+	UFUNCTION(BlueprintCallable)
 	float GetMinSpeedFactor() const;
+
+	/**
+	 * \fn	float UPawnStat::GetCurrentSpeed() const;
+	 *
+	 * \brief	Gets current speed
+	 *
+	 * \author	Jaymie
+	 * \date	2/28/2019
+	 *
+	 * \returns	The current speed.
+	 */
+	UFUNCTION(BlueprintCallable)
+	float GetCurrentSpeed() const;
+
+	/**
+	 * \fn	void UPawnStat::SetCurrentSpeed();
+	 *
+	 * \brief	Sets current speed
+	 *
+	 * \author	Jaymie
+	 * \date	2/28/2019
+	 */
+	UFUNCTION(BlueprintCallable)
+	void SetCurrentSpeed(const float NewSpeed);
+
+	/**
+	 * \fn	void UPawnStat::AppendCurrentSpeed(const float Amount);
+	 *
+	 * \brief	Appends a current speed
+	 *
+	 * \author	Jaymie
+	 * \date	2/28/2019
+	 *
+	 * \param	Amount	The amount.
+	 */
+	UFUNCTION(BlueprintCallable)
+	void AppendCurrentSpeed(const float Amount);
 
 	/**
 	 * \fn	virtual void UPawnStat::AcceptEnableMod(const UPawnStatMod& Mod) = 0;
@@ -95,7 +139,7 @@ public:
 	 *
 	 * \param	Mod	The modifier.
 	 */
-	virtual void AcceptEnableMod(const UPawnStatMod* Mod) {};
+	virtual void AcceptEnableMod(UPawnStatMod* Mod) {};
 
 	/**
 	 * \fn	virtual void UPawnStat::AcceptDisableMod(const UPawnStatMod& Mod) = 0;
@@ -107,5 +151,5 @@ public:
 	 *
 	 * \param	Mod	The modifier.
 	 */
-	virtual void AcceptDisableMod(const UPawnStatMod* Mod) {};
+	virtual void AcceptDisableMod(UPawnStatMod* Mod) {};
 };

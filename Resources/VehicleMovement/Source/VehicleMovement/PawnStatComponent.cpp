@@ -2,6 +2,7 @@
 
 #include "PawnStatComponent.h"
 
+#define TO_MS(SECONDS) SECONDS * 1000.f
 
 // Sets default values for this component's properties
 UPawnStatComponent::UPawnStatComponent()
@@ -29,7 +30,30 @@ void UPawnStatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	// Mod count down timer
+	TArray<UPawnStatMod*> ToBeDisabledMods;
+	for (auto& Pair : MStatModifiers)
+	{
+		auto* Value = &(Pair.Value);
+
+		// Check if mod has timer
+		if (Value->MMod->MMaxTimeMS != 0.f)
+		{
+			Value->MModTimeRemainMS -= TO_MS(DeltaTime);
+
+			// Mod expired, removing it
+			if (Value->MModTimeRemainMS <= 0.f)
+			{
+				ToBeDisabledMods.Emplace(Value->MMod);
+			}
+		}
+	}
+
+	// Remove any flagged mods
+	for (auto& Mod : ToBeDisabledMods)
+	{
+		DisableMod(Mod);
+	}
 }
 
 UPawnStat* UPawnStatComponent::GetCurrentStat() const
@@ -37,8 +61,10 @@ UPawnStat* UPawnStatComponent::GetCurrentStat() const
 	return MBasePawnStat;
 }
 
-void UPawnStatComponent::EnableMod(const UPawnStatMod* Mod)
+void UPawnStatComponent::EnableMod(UPawnStatMod* Mod)
 {
+	UE_LOG(LogTemp, Warning, TEXT("Stat mod enabled!"));
+
 	if (MStatModifiers.Contains(Mod->GetGUID())) // Already has this mod
 	{
 		auto ModTracker = &MStatModifiers[Mod->GetGUID()];
@@ -65,8 +91,10 @@ void UPawnStatComponent::EnableMod(const UPawnStatMod* Mod)
 	MBasePawnStat->AcceptEnableMod(Mod);
 }
 
-void UPawnStatComponent::DisableMod(const UPawnStatMod* Mod)
+void UPawnStatComponent::DisableMod(UPawnStatMod* Mod)
 {
+	UE_LOG(LogTemp, Warning, TEXT("Stat mod disabled!"));
+
 	if (MStatModifiers.Contains(Mod->GetGUID())) // Already has this mod
 	{
 		auto ModTracker = &MStatModifiers[Mod->GetGUID()];

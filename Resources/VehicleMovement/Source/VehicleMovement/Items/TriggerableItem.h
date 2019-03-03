@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "PawnStatMod.h"
+#include "Items/Mods/PawnStatMod.h"
 #include "TriggerableItem.generated.h"
 
 UCLASS(Blueprintable)

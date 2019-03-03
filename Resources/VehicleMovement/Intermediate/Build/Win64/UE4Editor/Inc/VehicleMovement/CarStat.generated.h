@@ -13,7 +13,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define VEHICLEMOVEMENT_CarStat_generated_h
 
-#define VehicleMovement_Source_VehicleMovement_CarStat_h_15_RPC_WRAPPERS \
+#define VehicleMovement_Source_VehicleMovement_CarStat_h_10_DELEGATE \
+static inline void FOnAccelerationChangedSignature_DelegateWrapper(const FMulticastScriptDelegate& OnAccelerationChangedSignature) \
+{ \
+	OnAccelerationChangedSignature.ProcessMulticastDelegate<UObject>(NULL); \
+}
+
+
+#define VehicleMovement_Source_VehicleMovement_CarStat_h_18_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execConstructCarStat) \
 	{ \
@@ -27,10 +34,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->ConstructCarStat(Z_Param_HealthFactor,Z_Param_MaxSpeedFactor,Z_Param_MinSpeedFactor,Z_Param_HandleFactor,Z_Param_AccelerationFactor,Z_Param_WeightFactor); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetAccelerationFactor) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_AccelerationFactor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetAccelerationFactor(Z_Param_AccelerationFactor); \
+		P_NATIVE_END; \
 	}
 
 
-#define VehicleMovement_Source_VehicleMovement_CarStat_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define VehicleMovement_Source_VehicleMovement_CarStat_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execConstructCarStat) \
 	{ \
@@ -44,10 +60,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->ConstructCarStat(Z_Param_HealthFactor,Z_Param_MaxSpeedFactor,Z_Param_MinSpeedFactor,Z_Param_HandleFactor,Z_Param_AccelerationFactor,Z_Param_WeightFactor); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetAccelerationFactor) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_AccelerationFactor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetAccelerationFactor(Z_Param_AccelerationFactor); \
+		P_NATIVE_END; \
 	}
 
 
-#define VehicleMovement_Source_VehicleMovement_CarStat_h_15_INCLASS_NO_PURE_DECLS \
+#define VehicleMovement_Source_VehicleMovement_CarStat_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUCarStat(); \
 	friend struct Z_Construct_UClass_UCarStat_Statics; \
@@ -56,7 +81,7 @@ public: \
 	DECLARE_SERIALIZER(UCarStat)
 
 
-#define VehicleMovement_Source_VehicleMovement_CarStat_h_15_INCLASS \
+#define VehicleMovement_Source_VehicleMovement_CarStat_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesUCarStat(); \
 	friend struct Z_Construct_UClass_UCarStat_Statics; \
@@ -65,7 +90,7 @@ public: \
 	DECLARE_SERIALIZER(UCarStat)
 
 
-#define VehicleMovement_Source_VehicleMovement_CarStat_h_15_STANDARD_CONSTRUCTORS \
+#define VehicleMovement_Source_VehicleMovement_CarStat_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCarStat(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCarStat) \
@@ -78,7 +103,7 @@ private: \
 public:
 
 
-#define VehicleMovement_Source_VehicleMovement_CarStat_h_15_ENHANCED_CONSTRUCTORS \
+#define VehicleMovement_Source_VehicleMovement_CarStat_h_18_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCarStat() { }; \
 private: \
@@ -91,31 +116,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCarStat); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCarStat)
 
 
-#define VehicleMovement_Source_VehicleMovement_CarStat_h_15_PRIVATE_PROPERTY_OFFSET \
+#define VehicleMovement_Source_VehicleMovement_CarStat_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MHandleFactor() { return STRUCT_OFFSET(UCarStat, MHandleFactor); } \
 	FORCEINLINE static uint32 __PPO__MAccelerationFactor() { return STRUCT_OFFSET(UCarStat, MAccelerationFactor); } \
 	FORCEINLINE static uint32 __PPO__MWeightFactor() { return STRUCT_OFFSET(UCarStat, MWeightFactor); }
 
 
-#define VehicleMovement_Source_VehicleMovement_CarStat_h_12_PROLOG
-#define VehicleMovement_Source_VehicleMovement_CarStat_h_15_GENERATED_BODY_LEGACY \
+#define VehicleMovement_Source_VehicleMovement_CarStat_h_15_PROLOG
+#define VehicleMovement_Source_VehicleMovement_CarStat_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VehicleMovement_Source_VehicleMovement_CarStat_h_15_PRIVATE_PROPERTY_OFFSET \
-	VehicleMovement_Source_VehicleMovement_CarStat_h_15_RPC_WRAPPERS \
-	VehicleMovement_Source_VehicleMovement_CarStat_h_15_INCLASS \
-	VehicleMovement_Source_VehicleMovement_CarStat_h_15_STANDARD_CONSTRUCTORS \
+	VehicleMovement_Source_VehicleMovement_CarStat_h_18_PRIVATE_PROPERTY_OFFSET \
+	VehicleMovement_Source_VehicleMovement_CarStat_h_18_RPC_WRAPPERS \
+	VehicleMovement_Source_VehicleMovement_CarStat_h_18_INCLASS \
+	VehicleMovement_Source_VehicleMovement_CarStat_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define VehicleMovement_Source_VehicleMovement_CarStat_h_15_GENERATED_BODY \
+#define VehicleMovement_Source_VehicleMovement_CarStat_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VehicleMovement_Source_VehicleMovement_CarStat_h_15_PRIVATE_PROPERTY_OFFSET \
-	VehicleMovement_Source_VehicleMovement_CarStat_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	VehicleMovement_Source_VehicleMovement_CarStat_h_15_INCLASS_NO_PURE_DECLS \
-	VehicleMovement_Source_VehicleMovement_CarStat_h_15_ENHANCED_CONSTRUCTORS \
+	VehicleMovement_Source_VehicleMovement_CarStat_h_18_PRIVATE_PROPERTY_OFFSET \
+	VehicleMovement_Source_VehicleMovement_CarStat_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	VehicleMovement_Source_VehicleMovement_CarStat_h_18_INCLASS_NO_PURE_DECLS \
+	VehicleMovement_Source_VehicleMovement_CarStat_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

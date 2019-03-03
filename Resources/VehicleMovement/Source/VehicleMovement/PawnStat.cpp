@@ -26,3 +26,18 @@ float UPawnStat::GetMinSpeedFactor() const
 {
 	return MMinSpeedFactor;
 }
+
+float UPawnStat::GetCurrentSpeed() const
+{
+	return MCurrentSpeed;
+}
+
+void UPawnStat::SetCurrentSpeed(const float NewSpeed)
+{
+	MCurrentSpeed = NewSpeed;
+}
+
+void UPawnStat::AppendCurrentSpeed(const float Amount)
+{
+	MCurrentSpeed += Amount;
+}

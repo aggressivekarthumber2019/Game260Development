@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\VehicleMovement.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{A655689F-B1D0-4D81-936B-DDA6B49B8BAC}</UniqueIdentifier>
+			<UniqueIdentifier>{ACDC2CBB-4627-42CC-94B8-55428844D527}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\VehicleMovement.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{CFA16C06-E1D4-4CD9-8AAA-01EF6883241C}</UniqueIdentifier>
+			<UniqueIdentifier>{9BF915C0-8DCC-420A-8FDC-157CF7F88671}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\VehicleMovement">
-			<UniqueIdentifier>{F7B6D6CC-5F96-4BB3-8A21-DA2BCF9B6322}</UniqueIdentifier>
+			<UniqueIdentifier>{32140B01-C251-402F-9DE3-A936636A9EFC}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\VehicleMovement\AVehiclePawn.cpp">
 			<Filter>Source\VehicleMovement</Filter>
@@ -55,18 +55,6 @@
 			<Filter>Source\VehicleMovement</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\VehicleMovement\PawnStatComponent.h">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\VehicleMovement\PawnStatMod.cpp">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\PawnStatMod.h">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\VehicleMovement\SpeedCapMod.cpp">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\SpeedCapMod.h">
 			<Filter>Source\VehicleMovement</Filter>
 		</ClInclude >
 		<None Include="..\..\Source\VehicleMovement\VehicleMovement.Build.cs">
@@ -109,13 +97,34 @@
 			<Filter>Source\VehicleMovement</Filter>
 		</ClInclude >
 		<Filter Include="Source\VehicleMovement\Items">
-			<UniqueIdentifier>{850099DC-7955-4CC0-A877-E226CADC13D9}</UniqueIdentifier>
+			<UniqueIdentifier>{7F4D02BB-B4DE-42CC-8024-514AE1073BEF}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\VehicleMovement\Items\TriggerableItem.cpp">
 			<Filter>Source\VehicleMovement\Items</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\VehicleMovement\Items\TriggerableItem.h">
 			<Filter>Source\VehicleMovement\Items</Filter>
+		</ClInclude >
+		<Filter Include="Source\VehicleMovement\Items\Mods">
+			<UniqueIdentifier>{6A29DEEF-5706-4E83-9CA8-198D31CDFB5B}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\VehicleMovement\Items\Mods\PawnStatMod.cpp">
+			<Filter>Source\VehicleMovement\Items\Mods</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VehicleMovement\Items\Mods\PawnStatMod.h">
+			<Filter>Source\VehicleMovement\Items\Mods</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\VehicleMovement\Items\Mods\SpeedCapMod.cpp">
+			<Filter>Source\VehicleMovement\Items\Mods</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VehicleMovement\Items\Mods\SpeedCapMod.h">
+			<Filter>Source\VehicleMovement\Items\Mods</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\VehicleMovement\Items\Mods\SpinOutMod.cpp">
+			<Filter>Source\VehicleMovement\Items\Mods</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VehicleMovement\Items\Mods\SpinOutMod.h">
+			<Filter>Source\VehicleMovement\Items\Mods</Filter>
 		</ClInclude >
 	</ItemGroup>
 </Project>
