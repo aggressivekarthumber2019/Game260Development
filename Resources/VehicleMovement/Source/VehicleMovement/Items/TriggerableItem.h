@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "PawnStatMod.h"
+#include "Vehicle/VehicleStats/PawnStatMod.h"
 #include "TriggerableItem.generated.h"
 
 UCLASS(Blueprintable)
@@ -24,16 +24,16 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, Category = "Items")
 	class UStaticMeshComponent* MeshComponent;
 	
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, Category = "Items")
 	class USphereComponent* SphereComponent;
 
-	UPROPERTY(EditAnywhere, Instanced)
+	UPROPERTY(EditAnywhere, Instanced, Category = "Items")
 	UPawnStatMod* PawnStatMod;
 
-private:
-	UFUNCTION()
+public:
+	UFUNCTION(BlueprintCallable, Category = "Items")
 	void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 };

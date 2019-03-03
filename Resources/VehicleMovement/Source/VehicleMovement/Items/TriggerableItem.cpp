@@ -3,8 +3,8 @@
 #include "TriggerableItem.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/SphereComponent.h"
-#include "AVehiclePawn.h"
-#include "PawnStatComponent.h"
+#include "Vehicle/AVehiclePawn.h"
+#include "Vehicle/VehicleStats/PawnStatComponent.h"
 
 // Sets default values
 ATriggerableItem::ATriggerableItem()
@@ -46,7 +46,7 @@ void ATriggerableItem::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
 		UE_LOG(LogTemp, Warning, TEXT("Item picked up"));
 
 		AAVehiclePawn* car = CastChecked<AAVehiclePawn>(OtherActor);
-		car->PawnStatComponent->EnableMod(PawnStatMod);
+		//car->PawnStatComponent->EnableMod(PawnStatMod);
 		Destroy();
 	}
 }
