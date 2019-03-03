@@ -102,9 +102,11 @@ public:
 	UFUNCTION(BlueprintCallable, Category = CheckPoint)
 	void addPoint();
 
-	UPROPERTY(BluePrintReadWrite, Category = CHeckPoint)
+	UPROPERTY(BluePrintReadWrite, Category = CheckPoint)
 	int32 NumberOfCheckpoints;
 
+	UPROPERTY(BluePrintReadWrite, Category = CheckPoint)
+	int32 VehiclesPlacements;
 	// timer function 
 	FTimerHandle LoopTimerHandle;
 	FTimerHandle StartGameTimerHandle;

@@ -24,7 +24,7 @@ void UCarStat::ConstructCarStat
 
 float UCarStat::GetHandleFactor() const
 {
-	return MHandleFactor;
+ 	return MHandleFactor;
 }
 
 float UCarStat::GetAccelerationFactor() const

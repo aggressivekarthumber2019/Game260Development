@@ -1,0 +1,1661 @@
+﻿Log file open, 03/02/19 21:18:05
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VehicleMovement
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.281925
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.227s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.03-02.18.05:768][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.03-02.18.05:768][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.03-02.18.05:779][  0]LogHAL: Display: Platform has ~ 8 GB [8523337728 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.03-02.18.05:779][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.03-02.18.05:779][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.03-02.18.05:780][  0]LogInit: Computer: DESKTOP-IF8BQD3
+[2019.03.03-02.18.05:780][  0]LogInit: User: ChiyokoYumi
+[2019.03.03-02.18.05:780][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.03.03-02.18.05:780][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.03-02.18.05:780][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.03.03-02.18.05:780][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.03-02.18.05:780][  0]LogMemory: Process Physical Memory: 101.08 MB used, 101.08 MB peak
+[2019.03.03-02.18.05:780][  0]LogMemory: Process Virtual Memory: 84.68 MB used, 84.68 MB peak
+[2019.03.03-02.18.05:780][  0]LogMemory: Physical Memory: 6195.98 MB used,  1932.50 MB free, 8128.49 MB total
+[2019.03.03-02.18.05:780][  0]LogMemory: Virtual Memory: 4618.13 MB used,  1932.50 MB free, 134217728.00 MB total
+[2019.03.03-02.18.05:831][  0]LogInit: Using OS detected language (en-US).
+[2019.03.03-02.18.05:831][  0]LogInit: Using OS detected locale (en-CA).
+[2019.03.03-02.18.05:834][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.03-02.18.06:212][  0]LogStreaming: Display: Took  0.381s to InitEngineTextLocalization.
+[2019.03.03-02.18.06:212][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.03-02.18.06:261][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.03-02.18.06:261][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.03-02.18.06:525][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.03-02.18.06:525][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.03-02.18.06:605][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.03.03-02.18.06:605][  0]LogD3D11RHI:       4018/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.03-02.18.06:615][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.03-02.18.06:615][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.03-02.18.06:615][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.03-02.18.06:628][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.03-02.18.06:628][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.03-02.18.06:628][  0]LogWindows: EnumDisplayDevices:
+[2019.03.03-02.18.06:629][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.03.03-02.18.06:629][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2019.03.03-02.18.06:630][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.03-02.18.06:630][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.03-02.18.06:631][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.03-02.18.06:631][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.03.03-02.18.06:631][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.03-02.18.06:631][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.03-02.18.06:631][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.03.03-02.18.06:684][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.03-02.18.06:706][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.03-02.18.06:759][  0]LogShaderCompilers: Guid format shader working directory is -53 characters bigger than the processId version (../../../../GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Intermediate/Shaders/WorkingDirectory/7044/).
+[2019.03.03-02.18.06:759][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nicom/AppData/Local/Temp/UnrealShaderWorkingDir/AC07AE1B4F16B63B00C0769AD34C430F/'.
+[2019.03.03-02.18.07:240][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.03-02.18.07:256][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.03-02.18.07:272][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.03-02.18.07:288][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.03-02.18.07:304][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.03-02.18.07:322][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.03-02.18.07:338][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.03-02.18.07:355][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.03-02.18.07:364][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.03-02.18.07:444][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:444][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:444][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:444][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:445][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.03-02.18.07:447][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.03-02.18.07:513][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.03-02.18.07:513][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.03-02.18.07:538][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.03-02.18.07:538][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.03-02.18.07:551][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.03-02.18.07:565][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.03-02.18.07:579][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.03-02.18.07:593][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.03-02.18.07:604][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.03-02.18.07:604][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.03-02.18.07:715][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.03-02.18.07:715][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.03-02.18.07:715][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.03-02.18.08:437][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.03-02.18.08:516][  0]LogDerivedDataCache: Loaded boot cache 0.08s 73MB C:/Users/nicom/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.03-02.18.08:517][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nicom/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.03-02.18.08:517][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.03-02.18.08:517][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.03-02.18.08:517][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.03-02.18.08:517][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.03-02.18.08:530][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.03-02.18.08:543][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nicom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.03-02.18.08:543][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.03-02.18.08:543][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.03-02.18.08:561][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.03-02.18.08:562][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.03-02.18.08:563][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.03-02.18.08:690][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2019.03.03-02.18.09:054][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.03-02.18.09:236][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.03-02.18.09:255][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.03-02.18.09:255][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.03-02.18.09:255][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.03-02.18.09:255][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.03-02.18.09:280][  0]LogNetVersion: VehicleMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2966596176)
+[2019.03.03-02.18.10:101][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.225808 seconds
+[2019.03.03-02.18.10:115][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.03-02.18.10:115][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.03.03-02.18.10:115][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.03-02.18.11:986][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.03-02.18.12:000][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.03-02.18.12:317][  0]SourceControl: Source control is disabled
+[2019.03.03-02.18.12:317][  0]SourceControl: Source control is disabled
+[2019.03.03-02.18.12:320][  0]SourceControl: Source control is disabled
+[2019.03.03-02.18.12:322][  0]SourceControl: Source control is disabled
+[2019.03.03-02.18.12:553][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.03-02.18.12:817][  0]LogOcInput: OculusInput pre-init called
+[2019.03.03-02.18.12:883][  0]LogEngine: Initializing Engine...
+[2019.03.03-02.18.12:884][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.03-02.18.12:885][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.03-02.18.12:885][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.03-02.18.12:885][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.03-02.18.12:885][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.03-02.18.13:142][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.03-02.18.13:195][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.03-02.18.13:340][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.03-02.18.13:405][  0]LogInit: FAudioDevice initialized.
+[2019.03.03-02.18.13:405][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.03-02.18.13:640][  0]LogDerivedDataCache: Saved boot cache 0.24s 73MB C:/Users/nicom/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.03-02.18.13:646][  0]LogInit: Texture streaming: Enabled
+[2019.03.03-02.18.13:694][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.03-02.18.13:694][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={A82CEFBF-4A1A-2ADA-63EA-B0A872A10340}
+[2019.03.03-02.18.13:719][  0]LogInit: Transaction tracking system initialized
+[2019.03.03-02.18.13:782][  0]BlueprintLog: New page: Editor Load
+[2019.03.03-02.18.13:935][  0]LocalizationService: Localization service is disabled
+[2019.03.03-02.18.14:269][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.03-02.18.14:269][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.03-02.18.14:269][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.03-02.18.14:269][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.03-02.18.14:269][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.03-02.18.14:269][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.03-02.18.14:269][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.03-02.18.14:519][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Content/' took 0.02s
+[2019.03.03-02.18.14:519][  0]SourceControl: Source control is disabled
+[2019.03.03-02.18.14:519][  0]LightingResults: New page: Lighting Build
+[2019.03.03-02.18.14:524][  0]MapCheck: New page: Map Check
+[2019.03.03-02.18.14:524][  0]LightingResults: New page: Lighting Build
+[2019.03.03-02.18.14:846][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.03.03-02.18.14:858][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.03-02.18.14:887][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.03-02.18.14:970][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.405ms to complete.
+[2019.03.03-02.18.14:970][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 0.451
+[2019.03.03-02.18.15:094][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.03-02.18.15:102][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.03-02.18.15:111][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.03-02.18.15:118][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.03-02.18.15:131][  0]LogCollectionManager: Loaded 0 collections in 0.003669 seconds
+[2019.03.03-02.18.15:180][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Saved/Collections/' took 0.01s
+[2019.03.03-02.18.15:180][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Content/Developers/ChiyokoYumi/Collections/' took 0.01s
+[2019.03.03-02.18.15:180][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Content/Collections/' took 0.01s
+[2019.03.03-02.18.15:180][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.03-02.18.15:190][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2585 classes and 608 folders.
+[2019.03.03-02.18.15:200][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.03-02.18.15:360][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.03-02.18.15:368][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.03.03-02.18.15:447][  0]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.03-02.18.15:456][  0]LogSlate: Took 0.000489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.03-02.18.15:461][  0]LogSlate: Took 0.000826 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.03-02.18.15:549][  0]LogRenderer: Reallocating scene render targets to support 1144x572 Format 10 NumSamples 1 (Frame:1).
+[2019.03.03-02.18.15:615][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.03-02.18.15:780][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.03-02.18.15:780][  0]LogLoad: (Engine Initialization) Total time: 14.28 seconds
+[2019.03.03-02.18.15:780][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.03-02.18.15:798][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.03.03-02.18.15:798][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.03.03-02.18.15:798][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2019.03.03-02.18.15:798][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2019.03.03-02.18.15:798][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2019.03.03-02.18.15:835][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.03-02.18.15:880][  1]LogAssetRegistry: Asset discovery search completed in 7.2132 seconds
+[2019.03.03-02.18.15:882][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.03-02.18.15:882][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000095 seconds (updated 0 objects)
+[2019.03.03-02.19.12:709][171]Cmd: EDCALLBACK SURFPROPS
+[2019.03.03-02.19.19:096][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RoughTerrain_StaticMesh)
+[2019.03.03-02.19.23:612][425]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2019.03.03-02.19.24:900][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.03.03-02.19.26:577][768]Cmd: TRANSACTION UNDO
+[2019.03.03-02.19.26:577][768]LogEditorTransaction: Undo Move Actors
+[2019.03.03-02.19.26:638][768]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.03-02.19.27:887][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.03.03-02.19.32:589][454]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.03-02.19.35:428][791]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.03-02.19.44:680][791]LogSlate: Window 'Save Level As' being destroyed
+[2019.03.03-02.19.44:686][791]LogSlate: FSceneViewport::OnFocusLost() reason 3
+[2019.03.03-02.19.44:827][791]LogAIModule: Creating AISystem for world TestRace
+[2019.03.03-02.19.45:020][791]LogSavePackage: Moving '../../../../GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Saved/TestRace9E0CC0CB4268B33DB02160BBC1E28726.tmp' to '../../../../GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Content/Maps/TestRace.umap'
+[2019.03.03-02.19.45:055][791]LogFileHelpers: Saving map 'TestRace' took 0.357
+[2019.03.03-02.19.45:056][791]Cmd: MAP LOAD FILE="../../../../GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Content/Maps/TestRace.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.03-02.19.45:065][791]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.03-02.19.45:070][791]LightingResults: New page: Lighting Build
+[2019.03.03-02.19.45:072][791]LoadErrors: New page: Loading map: TestRace.umap
+[2019.03.03-02.19.45:074][791]MapCheck: New page: Map Check
+[2019.03.03-02.19.45:074][791]LightingResults: New page: Lighting Build
+[2019.03.03-02.19.45:158][791]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.03-02.19.45:207][791]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.03-02.19.45:273][791]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.717ms to complete.
+[2019.03.03-02.19.45:273][791]LogFileHelpers: Loading map 'TestRace' took 0.219
+[2019.03.03-02.19.47:402][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.03-02.19.51:768][527]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.03.03-02.19.51:786][527]LogAssetEditorManager: Opening Asset editor for World /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap
+[2019.03.03-02.19.51:807][527]LightingResults: New page: Lighting Build
+[2019.03.03-02.19.51:808][527]LoadErrors: New page: Loading map: VehicleExampleMap.umap
+[2019.03.03-02.19.51:809][527]MapCheck: New page: Map Check
+[2019.03.03-02.19.51:809][527]LightingResults: New page: Lighting Build
+[2019.03.03-02.19.51:887][527]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.03-02.19.51:931][527]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.03-02.19.51:998][527]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 66.79ms to complete.
+[2019.03.03-02.19.51:999][527]LogFileHelpers: Loading map 'VehicleExampleMap' took 0.192
+[2019.03.03-02.19.53:591][694]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.03-02.20.00:612][527]LogAIModule: Creating AISystem for world TestTrack
+[2019.03.03-02.20.02:935][527]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.03-02.20.02:948][527]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.03-02.20.03:008][527]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.03-02.20.03:036][527]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.03-02.20.03:989][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.03-02.20.04:198][647]LogAIModule: Creating AISystem for world TestRace
+[2019.03.03-02.20.04:208][647]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/TestRace.TestRace
+[2019.03.03-02.20.04:230][647]Cmd: MAP LOAD FILE="../../../../GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Content/Maps/TestRace.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.03-02.20.04:230][647]LightingResults: New page: Lighting Build
+[2019.03.03-02.20.04:231][647]LoadErrors: New page: Loading map: TestRace.umap
+[2019.03.03-02.20.04:232][647]MapCheck: New page: Map Check
+[2019.03.03-02.20.04:232][647]LightingResults: New page: Lighting Build
+[2019.03.03-02.20.04:310][647]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.03-02.20.04:351][647]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.03-02.20.04:419][647]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.471ms to complete.
+[2019.03.03-02.20.04:422][647]LogFileHelpers: Loading map 'TestRace' took 0.192
+[2019.03.03-02.20.07:485][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.03.03-02.20.08:417][106]Cmd: DELETE
+[2019.03.03-02.20.08:417][106]Cmd: ACTOR DELETE
+[2019.03.03-02.20.08:420][106]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.08:441][106]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.03.03-02.20.09:553][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2019.03.03-02.20.09:997][287]Cmd: DELETE
+[2019.03.03-02.20.09:997][287]Cmd: ACTOR DELETE
+[2019.03.03-02.20.10:000][287]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.10:021][287]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.03.03-02.20.10:887][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp)
+[2019.03.03-02.20.11:718][485]Cmd: DELETE
+[2019.03.03-02.20.11:718][485]Cmd: ACTOR DELETE
+[2019.03.03-02.20.11:727][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:727][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:727][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:727][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:727][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:728][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:728][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:728][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:728][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:728][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:728][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:728][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:728][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:728][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:728][485]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.11:749][485]LogEditorActor: Deleted 15 Actors (0.031 secs)
+[2019.03.03-02.20.12:741][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RoughTerrain_StaticMesh)
+[2019.03.03-02.20.12:839][610]Cmd: DELETE
+[2019.03.03-02.20.12:839][610]Cmd: ACTOR DELETE
+[2019.03.03-02.20.12:842][610]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.03-02.20.12:864][610]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.03.03-02.20.13:819][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.03.03-02.20.40:600][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.03-02.20.41:405][932]LogRenderer: Reallocating scene render targets to support 1144x592 Format 10 NumSamples 1 (Frame:4383).
+[2019.03.03-02.20.41:453][933]LogRenderer: Reallocating scene render targets to support 1144x652 Format 10 NumSamples 1 (Frame:4385).
+[2019.03.03-02.20.41:500][934]LogRenderer: Reallocating scene render targets to support 1144x724 Format 10 NumSamples 1 (Frame:4387).
+[2019.03.03-02.20.41:544][935]LogRenderer: Reallocating scene render targets to support 1144x796 Format 10 NumSamples 1 (Frame:4389).
+[2019.03.03-02.20.41:583][936]LogRenderer: Reallocating scene render targets to support 1144x864 Format 10 NumSamples 1 (Frame:4391).
+[2019.03.03-02.20.41:625][937]LogRenderer: Reallocating scene render targets to support 1144x900 Format 10 NumSamples 1 (Frame:4393).
+[2019.03.03-02.21.04:292][571]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.03.03-02.21.11:124][368]Cmd: EDIT COPY
+[2019.03.03-02.21.11:411][402]Cmd: EDIT PASTE
+[2019.03.03-02.21.20:511][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.03.03-02.21.29:329][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.03.03-02.21.56:559][697]Cmd: EDIT COPY
+[2019.03.03-02.21.56:912][738]Cmd: EDIT PASTE
+[2019.03.03-02.22.04:928][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.03.03-02.22.06:258][845]Cmd: EDIT COPY
+[2019.03.03-02.22.06:525][876]Cmd: EDIT PASTE
+[2019.03.03-02.22.08:864][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.03.03-02.22.10:694][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.03.03-02.22.31:234][759]Cmd: EDIT COPY
+[2019.03.03-02.22.31:552][796]Cmd: EDIT PASTE
+[2019.03.03-02.22.34:721][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.03.03-02.22.48:736][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.03.03-02.22.53:444][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.03.03-02.23.28:926][495]Cmd: EDIT COPY
+[2019.03.03-02.23.29:309][540]Cmd: EDIT PASTE
+[2019.03.03-02.24.19:836][468]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2019.03.03-02.24.22:558][778]Cmd: EDIT COPY
+[2019.03.03-02.24.22:850][813]Cmd: EDIT PASTE
+[2019.03.03-02.24.32:652][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.03.03-02.24.33:347][ 45]Cmd: EDIT COPY
+[2019.03.03-02.24.33:675][ 83]Cmd: EDIT PASTE
+[2019.03.03-02.24.50:524][ 52]LogEditorViewport: Clicking on Actor (LMB): CheckPoint_C (CheckPoint2)
+[2019.03.03-02.24.54:917][575]Cmd: DELETE
+[2019.03.03-02.24.54:917][575]Cmd: ACTOR DELETE
+[2019.03.03-02.24.54:919][575]LogEditorActor: Deleted Actor: CheckPoint_C
+[2019.03.03-02.24.54:958][575]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2019.03.03-02.24.58:246][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.03-02.25.02:552][444]LogEditorActor: Deleted Actor: CheckPoint_C
+[2019.03.03-02.25.02:573][444]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.03.03-02.25.12:356][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.03-02.25.36:644][485]Cmd: EDIT COPY
+[2019.03.03-02.25.36:979][524]Cmd: EDIT PASTE
+[2019.03.03-02.25.44:114][347]Cmd: EDIT COPY
+[2019.03.03-02.25.44:431][385]Cmd: EDIT PASTE
+[2019.03.03-02.25.46:496][627]Cmd: EDIT COPY
+[2019.03.03-02.25.46:820][665]Cmd: EDIT PASTE
+[2019.03.03-02.25.48:377][846]Cmd: EDIT COPY
+[2019.03.03-02.25.48:719][887]Cmd: EDIT PASTE
+[2019.03.03-02.25.55:179][644]Cmd: EDIT COPY
+[2019.03.03-02.25.55:529][685]Cmd: EDIT PASTE
+[2019.03.03-02.25.57:475][912]Cmd: EDIT COPY
+[2019.03.03-02.25.57:787][949]Cmd: EDIT PASTE
+[2019.03.03-02.25.59:513][151]Cmd: EDIT COPY
+[2019.03.03-02.25.59:867][193]Cmd: EDIT PASTE
+[2019.03.03-02.28.35:873][ 32]Cmd: EDIT COPY
+[2019.03.03-02.28.36:201][ 70]Cmd: EDIT PASTE
+[2019.03.03-02.29.13:108][388]LogEditorViewport: Clicking on Actor (LMB): CheckPoint_C (CheckPoint7)
+[2019.03.03-02.29.14:399][539]Cmd: EDIT COPY
+[2019.03.03-02.29.14:734][579]Cmd: EDIT PASTE
+[2019.03.03-02.29.34:348][873]Cmd: EDIT COPY
+[2019.03.03-02.29.34:702][915]Cmd: EDIT PASTE
+[2019.03.03-02.29.56:653][455]Cmd: EDCALLBACK SURFPROPS
+[2019.03.03-02.29.59:607][806]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.03-02.30.06:503][607]Cmd: EDIT COPY
+[2019.03.03-02.30.06:908][655]Cmd: EDIT PASTE
+[2019.03.03-02.30.39:618][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.03.03-02.30.44:829][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.03-02.30.53:440][ 29]Cmd: EDIT COPY
+[2019.03.03-02.30.53:852][ 78]Cmd: EDIT PASTE
+[2019.03.03-02.31.39:447][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2019.03.03-02.31.41:078][572]LogEditorViewport: Clicking on Actor (LMB): CheckPoint_C (CheckPoint19)
+[2019.03.03-02.31.57:854][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2019.03.03-02.32.00:733][870]LogEditorViewport: Clicking on Actor (LMB): CheckPoint_C (CheckPoint20)
+[2019.03.03-02.32.06:831][586]LogEditorViewport: Clicking on Actor (LMB): MyAVehiclePawn_C (MyAVehiclePawn)
+[2019.03.03-02.32.23:967][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.03-02.32.24:074][546]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.03-02.32.24:148][546]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestRace.TestRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace' with GeneratedClass '/Game/Maps/TestRace.TestRace_C' with ClassGeneratedBy '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace'
+[2019.03.03-02.32.24:218][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.03-02.32.24:369][546]PIE: New page: PIE session: TestRace (Mar 2, 2019, 4:32:24 PM)
+[2019.03.03-02.32.24:370][546]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestRace
+[2019.03.03-02.32.24:416][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045979s)
+[2019.03.03-02.32.24:417][546]LogAIModule: Creating AISystem for world TestRace
+[2019.03.03-02.32.24:428][546]LogPlayLevel: PIE: World Init took: (0.011969s)
+[2019.03.03-02.32.24:439][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestRace.TestRace to /Game/Maps/UEDPIE_0_TestRace.TestRace (0.069688s)
+[2019.03.03-02.32.24:774][546]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.03-02.32.24:810][546]LogInit: FAudioDevice initialized.
+[2019.03.03-02.32.24:890][546]LogLoad: Game class is 'GameModeBase'
+[2019.03.03-02.32.24:986][546]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestRace.TestRace up for play (max tick rate 0) at 2019.03.02-21.32.24
+[2019.03.03-02.32.25:031][546]LogWorld: Bringing up level for play took: 0.047235
+[2019.03.03-02.32.25:133][546]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
+[2019.03.03-02.32.25:187][546]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestRace 0.709
+[2019.03.03-02.32.25:187][546]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestRace.TestRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace' with GeneratedClass '/Game/Maps/TestRace.TestRace_C' with ClassGeneratedBy '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace'
+[2019.03.03-02.32.30:343][139]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 1
+[2019.03.03-02.32.30:351][140]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 2
+[2019.03.03-02.32.30:385][144]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 3
+[2019.03.03-02.32.30:385][144]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 4
+[2019.03.03-02.32.30:385][144]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 5
+[2019.03.03-02.32.31:122][232]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 6
+[2019.03.03-02.32.31:122][232]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 7
+[2019.03.03-02.32.31:156][236]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 8
+[2019.03.03-02.32.31:156][236]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 9
+[2019.03.03-02.32.31:165][237]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 10
+[2019.03.03-02.32.31:748][307]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 11
+[2019.03.03-02.32.31:748][307]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 12
+[2019.03.03-02.32.31:781][311]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 13
+[2019.03.03-02.32.31:781][311]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 14
+[2019.03.03-02.32.31:781][311]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 15
+[2019.03.03-02.32.32:348][378]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 16
+[2019.03.03-02.32.32:348][378]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 17
+[2019.03.03-02.32.32:381][382]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 18
+[2019.03.03-02.32.32:381][382]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 19
+[2019.03.03-02.32.32:381][382]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 20
+[2019.03.03-02.32.32:924][447]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 21
+[2019.03.03-02.32.32:924][447]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 22
+[2019.03.03-02.32.32:958][451]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 23
+[2019.03.03-02.32.32:958][451]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 24
+[2019.03.03-02.32.32:958][451]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 25
+[2019.03.03-02.32.33:516][501]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 26
+[2019.03.03-02.32.33:517][501]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 27
+[2019.03.03-02.32.33:544][504]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 28
+[2019.03.03-02.32.33:544][504]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 29
+[2019.03.03-02.32.33:545][504]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 30
+[2019.03.03-02.32.34:095][567]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 31
+[2019.03.03-02.32.34:104][568]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 32
+[2019.03.03-02.32.34:120][570]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 33
+[2019.03.03-02.32.34:130][571]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 34
+[2019.03.03-02.32.34:130][571]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 35
+[2019.03.03-02.32.34:943][667]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 36
+[2019.03.03-02.32.34:969][670]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 37
+[2019.03.03-02.32.34:969][670]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 38
+[2019.03.03-02.32.34:992][673]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 39
+[2019.03.03-02.32.34:993][673]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 40
+[2019.03.03-02.32.38:534][ 97]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 41
+[2019.03.03-02.32.38:551][ 99]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 42
+[2019.03.03-02.32.38:652][110]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 43
+[2019.03.03-02.32.38:660][111]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 44
+[2019.03.03-02.32.38:668][112]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 45
+[2019.03.03-02.32.39:807][248]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 46
+[2019.03.03-02.32.39:876][256]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 47
+[2019.03.03-02.32.39:884][257]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 48
+[2019.03.03-02.32.39:926][262]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 49
+[2019.03.03-02.32.39:935][263]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 50
+[2019.03.03-02.32.39:935][263]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 51
+[2019.03.03-02.32.40:650][346]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 52
+[2019.03.03-02.32.40:650][346]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 53
+[2019.03.03-02.32.40:684][350]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 54
+[2019.03.03-02.32.40:684][350]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 55
+[2019.03.03-02.32.40:684][350]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 56
+[2019.03.03-02.32.41:596][459]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 57
+[2019.03.03-02.32.41:604][460]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 58
+[2019.03.03-02.32.41:629][463]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 59
+[2019.03.03-02.32.41:629][463]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 60
+[2019.03.03-02.32.41:629][463]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 61
+[2019.03.03-02.32.42:139][524]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 62
+[2019.03.03-02.32.42:139][524]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 63
+[2019.03.03-02.32.42:164][527]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 64
+[2019.03.03-02.32.42:173][528]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 65
+[2019.03.03-02.32.42:173][528]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 66
+[2019.03.03-02.32.42:706][592]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 67
+[2019.03.03-02.32.42:706][592]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 68
+[2019.03.03-02.32.42:731][595]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 69
+[2019.03.03-02.32.42:731][595]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 70
+[2019.03.03-02.32.42:731][595]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 71
+[2019.03.03-02.32.43:300][663]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 72
+[2019.03.03-02.32.43:300][663]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 73
+[2019.03.03-02.32.43:326][666]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 74
+[2019.03.03-02.32.43:334][667]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 75
+[2019.03.03-02.32.43:334][667]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 76
+[2019.03.03-02.32.43:876][732]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 77
+[2019.03.03-02.32.43:885][733]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 78
+[2019.03.03-02.32.43:909][736]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 79
+[2019.03.03-02.32.43:910][736]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 80
+[2019.03.03-02.32.43:910][736]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 81
+[2019.03.03-02.32.44:469][803]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 82
+[2019.03.03-02.32.44:478][804]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 83
+[2019.03.03-02.32.44:501][807]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 84
+[2019.03.03-02.32.44:501][807]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 85
+[2019.03.03-02.32.44:510][808]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 86
+[2019.03.03-02.32.45:054][873]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 87
+[2019.03.03-02.32.45:064][874]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 88
+[2019.03.03-02.32.45:088][877]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 89
+[2019.03.03-02.32.45:088][877]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 90
+[2019.03.03-02.32.45:088][877]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 91
+[2019.03.03-02.32.45:731][954]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 92
+[2019.03.03-02.32.45:748][956]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 93
+[2019.03.03-02.32.45:765][958]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 94
+[2019.03.03-02.32.45:773][959]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 95
+[2019.03.03-02.32.45:773][959]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 96
+[2019.03.03-02.32.46:190][  9]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 97
+[2019.03.03-02.32.46:190][  9]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 98
+[2019.03.03-02.32.46:216][ 12]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 99
+[2019.03.03-02.32.46:224][ 13]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 100
+[2019.03.03-02.32.46:224][ 13]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 101
+[2019.03.03-02.32.46:699][ 70]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 102
+[2019.03.03-02.32.46:757][ 77]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 103
+[2019.03.03-02.32.46:774][ 79]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 104
+[2019.03.03-02.32.46:791][ 81]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 105
+[2019.03.03-02.32.46:799][ 82]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 106
+[2019.03.03-02.32.46:799][ 82]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 107
+[2019.03.03-02.32.47:271][138]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 108
+[2019.03.03-02.32.47:280][139]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 109
+[2019.03.03-02.32.47:296][141]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 110
+[2019.03.03-02.32.47:304][142]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 111
+[2019.03.03-02.32.47:313][143]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 112
+[2019.03.03-02.32.47:914][215]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 113
+[2019.03.03-02.32.47:922][216]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 114
+[2019.03.03-02.32.47:938][218]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 115
+[2019.03.03-02.32.47:947][219]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 116
+[2019.03.03-02.32.47:947][219]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 117
+[2019.03.03-02.32.48:467][281]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 118
+[2019.03.03-02.32.48:467][281]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 119
+[2019.03.03-02.32.48:492][284]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 120
+[2019.03.03-02.32.48:501][285]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 121
+[2019.03.03-02.32.48:501][285]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 122
+[2019.03.03-02.32.49:034][349]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 123
+[2019.03.03-02.32.49:034][349]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 124
+[2019.03.03-02.32.49:059][352]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 125
+[2019.03.03-02.32.49:060][352]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 126
+[2019.03.03-02.32.49:060][352]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 127
+[2019.03.03-02.32.49:623][419]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 128
+[2019.03.03-02.32.49:631][420]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 129
+[2019.03.03-02.32.49:657][423]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 130
+[2019.03.03-02.32.49:657][423]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 131
+[2019.03.03-02.32.49:657][423]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 132
+[2019.03.03-02.32.50:198][488]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 133
+[2019.03.03-02.32.50:207][489]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 134
+[2019.03.03-02.32.50:232][492]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 135
+[2019.03.03-02.32.50:232][492]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 136
+[2019.03.03-02.32.50:232][492]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 137
+[2019.03.03-02.32.50:798][559]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 138
+[2019.03.03-02.32.50:806][560]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 139
+[2019.03.03-02.32.50:831][563]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 140
+[2019.03.03-02.32.50:831][563]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 141
+[2019.03.03-02.32.50:831][563]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 142
+[2019.03.03-02.32.51:391][630]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 143
+[2019.03.03-02.32.51:401][631]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 144
+[2019.03.03-02.32.51:417][633]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 145
+[2019.03.03-02.32.51:426][634]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 146
+[2019.03.03-02.32.51:426][634]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 147
+[2019.03.03-02.32.52:264][734]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 148
+[2019.03.03-02.32.52:281][736]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 149
+[2019.03.03-02.32.52:297][738]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 150
+[2019.03.03-02.32.52:305][739]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 151
+[2019.03.03-02.32.52:305][739]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 152
+[2019.03.03-02.32.52:749][792]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 153
+[2019.03.03-02.32.52:749][792]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 154
+[2019.03.03-02.32.52:782][796]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 155
+[2019.03.03-02.32.52:783][796]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 156
+[2019.03.03-02.32.52:783][796]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 157
+[2019.03.03-02.32.53:324][861]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 158
+[2019.03.03-02.32.53:350][864]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 159
+[2019.03.03-02.32.53:350][864]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 160
+[2019.03.03-02.32.53:374][867]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 161
+[2019.03.03-02.32.53:374][867]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 162
+[2019.03.03-02.32.53:766][914]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 163
+[2019.03.03-02.32.53:783][916]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 164
+[2019.03.03-02.32.53:800][918]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 165
+[2019.03.03-02.32.53:808][919]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 166
+[2019.03.03-02.32.53:808][919]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 167
+[2019.03.03-02.32.54:484][  0]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 168
+[2019.03.03-02.32.54:485][  0]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 169
+[2019.03.03-02.32.54:510][  3]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 170
+[2019.03.03-02.32.54:510][  3]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 171
+[2019.03.03-02.32.54:519][  4]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 172
+[2019.03.03-02.32.55:021][ 64]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 173
+[2019.03.03-02.32.55:023][ 64]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 174
+[2019.03.03-02.32.55:055][ 68]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 175
+[2019.03.03-02.32.55:055][ 68]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 176
+[2019.03.03-02.32.55:055][ 68]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 177
+[2019.03.03-02.32.55:590][132]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 178
+[2019.03.03-02.32.55:598][133]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 179
+[2019.03.03-02.32.55:623][136]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 180
+[2019.03.03-02.32.55:632][137]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 181
+[2019.03.03-02.32.55:632][137]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 182
+[2019.03.03-02.32.56:192][204]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 183
+[2019.03.03-02.32.56:200][205]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 184
+[2019.03.03-02.32.56:225][208]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 185
+[2019.03.03-02.32.56:225][208]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 186
+[2019.03.03-02.32.56:234][209]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 187
+[2019.03.03-02.32.56:793][276]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 188
+[2019.03.03-02.32.56:793][276]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 189
+[2019.03.03-02.32.56:818][279]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 190
+[2019.03.03-02.32.56:826][280]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 191
+[2019.03.03-02.32.56:827][280]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 192
+[2019.03.03-02.32.57:402][349]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 193
+[2019.03.03-02.32.57:411][350]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 194
+[2019.03.03-02.32.57:436][353]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 195
+[2019.03.03-02.32.57:436][353]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 196
+[2019.03.03-02.32.57:436][353]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 197
+[2019.03.03-02.32.57:988][419]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 198
+[2019.03.03-02.32.57:988][419]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 199
+[2019.03.03-02.32.58:014][422]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 200
+[2019.03.03-02.32.58:021][423]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 201
+[2019.03.03-02.32.58:022][423]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 202
+[2019.03.03-02.32.58:699][504]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 203
+[2019.03.03-02.32.58:725][507]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 204
+[2019.03.03-02.32.58:733][508]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 205
+[2019.03.03-02.32.58:752][510]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 206
+[2019.03.03-02.32.58:752][510]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 207
+[2019.03.03-02.32.59:085][550]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 208
+[2019.03.03-02.32.59:102][552]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 209
+[2019.03.03-02.32.59:118][554]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 210
+[2019.03.03-02.32.59:135][556]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 211
+[2019.03.03-02.32.59:135][556]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 212
+[2019.03.03-02.32.59:687][622]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 213
+[2019.03.03-02.32.59:712][625]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 214
+[2019.03.03-02.32.59:712][625]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 215
+[2019.03.03-02.32.59:730][627]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 216
+[2019.03.03-02.32.59:738][628]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 217
+[2019.03.03-02.33.00:151][677]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 218
+[2019.03.03-02.33.00:160][678]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 219
+[2019.03.03-02.33.00:176][680]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 220
+[2019.03.03-02.33.00:185][681]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 221
+[2019.03.03-02.33.00:193][682]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 222
+[2019.03.03-02.33.00:703][743]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 223
+[2019.03.03-02.33.00:711][744]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 224
+[2019.03.03-02.33.00:735][747]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 225
+[2019.03.03-02.33.00:735][747]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 226
+[2019.03.03-02.33.00:743][748]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 227
+[2019.03.03-02.33.01:246][808]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 228
+[2019.03.03-02.33.01:254][809]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 229
+[2019.03.03-02.33.01:279][812]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 230
+[2019.03.03-02.33.01:279][812]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 231
+[2019.03.03-02.33.01:279][812]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 232
+[2019.03.03-02.33.01:813][876]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 233
+[2019.03.03-02.33.01:821][877]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 234
+[2019.03.03-02.33.01:846][880]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 235
+[2019.03.03-02.33.01:846][880]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 236
+[2019.03.03-02.33.01:846][880]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 237
+[2019.03.03-02.33.02:415][948]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 238
+[2019.03.03-02.33.02:415][948]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 239
+[2019.03.03-02.33.02:449][952]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 240
+[2019.03.03-02.33.02:449][952]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 241
+[2019.03.03-02.33.02:449][952]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 242
+[2019.03.03-02.33.02:998][ 18]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 243
+[2019.03.03-02.33.02:998][ 18]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 244
+[2019.03.03-02.33.03:023][ 21]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 245
+[2019.03.03-02.33.03:023][ 21]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 246
+[2019.03.03-02.33.03:032][ 22]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 247
+[2019.03.03-02.33.03:590][ 89]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 248
+[2019.03.03-02.33.03:590][ 89]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 249
+[2019.03.03-02.33.03:615][ 92]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 250
+[2019.03.03-02.33.03:623][ 93]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 251
+[2019.03.03-02.33.03:623][ 93]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 252
+[2019.03.03-02.33.04:168][158]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 253
+[2019.03.03-02.33.04:176][159]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 254
+[2019.03.03-02.33.04:201][162]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 255
+[2019.03.03-02.33.04:201][162]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 256
+[2019.03.03-02.33.04:208][163]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 257
+[2019.03.03-02.33.05:034][262]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 258
+[2019.03.03-02.33.05:043][263]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 259
+[2019.03.03-02.33.05:060][265]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 260
+[2019.03.03-02.33.05:070][266]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 261
+[2019.03.03-02.33.05:078][267]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 262
+[2019.03.03-02.33.05:565][325]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 263
+[2019.03.03-02.33.05:565][325]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 264
+[2019.03.03-02.33.05:589][328]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 265
+[2019.03.03-02.33.05:590][328]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 266
+[2019.03.03-02.33.05:598][329]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 267
+[2019.03.03-02.33.06:134][393]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 268
+[2019.03.03-02.33.06:143][394]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 269
+[2019.03.03-02.33.06:159][396]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 270
+[2019.03.03-02.33.06:176][398]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 271
+[2019.03.03-02.33.06:176][398]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 272
+[2019.03.03-02.33.06:669][457]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 273
+[2019.03.03-02.33.06:677][458]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 274
+[2019.03.03-02.33.06:694][460]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 275
+[2019.03.03-02.33.06:702][461]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 276
+[2019.03.03-02.33.06:702][461]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 277
+[2019.03.03-02.33.07:461][552]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 278
+[2019.03.03-02.33.07:462][552]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 279
+[2019.03.03-02.33.07:486][555]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 280
+[2019.03.03-02.33.07:486][555]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 281
+[2019.03.03-02.33.07:494][556]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 282
+[2019.03.03-02.33.07:995][616]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 283
+[2019.03.03-02.33.08:003][617]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 284
+[2019.03.03-02.33.08:028][620]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 285
+[2019.03.03-02.33.08:028][620]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 286
+[2019.03.03-02.33.08:028][620]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 287
+[2019.03.03-02.33.08:569][684]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 288
+[2019.03.03-02.33.08:569][684]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 289
+[2019.03.03-02.33.08:594][687]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 290
+[2019.03.03-02.33.08:594][687]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 291
+[2019.03.03-02.33.08:602][688]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 292
+[2019.03.03-02.33.09:162][755]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 293
+[2019.03.03-02.33.09:162][755]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 294
+[2019.03.03-02.33.09:188][758]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 295
+[2019.03.03-02.33.09:188][758]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 296
+[2019.03.03-02.33.09:197][759]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 297
+[2019.03.03-02.33.09:741][824]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 298
+[2019.03.03-02.33.09:741][824]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 299
+[2019.03.03-02.33.09:765][827]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 300
+[2019.03.03-02.33.09:765][827]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 301
+[2019.03.03-02.33.09:773][828]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 302
+[2019.03.03-02.33.10:324][893]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 303
+[2019.03.03-02.33.10:334][894]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 304
+[2019.03.03-02.33.10:359][897]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 305
+[2019.03.03-02.33.10:359][897]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 306
+[2019.03.03-02.33.10:359][897]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 307
+[2019.03.03-02.33.10:909][963]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 308
+[2019.03.03-02.33.10:909][963]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 309
+[2019.03.03-02.33.10:934][966]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 310
+[2019.03.03-02.33.10:942][967]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 311
+[2019.03.03-02.33.10:942][967]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 312
+[2019.03.03-02.33.11:501][ 34]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 313
+[2019.03.03-02.33.11:501][ 34]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 314
+[2019.03.03-02.33.11:526][ 37]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 315
+[2019.03.03-02.33.11:534][ 38]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 316
+[2019.03.03-02.33.11:534][ 38]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 317
+[2019.03.03-02.33.12:028][ 97]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 318
+[2019.03.03-02.33.12:036][ 98]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 319
+[2019.03.03-02.33.12:060][101]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 320
+[2019.03.03-02.33.12:070][102]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 321
+[2019.03.03-02.33.12:070][102]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 322
+[2019.03.03-02.33.12:628][162]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 323
+[2019.03.03-02.33.12:654][165]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 324
+[2019.03.03-02.33.12:654][165]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 325
+[2019.03.03-02.33.12:662][166]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 326
+[2019.03.03-02.33.12:677][168]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 327
+[2019.03.03-02.33.12:677][168]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 328
+[2019.03.03-02.33.13:153][225]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 329
+[2019.03.03-02.33.13:170][227]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 330
+[2019.03.03-02.33.13:187][229]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 331
+[2019.03.03-02.33.13:195][230]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 332
+[2019.03.03-02.33.13:195][230]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 333
+[2019.03.03-02.33.13:679][288]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 334
+[2019.03.03-02.33.13:679][288]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 335
+[2019.03.03-02.33.13:703][291]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 336
+[2019.03.03-02.33.13:704][291]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 337
+[2019.03.03-02.33.13:712][292]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 338
+[2019.03.03-02.33.14:212][352]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 339
+[2019.03.03-02.33.14:221][353]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 340
+[2019.03.03-02.33.14:246][356]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 341
+[2019.03.03-02.33.14:246][356]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 342
+[2019.03.03-02.33.14:246][356]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 343
+[2019.03.03-02.33.14:781][420]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 344
+[2019.03.03-02.33.14:789][421]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 345
+[2019.03.03-02.33.14:805][423]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 346
+[2019.03.03-02.33.14:815][424]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 347
+[2019.03.03-02.33.14:823][425]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 348
+[2019.03.03-02.33.15:407][495]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 349
+[2019.03.03-02.33.15:432][498]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 350
+[2019.03.03-02.33.15:432][498]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 351
+[2019.03.03-02.33.15:457][501]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 352
+[2019.03.03-02.33.15:457][501]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 353
+[2019.03.03-02.33.16:091][577]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 354
+[2019.03.03-02.33.16:099][578]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 355
+[2019.03.03-02.33.16:123][581]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 356
+[2019.03.03-02.33.16:131][582]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 357
+[2019.03.03-02.33.16:133][582]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 358
+[2019.03.03-02.33.16:692][649]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 359
+[2019.03.03-02.33.16:692][649]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 360
+[2019.03.03-02.33.16:726][653]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 361
+[2019.03.03-02.33.16:726][653]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 362
+[2019.03.03-02.33.16:726][653]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 363
+[2019.03.03-02.33.17:276][719]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 364
+[2019.03.03-02.33.17:276][719]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 365
+[2019.03.03-02.33.17:301][722]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 366
+[2019.03.03-02.33.17:309][723]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 367
+[2019.03.03-02.33.17:309][723]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 368
+[2019.03.03-02.33.18:310][843]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 369
+[2019.03.03-02.33.18:326][845]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 370
+[2019.03.03-02.33.18:335][846]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 371
+[2019.03.03-02.33.18:351][848]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 372
+[2019.03.03-02.33.18:360][849]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 373
+[2019.03.03-02.33.18:986][920]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 374
+[2019.03.03-02.33.18:994][921]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 375
+[2019.03.03-02.33.19:019][924]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 376
+[2019.03.03-02.33.19:019][924]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 377
+[2019.03.03-02.33.19:019][924]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 378
+[2019.03.03-02.33.19:594][993]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 379
+[2019.03.03-02.33.19:611][995]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 380
+[2019.03.03-02.33.19:619][996]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 381
+[2019.03.03-02.33.19:644][999]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 382
+[2019.03.03-02.33.19:644][999]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 383
+[2019.03.03-02.33.19:996][ 41]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 384
+[2019.03.03-02.33.19:996][ 41]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 385
+[2019.03.03-02.33.20:029][ 45]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 386
+[2019.03.03-02.33.20:030][ 45]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 387
+[2019.03.03-02.33.20:030][ 45]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 388
+[2019.03.03-02.33.20:732][129]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 389
+[2019.03.03-02.33.20:740][130]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 390
+[2019.03.03-02.33.20:765][133]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 391
+[2019.03.03-02.33.20:765][133]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 392
+[2019.03.03-02.33.20:765][133]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 393
+[2019.03.03-02.33.21:274][194]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 394
+[2019.03.03-02.33.21:274][194]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 395
+[2019.03.03-02.33.21:307][198]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 396
+[2019.03.03-02.33.21:307][198]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 397
+[2019.03.03-02.33.21:307][198]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 398
+[2019.03.03-02.33.21:842][262]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 399
+[2019.03.03-02.33.21:842][262]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 400
+[2019.03.03-02.33.21:868][265]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 401
+[2019.03.03-02.33.21:868][265]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 402
+[2019.03.03-02.33.21:868][265]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 403
+[2019.03.03-02.33.22:438][333]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 404
+[2019.03.03-02.33.22:446][334]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 405
+[2019.03.03-02.33.22:463][336]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 406
+[2019.03.03-02.33.22:471][337]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 407
+[2019.03.03-02.33.22:480][338]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 408
+[2019.03.03-02.33.23:051][406]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 409
+[2019.03.03-02.33.23:061][407]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 410
+[2019.03.03-02.33.23:078][409]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 411
+[2019.03.03-02.33.23:086][410]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 412
+[2019.03.03-02.33.23:086][410]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 413
+[2019.03.03-02.33.23:661][479]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 414
+[2019.03.03-02.33.23:661][479]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 415
+[2019.03.03-02.33.23:688][482]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 416
+[2019.03.03-02.33.23:688][482]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 417
+[2019.03.03-02.33.23:696][483]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 418
+[2019.03.03-02.33.24:240][548]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 419
+[2019.03.03-02.33.24:240][548]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 420
+[2019.03.03-02.33.24:273][552]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 421
+[2019.03.03-02.33.24:274][552]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 422
+[2019.03.03-02.33.24:274][552]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 423
+[2019.03.03-02.33.24:782][613]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 424
+[2019.03.03-02.33.24:791][614]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 425
+[2019.03.03-02.33.24:807][616]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 426
+[2019.03.03-02.33.24:816][617]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 427
+[2019.03.03-02.33.24:816][617]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 428
+[2019.03.03-02.33.25:093][650]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 429
+[2019.03.03-02.33.25:101][651]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 430
+[2019.03.03-02.33.25:126][654]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 431
+[2019.03.03-02.33.25:135][655]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 432
+[2019.03.03-02.33.25:135][655]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 433
+[2019.03.03-02.33.25:685][719]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 434
+[2019.03.03-02.33.25:685][719]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 435
+[2019.03.03-02.33.25:710][722]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 436
+[2019.03.03-02.33.25:719][723]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 437
+[2019.03.03-02.33.25:719][723]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 438
+[2019.03.03-02.33.26:218][782]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 439
+[2019.03.03-02.33.26:218][782]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 440
+[2019.03.03-02.33.26:252][786]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 441
+[2019.03.03-02.33.26:252][786]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 442
+[2019.03.03-02.33.26:252][786]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 443
+[2019.03.03-02.33.26:917][863]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 444
+[2019.03.03-02.33.26:925][864]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 445
+[2019.03.03-02.33.26:950][867]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 446
+[2019.03.03-02.33.26:958][868]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 447
+[2019.03.03-02.33.26:958][868]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 448
+[2019.03.03-02.33.27:466][927]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 449
+[2019.03.03-02.33.27:466][927]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 450
+[2019.03.03-02.33.27:491][930]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 451
+[2019.03.03-02.33.27:499][931]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 452
+[2019.03.03-02.33.27:499][931]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 453
+[2019.03.03-02.33.28:034][995]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 454
+[2019.03.03-02.33.28:042][996]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 455
+[2019.03.03-02.33.28:066][999]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 456
+[2019.03.03-02.33.28:066][999]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 457
+[2019.03.03-02.33.28:074][  0]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 458
+[2019.03.03-02.33.28:640][ 67]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 459
+[2019.03.03-02.33.28:640][ 67]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 460
+[2019.03.03-02.33.28:666][ 70]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 461
+[2019.03.03-02.33.28:673][ 71]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 462
+[2019.03.03-02.33.28:673][ 71]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 463
+[2019.03.03-02.33.29:212][135]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 464
+[2019.03.03-02.33.29:221][136]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 465
+[2019.03.03-02.33.29:246][139]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 466
+[2019.03.03-02.33.29:246][139]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 467
+[2019.03.03-02.33.29:254][140]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 468
+[2019.03.03-02.33.29:808][206]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 469
+[2019.03.03-02.33.29:808][206]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 470
+[2019.03.03-02.33.29:842][210]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 471
+[2019.03.03-02.33.29:842][210]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 472
+[2019.03.03-02.33.29:842][210]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 473
+[2019.03.03-02.33.30:384][275]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 474
+[2019.03.03-02.33.30:401][277]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 475
+[2019.03.03-02.33.30:417][279]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 476
+[2019.03.03-02.33.30:425][280]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 477
+[2019.03.03-02.33.30:425][280]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 478
+[2019.03.03-02.33.31:084][359]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 479
+[2019.03.03-02.33.31:084][359]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 480
+[2019.03.03-02.33.31:109][362]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 481
+[2019.03.03-02.33.31:118][363]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 482
+[2019.03.03-02.33.31:118][363]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 483
+[2019.03.03-02.33.31:453][403]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 484
+[2019.03.03-02.33.31:520][411]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 485
+[2019.03.03-02.33.31:536][413]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 486
+[2019.03.03-02.33.31:553][415]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 487
+[2019.03.03-02.33.31:570][417]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 488
+[2019.03.03-02.33.31:570][417]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 489
+[2019.03.03-02.33.32:137][485]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 490
+[2019.03.03-02.33.32:153][487]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 491
+[2019.03.03-02.33.32:161][488]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 492
+[2019.03.03-02.33.32:178][490]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 493
+[2019.03.03-02.33.32:178][490]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 494
+[2019.03.03-02.33.32:706][553]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 495
+[2019.03.03-02.33.32:723][555]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 496
+[2019.03.03-02.33.32:732][556]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 497
+[2019.03.03-02.33.32:749][558]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 498
+[2019.03.03-02.33.32:749][558]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 499
+[2019.03.03-02.33.33:450][642]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 500
+[2019.03.03-02.33.33:451][642]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 501
+[2019.03.03-02.33.33:475][645]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 502
+[2019.03.03-02.33.33:485][646]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 503
+[2019.03.03-02.33.33:485][646]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 504
+[2019.03.03-02.33.33:985][706]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 505
+[2019.03.03-02.33.33:994][707]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 506
+[2019.03.03-02.33.34:019][710]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 507
+[2019.03.03-02.33.34:019][710]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 508
+[2019.03.03-02.33.34:027][711]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 509
+[2019.03.03-02.33.34:562][775]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 510
+[2019.03.03-02.33.34:562][775]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 511
+[2019.03.03-02.33.34:595][779]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 512
+[2019.03.03-02.33.34:596][779]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 513
+[2019.03.03-02.33.34:596][779]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 514
+[2019.03.03-02.33.35:162][847]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 515
+[2019.03.03-02.33.35:162][847]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 516
+[2019.03.03-02.33.35:187][850]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 517
+[2019.03.03-02.33.35:195][851]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 518
+[2019.03.03-02.33.35:195][851]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 519
+[2019.03.03-02.33.35:740][916]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 520
+[2019.03.03-02.33.35:748][917]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 521
+[2019.03.03-02.33.35:773][920]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 522
+[2019.03.03-02.33.35:773][920]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 523
+[2019.03.03-02.33.35:782][921]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 524
+[2019.03.03-02.33.36:339][988]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 525
+[2019.03.03-02.33.36:348][989]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 526
+[2019.03.03-02.33.36:373][992]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 527
+[2019.03.03-02.33.36:373][992]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 528
+[2019.03.03-02.33.36:382][993]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 529
+[2019.03.03-02.33.36:928][ 58]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 530
+[2019.03.03-02.33.36:936][ 59]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 531
+[2019.03.03-02.33.36:960][ 62]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 532
+[2019.03.03-02.33.36:960][ 62]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 533
+[2019.03.03-02.33.36:969][ 63]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 534
+[2019.03.03-02.33.37:627][142]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 535
+[2019.03.03-02.33.37:644][144]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 536
+[2019.03.03-02.33.37:661][146]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 537
+[2019.03.03-02.33.37:669][147]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 538
+[2019.03.03-02.33.37:678][148]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 539
+[2019.03.03-02.33.37:962][182]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 540
+[2019.03.03-02.33.37:978][184]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 541
+[2019.03.03-02.33.37:995][186]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 542
+[2019.03.03-02.33.38:003][187]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 543
+[2019.03.03-02.33.38:011][188]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 544
+[2019.03.03-02.33.38:562][254]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 545
+[2019.03.03-02.33.38:579][256]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 546
+[2019.03.03-02.33.38:587][257]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 547
+[2019.03.03-02.33.38:604][259]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 548
+[2019.03.03-02.33.38:604][259]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 549
+[2019.03.03-02.33.38:953][300]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 550
+[2019.03.03-02.33.38:961][301]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 551
+[2019.03.03-02.33.38:986][304]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 552
+[2019.03.03-02.33.38:995][305]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 553
+[2019.03.03-02.33.38:995][305]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 554
+[2019.03.03-02.33.39:495][365]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 555
+[2019.03.03-02.33.39:504][366]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 556
+[2019.03.03-02.33.39:529][369]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 557
+[2019.03.03-02.33.39:529][369]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 558
+[2019.03.03-02.33.39:529][369]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 559
+[2019.03.03-02.33.40:041][430]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 560
+[2019.03.03-02.33.40:051][431]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 561
+[2019.03.03-02.33.40:069][433]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 562
+[2019.03.03-02.33.40:078][434]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 563
+[2019.03.03-02.33.40:078][434]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 564
+[2019.03.03-02.33.40:609][497]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 565
+[2019.03.03-02.33.40:609][497]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 566
+[2019.03.03-02.33.40:643][501]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 567
+[2019.03.03-02.33.40:643][501]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 568
+[2019.03.03-02.33.40:643][501]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 569
+[2019.03.03-02.33.41:206][568]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 570
+[2019.03.03-02.33.41:214][569]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 571
+[2019.03.03-02.33.41:239][572]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 572
+[2019.03.03-02.33.41:239][572]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 573
+[2019.03.03-02.33.41:248][573]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 574
+[2019.03.03-02.33.41:790][638]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 575
+[2019.03.03-02.33.41:799][639]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 576
+[2019.03.03-02.33.41:822][642]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 577
+[2019.03.03-02.33.41:822][642]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 578
+[2019.03.03-02.33.41:831][643]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 579
+[2019.03.03-02.33.42:400][711]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 580
+[2019.03.03-02.33.42:417][713]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 581
+[2019.03.03-02.33.42:434][715]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 582
+[2019.03.03-02.33.42:442][716]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 583
+[2019.03.03-02.33.42:450][717]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 584
+[2019.03.03-02.33.43:012][784]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 585
+[2019.03.03-02.33.43:012][784]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 586
+[2019.03.03-02.33.43:037][787]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 587
+[2019.03.03-02.33.43:037][787]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 588
+[2019.03.03-02.33.43:045][788]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 589
+[2019.03.03-02.33.43:846][884]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 590
+[2019.03.03-02.33.43:862][886]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 591
+[2019.03.03-02.33.43:879][888]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 592
+[2019.03.03-02.33.43:888][889]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 593
+[2019.03.03-02.33.43:888][889]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 594
+[2019.03.03-02.33.44:287][936]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 595
+[2019.03.03-02.33.44:320][940]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 596
+[2019.03.03-02.33.44:328][941]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 597
+[2019.03.03-02.33.44:344][943]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 598
+[2019.03.03-02.33.44:353][944]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 599
+[2019.03.03-02.33.44:361][945]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 600
+[2019.03.03-02.33.44:903][ 10]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 601
+[2019.03.03-02.33.44:903][ 10]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 602
+[2019.03.03-02.33.44:928][ 13]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 603
+[2019.03.03-02.33.44:928][ 13]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 604
+[2019.03.03-02.33.44:936][ 14]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 605
+[2019.03.03-02.33.45:359][ 64]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 606
+[2019.03.03-02.33.45:368][ 65]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 607
+[2019.03.03-02.33.45:392][ 68]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 608
+[2019.03.03-02.33.45:392][ 68]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 609
+[2019.03.03-02.33.45:392][ 68]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 610
+[2019.03.03-02.33.46:229][168]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 611
+[2019.03.03-02.33.46:229][168]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 612
+[2019.03.03-02.33.46:254][171]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 613
+[2019.03.03-02.33.46:262][172]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 614
+[2019.03.03-02.33.46:262][172]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 615
+[2019.03.03-02.33.46:787][235]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 616
+[2019.03.03-02.33.46:795][236]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 617
+[2019.03.03-02.33.46:820][239]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 618
+[2019.03.03-02.33.46:828][240]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 619
+[2019.03.03-02.33.46:829][240]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 620
+[2019.03.03-02.33.47:373][305]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 621
+[2019.03.03-02.33.47:390][307]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 622
+[2019.03.03-02.33.47:399][308]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 623
+[2019.03.03-02.33.47:415][310]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 624
+[2019.03.03-02.33.47:423][311]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 625
+[2019.03.03-02.33.48:008][381]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 626
+[2019.03.03-02.33.48:016][382]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 627
+[2019.03.03-02.33.48:041][385]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 628
+[2019.03.03-02.33.48:041][385]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 629
+[2019.03.03-02.33.48:041][385]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 630
+[2019.03.03-02.33.48:584][450]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 631
+[2019.03.03-02.33.48:592][451]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 632
+[2019.03.03-02.33.48:617][454]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 633
+[2019.03.03-02.33.48:625][455]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 634
+[2019.03.03-02.33.48:625][455]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 635
+[2019.03.03-02.33.49:186][522]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 636
+[2019.03.03-02.33.49:186][522]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 637
+[2019.03.03-02.33.49:212][525]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 638
+[2019.03.03-02.33.49:220][526]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 639
+[2019.03.03-02.33.49:220][526]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 640
+[2019.03.03-02.33.49:770][592]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 641
+[2019.03.03-02.33.49:779][593]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 642
+[2019.03.03-02.33.49:805][596]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 643
+[2019.03.03-02.33.49:805][596]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 644
+[2019.03.03-02.33.49:805][596]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 645
+[2019.03.03-02.33.49:812][597]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 646
+[2019.03.03-02.33.50:540][670]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 647
+[2019.03.03-02.33.50:549][671]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 648
+[2019.03.03-02.33.50:567][673]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 649
+[2019.03.03-02.33.50:575][674]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 650
+[2019.03.03-02.33.50:575][674]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 651
+[2019.03.03-02.33.51:117][739]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 652
+[2019.03.03-02.33.51:118][739]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 653
+[2019.03.03-02.33.51:142][742]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 654
+[2019.03.03-02.33.51:151][743]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 655
+[2019.03.03-02.33.51:151][743]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 656
+[2019.03.03-02.33.51:694][808]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 657
+[2019.03.03-02.33.51:702][809]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 658
+[2019.03.03-02.33.51:719][811]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 659
+[2019.03.03-02.33.51:727][812]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 660
+[2019.03.03-02.33.51:727][812]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 661
+[2019.03.03-02.33.52:494][904]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 662
+[2019.03.03-02.33.52:502][905]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 663
+[2019.03.03-02.33.52:527][908]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 664
+[2019.03.03-02.33.52:527][908]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 665
+[2019.03.03-02.33.52:527][908]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 666
+[2019.03.03-02.33.53:395][ 12]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 667
+[2019.03.03-02.33.53:412][ 14]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 668
+[2019.03.03-02.33.53:420][ 15]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 669
+[2019.03.03-02.33.53:429][ 16]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 670
+[2019.03.03-02.33.53:437][ 17]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 671
+[2019.03.03-02.33.53:445][ 18]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 672
+[2019.03.03-02.33.53:979][ 82]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 673
+[2019.03.03-02.33.53:987][ 83]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 674
+[2019.03.03-02.33.54:004][ 85]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 675
+[2019.03.03-02.33.54:012][ 86]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 676
+[2019.03.03-02.33.54:012][ 86]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 677
+[2019.03.03-02.33.54:553][151]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 678
+[2019.03.03-02.33.54:562][152]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 679
+[2019.03.03-02.33.54:587][155]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 680
+[2019.03.03-02.33.54:587][155]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 681
+[2019.03.03-02.33.54:587][155]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 682
+[2019.03.03-02.33.55:156][223]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 683
+[2019.03.03-02.33.55:156][223]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 684
+[2019.03.03-02.33.55:182][226]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 685
+[2019.03.03-02.33.55:183][226]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 686
+[2019.03.03-02.33.55:191][227]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 687
+[2019.03.03-02.33.55:735][292]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 688
+[2019.03.03-02.33.55:735][292]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 689
+[2019.03.03-02.33.55:768][296]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 690
+[2019.03.03-02.33.55:768][296]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 691
+[2019.03.03-02.33.55:768][296]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 692
+[2019.03.03-02.33.56:327][363]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 693
+[2019.03.03-02.33.56:327][363]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 694
+[2019.03.03-02.33.56:360][367]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 695
+[2019.03.03-02.33.56:360][367]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 696
+[2019.03.03-02.33.56:360][367]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 697
+[2019.03.03-02.33.56:911][433]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 698
+[2019.03.03-02.33.56:927][435]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 699
+[2019.03.03-02.33.56:944][437]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 700
+[2019.03.03-02.33.56:952][438]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 701
+[2019.03.03-02.33.56:961][439]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 702
+[2019.03.03-02.33.57:791][538]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 703
+[2019.03.03-02.33.57:808][540]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 704
+[2019.03.03-02.33.57:826][542]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 705
+[2019.03.03-02.33.57:834][543]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 706
+[2019.03.03-02.33.57:834][543]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 707
+[2019.03.03-02.33.58:318][601]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 708
+[2019.03.03-02.33.58:384][609]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 709
+[2019.03.03-02.33.58:393][610]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 710
+[2019.03.03-02.33.58:409][612]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 711
+[2019.03.03-02.33.58:418][613]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 712
+[2019.03.03-02.33.58:418][613]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 713
+[2019.03.03-02.33.58:961][678]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 714
+[2019.03.03-02.33.58:986][681]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 715
+[2019.03.03-02.33.58:986][681]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 716
+[2019.03.03-02.33.59:011][684]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 717
+[2019.03.03-02.33.59:011][684]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 718
+[2019.03.03-02.33.59:345][724]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 719
+[2019.03.03-02.33.59:345][724]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 720
+[2019.03.03-02.33.59:353][725]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 721
+[2019.03.03-02.33.59:370][727]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 722
+[2019.03.03-02.33.59:378][728]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 723
+[2019.03.03-02.33.59:378][728]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 724
+[2019.03.03-02.34.00:039][807]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 725
+[2019.03.03-02.34.00:048][808]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 726
+[2019.03.03-02.34.00:074][811]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 727
+[2019.03.03-02.34.00:074][811]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 728
+[2019.03.03-02.34.00:082][812]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 729
+[2019.03.03-02.34.00:587][872]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 730
+[2019.03.03-02.34.00:587][872]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 731
+[2019.03.03-02.34.00:612][875]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 732
+[2019.03.03-02.34.00:612][875]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 733
+[2019.03.03-02.34.00:620][876]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 734
+[2019.03.03-02.34.01:146][939]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 735
+[2019.03.03-02.34.01:163][941]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 736
+[2019.03.03-02.34.01:171][942]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 737
+[2019.03.03-02.34.01:188][944]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 738
+[2019.03.03-02.34.01:188][944]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 739
+[2019.03.03-02.34.01:791][ 16]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 740
+[2019.03.03-02.34.01:800][ 17]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 741
+[2019.03.03-02.34.01:824][ 20]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 742
+[2019.03.03-02.34.01:824][ 20]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 743
+[2019.03.03-02.34.01:832][ 21]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 744
+[2019.03.03-02.34.02:044][ 46]LogTemp: Warning: Boost Pressed
+[2019.03.03-02.34.02:444][ 94]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 745
+[2019.03.03-02.34.02:469][ 97]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 746
+[2019.03.03-02.34.02:469][ 97]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 747
+[2019.03.03-02.34.02:477][ 98]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 748
+[2019.03.03-02.34.02:494][100]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 749
+[2019.03.03-02.34.02:502][101]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 750
+[2019.03.03-02.34.02:877][146]LogTemp: Warning: Boost Un-Pressed
+[2019.03.03-02.34.03:054][167]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 751
+[2019.03.03-02.34.03:063][168]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 752
+[2019.03.03-02.34.03:071][169]LogTemp: Warning: Boost Pressed
+[2019.03.03-02.34.03:088][171]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 753
+[2019.03.03-02.34.03:096][172]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 754
+[2019.03.03-02.34.03:096][172]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 755
+[2019.03.03-02.34.03:355][203]LogTemp: Warning: Boost Un-Pressed
+[2019.03.03-02.34.03:755][251]LogTemp: Warning: Boost Pressed
+[2019.03.03-02.34.03:796][256]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 756
+[2019.03.03-02.34.03:821][259]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 757
+[2019.03.03-02.34.03:829][260]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 758
+[2019.03.03-02.34.03:855][263]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 759
+[2019.03.03-02.34.03:863][264]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 760
+[2019.03.03-02.34.04:005][281]LogTemp: Warning: Boost Un-Pressed
+[2019.03.03-02.34.04:557][347]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 761
+[2019.03.03-02.34.04:566][348]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 762
+[2019.03.03-02.34.04:599][352]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 763
+[2019.03.03-02.34.04:607][353]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 764
+[2019.03.03-02.34.04:607][353]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 765
+[2019.03.03-02.34.04:607][353]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 766
+[2019.03.03-02.34.06:210][544]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 767
+[2019.03.03-02.34.06:977][636]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 768
+[2019.03.03-02.34.07:043][644]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 769
+[2019.03.03-02.34.07:138][655]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 770
+[2019.03.03-02.34.07:155][657]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 771
+[2019.03.03-02.34.07:163][658]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 772
+[2019.03.03-02.34.08:503][818]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 773
+[2019.03.03-02.34.08:512][819]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 774
+[2019.03.03-02.34.08:512][819]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 775
+[2019.03.03-02.34.08:554][824]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 776
+[2019.03.03-02.34.08:562][825]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 777
+[2019.03.03-02.34.08:562][825]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 778
+[2019.03.03-02.34.09:137][894]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 779
+[2019.03.03-02.34.09:137][894]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 780
+[2019.03.03-02.34.09:179][899]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 781
+[2019.03.03-02.34.09:179][899]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 782
+[2019.03.03-02.34.09:187][900]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 783
+[2019.03.03-02.34.09:926][988]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 784
+[2019.03.03-02.34.09:926][988]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 785
+[2019.03.03-02.34.09:959][992]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 786
+[2019.03.03-02.34.09:959][992]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 787
+[2019.03.03-02.34.09:959][992]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 788
+[2019.03.03-02.34.10:480][ 52]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 789
+[2019.03.03-02.34.10:480][ 52]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 790
+[2019.03.03-02.34.10:514][ 56]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 791
+[2019.03.03-02.34.10:514][ 56]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 792
+[2019.03.03-02.34.10:514][ 56]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 793
+[2019.03.03-02.34.11:046][120]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 794
+[2019.03.03-02.34.11:046][120]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 795
+[2019.03.03-02.34.11:071][123]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 796
+[2019.03.03-02.34.11:071][123]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 797
+[2019.03.03-02.34.11:071][123]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 798
+[2019.03.03-02.34.11:639][191]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 799
+[2019.03.03-02.34.11:639][191]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 800
+[2019.03.03-02.34.11:672][195]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 801
+[2019.03.03-02.34.11:672][195]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 802
+[2019.03.03-02.34.11:672][195]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 803
+[2019.03.03-02.34.12:219][260]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 804
+[2019.03.03-02.34.12:219][260]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 805
+[2019.03.03-02.34.12:244][263]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 806
+[2019.03.03-02.34.12:244][263]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 807
+[2019.03.03-02.34.12:244][263]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 808
+[2019.03.03-02.34.12:803][330]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 809
+[2019.03.03-02.34.12:803][330]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 810
+[2019.03.03-02.34.12:836][334]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 811
+[2019.03.03-02.34.12:836][334]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 812
+[2019.03.03-02.34.12:836][334]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 813
+[2019.03.03-02.34.13:378][399]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 814
+[2019.03.03-02.34.13:387][400]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 815
+[2019.03.03-02.34.13:412][403]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 816
+[2019.03.03-02.34.13:412][403]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 817
+[2019.03.03-02.34.13:412][403]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 818
+[2019.03.03-02.34.14:122][488]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 819
+[2019.03.03-02.34.14:131][489]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 820
+[2019.03.03-02.34.14:156][492]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 821
+[2019.03.03-02.34.14:156][492]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 822
+[2019.03.03-02.34.14:156][492]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 823
+[2019.03.03-02.34.14:540][538]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 824
+[2019.03.03-02.34.14:557][540]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 825
+[2019.03.03-02.34.14:574][542]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 826
+[2019.03.03-02.34.14:582][543]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 827
+[2019.03.03-02.34.14:591][544]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 828
+[2019.03.03-02.34.15:142][610]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 829
+[2019.03.03-02.34.15:152][611]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 830
+[2019.03.03-02.34.15:167][613]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 831
+[2019.03.03-02.34.15:175][614]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 832
+[2019.03.03-02.34.15:185][615]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 833
+[2019.03.03-02.34.15:644][670]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 834
+[2019.03.03-02.34.15:711][678]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 835
+[2019.03.03-02.34.15:719][679]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 836
+[2019.03.03-02.34.15:736][681]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 837
+[2019.03.03-02.34.15:744][682]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 838
+[2019.03.03-02.34.15:744][682]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 839
+[2019.03.03-02.34.16:512][774]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 840
+[2019.03.03-02.34.16:520][775]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 841
+[2019.03.03-02.34.16:537][777]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 842
+[2019.03.03-02.34.16:545][778]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 843
+[2019.03.03-02.34.16:545][778]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 844
+[2019.03.03-02.34.17:055][839]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 845
+[2019.03.03-02.34.17:055][839]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 846
+[2019.03.03-02.34.17:088][843]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 847
+[2019.03.03-02.34.17:088][843]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 848
+[2019.03.03-02.34.17:089][843]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 849
+[2019.03.03-02.34.17:616][906]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 850
+[2019.03.03-02.34.17:617][906]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 851
+[2019.03.03-02.34.17:650][910]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 852
+[2019.03.03-02.34.17:650][910]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 853
+[2019.03.03-02.34.17:650][910]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 854
+[2019.03.03-02.34.18:217][978]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 855
+[2019.03.03-02.34.18:217][978]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 856
+[2019.03.03-02.34.18:242][981]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 857
+[2019.03.03-02.34.18:242][981]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 858
+[2019.03.03-02.34.18:250][982]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 859
+[2019.03.03-02.34.18:793][ 47]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 860
+[2019.03.03-02.34.18:793][ 47]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 861
+[2019.03.03-02.34.18:820][ 50]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 862
+[2019.03.03-02.34.18:820][ 50]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 863
+[2019.03.03-02.34.18:820][ 50]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 864
+[2019.03.03-02.34.19:378][117]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 865
+[2019.03.03-02.34.19:378][117]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 866
+[2019.03.03-02.34.19:412][121]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 867
+[2019.03.03-02.34.19:412][121]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 868
+[2019.03.03-02.34.19:412][121]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 869
+[2019.03.03-02.34.19:963][187]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 870
+[2019.03.03-02.34.19:963][187]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 871
+[2019.03.03-02.34.19:988][190]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 872
+[2019.03.03-02.34.19:988][190]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 873
+[2019.03.03-02.34.19:988][190]LogBlueprintUserMessages: [CheckPoint18] Cleared CheckPoint. Number of Checkpoint: 874
+[2019.03.03-02.34.20:564][259]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 875
+[2019.03.03-02.34.20:573][260]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 876
+[2019.03.03-02.34.20:590][262]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 877
+[2019.03.03-02.34.20:598][263]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 878
+[2019.03.03-02.34.20:606][264]LogBlueprintUserMessages: [CheckPoint19] Cleared CheckPoint. Number of Checkpoint: 879
+[2019.03.03-02.34.20:923][302]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 880
+[2019.03.03-02.34.20:940][304]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 881
+[2019.03.03-02.34.20:957][306]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 882
+[2019.03.03-02.34.20:965][307]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 883
+[2019.03.03-02.34.20:965][307]LogBlueprintUserMessages: [CheckPoint21] Cleared CheckPoint. Number of Checkpoint: 884
+[2019.03.03-02.34.21:515][373]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 885
+[2019.03.03-02.34.21:531][375]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 886
+[2019.03.03-02.34.21:540][376]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 887
+[2019.03.03-02.34.21:556][378]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 888
+[2019.03.03-02.34.21:557][378]LogBlueprintUserMessages: [CheckPoint22] Cleared CheckPoint. Number of Checkpoint: 889
+[2019.03.03-02.34.22:002][431]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 890
+[2019.03.03-02.34.22:010][432]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 891
+[2019.03.03-02.34.22:035][435]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 892
+[2019.03.03-02.34.22:043][436]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 893
+[2019.03.03-02.34.22:043][436]LogBlueprintUserMessages: [CheckPoint20] Cleared CheckPoint. Number of Checkpoint: 894
+[2019.03.03-02.34.22:610][504]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 895
+[2019.03.03-02.34.22:618][505]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 896
+[2019.03.03-02.34.22:643][508]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 897
+[2019.03.03-02.34.22:652][509]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 898
+[2019.03.03-02.34.22:652][509]LogBlueprintUserMessages: [CheckPoint_2] Cleared CheckPoint. Number of Checkpoint: 899
+[2019.03.03-02.34.23:159][569]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 900
+[2019.03.03-02.34.23:168][570]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 901
+[2019.03.03-02.34.23:192][573]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 902
+[2019.03.03-02.34.23:192][573]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 903
+[2019.03.03-02.34.23:192][573]LogBlueprintUserMessages: [CheckPoint2_1] Cleared CheckPoint. Number of Checkpoint: 904
+[2019.03.03-02.34.23:725][637]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 905
+[2019.03.03-02.34.23:725][637]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 906
+[2019.03.03-02.34.23:759][641]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 907
+[2019.03.03-02.34.23:759][641]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 908
+[2019.03.03-02.34.23:759][641]LogBlueprintUserMessages: [CheckPoint3_3] Cleared CheckPoint. Number of Checkpoint: 909
+[2019.03.03-02.34.24:321][708]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 910
+[2019.03.03-02.34.24:322][708]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 911
+[2019.03.03-02.34.24:355][712]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 912
+[2019.03.03-02.34.24:355][712]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 913
+[2019.03.03-02.34.24:355][712]LogBlueprintUserMessages: [CheckPoint4] Cleared CheckPoint. Number of Checkpoint: 914
+[2019.03.03-02.34.24:897][777]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 915
+[2019.03.03-02.34.24:905][778]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 916
+[2019.03.03-02.34.24:930][781]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 917
+[2019.03.03-02.34.24:930][781]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 918
+[2019.03.03-02.34.24:930][781]LogBlueprintUserMessages: [CheckPoint5] Cleared CheckPoint. Number of Checkpoint: 919
+[2019.03.03-02.34.25:493][848]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 920
+[2019.03.03-02.34.25:493][848]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 921
+[2019.03.03-02.34.25:519][851]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 922
+[2019.03.03-02.34.25:526][852]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 923
+[2019.03.03-02.34.25:526][852]LogBlueprintUserMessages: [CheckPoint6] Cleared CheckPoint. Number of Checkpoint: 924
+[2019.03.03-02.34.26:078][906]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 925
+[2019.03.03-02.34.26:088][907]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 926
+[2019.03.03-02.34.26:107][909]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 927
+[2019.03.03-02.34.26:119][910]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 928
+[2019.03.03-02.34.26:119][910]LogBlueprintUserMessages: [CheckPoint7] Cleared CheckPoint. Number of Checkpoint: 929
+[2019.03.03-02.34.26:807][988]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 930
+[2019.03.03-02.34.26:807][988]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 931
+[2019.03.03-02.34.26:841][992]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 932
+[2019.03.03-02.34.26:841][992]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 933
+[2019.03.03-02.34.26:841][992]LogBlueprintUserMessages: [CheckPoint8] Cleared CheckPoint. Number of Checkpoint: 934
+[2019.03.03-02.34.27:195][ 34]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 935
+[2019.03.03-02.34.27:212][ 36]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 936
+[2019.03.03-02.34.27:237][ 39]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 937
+[2019.03.03-02.34.27:237][ 39]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 938
+[2019.03.03-02.34.27:245][ 40]LogBlueprintUserMessages: [CheckPoint10] Cleared CheckPoint. Number of Checkpoint: 939
+[2019.03.03-02.34.27:798][106]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 940
+[2019.03.03-02.34.27:823][109]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 941
+[2019.03.03-02.34.27:823][109]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 942
+[2019.03.03-02.34.27:849][112]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 943
+[2019.03.03-02.34.27:849][112]LogBlueprintUserMessages: [CheckPoint11] Cleared CheckPoint. Number of Checkpoint: 944
+[2019.03.03-02.34.28:173][151]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 945
+[2019.03.03-02.34.28:190][153]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 946
+[2019.03.03-02.34.28:207][155]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 947
+[2019.03.03-02.34.28:215][156]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 948
+[2019.03.03-02.34.28:215][156]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 949
+[2019.03.03-02.34.28:223][157]LogBlueprintUserMessages: [CheckPoint9] Cleared CheckPoint. Number of Checkpoint: 950
+[2019.03.03-02.34.28:874][235]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 951
+[2019.03.03-02.34.28:908][239]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 952
+[2019.03.03-02.34.28:942][243]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 953
+[2019.03.03-02.34.28:957][245]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 954
+[2019.03.03-02.34.28:957][245]LogBlueprintUserMessages: [CheckPoint12] Cleared CheckPoint. Number of Checkpoint: 955
+[2019.03.03-02.34.29:658][329]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 956
+[2019.03.03-02.34.29:666][330]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 957
+[2019.03.03-02.34.29:691][333]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 958
+[2019.03.03-02.34.29:700][334]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 959
+[2019.03.03-02.34.29:700][334]LogBlueprintUserMessages: [CheckPoint13] Cleared CheckPoint. Number of Checkpoint: 960
+[2019.03.03-02.34.30:250][400]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 961
+[2019.03.03-02.34.30:258][401]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 962
+[2019.03.03-02.34.30:284][404]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 963
+[2019.03.03-02.34.30:284][404]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 964
+[2019.03.03-02.34.30:291][405]LogBlueprintUserMessages: [CheckPoint14] Cleared CheckPoint. Number of Checkpoint: 965
+[2019.03.03-02.34.30:852][472]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 966
+[2019.03.03-02.34.30:860][473]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 967
+[2019.03.03-02.34.30:886][476]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 968
+[2019.03.03-02.34.30:886][476]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 969
+[2019.03.03-02.34.30:886][476]LogBlueprintUserMessages: [CheckPoint15] Cleared CheckPoint. Number of Checkpoint: 970
+[2019.03.03-02.34.31:440][542]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 971
+[2019.03.03-02.34.31:440][542]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 972
+[2019.03.03-02.34.31:466][545]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 973
+[2019.03.03-02.34.31:466][545]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 974
+[2019.03.03-02.34.31:474][546]LogBlueprintUserMessages: [CheckPoint16] Cleared CheckPoint. Number of Checkpoint: 975
+[2019.03.03-02.34.32:032][613]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 976
+[2019.03.03-02.34.32:032][613]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 977
+[2019.03.03-02.34.32:059][616]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 978
+[2019.03.03-02.34.32:059][616]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 979
+[2019.03.03-02.34.32:067][617]LogBlueprintUserMessages: [CheckPoint17] Cleared CheckPoint. Number of Checkpoint: 980
+[2019.03.03-02.34.38:514][387]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestRace.TestRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace' with GeneratedClass '/Game/Maps/TestRace.TestRace_C' with ClassGeneratedBy '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace'
+[2019.03.03-02.34.38:545][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.03-02.34.38:601][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.03-02.34.38:602][387]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestRace.TestRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace' with GeneratedClass '/Game/Maps/TestRace.TestRace_C' with ClassGeneratedBy '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace'
+[2019.03.03-02.34.38:680][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.03-02.34.38:751][388]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.03.03-02.34.40:457][583]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.03-02.34.55:426][334]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.03-02.34.55:440][334]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestRace.TestRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace' with GeneratedClass '/Game/Maps/TestRace.TestRace_C' with ClassGeneratedBy '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace'
+[2019.03.03-02.34.55:440][334]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.03-02.34.55:444][334]PIE: New page: PIE session: TestRace (Mar 2, 2019, 4:34:55 PM)
+[2019.03.03-02.34.55:444][334]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_TestRace
+[2019.03.03-02.34.55:471][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026575s)
+[2019.03.03-02.34.55:472][334]LogAIModule: Creating AISystem for world TestRace
+[2019.03.03-02.34.55:472][334]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2019.03.03-02.34.55:472][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestRace.TestRace to /Game/Maps/UEDPIE_1_TestRace.TestRace (0.027845s)
+[2019.03.03-02.34.55:568][334]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.03-02.34.55:607][334]LogInit: FAudioDevice initialized.
+[2019.03.03-02.34.55:639][334]LogLoad: Game class is 'GameModeBase'
+[2019.03.03-02.34.55:644][334]LogWorld: Bringing World /Game/Maps/UEDPIE_1_TestRace.TestRace up for play (max tick rate 0) at 2019.03.02-21.34.55
+[2019.03.03-02.34.55:644][334]LogWorld: Bringing up level for play took: 0.002683
+[2019.03.03-02.34.55:668][334]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.03-02.34.55:691][334]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2019.03.03-02.34.55:691][334]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.03-02.34.55:705][334]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.03.03-02.34.55:705][334]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.03.03-02.34.55:707][334]LogInit: WinSock: I am DESKTOP-IF8BQD3 (192.168.2.11:0)
+[2019.03.03-02.34.55:720][334]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.03-02.34.55:722][334]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2019.03.03-02.34.55:724][334]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_TestRace 1.245
+[2019.03.03-02.34.55:746][334]PIE: New page: PIE session: TestRace (Mar 2, 2019, 4:34:55 PM)
+[2019.03.03-02.34.55:756][334]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.03-02.34.55:761][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.03-02.34.55:817][334]LogNet: Browse: 127.0.0.1:17777//Game/VehicleCPP/Maps/VehicleExampleMap
+[2019.03.03-02.34.55:827][334]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.03-02.34.55:827][334]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2019.03.03-02.34.55:827][334]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.03.03-02.34.55:827][334]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.03.03-02.34.55:837][334]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.03-02.34.55:844][334]LogNet: Game client on port 17777, rate 10000
+[2019.03.03-02.34.55:868][334]PIE: Play in editor start time for /Game/VehicleCPP/Maps/VehicleExampleMap 1.39
+[2019.03.03-02.34.55:908][334]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestRace.TestRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace' with GeneratedClass '/Game/Maps/TestRace.TestRace_C' with ClassGeneratedBy '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace'
+[2019.03.03-02.34.55:973][335]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51952
+[2019.03.03-02.34.55:973][335]LogHandshake: SendConnectChallenge. Timestamp: 0.554252, Cookie: 170058247138001118215078185047218024060253211211081092109203
+[2019.03.03-02.34.55:974][335]LogHandshake: SendChallengeResponse. Timestamp: 0.554252, Cookie: 170058247138001118215078185047218024060253211211081092109203
+[2019.03.03-02.34.55:983][336]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51952
+[2019.03.03-02.34.55:983][336]LogHandshake: SendChallengeAck. InCookie: 170058247138001118215078185047218024060253211211081092109203
+[2019.03.03-02.34.55:983][336]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51952
+[2019.03.03-02.34.55:983][336]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.03-02.34.55:983][336]LogNet: NotifyAcceptedConnection: Name: TestRace, TimeStamp: 03/02/19 21:34:55, [UNetConnection] RemoteAddr: 127.0.0.1:51952, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.03-02.34.55:983][336]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51952, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.03-02.34.55:984][336]LogNetVersion: VehicleMovement 1.0.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1433232907)
+[2019.03.03-02.34.55:984][336]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.03-02.34.56:016][337]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_TestRace.TestRace: Accepted
+[2019.03.03-02.34.56:017][337]LogNet: Remote platform little endian=1
+[2019.03.03-02.34.56:017][337]LogNet: This platform little endian=1
+[2019.03.03-02.34.56:059][338]LogNet: Login request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=DESKTOP-IF8BQD3-9B384DDE45CF75879DFDE4BB608EB8AA userId: DESKTOP-IF8BQD3-9B384DDE45CF75879DFDE4BB608EB8AA
+[2019.03.03-02.34.56:060][338]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_TestRace, Game: /Script/Engine.GameModeBase)
+[2019.03.03-02.34.56:064][338]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_TestRace?game=/Script/Engine.GameModeBase
+[2019.03.03-02.34.56:150][338]LogAIModule: Creating AISystem for world TestRace
+[2019.03.03-02.34.56:150][338]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.03-02.34.56:157][338]LogWorld: Bringing World /Game/Maps/UEDPIE_2_TestRace.TestRace up for play (max tick rate 0) at 2019.03.02-21.34.56
+[2019.03.03-02.34.56:157][338]LogWorld: Bringing up level for play took: 0.003373
+[2019.03.03-02.34.56:171][338]LogLoad: Took 0.107454 seconds to LoadMap(/Game/Maps/UEDPIE_1_TestRace)
+[2019.03.03-02.34.56:193][339]LogRenderer: Reallocating scene render targets to support 1280x900 Format 10 NumSamples 1 (Frame:1).
+[2019.03.03-02.34.56:196][339]LogNet: Client netspeed is 10000
+[2019.03.03-02.34.56:196][339]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=DESKTOP-IF8BQD3-9B384DDE45CF75879DFDE4BB608EB8AA?SplitscreenCount=1
+[2019.03.03-02.34.56:197][339]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.03.03-02.34.56:287][339]LogNet: Join succeeded: DESKTOP-IF8BQD3-9B38
+[2019.03.03-02.34.56:355][340]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.03.03-02.34.56:363][340]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.03.03-02.35.03:148][939]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestRace.TestRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace' with GeneratedClass '/Game/Maps/TestRace.TestRace_C' with ClassGeneratedBy '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace'
+[2019.03.03-02.35.03:148][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.03-02.35.03:166][939]LogSlate: Window 'VehicleMovement Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.03-02.35.03:228][939]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2019.03.03-02.35.03:242][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.03-02.35.03:275][939]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.03-02.35.03:276][939]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestRace.TestRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace' with GeneratedClass '/Game/Maps/TestRace.TestRace_C' with ClassGeneratedBy '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace'
+[2019.03.03-02.35.03:295][939]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51952, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-IF8BQD3-9B384DDE45CF75879DFDE4BB608EB8AA
+[2019.03.03-02.35.03:295][939]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:51952, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-IF8BQD3-9B384DDE45CF75879DFDE4BB608EB8AA, Channels: 2, Time: 2019.03.03-02.35.03
+[2019.03.03-02.35.03:295][939]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51952, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-IF8BQD3-9B384DDE45CF75879DFDE4BB608EB8AA
+[2019.03.03-02.35.03:295][939]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-IF8BQD3-9B384DDE45CF75879DFDE4BB608EB8AA
+[2019.03.03-02.35.03:295][939]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-IF8BQD3-9B384DDE45CF75879DFDE4BB608EB8AA, Channels: 2, Time: 2019.03.03-02.35.03
+[2019.03.03-02.35.03:295][939]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-IF8BQD3-9B384DDE45CF75879DFDE4BB608EB8AA
+[2019.03.03-02.35.03:298][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.03-02.35.03:299][939]LogExit: GameNetDriver None shut down
+[2019.03.03-02.35.03:299][939]LogExit: GameNetDriver None shut down
+[2019.03.03-02.35.03:323][940]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.03.03-02.35.03:323][940]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.03.03-02.35.07:478][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.03-02.35.16:592][434]LogSlate: Took 0.014156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.03-02.35.18:841][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.03-02.35.38:173][926]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.03-02.35.40:017][125]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.03-02.35.41:893][341]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.03-02.35.41:908][341]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestRace.TestRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace' with GeneratedClass '/Game/Maps/TestRace.TestRace_C' with ClassGeneratedBy '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace'
+[2019.03.03-02.35.41:908][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.03-02.35.41:913][341]PIE: New page: PIE session: TestRace (Mar 2, 2019, 4:35:41 PM)
+[2019.03.03-02.35.41:913][341]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_TestRace
+[2019.03.03-02.35.41:937][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023837s)
+[2019.03.03-02.35.41:938][341]LogAIModule: Creating AISystem for world TestRace
+[2019.03.03-02.35.41:938][341]LogPlayLevel: PIE: World Init took: (0.001204s)
+[2019.03.03-02.35.41:938][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestRace.TestRace to /Game/Maps/UEDPIE_1_TestRace.TestRace (0.025248s)
+[2019.03.03-02.35.42:048][341]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.03-02.35.42:080][341]LogInit: FAudioDevice initialized.
+[2019.03.03-02.35.42:108][341]LogLoad: Game class is 'MyVehicleMovementGameMode_C'
+[2019.03.03-02.35.42:112][341]LogWorld: Bringing World /Game/Maps/UEDPIE_1_TestRace.TestRace up for play (max tick rate 0) at 2019.03.02-21.35.42
+[2019.03.03-02.35.42:113][341]LogWorld: Bringing up level for play took: 0.002847
+[2019.03.03-02.35.42:125][341]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.03-02.35.42:126][341]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2019.03.03-02.35.42:126][341]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.03-02.35.42:126][341]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.03.03-02.35.42:126][341]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.03.03-02.35.42:126][341]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.03-02.35.42:126][341]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2019.03.03-02.35.42:127][341]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_TestRace -0.352
+[2019.03.03-02.35.42:131][341]PIE: New page: PIE session: TestRace (Mar 2, 2019, 4:35:42 PM)
+[2019.03.03-02.35.42:139][341]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.03-02.35.42:145][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.03-02.35.42:186][341]LogNet: Browse: 127.0.0.1:17777//Game/VehicleCPP/Maps/VehicleExampleMap
+[2019.03.03-02.35.42:186][341]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.03-02.35.42:186][341]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2019.03.03-02.35.42:186][341]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.03.03-02.35.42:187][341]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.03.03-02.35.42:187][341]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.03-02.35.42:187][341]LogNet: Game client on port 17777, rate 10000
+[2019.03.03-02.35.42:191][341]PIE: Play in editor start time for /Game/VehicleCPP/Maps/VehicleExampleMap -0.288
+[2019.03.03-02.35.42:202][341]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestRace.TestRace:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace' with GeneratedClass '/Game/Maps/TestRace.TestRace_C' with ClassGeneratedBy '/Game/Maps/TestRace.TestRace:PersistentLevel.TestRace'
+[2019.03.03-02.35.42:202][341]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55136
+[2019.03.03-02.35.42:202][341]LogHandshake: SendConnectChallenge. Timestamp: 0.008357, Cookie: 010014224001255107010127213246030201082155039008032146095013
+[2019.03.03-02.35.42:203][341]LogHandshake: SendChallengeResponse. Timestamp: 0.008357, Cookie: 010014224001255107010127213246030201082155039008032146095013
+[2019.03.03-02.35.42:265][342]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55136
+[2019.03.03-02.35.42:265][342]LogHandshake: SendChallengeAck. InCookie: 010014224001255107010127213246030201082155039008032146095013
+[2019.03.03-02.35.42:265][342]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55136
+[2019.03.03-02.35.42:266][342]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.03-02.35.42:266][342]LogNet: NotifyAcceptedConnection: Name: TestRace, TimeStamp: 03/02/19 21:35:42, [UNetConnection] RemoteAddr: 127.0.0.1:55136, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.03-02.35.42:266][342]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55136, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.03-02.35.42:267][342]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.03-02.35.42:283][343]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_TestRace.TestRace: Accepted
+[2019.03.03-02.35.42:283][343]LogNet: Remote platform little endian=1
+[2019.03.03-02.35.42:283][343]LogNet: This platform little endian=1
+[2019.03.03-02.35.42:307][344]LogNet: Login request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=DESKTOP-IF8BQD3-2079F4AA434FC2D3DF42618A9AB6B4F1 userId: DESKTOP-IF8BQD3-2079F4AA434FC2D3DF42618A9AB6B4F1
+[2019.03.03-02.35.42:308][344]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_TestRace, Game: /Game/BluePrint/MyVehicleMovementGameMode.MyVehicleMovementGameMode_C)
+[2019.03.03-02.35.42:309][344]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_TestRace?game=/Game/BluePrint/MyVehicleMovementGameMode.MyVehicleMovementGameMode_C
+[2019.03.03-02.35.42:354][344]LogAIModule: Creating AISystem for world TestRace
+[2019.03.03-02.35.42:354][344]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.03-02.35.42:359][344]LogWorld: Bringing World /Game/Maps/UEDPIE_2_TestRace.TestRace up for play (max tick rate 0) at 2019.03.02-21.35.42
+[2019.03.03-02.35.42:359][344]LogWorld: Bringing up level for play took: 0.002392
+[2019.03.03-02.35.42:360][344]LogLoad: Took 0.050810 seconds to LoadMap(/Game/Maps/UEDPIE_1_TestRace)
+[2019.03.03-02.35.42:379][345]LogNet: Client netspeed is 10000
+[2019.03.03-02.35.42:379][345]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=DESKTOP-IF8BQD3-2079F4AA434FC2D3DF42618A9AB6B4F1?SplitscreenCount=1
+[2019.03.03-02.35.42:380][345]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.03.03-02.35.42:381][345]LogNet: Join succeeded: DESKTOP-IF8BQD3-2079
+[2019.03.03-02.35.42:417][348]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.03.03-02.35.42:428][349]LogOnline: Warning: OSS: No game present to join for session (GameSession)

@@ -1,14 +1,4 @@
-﻿  Performing full C++ include scan (building a new target)
-  Parsing headers for VehicleMovementEditor
-    Running UnrealHeaderTool "D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\VehicleMovement.uproject" "D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for VehicleMovementEditor in 18.8489093 seconds
-  Building 5 actions with 6 processes...
-    [1/5] VehicleMovement.init.gen.cpp
-    [2/5] AVehiclePawn.gen.cpp
-    [3/5] AVehiclePawn.cpp
-    [4/5] UE4Editor-VehicleMovement.lib
-       Creating library D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.lib and object D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.exp
-    [5/5] UE4Editor-VehicleMovement.dll
-       Creating library D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.suppressed.lib and object D:\GitHub\Math-Assignment_1\Math_Assignment_1\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.suppressed.exp
+﻿  Compiling game modules for hot reload
+  Target is up to date
   Deploying VehicleMovementEditor Win64 Development...
-  Total build time: 115.29 seconds (Parallel executor: 93.28 seconds)
+  Total build time: 1.66 seconds (NoActionsToExecute executor: 0.00 seconds)
