@@ -16,7 +16,7 @@ class VEHICLEMOVEMENT_API USpinOutMod : public UPawnStatMod
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		/** \brief	The amount of Speed after being Spun out */
-		float PostSpinOutSpeed;
+		float PostSpinOutSpeed ;
 
 	virtual void EnableMod_Implementation(UCarStat* StatType) override;
 
