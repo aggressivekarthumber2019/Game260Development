@@ -8,10 +8,10 @@
 
 void USpeedCapMod::EnableMod_Implementation(UCarStat* StatType)
 {
-	StatType->MMaxSpeedFactor += MBoostedSpeed;
+	StatType->MMaxSpeedFactor += MBoostedSpeed ;
 }
 
 void USpeedCapMod::DisableMod_Implementation(UCarStat* StatType)
 {
-	StatType->MMaxSpeedFactor -= MBoostedSpeed;
+	StatType->MMaxSpeedFactor -= MBoostedSpeed ;
 }

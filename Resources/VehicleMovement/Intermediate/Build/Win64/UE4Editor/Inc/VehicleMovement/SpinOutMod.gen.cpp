@@ -32,9 +32,9 @@ void EmptyLinkFunctionForGeneratedCodeSpinOutMod() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PostSpinOutSpeed_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpinOutSpeedReduction_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PostSpinOutSpeed;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SpinOutSpeedReduction;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -50,15 +50,15 @@ void EmptyLinkFunctionForGeneratedCodeSpinOutMod() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USpinOutMod_Statics::NewProp_PostSpinOutSpeed_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USpinOutMod_Statics::NewProp_SpinOutSpeedReduction_MetaData[] = {
 		{ "Category", "SpinOutMod" },
 		{ "ModuleRelativePath", "Items/Mods/SpinOutMod.h" },
 		{ "ToolTip", "\\brief The amount of Speed after being Spun out" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_USpinOutMod_Statics::NewProp_PostSpinOutSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "PostSpinOutSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(USpinOutMod, PostSpinOutSpeed), METADATA_PARAMS(Z_Construct_UClass_USpinOutMod_Statics::NewProp_PostSpinOutSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_USpinOutMod_Statics::NewProp_PostSpinOutSpeed_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_USpinOutMod_Statics::NewProp_SpinOutSpeedReduction = { UE4CodeGen_Private::EPropertyClass::Float, "SpinOutSpeedReduction", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(USpinOutMod, SpinOutSpeedReduction), METADATA_PARAMS(Z_Construct_UClass_USpinOutMod_Statics::NewProp_SpinOutSpeedReduction_MetaData, ARRAY_COUNT(Z_Construct_UClass_USpinOutMod_Statics::NewProp_SpinOutSpeedReduction_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_USpinOutMod_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USpinOutMod_Statics::NewProp_PostSpinOutSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USpinOutMod_Statics::NewProp_SpinOutSpeedReduction,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_USpinOutMod_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<USpinOutMod>::IsAbstract,
@@ -83,7 +83,7 @@ void EmptyLinkFunctionForGeneratedCodeSpinOutMod() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USpinOutMod, 3230625263);
+	IMPLEMENT_CLASS(USpinOutMod, 3752662599);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_USpinOutMod(Z_Construct_UClass_USpinOutMod, &USpinOutMod::StaticClass, TEXT("/Script/VehicleMovement"), TEXT("USpinOutMod"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(USpinOutMod);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

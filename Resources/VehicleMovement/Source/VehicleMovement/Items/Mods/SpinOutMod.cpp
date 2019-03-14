@@ -5,7 +5,10 @@
 
 void USpinOutMod::EnableMod_Implementation(UCarStat* StatType)
 {
-	//StatType->MCurrentSpeed += PostSpinOutSpeed;
+	//StatType->MCurrentSpeed += PostSpinOutSpeed ; // old changes
+
+	StatType-> MCurrentSpeed += (-SpinOutSpeedReduction) ;
+
 }
 
 void USpinOutMod::DisableMod_Implementation(UCarStat* StatType)

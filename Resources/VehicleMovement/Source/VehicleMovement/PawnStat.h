@@ -17,26 +17,27 @@ class VEHICLEMOVEMENT_API UPawnStat : public UObject
 
 	friend class USpeedCapMod;
 	friend class UItemSpeedCapMod;
+	friend class USpinOutMod ;
 	
 protected:
 	UPROPERTY(BlueprintReadWrite)
 	/** \brief	The health factor */
-	float MHealthFactor;
+	float MHealthFactor ;
 
 	UPROPERTY(BlueprintReadWrite)
 	/** \brief	The maximum speed factor */
-	float MMaxSpeedFactor;
+	float MMaxSpeedFactor ;
 
 	UPROPERTY(BlueprintReadWrite)
 	/** \brief	The minimum speed factor */
-	float MMinSpeedFactor;
+	float MMinSpeedFactor ;
 
 	UPROPERTY(BlueprintReadWrite)
 	/** \brief	The current speed */
-	float MCurrentSpeed;
+	float MCurrentSpeed ;
 
 public:
-	UPawnStat() = default;
+	UPawnStat() = default ;
 
 	/**
 	 * \fn	void UPawnStat::Construct(const float HealthFactor, const float MaxSpeedFactor, const float MinSpeedFactor);
