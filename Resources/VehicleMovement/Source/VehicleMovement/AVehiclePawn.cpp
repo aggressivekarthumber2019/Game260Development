@@ -113,11 +113,6 @@ void AAVehiclePawn::BeginPlay()
 	Super::BeginPlay();
 	//MaxSpeed = normalMaxSpeed;
 	
-	SpeedCapMod = NewObject<USpeedCapMod>(this);
-	SpeedCapMod->MGUID = 1;
-	SpeedCapMod->MMaxStackCount = 1;
-	SpeedCapMod->MBoostedSpeed = 5200.f;
-	
 	// Setup component
 	if (PawnStatComponent->GetCurrentStat() != nullptr)
 	{
@@ -184,8 +179,8 @@ void AAVehiclePawn::BoostPress()
 
 	//MaxSpeed = boostMaxSpeed;
 
-	PawnStatComponent->EnableMod(SpeedCapMod);
-	PawnMovementComponent->MaxSpeed = CurrentStat->GetMaxSpeedFactor();
+	//PawnStatComponent->EnableMod(SpeedCapMod);
+	//PawnMovementComponent->MaxSpeed = CurrentStat->GetMaxSpeedFactor();
 }
 
 void AAVehiclePawn::BoostRelease()
@@ -194,8 +189,8 @@ void AAVehiclePawn::BoostRelease()
 
 	//MaxSpeed = normalMaxSpeed;
 	
-	PawnStatComponent->DisableMod(SpeedCapMod);
-	PawnMovementComponent->MaxSpeed = CurrentStat->GetMaxSpeedFactor();
+	//PawnStatComponent->DisableMod(SpeedCapMod);
+	//PawnMovementComponent->MaxSpeed = CurrentStat->GetMaxSpeedFactor();
 }
 
 // Movement on x direction

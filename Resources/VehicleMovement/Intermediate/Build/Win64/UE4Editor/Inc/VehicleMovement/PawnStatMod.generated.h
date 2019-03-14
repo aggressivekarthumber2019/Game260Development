@@ -14,7 +14,7 @@ class UCarStat;
 #endif
 #define VEHICLEMOVEMENT_PawnStatMod_generated_h
 
-#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_RPC_WRAPPERS \
+#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_RPC_WRAPPERS \
 	virtual void DisableMod_Implementation(UCarStat* StatType); \
 	virtual void EnableMod_Implementation(UCarStat* StatType); \
  \
@@ -38,17 +38,16 @@ class UCarStat;
  \
 	DECLARE_FUNCTION(execConstruct) \
 	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_GUID); \
 		P_GET_PROPERTY(UIntProperty,Z_Param_MaxStack); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_MaxTimeMS); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->Construct(Z_Param_GUID,Z_Param_MaxStack,Z_Param_MaxTimeMS); \
+		P_THIS->Construct(Z_Param_MaxStack,Z_Param_MaxTimeMS); \
 		P_NATIVE_END; \
 	}
 
 
-#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execDisableMod) \
 	{ \
@@ -70,17 +69,16 @@ class UCarStat;
  \
 	DECLARE_FUNCTION(execConstruct) \
 	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_GUID); \
 		P_GET_PROPERTY(UIntProperty,Z_Param_MaxStack); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_MaxTimeMS); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->Construct(Z_Param_GUID,Z_Param_MaxStack,Z_Param_MaxTimeMS); \
+		P_THIS->Construct(Z_Param_MaxStack,Z_Param_MaxTimeMS); \
 		P_NATIVE_END; \
 	}
 
 
-#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_EVENT_PARMS \
+#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_EVENT_PARMS \
 	struct PawnStatMod_eventDisableMod_Parms \
 	{ \
 		UCarStat* StatType; \
@@ -91,8 +89,8 @@ class UCarStat;
 	};
 
 
-#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_CALLBACK_WRAPPERS
-#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_INCLASS_NO_PURE_DECLS \
+#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_CALLBACK_WRAPPERS
+#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPawnStatMod(); \
 	friend struct Z_Construct_UClass_UPawnStatMod_Statics; \
@@ -101,7 +99,7 @@ public: \
 	DECLARE_SERIALIZER(UPawnStatMod)
 
 
-#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_INCLASS \
+#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesUPawnStatMod(); \
 	friend struct Z_Construct_UClass_UPawnStatMod_Statics; \
@@ -110,7 +108,7 @@ public: \
 	DECLARE_SERIALIZER(UPawnStatMod)
 
 
-#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_STANDARD_CONSTRUCTORS \
+#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPawnStatMod(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPawnStatMod) \
@@ -123,7 +121,7 @@ private: \
 public:
 
 
-#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_ENHANCED_CONSTRUCTORS \
+#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPawnStatMod(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -136,31 +134,34 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPawnStatMod); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPawnStatMod)
 
 
-#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_PRIVATE_PROPERTY_OFFSET
-#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_16_PROLOG \
-	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_EVENT_PARMS
+#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__GUID() { return STRUCT_OFFSET(UPawnStatMod, GUID); }
 
 
-#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_GENERATED_BODY_LEGACY \
+#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_17_PROLOG \
+	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_EVENT_PARMS
+
+
+#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_PRIVATE_PROPERTY_OFFSET \
-	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_RPC_WRAPPERS \
-	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_CALLBACK_WRAPPERS \
-	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_INCLASS \
-	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_STANDARD_CONSTRUCTORS \
+	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_PRIVATE_PROPERTY_OFFSET \
+	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_RPC_WRAPPERS \
+	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_CALLBACK_WRAPPERS \
+	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_INCLASS \
+	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_GENERATED_BODY \
+#define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_PRIVATE_PROPERTY_OFFSET \
-	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_CALLBACK_WRAPPERS \
-	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_INCLASS_NO_PURE_DECLS \
-	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_19_ENHANCED_CONSTRUCTORS \
+	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_PRIVATE_PROPERTY_OFFSET \
+	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_CALLBACK_WRAPPERS \
+	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_INCLASS_NO_PURE_DECLS \
+	VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

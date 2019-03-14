@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
+#include "Guid.h"
 #include "PawnStatMod.generated.h"
 
 // Forward declares
@@ -17,24 +18,23 @@ UCLASS(editinlinenew, Blueprintable)
 class VEHICLEMOVEMENT_API UPawnStatMod : public UObject
 {
 	GENERATED_BODY()
+protected:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FGuid GUID;
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		/** \brief	Unique identifier */
-		int32 MGUID;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		/** \brief	Number of maximum stacks */
-		int32 MMaxStackCount;
+	/** \brief	Number of maximum stacks */
+	int32 MMaxStackCount;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		/** \brief	The maximum time of this mod in milliseconds */
-		float MMaxTimeMS;
+	/** \brief	The maximum time of this mod in milliseconds */
+	float MMaxTimeMS;
 
 	UFUNCTION(BlueprintCallable)
-	void Construct(int32 GUID, int32 MaxStack, float MaxTimeMS);
+	void Construct(int32 MaxStack, float MaxTimeMS);
 
-	int32 GetGUID() const;
+	FGuid GetGUID() const;
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void EnableMod(UCarStat* StatType);

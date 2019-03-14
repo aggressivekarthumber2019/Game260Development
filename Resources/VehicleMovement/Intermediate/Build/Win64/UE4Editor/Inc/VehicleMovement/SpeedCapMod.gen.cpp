@@ -83,7 +83,7 @@ void EmptyLinkFunctionForGeneratedCodeSpeedCapMod() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USpeedCapMod, 1469457342);
+	IMPLEMENT_CLASS(USpeedCapMod, 1057365918);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_USpeedCapMod(Z_Construct_UClass_USpeedCapMod, &USpeedCapMod::StaticClass, TEXT("/Script/VehicleMovement"), TEXT("USpeedCapMod"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(USpeedCapMod);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

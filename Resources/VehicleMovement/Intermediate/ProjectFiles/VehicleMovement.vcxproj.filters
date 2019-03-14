@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\VehicleMovement.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{DE45D527-3126-423B-9C02-6FEEA4FDF7A1}</UniqueIdentifier>
+			<UniqueIdentifier>{04E60D71-7844-4DE9-AD57-81402418DBBE}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\VehicleMovement.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{D80E4F94-22A8-41E0-BAEE-C474F15179D3}</UniqueIdentifier>
+			<UniqueIdentifier>{78A8C41A-7AD1-4517-BA53-EA997DA0FD01}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\VehicleMovement">
-			<UniqueIdentifier>{E20B4A55-380C-4B6A-AE7E-47CF09FD58AE}</UniqueIdentifier>
+			<UniqueIdentifier>{F357F55F-58AB-401A-B611-8C5F218E2995}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\VehicleMovement\AVehiclePawn.cpp">
 			<Filter>Source\VehicleMovement</Filter>
@@ -97,8 +97,14 @@
 			<Filter>Source\VehicleMovement</Filter>
 		</ClInclude >
 		<Filter Include="Source\VehicleMovement\Items">
-			<UniqueIdentifier>{88710070-CB5C-49CB-A7DE-800445B9BD60}</UniqueIdentifier>
+			<UniqueIdentifier>{4B570F1A-9518-444B-AD61-D6981EEB7B86}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\VehicleMovement\Items\PawnState.cpp">
+			<Filter>Source\VehicleMovement\Items</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VehicleMovement\Items\PawnState.h">
+			<Filter>Source\VehicleMovement\Items</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\VehicleMovement\Items\TriggerableItem.cpp">
 			<Filter>Source\VehicleMovement\Items</Filter>
 		</ClCompile >
@@ -106,7 +112,7 @@
 			<Filter>Source\VehicleMovement\Items</Filter>
 		</ClInclude >
 		<Filter Include="Source\VehicleMovement\Items\Mods">
-			<UniqueIdentifier>{F35361D6-8E2E-4C45-A687-063FB5059571}</UniqueIdentifier>
+			<UniqueIdentifier>{DD9D1282-BAF9-4764-8472-34630C044A0D}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\VehicleMovement\Items\Mods\PawnStatMod.cpp">
 			<Filter>Source\VehicleMovement\Items\Mods</Filter>

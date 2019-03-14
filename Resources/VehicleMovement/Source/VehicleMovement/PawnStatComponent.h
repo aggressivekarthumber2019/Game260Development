@@ -6,6 +6,7 @@
 #include "Components/ActorComponent.h"
 #include "PawnStat.h"
 #include "Items/Mods/PawnStatMod.h"
+#include "Items/PawnState.h"
 #include "PawnStatComponent.generated.h"
 
 
@@ -20,7 +21,10 @@ public:
 
 protected:
 	UPROPERTY(BlueprintReadWrite)
-		UPawnStat* MBasePawnStat;
+	UPawnStat* MBasePawnStat;
+
+	UPROPERTY(BlueprintReadWrite)
+	UPawnState* MStateMachine;
 
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -38,7 +42,7 @@ private:
 		UPawnStatMod* MMod;
 	};
 
-	TMap<int32, UStatModTracker> MStatModifiers;
+	TMap<FString, UStatModTracker> MStatModifiers;
 
 public:
 	// Called every frame
@@ -46,7 +50,40 @@ public:
 
 	UPawnStat* GetCurrentStat() const;
 
+	/**
+	 * \fn	void UPawnStatComponent::EnableMod(UPawnStatMod* Mod);
+	 *
+	 * \brief	Internal function used to enable a mod. You should never find yourself calling this
+	 * function directly.
+	 *
+	 * \author	Jaymie
+	 * \date	3/14/2019
+	 *
+	 * \param [in]	Mod	If non-null, the modifier.
+	 */
 	void EnableMod(UPawnStatMod* Mod);
 
+	/**
+	 * \fn	void UPawnStatComponent::DisableMod(UPawnStatMod* Mod);
+	 *
+	 * \brief	Internal function used to disable a mod. You should never find yourself calling this
+	 * function directly.
+	 *
+	 * \author	Jaymie
+	 * \date	3/14/2019
+	 *
+	 * \param [in]	Mod	If non-null, the modifier.
+	 */
 	void DisableMod(UPawnStatMod* Mod);
+
+	/**
+	 * \fn	void UPawnStatComponent::SwitchState();
+	 *
+	 * \brief	Switches the current state of the FSM
+	 *
+	 * \author	Jaymie
+	 * \date	3/14/2019
+	 */
+	UFUNCTION(BlueprintCallable)
+	void SwitchState();
 };

@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "PawnStatComponent.h"
+#include <Kismet/KismetGuidLibrary.h>
 
 #define TO_MS(SECONDS) SECONDS * 1000.f
 
@@ -21,7 +22,6 @@ void UPawnStatComponent::BeginPlay()
 	Super::BeginPlay();
 
 	// ...
-	
 }
 
 
@@ -58,16 +58,27 @@ void UPawnStatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 
 UPawnStat* UPawnStatComponent::GetCurrentStat() const
 {
-	return MBasePawnStat;
+	if (IsValid(MBasePawnStat))
+	{
+		return MBasePawnStat;
+	}
+
+	return nullptr;
 }
 
 void UPawnStatComponent::EnableMod(UPawnStatMod* Mod)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Stat mod enabled!"));
 
-	if (MStatModifiers.Contains(Mod->GetGUID())) // Already has this mod
+	// Common error checking
+	if (!UKismetGuidLibrary::IsValid_Guid(Mod->GetGUID()))
 	{
-		auto ModTracker = &MStatModifiers[Mod->GetGUID()];
+		UE_LOG(LogTemp, Fatal, TEXT("UPawnStatMod derived (Blueprint)class was not given a GUID! \n Message me on discord if you don't know how to deal with this"));
+	}
+
+	if (MStatModifiers.Contains(Mod->GetGUID().ToString())) // Already has this mod
+	{
+		auto ModTracker = &MStatModifiers[Mod->GetGUID().ToString()];
 		auto CurrentStackCount = ModTracker->MStackCount;
 		auto MaxStackCount = ModTracker->MMod->MMaxStackCount;
 
@@ -85,7 +96,7 @@ void UPawnStatComponent::EnableMod(UPawnStatMod* Mod)
 		ModTracker.MModTimeRemainMS = ModTracker.MMod->MMaxTimeMS;
 		ModTracker.MStackCount = 1;
 
-		MStatModifiers.Emplace(Mod->GetGUID(), MoveTemp(ModTracker));
+		MStatModifiers.Emplace(Mod->GetGUID().ToString(), MoveTemp(ModTracker));
 	}
 
 	MBasePawnStat->AcceptEnableMod(Mod);
@@ -95,20 +106,31 @@ void UPawnStatComponent::DisableMod(UPawnStatMod* Mod)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Stat mod disabled!"));
 
-	if (MStatModifiers.Contains(Mod->GetGUID())) // Already has this mod
+	// Common error checking
+	if (!UKismetGuidLibrary::IsValid_Guid(Mod->GetGUID()))
 	{
-		auto ModTracker = &MStatModifiers[Mod->GetGUID()];
+		UE_LOG(LogTemp, Fatal, TEXT("UPawnStatMod derived (Blueprint)class was not given a GUID! \n Message me on discord if you don't know how to deal with this"));
+	}
+
+	if (MStatModifiers.Contains(Mod->GetGUID().ToString())) // Already has this mod
+	{
+		auto ModTracker = &MStatModifiers[Mod->GetGUID().ToString()];
 
 		if (ModTracker->MStackCount == 1) // Last stack
 		{
 			MBasePawnStat->AcceptDisableMod(Mod);
 
-			MStatModifiers.Remove(Mod->GetGUID());
+			MStatModifiers.Remove(Mod->GetGUID().ToString());
 		}
 		else // Remove 1 stack
 		{
 			ModTracker->MStackCount--;
 		}
 	}
+}
+
+void UPawnStatComponent::SwitchState()
+{
+
 }
 
