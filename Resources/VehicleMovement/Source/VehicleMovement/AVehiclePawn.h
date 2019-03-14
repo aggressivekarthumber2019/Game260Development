@@ -99,14 +99,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game Parts")
 		float PawnBrakeDeceleration;
 	
-	UFUNCTION(BlueprintCallable, Category = CheckPoint)
-	void addPoint();
-
-	UPROPERTY(BluePrintReadWrite, Category = CheckPoint)
-	int32 NumberOfCheckpoints;
-
-	UPROPERTY(BluePrintReadWrite, Category = CheckPoint)
-	int32 VehiclesPlacements;
 	// timer function 
 	FTimerHandle LoopTimerHandle;
 	FTimerHandle StartGameTimerHandle;

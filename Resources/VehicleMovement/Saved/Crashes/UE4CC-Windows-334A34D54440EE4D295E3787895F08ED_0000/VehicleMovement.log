@@ -1,0 +1,620 @@
+﻿Log file open, 03/05/19 13:37:30
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VehicleMovement
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.834488
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.379s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.067s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.05-18.37.32:778][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.05-18.37.32:779][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.05-18.37.32:840][  0]LogHAL: Display: Platform has ~ 8 GB [8523337728 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.05-18.37.32:861][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.05-18.37.32:861][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.05-18.37.32:933][  0]LogInit: Computer: DESKTOP-IF8BQD3
+[2019.03.05-18.37.32:933][  0]LogInit: User: ChiyokoYumi
+[2019.03.05-18.37.32:933][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.03.05-18.37.32:934][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.05-18.37.32:934][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.03.05-18.37.32:934][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.05-18.37.32:934][  0]LogMemory: Process Physical Memory: 100.93 MB used, 100.93 MB peak
+[2019.03.05-18.37.32:934][  0]LogMemory: Process Virtual Memory: 84.71 MB used, 84.71 MB peak
+[2019.03.05-18.37.32:934][  0]LogMemory: Physical Memory: 5449.90 MB used,  2678.59 MB free, 8128.49 MB total
+[2019.03.05-18.37.32:934][  0]LogMemory: Virtual Memory: 4618.13 MB used,  2678.59 MB free, 134217728.00 MB total
+[2019.03.05-18.37.33:529][  0]LogInit: Using OS detected language (en-US).
+[2019.03.05-18.37.33:529][  0]LogInit: Using OS detected locale (en-CA).
+[2019.03.05-18.37.33:596][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.05-18.37.34:271][  0]LogStreaming: Display: Took  0.743s to InitEngineTextLocalization.
+[2019.03.05-18.37.34:272][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.05-18.37.34:865][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.05-18.37.34:865][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.05-18.37.35:576][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.05-18.37.35:576][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.05-18.37.35:704][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.03.05-18.37.35:704][  0]LogD3D11RHI:       4018/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.05-18.37.35:716][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.05-18.37.35:716][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.05-18.37.35:716][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.05-18.37.35:724][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.05-18.37.35:724][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.05-18.37.35:724][  0]LogWindows: EnumDisplayDevices:
+[2019.03.05-18.37.35:724][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.03.05-18.37.35:724][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2019.03.05-18.37.35:725][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.05-18.37.35:725][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.05-18.37.35:726][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.05-18.37.35:726][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.03.05-18.37.35:726][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.05-18.37.35:726][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.05-18.37.35:726][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.03.05-18.37.35:765][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.05-18.37.35:861][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.05-18.37.35:930][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Intermediate/Shaders/WorkingDirectory/19156/).
+[2019.03.05-18.37.35:931][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nicom/AppData/Local/Temp/UnrealShaderWorkingDir/92CFE3A944791027F89C75A43BACC076/'.
+[2019.03.05-18.37.37:260][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.05-18.37.37:345][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.05-18.37.37:376][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.05-18.37.37:407][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.05-18.37.37:456][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.05-18.37.37:506][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.05-18.37.37:549][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.05-18.37.37:586][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.05-18.37.37:673][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:778][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-18.37.37:800][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.05-18.37.37:939][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.05-18.37.37:939][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.05-18.37.37:975][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.05-18.37.37:975][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.05-18.37.38:008][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.05-18.37.38:038][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.05-18.37.38:064][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.05-18.37.38:091][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.05-18.37.38:167][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.05-18.37.38:167][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.05-18.37.39:146][  0]LogXGEController: Cleaning working directory: C:/Users/nicom/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.05-18.37.39:146][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.05-18.37.39:146][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.05-18.37.39:146][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.05-18.37.40:513][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.05-18.37.40:812][  0]LogDerivedDataCache: Loaded boot cache 0.30s 73MB C:/Users/nicom/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.05-18.37.40:812][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nicom/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.05-18.37.40:812][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.05-18.37.40:812][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.05-18.37.40:812][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.05-18.37.40:812][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.05-18.37.40:884][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.05-18.37.40:899][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nicom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.05-18.37.40:899][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.05-18.37.40:899][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.05-18.37.40:971][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.05-18.37.40:973][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.05-18.37.41:063][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.05-18.37.41:489][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2019.03.05-18.37.43:654][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.05-18.37.45:906][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.05-18.37.46:134][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.05-18.37.46:134][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.05-18.37.46:135][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.05-18.37.46:135][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.05-18.37.46:476][  0]LogNetVersion: VehicleMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2966596176)
+[2019.03.05-18.37.48:299][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.130893 seconds
+[2019.03.05-18.37.48:323][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.05-18.37.48:323][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.03.05-18.37.48:323][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.05-18.37.54:514][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.05-18.37.54:603][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.05-18.37.56:343][  0]SourceControl: Source control is disabled
+[2019.03.05-18.37.56:343][  0]SourceControl: Source control is disabled
+[2019.03.05-18.37.56:441][  0]SourceControl: Source control is disabled
+[2019.03.05-18.37.56:468][  0]SourceControl: Source control is disabled
+[2019.03.05-18.37.58:140][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.05-18.37.58:551][  0]LogOcInput: OculusInput pre-init called
+[2019.03.05-18.37.58:950][  0]LogEngine: Initializing Engine...
+[2019.03.05-18.37.58:967][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.05-18.37.58:968][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.05-18.37.58:968][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.05-18.37.58:969][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.05-18.37.58:969][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.05-18.37.59:438][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.05-18.37.59:591][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.05-18.37.59:781][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.05-18.37.59:830][  0]LogInit: FAudioDevice initialized.
+[2019.03.05-18.37.59:833][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.05-18.37.59:912][  0]LogDerivedDataCache: Saved boot cache 0.08s 73MB C:/Users/nicom/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.05-18.37.59:917][  0]LogInit: Texture streaming: Enabled
+[2019.03.05-18.38.00:084][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.05-18.38.00:128][  0]LogInit: Transaction tracking system initialized
+[2019.03.05-18.38.00:343][  0]BlueprintLog: New page: Editor Load
+[2019.03.05-18.38.01:407][  0]LocalizationService: Localization service is disabled
+[2019.03.05-18.38.04:578][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.05-18.38.04:578][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.05-18.38.04:578][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.05-18.38.04:578][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.05-18.38.04:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.05-18.38.04:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.05-18.38.04:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.05-18.38.05:536][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Content/' took 0.05s
+[2019.03.05-18.38.08:004][  0]SourceControl: Source control is disabled
+[2019.03.05-18.38.08:004][  0]LightingResults: New page: Lighting Build
+[2019.03.05-18.38.08:077][  0]MapCheck: New page: Map Check
+[2019.03.05-18.38.08:077][  0]LightingResults: New page: Lighting Build
+[2019.03.05-18.38.11:028][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.03.05-18.38.11:250][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.05-18.38.11:279][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.05-18.38.11:343][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.989ms to complete.
+[2019.03.05-18.38.11:343][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 3.339
+[2019.03.05-18.38.11:649][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-18.38.11:657][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-18.38.11:664][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-18.38.11:670][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-18.38.11:707][  0]LogCollectionManager: Loaded 0 collections in 0.004270 seconds
+[2019.03.05-18.38.11:756][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Saved/Collections/' took 0.01s
+[2019.03.05-18.38.11:756][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Content/Developers/ChiyokoYumi/Collections/' took 0.01s
+[2019.03.05-18.38.11:756][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Content/Collections/' took 0.01s
+[2019.03.05-18.38.11:756][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.05-18.38.11:767][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2585 classes and 608 folders.
+[2019.03.05-18.38.11:777][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.05-18.38.13:073][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.05-18.38.13:118][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.03.05-18.38.13:386][  0]LogSlate: Took 0.015445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.05-18.38.13:447][  0]LogSlate: Took 0.057638 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.05-18.38.13:480][  0]LogSlate: Took 0.015847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.05-18.38.13:784][  0]LogRenderer: Reallocating scene render targets to support 1144x572 Format 10 NumSamples 1 (Frame:1).
+[2019.03.05-18.38.14:068][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.03.05-18.38.14:068][  0]LogLoad: (Engine Initialization) Total time: 58.32 seconds
+[2019.03.05-18.38.14:068][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.05-18.38.14:085][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.03.05-18.38.14:086][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.03.05-18.38.14:086][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2019.03.05-18.38.14:086][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2019.03.05-18.38.14:086][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2019.03.05-18.38.14:120][  0]LogAssetRegistry: Asset discovery search completed in 32.6544 seconds
+[2019.03.05-18.38.14:129][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.05-18.38.14:129][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
+[2019.03.05-18.38.14:135][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.05-18.38.14:246][  0]LogSlate: Took 0.001562 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.05-18.39.03:375][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-18.39.10:113][352]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.05-18.39.10:122][352]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrint/RankSystem.RankSystem
+[2019.03.05-18.39.10:907][352]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2019.03.05-18.39.11:945][352]LogSlate: Took 0.017679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.05-18.39.12:095][353]LogSlate: Took 0.001281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.05-18.39.34:596][454]LogSlate: Window 'RankSystem' being destroyed
+[2019.03.05-18.40.05:825][158]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrint/VehicleRank.VehicleRank
+[2019.03.05-18.57.02:129][194]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.05-18.57.02:147][194]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.03.05-18.57.02:148][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.05-18.57.02:160][194]PIE: New page: PIE session: VehicleExampleMap (Mar 5, 2019, 8:57:02 AM)
+[2019.03.05-18.57.02:162][194]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2019.03.05-18.57.02:209][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047445s)
+[2019.03.05-18.57.02:210][194]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.03.05-18.57.02:211][194]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2019.03.05-18.57.02:211][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap (0.048703s)
+[2019.03.05-18.57.02:259][194]LogLoad: Game class is 'MyVehicleMovementGameMode_C'
+[2019.03.05-18.57.02:282][194]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.03.05-13.57.02
+[2019.03.05-18.57.02:304][194]LogWorld: Bringing up level for play took: 0.023169
+[2019.03.05-18.57.02:306][194]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.05-18.57.02:317][194]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2019.03.05-18.57.02:317][194]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.05-18.57.02:318][194]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.03.05-18.57.02:318][194]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.03.05-18.57.02:319][194]LogInit: WinSock: I am DESKTOP-IF8BQD3 (192.168.2.11:0)
+[2019.03.05-18.57.02:319][194]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.05-18.57.02:320][194]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2019.03.05-18.57.02:320][194]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap 0.215
+[2019.03.05-18.57.02:324][194]PIE: New page: PIE session: VehicleExampleMap (Mar 5, 2019, 8:57:02 AM)
+[2019.03.05-18.57.02:406][194]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.05-18.57.02:436][194]LogInit: FAudioDevice initialized.
+[2019.03.05-18.57.02:449][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-18.57.02:497][194]LogNet: Browse: 127.0.0.1:17777//Game/VehicleCPP/Maps/VehicleExampleMap
+[2019.03.05-18.57.02:511][194]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.05-18.57.02:511][194]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2019.03.05-18.57.02:511][194]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.03.05-18.57.02:512][194]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.03.05-18.57.02:512][194]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.05-18.57.02:520][194]LogNet: Game client on port 17777, rate 10000
+[2019.03.05-18.57.02:524][194]PIE: Play in editor start time for /Game/VehicleCPP/Maps/VehicleExampleMap 0.419
+[2019.03.05-18.57.02:529][194]PIE: New page: PIE session: VehicleExampleMap (Mar 5, 2019, 8:57:02 AM)
+[2019.03.05-18.57.02:538][194]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-18.57.02:544][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-18.57.02:589][194]LogNet: Browse: 127.0.0.1:17777//Game/VehicleCPP/Maps/VehicleExampleMap
+[2019.03.05-18.57.02:589][194]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.05-18.57.02:589][194]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2019.03.05-18.57.02:589][194]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.03.05-18.57.02:589][194]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.03.05-18.57.02:589][194]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.05-18.57.02:589][194]LogNet: Game client on port 17777, rate 10000
+[2019.03.05-18.57.02:592][194]PIE: Play in editor start time for /Game/VehicleCPP/Maps/VehicleExampleMap 0.487
+[2019.03.05-18.57.02:604][194]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.03.05-18.57.02:605][194]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60949
+[2019.03.05-18.57.02:605][194]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 226082062149159239186158152150167192095085114194156037009216
+[2019.03.05-18.57.02:605][194]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60950
+[2019.03.05-18.57.02:605][194]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 212093111115131247188100087204170101231109246045175133000010
+[2019.03.05-18.57.02:634][194]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 226082062149159239186158152150167192095085114194156037009216
+[2019.03.05-18.57.02:637][194]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 212093111115131247188100087204170101231109246045175133000010
+[2019.03.05-18.57.02:727][195]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60949
+[2019.03.05-18.57.02:727][195]LogHandshake: SendChallengeAck. InCookie: 226082062149159239186158152150167192095085114194156037009216
+[2019.03.05-18.57.02:727][195]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60949
+[2019.03.05-18.57.02:727][195]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.05-18.57.02:728][195]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 03/05/19 13:57:02, [UNetConnection] RemoteAddr: 127.0.0.1:60949, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.05-18.57.02:728][195]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60949, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.05-18.57.02:728][195]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60950
+[2019.03.05-18.57.02:728][195]LogHandshake: SendChallengeAck. InCookie: 212093111115131247188100087204170101231109246045175133000010
+[2019.03.05-18.57.02:728][195]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60950
+[2019.03.05-18.57.02:728][195]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.05-18.57.02:728][195]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 03/05/19 13:57:02, [UNetConnection] RemoteAddr: 127.0.0.1:60950, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.05-18.57.02:728][195]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60950, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.05-18.57.02:731][195]LogNetVersion: VehicleMovement 1.0.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1433232907)
+[2019.03.05-18.57.02:731][195]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.05-18.57.02:731][195]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.05-18.57.02:744][196]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap: Accepted
+[2019.03.05-18.57.02:745][196]LogNet: Remote platform little endian=1
+[2019.03.05-18.57.02:745][196]LogNet: This platform little endian=1
+[2019.03.05-18.57.02:745][196]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap: Accepted
+[2019.03.05-18.57.02:745][196]LogNet: Remote platform little endian=1
+[2019.03.05-18.57.02:745][196]LogNet: This platform little endian=1
+[2019.03.05-18.57.02:776][197]LogNet: Login request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=DESKTOP-IF8BQD3-A2A0FC4249440165E86A9C9F25BA2BA1 userId: DESKTOP-IF8BQD3-A2A0FC4249440165E86A9C9F25BA2BA1
+[2019.03.05-18.57.02:776][197]LogNet: Login request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=DESKTOP-IF8BQD3-81103BFB4FAD54BDB431EA9568C8372D userId: DESKTOP-IF8BQD3-81103BFB4FAD54BDB431EA9568C8372D
+[2019.03.05-18.57.02:777][197]LogNet: Welcomed by server (Level: /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap, Game: /Game/BluePrint/MyVehicleMovementGameMode.MyVehicleMovementGameMode_C)
+[2019.03.05-18.57.02:778][197]LogLoad: LoadMap: 127.0.0.1:17777//Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap?game=/Game/BluePrint/MyVehicleMovementGameMode.MyVehicleMovementGameMode_C
+[2019.03.05-18.57.02:857][197]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.03.05-18.57.02:857][197]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.05-18.57.02:862][197]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_2_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.03.05-13.57.02
+[2019.03.05-18.57.02:863][197]LogWorld: Bringing up level for play took: 0.002726
+[2019.03.05-18.57.02:863][197]LogLoad: Took 0.084813 seconds to LoadMap(/Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap)
+[2019.03.05-18.57.02:873][197]LogNet: Welcomed by server (Level: /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap, Game: /Game/BluePrint/MyVehicleMovementGameMode.MyVehicleMovementGameMode_C)
+[2019.03.05-18.57.02:883][197]LogLoad: LoadMap: 127.0.0.1:17777//Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap?game=/Game/BluePrint/MyVehicleMovementGameMode.MyVehicleMovementGameMode_C
+[2019.03.05-18.57.02:931][197]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.03.05-18.57.02:931][197]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.05-18.57.02:936][197]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_3_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.03.05-13.57.02
+[2019.03.05-18.57.02:936][197]LogWorld: Bringing up level for play took: 0.001907
+[2019.03.05-18.57.02:936][197]LogLoad: Took 0.053114 seconds to LoadMap(/Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap)
+[2019.03.05-18.57.02:956][198]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.03.05-18.57.02:974][198]LogNet: Client netspeed is 10000
+[2019.03.05-18.57.02:974][198]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=DESKTOP-IF8BQD3-A2A0FC4249440165E86A9C9F25BA2BA1?SplitscreenCount=1
+[2019.03.05-18.57.02:975][198]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.03.05-18.57.02:989][198]LogNet: Join succeeded: DESKTOP-IF8BQD3-A2A0
+[2019.03.05-18.57.02:989][198]LogNet: Client netspeed is 10000
+[2019.03.05-18.57.02:989][198]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=DESKTOP-IF8BQD3-81103BFB4FAD54BDB431EA9568C8372D?SplitscreenCount=1
+[2019.03.05-18.57.02:990][198]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.03.05-18.57.02:990][198]LogNet: Join succeeded: DESKTOP-IF8BQD3-8110
+[2019.03.05-18.57.02:996][198]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.19
+[2019.03.05-18.57.02:997][198]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.19
+[2019.03.05-18.57.03:028][199]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.25
+[2019.03.05-18.57.03:028][199]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.25
+[2019.03.05-18.57.03:034][199]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.03.05-18.57.03:035][199]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.03.05-18.57.03:036][199]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.05
+[2019.03.05-18.57.03:038][199]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.03.05-18.57.03:039][199]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.03.05-18.57.03:039][199]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.05
+[2019.03.05-18.57.03:052][200]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.27
+[2019.03.05-18.57.03:052][200]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.27
+[2019.03.05-18.57.03:053][200]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.07
+[2019.03.05-18.57.03:054][200]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.07
+[2019.03.05-18.57.03:067][201]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.28
+[2019.03.05-18.57.03:067][201]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.28
+[2019.03.05-18.57.03:068][201]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.09
+[2019.03.05-18.57.03:070][201]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.09
+[2019.03.05-18.57.03:083][202]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.30
+[2019.03.05-18.57.03:083][202]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.30
+[2019.03.05-18.57.03:085][202]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.10
+[2019.03.05-18.57.03:085][202]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.10
+[2019.03.05-18.57.03:098][203]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.32
+[2019.03.05-18.57.03:098][203]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.32
+[2019.03.05-18.57.03:099][203]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.12
+[2019.03.05-18.57.03:100][203]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.12
+[2019.03.05-18.57.03:113][204]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.33
+[2019.03.05-18.57.03:113][204]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.33
+[2019.03.05-18.57.03:114][204]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.13
+[2019.03.05-18.57.03:115][204]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.13
+[2019.03.05-18.57.03:125][205]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.34
+[2019.03.05-18.57.03:126][205]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.34
+[2019.03.05-18.57.03:127][205]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.15
+[2019.03.05-18.57.03:127][205]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.15
+[2019.03.05-18.57.03:139][206]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.36
+[2019.03.05-18.57.03:139][206]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.36
+[2019.03.05-18.57.03:142][206]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.16
+[2019.03.05-18.57.03:143][206]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.16
+[2019.03.05-18.57.03:155][207]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.37
+[2019.03.05-18.57.03:155][207]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.37
+[2019.03.05-18.57.03:156][207]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.18
+[2019.03.05-18.57.03:157][207]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.18
+[2019.03.05-18.57.03:170][208]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.39
+[2019.03.05-18.57.03:170][208]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.39
+[2019.03.05-18.57.03:172][208]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.19
+[2019.03.05-18.57.03:172][208]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.19
+[2019.03.05-18.57.03:185][209]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.40
+[2019.03.05-18.57.03:186][209]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.40
+[2019.03.05-18.57.03:186][209]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.21
+[2019.03.05-18.57.03:187][209]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.21
+[2019.03.05-18.57.03:200][210]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.42
+[2019.03.05-18.57.03:200][210]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.42
+[2019.03.05-18.57.03:201][210]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.22
+[2019.03.05-18.57.03:202][210]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.22
+[2019.03.05-18.57.03:217][211]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.44
+[2019.03.05-18.57.03:217][211]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.44
+[2019.03.05-18.57.03:218][211]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.24
+[2019.03.05-18.57.03:219][211]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.24
+[2019.03.05-18.57.03:234][212]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.45
+[2019.03.05-18.57.03:234][212]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.45
+[2019.03.05-18.57.03:236][212]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.25
+[2019.03.05-18.57.03:236][212]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.25
+[2019.03.05-18.57.03:249][213]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.47
+[2019.03.05-18.57.03:249][213]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.47
+[2019.03.05-18.57.03:250][213]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.27
+[2019.03.05-18.57.03:251][213]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.27
+[2019.03.05-18.57.03:260][214]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.48
+[2019.03.05-18.57.03:260][214]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.48
+[2019.03.05-18.57.03:262][214]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.28
+[2019.03.05-18.57.03:263][214]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.28
+[2019.03.05-18.57.03:272][215]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.49
+[2019.03.05-18.57.03:272][215]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.49
+[2019.03.05-18.57.03:273][215]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.29
+[2019.03.05-18.57.03:274][215]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.29
+[2019.03.05-18.57.03:283][216]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.50
+[2019.03.05-18.57.03:283][216]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.50
+[2019.03.05-18.57.03:284][216]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.30
+[2019.03.05-18.57.03:284][216]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.30
+[2019.03.05-18.57.03:292][217]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.51
+[2019.03.05-18.57.03:292][217]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.51
+[2019.03.05-18.57.03:293][217]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.31
+[2019.03.05-18.57.03:293][217]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.31
+[2019.03.05-18.57.03:303][218]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.52
+[2019.03.05-18.57.03:303][218]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.52
+[2019.03.05-18.57.03:304][218]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.32
+[2019.03.05-18.57.03:304][218]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.32
+[2019.03.05-18.57.03:315][219]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.53
+[2019.03.05-18.57.03:315][219]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.53
+[2019.03.05-18.57.03:316][219]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.34
+[2019.03.05-18.57.03:317][219]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.34
+[2019.03.05-18.57.03:325][220]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.54
+[2019.03.05-18.57.03:325][220]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.54
+[2019.03.05-18.57.03:325][220]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.35
+[2019.03.05-18.57.03:326][220]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.35
+[2019.03.05-18.57.03:338][221]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.56
+[2019.03.05-18.57.03:338][221]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.56
+[2019.03.05-18.57.03:339][221]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.36
+[2019.03.05-18.57.03:340][221]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.36
+[2019.03.05-18.57.03:353][222]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.57
+[2019.03.05-18.57.03:353][222]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.57
+[2019.03.05-18.57.03:354][222]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.37
+[2019.03.05-18.57.03:354][222]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.37
+[2019.03.05-18.57.03:367][223]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.59
+[2019.03.05-18.57.03:367][223]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.59
+[2019.03.05-18.57.03:368][223]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.39
+[2019.03.05-18.57.03:369][223]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.39
+[2019.03.05-18.57.03:380][224]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.60
+[2019.03.05-18.57.03:380][224]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.60
+[2019.03.05-18.57.03:381][224]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.40
+[2019.03.05-18.57.03:382][224]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.40
+[2019.03.05-18.57.03:394][225]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.61
+[2019.03.05-18.57.03:394][225]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.61
+[2019.03.05-18.57.03:395][225]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.41
+[2019.03.05-18.57.03:396][225]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.41
+[2019.03.05-18.57.03:405][226]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.62
+[2019.03.05-18.57.03:405][226]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.62
+[2019.03.05-18.57.03:406][226]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.43
+[2019.03.05-18.57.03:407][226]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.43
+[2019.03.05-18.57.03:417][227]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.64
+[2019.03.05-18.57.03:417][227]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.64
+[2019.03.05-18.57.03:417][227]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.44
+[2019.03.05-18.57.03:418][227]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.44
+[2019.03.05-18.57.03:426][228]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.65
+[2019.03.05-18.57.03:426][228]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.65
+[2019.03.05-18.57.03:427][228]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.45
+[2019.03.05-18.57.03:427][228]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.45
+[2019.03.05-18.57.03:436][229]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.66
+[2019.03.05-18.57.03:436][229]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.66
+[2019.03.05-18.57.03:437][229]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.46
+[2019.03.05-18.57.03:437][229]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.46
+[2019.03.05-18.57.03:446][230]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.67
+[2019.03.05-18.57.03:446][230]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.67
+[2019.03.05-18.57.03:447][230]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.47
+[2019.03.05-18.57.03:447][230]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.47
+[2019.03.05-18.57.03:455][231]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.67
+[2019.03.05-18.57.03:455][231]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.67
+[2019.03.05-18.57.03:456][231]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.48
+[2019.03.05-18.57.03:456][231]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.48
+[2019.03.05-18.57.03:465][232]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.68
+[2019.03.05-18.57.03:465][232]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.68
+[2019.03.05-18.57.03:466][232]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.49
+[2019.03.05-18.57.03:466][232]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.49
+[2019.03.05-18.57.03:475][233]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.69
+[2019.03.05-18.57.03:475][233]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.69
+[2019.03.05-18.57.03:475][233]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.50
+[2019.03.05-18.57.03:476][233]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.50
+[2019.03.05-18.57.03:485][234]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.70
+[2019.03.05-18.57.03:485][234]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.70
+[2019.03.05-18.57.03:486][234]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.51
+[2019.03.05-18.57.03:486][234]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.51
+[2019.03.05-18.57.03:494][235]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.71
+[2019.03.05-18.57.03:494][235]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.71
+[2019.03.05-18.57.03:495][235]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.51
+[2019.03.05-18.57.03:496][235]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.51
+[2019.03.05-18.57.03:504][236]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.72
+[2019.03.05-18.57.03:504][236]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.72
+[2019.03.05-18.57.03:505][236]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.52
+[2019.03.05-18.57.03:505][236]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.52
+[2019.03.05-18.57.03:514][237]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.73
+[2019.03.05-18.57.03:514][237]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.73
+[2019.03.05-18.57.03:514][237]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.53
+[2019.03.05-18.57.03:515][237]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.53
+[2019.03.05-18.57.03:523][238]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.74
+[2019.03.05-18.57.03:523][238]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.74
+[2019.03.05-18.57.03:523][238]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.54
+[2019.03.05-18.57.03:524][238]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.54
+[2019.03.05-18.57.03:532][239]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.75
+[2019.03.05-18.57.03:532][239]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.75
+[2019.03.05-18.57.03:533][239]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.55
+[2019.03.05-18.57.03:533][239]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.55
+[2019.03.05-18.57.03:540][240]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.76
+[2019.03.05-18.57.03:540][240]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.76
+[2019.03.05-18.57.03:541][240]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.56
+[2019.03.05-18.57.03:542][240]LogBlueprintUserMessages: [VehicleRank_C_0] Client 2: 00:00.56
+[2019.03.05-18.57.03:550][241]LogBlueprintUserMessages: [VehicleRank_C_0] Server: 00:00.77
+[2019.03.05-18.57.03:550][241]LogBlueprintUserMessages: [VehicleRank_C_1] Server: 00:00.77
+[2019.03.05-18.57.03:551][241]LogBlueprintUserMessages: [VehicleRank_C_0] Client 1: 00:00.57

@@ -1,0 +1,488 @@
+﻿Log file open, 03/05/19 16:07:31
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VehicleMovement
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.260078
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.173s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.036s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.05-21.07.31:892][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.05-21.07.31:892][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.05-21.07.31:901][  0]LogHAL: Display: Platform has ~ 8 GB [8523337728 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.05-21.07.31:901][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.05-21.07.31:901][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.05-21.07.31:902][  0]LogInit: Computer: DESKTOP-IF8BQD3
+[2019.03.05-21.07.31:902][  0]LogInit: User: ChiyokoYumi
+[2019.03.05-21.07.31:902][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.03.05-21.07.31:902][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.05-21.07.31:902][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.03.05-21.07.31:902][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.05-21.07.31:902][  0]LogMemory: Process Physical Memory: 101.22 MB used, 101.22 MB peak
+[2019.03.05-21.07.31:902][  0]LogMemory: Process Virtual Memory: 84.71 MB used, 84.71 MB peak
+[2019.03.05-21.07.31:902][  0]LogMemory: Physical Memory: 5601.72 MB used,  2526.77 MB free, 8128.49 MB total
+[2019.03.05-21.07.31:902][  0]LogMemory: Virtual Memory: 4618.13 MB used,  2526.77 MB free, 134217728.00 MB total
+[2019.03.05-21.07.31:938][  0]LogInit: Using OS detected language (en-US).
+[2019.03.05-21.07.31:938][  0]LogInit: Using OS detected locale (en-CA).
+[2019.03.05-21.07.31:941][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.05-21.07.32:254][  0]LogStreaming: Display: Took  0.316s to InitEngineTextLocalization.
+[2019.03.05-21.07.32:254][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.05-21.07.32:289][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.05-21.07.32:289][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.05-21.07.32:513][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.05-21.07.32:513][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.05-21.07.32:588][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.03.05-21.07.32:588][  0]LogD3D11RHI:       4018/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.05-21.07.32:592][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.05-21.07.32:592][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.05-21.07.32:592][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.05-21.07.32:600][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.05-21.07.32:600][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.05-21.07.32:600][  0]LogWindows: EnumDisplayDevices:
+[2019.03.05-21.07.32:600][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.03.05-21.07.32:601][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2019.03.05-21.07.32:601][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.05-21.07.32:602][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.05-21.07.32:602][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.05-21.07.32:602][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.03.05-21.07.32:602][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.05-21.07.32:602][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.05-21.07.32:602][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.03.05-21.07.32:646][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.05-21.07.32:662][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.05-21.07.32:713][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Intermediate/Shaders/WorkingDirectory/18964/).
+[2019.03.05-21.07.32:713][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nicom/AppData/Local/Temp/UnrealShaderWorkingDir/25F3D79944CC787D816FD69C2A930374/'.
+[2019.03.05-21.07.33:170][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.05-21.07.33:187][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.05-21.07.33:203][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.05-21.07.33:220][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.05-21.07.33:238][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.05-21.07.33:255][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.05-21.07.33:272][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.05-21.07.33:288][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.05-21.07.33:297][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:372][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-21.07.33:375][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.05-21.07.33:439][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.05-21.07.33:439][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.05-21.07.33:460][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.05-21.07.33:460][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.05-21.07.33:473][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.05-21.07.33:485][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.05-21.07.33:499][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.05-21.07.33:512][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.05-21.07.33:521][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.05-21.07.33:521][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.05-21.07.33:636][  0]LogXGEController: Cleaning working directory: C:/Users/nicom/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.05-21.07.33:636][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.05-21.07.33:636][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.05-21.07.33:636][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.05-21.07.34:316][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.05-21.07.34:372][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB C:/Users/nicom/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.05-21.07.34:373][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nicom/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.05-21.07.34:373][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.05-21.07.34:373][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.05-21.07.34:373][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.05-21.07.34:373][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.05-21.07.34:384][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.05-21.07.34:398][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nicom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.05-21.07.34:398][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.05-21.07.34:398][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.05-21.07.34:429][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.05-21.07.34:430][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.05-21.07.34:431][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.05-21.07.34:543][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2019.03.05-21.07.34:826][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.05-21.07.34:959][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.05-21.07.34:965][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.05-21.07.34:965][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.05-21.07.34:965][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.05-21.07.34:965][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.05-21.07.34:988][  0]LogNetVersion: VehicleMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2966596176)
+[2019.03.05-21.07.35:529][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.128290 seconds
+[2019.03.05-21.07.35:536][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.05-21.07.35:536][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.05-21.07.35:536][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.05-21.07.36:991][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.05-21.07.37:006][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.05-21.07.37:254][  0]SourceControl: Source control is disabled
+[2019.03.05-21.07.37:254][  0]SourceControl: Source control is disabled
+[2019.03.05-21.07.37:256][  0]SourceControl: Source control is disabled
+[2019.03.05-21.07.37:258][  0]SourceControl: Source control is disabled
+[2019.03.05-21.07.37:489][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.05-21.07.37:714][  0]LogOcInput: OculusInput pre-init called
+[2019.03.05-21.07.37:777][  0]LogEngine: Initializing Engine...
+[2019.03.05-21.07.37:778][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.05-21.07.37:779][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.05-21.07.37:779][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.05-21.07.37:779][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.05-21.07.37:779][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.05-21.07.37:982][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.05-21.07.38:004][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.05-21.07.38:133][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.05-21.07.38:187][  0]LogInit: FAudioDevice initialized.
+[2019.03.05-21.07.38:188][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.05-21.07.38:380][  0]LogDerivedDataCache: Saved boot cache 0.19s 73MB C:/Users/nicom/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.05-21.07.38:386][  0]LogInit: Texture streaming: Enabled
+[2019.03.05-21.07.38:423][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.05-21.07.38:423][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={2070E43F-45EF-9C82-B44B-6B8C13F40CFF}
+[2019.03.05-21.07.38:444][  0]LogInit: Transaction tracking system initialized
+[2019.03.05-21.07.38:489][  0]BlueprintLog: New page: Editor Load
+[2019.03.05-21.07.38:634][  0]LocalizationService: Localization service is disabled
+[2019.03.05-21.07.38:895][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.05-21.07.38:895][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.05-21.07.38:895][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.05-21.07.38:895][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.05-21.07.38:895][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.05-21.07.38:895][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.05-21.07.38:895][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.05-21.07.39:078][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Content/' took 0.02s
+[2019.03.05-21.07.39:078][  0]SourceControl: Source control is disabled
+[2019.03.05-21.07.39:079][  0]LightingResults: New page: Lighting Build
+[2019.03.05-21.07.39:083][  0]MapCheck: New page: Map Check
+[2019.03.05-21.07.39:083][  0]LightingResults: New page: Lighting Build
+[2019.03.05-21.07.39:435][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.03.05-21.07.39:446][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.05-21.07.39:470][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.05-21.07.39:538][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.666ms to complete.
+[2019.03.05-21.07.39:538][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 0.460
+[2019.03.05-21.07.39:648][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-21.07.39:655][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-21.07.39:665][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-21.07.39:674][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-21.07.39:689][  0]LogCollectionManager: Loaded 0 collections in 0.005149 seconds
+[2019.03.05-21.07.39:737][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Saved/Collections/' took 0.01s
+[2019.03.05-21.07.39:737][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Content/Developers/ChiyokoYumi/Collections/' took 0.01s
+[2019.03.05-21.07.39:737][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Math-Assignment_1/Math_Assignment_1/Game260Development/Resources/VehicleMovement/Content/Collections/' took 0.01s
+[2019.03.05-21.07.39:737][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.05-21.07.39:747][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2585 classes and 608 folders.
+[2019.03.05-21.07.39:756][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.05-21.07.39:893][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.05-21.07.39:901][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.03.05-21.07.39:974][  0]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.05-21.07.39:978][  0]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.05-21.07.39:982][  0]LogSlate: Took 0.000403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.05-21.07.40:056][  0]LogRenderer: Reallocating scene render targets to support 1144x572 Format 10 NumSamples 1 (Frame:1).
+[2019.03.05-21.07.40:254][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.03.05-21.07.40:254][  0]LogLoad: (Engine Initialization) Total time: 11.86 seconds
+[2019.03.05-21.07.40:254][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.05-21.07.40:271][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.03.05-21.07.40:271][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.03.05-21.07.40:271][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2019.03.05-21.07.40:271][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2019.03.05-21.07.40:271][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2019.03.05-21.07.40:292][  0]LogAssetRegistry: Asset discovery search completed in 5.7710 seconds
+[2019.03.05-21.07.40:295][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.05-21.07.40:295][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000076 seconds (updated 0 objects)
+[2019.03.05-21.07.40:297][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.05-21.07.40:327][  0]LogSlate: Took 0.000383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.05-21.07.41:613][  4]LogSlate: Took 0.000628 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.05-21.08.09:562][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-21.08.09:766][318]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrint/MyVehicleMovementGameMode.MyVehicleMovementGameMode
+[2019.03.05-21.08.10:153][318]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2019.03.05-21.08.10:836][318]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrint/VehicleRank.VehicleRank
+[2019.03.05-21.08.11:110][318]LogSlate: Took 0.000396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.05-21.08.11:209][319]LogSlate: Took 0.000457 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.05-21.10.05:851][577]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-21.10.09:021][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-21.10.13:231][453]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.05-21.10.13:250][453]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.03.05-21.10.13:250][453]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.05-21.10.13:268][453]PIE: New page: PIE session: VehicleExampleMap (Mar 5, 2019, 11:10:13 AM)
+[2019.03.05-21.10.13:269][453]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2019.03.05-21.10.13:295][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025865s)
+[2019.03.05-21.10.13:295][453]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.03.05-21.10.13:295][453]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2019.03.05-21.10.13:295][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap (0.026820s)
+[2019.03.05-21.10.13:401][453]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.05-21.10.13:430][453]LogInit: FAudioDevice initialized.
+[2019.03.05-21.10.13:441][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-21.10.13:496][453]LogLoad: Game class is 'FunctionalTestGameMode'
+[2019.03.05-21.10.13:501][453]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.03.05-16.10.13
+[2019.03.05-21.10.13:501][453]LogWorld: Bringing up level for play took: 0.002250
+[2019.03.05-21.10.13:542][453]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2019.03.05-21.10.13:543][453]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.05-21.10.13:543][453]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2019.03.05-21.10.13:543][453]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.05-21.10.13:543][453]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.03.05-21.10.13:543][453]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.03.05-21.10.13:543][453]LogInit: WinSock: I am DESKTOP-IF8BQD3 (192.168.2.11:0)
+[2019.03.05-21.10.13:543][453]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.05-21.10.13:543][453]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2019.03.05-21.10.13:549][453]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap -0.556
+[2019.03.05-21.10.13:568][453]PIE: New page: PIE session: VehicleExampleMap (Mar 5, 2019, 11:10:13 AM)
+[2019.03.05-21.10.13:587][453]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-21.10.13:591][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-21.10.13:689][453]LogNet: Browse: 127.0.0.1:17777//Game/VehicleCPP/Maps/VehicleExampleMap
+[2019.03.05-21.10.13:695][453]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.05-21.10.13:695][453]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2019.03.05-21.10.13:695][453]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.03.05-21.10.13:695][453]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.03.05-21.10.13:701][453]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.05-21.10.13:713][453]LogNet: Game client on port 17777, rate 10000
+[2019.03.05-21.10.13:734][453]PIE: Play in editor start time for /Game/VehicleCPP/Maps/VehicleExampleMap -0.37
+[2019.03.05-21.10.13:745][453]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.03.05-21.10.13:746][453]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53167
+[2019.03.05-21.10.13:746][453]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 206028068178051099191053217075031208080041252195028095015181
+[2019.03.05-21.10.13:798][453]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 206028068178051099191053217075031208080041252195028095015181
+[2019.03.05-21.10.13:867][453]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.03.05-21.10.13:959][454]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53167
+[2019.03.05-21.10.13:959][454]LogHandshake: SendChallengeAck. InCookie: 206028068178051099191053217075031208080041252195028095015181
+[2019.03.05-21.10.13:960][454]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53167
+[2019.03.05-21.10.13:960][454]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.05-21.10.13:960][454]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 03/05/19 16:10:13, [UNetConnection] RemoteAddr: 127.0.0.1:53167, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.05-21.10.13:961][454]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53167, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.05-21.10.13:970][454]LogNetVersion: VehicleMovement 1.0.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1433232907)
+[2019.03.05-21.10.13:970][454]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.03.05-21.10.13:986][455]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap: Accepted
+[2019.03.05-21.10.13:986][455]LogNet: Remote platform little endian=1
+[2019.03.05-21.10.13:986][455]LogNet: This platform little endian=1
+[2019.03.05-21.10.14:007][456]LogNet: Login request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=DESKTOP-IF8BQD3-B876034E4C9391B877195BA932E912ED userId: DESKTOP-IF8BQD3-B876034E4C9391B877195BA932E912ED
+[2019.03.05-21.10.14:008][456]LogNet: Welcomed by server (Level: /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap, Game: /Script/FunctionalTesting.FunctionalTestGameMode)
+[2019.03.05-21.10.14:009][456]LogLoad: LoadMap: 127.0.0.1:17777//Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap?game=/Script/FunctionalTesting.FunctionalTestGameMode
+[2019.03.05-21.10.14:088][456]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.03.05-21.10.14:088][456]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.05-21.10.14:092][456]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_2_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.03.05-16.10.14
+[2019.03.05-21.10.14:104][456]LogWorld: Bringing up level for play took: 0.013442
+[2019.03.05-21.10.14:104][456]LogLoad: Took 0.095141 seconds to LoadMap(/Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap)
+[2019.03.05-21.10.14:123][457]LogNet: Client netspeed is 10000
+[2019.03.05-21.10.14:123][457]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=DESKTOP-IF8BQD3-B876034E4C9391B877195BA932E912ED?SplitscreenCount=1
+[2019.03.05-21.10.14:123][457]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.03.05-21.10.14:132][457]LogNet: Join succeeded: DESKTOP-IF8BQD3-B876
+[2019.03.05-21.10.14:157][458]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.03.05-21.10.14:157][458]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.03.05-21.10.33:182][563]LogBlueprintUserMessages: [CheckPoint3] Server: Wrong Diorection!
+[2019.03.05-21.10.33:191][564]LogBlueprintUserMessages: [CheckPoint3] Server: Wrong Diorection!
+[2019.03.05-21.10.33:191][564]LogBlueprintUserMessages: [CheckPoint3] Server: Wrong Diorection!
+[2019.03.05-21.10.33:191][564]LogBlueprintUserMessages: [CheckPoint3] Server: Wrong Diorection!
+[2019.03.05-21.10.33:202][565]LogBlueprintUserMessages: [CheckPoint3] Server: Wrong Diorection!
+[2019.03.05-21.10.33:202][565]LogBlueprintUserMessages: [CheckPoint3] Server: Wrong Diorection!
+[2019.03.05-21.10.34:159][671]LogBlueprintUserMessages: [CheckPoint2] Server: Wrong Diorection!
+[2019.03.05-21.10.34:159][671]LogBlueprintUserMessages: [CheckPoint2] Server: Wrong Diorection!
+[2019.03.05-21.10.34:186][674]LogBlueprintUserMessages: [CheckPoint2] Server: Wrong Diorection!
+[2019.03.05-21.10.34:186][674]LogBlueprintUserMessages: [CheckPoint2] Server: Wrong Diorection!
+[2019.03.05-21.10.34:194][675]LogBlueprintUserMessages: [CheckPoint2] Server: Wrong Diorection!
+[2019.03.05-21.10.34:759][737]LogBlueprintUserMessages: [CheckPoint_2] Server: Wrong Diorection!
+[2019.03.05-21.10.34:759][737]LogBlueprintUserMessages: [CheckPoint_2] Server: Wrong Diorection!
+[2019.03.05-21.10.34:785][740]LogBlueprintUserMessages: [CheckPoint_2] Server: Wrong Diorection!
+[2019.03.05-21.10.34:785][740]LogBlueprintUserMessages: [CheckPoint_2] Server: Wrong Diorection!
+[2019.03.05-21.10.34:785][740]LogBlueprintUserMessages: [CheckPoint_2] Server: Wrong Diorection!
+[2019.03.05-21.10.38:521][156]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-21.10.44:832][821]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.03.05-21.10.44:833][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-21.10.44:859][821]LogSlate: Window 'VehicleMovement Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-21.10.44:921][821]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2019.03.05-21.10.44:922][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-21.10.44:933][821]LogSlate: Window 'VehicleMovement Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-21.10.44:973][821]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-21.10.44:974][821]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.03.05-21.10.45:002][821]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53167, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-IF8BQD3-B876034E4C9391B877195BA932E912ED
+[2019.03.05-21.10.45:002][821]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:53167, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-IF8BQD3-B876034E4C9391B877195BA932E912ED, Channels: 2, Time: 2019.03.05-21.10.45
+[2019.03.05-21.10.45:002][821]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53167, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-IF8BQD3-B876034E4C9391B877195BA932E912ED
+[2019.03.05-21.10.45:002][821]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-IF8BQD3-B876034E4C9391B877195BA932E912ED
+[2019.03.05-21.10.45:002][821]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-IF8BQD3-B876034E4C9391B877195BA932E912ED, Channels: 2, Time: 2019.03.05-21.10.45
+[2019.03.05-21.10.45:002][821]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-IF8BQD3-B876034E4C9391B877195BA932E912ED
+[2019.03.05-21.10.45:023][821]LogExit: GameNetDriver None shut down
+[2019.03.05-21.10.45:023][821]LogExit: GameNetDriver None shut down
+[2019.03.05-21.10.45:096][822]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.03.05-21.10.45:096][822]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.03.05-21.10.47:999][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-21.10.54:542][873]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-21.10.54:667][888]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.03.05-21.10.54:684][888]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.03.05-21.10.54:684][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.05-21.10.54:690][888]PIE: New page: PIE session: VehicleExampleMap (Mar 5, 2019, 11:10:54 AM)
+[2019.03.05-21.10.54:690][888]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2019.03.05-21.10.54:707][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017173s)
+[2019.03.05-21.10.54:708][888]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.03.05-21.10.54:708][888]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2019.03.05-21.10.54:708][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap (0.018036s)
+[2019.03.05-21.10.54:848][888]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.05-21.10.54:878][888]LogInit: FAudioDevice initialized.
+[2019.03.05-21.10.54:892][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-21.10.54:937][888]LogLoad: Game class is 'FunctionalTestGameMode'
+[2019.03.05-21.10.54:941][888]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.03.05-16.10.54
+[2019.03.05-21.10.54:941][888]LogWorld: Bringing up level for play took: 0.002169
+[2019.03.05-21.10.54:953][888]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.05-21.10.54:953][888]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2019.03.05-21.10.54:953][888]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.05-21.10.54:953][888]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.03.05-21.10.54:954][888]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.03.05-21.10.54:954][888]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.05-21.10.54:954][888]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2019.03.05-21.10.54:957][888]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap 0.853
+[2019.03.05-21.10.54:962][888]PIE: New page: PIE session: VehicleExampleMap (Mar 5, 2019, 11:10:54 AM)
+[2019.03.05-21.10.54:972][888]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-21.10.54:978][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-21.10.55:023][888]LogNet: Browse: 127.0.0.1:17777//Game/VehicleCPP/Maps/VehicleExampleMap
+[2019.03.05-21.10.55:023][888]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.03.05-21.10.55:023][888]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2019.03.05-21.10.55:023][888]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.03.05-21.10.55:023][888]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.03.05-21.10.55:023][888]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.03.05-21.10.55:024][888]LogNet: Game client on port 17777, rate 10000
+[2019.03.05-21.10.55:027][888]PIE: Play in editor start time for /Game/VehicleCPP/Maps/VehicleExampleMap 0.922
+[2019.03.05-21.10.55:038][888]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.03.05-21.10.55:038][888]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64274
+[2019.03.05-21.10.55:038][888]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 153137192133212021041154155107149226029128138080093068033147

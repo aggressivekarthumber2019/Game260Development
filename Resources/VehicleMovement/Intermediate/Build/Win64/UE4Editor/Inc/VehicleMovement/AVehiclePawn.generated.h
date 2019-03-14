@@ -13,28 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define VEHICLEMOVEMENT_AVehiclePawn_generated_h
 
-#define VehicleMovement_Source_VehicleMovement_AVehiclePawn_h_12_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execaddPoint) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->addPoint(); \
-		P_NATIVE_END; \
-	}
-
-
-#define VehicleMovement_Source_VehicleMovement_AVehiclePawn_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execaddPoint) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->addPoint(); \
-		P_NATIVE_END; \
-	}
-
-
+#define VehicleMovement_Source_VehicleMovement_AVehiclePawn_h_12_RPC_WRAPPERS
+#define VehicleMovement_Source_VehicleMovement_AVehiclePawn_h_12_RPC_WRAPPERS_NO_PURE_DECLS
 #define VehicleMovement_Source_VehicleMovement_AVehiclePawn_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAVehiclePawn(); \

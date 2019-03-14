@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-VehicleMovement-4664.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-VehicleMovement-7541.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-VehicleMovement-4664.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-VehicleMovement-7541.pdb",
 			"Type": "SymbolFile"
 		},
 		{
