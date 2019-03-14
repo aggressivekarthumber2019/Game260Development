@@ -211,4 +211,9 @@ public:
 	/** Sarfaraz: This method is called on a timer at a constant rate*/
 	void FixedUpdate();
 
+	/*Brandon: */
+	UFUNCTION()
+		void OnActorHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit);
 };
+
+

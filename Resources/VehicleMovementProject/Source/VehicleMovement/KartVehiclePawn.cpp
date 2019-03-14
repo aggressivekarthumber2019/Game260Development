@@ -45,6 +45,10 @@ AKartVehiclePawn::AKartVehiclePawn()
 	// Mike: Enable physics for the box
 	CarBoxCollider->SetSimulatePhysics(true);
 
+	CarBoxCollider->SetNotifyRigidBodyCollision(true);
+
+	CarBoxCollider->OnComponentHit.AddDynamic(this, &AKartVehiclePawn::OnActorHit);
+
 	// Mike: Make a const reference to the custom collision channels made in the editor
 	const ECollisionChannel Car_Body_Channel = ECC_GameTraceChannel1;
 	const ECollisionChannel Car_Wheel_Channel = ECC_GameTraceChannel2;
@@ -257,6 +261,8 @@ AKartVehiclePawn::AKartVehiclePawn()
 	// Sarfaraz: Setup the default values for the game's frame rate
 	FrameRate = 0.0067f;
 	canMove = true;
+
+	
 }
 
 void AKartVehiclePawn::Tick(float DeltaTime)
@@ -511,4 +517,15 @@ bool AKartVehiclePawn::RayCastGround()
 		
 	}
 	return false;
+}
+
+void AKartVehiclePawn::OnActorHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit)
+{
+	if (OtherActor->ActorHasTag("Player"))
+	{
+		FHitResult Impact = Hit;
+		Impact.PhysMaterial;
+		Destroy(this);
+	}
+
 }
