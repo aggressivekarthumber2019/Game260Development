@@ -3,7 +3,7 @@
 #include "PawnStatMod.h"
 #include "Kismet/KismetGuidLibrary.h"
 
-void UPawnStatMod::Construct(int32 MaxStack, float MaxTimeMS)
+void UPawnStatMod::Construct(const int32 MaxStack, const float MaxTimeMS)
 {
 	MMaxStackCount = MaxStack;
 	MMaxTimeMS = MaxTimeMS;
@@ -11,7 +11,12 @@ void UPawnStatMod::Construct(int32 MaxStack, float MaxTimeMS)
 
 FGuid UPawnStatMod::GetGUID() const
 {
-	return GUID;
+	return MGUID;
+}
+
+void UPawnStatMod::Begin_Implementation()
+{
+
 }
 
 void UPawnStatMod::EnableMod_Implementation(UCarStat* StatType)

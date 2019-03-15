@@ -20,7 +20,7 @@ class VEHICLEMOVEMENT_API UPawnStatMod : public UObject
 	GENERATED_BODY()
 protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FGuid GUID;
+	FGuid MGUID;
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -32,9 +32,14 @@ public:
 	float MMaxTimeMS;
 
 	UFUNCTION(BlueprintCallable)
-	void Construct(int32 MaxStack, float MaxTimeMS);
+	void Construct(const int32 MaxStack, const float MaxTimeMS);
 
+	UFUNCTION(BlueprintCallable)
 	FGuid GetGUID() const;
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void Begin();
+	virtual void Begin_Implementation();
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void EnableMod(UCarStat* StatType);

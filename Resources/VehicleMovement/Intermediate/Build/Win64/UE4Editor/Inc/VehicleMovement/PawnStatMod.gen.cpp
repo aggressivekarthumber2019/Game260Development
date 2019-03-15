@@ -17,12 +17,19 @@ void EmptyLinkFunctionForGeneratedCodePawnStatMod() {}
 	VEHICLEMOVEMENT_API UClass* Z_Construct_UClass_UPawnStatMod();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
 	UPackage* Z_Construct_UPackage__Script_VehicleMovement();
+	VEHICLEMOVEMENT_API UFunction* Z_Construct_UFunction_UPawnStatMod_Begin();
 	VEHICLEMOVEMENT_API UFunction* Z_Construct_UFunction_UPawnStatMod_Construct();
 	VEHICLEMOVEMENT_API UFunction* Z_Construct_UFunction_UPawnStatMod_DisableMod();
 	VEHICLEMOVEMENT_API UClass* Z_Construct_UClass_UCarStat_NoRegister();
 	VEHICLEMOVEMENT_API UFunction* Z_Construct_UFunction_UPawnStatMod_EnableMod();
+	VEHICLEMOVEMENT_API UFunction* Z_Construct_UFunction_UPawnStatMod_GetGUID();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FGuid();
 // End Cross Module References
+	static FName NAME_UPawnStatMod_Begin = FName(TEXT("Begin"));
+	void UPawnStatMod::Begin()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_UPawnStatMod_Begin),NULL);
+	}
 	static FName NAME_UPawnStatMod_DisableMod = FName(TEXT("DisableMod"));
 	void UPawnStatMod::DisableMod(UCarStat* StatType)
 	{
@@ -41,11 +48,35 @@ void EmptyLinkFunctionForGeneratedCodePawnStatMod() {}
 	{
 		UClass* Class = UPawnStatMod::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "Begin", &UPawnStatMod::execBegin },
 			{ "Construct", &UPawnStatMod::execConstruct },
 			{ "DisableMod", &UPawnStatMod::execDisableMod },
 			{ "EnableMod", &UPawnStatMod::execEnableMod },
+			{ "GetGUID", &UPawnStatMod::execGetGUID },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UPawnStatMod_Begin_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPawnStatMod_Begin_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Items/Mods/PawnStatMod.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UPawnStatMod_Begin_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPawnStatMod, "Begin", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x0C020C00, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPawnStatMod_Begin_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UPawnStatMod_Begin_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UPawnStatMod_Begin()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UPawnStatMod_Begin_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UPawnStatMod_Construct_Statics
 	{
@@ -54,7 +85,13 @@ void EmptyLinkFunctionForGeneratedCodePawnStatMod() {}
 			int32 MaxStack;
 			float MaxTimeMS;
 		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxTimeMS_MetaData[];
+#endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxTimeMS;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxStack_MetaData[];
+#endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_MaxStack;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
@@ -62,8 +99,18 @@ void EmptyLinkFunctionForGeneratedCodePawnStatMod() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UPawnStatMod_Construct_Statics::NewProp_MaxTimeMS = { UE4CodeGen_Private::EPropertyClass::Float, "MaxTimeMS", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(PawnStatMod_eventConstruct_Parms, MaxTimeMS), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UPawnStatMod_Construct_Statics::NewProp_MaxStack = { UE4CodeGen_Private::EPropertyClass::Int, "MaxStack", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(PawnStatMod_eventConstruct_Parms, MaxStack), METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPawnStatMod_Construct_Statics::NewProp_MaxTimeMS_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UPawnStatMod_Construct_Statics::NewProp_MaxTimeMS = { UE4CodeGen_Private::EPropertyClass::Float, "MaxTimeMS", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000082, 1, nullptr, STRUCT_OFFSET(PawnStatMod_eventConstruct_Parms, MaxTimeMS), METADATA_PARAMS(Z_Construct_UFunction_UPawnStatMod_Construct_Statics::NewProp_MaxTimeMS_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UPawnStatMod_Construct_Statics::NewProp_MaxTimeMS_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPawnStatMod_Construct_Statics::NewProp_MaxStack_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UPawnStatMod_Construct_Statics::NewProp_MaxStack = { UE4CodeGen_Private::EPropertyClass::Int, "MaxStack", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000082, 1, nullptr, STRUCT_OFFSET(PawnStatMod_eventConstruct_Parms, MaxStack), METADATA_PARAMS(Z_Construct_UFunction_UPawnStatMod_Construct_Statics::NewProp_MaxStack_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UPawnStatMod_Construct_Statics::NewProp_MaxStack_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPawnStatMod_Construct_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPawnStatMod_Construct_Statics::NewProp_MaxTimeMS,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPawnStatMod_Construct_Statics::NewProp_MaxStack,
@@ -139,6 +186,38 @@ void EmptyLinkFunctionForGeneratedCodePawnStatMod() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UPawnStatMod_GetGUID_Statics
+	{
+		struct PawnStatMod_eventGetGUID_Parms
+		{
+			FGuid ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UPawnStatMod_GetGUID_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Struct, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(PawnStatMod_eventGetGUID_Parms, ReturnValue), Z_Construct_UScriptStruct_FGuid, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPawnStatMod_GetGUID_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPawnStatMod_GetGUID_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPawnStatMod_GetGUID_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Items/Mods/PawnStatMod.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UPawnStatMod_GetGUID_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPawnStatMod, "GetGUID", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x54820401, sizeof(PawnStatMod_eventGetGUID_Parms), Z_Construct_UFunction_UPawnStatMod_GetGUID_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UPawnStatMod_GetGUID_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPawnStatMod_GetGUID_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UPawnStatMod_GetGUID_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UPawnStatMod_GetGUID()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UPawnStatMod_GetGUID_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_UPawnStatMod_NoRegister()
 	{
 		return UPawnStatMod::StaticClass();
@@ -159,9 +238,9 @@ void EmptyLinkFunctionForGeneratedCodePawnStatMod() {}
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_MMaxStackCount;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GUID_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MGUID_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_GUID;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_MGUID;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -171,9 +250,11 @@ void EmptyLinkFunctionForGeneratedCodePawnStatMod() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_VehicleMovement,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UPawnStatMod_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UPawnStatMod_Construct, "Construct" }, // 1157971645
+		{ &Z_Construct_UFunction_UPawnStatMod_Begin, "Begin" }, // 161737274
+		{ &Z_Construct_UFunction_UPawnStatMod_Construct, "Construct" }, // 1062702758
 		{ &Z_Construct_UFunction_UPawnStatMod_DisableMod, "DisableMod" }, // 2281392068
 		{ &Z_Construct_UFunction_UPawnStatMod_EnableMod, "EnableMod" }, // 785088080
+		{ &Z_Construct_UFunction_UPawnStatMod_GetGUID, "GetGUID" }, // 624055420
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPawnStatMod_Statics::Class_MetaDataParams[] = {
@@ -200,16 +281,16 @@ void EmptyLinkFunctionForGeneratedCodePawnStatMod() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UPawnStatMod_Statics::NewProp_MMaxStackCount = { UE4CodeGen_Private::EPropertyClass::Int, "MMaxStackCount", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UPawnStatMod, MMaxStackCount), METADATA_PARAMS(Z_Construct_UClass_UPawnStatMod_Statics::NewProp_MMaxStackCount_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPawnStatMod_Statics::NewProp_MMaxStackCount_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPawnStatMod_Statics::NewProp_GUID_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPawnStatMod_Statics::NewProp_MGUID_MetaData[] = {
 		{ "Category", "PawnStatMod" },
 		{ "ModuleRelativePath", "Items/Mods/PawnStatMod.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UPawnStatMod_Statics::NewProp_GUID = { UE4CodeGen_Private::EPropertyClass::Struct, "GUID", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(UPawnStatMod, GUID), Z_Construct_UScriptStruct_FGuid, METADATA_PARAMS(Z_Construct_UClass_UPawnStatMod_Statics::NewProp_GUID_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPawnStatMod_Statics::NewProp_GUID_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UPawnStatMod_Statics::NewProp_MGUID = { UE4CodeGen_Private::EPropertyClass::Struct, "MGUID", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(UPawnStatMod, MGUID), Z_Construct_UScriptStruct_FGuid, METADATA_PARAMS(Z_Construct_UClass_UPawnStatMod_Statics::NewProp_MGUID_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPawnStatMod_Statics::NewProp_MGUID_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPawnStatMod_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPawnStatMod_Statics::NewProp_MMaxTimeMS,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPawnStatMod_Statics::NewProp_MMaxStackCount,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPawnStatMod_Statics::NewProp_GUID,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPawnStatMod_Statics::NewProp_MGUID,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UPawnStatMod_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UPawnStatMod>::IsAbstract,
@@ -234,7 +315,7 @@ void EmptyLinkFunctionForGeneratedCodePawnStatMod() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPawnStatMod, 2866821119);
+	IMPLEMENT_CLASS(UPawnStatMod, 3357075038);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UPawnStatMod(Z_Construct_UClass_UPawnStatMod, &UPawnStatMod::StaticClass, TEXT("/Script/VehicleMovement"), TEXT("UPawnStatMod"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UPawnStatMod);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,136 +1,150 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\VehicleMovement.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{04E60D71-7844-4DE9-AD57-81402418DBBE}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\VehicleMovement.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\VehicleMovementEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{78A8C41A-7AD1-4517-BA53-EA997DA0FD01}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\VehicleMovement">
-			<UniqueIdentifier>{F357F55F-58AB-401A-B611-8C5F218E2995}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\VehicleMovement\AVehiclePawn.cpp">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\AVehiclePawn.h">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\VehicleMovement\CarStat.cpp">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\CarStat.h">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\VehicleMovement\PawnStat.cpp">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\PawnStat.h">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\VehicleMovement\PawnStatComponent.cpp">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\PawnStatComponent.h">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\VehicleMovement\VehicleMovement.Build.cs">
-			<Filter>Source\VehicleMovement</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\VehicleMovement\VehicleMovement.cpp">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\VehicleMovement.h">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\VehicleMovement\VehicleMovementGameMode.cpp">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\VehicleMovementGameMode.h">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\VehicleMovement\VehicleMovementHud.cpp">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\VehicleMovementHud.h">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\VehicleMovement\VehicleMovementPawn.cpp">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\VehicleMovementPawn.h">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\VehicleMovement\VehicleMovementWheelFront.cpp">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\VehicleMovementWheelFront.h">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\VehicleMovement\VehicleMovementWheelRear.cpp">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\VehicleMovementWheelRear.h">
-			<Filter>Source\VehicleMovement</Filter>
-		</ClInclude >
-		<Filter Include="Source\VehicleMovement\Items">
-			<UniqueIdentifier>{4B570F1A-9518-444B-AD61-D6981EEB7B86}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\VehicleMovement\Items\PawnState.cpp">
-			<Filter>Source\VehicleMovement\Items</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\Items\PawnState.h">
-			<Filter>Source\VehicleMovement\Items</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\VehicleMovement\Items\TriggerableItem.cpp">
-			<Filter>Source\VehicleMovement\Items</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\Items\TriggerableItem.h">
-			<Filter>Source\VehicleMovement\Items</Filter>
-		</ClInclude >
-		<Filter Include="Source\VehicleMovement\Items\Mods">
-			<UniqueIdentifier>{DD9D1282-BAF9-4764-8472-34630C044A0D}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\VehicleMovement\Items\Mods\PawnStatMod.cpp">
-			<Filter>Source\VehicleMovement\Items\Mods</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\Items\Mods\PawnStatMod.h">
-			<Filter>Source\VehicleMovement\Items\Mods</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\VehicleMovement\Items\Mods\SpeedCapMod.cpp">
-			<Filter>Source\VehicleMovement\Items\Mods</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\Items\Mods\SpeedCapMod.h">
-			<Filter>Source\VehicleMovement\Items\Mods</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\VehicleMovement\Items\Mods\SpinOutMod.cpp">
-			<Filter>Source\VehicleMovement\Items\Mods</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\VehicleMovement\Items\Mods\SpinOutMod.h">
-			<Filter>Source\VehicleMovement\Items\Mods</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\VehicleMovement.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D6A9F704-C2E3-4100-BF96-7A12522C4251}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VehicleMovement.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\VehicleMovementEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E5A159C5-2EEA-4194-A257-9FE58A1959F1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\VehicleMovement">
+      <UniqueIdentifier>{54ACAC86-6899-48EF-8112-E1C94D7E41A2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\VehicleMovement\AVehiclePawn.cpp">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\AVehiclePawn.h">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleMovement\CarStat.cpp">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\CarStat.h">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleMovement\PawnStat.cpp">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\PawnStat.h">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleMovement\PawnStatComponent.cpp">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\PawnStatComponent.h">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\VehicleMovement\VehicleMovement.Build.cs">
+      <Filter>Source\VehicleMovement</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\VehicleMovement\VehicleMovement.cpp">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\VehicleMovement.h">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleMovement\VehicleMovementGameMode.cpp">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\VehicleMovementGameMode.h">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleMovement\VehicleMovementHud.cpp">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\VehicleMovementHud.h">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleMovement\VehicleMovementPawn.cpp">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\VehicleMovementPawn.h">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleMovement\VehicleMovementWheelFront.cpp">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\VehicleMovementWheelFront.h">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleMovement\VehicleMovementWheelRear.cpp">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\VehicleMovementWheelRear.h">
+      <Filter>Source\VehicleMovement</Filter>
+    </ClInclude>
+    <Filter Include="Source\VehicleMovement\Items">
+      <UniqueIdentifier>{6DD271FB-8895-4097-8B4A-36F0DF5EF096}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\VehicleMovement\Items\PawnState.cpp">
+      <Filter>Source\VehicleMovement\Items</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\Items\PawnState.h">
+      <Filter>Source\VehicleMovement\Items</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleMovement\Items\TriggerableItem.cpp">
+      <Filter>Source\VehicleMovement\Items</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\Items\TriggerableItem.h">
+      <Filter>Source\VehicleMovement\Items</Filter>
+    </ClInclude>
+    <Filter Include="Source\VehicleMovement\Items\Mods">
+      <UniqueIdentifier>{A2CDCC27-6B49-48BF-AE5E-458C5496A7F2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\VehicleMovement\Items\Mods\PawnStatMod.cpp">
+      <Filter>Source\VehicleMovement\Items\Mods</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\Items\Mods\PawnStatMod.h">
+      <Filter>Source\VehicleMovement\Items\Mods</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleMovement\Items\Mods\SpeedCapMod.cpp">
+      <Filter>Source\VehicleMovement\Items\Mods</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\Items\Mods\SpeedCapMod.h">
+      <Filter>Source\VehicleMovement\Items\Mods</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VehicleMovement\Items\Mods\SpinOutMod.cpp">
+      <Filter>Source\VehicleMovement\Items\Mods</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VehicleMovement\Items\Mods\SpinOutMod.h">
+      <Filter>Source\VehicleMovement\Items\Mods</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\VehicleMovement\Misc">
+      <UniqueIdentifier>{6522f722-1764-4bb0-8590-9ae94afb5a2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\VehicleMovement\Misc\GUIDDictionary.h">
+      <Filter>Source\VehicleMovement\Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\VehicleMovement\Misc\GUIDDictionary.cpp">
+      <Filter>Source\VehicleMovement\Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

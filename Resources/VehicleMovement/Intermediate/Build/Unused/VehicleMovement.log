@@ -1,3 +1,12 @@
-﻿  Target is up to date
+﻿  Parsing headers for VehicleMovementEditor
+    Running UnrealHeaderTool "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\VehicleMovement.uproject" "E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\VehicleMovementEditor\Development\VehicleMovementEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for VehicleMovementEditor in 7.5633919 seconds
+  Building 4 actions with 12 processes...
+    [1/4] TriggerableItem.gen.cpp
+    [2/4] TriggerableItem.cpp
+    [3/4] UE4Editor-VehicleMovement.lib
+       Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.exp
+    [4/4] UE4Editor-VehicleMovement.dll
+       Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.suppressed.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement.suppressed.exp
   Deploying VehicleMovementEditor Win64 Development...
-  Total build time: 1.51 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 41.41 seconds (Parallel executor: 32.06 seconds)

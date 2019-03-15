@@ -1,0 +1,447 @@
+﻿Log file open, 03/14/19 19:38:48
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VehicleMovement
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.431642
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.125s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.14-23.38.48:776][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.14-23.38.48:776][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.14-23.38.48:784][  0]LogHAL: Display: Platform has ~ 16 GB [17125281792 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.14-23.38.48:784][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.14-23.38.48:784][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.14-23.38.48:784][  0]LogInit: Computer: DESKTOP-6JV4Q76
+[2019.03.14-23.38.48:784][  0]LogInit: User: Windows
+[2019.03.14-23.38.48:784][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.03.14-23.38.48:784][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.14-23.38.48:784][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.14-23.38.48:784][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.14-23.38.48:784][  0]LogMemory: Process Physical Memory: 101.78 MB used, 101.78 MB peak
+[2019.03.14-23.38.48:784][  0]LogMemory: Process Virtual Memory: 85.85 MB used, 85.85 MB peak
+[2019.03.14-23.38.48:784][  0]LogMemory: Physical Memory: 8469.47 MB used,  7862.47 MB free, 16331.94 MB total
+[2019.03.14-23.38.48:784][  0]LogMemory: Virtual Memory: 4655.15 MB used,  7862.47 MB free, 134217728.00 MB total
+[2019.03.14-23.38.48:933][  0]LogInit: Using OS detected language (en-US).
+[2019.03.14-23.38.48:933][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.14-23.38.48:934][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.14-23.38.49:205][  0]LogStreaming: Display: Took  0.272s to InitEngineTextLocalization.
+[2019.03.14-23.38.49:206][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.14-23.38.49:240][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.14-23.38.49:240][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.14-23.38.49:421][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.14-23.38.49:421][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.14-23.38.49:525][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.03.14-23.38.49:526][  0]LogD3D11RHI:       6052/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.14-23.38.49:528][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.14-23.38.49:528][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.14-23.38.49:528][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.14-23.38.49:535][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.14-23.38.49:535][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.14-23.38.49:535][  0]LogWindows: EnumDisplayDevices:
+[2019.03.14-23.38.49:535][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.03.14-23.38.49:536][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.14-23.38.49:536][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.14-23.38.49:536][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.14-23.38.49:537][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.14-23.38.49:537][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.03.14-23.38.49:537][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.14-23.38.49:537][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.14-23.38.49:537][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.03.14-23.38.49:570][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.14-23.38.49:590][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.14-23.38.49:592][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Intermediate/Shaders/WorkingDirectory/17852/).
+[2019.03.14-23.38.49:592][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Windows/AppData/Local/Temp/UnrealShaderWorkingDir/8213B1CB4EBEBD9039645A8A3CB334BA/'.
+[2019.03.14-23.38.49:877][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.14-23.38.49:898][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.14-23.38.49:919][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.14-23.38.49:941][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.14-23.38.49:963][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.14-23.38.49:984][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.14-23.38.50:006][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.14-23.38.50:028][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.14-23.38.50:045][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.14-23.38.50:118][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:119][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.14-23.38.50:130][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.14-23.38.50:218][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.14-23.38.50:218][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.14-23.38.50:247][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.14-23.38.50:247][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.14-23.38.50:267][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.14-23.38.50:287][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.14-23.38.50:307][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.14-23.38.50:326][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.14-23.38.50:343][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.14-23.38.50:343][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.14-23.38.50:678][  0]LogXGEController: Cleaning working directory: C:/Users/Windows/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.14-23.38.50:678][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.14-23.38.50:678][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.14-23.38.50:678][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.14-23.38.51:335][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.14-23.38.51:380][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/Windows/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.14-23.38.51:381][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Windows/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.14-23.38.51:381][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.14-23.38.51:381][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.14-23.38.51:381][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.14-23.38.51:381][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.14-23.38.51:393][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.14-23.38.51:406][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Windows/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.14-23.38.51:406][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.14-23.38.51:406][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.14-23.38.51:420][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.14-23.38.51:421][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.14-23.38.51:422][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.14-23.38.51:490][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2019.03.14-23.38.51:736][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.14-23.38.52:003][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.14-23.38.52:045][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.14-23.38.52:045][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.14-23.38.52:045][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.14-23.38.52:045][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.14-23.38.52:058][  0]LogNetVersion: VehicleMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2966596176)
+[2019.03.14-23.38.52:509][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.086824 seconds
+[2019.03.14-23.38.52:513][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.14-23.38.52:513][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.14-23.38.52:513][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.14-23.38.53:803][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.14-23.38.53:827][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.14-23.38.54:223][  0]SourceControl: Source control is disabled
+[2019.03.14-23.38.54:223][  0]SourceControl: Source control is disabled
+[2019.03.14-23.38.54:249][  0]SourceControl: Source control is disabled
+[2019.03.14-23.38.54:261][  0]SourceControl: Source control is disabled
+[2019.03.14-23.38.54:839][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.14-23.38.55:032][  0]LogOcInput: OculusInput pre-init called
+[2019.03.14-23.38.55:135][  0]LogEngine: Initializing Engine...
+[2019.03.14-23.38.55:136][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.14-23.38.55:137][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.14-23.38.55:137][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.14-23.38.55:137][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.14-23.38.55:137][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.14-23.38.55:302][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.14-23.38.55:329][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.14-23.38.55:412][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.14-23.38.55:447][  0]LogInit: FAudioDevice initialized.
+[2019.03.14-23.38.55:447][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.14-23.38.55:515][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/Windows/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.14-23.38.55:521][  0]LogInit: Texture streaming: Enabled
+[2019.03.14-23.38.55:580][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.14-23.38.55:580][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={BB422F29-40A2-DECC-5D15-B2BCA5AB5AF0}
+[2019.03.14-23.38.55:603][  0]LogInit: Transaction tracking system initialized
+[2019.03.14-23.38.55:685][  0]BlueprintLog: New page: Editor Load
+[2019.03.14-23.38.56:053][  0]LocalizationService: Localization service is disabled
+[2019.03.14-23.38.56:462][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.14-23.38.56:462][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.14-23.38.56:462][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.14-23.38.56:462][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.14-23.38.56:462][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.14-23.38.56:462][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.14-23.38.56:462][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.14-23.38.56:721][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/' took 0.02s
+[2019.03.14-23.38.56:872][  0]SourceControl: Source control is disabled
+[2019.03.14-23.38.56:872][  0]Cmd: MAP LOAD FILE="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.14-23.38.56:874][  0]LightingResults: New page: Lighting Build
+[2019.03.14-23.38.56:877][  0]MapCheck: New page: Map Check
+[2019.03.14-23.38.56:877][  0]LightingResults: New page: Lighting Build
+[2019.03.14-23.38.57:011][  0]LogLinker: Warning: Can't find file '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData'
+[2019.03.14-23.38.57:011][  0]LogLinker: Warning: Can't find file for asset '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData' while loading E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap.
+[2019.03.14-23.38.57:011][  0]LoadErrors: Error: /Game/VehicleCPP/Maps/VehicleExampleMap : Can't find file for asset. /Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData
+[2019.03.14-23.38.57:023][  0]LogLinker: Warning: Can't find file '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData'
+[2019.03.14-23.38.57:023][  0]LogLinker: Warning: Can't find file for asset '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData' while loading E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/VehicleCPP/Maps/VehicleExampleMap.umap.
+[2019.03.14-23.38.57:023][  0]LoadErrors: Error: /Game/VehicleCPP/Maps/VehicleExampleMap : Can't find file for asset. /Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData
+[2019.03.14-23.38.57:025][  0]LogLinker: Warning: Can't find file '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData'
+[2019.03.14-23.38.57:025][  0]LogLinker: Warning: Can't find file for asset '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData' while loading NULL.
+[2019.03.14-23.38.57:025][  0]LogLinker: Warning: Can't find file '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData'
+[2019.03.14-23.38.57:026][  0]LogLinker: Warning: Can't find file for asset '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData' while loading NULL.
+[2019.03.14-23.38.57:038][  0]LogLinker: Warning: Can't find file '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData'
+[2019.03.14-23.38.57:038][  0]LoadErrors: Failed to load /Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData.VehicleExampleMap_BuiltData Referenced by PersistentLevel
+[2019.03.14-23.38.57:038][  0]LogLinker: Warning: Can't find file for asset '/Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData' while loading NULL.
+[2019.03.14-23.38.57:038][  0]LoadErrors: Failed to load /Game/VehicleCPP/Maps/VehicleExampleMap_BuiltData.VehicleExampleMap_BuiltData Referenced by PersistentLevel
+[2019.03.14-23.38.57:136][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.03.14-23.38.57:143][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.14-23.38.57:162][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.14-23.38.57:239][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.481ms to complete.
+[2019.03.14-23.38.57:239][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 0.368
+[2019.03.14-23.38.57:324][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.14-23.38.57:329][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.14-23.38.57:335][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.14-23.38.57:341][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.14-23.38.57:359][  0]LogCollectionManager: Loaded 0 collections in 0.002781 seconds
+[2019.03.14-23.38.57:400][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Saved/Collections/' took 0.01s
+[2019.03.14-23.38.57:400][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/Developers/Windows/Collections/' took 0.01s
+[2019.03.14-23.38.57:400][  0]LogFileCache: Scanning file cache for directory 'E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/Content/Collections/' took 0.01s
+[2019.03.14-23.38.57:400][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.14-23.38.57:408][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2588 classes and 610 folders.
+[2019.03.14-23.38.57:415][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.14-23.38.57:461][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.14-23.38.57:483][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.03.14-23.38.57:497][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.14-23.38.57:499][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.14-23.38.57:502][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.14-23.38.57:503][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.03.14-23.38.57:585][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.03.14-23.38.57:708][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.14-23.38.57:709][  0]LogLoad: (Engine Initialization) Total time: 11.32 seconds
+[2019.03.14-23.38.57:709][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.14-23.38.57:725][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.03.14-23.38.57:725][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.03.14-23.38.57:725][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2019.03.14-23.38.57:726][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2019.03.14-23.38.57:726][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2019.03.14-23.38.57:741][  0]LogAssetRegistry: Asset discovery search completed in 6.2737 seconds
+[2019.03.14-23.38.57:743][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.14-23.38.57:743][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000151 seconds (updated 0 objects)
+[2019.03.14-23.38.57:745][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.14-23.38.57:753][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.14-23.39.00:093][  8]LogSlate: Window 'Message Log' being destroyed
+[2019.03.14-23.39.00:095][  8]LogSlate: Window 'Message Log' being destroyed
+[2019.03.14-23.39.01:192][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.14-23.39.01:293][ 65]Candidate modules for hot reload:
+[2019.03.14-23.39.01:294][ 65]  VehicleMovement
+[2019.03.14-23.39.01:294][ 65]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=VehicleMovement,6816 Win64 Development -TargetType=Editor -Project="E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" -canskiplink "E:/MyProgram/UDK/School/S4/BattleDrifter/Game260Development/Resources/VehicleMovement/VehicleMovement.uproject" ]
+[2019.03.14-23.39.01:302][ 65]Warning: Starting HotReload took  0.0s.
+[2019.03.14-23.39.06:501][493]CompilerResultsLog: New page: Compilation - Mar 14, 2019, 3:39:06 PM
+[2019.03.14-23.39.06:501][493]CompilerResultsLog: Compiling game modules for hot reload
+[2019.03.14-23.39.06:501][493]CompilerResultsLog: Building 3 actions with 12 processes...
+[2019.03.14-23.39.06:501][493]CompilerResultsLog:   [1/3] PawnStatComponent.cpp
+[2019.03.14-23.39.06:501][493]CompilerResultsLog:   [2/3] UE4Editor-VehicleMovement-6816.lib
+[2019.03.14-23.39.06:501][493]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-6816.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-6816.exp
+[2019.03.14-23.39.06:502][493]CompilerResultsLog:   [3/3] UE4Editor-VehicleMovement-6816.dll
+[2019.03.14-23.39.06:502][493]CompilerResultsLog:      Creating library E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-6816.suppressed.lib and object E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\UE4Editor-VehicleMovement-6816.suppressed.exp
+[2019.03.14-23.39.06:502][493]CompilerResultsLog: Total build time: 4.94 seconds (Parallel executor: 2.66 seconds)
+[2019.03.14-23.39.06:503][493]LogMainFrame: MainFrame: Module compiling took 5.213 seconds
+[2019.03.14-23.39.06:550][493]LogContentBrowser: Native class hierarchy updated for 'VehicleMovement' in 0.0006 seconds. Added 14 classes and 4 folders.
+[2019.03.14-23.39.06:552][493]Display: HotReload successful (20 functions remapped  0 scriptstructs remapped)
+[2019.03.14-23.39.06:707][493]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2589 classes and 612 folders.
+[2019.03.14-23.39.06:708][493]Display: HotReload took  5.4s.
+[2019.03.14-23.39.08:275][681]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.14-23.39.08:287][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.03.14-23.39.08:287][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.14-23.39.08:300][681]PIE: New page: PIE session: VehicleExampleMap (Mar 14, 2019, 3:39:08 PM)
+[2019.03.14-23.39.08:300][681]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap
+[2019.03.14-23.39.08:318][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018070s)
+[2019.03.14-23.39.08:319][681]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2019.03.14-23.39.08:319][681]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2019.03.14-23.39.08:319][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap (0.019183s)
+[2019.03.14-23.39.08:378][681]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.14-23.39.08:399][681]LogInit: FAudioDevice initialized.
+[2019.03.14-23.39.08:437][681]LogLoad: Game class is 'VehicleMovementGameMode'
+[2019.03.14-23.39.08:442][681]PIE: Warning: Invalid Simulate Options: Body (MyAVehiclePawn_2.Box) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.14-23.39.08:442][681]PIE: Warning: Invalid Simulate Options: Body (MyAVehiclePawn_2.Box) is set to simulate physics but Collision Enabled is incompatible
+[2019.03.14-23.39.08:442][681]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2019.03.14-19.39.08
+[2019.03.14-23.39.08:443][681]LogWorld: Bringing up level for play took: 0.002609
+[2019.03.14-23.39.08:479][681]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2019.03.14-23.39.08:479][681]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_0_VehicleExampleMap -0.527
+[2019.03.14-23.39.08:480][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2019.03.14-23.39.14:951][455]LogTemp: Warning: Overlapped
+[2019.03.14-23.39.14:951][455]LogTemp: Warning: Item picked up
+[2019.03.14-23.39.14:951][455]LogTemp: Warning: Stat mod enabled!
+[2019.03.14-23.39.14:952][455]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.03.14-23.39.19:374][455]LogWindows: Error: === Critical error: ===
+[2019.03.14-23.39.19:374][455]LogWindows: Error: 
+[2019.03.14-23.39.19:374][455]LogWindows: Error: Fatal error: [File:E:\MyProgram\UDK\School\S4\BattleDrifter\Game260Development\Resources\VehicleMovement\Source\VehicleMovement\PawnStatComponent.cpp] [Line: 75] 
+[2019.03.14-23.39.19:374][455]LogWindows: Error: UPawnStatMod derived (Blueprint)class was not given a GUID!
+[2019.03.14-23.39.19:374][455]LogWindows: Error: 
+[2019.03.14-23.39.19:374][455]LogWindows: Error: 
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffc67679149 KERNELBASE.dll!UnknownFunction []
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffc49246850 UE4Editor-ApplicationCore.dll!FWindowsErrorOutputDevice::Serialize() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowserroroutputdevice.cpp:65]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf60e62fc UE4Editor-Core.dll!FOutputDevice::LogfImpl() [d:\build\++ue4\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:70]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf60751db UE4Editor-Core.dll!FDebug::AssertFailed() [d:\build\++ue4\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:425]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbdf369977 UE4Editor-VehicleMovement-6816.dll!UPawnStatComponent::EnableMod() [e:\myprogram\udk\school\s4\battledrifter\game260development\resources\vehiclemovement\source\vehiclemovement\pawnstatcomponent.cpp:78]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbdf370fe4 UE4Editor-VehicleMovement-6816.dll!ATriggerableItem::OnOverlapBegin() [e:\myprogram\udk\school\s4\battledrifter\game260development\resources\vehiclemovement\source\vehiclemovement\items\triggerableitem.cpp:50]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbdf3712ad UE4Editor-VehicleMovement-6816.dll!ATriggerableItem::execOnOverlapBegin() [e:\myprogram\udk\school\s4\battledrifter\game260development\resources\vehiclemovement\source\vehiclemovement\items\triggerableitem.h:13]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf6986467 UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4728]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf6bb1133 UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1344]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf70b8033 UE4Editor-Engine.dll!AActor::ProcessEvent() [d:\build\++ue4\sync\engine\source\runtime\engine\private\actor.cpp:724]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf7057371 UE4Editor-Engine.dll!TMulticastScriptDelegate<FWeakObjectPtr>::ProcessMulticastDelegate<UObject>() [d:\build\++ue4\sync\engine\source\runtime\core\public\uobject\scriptdelegates.h:462]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf74da76e UE4Editor-Engine.dll!FComponentBeginOverlapSignature::Broadcast() [d:\build\++ue4\sync\engine\source\runtime\engine\classes\components\primitivecomponent.h:145]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf74da338 UE4Editor-Engine.dll!UPrimitiveComponent::BeginComponentOverlap() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\primitivecomponent.cpp:2480]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf7524e3e UE4Editor-Engine.dll!UPrimitiveComponent::UpdateOverlapsImpl() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\primitivecomponent.cpp:2910]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf7509007 UE4Editor-Engine.dll!UPrimitiveComponent::MoveComponentImpl() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\primitivecomponent.cpp:2123]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf75098a7 UE4Editor-Engine.dll!UMovementComponent::MoveUpdatedComponentImpl() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\movementcomponent.cpp:513]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf7517cf6 UE4Editor-Engine.dll!UMovementComponent::SafeMoveUpdatedComponent() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\movementcomponent.cpp:551]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf752089c UE4Editor-Engine.dll!UMovementComponent::SlideAlongSurface() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\movementcomponent.cpp:713]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf776b503 UE4Editor-Engine.dll!UFloatingPawnMovement::TickComponent() [d:\build\++ue4\sync\engine\source\runtime\engine\private\floatingpawnmovement.cpp:72]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf73eec21 UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTickHelper<<lambda_e8384def656dc646af48282ce274db64> >() [d:\build\++ue4\sync\engine\source\runtime\engine\classes\gameframework\actor.h:3095]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf74299c4 UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\actorcomponent.cpp:797]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf82916bd UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [d:\build\++ue4\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:829]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf5f01f92 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:665]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf5f02456 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:574]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf5f16d25 UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:1358]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf82e5b04 UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:541]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf82f4d92 UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:1455]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf79f87e4 UE4Editor-Engine.dll!UWorld::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:780]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf7a04003 UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:1454]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf3f27335 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:1691]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffbf481f666 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:403]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ff7028f5cbd UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3495]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ff702905b3c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ff702905bba UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:144]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ff702913dac UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:223]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ff702915aaa UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:283]
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffc6a5e81f4 KERNEL32.DLL!UnknownFunction []
+[2019.03.14-23.39.19:374][455]LogWindows: Error: [Callstack] 0x00007ffc6a74a251 ntdll.dll!UnknownFunction []
+[2019.03.14-23.39.19:374][455]LogWindows: Error: 
+[2019.03.14-23.39.19:383][455]LogExit: Executing StaticShutdownAfterError
+[2019.03.14-23.39.19:385][455]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.03.14-23.39.19:388][455]Log file closed, 03/14/19 19:39:19

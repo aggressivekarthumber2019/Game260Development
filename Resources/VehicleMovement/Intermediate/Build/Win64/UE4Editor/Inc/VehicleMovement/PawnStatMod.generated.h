@@ -9,6 +9,7 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UCarStat;
+struct FGuid;
 #ifdef VEHICLEMOVEMENT_PawnStatMod_generated_h
 #error "PawnStatMod.generated.h already included, missing '#pragma once' in PawnStatMod.h"
 #endif
@@ -17,6 +18,7 @@ class UCarStat;
 #define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_RPC_WRAPPERS \
 	virtual void DisableMod_Implementation(UCarStat* StatType); \
 	virtual void EnableMod_Implementation(UCarStat* StatType); \
+	virtual void Begin_Implementation(); \
  \
 	DECLARE_FUNCTION(execDisableMod) \
 	{ \
@@ -33,6 +35,22 @@ class UCarStat;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->EnableMod_Implementation(Z_Param_StatType); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execBegin) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Begin_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetGUID) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FGuid*)Z_Param__Result=P_THIS->GetGUID(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -64,6 +82,22 @@ class UCarStat;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->EnableMod_Implementation(Z_Param_StatType); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execBegin) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Begin_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetGUID) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FGuid*)Z_Param__Result=P_THIS->GetGUID(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -135,7 +169,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPawnStatMod); \
 
 
 #define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_20_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__GUID() { return STRUCT_OFFSET(UPawnStatMod, GUID); }
+	FORCEINLINE static uint32 __PPO__MGUID() { return STRUCT_OFFSET(UPawnStatMod, MGUID); }
 
 
 #define VehicleMovement_Source_VehicleMovement_Items_Mods_PawnStatMod_h_17_PROLOG \
