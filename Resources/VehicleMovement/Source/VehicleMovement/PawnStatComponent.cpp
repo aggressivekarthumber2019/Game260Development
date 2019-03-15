@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "PawnStatComponent.h"
-#include <Kismet/KismetGuidLibrary.h>
+#include "Kismet/KismetGuidLibrary.h"
 
 #define TO_MS(SECONDS) SECONDS * 1000.f
 
@@ -99,7 +99,7 @@ void UPawnStatComponent::EnableMod(UPawnStatMod* Mod)
 		MStatModifiers.Emplace(Mod->GetGUID().ToString(), MoveTemp(ModTracker));
 	}
 
-	MBasePawnStat->AcceptEnableMod(Mod);
+	MStateMachine->EnableMod(Mod);
 }
 
 void UPawnStatComponent::DisableMod(UPawnStatMod* Mod)
@@ -118,7 +118,7 @@ void UPawnStatComponent::DisableMod(UPawnStatMod* Mod)
 
 		if (ModTracker->MStackCount == 1) // Last stack
 		{
-			MBasePawnStat->AcceptDisableMod(Mod);
+			MStateMachine->DisableMod(Mod);
 
 			MStatModifiers.Remove(Mod->GetGUID().ToString());
 		}

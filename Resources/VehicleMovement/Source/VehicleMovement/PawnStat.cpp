@@ -2,9 +2,6 @@
 
 #include "PawnStat.h"
 
-
-
-
 void UPawnStat::ConstructPawnStat(const float HealthFactor, const float MaxSpeedFactor, const float MinSpeedFactor)
 {
 	MHealthFactor = HealthFactor;

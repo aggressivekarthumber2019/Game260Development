@@ -1,11 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "PawnState.h"
-#include "Mods/PawnStatMod.h"
 #include "AVehiclePawn.h"
 #include "PawnStat.h"
+#include "PawnStatComponent.h"
 
-void UPawnState::EnterState_Implementation(UPawnStat* PawnStat, AAVehiclePawn* VehiclePawn)
+void UPawnState::EnterState_Implementation(UPawnStatComponent* PawnStat, AAVehiclePawn* VehiclePawn)
 {
 	this->PawnStat = PawnStat;
 	this->VehiclePawn = VehiclePawn;
@@ -23,7 +23,12 @@ void UPawnState::AddCallableMod(const TSubclassOf<class UPawnStatMod> Mod)
 {
 }
 
-void UPawnState::InvokeMod_Implementation(UPawnStatMod* Mod)
+void UPawnState::EnableMod_Implementation(class UPawnStatMod* Mod)
 {
-	//Mod->EnableMod(PawnStatComponent);
+	PawnStat->MBasePawnStat->AcceptEnableMod(Mod);
+}
+
+void UPawnState::DisableMod_Implementation(class UPawnStatMod* Mod)
+{
+	PawnStat->MBasePawnStat->AcceptDisableMod(Mod);
 }

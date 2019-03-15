@@ -15,13 +15,13 @@ class VEHICLEMOVEMENT_API UPawnState : public UObject
 	GENERATED_BODY()
 
 protected:
-	class UPawnStat* PawnStat;
+	class UPawnStatComponent* PawnStat;
 	class AAVehiclePawn* VehiclePawn;
 
 public:
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-	void EnterState(class UPawnStat* PawnStat, class AAVehiclePawn* VehiclePawn);
-	virtual void EnterState_Implementation(class UPawnStat* PawnStat, class AAVehiclePawn* VehiclePawn);
+	void EnterState(class UPawnStatComponent* PawnStat, class AAVehiclePawn* VehiclePawn);
+	virtual void EnterState_Implementation(class UPawnStatComponent* PawnStat, class AAVehiclePawn* VehiclePawn);
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void TickState(const float DeltaTime);
@@ -35,6 +35,10 @@ public:
 	void AddCallableMod(const TSubclassOf<class UPawnStatMod> Mod);
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-	void InvokeMod(class UPawnStatMod* Mod);
-	virtual void InvokeMod_Implementation(class UPawnStatMod* Mod);
+	void EnableMod(class UPawnStatMod* Mod);
+	virtual void EnableMod_Implementation(class UPawnStatMod* Mod);
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void DisableMod(class UPawnStatMod* Mod);
+	virtual void DisableMod_Implementation(class UPawnStatMod* Mod);
 };

@@ -15,6 +15,8 @@ class VEHICLEMOVEMENT_API UPawnStatComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
+	friend class UPawnState;
+
 public:
 	// Sets default values for this component's properties
 	UPawnStatComponent();
@@ -53,8 +55,7 @@ public:
 	/**
 	 * \fn	void UPawnStatComponent::EnableMod(UPawnStatMod* Mod);
 	 *
-	 * \brief	Internal function used to enable a mod. You should never find yourself calling this
-	 * function directly.
+	 * \brief	Internal function used to enable a mod.
 	 *
 	 * \author	Jaymie
 	 * \date	3/14/2019
@@ -66,8 +67,7 @@ public:
 	/**
 	 * \fn	void UPawnStatComponent::DisableMod(UPawnStatMod* Mod);
 	 *
-	 * \brief	Internal function used to disable a mod. You should never find yourself calling this
-	 * function directly.
+	 * \brief	Internal function used to disable a mod.
 	 *
 	 * \author	Jaymie
 	 * \date	3/14/2019
