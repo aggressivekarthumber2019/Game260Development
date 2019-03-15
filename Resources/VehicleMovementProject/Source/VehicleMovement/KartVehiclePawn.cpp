@@ -21,6 +21,7 @@
 #include "Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h"
 
 #include "TimerManager.h"
+#include "FSM/PawnStatComponent.h"
 
 
 // Sets default values
@@ -227,6 +228,11 @@ AKartVehiclePawn::AKartVehiclePawn()
 	// Mike: Change the location of the text to face the camera
 	CarSpeedText->SetRelativeLocation(FVector(-100.0f, -45.0f, 10.0f));
 
+	/////////////////////////////////////
+	//// PAWN STAT COMPONENT SETUP //-------------------------------------------------------------------
+	/////////////////////////////////////
+
+	PawnStatComponent = CreateDefaultSubobject<UPawnStatComponent>(TEXT("Car Stat Component"));
 
 	/////////////////////////////////////
 	//// PAWN MOVEMENT COMPONENT SETUP //-------------------------------------------------------------------
@@ -234,16 +240,6 @@ AKartVehiclePawn::AKartVehiclePawn()
 
 	// Sarfaraz: This is the movement component of the car, it does not need to be attached to the game object
 	PawnMovementComponent = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("Car Movement Component"));
-
-	// Mike: Set the acceleation of the movement component
-	PawnMovementComponent->Acceleration = VehiclePawnAcceleration;
-
-	// Mike: Set the acceleation of the movement component
-	PawnMovementComponent->Deceleration = VehiclePawnDeceleration;
-
-	// Mike: Set the acceleation of the movement component
-	PawnMovementComponent->MaxSpeed = VehiclePawnMaxSpeed;
-
 
 	///////////////////////////////////
 	//// DEFAULT VALUES FOR VEHICLES //-------------------------------------------------------------------
@@ -284,6 +280,19 @@ void AKartVehiclePawn::BeginPlay()
 	if (bShouldDisplayOnScreenDebug)
 		if (GEngine)
 			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Purple, "Vehicle: Max Speed = " + maxSpeed);
+
+	/////////////////////////////////////
+	//// PAWN MOVEMENT COMPONENT RUNTIME SETUP //-------------------------------------------------------------------
+	/////////////////////////////////////
+
+	// Mike: Set the acceleration of the movement component
+	PawnMovementComponent->Acceleration = PawnStatComponent->VehiclePawnAcceleration;
+
+	// Mike: Set the acceleration of the movement component
+	PawnMovementComponent->Deceleration = PawnStatComponent->VehiclePawnDeceleration;
+
+	// Mike: Set the acceleration of the movement component
+	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnMaxSpeed;
 
 	//This method will begin a timer which will run at at 60 frames per second regardless of the machine
 	GetWorld()->GetTimerManager().SetTimer(LoopTimerHandle, this, &AKartVehiclePawn::FixedUpdate, FrameRate, true);
@@ -352,24 +361,24 @@ void AKartVehiclePawn::UpdateSpeedometer()
 
 void AKartVehiclePawn::BoostPress()
 {
-	//Debug Messages 
+	//Debug Messages
 	if (bShouldDisplayOnScreenDebug)
 		if (GEngine) 
 			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Vehicle: Boost pressed");
 	
 	// Mike: Updated, now changing the max speed of the pawn
-	PawnMovementComponent->MaxSpeed = VehiclePawnBoostSpeed;
+	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnBoostSpeed;
 }
 
 void AKartVehiclePawn::BoostRelease()
 {
-	//Debug Messages 
+	//Debug Messages
 	if (bShouldDisplayOnScreenDebug)
 		if (GEngine)
 			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Vehicle: Boost Released");
 
 	// Mike: Updated, now changing the max speed of the pawn
-	PawnMovementComponent->MaxSpeed = VehiclePawnMaxSpeed;
+	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnMaxSpeed;
 }
 
 void AKartVehiclePawn::MoveX(float AxisValue)

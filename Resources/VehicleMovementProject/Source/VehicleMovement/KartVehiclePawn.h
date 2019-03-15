@@ -64,21 +64,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Movement Component")
 	class UFloatingPawnMovement* PawnMovementComponent;
 
-	/** Mike: The floating pawn movements acceleration value. Can be changed in blueprints */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
-	float VehiclePawnAcceleration;
-
-	/** Mike: The floating pawn movements deceleration value. Can be changed in blueprints */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
-	float VehiclePawnDeceleration;
-
-	/** Mike: The floating pawn movements max speed value. Can be changed in blueprints */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
-	float VehiclePawnMaxSpeed;
-
-	/** Mike: The floating pawn movements max speed value. Can be changed in blueprints */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
-	float VehiclePawnBoostSpeed;
+	/** Jaymie: Pawn stat component use to track vehicle stats and all of its buffs */
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Movement Component")
+	class UPawnStatComponent* PawnStatComponent;
 
 	/** Text component for the In-Car speed */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Movement Component")
