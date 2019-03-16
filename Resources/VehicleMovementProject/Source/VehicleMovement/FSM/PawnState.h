@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Info.h"
+#include "UObject/NoExportTypes.h"
 #include "SubclassOf.h"
 #include "PawnState.generated.h"
 
@@ -11,7 +11,7 @@
  * 
  */
 UCLASS(Blueprintable, BlueprintType)
-class VEHICLEMOVEMENT_API APawnState : public AInfo
+class VEHICLEMOVEMENT_API UPawnState : public UObject
 {
 	GENERATED_BODY()
 

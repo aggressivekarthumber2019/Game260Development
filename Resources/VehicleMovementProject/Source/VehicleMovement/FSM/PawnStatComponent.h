@@ -40,7 +40,7 @@ public:
 
 protected:
 	UPROPERTY()
-	APawnState* CurrentState;
+	UPawnState* CurrentState;
 
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -65,10 +65,10 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UFUNCTION(BlueprintCallable)
-	APawnState* GetCurrentState() const;
+	UPawnState* GetCurrentState() const;
 
 	UFUNCTION(BlueprintCallable)
-	void SwitchState(APawnState* NewState);
+	void SwitchState(UPawnState* NewState);
 
 	void EnableMod(const UPawnStatMod* Mod);
 

@@ -37,12 +37,12 @@ void UPawnStatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 	}
 }
 
-APawnState* UPawnStatComponent::GetCurrentState() const
+UPawnState* UPawnStatComponent::GetCurrentState() const
 {
 	return CurrentState;
 }
 
-void UPawnStatComponent::SwitchState(APawnState* NewState)
+void UPawnStatComponent::SwitchState(UPawnState* NewState)
 {
 	if (!IsValid(NewState))
 	{

@@ -4,26 +4,26 @@
 #include "PawnStatMod.h"
 #include "PawnStatComponent.h"
 
-void APawnState::EnterState_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn)
+void UPawnState::EnterState_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn)
 {
 	OwnerPawnStatComponent = PSC;
 	OwnerVehiclePawn = VehiclePawn;
 }
 
-void APawnState::TickState_Implementation(float DeltaTime)
+void UPawnState::TickState_Implementation(float DeltaTime)
 {
 }
 
-void APawnState::ExitState_Implementation()
+void UPawnState::ExitState_Implementation()
 {
 }
 
-void APawnState::AddCallableMod(const TSubclassOf<class UPawnStatMod> Mod)
+void UPawnState::AddCallableMod(const TSubclassOf<class UPawnStatMod> Mod)
 {
 	AllowedModSet.Emplace(Mod.GetDefaultObject()->GetFName().ToString());
 }
 
-void APawnState::EnableMod(const class UPawnStatMod* Mod)
+void UPawnState::EnableMod(const class UPawnStatMod* Mod)
 {
 	if (AllowedModSet.Contains(Mod->GetFName().ToString()))
 	{
@@ -31,7 +31,7 @@ void APawnState::EnableMod(const class UPawnStatMod* Mod)
 	}
 }
 
-void APawnState::DisableMod(const class UPawnStatMod* Mod)
+void UPawnState::DisableMod(const class UPawnStatMod* Mod)
 {
 	if (AllowedModSet.Contains(Mod->GetFName().ToString()))
 	{

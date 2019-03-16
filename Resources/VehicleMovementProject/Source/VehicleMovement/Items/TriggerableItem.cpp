@@ -45,7 +45,7 @@ void ATriggerableItem::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
 
 	if (IsValid(VehiclePawn))
 	{
-		APawnState* State = VehiclePawn->PawnStatComponent->GetCurrentState();
+		UPawnState* State = VehiclePawn->PawnStatComponent->GetCurrentState();
 		if (IsValid(State))
 		{
 			State->EnableMod(PawnStatMod);
