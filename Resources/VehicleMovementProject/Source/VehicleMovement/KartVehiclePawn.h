@@ -175,11 +175,22 @@ public:
 	void UpdateSpeedometer();
 
 	// Movement on x and y direction method
+	UFUNCTION(BlueprintCallable)
 	void MoveX(float AxisValue);
+	UFUNCTION(BlueprintCallable)
 	void MoveY(float AxisValue);
 
+	UFUNCTION()
+	void MoveXCallBack(float AxisValue);
+	UFUNCTION()
+	void MoveYCallBack(float AxisValue);
+
 	/** Sarfaraz: Called when the user breaks */
+	UFUNCTION(BlueprintCallable)
 	void Brake(float AxisValue);
+
+	UFUNCTION()
+	void BreakCallBack(float AxisValue);
 
 	//Raycast to check if the car is on the ground
 	bool RayCastGround();
@@ -191,10 +202,18 @@ public:
 	void ReducedValues();
 
 	/** Sarfaraz: When the user presses the boost key, this method is called */
+	UFUNCTION(BlueprintCallable)
 	void BoostPress();
 
 	/** Sarfaraz: When the user releases the boost, this method is called */
+	UFUNCTION(BlueprintCallable)
 	void BoostRelease();
+
+	UFUNCTION()
+	void BoostPressCallBack();
+
+	UFUNCTION()
+	void BoostReleaseCallBack();
 
 	/** Sarfaraz: This method is called on a timer at a constant rate*/
 	void FixedUpdate();

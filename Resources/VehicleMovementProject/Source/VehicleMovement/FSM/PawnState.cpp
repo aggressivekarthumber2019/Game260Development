@@ -18,6 +18,26 @@ void UPawnState::ExitState_Implementation()
 {
 }
 
+void UPawnState::MoveX_Implementation(const float AxisValue)
+{
+}
+
+void UPawnState::MoveY_Implementation(const float AxisValue)
+{
+}
+
+void UPawnState::BoostPressed_Implementation()
+{
+}
+
+void UPawnState::BoostRelease_Implementation()
+{
+}
+
+void UPawnState::Break_Implementation(const float AxisValue)
+{
+}
+
 void UPawnState::AddCallableMod(const TSubclassOf<class UPawnStatMod> Mod)
 {
 	AllowedModSet.Emplace(Mod.GetDefaultObject()->GetFName().ToString());

@@ -38,6 +38,26 @@ public:
 	void ExitState();
 	virtual void ExitState_Implementation();
 
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void MoveX(const float AxisValue);
+	virtual void MoveX_Implementation(const float AxisValue);
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void MoveY(const float AxisValue);
+	virtual void MoveY_Implementation(const float AxisValue);
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void BoostPressed();
+	virtual void BoostPressed_Implementation();
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void BoostRelease();
+	virtual void BoostRelease_Implementation();
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void Break(const float AxisValue);
+	virtual void Break_Implementation(const float AxisValue);
+
 	UFUNCTION(BlueprintCallable)
 	void AddCallableMod(const TSubclassOf<class UPawnStatMod> Mod);
 

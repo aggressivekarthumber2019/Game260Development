@@ -327,24 +327,24 @@ void AKartVehiclePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	// Sarfaraz: Call the MoveX method with keys bind to 'MoveForward' 
 	// Mike: This is currently bound to W (Forwards) and S (Backwards)
 	// Sarfaraz: This is an axis so to get move backwards, simply add a key that adds a negative value to this method
-	PlayerInputComponent->BindAxis("MoveForward", this, &AKartVehiclePawn::MoveX); 
+	PlayerInputComponent->BindAxis("MoveForward", this, &AKartVehiclePawn::MoveXCallBack); 
 
 	// Sarfaraz: call the MoveY method with keys bind to 'MoveRight'. 
 	// Mike: This is currently bound to A (Left) and D (Right)
 	// Sarfaraz: This is an axis so to get move left, simply add a key that adds a negative value to this method
-	PlayerInputComponent->BindAxis("MoveRight", this, &AKartVehiclePawn::MoveY);  
+	PlayerInputComponent->BindAxis("MoveRight", this, &AKartVehiclePawn::MoveYCallBack);  
 	
 	// Sarfaraz: Bind the method call "Boost Press" to the action "Boost" when the action is "Pressed"
 	// Mike: This is currently bound to SHIFT
-	PlayerInputComponent->BindAction("Boost", IE_Pressed, this, &AKartVehiclePawn::BoostPress);
+	PlayerInputComponent->BindAction("Boost", IE_Pressed, this, &AKartVehiclePawn::BoostPressCallBack);
 
 	// Sarfaraz: Bind the method call "Boost Release" to the action "Boost" when the action is "Released"
 	// Mike: This is currently bound to SHIFT
-	PlayerInputComponent->BindAction("Boost", IE_Released, this, &AKartVehiclePawn::BoostRelease);
+	PlayerInputComponent->BindAction("Boost", IE_Released, this, &AKartVehiclePawn::BoostReleaseCallBack);
 
 	// Sarfaraz: Bind the method "Brake" to the axis "Brakes"
 	// Mike: This is currently bound to CTRL
-	PlayerInputComponent->BindAxis("Brakes", this, &AKartVehiclePawn::Brake);
+	PlayerInputComponent->BindAxis("Brakes", this, &AKartVehiclePawn::BreakCallBack);
 }
 
 void AKartVehiclePawn::UpdateSpeedometer()
@@ -381,6 +381,24 @@ void AKartVehiclePawn::BoostRelease()
 	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnMaxSpeed;
 }
 
+void AKartVehiclePawn::BoostPressCallBack()
+{
+	UPawnState* CurrentState = PawnStatComponent->GetCurrentState();
+	if (IsValid(CurrentState))
+	{
+		CurrentState->BoostPressed();
+	}
+}
+
+void AKartVehiclePawn::BoostReleaseCallBack()
+{
+	UPawnState* CurrentState = PawnStatComponent->GetCurrentState();
+	if (IsValid(CurrentState))
+	{
+		CurrentState->BoostRelease();
+	}
+}
+
 void AKartVehiclePawn::MoveX(float AxisValue)
 {
 	// Mike: Set the current speed amount to be equal to the input from the keys
@@ -402,6 +420,24 @@ void AKartVehiclePawn::MoveY(float AxisValue)
 
 	// Mike: Clamp the turning rate so that the car can't turn insanely fast
 	InputCurrenTurnAmount = FMath::Clamp(InputCurrenTurnAmount, -InputTurnRateLimit, InputTurnRateLimit);
+}
+
+void AKartVehiclePawn::MoveXCallBack(float AxisValue)
+{
+	UPawnState* CurrentState = PawnStatComponent->GetCurrentState();
+	if (IsValid(CurrentState))
+	{
+		CurrentState->MoveX(AxisValue);
+	}
+}
+
+void AKartVehiclePawn::MoveYCallBack(float AxisValue)
+{
+	UPawnState* CurrentState = PawnStatComponent->GetCurrentState();
+	if (IsValid(CurrentState))
+	{
+		CurrentState->MoveY(AxisValue);
+	}
 }
 
 void AKartVehiclePawn::Brake(float AxisValue)
@@ -433,6 +469,15 @@ void AKartVehiclePawn::Brake(float AxisValue)
 			if (GEngine)
 				GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, "Applying Breaks!");
 	}	
+}
+
+void AKartVehiclePawn::BreakCallBack(float AxisValue)
+{
+	UPawnState* CurrentState = PawnStatComponent->GetCurrentState();
+	if (IsValid(CurrentState))
+	{
+		CurrentState->Break(AxisValue);
+	}
 }
 
 void AKartVehiclePawn::ReducedValues()
