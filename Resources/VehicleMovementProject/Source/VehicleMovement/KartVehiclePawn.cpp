@@ -315,6 +315,16 @@ void AKartVehiclePawn::FixedUpdate()
 			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, "Turn Rate" + FString::SanitizeFloat(InputCurrenTurnAmount));
 }
 
+void AKartVehiclePawn::DriftRuptor(const float Amount)
+{
+	AddActorLocalRotation(FRotator(0, Amount, 0));
+}
+
+void AKartVehiclePawn::SetCurrentRotationAmount(const float Amount)
+{
+	InputCurrenTurnAmount = Amount;
+}
+
 void AKartVehiclePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	// Sarfaraz: Called to bind functionality to input

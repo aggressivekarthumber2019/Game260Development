@@ -32,10 +32,10 @@ public:
 	bool IsCommand;
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-	void EnableMod(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn) const;
-	virtual void EnableMod_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn) const;
+	void EnableMod(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn);
+	virtual void EnableMod_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn);
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-	void DisableMod(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn) const;
-	virtual void DisableMod_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn) const;
+	void DisableMod(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn);
+	virtual void DisableMod_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn);
 };

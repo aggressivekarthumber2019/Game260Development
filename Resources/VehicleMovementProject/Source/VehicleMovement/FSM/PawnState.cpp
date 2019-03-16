@@ -40,20 +40,20 @@ void UPawnState::Break_Implementation(const float AxisValue)
 
 void UPawnState::AddCallableMod(const TSubclassOf<class UPawnStatMod> Mod)
 {
-	AllowedModSet.Emplace(Mod.GetDefaultObject()->GetFName().ToString());
+	AllowedModSet.Add(Mod.GetDefaultObject()->StaticClass()->ClassUnique);
 }
 
-void UPawnState::EnableMod(const class UPawnStatMod* Mod)
+void UPawnState::EnableMod(class UPawnStatMod* Mod)
 {
-	if (AllowedModSet.Contains(Mod->GetFName().ToString()))
+	if (AllowedModSet.Contains(Mod->StaticClass()->ClassUnique))
 	{
 		OwnerPawnStatComponent->EnableMod(Mod);
 	}
 }
 
-void UPawnState::DisableMod(const class UPawnStatMod* Mod)
+void UPawnState::DisableMod(class UPawnStatMod* Mod)
 {
-	if (AllowedModSet.Contains(Mod->GetFName().ToString()))
+	if (AllowedModSet.Contains(Mod->StaticClass()->ClassUnique))
 	{
 		OwnerPawnStatComponent->DisableMod(Mod);
 	}

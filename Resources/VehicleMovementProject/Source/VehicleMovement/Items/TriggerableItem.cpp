@@ -23,6 +23,8 @@ ATriggerableItem::ATriggerableItem()
 	SphereComponent->OnComponentBeginOverlap.AddDynamic(this, &ATriggerableItem::OnOverlapBegin);
 	SphereComponent->SetSphereRadius(100.f);
 	SphereComponent->SetupAttachment(MeshComponent);
+
+	SphereComponent->SetCollisionObjectType(ECC_GameTraceChannel1);
 }
 
 // Called when the game starts or when spawned
@@ -49,6 +51,8 @@ void ATriggerableItem::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
 		if (IsValid(State))
 		{
 			State->EnableMod(PawnStatMod);
+
+			Destroy();
 		}
 	}
 }

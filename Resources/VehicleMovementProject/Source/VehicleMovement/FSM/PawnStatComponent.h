@@ -70,7 +70,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void SwitchState(UPawnState* NewState);
 
-	void EnableMod(const UPawnStatMod* Mod);
+	void EnableMod(UPawnStatMod* Mod);
 
-	void DisableMod(const UPawnStatMod* Mod);
+	void DisableMod(UPawnStatMod* Mod);
 };

@@ -16,8 +16,8 @@ class VEHICLEMOVEMENT_API UPawnState : public UObject
 	GENERATED_BODY()
 
 protected:
-	UPROPERTY(BlueprintReadWrite)
-	TSet<FString> AllowedModSet;
+	UPROPERTY()
+	TSet<uint32> AllowedModSet;
 
 	UPROPERTY(BlueprintReadWrite)
 	class UPawnStatComponent* OwnerPawnStatComponent;
@@ -62,8 +62,8 @@ public:
 	void AddCallableMod(const TSubclassOf<class UPawnStatMod> Mod);
 
 	UFUNCTION(BlueprintCallable)
-	void EnableMod(const class UPawnStatMod* Mod);
+	void EnableMod(class UPawnStatMod* Mod);
 
 	UFUNCTION(BlueprintCallable)
-	void DisableMod(const class UPawnStatMod* Mod);
+	void DisableMod(class UPawnStatMod* Mod);
 };

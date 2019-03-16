@@ -2,10 +2,10 @@
 
 #include "PawnStatMod.h"
 
-void UPawnStatMod::EnableMod_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn) const
+void UPawnStatMod::EnableMod_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn)
 {
 }
 
-void UPawnStatMod::DisableMod_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn) const
+void UPawnStatMod::DisableMod_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn)
 {
 }

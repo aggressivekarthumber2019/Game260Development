@@ -58,13 +58,19 @@ void UPawnStatComponent::SwitchState(UPawnState* NewState)
 	CurrentState->EnterState(this, Cast<AKartVehiclePawn>(GetOwner()));
 }
 
-void UPawnStatComponent::EnableMod(const UPawnStatMod* Mod)
+void UPawnStatComponent::EnableMod(UPawnStatMod* Mod)
 {
-	Mod->EnableMod(this, Cast<AKartVehiclePawn>(GetOwner()));
+	if (Mod->IsCommand)
+	{
+		Mod->EnableMod(this, Cast<AKartVehiclePawn>(GetOwner()));
+	}
 }
 
-void UPawnStatComponent::DisableMod(const UPawnStatMod* Mod)
+void UPawnStatComponent::DisableMod(UPawnStatMod* Mod)
 {
-	Mod->DisableMod(this, Cast<AKartVehiclePawn>(GetOwner()));
+	if (Mod->IsCommand)
+	{
+		Mod->DisableMod(this, Cast<AKartVehiclePawn>(GetOwner()));
+	}
 }
 

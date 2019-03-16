@@ -155,6 +155,7 @@ private:
 
 	// Mike: The current speed and turning rate of the car
 	float InputCurrentSpeedAmount;
+
 	float InputCurrenTurnAmount;
 
 	// Sarfaraz: Boolean to determine if the car can move or not
@@ -218,4 +219,11 @@ public:
 	/** Sarfaraz: This method is called on a timer at a constant rate*/
 	void FixedUpdate();
 
+	/** Jaymie: Driftruptor logic */
+	UFUNCTION(BlueprintCallable)
+	void DriftRuptor(const float Amount);
+
+	/** Jaymie: Driftruptor end logic */
+	UFUNCTION(BlueprintCallable)
+	void SetCurrentRotationAmount(const float Amount);
 };
