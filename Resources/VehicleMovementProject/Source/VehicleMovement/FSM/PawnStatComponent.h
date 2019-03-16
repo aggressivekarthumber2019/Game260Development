@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "../PawnStatMod.h"
+#include "PawnState.h"
 #include "PawnStatComponent.generated.h"
 
 
@@ -38,6 +39,9 @@ public:
 	UPawnStatComponent();
 
 protected:
+	UPROPERTY()
+	APawnState* CurrentState;
+
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
@@ -60,7 +64,11 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	//UPawnStat* GetCurrentStat() const;
+	UFUNCTION(BlueprintCallable)
+	APawnState* GetCurrentState() const;
+
+	UFUNCTION(BlueprintCallable)
+	void SwitchState(APawnState* NewState);
 
 	void EnableMod(const UPawnStatMod* Mod);
 

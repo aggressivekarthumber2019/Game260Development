@@ -4,6 +4,8 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/SphereComponent.h"
 #include "KartVehiclePawn.h"
+#include "FSM/PawnState.h"
+#include "FSM/PawnStatComponent.h"
 
 // Sets default values
 ATriggerableItem::ATriggerableItem()
@@ -39,5 +41,15 @@ void ATriggerableItem::Tick(float DeltaTime)
 
 void ATriggerableItem::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	AKartVehiclePawn* VehiclePawn = Cast<AKartVehiclePawn>(OtherActor);
+
+	if (IsValid(VehiclePawn))
+	{
+		APawnState* State = VehiclePawn->PawnStatComponent->GetCurrentState();
+		if (IsValid(State))
+		{
+			State->EnableMod(PawnStatMod);
+		}
+	}
 }
 

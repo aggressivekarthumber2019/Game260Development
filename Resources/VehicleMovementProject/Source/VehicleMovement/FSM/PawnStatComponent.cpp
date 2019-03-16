@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "PawnStatComponent.h"
+#include "KartVehiclePawn.h"
 
 
 // Sets default values for this component's properties
@@ -30,49 +31,40 @@ void UPawnStatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+	if (IsValid(CurrentState))
+	{
+		CurrentState->TickState(DeltaTime);
+	}
+}
+
+APawnState* UPawnStatComponent::GetCurrentState() const
+{
+	return CurrentState;
+}
+
+void UPawnStatComponent::SwitchState(APawnState* NewState)
+{
+	if (!IsValid(NewState))
+	{
+		return;
+	}
+
+	if (IsValid(CurrentState))
+	{
+		CurrentState->ExitState();
+	}
+
+	CurrentState = NewState;
+	CurrentState->EnterState(this, Cast<AKartVehiclePawn>(GetOwner()));
 }
 
 void UPawnStatComponent::EnableMod(const UPawnStatMod* Mod)
 {
-	if (MStatModifiers.Contains(Mod->GetGUID())) // Already has this mod
-	{
-		auto ModTracker = &MStatModifiers[Mod->GetGUID()];
-		auto CurrentStackCount = ModTracker->MStackCount;
-		auto MaxStackCount = ModTracker->MMod->MMaxStackCount;
-
-		// Can still be stacked
-		if (CurrentStackCount < MaxStackCount)
-		{
-			++ModTracker->MStackCount;
-		}
-	}
-	else
-	{
-		UStatModTracker ModTracker;
-
-		ModTracker.MMod = Mod;
-		ModTracker.MModTimeRemainMS = ModTracker.MMod->MMaxTimeMS;
-		ModTracker.MStackCount = 1;
-
-		MStatModifiers.Emplace(Mod->GetGUID(), MoveTemp(ModTracker));
-	}
+	Mod->EnableMod(this, Cast<AKartVehiclePawn>(GetOwner()));
 }
 
 void UPawnStatComponent::DisableMod(const UPawnStatMod* Mod)
 {
-	if (MStatModifiers.Contains(Mod->GetGUID())) // Already has this mod
-	{
-		auto ModTracker = &MStatModifiers[Mod->GetGUID()];
-
-		if (ModTracker->MStackCount == 1) // Last stack
-		{
-
-			MStatModifiers.Remove(Mod->GetGUID());
-		}
-		else // Remove 1 stack
-		{
-			ModTracker->MStackCount--;
-		}
-	}
+	Mod->DisableMod(this, Cast<AKartVehiclePawn>(GetOwner()));
 }
 
