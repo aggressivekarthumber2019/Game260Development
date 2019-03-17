@@ -35,12 +35,21 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Stats")
 	float VehiclePawnBoostSpeed;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Stats")
+	float VehicleSpecialMeter;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Stats")
+	float VehicleSpecialRefillRate;
+
 	// Sets default values for this component's properties
 	UPawnStatComponent();
 
 protected:
 	UPROPERTY()
 	UPawnState* CurrentState;
+
+	UPROPERTY()
+	TArray<UPawnStatMod*> Inventory;
 
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -73,4 +82,7 @@ public:
 	void EnableMod(UPawnStatMod* Mod);
 
 	void DisableMod(UPawnStatMod* Mod);
+
+	UFUNCTION(BlueprintCallable)
+	void AddItem(UPawnStatMod* Mod);
 };

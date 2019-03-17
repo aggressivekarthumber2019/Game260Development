@@ -74,3 +74,8 @@ void UPawnStatComponent::DisableMod(UPawnStatMod* Mod)
 	}
 }
 
+void UPawnStatComponent::AddItem(UPawnStatMod* Mod)
+{
+	Inventory.Emplace(Mod);
+}
+

@@ -325,6 +325,15 @@ void AKartVehiclePawn::SetCurrentRotationAmount(const float Amount)
 	InputCurrenTurnAmount = Amount;
 }
 
+void AKartVehiclePawn::RefillSpecialMeter()
+{
+	CurrentVehicleSpecialMeter += PawnStatComponent->VehicleSpecialRefillRate;
+	if (CurrentVehicleSpecialMeter > PawnStatComponent->VehicleSpecialMeter)
+	{
+		CurrentVehicleSpecialMeter = PawnStatComponent->VehicleSpecialMeter;
+	}
+}
+
 void AKartVehiclePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	// Sarfaraz: Called to bind functionality to input

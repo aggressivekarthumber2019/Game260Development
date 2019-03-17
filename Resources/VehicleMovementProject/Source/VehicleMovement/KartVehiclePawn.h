@@ -121,6 +121,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
 	float SlowCarSpeedRate;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
+	float CurrentVehicleSpecialMeter;
+
 	/** Mike: This is the braking speed of the car */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
 	float SlowCarTurnRate;
@@ -226,4 +229,6 @@ public:
 	/** Jaymie: Driftruptor end logic */
 	UFUNCTION(BlueprintCallable)
 	void SetCurrentRotationAmount(const float Amount);
+
+	void RefillSpecialMeter();
 };

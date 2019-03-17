@@ -31,6 +31,9 @@ public:
 	 */
 	bool IsCommand;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float ResourceConsumed;
+
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void EnableMod(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn);
 	virtual void EnableMod_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn);
