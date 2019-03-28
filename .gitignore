@@ -72,6 +72,5 @@ Plugins/*/Binaries/*
 *.sln
 Resources/VehicleMovementProject/Binaries/
 Resources/VehicleMovementProject/Intermediate/
-Resources/VehicleMovementProject/Saved/
 Resources/NetworkKartGame/Binaries/
 Resources/NetworkKartGame/Intermediate/
