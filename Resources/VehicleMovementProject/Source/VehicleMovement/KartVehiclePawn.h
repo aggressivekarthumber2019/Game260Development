@@ -108,7 +108,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Camera")
 	float ThirdPersonFOV;
 
-
 	//////////////////////////////////////////////
 	////// INPUT VARIABLES  //////////////////////
 	/////////////////////////////////////////////
@@ -172,6 +171,9 @@ private:
 	// Sarfaraz: Boolean to determine if the car can move or not
 	bool  canMove;
 
+	// Matthew: used for checkpoint location for vehicle to spanw at
+	FVector lastCheckpointLocation;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -214,6 +216,22 @@ public:
 	/*Brandon: */
 	UFUNCTION()
 		void OnActorHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit);
+
+	/* called when something enters the box component */
+	UFUNCTION()
+		void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	/* called when something leaves the box component */
+	UFUNCTION()
+		void OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+	/** Matthew: Set new checkpoint location to be respawned at */
+	UFUNCTION(BlueprintCallable)
+		void SetLastCheckpointLocation(FVector Location);
+
+	/** Matthew: Call this when the player needs to be respawned */
+	UFUNCTION(BlueprintCallable)
+		void Respawn();
 };
 
 

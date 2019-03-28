@@ -21,6 +21,7 @@
 #include "Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h"
 
 #include "TimerManager.h"
+#include "Checkpoint.h"
 
 
 // Sets default values
@@ -48,6 +49,8 @@ AKartVehiclePawn::AKartVehiclePawn()
 	CarBoxCollider->SetNotifyRigidBodyCollision(true);
 
 	CarBoxCollider->OnComponentHit.AddDynamic(this, &AKartVehiclePawn::OnActorHit);
+
+	CarBoxCollider->OnComponentBeginOverlap.AddDynamic(this, &AKartVehiclePawn::OnOverlapBegin);
 
 	// Mike: Make a const reference to the custom collision channels made in the editor
 	const ECollisionChannel Car_Body_Channel = ECC_GameTraceChannel1;
@@ -214,7 +217,6 @@ AKartVehiclePawn::AKartVehiclePawn()
 	ThirdPersonFOV = 90.0f; //REMOVE this if we want to set it at runtime / in blueprints
 	CameraComponent->FieldOfView = ThirdPersonFOV;
 
-
 	/////////////////////////
 	//// SPEEDOMETER SETUP //-------------------------------------------------------------------
 	/////////////////////////
@@ -261,8 +263,6 @@ AKartVehiclePawn::AKartVehiclePawn()
 	// Sarfaraz: Setup the default values for the game's frame rate
 	FrameRate = 0.0067f;
 	canMove = true;
-
-	
 }
 
 void AKartVehiclePawn::Tick(float DeltaTime)
@@ -528,4 +528,32 @@ void AKartVehiclePawn::OnActorHit(UPrimitiveComponent* HitComponent, AActor* Oth
 		Destroy(this);
 	}
 
+}
+
+// Enter Collider
+void AKartVehiclePawn::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	/* MAKE SURE ROOT COMPOENENT HAS THE TAG */
+	if (OtherActor->ActorHasTag("Checkpoint"))
+		SetLastCheckpointLocation(OtherActor->GetActorLocation());
+
+	if (OtherActor->ActorHasTag("OutofBounds"))
+		Respawn();	
+}
+
+// Exit Collider
+void AKartVehiclePawn::OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+	
+}
+
+void AKartVehiclePawn::SetLastCheckpointLocation(FVector Location) {
+	lastCheckpointLocation = Location;
+	lastCheckpointLocation.Z += 10;
+}
+
+void AKartVehiclePawn::Respawn() {
+	// Matthew: Make sure you've actually hit a checkpoint
+	if (lastCheckpointLocation != FVector(0, 0, 0))
+		SetActorLocation(lastCheckpointLocation);
 }
