@@ -70,7 +70,6 @@ Plugins/*/Binaries/*
 # Cache files for the editor to use
 */DerivedDataCache/*
 *.sln
-Resources/VehicleMovementProject/Binaries/
-Resources/VehicleMovementProject/Intermediate/
-
-Resources/VehicleMovementProject/Saved/
+Binaries/
+Intermediate/
+Saved/
