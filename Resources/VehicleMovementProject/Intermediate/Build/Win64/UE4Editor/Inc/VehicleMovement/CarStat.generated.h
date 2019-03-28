@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define VEHICLEMOVEMENT_CarStat_generated_h
 
-#define VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_RPC_WRAPPERS \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execConstructCarStat) \
 	{ \
@@ -30,7 +30,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execConstructCarStat) \
 	{ \
@@ -47,7 +47,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_INCLASS_NO_PURE_DECLS \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUCarStat(); \
 	friend struct Z_Construct_UClass_UCarStat_Statics; \
@@ -56,7 +56,7 @@ public: \
 	DECLARE_SERIALIZER(UCarStat)
 
 
-#define VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_INCLASS \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUCarStat(); \
 	friend struct Z_Construct_UClass_UCarStat_Statics; \
@@ -65,7 +65,7 @@ public: \
 	DECLARE_SERIALIZER(UCarStat)
 
 
-#define VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_STANDARD_CONSTRUCTORS \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCarStat(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCarStat) \
@@ -78,7 +78,7 @@ private: \
 public:
 
 
-#define VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_ENHANCED_CONSTRUCTORS \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCarStat() { }; \
 private: \
@@ -91,37 +91,37 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCarStat); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCarStat)
 
 
-#define VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_PRIVATE_PROPERTY_OFFSET \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MHandleFactor() { return STRUCT_OFFSET(UCarStat, MHandleFactor); } \
 	FORCEINLINE static uint32 __PPO__MAccelerationFactor() { return STRUCT_OFFSET(UCarStat, MAccelerationFactor); } \
 	FORCEINLINE static uint32 __PPO__MWeightFactor() { return STRUCT_OFFSET(UCarStat, MWeightFactor); }
 
 
-#define VehicleMovementProject_Source_VehicleMovement_CarStat_h_12_PROLOG
-#define VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_GENERATED_BODY_LEGACY \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_12_PROLOG
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_PRIVATE_PROPERTY_OFFSET \
-	VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_RPC_WRAPPERS \
-	VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_INCLASS \
-	VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_STANDARD_CONSTRUCTORS \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_PRIVATE_PROPERTY_OFFSET \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_RPC_WRAPPERS \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_INCLASS \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_GENERATED_BODY \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_PRIVATE_PROPERTY_OFFSET \
-	VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_INCLASS_NO_PURE_DECLS \
-	VehicleMovementProject_Source_VehicleMovement_CarStat_h_15_ENHANCED_CONSTRUCTORS \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_PRIVATE_PROPERTY_OFFSET \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_INCLASS_NO_PURE_DECLS \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID VehicleMovementProject_Source_VehicleMovement_CarStat_h
+#define CURRENT_FILE_ID VehicleMovementProjectNOSTEAM_Source_VehicleMovement_CarStat_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
