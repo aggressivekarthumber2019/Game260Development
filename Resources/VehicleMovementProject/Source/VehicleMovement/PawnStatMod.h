@@ -6,39 +6,39 @@
 #include "UObject/NoExportTypes.h"
 #include "PawnStatMod.generated.h"
 
-// Forward declares
-class UCarStat;
-class UMiscStat;
-
 /**
  * 
  */
-UCLASS(editinlinenew)
+UCLASS(editinlinenew, Blueprintable, BlueprintType)
 class VEHICLEMOVEMENT_API UPawnStatMod : public UObject
 {
 	GENERATED_BODY()
 
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		/** \brief	Unique identifier */
-		int32 MGUID;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		/** \brief	Number of maximum stacks */
-		int32 MMaxStackCount;
+	/** \brief	Number of maximum stacks */
+	int32 MMaxStackCount;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		/** \brief	The maximum time of this mod in milliseconds */
-		float MMaxTimeMS;
+	/** \brief	The maximum time of this mod in milliseconds */
+	float MMaxTimeMS;
 
-	UFUNCTION(BlueprintCallable)
-	void Construct(int32 GUID, int32 MaxStack, float MaxTimeMS);
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	/**
+	 * \brief	Is this mod an instant command. If yes this mod will execute by PawnStatComponent
+	 * without being place into the buff buffer.
+	 */
+	bool IsCommand;
 
-	int32 GetGUID() const;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float ResourceConsumed;
 
-	virtual void EnableMod(UCarStat* StatType) const {};
-	virtual void EnableMod(UMiscStat* StatType) const {};
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void EnableMod(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn);
+	virtual void EnableMod_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn);
 
-	virtual void DisableMod(UCarStat* StatType) const {};
-	virtual void DisableMod(UMiscStat* StatType) const {};
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void DisableMod(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn);
+	virtual void DisableMod_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn);
 };

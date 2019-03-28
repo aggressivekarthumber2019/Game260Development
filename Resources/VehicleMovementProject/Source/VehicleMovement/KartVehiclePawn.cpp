@@ -21,6 +21,7 @@
 #include "Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h"
 
 #include "TimerManager.h"
+#include "FSM/PawnStatComponent.h"
 
 
 // Sets default values
@@ -227,6 +228,11 @@ AKartVehiclePawn::AKartVehiclePawn()
 	// Mike: Change the location of the text to face the camera
 	CarSpeedText->SetRelativeLocation(FVector(-100.0f, -45.0f, 10.0f));
 
+	/////////////////////////////////////
+	//// PAWN STAT COMPONENT SETUP //-------------------------------------------------------------------
+	/////////////////////////////////////
+
+	PawnStatComponent = CreateDefaultSubobject<UPawnStatComponent>(TEXT("Car Stat Component"));
 
 	/////////////////////////////////////
 	//// PAWN MOVEMENT COMPONENT SETUP //-------------------------------------------------------------------
@@ -234,16 +240,6 @@ AKartVehiclePawn::AKartVehiclePawn()
 
 	// Sarfaraz: This is the movement component of the car, it does not need to be attached to the game object
 	PawnMovementComponent = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("Car Movement Component"));
-
-	// Mike: Set the acceleation of the movement component
-	PawnMovementComponent->Acceleration = VehiclePawnAcceleration;
-
-	// Mike: Set the acceleation of the movement component
-	PawnMovementComponent->Deceleration = VehiclePawnDeceleration;
-
-	// Mike: Set the acceleation of the movement component
-	PawnMovementComponent->MaxSpeed = VehiclePawnMaxSpeed;
-
 
 	///////////////////////////////////
 	//// DEFAULT VALUES FOR VEHICLES //-------------------------------------------------------------------
@@ -285,6 +281,19 @@ void AKartVehiclePawn::BeginPlay()
 		if (GEngine)
 			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Purple, "Vehicle: Max Speed = " + maxSpeed);
 
+	/////////////////////////////////////
+	//// PAWN MOVEMENT COMPONENT RUNTIME SETUP //-------------------------------------------------------------------
+	/////////////////////////////////////
+
+	// Mike: Set the acceleration of the movement component
+	PawnMovementComponent->Acceleration = PawnStatComponent->VehiclePawnAcceleration;
+
+	// Mike: Set the acceleration of the movement component
+	PawnMovementComponent->Deceleration = PawnStatComponent->VehiclePawnDeceleration;
+
+	// Mike: Set the acceleration of the movement component
+	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnMaxSpeed;
+
 	//This method will begin a timer which will run at at 60 frames per second regardless of the machine
 	GetWorld()->GetTimerManager().SetTimer(LoopTimerHandle, this, &AKartVehiclePawn::FixedUpdate, FrameRate, true);
 
@@ -306,6 +315,25 @@ void AKartVehiclePawn::FixedUpdate()
 			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, "Turn Rate" + FString::SanitizeFloat(InputCurrenTurnAmount));
 }
 
+void AKartVehiclePawn::DriftRuptor(const float Amount)
+{
+	AddActorLocalRotation(FRotator(0, Amount, 0));
+}
+
+void AKartVehiclePawn::SetCurrentRotationAmount(const float Amount)
+{
+	InputCurrenTurnAmount = Amount;
+}
+
+void AKartVehiclePawn::RefillSpecialMeter()
+{
+	CurrentVehicleSpecialMeter += PawnStatComponent->VehicleSpecialRefillRate;
+	if (CurrentVehicleSpecialMeter > PawnStatComponent->VehicleSpecialMeter)
+	{
+		CurrentVehicleSpecialMeter = PawnStatComponent->VehicleSpecialMeter;
+	}
+}
+
 void AKartVehiclePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	// Sarfaraz: Called to bind functionality to input
@@ -318,24 +346,24 @@ void AKartVehiclePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	// Sarfaraz: Call the MoveX method with keys bind to 'MoveForward' 
 	// Mike: This is currently bound to W (Forwards) and S (Backwards)
 	// Sarfaraz: This is an axis so to get move backwards, simply add a key that adds a negative value to this method
-	PlayerInputComponent->BindAxis("MoveForward", this, &AKartVehiclePawn::MoveX); 
+	PlayerInputComponent->BindAxis("MoveForward", this, &AKartVehiclePawn::MoveXCallBack); 
 
 	// Sarfaraz: call the MoveY method with keys bind to 'MoveRight'. 
 	// Mike: This is currently bound to A (Left) and D (Right)
 	// Sarfaraz: This is an axis so to get move left, simply add a key that adds a negative value to this method
-	PlayerInputComponent->BindAxis("MoveRight", this, &AKartVehiclePawn::MoveY);  
+	PlayerInputComponent->BindAxis("MoveRight", this, &AKartVehiclePawn::MoveYCallBack);  
 	
 	// Sarfaraz: Bind the method call "Boost Press" to the action "Boost" when the action is "Pressed"
 	// Mike: This is currently bound to SHIFT
-	PlayerInputComponent->BindAction("Boost", IE_Pressed, this, &AKartVehiclePawn::BoostPress);
+	PlayerInputComponent->BindAction("Boost", IE_Pressed, this, &AKartVehiclePawn::BoostPressCallBack);
 
 	// Sarfaraz: Bind the method call "Boost Release" to the action "Boost" when the action is "Released"
 	// Mike: This is currently bound to SHIFT
-	PlayerInputComponent->BindAction("Boost", IE_Released, this, &AKartVehiclePawn::BoostRelease);
+	PlayerInputComponent->BindAction("Boost", IE_Released, this, &AKartVehiclePawn::BoostReleaseCallBack);
 
 	// Sarfaraz: Bind the method "Brake" to the axis "Brakes"
 	// Mike: This is currently bound to CTRL
-	PlayerInputComponent->BindAxis("Brakes", this, &AKartVehiclePawn::Brake);
+	PlayerInputComponent->BindAxis("Brakes", this, &AKartVehiclePawn::BreakCallBack);
 }
 
 void AKartVehiclePawn::UpdateSpeedometer()
@@ -352,24 +380,42 @@ void AKartVehiclePawn::UpdateSpeedometer()
 
 void AKartVehiclePawn::BoostPress()
 {
-	//Debug Messages 
+	//Debug Messages
 	if (bShouldDisplayOnScreenDebug)
 		if (GEngine) 
 			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Vehicle: Boost pressed");
 	
 	// Mike: Updated, now changing the max speed of the pawn
-	PawnMovementComponent->MaxSpeed = VehiclePawnBoostSpeed;
+	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnBoostSpeed;
 }
 
 void AKartVehiclePawn::BoostRelease()
 {
-	//Debug Messages 
+	//Debug Messages
 	if (bShouldDisplayOnScreenDebug)
 		if (GEngine)
 			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Vehicle: Boost Released");
 
 	// Mike: Updated, now changing the max speed of the pawn
-	PawnMovementComponent->MaxSpeed = VehiclePawnMaxSpeed;
+	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnMaxSpeed;
+}
+
+void AKartVehiclePawn::BoostPressCallBack()
+{
+	UPawnState* CurrentState = PawnStatComponent->GetCurrentState();
+	if (IsValid(CurrentState))
+	{
+		CurrentState->BoostPressed();
+	}
+}
+
+void AKartVehiclePawn::BoostReleaseCallBack()
+{
+	UPawnState* CurrentState = PawnStatComponent->GetCurrentState();
+	if (IsValid(CurrentState))
+	{
+		CurrentState->BoostRelease();
+	}
 }
 
 void AKartVehiclePawn::MoveX(float AxisValue)
@@ -393,6 +439,24 @@ void AKartVehiclePawn::MoveY(float AxisValue)
 
 	// Mike: Clamp the turning rate so that the car can't turn insanely fast
 	InputCurrenTurnAmount = FMath::Clamp(InputCurrenTurnAmount, -InputTurnRateLimit, InputTurnRateLimit);
+}
+
+void AKartVehiclePawn::MoveXCallBack(float AxisValue)
+{
+	UPawnState* CurrentState = PawnStatComponent->GetCurrentState();
+	if (IsValid(CurrentState))
+	{
+		CurrentState->MoveX(AxisValue);
+	}
+}
+
+void AKartVehiclePawn::MoveYCallBack(float AxisValue)
+{
+	UPawnState* CurrentState = PawnStatComponent->GetCurrentState();
+	if (IsValid(CurrentState))
+	{
+		CurrentState->MoveY(AxisValue);
+	}
 }
 
 void AKartVehiclePawn::Brake(float AxisValue)
@@ -424,6 +488,15 @@ void AKartVehiclePawn::Brake(float AxisValue)
 			if (GEngine)
 				GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, "Applying Breaks!");
 	}	
+}
+
+void AKartVehiclePawn::BreakCallBack(float AxisValue)
+{
+	UPawnState* CurrentState = PawnStatComponent->GetCurrentState();
+	if (IsValid(CurrentState))
+	{
+		CurrentState->Break(AxisValue);
+	}
 }
 
 void AKartVehiclePawn::ReducedValues()

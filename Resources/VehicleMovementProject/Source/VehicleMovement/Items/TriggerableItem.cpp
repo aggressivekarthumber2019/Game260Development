@@ -4,7 +4,8 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/SphereComponent.h"
 #include "KartVehiclePawn.h"
-#include "PawnStatComponent.h"
+#include "FSM/PawnState.h"
+#include "FSM/PawnStatComponent.h"
 
 // Sets default values
 ATriggerableItem::ATriggerableItem()
@@ -22,6 +23,8 @@ ATriggerableItem::ATriggerableItem()
 	SphereComponent->OnComponentBeginOverlap.AddDynamic(this, &ATriggerableItem::OnOverlapBegin);
 	SphereComponent->SetSphereRadius(100.f);
 	SphereComponent->SetupAttachment(MeshComponent);
+
+	SphereComponent->SetCollisionObjectType(ECC_GameTraceChannel1);
 }
 
 // Called when the game starts or when spawned
@@ -35,19 +38,21 @@ void ATriggerableItem::BeginPlay()
 void ATriggerableItem::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void ATriggerableItem::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Overlapped"));
-	if (OtherActor->IsA(AKartVehiclePawn::StaticClass()))
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Item picked up"));
+	AKartVehiclePawn* VehiclePawn = Cast<AKartVehiclePawn>(OtherActor);
 
-		AKartVehiclePawn* car = CastChecked<AKartVehiclePawn>(OtherActor);
-		//car->PawnStatComponent->EnableMod(PawnStatMod);
-		Destroy();
+	if (IsValid(VehiclePawn))
+	{
+		UPawnState* State = VehiclePawn->PawnStatComponent->GetCurrentState();
+		if (IsValid(State))
+		{
+			State->EnableMod(PawnStatMod);
+
+			Destroy();
+		}
 	}
 }
 

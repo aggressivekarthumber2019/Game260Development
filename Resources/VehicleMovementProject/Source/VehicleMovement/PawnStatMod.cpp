@@ -2,14 +2,10 @@
 
 #include "PawnStatMod.h"
 
-void UPawnStatMod::Construct(int32 GUID, int32 MaxStack, float MaxTimeMS)
+void UPawnStatMod::EnableMod_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn)
 {
-	MGUID = GUID;
-	MMaxStackCount = MaxStack;
-	MMaxTimeMS = MaxTimeMS;
 }
 
-int32 UPawnStatMod::GetGUID() const
+void UPawnStatMod::DisableMod_Implementation(class UPawnStatComponent* PSC, class AKartVehiclePawn* VehiclePawn)
 {
-	return MGUID;
 }
