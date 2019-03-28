@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define VEHICLEMOVEMENT_PawnStat_generated_h
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_RPC_WRAPPERS \
+#define VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execConstructPawnStat) \
 	{ \
@@ -27,7 +27,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execConstructPawnStat) \
 	{ \
@@ -41,7 +41,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_INCLASS_NO_PURE_DECLS \
+#define VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPawnStat(); \
 	friend struct Z_Construct_UClass_UPawnStat_Statics; \
@@ -50,7 +50,7 @@ public: \
 	DECLARE_SERIALIZER(UPawnStat)
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_INCLASS \
+#define VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesUPawnStat(); \
 	friend struct Z_Construct_UClass_UPawnStat_Statics; \
@@ -59,7 +59,7 @@ public: \
 	DECLARE_SERIALIZER(UPawnStat)
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_STANDARD_CONSTRUCTORS \
+#define VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPawnStat(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPawnStat) \
@@ -72,7 +72,7 @@ private: \
 public:
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_ENHANCED_CONSTRUCTORS \
+#define VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UPawnStat(UPawnStat&&); \
@@ -83,37 +83,37 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPawnStat); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UPawnStat)
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_PRIVATE_PROPERTY_OFFSET \
+#define VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MHealthFactor() { return STRUCT_OFFSET(UPawnStat, MHealthFactor); } \
 	FORCEINLINE static uint32 __PPO__MMaxSpeedFactor() { return STRUCT_OFFSET(UPawnStat, MMaxSpeedFactor); } \
 	FORCEINLINE static uint32 __PPO__MMinSpeedFactor() { return STRUCT_OFFSET(UPawnStat, MMinSpeedFactor); }
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_13_PROLOG
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_GENERATED_BODY_LEGACY \
+#define VehicleMovementProject_Source_VehicleMovement_PawnStat_h_13_PROLOG
+#define VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_PRIVATE_PROPERTY_OFFSET \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_RPC_WRAPPERS \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_INCLASS \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_STANDARD_CONSTRUCTORS \
+	VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_PRIVATE_PROPERTY_OFFSET \
+	VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_RPC_WRAPPERS \
+	VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_INCLASS \
+	VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_GENERATED_BODY \
+#define VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_PRIVATE_PROPERTY_OFFSET \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_INCLASS_NO_PURE_DECLS \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h_16_ENHANCED_CONSTRUCTORS \
+	VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_PRIVATE_PROPERTY_OFFSET \
+	VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_INCLASS_NO_PURE_DECLS \
+	VehicleMovementProject_Source_VehicleMovement_PawnStat_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStat_h
+#define CURRENT_FILE_ID VehicleMovementProject_Source_VehicleMovement_PawnStat_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

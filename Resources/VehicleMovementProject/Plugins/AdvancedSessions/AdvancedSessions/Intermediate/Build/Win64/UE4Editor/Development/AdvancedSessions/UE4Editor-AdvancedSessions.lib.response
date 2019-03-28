@@ -6,8 +6,8 @@
 /NAME:"UE4Editor-AdvancedSessions.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h.obj"
-"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\Module.AdvancedSessions.cpp.obj"
-"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\Module.AdvancedSessions.gen.cpp.obj"
-"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\PCLaunch.rc.res"
-/OUT:"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions.lib"
+"C:\Users\JF\Documents\GitHub\Game260Development\Resources\VehicleMovementProject\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\JF\Documents\GitHub\Game260Development\Resources\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\Module.AdvancedSessions.cpp.obj"
+"C:\Users\JF\Documents\GitHub\Game260Development\Resources\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\Module.AdvancedSessions.gen.cpp.obj"
+"C:\Users\JF\Documents\GitHub\Game260Development\Resources\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\PCLaunch.rc.res"
+/OUT:"C:\Users\JF\Documents\GitHub\Game260Development\Resources\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions.lib"
