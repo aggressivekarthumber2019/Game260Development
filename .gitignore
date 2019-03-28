@@ -70,9 +70,9 @@ Plugins/*/Binaries/*
 # Cache files for the editor to use
 */DerivedDataCache/*
 *.sln
-Resources/VehicleMovement/Binaries/
-Resources/VehicleMovement/Intermediate/
-Resources/VehicleMovement/Saved/
+Resources/VehicleMovementProject/Binaries/
+Resources/VehicleMovementProject/Intermediate/
+Resources/VehicleMovementProject/Saved/
 Resources/NetworkKartGame/Binaries/
 Resources/NetworkKartGame/Intermediate/
 Resources/NetworkKartGame/Saved/

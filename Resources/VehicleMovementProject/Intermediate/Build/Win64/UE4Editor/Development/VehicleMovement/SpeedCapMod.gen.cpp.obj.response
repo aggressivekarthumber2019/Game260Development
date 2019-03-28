@@ -400,9 +400,9 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I C:\Users\Raksha\Documents\GitHub\Game260Development\Resources\VehicleMovementProject\Intermediate\Build\Win64\UE4Editor\Inc\VehicleMovement
-/I C:\Users\Raksha\Documents\GitHub\Game260Development\Resources\VehicleMovementProject\Source
-/I C:\Users\Raksha\Documents\GitHub\Game260Development\Resources\VehicleMovementProject\Source\VehicleMovement
+/I "C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProjectNOSTEAM\Intermediate\Build\Win64\UE4Editor\Inc\VehicleMovement"
+/I "C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProjectNOSTEAM\Source"
+/I "C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProjectNOSTEAM\Source\VehicleMovement"
 /I ..\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles
 /I ..\Plugins\Runtime\PhysXVehicles\Source
 /I ..\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles\Public
@@ -420,12 +420,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\Raksha\Documents\GitHub\Game260Development\Resources\VehicleMovementProject\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Raksha\Documents\GitHub\Game260Development\Resources\VehicleMovementProject\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Raksha\Documents\GitHub\Game260Development\Resources\VehicleMovementProject\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Raksha\Documents\GitHub\Game260Development\Resources\VehicleMovementProject\Intermediate\Build\Win64\UE4Editor\Inc\VehicleMovement\SpeedCapMod.gen.cpp"
-/FI"C:\Users\Raksha\Documents\GitHub\Game260Development\Resources\VehicleMovementProject\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\Definitions.VehicleMovement.h"
-/Fo"C:\Users\Raksha\Documents\GitHub\Game260Development\Resources\VehicleMovementProject\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\SpeedCapMod.gen.cpp.obj"
+/FI"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProjectNOSTEAM\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProjectNOSTEAM\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProjectNOSTEAM\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProjectNOSTEAM\Intermediate\Build\Win64\UE4Editor\Inc\VehicleMovement\SpeedCapMod.gen.cpp"
+/FI"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProjectNOSTEAM\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\Definitions.VehicleMovement.h"
+/Fo"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProjectNOSTEAM\Intermediate\Build\Win64\UE4Editor\Development\VehicleMovement\SpeedCapMod.gen.cpp.obj"
 /TP
 /GR-
 /W4

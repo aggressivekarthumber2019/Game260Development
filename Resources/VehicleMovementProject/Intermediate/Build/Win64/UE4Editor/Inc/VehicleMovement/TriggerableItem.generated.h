@@ -16,7 +16,7 @@ struct FHitResult;
 #endif
 #define VEHICLEMOVEMENT_TriggerableItem_generated_h
 
-#define VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_RPC_WRAPPERS \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnOverlapBegin) \
 	{ \
@@ -33,7 +33,7 @@ struct FHitResult;
 	}
 
 
-#define VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnOverlapBegin) \
 	{ \
@@ -50,7 +50,7 @@ struct FHitResult;
 	}
 
 
-#define VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_INCLASS_NO_PURE_DECLS \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATriggerableItem(); \
 	friend struct Z_Construct_UClass_ATriggerableItem_Statics; \
@@ -59,7 +59,7 @@ public: \
 	DECLARE_SERIALIZER(ATriggerableItem)
 
 
-#define VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_INCLASS \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesATriggerableItem(); \
 	friend struct Z_Construct_UClass_ATriggerableItem_Statics; \
@@ -68,7 +68,7 @@ public: \
 	DECLARE_SERIALIZER(ATriggerableItem)
 
 
-#define VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_STANDARD_CONSTRUCTORS \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATriggerableItem(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATriggerableItem) \
@@ -81,7 +81,7 @@ private: \
 public:
 
 
-#define VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_ENHANCED_CONSTRUCTORS \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATriggerableItem(ATriggerableItem&&); \
@@ -92,32 +92,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATriggerableItem); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATriggerableItem)
 
 
-#define VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_PRIVATE_PROPERTY_OFFSET
-#define VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_10_PROLOG
-#define VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_GENERATED_BODY_LEGACY \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_PRIVATE_PROPERTY_OFFSET
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_10_PROLOG
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_PRIVATE_PROPERTY_OFFSET \
-	VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_RPC_WRAPPERS \
-	VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_INCLASS \
-	VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_STANDARD_CONSTRUCTORS \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_PRIVATE_PROPERTY_OFFSET \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_RPC_WRAPPERS \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_INCLASS \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_GENERATED_BODY \
+#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_PRIVATE_PROPERTY_OFFSET \
-	VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_INCLASS_NO_PURE_DECLS \
-	VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h_13_ENHANCED_CONSTRUCTORS \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_PRIVATE_PROPERTY_OFFSET \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_INCLASS_NO_PURE_DECLS \
+	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID VehicleMovementProject_Source_VehicleMovement_Items_TriggerableItem_h
+#define CURRENT_FILE_ID VehicleMovementProjectNOSTEAM_Source_VehicleMovement_Items_TriggerableItem_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
