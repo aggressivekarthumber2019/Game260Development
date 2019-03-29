@@ -64,21 +64,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Movement Component")
 	class UFloatingPawnMovement* PawnMovementComponent;
 
-	/** Mike: The floating pawn movements acceleration value. Can be changed in blueprints */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
-	float VehiclePawnAcceleration;
-
-	/** Mike: The floating pawn movements deceleration value. Can be changed in blueprints */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
-	float VehiclePawnDeceleration;
-
-	/** Mike: The floating pawn movements max speed value. Can be changed in blueprints */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
-	float VehiclePawnMaxSpeed;
-
-	/** Mike: The floating pawn movements max speed value. Can be changed in blueprints */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
-	float VehiclePawnBoostSpeed;
+	/** Jaymie: Pawn stat component use to track vehicle stats and all of its buffs */
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Movement Component")
+	class UPawnStatComponent* PawnStatComponent;
 
 	/** Text component for the In-Car speed */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Movement Component")
@@ -108,14 +96,15 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Camera")
 	float ThirdPersonFOV;
 
-	
 
 	//////////////////////////////////////////////
 	////// INPUT VARIABLES  //////////////////////
 	/////////////////////////////////////////////
+
 	/** Mike: This is the minimum amount of input that can be applied to the cars speed */
-		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
-			int CurrentCarSpeedReadable;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
+    int CurrentCarSpeedReadable;
+	
 	/** Mike: This is the minimum amount of input that can be applied to the cars speed */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
 	float InputMinSpeedAmount;
@@ -135,6 +124,9 @@ public:
 	/** Mike: This is the braking speed of the car */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
 	float SlowCarSpeedRate;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
+	float CurrentVehicleSpecialMeter;
 
 	/** Mike: This is the braking speed of the car */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
@@ -170,6 +162,7 @@ private:
 
 	// Mike: The current speed and turning rate of the car
 	float InputCurrentSpeedAmount;
+
 	float InputCurrenTurnAmount;
 
 	// Sarfaraz: Boolean to determine if the car can move or not
@@ -190,11 +183,22 @@ public:
 	void UpdateSpeedometer();
 
 	// Movement on x and y direction method
+	UFUNCTION(BlueprintCallable)
 	void MoveX(float AxisValue);
+	UFUNCTION(BlueprintCallable)
 	void MoveY(float AxisValue);
 
+	UFUNCTION()
+	void MoveXCallBack(float AxisValue);
+	UFUNCTION()
+	void MoveYCallBack(float AxisValue);
+
 	/** Sarfaraz: Called when the user breaks */
+	UFUNCTION(BlueprintCallable)
 	void Brake(float AxisValue);
+
+	UFUNCTION()
+	void BreakCallBack(float AxisValue);
 
 	//Raycast to check if the car is on the ground
 	bool RayCastGround();
@@ -206,12 +210,29 @@ public:
 	void ReducedValues();
 
 	/** Sarfaraz: When the user presses the boost key, this method is called */
+	UFUNCTION(BlueprintCallable)
 	void BoostPress();
 
 	/** Sarfaraz: When the user releases the boost, this method is called */
+	UFUNCTION(BlueprintCallable)
 	void BoostRelease();
+
+	UFUNCTION()
+	void BoostPressCallBack();
+
+	UFUNCTION()
+	void BoostReleaseCallBack();
 
 	/** Sarfaraz: This method is called on a timer at a constant rate*/
 	void FixedUpdate();
 
+	/** Jaymie: Driftruptor logic */
+	UFUNCTION(BlueprintCallable)
+	void DriftRuptor(const float Amount);
+
+	/** Jaymie: Driftruptor end logic */
+	UFUNCTION(BlueprintCallable)
+	void SetCurrentRotationAmount(const float Amount);
+
+	void RefillSpecialMeter();
 };
