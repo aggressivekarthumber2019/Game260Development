@@ -29,6 +29,7 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Vehicle Parts | Debug")
 	bool bShouldDisplayOnScreenDebug = true;
 
+	/** DEBUG MODE - function to show debug messages*/
 	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Debug")
 	void SetDebugModeEnabled(bool bDebugOn) { bShouldDisplayOnScreenDebug = bDebugOn; };
 
@@ -100,6 +101,10 @@ public:
 	//////////////////////////////////////////////
 	////// INPUT VARIABLES  //////////////////////
 	/////////////////////////////////////////////
+
+	/** Mike: This is the minimum amount of input that can be applied to the cars speed */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
+	int CurrentCarSpeedReadable;
 
 	/** Mike: This is the minimum amount of input that can be applied to the cars speed */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
@@ -181,11 +186,13 @@ public:
 	// Movement on x and y direction method
 	UFUNCTION(BlueprintCallable)
 	void MoveX(float AxisValue);
+
 	UFUNCTION(BlueprintCallable)
 	void MoveY(float AxisValue);
 
 	UFUNCTION()
 	void MoveXCallBack(float AxisValue);
+
 	UFUNCTION()
 	void MoveYCallBack(float AxisValue);
 
