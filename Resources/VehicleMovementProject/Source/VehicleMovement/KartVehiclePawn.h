@@ -102,6 +102,10 @@ public:
 	/////////////////////////////////////////////
 
 	/** Mike: This is the minimum amount of input that can be applied to the cars speed */
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
+    int CurrentCarSpeedReadable;
+	
+	/** Mike: This is the minimum amount of input that can be applied to the cars speed */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Car Stats")
 	float InputMinSpeedAmount;
 

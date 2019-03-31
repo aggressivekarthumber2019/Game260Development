@@ -368,15 +368,15 @@ void AKartVehiclePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 void AKartVehiclePawn::UpdateSpeedometer()
 {
-	// Mike: Get the current speed of the car in INT form
-	int speed_int = FMath::FloorToInt((PawnMovementComponent->Velocity.Size() / 50.0f));
+    // Mike: Get the current speed of the car in INT form
+    CurrentCarSpeedReadable = FMath::FloorToInt((PawnMovementComponent->Velocity.Size() / 50.0f));
 
-	// Mike: Turn that int into a string
-	SpeedometerString = FString::FromInt(speed_int);
+    // Mike: Turn that int into a string
+    SpeedometerString = FString::FromInt(CurrentCarSpeedReadable);
 
-	// Mike: Set the car speed text
-	CarSpeedText->SetText(SpeedometerString);
-}
+    // Mike: Set the car speed text
+    CarSpeedText->SetText(SpeedometerString);
+}   
 
 void AKartVehiclePawn::BoostPress()
 {
