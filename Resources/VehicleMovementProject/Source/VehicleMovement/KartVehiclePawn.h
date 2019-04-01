@@ -226,6 +226,10 @@ public:
 	/** Sarfaraz: This method is called on a timer at a constant rate*/
 	void FixedUpdate();
 
+	/** Jaymie: Max speed changed callback */
+	UFUNCTION(BlueprintCallable)
+	void MaxSpeedChangedCallBack();
+
 	/** Jaymie: Driftruptor logic */
 	UFUNCTION(BlueprintCallable)
 	void DriftRuptor(const float Amount);

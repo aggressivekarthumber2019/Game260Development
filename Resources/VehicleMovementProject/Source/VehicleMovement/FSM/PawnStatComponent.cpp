@@ -78,3 +78,9 @@ void UPawnStatComponent::AddItem(UPawnStatMod* Mod)
 {
 	Inventory.Emplace(Mod);
 }
+
+void UPawnStatComponent::SetMaxSpeed(const float Speed)
+{
+	VehiclePawnMaxSpeed = Speed;
+	OnMaxSpeedChanged.Broadcast();
+}

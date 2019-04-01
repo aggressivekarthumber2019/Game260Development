@@ -6,7 +6,10 @@
 #include "Components/ActorComponent.h"
 #include "../PawnStatMod.h"
 #include "PawnState.h"
+#include "DelegateCombinations.h"
 #include "PawnStatComponent.generated.h"
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FMaxSpeedChangeCallback);
 
 
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
@@ -15,6 +18,9 @@ class VEHICLEMOVEMENT_API UPawnStatComponent : public UActorComponent
 	GENERATED_BODY()
 
 public:
+	UPROPERTY()
+	FMaxSpeedChangeCallback OnMaxSpeedChanged;
+
 	/** \brief	The floating pawn movements max speed value. Can be changed in blueprints and editor
 	/** \author Mike, Jaymie */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Stats")
@@ -85,4 +91,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void AddItem(UPawnStatMod* Mod);
+
+	UFUNCTION(BlueprintCallable)
+	void SetMaxSpeed(const float Speed);
 };

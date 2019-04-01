@@ -298,6 +298,9 @@ void AKartVehiclePawn::BeginPlay()
 	GetWorld()->GetTimerManager().SetTimer(LoopTimerHandle, this, &AKartVehiclePawn::FixedUpdate, FrameRate, true);
 
 	GetWorld()->GetTimerManager().SetTimer(LoopSpeedometer, this, &AKartVehiclePawn::UpdateSpeedometer, 0.1f, true);
+
+	// Register callback
+	PawnStatComponent->OnMaxSpeedChanged.AddDynamic(this, &AKartVehiclePawn::MaxSpeedChangedCallBack);
 }
 
 void AKartVehiclePawn::FixedUpdate()
@@ -313,6 +316,11 @@ void AKartVehiclePawn::FixedUpdate()
 	if (bShouldDisplayOnScreenDebug)
 		if (GEngine)
 			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, "Turn Rate" + FString::SanitizeFloat(InputCurrenTurnAmount));
+}
+
+void AKartVehiclePawn::MaxSpeedChangedCallBack()
+{
+	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnMaxSpeed;
 }
 
 void AKartVehiclePawn::DriftRuptor(const float Amount)
