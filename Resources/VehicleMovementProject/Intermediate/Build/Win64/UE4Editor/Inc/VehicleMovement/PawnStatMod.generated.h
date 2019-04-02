@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define VEHICLEMOVEMENT_PawnStatMod_generated_h
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_RPC_WRAPPERS \
+#define NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execConstruct) \
 	{ \
@@ -27,7 +27,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+#define NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execConstruct) \
 	{ \
@@ -41,7 +41,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_INCLASS_NO_PURE_DECLS \
+#define NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPawnStatMod(); \
 	friend struct Z_Construct_UClass_UPawnStatMod_Statics; \
@@ -50,7 +50,7 @@ public: \
 	DECLARE_SERIALIZER(UPawnStatMod)
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_INCLASS \
+#define NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesUPawnStatMod(); \
 	friend struct Z_Construct_UClass_UPawnStatMod_Statics; \
@@ -59,7 +59,7 @@ public: \
 	DECLARE_SERIALIZER(UPawnStatMod)
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_STANDARD_CONSTRUCTORS \
+#define NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPawnStatMod(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPawnStatMod) \
@@ -72,7 +72,7 @@ private: \
 public:
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_ENHANCED_CONSTRUCTORS \
+#define NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPawnStatMod(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -85,32 +85,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPawnStatMod); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPawnStatMod)
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_PRIVATE_PROPERTY_OFFSET
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_16_PROLOG
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_GENERATED_BODY_LEGACY \
+#define NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_PRIVATE_PROPERTY_OFFSET
+#define NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_16_PROLOG
+#define NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_PRIVATE_PROPERTY_OFFSET \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_RPC_WRAPPERS \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_INCLASS \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_STANDARD_CONSTRUCTORS \
+	NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_PRIVATE_PROPERTY_OFFSET \
+	NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_RPC_WRAPPERS \
+	NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_INCLASS \
+	NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_GENERATED_BODY \
+#define NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_PRIVATE_PROPERTY_OFFSET \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_INCLASS_NO_PURE_DECLS \
-	VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h_19_ENHANCED_CONSTRUCTORS \
+	NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_PRIVATE_PROPERTY_OFFSET \
+	NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_INCLASS_NO_PURE_DECLS \
+	NetworkKartGame_Source_VehicleMovement_PawnStatMod_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID VehicleMovementProjectNOSTEAM_Source_VehicleMovement_PawnStatMod_h
+#define CURRENT_FILE_ID NetworkKartGame_Source_VehicleMovement_PawnStatMod_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

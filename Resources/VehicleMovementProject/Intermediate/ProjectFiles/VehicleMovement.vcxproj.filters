@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\VehicleMovement.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{18AB6E50-084D-4FCB-A8A3-52750F57C259}</UniqueIdentifier>
+			<UniqueIdentifier>{50144730-8504-414B-B193-AE7FCA8B5CC6}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\VehicleMovement.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{206F5A9D-643A-4117-A9A5-D1DE9AC0B5C2}</UniqueIdentifier>
+			<UniqueIdentifier>{5C330B60-C526-4A8A-97D8-01AFF82ACD29}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,25 +31,25 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Plugins">
-			<UniqueIdentifier>{37C70AB3-EA3D-4523-9835-FF7DAD544552}</UniqueIdentifier>
+			<UniqueIdentifier>{69CCD069-BF4C-42FF-ACBF-C53F83628B4B}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\AdvancedSessions">
-			<UniqueIdentifier>{7E8B6F9E-1090-4B26-9CB5-70FE62BD4DAC}</UniqueIdentifier>
+			<UniqueIdentifier>{3C567455-ACB4-40C5-97FC-6C9809B06CBA}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\AdvancedSessions\AdvancedSessions">
-			<UniqueIdentifier>{6D1C0D98-50DC-49AA-82C8-9FD2090F1B4A}</UniqueIdentifier>
+			<UniqueIdentifier>{FB4CF8A6-79A8-4A64-A014-6066973758CC}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source">
-			<UniqueIdentifier>{487B5D7B-E3B0-46B1-9A81-DC0B6F021189}</UniqueIdentifier>
+			<UniqueIdentifier>{F23E05A4-B025-4AD3-A512-AEAD7539BDF3}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions">
-			<UniqueIdentifier>{B60E89D3-1E9D-416F-8567-D50D4764C658}</UniqueIdentifier>
+			<UniqueIdentifier>{CE97E9C7-DF8D-46B1-AC06-D5397A9D9FE8}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\AdvancedSessions.Build.cs">
 			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions</Filter>
 		</None >
 		<Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes">
-			<UniqueIdentifier>{C3F53019-5E68-4112-B074-71E9BBA1E96D}</UniqueIdentifier>
+			<UniqueIdentifier>{EB5FD314-0802-4536-A748-3301DEF221F3}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedExternalUILibrary.h">
 			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
@@ -118,7 +118,7 @@
 			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
 		</ClInclude >
 		<Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private">
-			<UniqueIdentifier>{B04AC053-6436-49B1-AAD9-0B9C48E88D42}</UniqueIdentifier>
+			<UniqueIdentifier>{3ACC70DE-6EFF-46E3-A64F-89505E964BD6}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedExternalUILibrary.cpp">
 			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
@@ -184,46 +184,46 @@
 			<Filter>Plugins\AdvancedSessions\AdvancedSessions</Filter>
 		</None >
 		<Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Config">
-			<UniqueIdentifier>{1F271F4A-740F-4583-AC2D-2B23DA5392D6}</UniqueIdentifier>
+			<UniqueIdentifier>{23E4624F-4910-44AD-9614-61C2314FEE21}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Config\FilterPlugin.ini">
 			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Config</Filter>
 		</None >
 		<Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Resources">
-			<UniqueIdentifier>{E04EF9C5-B0BB-4D3B-AEA3-E968096D201B}</UniqueIdentifier>
+			<UniqueIdentifier>{3F5380C4-0109-4E36-9924-1DB63EE2E313}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Resources\Icon128.png">
 			<Filter>Plugins\AdvancedSessions\AdvancedSessions\Resources</Filter>
 		</None >
 		<Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions">
-			<UniqueIdentifier>{F1D56A17-0D29-4A10-9D7A-42655785113A}</UniqueIdentifier>
+			<UniqueIdentifier>{1F95B8B5-FDE0-45D1-AB8C-82441EF0B658}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\AdvancedSteamSessions.uplugin">
 			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions</Filter>
 		</None >
 		<Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Config">
-			<UniqueIdentifier>{3FFFA3AD-BAED-488F-9813-4FD3559AA798}</UniqueIdentifier>
+			<UniqueIdentifier>{6298EF7C-B067-49D9-938C-01F1731BF7B8}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Config\FilterPlugin.ini">
 			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Config</Filter>
 		</None >
 		<Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Resources">
-			<UniqueIdentifier>{3822B697-F48E-4891-8C43-08067E1F127B}</UniqueIdentifier>
+			<UniqueIdentifier>{5F7612C9-FD0B-44D3-BC93-3740A4BCF649}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Resources\Icon128.png">
 			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Resources</Filter>
 		</None >
 		<Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source">
-			<UniqueIdentifier>{107FDCC2-E32F-4465-9618-927E66463D4E}</UniqueIdentifier>
+			<UniqueIdentifier>{F38BCD4B-137E-4B9A-B245-59AB9F2946C5}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions">
-			<UniqueIdentifier>{5CEDD0AE-11EA-4400-A6C4-3CD8B686521B}</UniqueIdentifier>
+			<UniqueIdentifier>{42E8C7BC-7B77-49D8-8D17-944E61F00522}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\AdvancedSteamSessions.Build.cs">
 			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions</Filter>
 		</None >
 		<Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes">
-			<UniqueIdentifier>{1641FE55-A2D5-44BE-A8F0-384F42124138}</UniqueIdentifier>
+			<UniqueIdentifier>{16B08A2B-7643-415D-B208-AB0B3C985793}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\AdvancedSteamFriendsLibrary.h">
 			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
@@ -241,7 +241,7 @@
 			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
 		</ClInclude >
 		<Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private">
-			<UniqueIdentifier>{745C2023-40B7-40DD-BF7D-6FBD9D9383CE}</UniqueIdentifier>
+			<UniqueIdentifier>{76021BD5-66F7-4312-8495-9667DFFCCB68}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamFriendsLibrary.cpp">
 			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
@@ -259,7 +259,7 @@
 			<Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\VehicleMovement">
-			<UniqueIdentifier>{B3A72AFE-884E-49ED-ACD9-6CC2B8E8F70C}</UniqueIdentifier>
+			<UniqueIdentifier>{49C8003A-F8E2-4AAF-9D31-0DA9CBEA1026}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\VehicleMovement\CarStat.cpp">
 			<Filter>Source\VehicleMovement</Filter>
@@ -343,7 +343,7 @@
 			<Filter>Source\VehicleMovement</Filter>
 		</ClInclude >
 		<Filter Include="Source\VehicleMovement\Items">
-			<UniqueIdentifier>{99EC4CA1-26FD-4F96-B465-045FA5C15CA7}</UniqueIdentifier>
+			<UniqueIdentifier>{53E45651-72ED-43AF-8D13-360C7A96276B}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\VehicleMovement\Items\TriggerableItem.cpp">
 			<Filter>Source\VehicleMovement\Items</Filter>
