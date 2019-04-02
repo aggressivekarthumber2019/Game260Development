@@ -26,11 +26,15 @@ public:
 	/////////////////////////////////////////////////
 
 	/** DEBUG MODE - If this is true, it will display on screen debug messages*/
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Vehicle Parts | Debug")
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Vehicle Parts | Debug")
 	bool bShouldDisplayOnScreenDebug = true;
 
 	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Debug")
 	void SetDebugModeEnabled(bool bDebugOn) { bShouldDisplayOnScreenDebug = bDebugOn; };
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Vehicle Parts | Debug")
+	bool bControllerTestMode = true;
+
 
 	////////////////////////////////////////////////
 	////// VEHICLE COMPONENTS //////////////////////
@@ -44,21 +48,45 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Skeleton")
 	class UBoxComponent* CarBoxCollider;
 
+
+	//////// Wheel Skeletal Meshes ////////
+
+	/** Mike: Skeletal mesh comp for the front left wheel */
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Skeleton")
+	class USkeletalMeshComponent* FLWheelSkeletalMesh;
+
+	/** Mike: Skeletal mesh comp for the front right wheel */
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Skeleton")
+	class USkeletalMeshComponent* FRWheelSkeletalMesh;
+
+	/** Mike: Skeletal mesh comp for the back left wheel */
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Skeleton")
+	class USkeletalMeshComponent* BLWheelSkeletalMesh;
+
+	/** Mike: Skeletal mesh comp for the back right wheel */
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Skeleton")
+	class USkeletalMeshComponent* BRWheelSkeletalMesh;
+
+
+	//////// Wheel Colliders ////////
+
 	/** Mike: Sphere component for the front left wheel */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Skeleton")
 	class USphereComponent* FLWheelSphereCollider;
 
 	/** Mike: Sphere component for the front right wheel */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Skeleton")
-		class USphereComponent* FRWheelSphereCollider;
+	class USphereComponent* FRWheelSphereCollider;
 
 	/** Mike: Sphere component for the back left wheel */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Skeleton")
-		class USphereComponent* BLWheelSphereCollider;
+	class USphereComponent* BLWheelSphereCollider;
 
 	/** Mike: Sphere component for the back right wheel */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Skeleton")
-		class USphereComponent* BRWheelSphereCollider;
+	class USphereComponent* BRWheelSphereCollider;
+
+	//////// Movement Comps ////////////
 
 	/** Sarfaraz: Vehicle Movement component */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Movement Component")

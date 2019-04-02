@@ -86,11 +86,11 @@ AKartVehiclePawn::AKartVehiclePawn()
 	SkeletalMeshComponent->SetRelativeLocation(FVector(0.0f, 0.0f, -35.0f));
 
 	// Mike: Find the car mesh in the editor and set it to the CarMesh USkeletal Mesh Object
-	static ConstructorHelpers::FObjectFinder<USkeletalMesh> CarMesh(TEXT("/Game/3D/Cars/GoodTestCar/JennyCar.JennyCar"));
+	//static ConstructorHelpers::FObjectFinder<USkeletalMesh> CarMesh(TEXT("/Game/3D/Cars/GoodTestCar/JennyCar.JennyCar"));
 
 	// Mike: Set the skeletal mesh of the skeletal mesh component 
-	SkeletalMeshComponent->SetSkeletalMesh(CarMesh.Object);
-	
+	//SkeletalMeshComponent->SetSkeletalMesh(CarMesh.Object);
+
 	
 	//////////////////////////
 	// WHEEL COLLIDER SETUP //-------------------------------------------------------------------
@@ -121,7 +121,7 @@ AKartVehiclePawn::AKartVehiclePawn()
 	FLWheelSphereCollider->SetupAttachment(CarBoxCollider);
 	
 	// Mike: DEBUG ONLY - Show the Box Collider in the game
-	//FLWheelSphereCollider->SetHiddenInGame(false);
+	FLWheelSphereCollider->SetHiddenInGame(false);
 
 	// Mike: Setup the FRONT RIGHT Wheel - same parameters as the front left but the location is different
 	FRWheelSphereCollider = CreateDefaultSubobject<USphereComponent>(TEXT("Front Right Wheel Collider"));
@@ -133,7 +133,7 @@ AKartVehiclePawn::AKartVehiclePawn()
 	FRWheelSphereCollider->SetCollisionResponseToChannel(Car_Body_Channel, ECollisionResponse::ECR_Ignore);
 	FRWheelSphereCollider->SetCollisionResponseToChannel(Car_Mesh_Channel, ECollisionResponse::ECR_Ignore);
 	FRWheelSphereCollider->SetupAttachment(CarBoxCollider);
-	//FRWheelSphereCollider->SetHiddenInGame(false);
+	FRWheelSphereCollider->SetHiddenInGame(false);
 
 
 	// Mike: Setup the BACK LEFT Wheel - same parameters as the front left but the location is different
@@ -146,7 +146,7 @@ AKartVehiclePawn::AKartVehiclePawn()
 	BLWheelSphereCollider->SetCollisionResponseToChannel(Car_Body_Channel, ECollisionResponse::ECR_Ignore);
 	BLWheelSphereCollider->SetCollisionResponseToChannel(Car_Mesh_Channel, ECollisionResponse::ECR_Ignore);
 	BLWheelSphereCollider->SetupAttachment(CarBoxCollider);
-	//BLWheelSphereCollider->SetHiddenInGame(false);
+	BLWheelSphereCollider->SetHiddenInGame(false);
 
 	// Mike: Setup the BACK RIGHT Wheel - same parameters as the front left but the location is different
 	BRWheelSphereCollider = CreateDefaultSubobject<USphereComponent>(TEXT("Back Right Wheel Collider"));
@@ -158,7 +158,45 @@ AKartVehiclePawn::AKartVehiclePawn()
 	BRWheelSphereCollider->SetCollisionResponseToChannel(Car_Body_Channel, ECollisionResponse::ECR_Ignore);
 	BRWheelSphereCollider->SetCollisionResponseToChannel(Car_Mesh_Channel, ECollisionResponse::ECR_Ignore);
 	BRWheelSphereCollider->SetupAttachment(CarBoxCollider);
-	//BRWheelSphereCollider->SetHiddenInGame(false);
+	BRWheelSphereCollider->SetHiddenInGame(false);
+
+
+	///////////////////////////
+	// WHEEL SKEL MESH SETUP //-------------------------------------------------------------------
+	///////////////////////////
+
+	//////////////////////// Mike: FRONT LEFT  //////////////////////
+	// Mike: Create the default object 
+	FLWheelSkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Front Left Wheel Mesh"));
+
+	// Mike: Setup the collision responses of this class, it will ignore all collisions across the board
+	FLWheelSkeletalMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	FLWheelSkeletalMesh->SetCollisionObjectType(Car_Mesh_Channel);
+	FLWheelSkeletalMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+
+	// Mike: Attach this wheel to its associated wheel collider 
+	FLWheelSkeletalMesh->SetupAttachment(FLWheelSphereCollider);
+
+	//////////////////////// Mike: FRONT RIGHT  //////////////////////
+	FRWheelSkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Front Right Wheel Mesh"));
+	FRWheelSkeletalMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	FRWheelSkeletalMesh->SetCollisionObjectType(Car_Mesh_Channel);
+	FRWheelSkeletalMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+	FRWheelSkeletalMesh->SetupAttachment(FRWheelSphereCollider);
+
+	//////////////////////// Mike: BACK LEFT  //////////////////////
+	BLWheelSkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Back Left Wheel Mesh"));
+	BLWheelSkeletalMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	BLWheelSkeletalMesh->SetCollisionObjectType(Car_Mesh_Channel);
+	BLWheelSkeletalMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+	BLWheelSkeletalMesh->SetupAttachment(BLWheelSphereCollider);
+
+	//////////////////////// Mike: BACK RIGHT //////////////////////
+	BRWheelSkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Back Right Wheel Mesh"));
+	BRWheelSkeletalMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	BRWheelSkeletalMesh->SetCollisionObjectType(Car_Mesh_Channel);
+	BRWheelSkeletalMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+	BRWheelSkeletalMesh->SetupAttachment(BRWheelSphereCollider);
 
 
 	/////////////////////////////
@@ -434,11 +472,20 @@ void AKartVehiclePawn::MoveX(float AxisValue)
 
 void AKartVehiclePawn::MoveY(float AxisValue)
 {
-	// Sarfaraz: Movement on y direction
-	InputCurrenTurnAmount += AxisValue;
+	// Mike: Testing new controller mode that will have different turning feel than a keyboard
+	if (bControllerTestMode)
+	{
+		//No longer need to add the amount but simply just set it using the controllers input
+		InputCurrenTurnAmount = AxisValue;
+	}
+	else
+	{
+		// Sarfaraz: Movement on y direction
+		InputCurrenTurnAmount += AxisValue;
 
-	// Mike: Clamp the turning rate so that the car can't turn insanely fast
-	InputCurrenTurnAmount = FMath::Clamp(InputCurrenTurnAmount, -InputTurnRateLimit, InputTurnRateLimit);
+		// Mike: Clamp the turning rate so that the car can't turn insanely fast
+		InputCurrenTurnAmount = FMath::Clamp(InputCurrenTurnAmount, -InputTurnRateLimit, InputTurnRateLimit);
+	}
 }
 
 void AKartVehiclePawn::MoveXCallBack(float AxisValue)
@@ -519,23 +566,27 @@ void AKartVehiclePawn::ReducedValues()
 		InputCurrentSpeedAmount += SlowCarSpeedRate;
 	}
 
-	//////////////////////////
-	// Mike: The following section will be used to turn the wheel back to zero when the user is playing the game
-	// Mike: If the car is nearly going straight, turn off the turning
-	if (FMath::IsNearlyZero(InputCurrenTurnAmount, 0.005f))
+	// Mike: Now that we have a controller, we do not need to reduce the values for turning
+	if (!bControllerTestMode) 
 	{
-		InputCurrenTurnAmount = 0.0f;
-	}
-	// Mike: If the car is to the right, center it
-	else if (InputCurrenTurnAmount > 0)
-	{
-		InputCurrenTurnAmount -= SlowCarTurnRate;
-	}
-	// Mike: If the car is to the left, center it
-	else if (InputCurrenTurnAmount < 0)
-	{
-		InputCurrenTurnAmount += SlowCarTurnRate;
-	}
+		//////////////////////////
+		// Mike: The following section will be used to turn the wheel back to zero when the user is playing the game
+		// Mike: If the car is nearly going straight, turn off the turning
+		if (FMath::IsNearlyZero(InputCurrenTurnAmount, 0.005f))
+		{
+			InputCurrenTurnAmount = 0.0f;
+		}
+		// Mike: If the car is to the right, center it
+		else if (InputCurrenTurnAmount > 0)
+		{
+			InputCurrenTurnAmount -= SlowCarTurnRate;
+		}
+		// Mike: If the car is to the left, center it
+		else if (InputCurrenTurnAmount < 0)
+		{
+			InputCurrenTurnAmount += SlowCarTurnRate;
+		}
+	}	
 }
 
 void AKartVehiclePawn::MoveCar()
