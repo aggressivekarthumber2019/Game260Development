@@ -36,6 +36,12 @@ void UPawnStatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 		CurrentState->TickState(DeltaTime);
 	}
 
+	// Removing
+	for (auto Name : MRemoveList)
+	{
+		MStatModifiers.Remove(Name);
+	}
+
 	// Mods
 	for (auto& Entry : MStatModifiers)
 	{
@@ -114,9 +120,9 @@ void UPawnStatComponent::DisableMod(UPawnStatMod* Mod)
 	{
 		UStatModTracker* CurrentMod = &MStatModifiers[ObjectID];
 
-		if (CurrentMod->MStackCount == 1)
+		if (CurrentMod->MStackCount <= 1)
 		{
-			MStatModifiers.Remove(ObjectID);
+			MRemoveList.Emplace(ObjectID);
 		}
 		else
 		{
