@@ -18,6 +18,7 @@ class VEHICLEMOVEMENT_API UPawnStatComponent : public UActorComponent
 	GENERATED_BODY()
 
 public:
+	/** \brief callback */
 	UPROPERTY()
 	FMaxSpeedChangeCallback OnMaxSpeedChanged;
 
@@ -70,10 +71,10 @@ private:
 		float MModTimeRemainMS;
 
 		/** \brief	The modifier */
-		const UPawnStatMod* MMod;
+		UPawnStatMod* MMod;
 	};
 
-	TMap<int32, UStatModTracker> MStatModifiers;
+	TMap<FName, UStatModTracker> MStatModifiers;
 
 public:
 	// Called every frame
