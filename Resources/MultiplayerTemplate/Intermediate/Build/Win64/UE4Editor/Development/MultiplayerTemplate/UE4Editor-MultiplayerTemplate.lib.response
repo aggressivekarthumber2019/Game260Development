@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MultiplayerTemplate.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\MultiplayerTemplate\Intermediate\Build\Win64\MultiplayerTemplateEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\MultiplayerTemplate\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerTemplate\MultiplayerTemplate.cpp.obj"
+"C:\MultiplayerTemplate\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerTemplate\MultiplayerTemplateGameModeBase.cpp.obj"
+"C:\MultiplayerTemplate\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerTemplate\MultiplayerTemplate.init.gen.cpp.obj"
+"C:\MultiplayerTemplate\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerTemplate\MultiplayerTemplateGameModeBase.gen.cpp.obj"
+"C:\MultiplayerTemplate\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerTemplate\PCLaunch.rc.res"
+/OUT:"C:\MultiplayerTemplate\Intermediate\Build\Win64\UE4Editor\Development\MultiplayerTemplate\UE4Editor-MultiplayerTemplate.lib"

@@ -1,0 +1,5 @@
+C:\MultiplayerTemplate\Source\MultiplayerTemplate\MultiplayerTemplate.Build.cs
+C:\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\AdvancedSessions.Build.cs
+C:\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\AdvancedSteamSessions.Build.cs
+C:\MultiplayerTemplate\Source\MultiplayerTemplate.Target.cs
+C:\MultiplayerTemplate\Source\MultiplayerTemplateEditor.Target.cs
