@@ -1,5 +1,5 @@
-Resources/VehicleMovement/Intermediate/
-Resources/VehicleMovement/Binaries/
+Resources/*/Intermediate/
+Resources/*/Binaries/
 *.orig
 
 # Visual Studio 2015 user specific files
