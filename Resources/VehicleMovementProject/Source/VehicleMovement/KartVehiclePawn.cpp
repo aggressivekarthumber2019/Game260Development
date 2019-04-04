@@ -264,7 +264,7 @@ AKartVehiclePawn::AKartVehiclePawn()
 	CarSpeedText->SetWorldRotation(FRotator(0.0f, 180.0f, 0.0f));
 	
 	// Mike: Change the location of the text to face the camera
-	CarSpeedText->SetRelativeLocation(FVector(-100.0f, -45.0f, 10.0f));
+	CarSpeedText->SetRelativeLocation(FVector(-120.0f, -85.0f, 70.0f));
 
 	/////////////////////////////////////
 	//// PAWN STAT COMPONENT SETUP //-------------------------------------------------------------------
@@ -341,11 +341,21 @@ void AKartVehiclePawn::BeginPlay()
 void AKartVehiclePawn::FixedUpdate()
 {
 	// Sarfaraz: If the car is on the ground, then reduce the speed values and move the car
-	if (RayCastGround()) 
+	if (RayCastGround())
 	{
+		canMove = true;
 		ReducedValues();
-		MoveCar();
 	}
+
+	// Mike: If the car is not on the ground, then set the boolean can move to false
+	else
+	{
+		canMove = false;
+	}
+
+	// Mike: Always move car regardless of the position
+	MoveCar();
+	
 
 	//Mike: Debug
 	if (bShouldDisplayOnScreenDebug)
@@ -402,6 +412,9 @@ void AKartVehiclePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	// Sarfaraz: Bind the method "Brake" to the axis "Brakes"
 	// Mike: This is currently bound to CTRL
 	PlayerInputComponent->BindAxis("Brakes", this, &AKartVehiclePawn::BreakCallBack);
+
+	// Mike: Axis for AirControl
+	PlayerInputComponent->BindAxis("AirControlXOnly", this, &AKartVehiclePawn::AirControl);
 }
 
 void AKartVehiclePawn::UpdateSpeedometer()
@@ -466,8 +479,9 @@ void AKartVehiclePawn::MoveX(float AxisValue)
 
 	//Debug
 	if (bShouldDisplayOnScreenDebug)
-			if (GEngine)
-				GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, FString::SanitizeFloat(InputCurrentSpeedAmount));
+		if (GEngine)
+			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, FString::SanitizeFloat(InputCurrentSpeedAmount));
+
 }
 
 void AKartVehiclePawn::MoveY(float AxisValue)
@@ -485,6 +499,16 @@ void AKartVehiclePawn::MoveY(float AxisValue)
 
 		// Mike: Clamp the turning rate so that the car can't turn insanely fast
 		InputCurrenTurnAmount = FMath::Clamp(InputCurrenTurnAmount, -InputTurnRateLimit, InputTurnRateLimit);
+	}
+}
+
+void AKartVehiclePawn::AirControl(float AxisValue)
+{
+	if (!canMove)
+	{
+		AirControlXValue = AxisValue;
+		if (GEngine)
+			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, FString::SanitizeFloat(AirControlXValue));
 	}
 }
 
@@ -591,17 +615,28 @@ void AKartVehiclePawn::ReducedValues()
 
 void AKartVehiclePawn::MoveCar()
 {
+	// Mike: 
+	FVector TempFowardVector;
+
 	// Sarfaraz: multiply the forward vector by the speed
-	FVector TempFowardVector = FVector(GetActorForwardVector().X * InputCurrentSpeedAmount, GetActorForwardVector().Y * InputCurrentSpeedAmount, 0.0f);
-	
+	if (canMove)
+	{
+		TempFowardVector = FVector(GetActorForwardVector().X * InputCurrentSpeedAmount, GetActorForwardVector().Y * InputCurrentSpeedAmount, -0.01f);
+		// Sarfaraz: set the turn speed
+		AddActorLocalRotation(FRotator(0, InputCurrenTurnAmount, 0));
+	}
+	else
+	{
+		TempFowardVector = FVector(0.0f, 0.0f, -0.01f);
+
+		AddActorLocalRotation(FRotator(AirControlXValue, 0, InputCurrenTurnAmount));
+	}
+
 	// Sarfaraz: Take the forward vector of the car and noramlize
 	TempFowardVector.Normalize(1);
 
 	// Sarfaraz: Add input to the car via add input vector
 	PawnMovementComponent->AddInputVector(TempFowardVector);	
-
-	// Sarfaraz: set the turn speed
-	AddActorLocalRotation(FRotator(0, InputCurrenTurnAmount, 0));
 }
 
 bool AKartVehiclePawn::RayCastGround()
@@ -616,7 +651,7 @@ bool AKartVehiclePawn::RayCastGround()
 	FVector startTrace = GetActorLocation() - UpVector * 30;
 
 	// Sarfaraz: The end of the trace will be a small line from the start trace and down
-	FVector EndTrace = (-UpVector * 15.0f) + startTrace;
+	FVector EndTrace = (-UpVector * 25.0f) + startTrace;
 
 	// DEBUG ONLY Sarfaraz: Draw a debug line that represends the trace
 	// DrawDebugLine(GetWorld(), startTrace, EndTrace, FColor::Red, true);
@@ -632,7 +667,6 @@ bool AKartVehiclePawn::RayCastGround()
 		{			
 			return true;
 		}
-		
 	}
 	return false;
 }

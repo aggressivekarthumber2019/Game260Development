@@ -183,6 +183,10 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Getter")
 	float GetCurrentTurnAmount() { return InputCurrenTurnAmount; }
 
+	/** Mike: Getter function for if the character can move */
+	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Getter")
+	bool GetCanMove() { return canMove; }
+
 private:
 
 	// Mike: String that displays the speed of the car
@@ -193,8 +197,10 @@ private:
 
 	float InputCurrenTurnAmount;
 
+	float AirControlXValue;
+
 	// Sarfaraz: Boolean to determine if the car can move or not
-	bool  canMove;
+	bool canMove;
 
 protected:
 	// Called when the game starts or when spawned
@@ -213,8 +219,13 @@ public:
 	// Movement on x and y direction method
 	UFUNCTION(BlueprintCallable)
 	void MoveX(float AxisValue);
+
 	UFUNCTION(BlueprintCallable)
 	void MoveY(float AxisValue);
+
+	// Movement on x and y direction method
+	UFUNCTION(BlueprintCallable)
+	void AirControl(float AxisValue);
 
 	UFUNCTION()
 	void MoveXCallBack(float AxisValue);
