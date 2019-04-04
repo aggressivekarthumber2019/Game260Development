@@ -229,6 +229,10 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void SetLastCheckpointLocation(FVector Location);
 
+	/** Matthew: Get checkpoint location to be respawned at */
+	UFUNCTION(BlueprintCallable)
+		FVector GetLastCheckpointLocation();
+
 	/** Matthew: Call this when the player needs to be respawned */
 	UFUNCTION(BlueprintCallable)
 		void Respawn();

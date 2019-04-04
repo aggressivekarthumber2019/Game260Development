@@ -21,7 +21,6 @@
 #include "Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h"
 
 #include "TimerManager.h"
-#include "Checkpoint.h"
 
 
 // Sets default values
@@ -537,8 +536,8 @@ void AKartVehiclePawn::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp,
 	if (OtherActor->ActorHasTag("Checkpoint"))
 		SetLastCheckpointLocation(OtherActor->GetActorLocation());
 
-	if (OtherActor->ActorHasTag("OutofBounds"))
-		Respawn();	
+	//if (OtherActor->ActorHasTag("OutofBounds"))
+		//Respawn();	
 }
 
 // Exit Collider
@@ -547,12 +546,19 @@ void AKartVehiclePawn::OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, c
 	
 }
 
-void AKartVehiclePawn::SetLastCheckpointLocation(FVector Location) {
+void AKartVehiclePawn::SetLastCheckpointLocation(FVector Location)
+{
 	lastCheckpointLocation = Location;
 	lastCheckpointLocation.Z += 10;
 }
 
-void AKartVehiclePawn::Respawn() {
+FVector AKartVehiclePawn::GetLastCheckpointLocation()
+{
+	return lastCheckpointLocation;
+}
+
+void AKartVehiclePawn::Respawn()
+{
 	// Matthew: Make sure you've actually hit a checkpoint
 	if (lastCheckpointLocation != FVector(0, 0, 0))
 		SetActorLocation(lastCheckpointLocation);
