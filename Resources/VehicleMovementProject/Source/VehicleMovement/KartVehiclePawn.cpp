@@ -199,15 +199,15 @@ AKartVehiclePawn::AKartVehiclePawn()
 	CameraSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Camera SpringArm"));
 	
 	// Sarfaraz: Add an offset to the spring arm component, placing it behind the camera
-	SpringArmCameraOffset = FVector(0.f, 0.f, 100.f);
+	SpringArmCameraOffset = FVector(0.f, 0.f, 70.f);
 	CameraSpringArm->TargetOffset = SpringArmCameraOffset;
 	
 	// Sarfaraz: Add a rotation to the spring arm component, making it face down a bit
-	SpringArmCameraRotation = FRotator(-10.f, 0.f, 0.f); //Remove this line if you want to customize the values in blueprints
+	SpringArmCameraRotation = FRotator(0.0f, 0.0f, 0.0f); //Remove this line if you want to customize the values in blueprints
 	CameraSpringArm->SetRelativeRotation(SpringArmCameraRotation);
 	
 	// Sarfaraz: Set the length of the arm
-	CameraSpringArm->TargetArmLength = 600.0f;
+	CameraSpringArm->TargetArmLength = 200.0f;
 	
 	// Sarfaraz: Enable rotation lag with the camera
 	CameraSpringArm->bEnableCameraRotationLag = true;
@@ -234,6 +234,8 @@ AKartVehiclePawn::AKartVehiclePawn()
 	// Sarfaraz: Attach the camera to the camera spring arm
 	CameraComponent->SetupAttachment(CameraSpringArm, USpringArmComponent::SocketName);
 	
+	CameraComponent->SetRelativeRotation(FRotator(-15.0f, 0.0f, 0.0f));
+
 	// Sarfaraz: Disable this camera from using the pawn control rotation
 	CameraComponent->bUsePawnControlRotation = false;
 	
@@ -607,16 +609,21 @@ bool AKartVehiclePawn::RayCastGround()
 	FVector startTrace = GetActorLocation() - UpVector * 13;
 
 	// Sarfaraz: The end of the trace will be a small line from the start trace and down
-	FVector EndTrace = (-UpVector * 15.0f) + startTrace;
+	FVector EndTrace = (-UpVector * 25.0f) + startTrace;
 
 	// DEBUG ONLY Sarfaraz: Draw a debug line that represends the trace
-	// DrawDebugLine(GetWorld(), startTrace, EndTrace, FColor::Red, true);
+	DrawDebugLine(GetWorld(), startTrace, EndTrace, FColor::Red, true);
 
 	// Sarfaraz: Line trace and see if anything is hit
 	if (GetWorld()->LineTraceSingleByChannel(*hitResult, startTrace, EndTrace, ECC_Visibility))
 	{
 		// Sarfaraz: If something is hit, get the actor that was hit
 		AActor* hitActor = hitResult->GetActor();
+
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Hit Actor: " + hitActor->GetName());
+		}
 
 		// Sarfaraz: Check that the actor is valid and that it has the tag "Road". If it does, it's on the ground
 		if (hitActor && hitActor->ActorHasTag("Road"))
