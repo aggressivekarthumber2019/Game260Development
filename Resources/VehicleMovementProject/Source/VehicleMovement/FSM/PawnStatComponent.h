@@ -8,6 +8,8 @@
 #include "PawnState.h"
 #include "PawnStatComponent.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FMaxSpeedChangeCallback);
+
 
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class VEHICLEMOVEMENT_API UPawnStatComponent : public UActorComponent
@@ -15,41 +17,45 @@ class VEHICLEMOVEMENT_API UPawnStatComponent : public UActorComponent
 	GENERATED_BODY()
 
 public:
+	/** \brief callback */
+	UPROPERTY()
+		FMaxSpeedChangeCallback OnMaxSpeedChanged;
+
 	/** \brief	The floating pawn movements max speed value. Can be changed in blueprints and editor
 	/** \author Mike, Jaymie */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Stats")
-	float VehiclePawnMaxSpeed;
+		float VehiclePawnMaxSpeed;
 
 	/** \brief	The floating pawn movements acceleration value. Can be changed in blueprints and editor
 	/** \author Mike, Jaymie */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Stats")
-	float VehiclePawnAcceleration;
+		float VehiclePawnAcceleration;
 
 	/** \brief	The floating pawn movements deceleration value. Can be changed in blueprints and editor
 	/** \author Mike, Jaymie */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Stats")
-	float VehiclePawnDeceleration;
+		float VehiclePawnDeceleration;
 
 	/** \brief	The floating pawn movements max speed value. Can be changed in blueprints and editor
 	/** \author Mike, Jaymie */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Stats")
-	float VehiclePawnBoostSpeed;
+		float VehiclePawnBoostSpeed;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Stats")
-	float VehicleSpecialMeter;
+		float VehicleSpecialMeter;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vehicle Stats")
-	float VehicleSpecialRefillRate;
+		float VehicleSpecialRefillRate;
 
 	// Sets default values for this component's properties
 	UPawnStatComponent();
 
 protected:
 	UPROPERTY()
-	UPawnState* CurrentState;
+		UPawnState* CurrentState;
 
 	UPROPERTY()
-	TArray<UPawnStatMod*> Inventory;
+		TArray<UPawnStatMod*> Inventory;
 
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -64,25 +70,30 @@ private:
 		float MModTimeRemainMS;
 
 		/** \brief	The modifier */
-		const UPawnStatMod* MMod;
+		UPawnStatMod* MMod;
 	};
 
-	TMap<int32, UStatModTracker> MStatModifiers;
+	TMap<FName, UStatModTracker> MStatModifiers;
+
+	TArray<FName> MRemoveList;
 
 public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UFUNCTION(BlueprintCallable)
-	UPawnState* GetCurrentState() const;
+		UPawnState* GetCurrentState() const;
 
 	UFUNCTION(BlueprintCallable)
-	void SwitchState(UPawnState* NewState);
+		void SwitchState(UPawnState* NewState);
 
 	void EnableMod(UPawnStatMod* Mod);
 
 	void DisableMod(UPawnStatMod* Mod);
 
 	UFUNCTION(BlueprintCallable)
-	void AddItem(UPawnStatMod* Mod);
+		void AddItem(UPawnStatMod* Mod);
+
+	UFUNCTION(BlueprintCallable)
+		void SetMaxSpeed(const float Speed);
 };

@@ -21,7 +21,7 @@ void UPawnStatComponent::BeginPlay()
 	Super::BeginPlay();
 
 	// ...
-	
+
 }
 
 
@@ -34,6 +34,33 @@ void UPawnStatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 	if (IsValid(CurrentState))
 	{
 		CurrentState->TickState(DeltaTime);
+	}
+
+	// Removing
+	for (auto Name : MRemoveList)
+	{
+		MStatModifiers.Remove(Name);
+	}
+
+	// Mods
+	for (auto& Entry : MStatModifiers)
+	{
+		UStatModTracker* CurrentMod = &Entry.Value;
+
+		// Subtract time
+		if (CurrentMod->MMod->MMaxTimeMS != 0.f)
+		{
+			// Subtract time
+			CurrentMod->MModTimeRemainMS -= DeltaTime * 1000.f;
+
+			if (CurrentMod->MModTimeRemainMS < 0.f)
+			{
+				// Reset timer
+				CurrentMod->MModTimeRemainMS = CurrentMod->MMod->MMaxTimeMS;
+
+				DisableMod(CurrentMod->MMod);
+			}
+		}
 	}
 }
 
@@ -60,21 +87,60 @@ void UPawnStatComponent::SwitchState(UPawnState* NewState)
 
 void UPawnStatComponent::EnableMod(UPawnStatMod* Mod)
 {
-	if (Mod->IsCommand)
+	// Mod id
+	FName ObjectID = Mod->StaticClass()->GetDefaultObjectName();
+
+	// Check if we have that mod
+	if (MStatModifiers.Contains(ObjectID))
 	{
-		Mod->EnableMod(this, Cast<AKartVehiclePawn>(GetOwner()));
+		UStatModTracker CurrentMod = MStatModifiers[ObjectID];
+
+		// Increment stack
+		CurrentMod.MStackCount++;
 	}
+	else
+	{
+		UStatModTracker NewMod;
+		NewMod.MMod = Mod;
+		NewMod.MModTimeRemainMS = Mod->MMaxTimeMS;
+		NewMod.MStackCount = Mod->MMaxStackCount;
+
+		MStatModifiers.Emplace(ObjectID, NewMod);
+	}
+
+	Mod->EnableMod(this, Cast<AKartVehiclePawn>(GetOwner()));
 }
 
 void UPawnStatComponent::DisableMod(UPawnStatMod* Mod)
 {
-	if (Mod->IsCommand)
+	// Mod id
+	FName ObjectID = Mod->StaticClass()->GetDefaultObjectName();
+	// Check if we have that mod
+	if (MStatModifiers.Contains(ObjectID))
 	{
-		Mod->DisableMod(this, Cast<AKartVehiclePawn>(GetOwner()));
+		UStatModTracker* CurrentMod = &MStatModifiers[ObjectID];
+
+		if (CurrentMod->MStackCount <= 1)
+		{
+			MRemoveList.Emplace(ObjectID);
+		}
+		else
+		{
+			// Decurment stack
+			CurrentMod->MStackCount--;
+		}
 	}
+
+	Mod->DisableMod(this, Cast<AKartVehiclePawn>(GetOwner()));
 }
 
 void UPawnStatComponent::AddItem(UPawnStatMod* Mod)
 {
 	Inventory.Emplace(Mod);
+}
+
+void UPawnStatComponent::SetMaxSpeed(const float Speed)
+{
+	VehiclePawnMaxSpeed = Speed;
+	OnMaxSpeedChanged.Broadcast();
 }

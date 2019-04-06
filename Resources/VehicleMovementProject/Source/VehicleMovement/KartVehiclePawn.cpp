@@ -331,6 +331,9 @@ void AKartVehiclePawn::BeginPlay()
 	GetWorld()->GetTimerManager().SetTimer(LoopTimerHandle, this, &AKartVehiclePawn::FixedUpdate, FrameRate, true);
 
 	GetWorld()->GetTimerManager().SetTimer(LoopSpeedometer, this, &AKartVehiclePawn::UpdateSpeedometer, 0.1f, true);
+
+	// Register callback
+	PawnStatComponent->OnMaxSpeedChanged.AddDynamic(this, &AKartVehiclePawn::MaxSpeedChangedCallBack);
 }
 
 void AKartVehiclePawn::FixedUpdate()
@@ -349,6 +352,11 @@ void AKartVehiclePawn::FixedUpdate()
 
 	// Mike: Always move car regardless of the position
 	MoveCar();
+}
+
+void AKartVehiclePawn::MaxSpeedChangedCallBack()
+{
+	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnMaxSpeed;
 }
 
 void AKartVehiclePawn::DriftRuptor(const float Amount)

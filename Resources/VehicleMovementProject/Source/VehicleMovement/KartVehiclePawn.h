@@ -287,6 +287,10 @@ public:
 	UFUNCTION()
 	void UseItemCode();
 
+	/** Jaymie: Max speed changed callback */
+	UFUNCTION(BlueprintCallable)
+	void MaxSpeedChangedCallBack();
+
 	/** Jaymie: Driftruptor logic */
 	UFUNCTION(BlueprintCallable)
 	void DriftRuptor(const float Amount);
