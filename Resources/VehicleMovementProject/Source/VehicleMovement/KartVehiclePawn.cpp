@@ -20,6 +20,8 @@
 
 #include "Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h"
 
+#include "Kismet/KismetSystemLibrary.h"
+
 #include "TimerManager.h"
 #include "FSM/PawnStatComponent.h"
 
@@ -41,7 +43,10 @@ AKartVehiclePawn::AKartVehiclePawn()
 	SetRootComponent(CarBoxCollider);
 
 	// Mike: Change the size of the box
-	CarBoxCollider->SetBoxExtent(FVector(60.0f, 33.0f, 20.0f));
+	CarBoxCollider->SetBoxExtent(FVector(60.0f, 45.0f, 30.0f));
+
+	// Mike: Set the center of mass of the object to be at the bottom of the box extend 
+	CarBoxCollider->SetCenterOfMass(FVector(0.0f, 0.0f, -CarBoxCollider->GetScaledBoxExtent().Z));
 
 	// Mike: Enable physics for the box
 	CarBoxCollider->SetSimulatePhysics(true);
@@ -86,9 +91,6 @@ AKartVehiclePawn::AKartVehiclePawn()
 	SkeletalMeshComponent->SetCollisionObjectType(Car_Mesh_Channel);
 	SkeletalMeshComponent->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
 
-	// Mike: Add a small offset to the skeletal mesh so it is at the right level
-	SkeletalMeshComponent->SetRelativeLocation(FVector(0.0f, 0.0f, -35.0f));
-
 	//////////////////////////
 	// WHEEL COLLIDER SETUP //-------------------------------------------------------------------
 	//////////////////////////
@@ -96,9 +98,6 @@ AKartVehiclePawn::AKartVehiclePawn()
 	// Mike: Setup the FRONT LEFT Wheel
 	// Mike:Create default object
 	FLWheelSphereCollider = CreateDefaultSubobject<USphereComponent>(TEXT("Front Left Wheel Collider"));
-	
-	// Mike: Add an offset so it's in the right location
-	FLWheelSphereCollider->SetRelativeLocation(FVector(50.0f, -28.0f, -14.0f)); 
 	
 	// Mike: Set the size of the sphere
 	FLWheelSphereCollider->SetSphereRadius(20.0f); 
@@ -122,7 +121,6 @@ AKartVehiclePawn::AKartVehiclePawn()
 
 	// Mike: Setup the FRONT RIGHT Wheel - same parameters as the front left but the location is different
 	FRWheelSphereCollider = CreateDefaultSubobject<USphereComponent>(TEXT("Front Right Wheel Collider"));
-	FRWheelSphereCollider->SetRelativeLocation(FVector(50.0f, 28.0f, -14.0f));
 	FRWheelSphereCollider->SetSphereRadius(20.0f);
 	FRWheelSphereCollider->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	FRWheelSphereCollider->SetCollisionObjectType(Car_Wheel_Channel);
@@ -134,7 +132,6 @@ AKartVehiclePawn::AKartVehiclePawn()
 
 	// Mike: Setup the BACK LEFT Wheel - same parameters as the front left but the location is different
 	BLWheelSphereCollider = CreateDefaultSubobject<USphereComponent>(TEXT("Back Left Wheel Collider"));
-	BLWheelSphereCollider->SetRelativeLocation(FVector(-52.0f, -31.0f, -14.0f));
 	BLWheelSphereCollider->SetSphereRadius(20.0f);
 	BLWheelSphereCollider->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	BLWheelSphereCollider->SetCollisionObjectType(Car_Wheel_Channel);
@@ -146,7 +143,6 @@ AKartVehiclePawn::AKartVehiclePawn()
 
 	// Mike: Setup the BACK RIGHT Wheel - same parameters as the front left but the location is different
 	BRWheelSphereCollider = CreateDefaultSubobject<USphereComponent>(TEXT("Back Right Wheel Collider"));
-	BRWheelSphereCollider->SetRelativeLocation(FVector(-52.0f, 31.0f, -14.0f));
 	BRWheelSphereCollider->SetSphereRadius(20.0f);
 	BRWheelSphereCollider->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 	BRWheelSphereCollider->SetCollisionObjectType(Car_Wheel_Channel);
@@ -203,7 +199,7 @@ AKartVehiclePawn::AKartVehiclePawn()
 	CameraSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Camera SpringArm"));
 	
 	// Sarfaraz: Add an offset to the spring arm component, placing it behind the camera
-	SpringArmCameraOffset = FVector(0.f, 0.f, 70.f);
+	SpringArmCameraOffset = FVector(0.0f, 0.0f, 56.0f);
 	CameraSpringArm->TargetOffset = SpringArmCameraOffset;
 	
 	// Sarfaraz: Add a rotation to the spring arm component, making it face down a bit
@@ -295,6 +291,23 @@ AKartVehiclePawn::AKartVehiclePawn()
 void AKartVehiclePawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
+
+void AKartVehiclePawn::OnConstruction(const FTransform & T)
+{
+	// Mike: Super is first so it calls the blueprints Construction script first
+	Super::OnConstruction(T);
+
+	// Mike: Then set the offset using the C++
+	// Mike: Add a small offset to the skeletal mesh so it is at the right level
+	SkeletalMeshComponent->SetRelativeLocation(FVector(0.0f, 0.0f, (VehicleOffsetZ - 21.0f)));
+
+	// Mike: Add an offset so it's in the right location
+	FLWheelSphereCollider->SetRelativeLocation(FVector(50.0f, -28.0f, VehicleOffsetZ));
+	FRWheelSphereCollider->SetRelativeLocation(FVector(50.0f, 28.0f, VehicleOffsetZ));
+	BLWheelSphereCollider->SetRelativeLocation(FVector(-52.0f, -31.0f, VehicleOffsetZ));
+	BRWheelSphereCollider->SetRelativeLocation(FVector(-52.0f, 31.0f, VehicleOffsetZ));
+
 }
 
 void AKartVehiclePawn::BeginPlay()
@@ -587,7 +600,7 @@ void AKartVehiclePawn::MoveCar()
 	if (canMove)
 	{
 		// Mike: 
-		TempFowardVector = FVector(GetActorForwardVector().X * InputCurrentSpeedAmount, GetActorForwardVector().Y * InputCurrentSpeedAmount, -0.01f);
+		TempFowardVector = FVector(CarBoxCollider->GetForwardVector().X * InputCurrentSpeedAmount, CarBoxCollider->GetForwardVector().Y * InputCurrentSpeedAmount, CarBoxCollider->GetForwardVector().Z * InputCurrentSpeedAmount);
 		// Sarfaraz: set the turn speed
 		AddActorLocalRotation(FRotator(0, InputCurrenTurnAmount, 0));
 	}
@@ -607,32 +620,32 @@ void AKartVehiclePawn::MoveCar()
 	PawnMovementComponent->AddInputVector(TempFowardVector);	
 }
 
+
 bool AKartVehiclePawn::RayCastGround()
 {
-	// Sarfaraz: Make a hit result which will store what was hit by the trace
-	FHitResult* hitResult = new FHitResult();
-
 	// Sarfaraz: Get the up vector of the car, used for 
 	//FVector UpVector = GetActorUpVector();
 	FVector UpVector = CarBoxCollider->GetUpVector();
 
-
 	// Sarfaraz: The start of the trace will be at the cars location and below it
 	//FVector startTrace = GetActorLocation() - UpVector * 13;
-	FVector startTrace = CarBoxCollider->GetComponentLocation() - UpVector * 10;
+	FVector StartTrace = CarBoxCollider->GetComponentLocation() - UpVector;
 
 	// Sarfaraz: The end of the trace will be a small line from the start trace and down
-	FVector EndTrace = (-UpVector * 20.0f) + startTrace;
-
-	// DEBUG ONLY Sarfaraz: Draw a debug line that represends the trace
-	if(bShouldDebugTraceLine && GEngine)
-		DrawDebugLine(GetWorld(), startTrace, EndTrace, FColor::Red, true);
+	FVector EndTrace = (-UpVector * 40.0f) + StartTrace;
+	
+	// Mike: Update hit resultt and temp AActor
+	TArray<AActor*> temp;
+	FHitResult hitResult;
+	
+	// Mike: Update line trace for complex collisions of the splines
+	UKismetSystemLibrary::LineTraceSingle(GetWorld(), StartTrace, EndTrace, UEngineTypes::ConvertToTraceType(ECollisionChannel::ECC_Visibility), true, temp, EDrawDebugTrace::None, hitResult, true);
 
 	// Sarfaraz: Line trace and see if anything is hit
-	if (GetWorld()->LineTraceSingleByChannel(*hitResult, startTrace, EndTrace, ECC_Visibility))
+	if (hitResult.bBlockingHit)
 	{
 		// Sarfaraz: If something is hit, get the actor that was hit
-		AActor* hitActor = hitResult->GetActor();
+		AActor* hitActor = hitResult.GetActor();
 
 		if (bShouldDebugTraceLine && GEngine)
 		{

@@ -21,6 +21,8 @@ public:
 	// Sets default values for this pawn's properties
 	AKartVehiclePawn();
 
+	virtual void OnConstruction(const FTransform& T) override;
+
 	/////////////////////////////////////////////////
 	///// DEBUGGING VARIABLES AND METHODS ///////////
 	/////////////////////////////////////////////////
@@ -200,7 +202,12 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Vehicle Parts | Getter")
 	bool GetIsGoingForward() { return bIsGoingForward; }
 
+	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Setter")
+	void SetVehicleMeshOffset(float val) { VehicleOffsetZ = val; }
+
 private:
+
+	float VehicleOffsetZ;
 
 	// Mike: String that displays the speed of the car
 	FString SpeedometerString;
