@@ -359,6 +359,11 @@ void AKartVehiclePawn::MaxSpeedChangedCallBack()
 	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnMaxSpeed;
 }
 
+void AKartVehiclePawn::MaxSpeedChangedCallBack()
+{
+	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnMaxSpeed;
+}
+
 void AKartVehiclePawn::DriftRuptor(const float Amount)
 {
 	AddActorLocalRotation(FRotator(0, Amount, 0));

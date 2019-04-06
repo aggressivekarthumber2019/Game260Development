@@ -21,7 +21,7 @@ void UPawnStatComponent::BeginPlay()
 	Super::BeginPlay();
 
 	// ...
-
+	
 }
 
 
