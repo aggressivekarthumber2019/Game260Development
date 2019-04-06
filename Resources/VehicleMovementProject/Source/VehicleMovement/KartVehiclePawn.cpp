@@ -41,7 +41,7 @@ AKartVehiclePawn::AKartVehiclePawn()
 	SetRootComponent(CarBoxCollider);
 
 	// Mike: Change the size of the box
-	CarBoxCollider->SetBoxExtent(FVector(80.0f, 43.0f, 24.0f));
+	CarBoxCollider->SetBoxExtent(FVector(60.0f, 33.0f, 20.0f));
 
 	// Mike: Enable physics for the box
 	CarBoxCollider->SetSimulatePhysics(true);
@@ -85,13 +85,6 @@ AKartVehiclePawn::AKartVehiclePawn()
 	// Mike: Add a small offset to the skeletal mesh so it is at the right level
 	SkeletalMeshComponent->SetRelativeLocation(FVector(0.0f, 0.0f, -35.0f));
 
-	// Mike: Find the car mesh in the editor and set it to the CarMesh USkeletal Mesh Object
-	//static ConstructorHelpers::FObjectFinder<USkeletalMesh> CarMesh(TEXT("/Game/3D/Cars/GoodTestCar/JennyCar.JennyCar"));
-
-	// Mike: Set the skeletal mesh of the skeletal mesh component 
-	//SkeletalMeshComponent->SetSkeletalMesh(CarMesh.Object);
-
-	
 	//////////////////////////
 	// WHEEL COLLIDER SETUP //-------------------------------------------------------------------
 	//////////////////////////
@@ -135,7 +128,6 @@ AKartVehiclePawn::AKartVehiclePawn()
 	FRWheelSphereCollider->SetupAttachment(CarBoxCollider);
 	FRWheelSphereCollider->SetHiddenInGame(false);
 
-
 	// Mike: Setup the BACK LEFT Wheel - same parameters as the front left but the location is different
 	BLWheelSphereCollider = CreateDefaultSubobject<USphereComponent>(TEXT("Back Left Wheel Collider"));
 	BLWheelSphereCollider->SetRelativeLocation(FVector(-52.0f, -31.0f, -14.0f));
@@ -167,36 +159,36 @@ AKartVehiclePawn::AKartVehiclePawn()
 
 	//////////////////////// Mike: FRONT LEFT  //////////////////////
 	// Mike: Create the default object 
-	FLWheelSkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Front Left Wheel Mesh"));
+	FLWheelStaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Front Left Wheel Mesh"));
 
 	// Mike: Setup the collision responses of this class, it will ignore all collisions across the board
-	FLWheelSkeletalMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-	FLWheelSkeletalMesh->SetCollisionObjectType(Car_Mesh_Channel);
-	FLWheelSkeletalMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+	FLWheelStaticMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	FLWheelStaticMesh->SetCollisionObjectType(Car_Mesh_Channel);
+	FLWheelStaticMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
 
 	// Mike: Attach this wheel to its associated wheel collider 
-	FLWheelSkeletalMesh->SetupAttachment(FLWheelSphereCollider);
+	FLWheelStaticMesh->SetupAttachment(FLWheelSphereCollider);
 
 	//////////////////////// Mike: FRONT RIGHT  //////////////////////
-	FRWheelSkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Front Right Wheel Mesh"));
-	FRWheelSkeletalMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-	FRWheelSkeletalMesh->SetCollisionObjectType(Car_Mesh_Channel);
-	FRWheelSkeletalMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
-	FRWheelSkeletalMesh->SetupAttachment(FRWheelSphereCollider);
+	FRWheelStaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Front Right Wheel Mesh"));
+	FRWheelStaticMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	FRWheelStaticMesh->SetCollisionObjectType(Car_Mesh_Channel);
+	FRWheelStaticMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+	FRWheelStaticMesh->SetupAttachment(FRWheelSphereCollider);
 
 	//////////////////////// Mike: BACK LEFT  //////////////////////
-	BLWheelSkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Back Left Wheel Mesh"));
-	BLWheelSkeletalMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-	BLWheelSkeletalMesh->SetCollisionObjectType(Car_Mesh_Channel);
-	BLWheelSkeletalMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
-	BLWheelSkeletalMesh->SetupAttachment(BLWheelSphereCollider);
+	BLWheelStaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Back Left Wheel Mesh"));
+	BLWheelStaticMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	BLWheelStaticMesh->SetCollisionObjectType(Car_Mesh_Channel);
+	BLWheelStaticMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+	BLWheelStaticMesh->SetupAttachment(BLWheelSphereCollider);
 
 	//////////////////////// Mike: BACK RIGHT //////////////////////
-	BRWheelSkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Back Right Wheel Mesh"));
-	BRWheelSkeletalMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-	BRWheelSkeletalMesh->SetCollisionObjectType(Car_Mesh_Channel);
-	BRWheelSkeletalMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
-	BRWheelSkeletalMesh->SetupAttachment(BRWheelSphereCollider);
+	BRWheelStaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Back Right Wheel Mesh"));
+	BRWheelStaticMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	BRWheelStaticMesh->SetCollisionObjectType(Car_Mesh_Channel);
+	BRWheelStaticMesh->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+	BRWheelStaticMesh->SetupAttachment(BRWheelSphereCollider);
 
 
 	/////////////////////////////
@@ -291,6 +283,7 @@ AKartVehiclePawn::AKartVehiclePawn()
 	// Sarfaraz: Setup the default values for the game's frame rate
 	FrameRate = 0.0067f;
 	canMove = true;
+	bIsBraking = false;
 }
 
 void AKartVehiclePawn::Tick(float DeltaTime)
@@ -344,7 +337,6 @@ void AKartVehiclePawn::FixedUpdate()
 	if (RayCastGround())
 	{
 		canMove = true;
-		ReducedValues();
 	}
 
 	// Mike: If the car is not on the ground, then set the boolean can move to false
@@ -355,12 +347,6 @@ void AKartVehiclePawn::FixedUpdate()
 
 	// Mike: Always move car regardless of the position
 	MoveCar();
-	
-
-	//Mike: Debug
-	if (bShouldDisplayOnScreenDebug)
-		if (GEngine)
-			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, "Turn Rate" + FString::SanitizeFloat(InputCurrenTurnAmount));
 }
 
 void AKartVehiclePawn::DriftRuptor(const float Amount)
@@ -409,12 +395,16 @@ void AKartVehiclePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	// Mike: This is currently bound to SHIFT
 	PlayerInputComponent->BindAction("Boost", IE_Released, this, &AKartVehiclePawn::BoostReleaseCallBack);
 
+	// Mike: NEW INPUT ------------------
+	// Mike: Use Item function call 
+	PlayerInputComponent->BindAction("UseItem", IE_Pressed, this, &AKartVehiclePawn::UseItemCode);
+
 	// Sarfaraz: Bind the method "Brake" to the axis "Brakes"
-	// Mike: This is currently bound to CTRL
-	PlayerInputComponent->BindAxis("Brakes", this, &AKartVehiclePawn::BreakCallBack);
+	PlayerInputComponent->BindAction("BrakeOn", IE_Pressed, this, &AKartVehiclePawn::CarBrakeOn);
+	PlayerInputComponent->BindAction("BrakeOff", IE_Released, this, &AKartVehiclePawn::CarBrakeOff);
 
 	// Mike: Axis for AirControl
-	PlayerInputComponent->BindAxis("AirControlXOnly", this, &AKartVehiclePawn::AirControl);
+	PlayerInputComponent->BindAxis("AirControlX", this, &AKartVehiclePawn::AirControl);
 }
 
 void AKartVehiclePawn::UpdateSpeedometer()
@@ -472,34 +462,12 @@ void AKartVehiclePawn::BoostReleaseCallBack()
 void AKartVehiclePawn::MoveX(float AxisValue)
 {
 	// Mike: Set the current speed amount to be equal to the input from the keys
-	InputCurrentSpeedAmount += AxisValue;
-
-	// Mike: Clamp the speed amount so it won't accelerate too fast
-	InputCurrentSpeedAmount = FMath::Clamp(InputCurrentSpeedAmount, InputMinSpeedAmount, InputMaxSpeedAmount);
-
-	//Debug
-	if (bShouldDisplayOnScreenDebug)
-		if (GEngine)
-			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, FString::SanitizeFloat(InputCurrentSpeedAmount));
-
+	InputCurrentSpeedAmount = AxisValue;
 }
 
 void AKartVehiclePawn::MoveY(float AxisValue)
 {
-	// Mike: Testing new controller mode that will have different turning feel than a keyboard
-	if (bControllerTestMode)
-	{
-		//No longer need to add the amount but simply just set it using the controllers input
-		InputCurrenTurnAmount = AxisValue;
-	}
-	else
-	{
-		// Sarfaraz: Movement on y direction
-		InputCurrenTurnAmount += AxisValue;
-
-		// Mike: Clamp the turning rate so that the car can't turn insanely fast
-		InputCurrenTurnAmount = FMath::Clamp(InputCurrenTurnAmount, -InputTurnRateLimit, InputTurnRateLimit);
-	}
+	InputCurrenTurnAmount = AxisValue;
 }
 
 void AKartVehiclePawn::AirControl(float AxisValue)
@@ -507,8 +475,9 @@ void AKartVehiclePawn::AirControl(float AxisValue)
 	if (!canMove)
 	{
 		AirControlXValue = AxisValue;
-		if (GEngine)
-			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, FString::SanitizeFloat(AirControlXValue));
+		//if(bShouldDisplayOnScreenDebug)
+			if (GEngine)
+				GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, "Air Control" + FString::SanitizeFloat(AirControlXValue));
 	}
 }
 
@@ -530,105 +499,92 @@ void AKartVehiclePawn::MoveYCallBack(float AxisValue)
 	}
 }
 
-void AKartVehiclePawn::Brake(float AxisValue)
+void AKartVehiclePawn::UseItemCode()
 {
-	// Sarfaraz: Slow the car down
-	if(AxisValue > 0)
-	{
-		// Mike: Check if the car is almost at a full stop
-		if (FMath::IsNearlyEqual(InputCurrentSpeedAmount, 0.0f, 0.05f))
-		{
-			//If the car is nearly at zero already, then simply stop the car
-			InputCurrentSpeedAmount = 0;
-		}
-
-		else if(InputCurrentSpeedAmount > 0)
-		{
-			//Mike : Slow the car down with the break
-			InputCurrentSpeedAmount -= BrakeSpeed;
-		}
-
-		else if(InputCurrentSpeedAmount < 0)
-		{
-			//Mike : Slow the car down with the break
-			InputCurrentSpeedAmount += BrakeSpeed;
-		}
-		
-		//Mike: DEBUG
-		if (bShouldDisplayOnScreenDebug)
-			if (GEngine)
-				GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, "Applying Breaks!");
-	}	
+	if (GEngine)
+		GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Using Item");
 }
 
-void AKartVehiclePawn::BreakCallBack(float AxisValue)
+void AKartVehiclePawn::CarBrakeOn()
 {
-	UPawnState* CurrentState = PawnStatComponent->GetCurrentState();
-	if (IsValid(CurrentState))
-	{
-		CurrentState->Break(AxisValue);
-	}
+	bIsBraking = true;
 }
-
-void AKartVehiclePawn::ReducedValues()
+void AKartVehiclePawn::CarBrakeOff()
 {
-	/////////////////////////
-	// Mike: The following section focuses on getting the car to slow down to zero 
-	// Sarfaraz: Slow the car down when it is not in motion
-	if (FMath::IsNearlyZero(InputCurrentSpeedAmount, 0.005f))
-	{
-		InputCurrentSpeedAmount = 0;
-	}
-	// Mike: If the car speed is above zero, then slow it down
-	else if (InputCurrentSpeedAmount > 0)
-	{
-		InputCurrentSpeedAmount -= SlowCarSpeedRate;
-	}
-	// Mike: If the car speed is below zero, then increase it to "get it closer to zero"
-	else if (InputCurrentSpeedAmount < 0)
-	{
-		InputCurrentSpeedAmount += SlowCarSpeedRate;
-	}
-
-	// Mike: Now that we have a controller, we do not need to reduce the values for turning
-	if (!bControllerTestMode) 
-	{
-		//////////////////////////
-		// Mike: The following section will be used to turn the wheel back to zero when the user is playing the game
-		// Mike: If the car is nearly going straight, turn off the turning
-		if (FMath::IsNearlyZero(InputCurrenTurnAmount, 0.005f))
-		{
-			InputCurrenTurnAmount = 0.0f;
-		}
-		// Mike: If the car is to the right, center it
-		else if (InputCurrenTurnAmount > 0)
-		{
-			InputCurrenTurnAmount -= SlowCarTurnRate;
-		}
-		// Mike: If the car is to the left, center it
-		else if (InputCurrenTurnAmount < 0)
-		{
-			InputCurrenTurnAmount += SlowCarTurnRate;
-		}
-	}	
+	bIsBraking = false;
 }
 
 void AKartVehiclePawn::MoveCar()
 {
-	// Mike: 
+	// Mike: Make a temporary vector that will be used to move the car
 	FVector TempFowardVector;
+
+	// Mike: Set the boolean "going forward" based on the dot product of the forward vector and the velocities safe normal
+	bIsGoingForward = FVector::DotProduct(this->GetActorForwardVector(), PawnMovementComponent->Velocity.GetSafeNormal()) > 0;
+
+	// Mike: Check if the car is currently braking
+	if (bIsBraking)
+	{
+		// Mike: if the car is braking and the velocity of the car is nearly zero
+		if (FMath::IsNearlyZero(PawnMovementComponent->Velocity.Size(), 20.0f))
+		{
+			// Mike:  Set both the input current speed and the actual speed of the pawn to zero
+			InputCurrentSpeedAmount = 0.0f;
+			PawnMovementComponent->Velocity = FVector(0.0f, 0.0f, 0.0f);
+		}
+		// Mike: If the speed of the car is not close to zero, check if the car is moving forward (via dot product)
+		else if (bIsGoingForward)
+		{
+			// Mike: If the car is moving forward AND the player is holding down the gas, reduce the value 
+			if (InputCurrentSpeedAmount > 0.1f)
+			{
+				//Mike : Slow the car down with the break
+				InputCurrentSpeedAmount -= SlowCarSpeedRate;
+			}
+			else
+			{
+				// Mike: Otherwise, just set the value of the car to slow down
+				InputCurrentSpeedAmount = BrakeSpeed;
+			}
+			
+		}
+		// Mike: If the car is moving backwards
+		else if (!bIsGoingForward)
+		{
+			// Mike: Check if the speed is less than -0.1 
+			if (InputCurrentSpeedAmount < -0.1f)
+			{
+				//Mike: If the player is backing up and pressing the brake, then slow their speed down
+				InputCurrentSpeedAmount += SlowCarSpeedRate;
+			}
+			else
+			{
+				// Mike: Otherwise, their brake speed is the same
+				InputCurrentSpeedAmount = -BrakeSpeed;
+			}
+		}
+	}
+	// Mike: 
+	if (bShouldDisplayOnScreenDebug && GEngine)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Actual Speed: " + FString::SanitizeFloat(PawnMovementComponent->Velocity.Size()));
+		GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, "Current Speed: " + FString::SanitizeFloat(InputCurrentSpeedAmount));
+	}
 
 	// Sarfaraz: multiply the forward vector by the speed
 	if (canMove)
 	{
+		// Mike: 
 		TempFowardVector = FVector(GetActorForwardVector().X * InputCurrentSpeedAmount, GetActorForwardVector().Y * InputCurrentSpeedAmount, -0.01f);
 		// Sarfaraz: set the turn speed
 		AddActorLocalRotation(FRotator(0, InputCurrenTurnAmount, 0));
 	}
 	else
 	{
+		// Mike: 
 		TempFowardVector = FVector(0.0f, 0.0f, -0.01f);
 
+		// Mike: 
 		AddActorLocalRotation(FRotator(AirControlXValue, 0, InputCurrenTurnAmount));
 	}
 
@@ -648,10 +604,10 @@ bool AKartVehiclePawn::RayCastGround()
 	FVector UpVector = GetActorUpVector();
 
 	// Sarfaraz: The start of the trace will be at the cars location and below it
-	FVector startTrace = GetActorLocation() - UpVector * 30;
+	FVector startTrace = GetActorLocation() - UpVector * 13;
 
 	// Sarfaraz: The end of the trace will be a small line from the start trace and down
-	FVector EndTrace = (-UpVector * 25.0f) + startTrace;
+	FVector EndTrace = (-UpVector * 15.0f) + startTrace;
 
 	// DEBUG ONLY Sarfaraz: Draw a debug line that represends the trace
 	// DrawDebugLine(GetWorld(), startTrace, EndTrace, FColor::Red, true);

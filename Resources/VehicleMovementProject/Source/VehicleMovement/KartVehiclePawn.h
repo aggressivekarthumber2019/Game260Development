@@ -27,7 +27,7 @@ public:
 
 	/** DEBUG MODE - If this is true, it will display on screen debug messages*/
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Vehicle Parts | Debug")
-	bool bShouldDisplayOnScreenDebug = true;
+	bool bShouldDisplayOnScreenDebug = false;
 
 	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Debug")
 	void SetDebugModeEnabled(bool bDebugOn) { bShouldDisplayOnScreenDebug = bDebugOn; };
@@ -53,19 +53,19 @@ public:
 
 	/** Mike: Skeletal mesh comp for the front left wheel */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Skeleton")
-	class USkeletalMeshComponent* FLWheelSkeletalMesh;
+	class UStaticMeshComponent* FLWheelStaticMesh;
 
 	/** Mike: Skeletal mesh comp for the front right wheel */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Skeleton")
-	class USkeletalMeshComponent* FRWheelSkeletalMesh;
+	class UStaticMeshComponent* FRWheelStaticMesh;
 
 	/** Mike: Skeletal mesh comp for the back left wheel */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Skeleton")
-	class USkeletalMeshComponent* BLWheelSkeletalMesh;
+	class UStaticMeshComponent* BLWheelStaticMesh;
 
 	/** Mike: Skeletal mesh comp for the back right wheel */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Vehicle Parts | Skeleton")
-	class USkeletalMeshComponent* BRWheelSkeletalMesh;
+	class UStaticMeshComponent* BRWheelStaticMesh;
 
 
 	//////// Wheel Colliders ////////
@@ -180,12 +180,18 @@ public:
 	float GetCurrentSpeedAmount() { return InputCurrentSpeedAmount;  }
 
 	/** Mike: Getter function for current turn amount */
-	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Getter")
+	UFUNCTION(BlueprintPure, Category = "Vehicle Parts | Getter")
 	float GetCurrentTurnAmount() { return InputCurrenTurnAmount; }
 
 	/** Mike: Getter function for if the character can move */
 	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Getter")
 	bool GetCanMove() { return canMove; }
+
+	UFUNCTION(BlueprintPure, Category = "Vehicle Parts | Getter")
+	bool GetIsBraking() { return bIsBraking; }
+
+	UFUNCTION(BlueprintPure, Category = "Vehicle Parts | Getter")
+	bool GetIsGoingForward() { return bIsGoingForward; }
 
 private:
 
@@ -198,6 +204,12 @@ private:
 	float InputCurrenTurnAmount;
 
 	float AirControlXValue;
+
+	// Mike: Boolean for if the car is braking or not
+	bool bIsBraking;
+
+	// Mike: Boolean for if the car is going forwards (true) or backwards (false)
+	bool bIsGoingForward;
 
 	// Sarfaraz: Boolean to determine if the car can move or not
 	bool canMove;
@@ -216,6 +228,10 @@ public:
 	// Mike: Set Speedometer
 	void UpdateSpeedometer();
 
+	//////////////////
+	// CAR MOVEMENT
+	//////////////////
+
 	// Movement on x and y direction method
 	UFUNCTION(BlueprintCallable)
 	void MoveX(float AxisValue);
@@ -223,47 +239,53 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void MoveY(float AxisValue);
 
+	UFUNCTION()
+	void MoveXCallBack(float AxisValue);
+
+	UFUNCTION()
+	void MoveYCallBack(float AxisValue);
+
 	// Movement on x and y direction method
 	UFUNCTION(BlueprintCallable)
 	void AirControl(float AxisValue);
 
-	UFUNCTION()
-	void MoveXCallBack(float AxisValue);
-	UFUNCTION()
-	void MoveYCallBack(float AxisValue);
-
-	/** Sarfaraz: Called when the user breaks */
+	/** Mike: Called when the user brakes */
 	UFUNCTION(BlueprintCallable)
-	void Brake(float AxisValue);
+	void CarBrakeOn();
 
-	UFUNCTION()
-	void BreakCallBack(float AxisValue);
-
+	/** Sarfaraz: Called when the user stops braking */
+	UFUNCTION(BlueprintCallable)
+	void CarBrakeOff();
+	
 	//Raycast to check if the car is on the ground
 	bool RayCastGround();
 
-	//Method used to move the car forward
+	/** Sarfaraz: This method is called on a timer at a constant rate*/
+	void FixedUpdate();
+
+	// Mike: Method used to move the car forward
 	void MoveCar();
 
-	/** Sarfaraz: This method is used to slow the car down when the accelerator is not pressed and to straighten the wheels */
-	void ReducedValues();
-
+	//BOOSTING -------------------------------------------------------------
 	/** Sarfaraz: When the user presses the boost key, this method is called */
 	UFUNCTION(BlueprintCallable)
 	void BoostPress();
-
 	/** Sarfaraz: When the user releases the boost, this method is called */
 	UFUNCTION(BlueprintCallable)
 	void BoostRelease();
-
 	UFUNCTION()
 	void BoostPressCallBack();
-
 	UFUNCTION()
 	void BoostReleaseCallBack();
 
-	/** Sarfaraz: This method is called on a timer at a constant rate*/
-	void FixedUpdate();
+
+	///////////
+	// ITEMS //
+	///////////
+
+	// Mike: Function for items
+	UFUNCTION()
+	void UseItemCode();
 
 	/** Jaymie: Driftruptor logic */
 	UFUNCTION(BlueprintCallable)
@@ -273,5 +295,6 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void SetCurrentRotationAmount(const float Amount);
 
+	/** Jaymie: Booster */
 	void RefillSpecialMeter();
 };
