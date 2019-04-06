@@ -50,6 +50,7 @@ AKartVehiclePawn::AKartVehiclePawn()
 	const ECollisionChannel Car_Body_Channel = ECC_GameTraceChannel1;
 	const ECollisionChannel Car_Wheel_Channel = ECC_GameTraceChannel2;
 	const ECollisionChannel Car_Mesh_Channel = ECC_GameTraceChannel3;
+	const ECollisionChannel Item_Channel = ECC_GameTraceChannel4;
 
 	// Mike: Setup the collision response of this car. It should be set to query and physics collisions mode
 	CarBoxCollider->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics); 
@@ -63,6 +64,9 @@ AKartVehiclePawn::AKartVehiclePawn()
 	// Mike: Change it's response to two individual channels, ignore collisions with the wheel and mesh of the car
 	CarBoxCollider->SetCollisionResponseToChannel(Car_Wheel_Channel, ECollisionResponse::ECR_Ignore);
 	CarBoxCollider->SetCollisionResponseToChannel(Car_Mesh_Channel, ECollisionResponse::ECR_Ignore); 
+
+	// Mike: Add the item collision response channel to the main box collider of the car
+	CarBoxCollider->SetCollisionResponseToChannel(Item_Channel, ECollisionResponse::ECR_Overlap);
 
 	// Mike: DEBUG ONLY - Show the Box Collider in the game
 	//CarBoxCollider->SetHiddenInGame(false);
@@ -359,11 +363,6 @@ void AKartVehiclePawn::MaxSpeedChangedCallBack()
 	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnMaxSpeed;
 }
 
-void AKartVehiclePawn::MaxSpeedChangedCallBack()
-{
-	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnMaxSpeed;
-}
-
 void AKartVehiclePawn::DriftRuptor(const float Amount)
 {
 	AddActorLocalRotation(FRotator(0, Amount, 0));
@@ -437,9 +436,8 @@ void AKartVehiclePawn::UpdateSpeedometer()
 void AKartVehiclePawn::BoostPress()
 {
 	//Debug Messages
-	if (bShouldDisplayOnScreenDebug)
-		if (GEngine) 
-			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Vehicle: Boost pressed");
+	if (bShouldDisplayOnScreenDebug && GEngine)
+		GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Vehicle: Boost pressed");
 	
 	// Mike: Updated, now changing the max speed of the pawn
 	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnBoostSpeed;
@@ -448,9 +446,8 @@ void AKartVehiclePawn::BoostPress()
 void AKartVehiclePawn::BoostRelease()
 {
 	//Debug Messages
-	if (bShouldDisplayOnScreenDebug)
-		if (GEngine)
-			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Vehicle: Boost Released");
+	if (bShouldDisplayOnScreenDebug && GEngine)
+		GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Vehicle: Boost Released");
 
 	// Mike: Updated, now changing the max speed of the pawn
 	PawnMovementComponent->MaxSpeed = PawnStatComponent->VehiclePawnMaxSpeed;
@@ -491,7 +488,7 @@ void AKartVehiclePawn::AirControl(float AxisValue)
 	{
 		AirControlXValue = AxisValue;
 		//if(bShouldDisplayOnScreenDebug)
-			if (GEngine)
+			if (GEngine && bShouldDisplayOnScreenDebug)
 				GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, "Air Control" + FString::SanitizeFloat(AirControlXValue));
 	}
 }
@@ -516,7 +513,7 @@ void AKartVehiclePawn::MoveYCallBack(float AxisValue)
 
 void AKartVehiclePawn::UseItemCode()
 {
-	if (GEngine)
+	if (GEngine && bShouldDisplayOnScreenDebug)
 		GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Using Item");
 }
 
@@ -616,16 +613,20 @@ bool AKartVehiclePawn::RayCastGround()
 	FHitResult* hitResult = new FHitResult();
 
 	// Sarfaraz: Get the up vector of the car, used for 
-	FVector UpVector = GetActorUpVector();
+	//FVector UpVector = GetActorUpVector();
+	FVector UpVector = CarBoxCollider->GetUpVector();
+
 
 	// Sarfaraz: The start of the trace will be at the cars location and below it
-	FVector startTrace = GetActorLocation() - UpVector * 13;
+	//FVector startTrace = GetActorLocation() - UpVector * 13;
+	FVector startTrace = CarBoxCollider->GetComponentLocation() - UpVector * 10;
 
 	// Sarfaraz: The end of the trace will be a small line from the start trace and down
-	FVector EndTrace = (-UpVector * 25.0f) + startTrace;
+	FVector EndTrace = (-UpVector * 20.0f) + startTrace;
 
 	// DEBUG ONLY Sarfaraz: Draw a debug line that represends the trace
-	DrawDebugLine(GetWorld(), startTrace, EndTrace, FColor::Red, true);
+	if(bShouldDebugTraceLine && GEngine)
+		DrawDebugLine(GetWorld(), startTrace, EndTrace, FColor::Red, true);
 
 	// Sarfaraz: Line trace and see if anything is hit
 	if (GetWorld()->LineTraceSingleByChannel(*hitResult, startTrace, EndTrace, ECC_Visibility))
@@ -633,7 +634,7 @@ bool AKartVehiclePawn::RayCastGround()
 		// Sarfaraz: If something is hit, get the actor that was hit
 		AActor* hitActor = hitResult->GetActor();
 
-		if (GEngine)
+		if (bShouldDebugTraceLine && GEngine)
 		{
 			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Hit Actor: " + hitActor->GetName());
 		}
@@ -644,5 +645,8 @@ bool AKartVehiclePawn::RayCastGround()
 			return true;
 		}
 	}
+	if(bShouldDebugTraceLine && GEngine)
+		GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Hitting Nothing!");
+
 	return false;
 }

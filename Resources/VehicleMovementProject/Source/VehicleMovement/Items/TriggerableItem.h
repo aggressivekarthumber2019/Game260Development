@@ -24,6 +24,10 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	// Mike: New root scene component
+	UPROPERTY(VisibleAnywhere)
+	class USceneComponent* RootSceneComponent;
+
 	UPROPERTY(VisibleAnywhere)
 	class UStaticMeshComponent* MeshComponent;
 	

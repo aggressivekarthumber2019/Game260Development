@@ -3,6 +3,7 @@
 #include "TriggerableItem.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/SphereComponent.h"
+#include "Components/SceneComponent.h"
 #include "KartVehiclePawn.h"
 #include "FSM/PawnState.h"
 #include "FSM/PawnStatComponent.h"
@@ -13,10 +14,14 @@ ATriggerableItem::ATriggerableItem()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	// Mike: Updated the root Component to be a Scene Component (allows us to re-orient the static meshes)
+	RootSceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root Scene Component"));
+	SetRootComponent(RootSceneComponent);// make the vehicle into a root component
+
 	// Item mesh component
 	MeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh Component"));
 	MeshComponent->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-	SetRootComponent(MeshComponent);// make the vehicle into a root component
+	MeshComponent->SetupAttachment(RootSceneComponent);
 
 	// Trigger
 	SphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("Trigger Component"));
@@ -24,7 +29,8 @@ ATriggerableItem::ATriggerableItem()
 	SphereComponent->SetSphereRadius(100.f);
 	SphereComponent->SetupAttachment(MeshComponent);
 
-	SphereComponent->SetCollisionObjectType(ECC_GameTraceChannel1);
+	// Mike: Updated collision channels to match main project (Trace Channel 4 is Items)
+	SphereComponent->SetCollisionObjectType(ECC_GameTraceChannel4);
 }
 
 // Called when the game starts or when spawned

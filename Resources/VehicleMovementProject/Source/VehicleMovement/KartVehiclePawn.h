@@ -35,6 +35,13 @@ public:
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Vehicle Parts | Debug")
 	bool bControllerTestMode = true;
 
+	/** DEBUG MODE - If this is true, it will display on screen debug messages*/
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Vehicle Parts | Debug")
+	bool bShouldDebugTraceLine = true;
+
+	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Debug")
+	void SetbShouldDebugTraceLine(bool bDebugOn) { bShouldDebugTraceLine = bDebugOn; };
+
 
 	////////////////////////////////////////////////
 	////// VEHICLE COMPONENTS //////////////////////
@@ -286,10 +293,6 @@ public:
 	// Mike: Function for items
 	UFUNCTION()
 	void UseItemCode();
-
-	/** Jaymie: Max speed changed callback */
-	UFUNCTION(BlueprintCallable)
-	void MaxSpeedChangedCallBack();
 
 	/** Jaymie: Max speed changed callback */
 	UFUNCTION(BlueprintCallable)
