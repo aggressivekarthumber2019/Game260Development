@@ -26,11 +26,20 @@ ATriggerableItem::ATriggerableItem()
 	// Trigger
 	SphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("Trigger Component"));
 	SphereComponent->OnComponentBeginOverlap.AddDynamic(this, &ATriggerableItem::OnOverlapBegin);
-	SphereComponent->SetSphereRadius(100.f);
+	SphereComponent->SetSphereRadius(50.f);
 	SphereComponent->SetupAttachment(MeshComponent);
 
+	// Mike: Make a const reference to the custom collision channel made in the editor
+	const ECollisionChannel Item_Channel = ECC_GameTraceChannel4;
+
 	// Mike: Updated collision channels to match main project (Trace Channel 4 is Items)
-	SphereComponent->SetCollisionObjectType(ECC_GameTraceChannel4);
+	SphereComponent->SetCollisionObjectType(Item_Channel);
+
+	// Mike: Setup the collision response of the box trigger. It should be set to query only
+	SphereComponent->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+
+	// Mike: Set the collision response to all channels to be overlap (it will detect anything)
+	SphereComponent->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);
 }
 
 // Called when the game starts or when spawned
@@ -56,8 +65,6 @@ void ATriggerableItem::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
 		if (IsValid(State))
 		{
 			State->EnableMod(PawnStatMod);
-
-			Destroy();
 		}
 	}
 }

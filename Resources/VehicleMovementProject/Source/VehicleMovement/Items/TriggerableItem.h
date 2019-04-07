@@ -25,13 +25,13 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	// Mike: New root scene component
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	class USceneComponent* RootSceneComponent;
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	class UStaticMeshComponent* MeshComponent;
 	
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	class USphereComponent* SphereComponent;
 
 	UPROPERTY(EditAnywhere, Instanced)
