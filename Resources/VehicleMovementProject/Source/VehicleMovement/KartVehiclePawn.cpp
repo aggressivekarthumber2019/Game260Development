@@ -601,13 +601,14 @@ void AKartVehiclePawn::MoveCar()
 	{
 		// Mike: 
 		TempFowardVector = FVector(CarBoxCollider->GetForwardVector().X * InputCurrentSpeedAmount, CarBoxCollider->GetForwardVector().Y * InputCurrentSpeedAmount, CarBoxCollider->GetForwardVector().Z * InputCurrentSpeedAmount);
+
 		// Sarfaraz: set the turn speed
 		AddActorLocalRotation(FRotator(0, InputCurrenTurnAmount, 0));
 	}
 	else
 	{
 		// Mike: 
-		TempFowardVector = FVector(0.0f, 0.0f, -0.01f);
+		TempFowardVector = FVector(0.0f, 0.0f, 0.0f);
 
 		// Mike: 
 		AddActorLocalRotation(FRotator(AirControlXValue, 0, InputCurrenTurnAmount));
