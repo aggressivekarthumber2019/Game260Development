@@ -228,6 +228,9 @@ private:
 	// Sarfaraz: Boolean to determine if the car can move or not
 	bool canMove;
 
+	// Matthew: used for checkpoint location for vehicle to spwan at
+	FVector lastCheckpointLocation;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -315,4 +318,17 @@ public:
 
 	/** Jaymie: Booster */
 	void RefillSpecialMeter();
+
+
+	////////////////////////
+	/* CHECKPOINT RESPAWN */
+	////////////////////////
+
+	/** Matthew: Set new checkpoint location to be respawned at */
+	UFUNCTION(BlueprintCallable)
+	void SetLastCheckpointLocation(FVector Location);
+
+	/** Matthew: Get checkpoint location to be respawned at */
+	UFUNCTION(BlueprintCallable)
+	FVector GetLastCheckpointLocation();
 };

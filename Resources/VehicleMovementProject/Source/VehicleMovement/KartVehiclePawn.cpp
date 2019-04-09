@@ -664,3 +664,15 @@ bool AKartVehiclePawn::RayCastGround()
 
 	return false;
 }
+
+
+void AKartVehiclePawn::SetLastCheckpointLocation(FVector Location)
+{
+	lastCheckpointLocation = Location;
+	lastCheckpointLocation.Z += 10;
+}
+
+FVector AKartVehiclePawn::GetLastCheckpointLocation()
+{
+	return lastCheckpointLocation;
+}
