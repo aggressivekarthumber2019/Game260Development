@@ -1,0 +1,727 @@
+﻿Log file open, 04/07/19 11:14:34
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UnrealCarSelect
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.279993
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.172s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal  -epicusername="kcaj912" -epicuserid=6930a40b8b914583837003440dd25107 -epiclocale=en-GB
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.07-15.14.35:170][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.07-15.14.35:170][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.07-15.14.35:209][  0]LogHAL: Display: Platform has ~ 16 GB [17061834752 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.07-15.14.35:209][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.07-15.14.35:210][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.07-15.14.35:210][  0]LogInit: Computer: MSI
+[2019.04.07-15.14.35:210][  0]LogInit: User: Owner
+[2019.04.07-15.14.35:210][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.07-15.14.35:210][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.07-15.14.35:210][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.07-15.14.35:210][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.07-15.14.35:210][  0]LogMemory: Process Physical Memory: 100.30 MB used, 100.30 MB peak
+[2019.04.07-15.14.35:210][  0]LogMemory: Process Virtual Memory: 90.97 MB used, 90.97 MB peak
+[2019.04.07-15.14.35:210][  0]LogMemory: Physical Memory: 7983.20 MB used,  8288.23 MB free, 16271.43 MB total
+[2019.04.07-15.14.35:210][  0]LogMemory: Virtual Memory: 4642.63 MB used,  8288.23 MB free, 134217728.00 MB total
+[2019.04.07-15.14.35:751][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.07-15.14.35:751][  0]LogInit: Using OS detected locale (en-CA).
+[2019.04.07-15.14.35:752][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.04.07-15.14.36:135][  0]LogStreaming: Display: Took  0.385s to InitEngineTextLocalization.
+[2019.04.07-15.14.36:135][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.07-15.14.36:173][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.07-15.14.36:173][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.07-15.14.36:392][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.07-15.14.36:392][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.07-15.14.36:458][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.04.07-15.14.36:458][  0]LogD3D11RHI:       1979/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.07-15.14.36:471][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.04.07-15.14.36:471][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.07-15.14.36:473][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.07-15.14.36:473][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.07-15.14.36:473][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.07-15.14.36:502][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.07-15.14.36:502][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.04.07-15.14.36:502][  0]LogWindows: EnumDisplayDevices:
+[2019.04.07-15.14.36:503][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.04.07-15.14.36:503][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.04.07-15.14.36:503][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.04.07-15.14.36:504][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.07-15.14.36:504][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.04.07-15.14.36:504][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.07-15.14.36:504][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.07-15.14.36:504][  0]LogRHI: Texture pool is 1385 MB (70% of 1979 MB)
+[2019.04.07-15.14.36:550][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.07-15.14.36:572][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.07-15.14.36:573][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../AggressiveCart/UnrealCarSelect/Intermediate/Shaders/WorkingDirectory/3872/).
+[2019.04.07-15.14.36:573][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/40DEA56F4DEC14D98183AD882E0DD71F/'.
+[2019.04.07-15.14.36:889][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.07-15.14.36:904][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.07-15.14.36:916][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.07-15.14.36:930][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.07-15.14.36:943][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.07-15.14.36:956][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.07-15.14.36:970][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.07-15.14.36:983][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.07-15.14.36:989][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.07-15.14.37:072][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.07-15.14.37:131][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.07-15.14.37:131][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.07-15.14.37:154][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.07-15.14.37:154][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.07-15.14.37:167][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.07-15.14.37:180][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.07-15.14.37:191][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.07-15.14.37:204][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.07-15.14.37:213][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.07-15.14.37:214][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.07-15.14.37:260][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.07-15.14.37:260][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.07-15.14.37:260][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.07-15.14.38:018][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.07-15.14.38:085][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.07-15.14.38:086][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.07-15.14.38:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../AggressiveCart/UnrealCarSelect/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.07-15.14.38:086][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.07-15.14.38:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../AggressiveCart/UnrealCarSelect/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.07-15.14.38:086][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.07-15.14.38:104][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.07-15.14.38:117][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.07-15.14.38:117][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.07-15.14.38:117][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.07-15.14.38:136][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.07-15.14.38:138][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.07-15.14.38:138][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.07-15.14.38:212][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2019.04.07-15.14.38:538][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.07-15.14.38:672][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.07-15.14.38:674][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.07-15.14.38:674][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.07-15.14.38:674][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.07-15.14.38:674][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.07-15.14.38:694][  0]LogNetVersion: UnrealCarSelect 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1018169339)
+[2019.04.07-15.14.39:238][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.126495 seconds
+[2019.04.07-15.14.39:244][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.07-15.14.39:244][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.04.07-15.14.39:244][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.07-15.14.40:073][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.07-15.14.40:087][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.07-15.14.40:230][  0]SourceControl: Source control is disabled
+[2019.04.07-15.14.40:230][  0]SourceControl: Source control is disabled
+[2019.04.07-15.14.40:231][  0]SourceControl: Source control is disabled
+[2019.04.07-15.14.40:231][  0]SourceControl: Source control is disabled
+[2019.04.07-15.14.40:392][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.07-15.14.40:519][  0]LogOcInput: OculusInput pre-init called
+[2019.04.07-15.14.40:577][  0]LogEngine: Initializing Engine...
+[2019.04.07-15.14.40:578][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.07-15.14.40:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.07-15.14.40:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.07-15.14.40:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.07-15.14.40:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.07-15.14.40:871][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.07-15.14.40:880][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.07-15.14.40:917][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.07-15.14.41:010][  0]LogInit: FAudioDevice initialized.
+[2019.04.07-15.14.41:010][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.07-15.14.41:064][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.07-15.14.41:079][  0]LogInit: Texture streaming: Enabled
+[2019.04.07-15.14.41:092][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.07-15.14.41:105][  0]LogInit: Transaction tracking system initialized
+[2019.04.07-15.14.41:120][  0]BlueprintLog: New page: Editor Load
+[2019.04.07-15.14.41:176][  0]LocalizationService: Localization service is disabled
+[2019.04.07-15.14.41:437][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.07-15.14.41:437][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.07-15.14.41:437][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.07-15.14.41:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.07-15.14.41:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.07-15.14.41:438][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.07-15.14.41:438][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.07-15.14.41:576][  0]LogFileCache: Scanning file cache for directory 'D:/AggressiveCart/UnrealCarSelect/Content/' took 0.02s
+[2019.04.07-15.14.41:576][  0]SourceControl: Source control is disabled
+[2019.04.07-15.14.41:576][  0]Cmd: MAP LOAD FILE="../../../../AggressiveCart/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.07-15.14.41:617][  0]LightingResults: New page: Lighting Build
+[2019.04.07-15.14.41:619][  0]MapCheck: New page: Map Check
+[2019.04.07-15.14.41:619][  0]LightingResults: New page: Lighting Build
+[2019.04.07-15.14.44:160][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.04.07-15.14.44:187][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.07-15.14.44:215][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.07-15.14.44:272][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.991ms to complete.
+[2019.04.07-15.14.44:272][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.696
+[2019.04.07-15.14.44:373][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.14.44:381][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.14.44:388][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.14.44:397][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.14.44:402][  0]LogCollectionManager: Loaded 0 collections in 0.000995 seconds
+[2019.04.07-15.14.44:442][  0]LogFileCache: Scanning file cache for directory 'D:/AggressiveCart/UnrealCarSelect/Saved/Collections/' took 0.01s
+[2019.04.07-15.14.44:442][  0]LogFileCache: Scanning file cache for directory 'D:/AggressiveCart/UnrealCarSelect/Content/Developers/Owner/Collections/' took 0.01s
+[2019.04.07-15.14.44:442][  0]LogFileCache: Scanning file cache for directory 'D:/AggressiveCart/UnrealCarSelect/Content/Collections/' took 0.01s
+[2019.04.07-15.14.44:442][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.07-15.14.44:452][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2572 classes and 603 folders.
+[2019.04.07-15.14.44:456][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.07-15.14.44:524][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.04.07-15.14.44:529][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.04.07-15.14.44:650][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.07-15.14.44:652][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.07-15.14.44:659][  0]LogSlate: Took 0.000805 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.07-15.14.44:748][  0]LogRenderer: Reallocating scene render targets to support 780x460 Format 10 NumSamples 1 (Frame:1).
+[2019.04.07-15.14.44:959][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.07-15.14.44:959][  0]LogLoad: (Engine Initialization) Total time: 11.95 seconds
+[2019.04.07-15.14.44:959][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.07-15.14.44:998][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.07-15.14.45:022][  0]LogSlate: Took 0.000638 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.07-15.14.45:089][  1]LogAssetRegistry: Asset discovery search completed in 6.8997 seconds
+[2019.04.07-15.14.45:104][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.07-15.14.45:104][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000137 seconds (updated 0 objects)
+[2019.04.07-15.14.57:047][702]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.07-15.14.57:462][719]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.07-15.14.57:623][721]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.07-15.15.08:069][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.07-15.15.11:689][553]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.07-15.15.18:592][553]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.04.07-15.15.43:569][  5]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/UMG/BP_Button.BP_Button
+[2019.04.07-15.15.44:066][  5]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.04.07-15.15.44:824][  5]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.07-15.16.18:004][233]LogLinker: Can't find file '/Game/MultiplayerTemplate/Blueprints/BP_Button'
+[2019.04.07-15.16.18:004][233]LogLinker: Can't find file '/Game/MultiplayerTemplate/Blueprints/BP_Button'
+[2019.04.07-15.16.18:045][234]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.07-15.16.24:510][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BP_Button" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/BP_Button.uasset" SILENT=true
+[2019.04.07-15.16.24:559][615]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/BP_ButtonEC2D35D34AD6DF04C1A5619AB47774AA.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/BP_Button.uasset'
+[2019.04.07-15.16.52:075][668]LogSlate: Took 0.013993 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.04.07-15.16.57:627][908]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.04.07-15.17.01:877][148]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.04.07-15.17.01:882][148]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.04.07-15.17.24:167][474]LogSlate: Window 'BP_Button*' being destroyed
+[2019.04.07-15.17.27:778][690]BlueprintLog: New page: Compile BP_Button
+[2019.04.07-15.17.28:586][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BP_Button" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/BP_Button.uasset" SILENT=true
+[2019.04.07-15.17.28:612][730]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/BP_Button08C9B1CD449B276C008FB58D587E48D1.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/BP_Button.uasset'
+[2019.04.07-15.18.19:418][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/BP_Button" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/BP_Button.uasset" SILENT=true
+[2019.04.07-15.18.19:444][954]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/BP_Button00957A334D55E3F2B95E4A8FBD86C5AE.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/BP_Button.uasset'
+[2019.04.07-15.18.30:319][556]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.07-15.18.30:324][556]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/MainMenuMap.MainMenuMap
+[2019.04.07-15.18.30:354][556]Cmd: MAP LOAD FILE="../../../../AggressiveCart/UnrealCarSelect/Content/Maps/MainMenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.07-15.18.30:354][556]LightingResults: New page: Lighting Build
+[2019.04.07-15.18.30:354][556]LoadErrors: New page: Loading map: MainMenuMap.umap
+[2019.04.07-15.18.30:355][556]MapCheck: New page: Map Check
+[2019.04.07-15.18.30:355][556]LightingResults: New page: Lighting Build
+[2019.04.07-15.18.30:474][556]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.07-15.18.30:519][556]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.07-15.18.30:581][556]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.647ms to complete.
+[2019.04.07-15.18.30:582][556]LogFileHelpers: Loading map 'MainMenuMap' took 0.228
+[2019.04.07-15.18.34:289][774]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.07-15.18.42:095][235]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UMG/MainMenu/MenuScreen.MenuScreen
+[2019.04.07-15.18.44:458][350]LogSlate: Took 0.002169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.04.07-15.19.29:743][  0]BlueprintLog: New page: Compile MenuScreen
+[2019.04.07-15.19.30:843][ 46]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.07-15.19.30:867][ 46]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.19.30:868][ 46]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.07-15.19.30:874][ 46]LogPlayLevel: [PlayLevel] Compiling BP_Button before play...
+[2019.04.07-15.19.31:185][ 46]LogPlayLevel: PlayLevel: Blueprint regeneration took 317 ms (1 blueprints)
+[2019.04.07-15.19.31:197][ 46]PIE: New page: PIE session: MainMenuMap (Apr 7, 2019, 7:19:31 AM)
+[2019.04.07-15.19.31:197][ 46]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2019.04.07-15.19.31:199][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001908s)
+[2019.04.07-15.19.31:200][ 46]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.07-15.19.31:201][ 46]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2019.04.07-15.19.31:201][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.003266s)
+[2019.04.07-15.19.31:291][ 46]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.07-15.19.31:313][ 46]LogInit: FAudioDevice initialized.
+[2019.04.07-15.19.31:323][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.19.31:440][ 46]LogLoad: Game class is 'GameModeBase'
+[2019.04.07-15.19.31:441][ 46]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 60) at 2019.04.07-11.19.31
+[2019.04.07-15.19.31:441][ 46]LogWorld: Bringing up level for play took: 0.000528
+[2019.04.07-15.19.31:453][ 46]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.04.07-15.19.31:464][ 46]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.04.07-15.19.31:468][ 46]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap 0.449
+[2019.04.07-15.19.31:468][ 46]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.19.31:574][ 46]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2019.04.07-15.19.42:022][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.07-15.19.42:147][669]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.07-15.19.42:153][669]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.19.42:190][669]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.07-15.19.42:191][669]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.19.42:239][670]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.04.07-15.19.52:467][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/MainMenu/MenuScreen" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset" SILENT=true
+[2019.04.07-15.19.52:515][275]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/MenuScreen87B9D9614A1F30D5DD9BCEB207E37586.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset'
+[2019.04.07-15.19.55:651][462]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UMG/MainMenu/TitleScreen.TitleScreen
+[2019.04.07-15.21.05:587][566]BlueprintLog: New page: Compile TitleScreen
+[2019.04.07-15.21.06:798][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/MainMenu/TitleScreen" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/TitleScreen.uasset" SILENT=true
+[2019.04.07-15.21.06:822][626]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/TitleScreenD80DF3CD4A976EE86955A4BEFC32959F.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/TitleScreen.uasset'
+[2019.04.07-15.21.34:467][271]LogSlate: Window 'Widget Reflector' being destroyed
+[2019.04.07-15.21.34:473][271]LogSlate: Window 'Widget Reflector' being destroyed
+[2019.04.07-15.21.35:433][329]BlueprintLog: New page: Compile TitleScreen
+[2019.04.07-15.21.36:454][378]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.07-15.21.36:478][378]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.21.36:478][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.07-15.21.36:479][378]PIE: New page: PIE session: MainMenuMap (Apr 7, 2019, 7:21:36 AM)
+[2019.04.07-15.21.36:479][378]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2019.04.07-15.21.36:480][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001476s)
+[2019.04.07-15.21.36:481][378]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.07-15.21.36:481][378]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2019.04.07-15.21.36:481][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.002370s)
+[2019.04.07-15.21.36:568][378]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.07-15.21.36:590][378]LogInit: FAudioDevice initialized.
+[2019.04.07-15.21.36:599][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.21.36:717][378]LogLoad: Game class is 'GameModeBase'
+[2019.04.07-15.21.36:718][378]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 60) at 2019.04.07-11.21.36
+[2019.04.07-15.21.36:718][378]LogWorld: Bringing up level for play took: 0.000705
+[2019.04.07-15.21.36:730][378]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.04.07-15.21.36:735][378]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap -0.284
+[2019.04.07-15.21.36:735][378]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.21.46:381][951]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.07-15.21.46:387][951]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.21.46:421][951]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.07-15.21.46:421][951]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.21.46:487][953]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.04.07-15.22.08:059][222]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.07-15.22.08:087][222]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.22.08:087][222]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.07-15.22.08:205][222]LogPlayLevel: [PlayLevel] Compiling MenuScreen before play...
+[2019.04.07-15.22.08:598][222]LogPlayLevel: PlayLevel: Blueprint regeneration took 511 ms (1 blueprints)
+[2019.04.07-15.22.08:599][222]PIE: New page: PIE session: MainMenuMap (Apr 7, 2019, 7:22:08 AM)
+[2019.04.07-15.22.08:599][222]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2019.04.07-15.22.08:602][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003259s)
+[2019.04.07-15.22.08:603][222]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.07-15.22.08:603][222]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2019.04.07-15.22.08:603][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.004626s)
+[2019.04.07-15.22.08:692][222]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.07-15.22.08:715][222]LogInit: FAudioDevice initialized.
+[2019.04.07-15.22.08:723][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.22.08:828][222]LogLoad: Game class is 'GameModeBase'
+[2019.04.07-15.22.08:829][222]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 60) at 2019.04.07-11.22.08
+[2019.04.07-15.22.08:830][222]LogWorld: Bringing up level for play took: 0.001075
+[2019.04.07-15.22.08:842][222]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.04.07-15.22.08:845][222]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap -0.174
+[2019.04.07-15.22.08:846][222]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.22.17:042][703]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.07-15.22.17:048][703]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.22.17:080][703]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.07-15.22.17:080][703]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.22.17:183][704]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.04.07-15.23.06:863][640]LogBlueprint: Warning: [Compiler ] Leak Detected!  VerticalBox_1 ( Vertical Box ) still has living Slate widgets, it or the parent SizeBox_0 ( Size Box ) is keeping them in memory.  Release all Slate resources in ReleaseSlateResources().
+[2019.04.07-15.23.11:023][881]LogEditorTransaction: Undo Rename Widget
+[2019.04.07-15.23.11:435][901]LogEditorTransaction: Undo Remove Widget
+[2019.04.07-15.23.28:698][928]LogEditorTransaction: Undo Move Widget
+[2019.04.07-15.23.32:020][122]LogEditorTransaction: Undo Add Widget
+[2019.04.07-15.23.35:429][322]LogEditorTransaction: Redo Add Widget
+[2019.04.07-15.23.35:923][347]LogEditorTransaction: Redo Move Widget
+[2019.04.07-15.23.36:382][370]LogEditorTransaction: Redo Remove Widget
+[2019.04.07-15.23.36:385][370]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_MenuScreen) bSelfContext == true, but no scope supplied!
+[2019.04.07-15.23.36:385][370]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_MenuScreen) bSelfContext == true, but no scope supplied!
+[2019.04.07-15.23.36:385][370]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_MenuScreen) bSelfContext == true, but no scope supplied!
+[2019.04.07-15.23.50:427][200]LogEditorTransaction: Undo Edit Padding
+[2019.04.07-15.23.50:715][215]LogEditorTransaction: Undo Remove Widget
+[2019.04.07-15.23.58:033][645]LogEditorTransaction: Redo Remove Widget
+[2019.04.07-15.23.58:036][645]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_MenuScreen) bSelfContext == true, but no scope supplied!
+[2019.04.07-15.23.58:036][645]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_MenuScreen) bSelfContext == true, but no scope supplied!
+[2019.04.07-15.23.58:036][645]LogBlueprint: Warning: FMemberReference::ResolveMember (ExecuteUbergraph_MenuScreen) bSelfContext == true, but no scope supplied!
+[2019.04.07-15.24.12:835][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/MainMenu/MenuScreen" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset" SILENT=true
+[2019.04.07-15.24.12:876][519]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/MenuScreen8476ABD348A3786AE9B829881AB8ECBB.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset'
+[2019.04.07-15.24.19:735][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/MainMenu/MenuScreen" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset" SILENT=true
+[2019.04.07-15.24.19:779][918]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/MenuScreen46E834CB4D91368093F5258459870559.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset'
+[2019.04.07-15.24.20:617][968]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.07-15.24.20:645][968]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.24.20:645][968]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.07-15.24.20:660][968]LogPlayLevel: [PlayLevel] Compiling MenuScreen before play...
+[2019.04.07-15.24.21:115][968]LogPlayLevel: PlayLevel: Blueprint regeneration took 469 ms (1 blueprints)
+[2019.04.07-15.24.21:115][968]PIE: New page: PIE session: MainMenuMap (Apr 7, 2019, 7:24:21 AM)
+[2019.04.07-15.24.21:115][968]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2019.04.07-15.24.21:116][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001410s)
+[2019.04.07-15.24.21:117][968]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.07-15.24.21:118][968]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2019.04.07-15.24.21:118][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.002705s)
+[2019.04.07-15.24.21:202][968]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.07-15.24.21:222][968]LogInit: FAudioDevice initialized.
+[2019.04.07-15.24.21:231][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.24.21:353][968]LogLoad: Game class is 'GameModeBase'
+[2019.04.07-15.24.21:355][968]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 60) at 2019.04.07-11.24.21
+[2019.04.07-15.24.21:355][968]LogWorld: Bringing up level for play took: 0.000735
+[2019.04.07-15.24.21:369][968]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.04.07-15.24.21:372][968]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap 0.353
+[2019.04.07-15.24.21:372][968]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.24.27:561][328]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.07-15.24.27:569][328]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.24.27:605][328]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.07-15.24.27:605][328]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.24.27:716][329]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.04.07-15.29.07:665][298]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainMenuMap' took 0.036
+[2019.04.07-15.29.07:668][298]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UMG/MainMenu/TitleScreen] ([1] browsable assets)...
+[2019.04.07-15.29.07:668][298]OBJ SavePackage: Finished generating thumbnails for package [/Game/UMG/MainMenu/TitleScreen]
+[2019.04.07-15.29.07:668][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/MainMenu/TitleScreen" FILE="../../../../AggressiveCart/UnrealCarSelect/Saved/Autosaves/Game/UMG/MainMenu/TitleScreen_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.04.07-15.29.07:695][298]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/TitleScreen_Auto145AF2F034A3AB2CDAEFC0E963B814570.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Saved/Autosaves/Game/UMG/MainMenu/TitleScreen_Auto1.uasset'
+[2019.04.07-15.29.07:696][298]LogFileHelpers: Auto-saving content packages took 0.029
+[2019.04.07-15.31.21:997][121]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.07-15.31.22:017][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.31.22:018][121]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.07-15.31.22:033][121]LogPlayLevel: [PlayLevel] Compiling MenuScreen before play...
+[2019.04.07-15.31.22:532][121]LogPlayLevel: PlayLevel: Blueprint regeneration took 514 ms (1 blueprints)
+[2019.04.07-15.31.22:532][121]PIE: New page: PIE session: MainMenuMap (Apr 7, 2019, 7:31:22 AM)
+[2019.04.07-15.31.22:532][121]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2019.04.07-15.31.22:534][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001592s)
+[2019.04.07-15.31.22:535][121]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.07-15.31.22:535][121]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2019.04.07-15.31.22:535][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.002543s)
+[2019.04.07-15.31.22:622][121]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.07-15.31.22:642][121]LogInit: FAudioDevice initialized.
+[2019.04.07-15.31.22:650][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.31.22:771][121]LogLoad: Game class is 'GameModeBase'
+[2019.04.07-15.31.22:772][121]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 60) at 2019.04.07-11.31.22
+[2019.04.07-15.31.22:773][121]LogWorld: Bringing up level for play took: 0.000645
+[2019.04.07-15.31.22:785][121]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.04.07-15.31.22:789][121]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap 1.77
+[2019.04.07-15.31.22:790][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.31.35:458][868]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.07-15.31.35:464][868]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.31.35:499][868]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.07-15.31.35:499][868]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.31.35:625][869]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.04.07-15.31.41:022][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/MainMenu/MenuScreen" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset" SILENT=true
+[2019.04.07-15.31.41:067][182]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/MenuScreen28E3A1EF4C41E97B9FD374978B2E2072.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset'
+[2019.04.07-15.31.41:240][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/MainMenu/MenuScreen" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset" SILENT=true
+[2019.04.07-15.31.41:295][190]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/MenuScreen19CD005C4102CC263729C1A2B4EB828E.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset'
+[2019.04.07-15.38.17:455][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/MainMenu/TitleScreen" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/TitleScreen.uasset" SILENT=true
+[2019.04.07-15.38.17:477][894]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/TitleScreenA0982698481BE7F543CAC0A349D03460.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/TitleScreen.uasset'
+[2019.04.07-15.38.19:371][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/MainMenu/MenuScreen" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset" SILENT=true
+[2019.04.07-15.38.19:575][  6]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/MenuScreen2E2478564FA66C34FD9E7091F7EEDFA4.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset'
+[2019.04.07-15.38.19:944][ 28]BlueprintLog: New page: Compile MenuScreen
+[2019.04.07-15.38.20:841][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/MainMenu/MenuScreen" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset" SILENT=true
+[2019.04.07-15.38.20:885][ 49]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/MenuScreenD3E9A5BE47921DB2FD2B0295CF4C62CB.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset'
+[2019.04.07-15.38.22:681][157]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.07-15.38.22:707][157]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.38.22:707][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.07-15.38.22:707][157]PIE: New page: PIE session: MainMenuMap (Apr 7, 2019, 7:38:22 AM)
+[2019.04.07-15.38.22:707][157]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2019.04.07-15.38.22:709][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001491s)
+[2019.04.07-15.38.22:710][157]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.07-15.38.22:710][157]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2019.04.07-15.38.22:710][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.002522s)
+[2019.04.07-15.38.22:790][157]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.07-15.38.22:810][157]LogInit: FAudioDevice initialized.
+[2019.04.07-15.38.22:845][157]LogLoad: Game class is 'GameModeBase'
+[2019.04.07-15.38.22:846][157]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 60) at 2019.04.07-11.38.22
+[2019.04.07-15.38.22:846][157]LogWorld: Bringing up level for play took: 0.000376
+[2019.04.07-15.38.22:860][157]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap -0.159
+[2019.04.07-15.38.22:860][157]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.38.26:587][353]LogRenderer: Reallocating scene render targets to support 1032x576 Format 10 NumSamples 1 (Frame:179).
+[2019.04.07-15.38.26:629][354]LogRenderer: Reallocating scene render targets to support 1076x576 Format 10 NumSamples 1 (Frame:180).
+[2019.04.07-15.38.26:678][355]LogRenderer: Reallocating scene render targets to support 1116x576 Format 10 NumSamples 1 (Frame:181).
+[2019.04.07-15.38.26:721][356]LogRenderer: Reallocating scene render targets to support 1148x576 Format 10 NumSamples 1 (Frame:182).
+[2019.04.07-15.38.26:765][357]LogRenderer: Reallocating scene render targets to support 1152x576 Format 10 NumSamples 1 (Frame:183).
+[2019.04.07-15.38.26:810][358]LogRenderer: Reallocating scene render targets to support 1156x576 Format 10 NumSamples 1 (Frame:184).
+[2019.04.07-15.38.34:222][695]LogNet: Browse: /Game/Maps/CharacterSelectMap
+[2019.04.07-15.38.34:222][695]LogLoad: LoadMap: /Game/Maps/CharacterSelectMap
+[2019.04.07-15.38.37:095][695]LogAIModule: Creating AISystem for world CharacterSelectMap
+[2019.04.07-15.38.37:095][695]LogLoad: Game class is 'NewGMCharSelect_C'
+[2019.04.07-15.38.37:104][695]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CharacterSelectMap.CharacterSelectMap up for play (max tick rate 60) at 2019.04.07-11.38.37
+[2019.04.07-15.38.37:105][695]LogWorld: Bringing up level for play took: 0.007305
+[2019.04.07-15.38.37:108][695]LogLoad: Took 2.885191 seconds to LoadMap(/Game/Maps/CharacterSelectMap)
+[2019.04.07-15.38.39:523][835]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.38.39:523][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.38.39:688][835]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.07-15.38.39:688][835]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.38.39:721][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.38.39:752][836]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.04.07-15.38.41:164][917]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.07-15.38.41:186][917]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.38.41:186][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.07-15.38.41:186][917]PIE: New page: PIE session: MainMenuMap (Apr 7, 2019, 7:38:41 AM)
+[2019.04.07-15.38.41:186][917]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2019.04.07-15.38.41:188][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001422s)
+[2019.04.07-15.38.41:188][917]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.07-15.38.41:188][917]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2019.04.07-15.38.41:188][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.002170s)
+[2019.04.07-15.38.41:264][917]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.07-15.38.41:286][917]LogInit: FAudioDevice initialized.
+[2019.04.07-15.38.41:319][917]LogLoad: Game class is 'GameModeBase'
+[2019.04.07-15.38.41:320][917]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 60) at 2019.04.07-11.38.41
+[2019.04.07-15.38.41:320][917]LogWorld: Bringing up level for play took: 0.000518
+[2019.04.07-15.38.41:334][917]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap 0.315
+[2019.04.07-15.38.41:334][917]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.38.54:783][710]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.38.54:783][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.38.54:818][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.07-15.38.54:819][710]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.38.54:847][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.38.54:933][712]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.04.07-15.39.38:351][238]LogSlate: Window 'Widget Reflector' being destroyed
+[2019.04.07-15.39.38:359][238]LogSlate: Window 'Widget Reflector' being destroyed
+[2019.04.07-15.39.39:068][281]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.07-15.39.39:094][281]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.39.39:094][281]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.07-15.39.39:107][281]LogPlayLevel: [PlayLevel] Compiling MenuScreen before play...
+[2019.04.07-15.39.39:607][281]LogPlayLevel: PlayLevel: Blueprint regeneration took 513 ms (1 blueprints)
+[2019.04.07-15.39.39:620][281]PIE: New page: PIE session: MainMenuMap (Apr 7, 2019, 7:39:39 AM)
+[2019.04.07-15.39.39:620][281]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2019.04.07-15.39.39:621][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001308s)
+[2019.04.07-15.39.39:622][281]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.07-15.39.39:622][281]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2019.04.07-15.39.39:622][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.002154s)
+[2019.04.07-15.39.39:709][281]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.07-15.39.39:731][281]LogInit: FAudioDevice initialized.
+[2019.04.07-15.39.39:739][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.39.39:864][281]LogLoad: Game class is 'GameModeBase'
+[2019.04.07-15.39.39:864][281]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 60) at 2019.04.07-11.39.39
+[2019.04.07-15.39.39:865][281]LogWorld: Bringing up level for play took: 0.000489
+[2019.04.07-15.39.39:877][281]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.04.07-15.39.39:880][281]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap 0.862
+[2019.04.07-15.39.39:880][281]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.39.49:221][826]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.39.49:222][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.39.49:327][826]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.07-15.39.49:362][826]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.07-15.39.49:362][826]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.39.49:411][827]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.04.07-15.40.01:620][552]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.07-15.40.01:640][552]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.40.01:640][552]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.07-15.40.01:654][552]LogPlayLevel: [PlayLevel] Compiling MenuScreen before play...
+[2019.04.07-15.40.01:964][552]LogPlayLevel: PlayLevel: Blueprint regeneration took 324 ms (1 blueprints)
+[2019.04.07-15.40.01:965][552]PIE: New page: PIE session: MainMenuMap (Apr 7, 2019, 7:40:01 AM)
+[2019.04.07-15.40.01:965][552]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2019.04.07-15.40.01:967][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001760s)
+[2019.04.07-15.40.01:968][552]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.07-15.40.01:968][552]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2019.04.07-15.40.01:968][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.003036s)
+[2019.04.07-15.40.02:096][552]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.07-15.40.02:118][552]LogInit: FAudioDevice initialized.
+[2019.04.07-15.40.02:125][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.40.02:262][552]LogLoad: Game class is 'GameModeBase'
+[2019.04.07-15.40.02:263][552]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 60) at 2019.04.07-11.40.02
+[2019.04.07-15.40.02:263][552]LogWorld: Bringing up level for play took: 0.000553
+[2019.04.07-15.40.02:276][552]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.04.07-15.40.02:278][552]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap 1.259
+[2019.04.07-15.40.02:278][552]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.40.06:944][822]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.07-15.40.06:949][822]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.40.06:979][822]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.07-15.40.06:979][822]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.40.07:097][823]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.04.07-15.40.19:408][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/MainMenu/MenuScreen" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset" SILENT=true
+[2019.04.07-15.40.19:449][551]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/MenuScreenB04FE1C04868CD76DA96679E2E995501.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset'
+[2019.04.07-15.42.22:134][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/MainMenu/MenuScreen" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset" SILENT=true
+[2019.04.07-15.42.22:173][863]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/MenuScreen6B24017E4B85B3CAF9B8E88B52C44C81.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset'
+[2019.04.07-15.42.38:028][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/MainMenu/MenuScreen" FILE="../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset" SILENT=true
+[2019.04.07-15.42.38:070][796]LogSavePackage: Moving '../../../../AggressiveCart/UnrealCarSelect/Saved/MenuScreen60341DD147313BDC6855B98A64ABA58C.tmp' to '../../../../AggressiveCart/UnrealCarSelect/Content/UMG/MainMenu/MenuScreen.uasset'
+[2019.04.07-15.42.38:723][835]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.07-15.42.38:750][835]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.42.38:750][835]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.07-15.42.38:766][835]LogPlayLevel: [PlayLevel] Compiling MenuScreen before play...
+[2019.04.07-15.42.39:093][835]LogPlayLevel: PlayLevel: Blueprint regeneration took 343 ms (1 blueprints)
+[2019.04.07-15.42.39:094][835]PIE: New page: PIE session: MainMenuMap (Apr 7, 2019, 7:42:39 AM)
+[2019.04.07-15.42.39:094][835]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2019.04.07-15.42.39:095][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001518s)
+[2019.04.07-15.42.39:096][835]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.07-15.42.39:096][835]LogPlayLevel: PIE: World Init took: (0.001034s)
+[2019.04.07-15.42.39:097][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.002820s)
+[2019.04.07-15.42.39:179][835]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.07-15.42.39:201][835]LogInit: FAudioDevice initialized.
+[2019.04.07-15.42.39:210][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.07-15.42.39:282][835]LogLoad: Game class is 'GameModeBase'
+[2019.04.07-15.42.39:283][835]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 60) at 2019.04.07-11.42.39
+[2019.04.07-15.42.39:283][835]LogWorld: Bringing up level for play took: 0.000456
+[2019.04.07-15.42.39:295][835]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.04.07-15.42.39:298][835]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap 0.279
+[2019.04.07-15.42.39:299][835]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.42.48:559][382]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.07-15.42.48:565][382]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.42.48:597][382]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.07-15.42.48:597][382]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.07-15.42.48:707][383]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.04.07-15.47.00:521][664]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Cars/CarMain.CarMain_C:UserConstructionScript'!
+[2019.04.07-15.47.00:571][666]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Cars/CarMain.CarMain_C:UserConstructionScript'!
+[2019.04.07-15.47.00:603][668]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Cars/CarMain.CarMain_C:UserConstructionScript'!
+[2019.04.07-15.47.00:639][670]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Cars/CarMain.CarMain_C:UserConstructionScript'!
+[2019.04.07-15.47.02:424][773]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap
+[2019.04.07-15.47.38:673][803]LogUObjectArray: Warning: Invalid object index 8126585
+[2019.04.07-15.47.40:861][803]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.188 s
+[2019.04.07-15.47.40:861][803]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.07-15.47.40:861][803]LogOutputDevice: Error: 
+[2019.04.07-15.47.40:861][803]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2019.04.07-15.47.40:861][803]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2019.04.07-15.47.40:861][803]LogOutputDevice: Error: Stack: 
+[2019.04.07-15.47.40:861][803]LogOutputDevice: Error: [Callstack] 0x00007ffb63fc71f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.07-15.47.40:861][803]LogOutputDevice: Error: [Callstack] 0x00007ffb63d00c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.07-15.47.40:861][803]LogOutputDevice: Error: [Callstack] 0x00007ffb63d1b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.07-15.47.40:861][803]LogOutputDevice: Error: [Callstack] 0x00007ffb61b411db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.07-15.47.40:861][803]LogOutputDevice: Error: [Callstack] 0x00007ffb61b5060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.07-15.47.40:861][803]LogOutputDevice: Error: [Callstack] 0x00007ffb5612da7a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.04.07-15.47.40:861][803]LogOutputDevice: Error: [Callstack] 0x00007ffb5550ec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.04.07-15.47.40:861][803]LogOutputDevice: Error: [Callstack] 0x00007ffb554cf337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.04.07-15.47.40:861][803]LogOutputDevice: Error: [Callstack] 0x00007ffb63628204 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ffb6386e933 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ffb6368281a UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ffb63658190 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ffb6364b073 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ffb7dbcd007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ffb7dbc0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ffb7dbcf4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ffb7dbbc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ffbd546ca66 USER32.dll!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ffbd546c582 USER32.dll!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ffb7dbd0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ff719f154e5 UE4Editor.exe!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ff719f25b3c UE4Editor.exe!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ff719f25bba UE4Editor.exe!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ff719f33dac UE4Editor.exe!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ff719f35aaa UE4Editor.exe!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ffbd4e981f4 KERNEL32.DLL!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: [Callstack] 0x00007ffbd5a4a251 ntdll.dll!UnknownFunction []
+[2019.04.07-15.47.40:862][803]LogOutputDevice: Error: 
+[2019.04.07-15.47.40:877][803]LogStats:                SubmitErrorReport -  0.011 s
