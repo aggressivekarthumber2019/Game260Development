@@ -286,6 +286,7 @@ AKartVehiclePawn::AKartVehiclePawn()
 	FrameRate = 0.0067f;
 	canMove = true;
 	bIsBraking = false;
+	bAllowInput = false;
 }
 
 void AKartVehiclePawn::Tick(float DeltaTime)
@@ -355,6 +356,9 @@ void AKartVehiclePawn::BeginPlay()
 
 void AKartVehiclePawn::FixedUpdate()
 {
+	if (!bAllowInput)
+		return;
+
 	// Sarfaraz: If the car is on the ground, then reduce the speed values and move the car
 	if (RayCastGround())
 	{
@@ -526,6 +530,9 @@ void AKartVehiclePawn::MoveYCallBack(float AxisValue)
 
 void AKartVehiclePawn::UseItemCode()
 {
+	if (!bAllowInput)
+		return;
+
 	if (GEngine && bShouldDisplayOnScreenDebug)
 		GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Blue, "Using Item");
 }

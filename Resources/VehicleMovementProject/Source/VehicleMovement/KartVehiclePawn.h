@@ -231,6 +231,12 @@ private:
 	// Matthew: used for checkpoint location for vehicle to spwan at
 	FVector lastCheckpointLocation;
 
+	// Matthew: used for checkpoint rotation for vehicle to spwan at
+	FRotator lastCheckpointRotation;
+
+	// Mike: Can the user input anything
+	bool bAllowInput;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -324,11 +330,27 @@ public:
 	/* CHECKPOINT RESPAWN */
 	////////////////////////
 
+	/** Mike: Setter function for allowing input */
+	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Setter")
+	void SetAllowInput(bool allowInput) { bAllowInput = allowInput; }
+
+	/** Mike: Setter function for allowing input */
+	UFUNCTION(BlueprintPure, Category = "Vehicle Parts | Setter")
+	bool GetAllowInput() { return bAllowInput; }
+
 	/** Matthew: Set new checkpoint location to be respawned at */
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Setter")
 	void SetLastCheckpointLocation(FVector Location);
 
 	/** Matthew: Get checkpoint location to be respawned at */
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintPure, Category = "Vehicle Parts | Getter")
 	FVector GetLastCheckpointLocation();
+
+	/** Matthew: Set new checkpoint location to be respawned at */
+	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Setter")
+	void SetLastCheckpointRotation(FRotator newRot) { lastCheckpointRotation = newRot;	};
+
+	/** Matthew: Get checkpoint location to be respawned at */
+	UFUNCTION(BlueprintPure, Category = "Vehicle Parts | Getter")
+	FRotator GetLastCheckpointRotation() { return lastCheckpointRotation; };
 };
