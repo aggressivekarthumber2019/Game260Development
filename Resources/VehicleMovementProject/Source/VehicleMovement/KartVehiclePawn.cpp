@@ -352,6 +352,8 @@ void AKartVehiclePawn::BeginPlay()
 
 	// Register callback
 	PawnStatComponent->OnMaxSpeedChanged.AddDynamic(this, &AKartVehiclePawn::MaxSpeedChangedCallBack);
+
+	moveTimer = 10;
 }
 
 void AKartVehiclePawn::FixedUpdate()
@@ -363,14 +365,19 @@ void AKartVehiclePawn::FixedUpdate()
 	if (RayCastGround())
 	{
 		canMove = true;
-	}
 
+	}
 	// Mike: If the car is not on the ground, then set the boolean can move to false
 	else
 	{
-		canMove = false;
+		moveTimer -= 1;
+		if (moveTimer <= 0) {
+			GEngine->AddOnScreenDebugMessage(-1, 200.0f, FColor::Red, "Stoping");
+			canMove = false;
+			moveTimer = 10;
+		}
 	}
-
+	
 	// Mike: Always move car regardless of the position
 	MoveCar();
 }
@@ -640,7 +647,7 @@ bool AKartVehiclePawn::RayCastGround()
 	FVector StartTrace = CarBoxCollider->GetComponentLocation() - UpVector;
 
 	// Sarfaraz: The end of the trace will be a small line from the start trace and down
-	FVector EndTrace = (-UpVector * 40.0f) + StartTrace;
+	FVector EndTrace = (-UpVector * 45.0f) + StartTrace;
 	
 	// Mike: Update hit resultt and temp AActor
 	TArray<AActor*> temp;

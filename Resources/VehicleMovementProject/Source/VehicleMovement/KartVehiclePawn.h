@@ -220,6 +220,8 @@ private:
 
 	float AirControlXValue;
 
+	float  moveTimer;
+
 	// Mike: Boolean for if the car is braking or not
 	bool bIsBraking;
 
