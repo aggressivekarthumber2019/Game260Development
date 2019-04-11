@@ -193,7 +193,7 @@ public:
 	float GetCurrentTurnAmount() { return InputCurrenTurnAmount; }
 
 	/** Mike: Getter function for if the character can move */
-	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Getter")
+	UFUNCTION(BlueprintPure, Category = "Vehicle Parts | Getter")
 	bool GetCanMove() { return canMove; }
 
 	UFUNCTION(BlueprintPure, Category = "Vehicle Parts | Getter")
@@ -204,6 +204,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Setter")
 	void SetVehicleMeshOffset(float val) { VehicleOffsetZ = val; }
+	
 
 private:
 
@@ -338,19 +339,15 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Vehicle Parts | Setter")
 	bool GetAllowInput() { return bAllowInput; }
 
-	/** Matthew: Set new checkpoint location to be respawned at */
+	/** Matthew: Set new checkpoint location and rotation to be respawned at */
 	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Setter")
-	void SetLastCheckpointLocation(FVector Location);
+	void SetLastCheckpoint(FVector Location, FRotator Rotation);
 
 	/** Matthew: Get checkpoint location to be respawned at */
 	UFUNCTION(BlueprintPure, Category = "Vehicle Parts | Getter")
-	FVector GetLastCheckpointLocation();
+	FVector GetLastCheckpointLocation() { return lastCheckpointLocation; };
 
-	/** Matthew: Set new checkpoint location to be respawned at */
-	UFUNCTION(BlueprintCallable, Category = "Vehicle Parts | Setter")
-	void SetLastCheckpointRotation(FRotator newRot) { lastCheckpointRotation = newRot;	};
-
-	/** Matthew: Get checkpoint location to be respawned at */
+	/** Matthew: Get checkpoint rotation to be respawned at */
 	UFUNCTION(BlueprintPure, Category = "Vehicle Parts | Getter")
 	FRotator GetLastCheckpointRotation() { return lastCheckpointRotation; };
 };
