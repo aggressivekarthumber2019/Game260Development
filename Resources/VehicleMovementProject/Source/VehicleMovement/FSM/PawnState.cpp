@@ -53,8 +53,11 @@ void UPawnState::EnableMod(class UPawnStatMod* Mod)
 
 void UPawnState::DisableMod(class UPawnStatMod* Mod)
 {
-	if (AllowedModSet.Contains(Mod->StaticClass()->ClassUnique))
+	if(Mod)
 	{
-		OwnerPawnStatComponent->DisableMod(Mod);
+		if (AllowedModSet.Contains(Mod->StaticClass()->ClassUnique))
+		{
+			OwnerPawnStatComponent->DisableMod(Mod);
+		}
 	}
 }
