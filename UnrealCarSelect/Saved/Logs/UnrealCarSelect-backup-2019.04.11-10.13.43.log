@@ -1,0 +1,403 @@
+﻿Log file open, 04/09/19 19:18:08
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UnrealCarSelect
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.278063
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.110s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.09-23.18.08:446][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.09-23.18.08:446][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.09-23.18.08:455][  0]LogHAL: Display: Platform has ~ 16 GB [17061834752 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.09-23.18.08:455][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.09-23.18.08:455][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.09-23.18.08:455][  0]LogInit: Computer: MSI
+[2019.04.09-23.18.08:455][  0]LogInit: User: Owner
+[2019.04.09-23.18.08:455][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.09-23.18.08:455][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.09-23.18.08:455][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.09-23.18.08:455][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.09-23.18.08:455][  0]LogMemory: Process Physical Memory: 100.29 MB used, 100.29 MB peak
+[2019.04.09-23.18.08:455][  0]LogMemory: Process Virtual Memory: 90.75 MB used, 90.75 MB peak
+[2019.04.09-23.18.08:455][  0]LogMemory: Physical Memory: 10856.29 MB used,  5415.14 MB free, 16271.43 MB total
+[2019.04.09-23.18.08:455][  0]LogMemory: Virtual Memory: 4642.63 MB used,  5415.14 MB free, 134217728.00 MB total
+[2019.04.09-23.18.09:121][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.09-23.18.09:121][  0]LogInit: Using OS detected locale (en-CA).
+[2019.04.09-23.18.09:122][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.04.09-23.18.09:518][  0]LogStreaming: Display: Took  0.397s to InitEngineTextLocalization.
+[2019.04.09-23.18.09:518][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.09-23.18.09:560][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.09-23.18.09:560][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.09-23.18.09:805][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.09-23.18.09:805][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.09-23.18.09:874][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.04.09-23.18.09:874][  0]LogD3D11RHI:       1979/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.09-23.18.09:884][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.04.09-23.18.09:884][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.09-23.18.09:886][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.09-23.18.09:886][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.09-23.18.09:886][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.09-23.18.09:918][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.09-23.18.09:918][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.04.09-23.18.09:918][  0]LogWindows: EnumDisplayDevices:
+[2019.04.09-23.18.09:918][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.04.09-23.18.09:918][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.04.09-23.18.09:918][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.04.09-23.18.09:919][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.09-23.18.09:919][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.04.09-23.18.09:919][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.09-23.18.09:919][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.09-23.18.09:919][  0]LogRHI: Texture pool is 1385 MB (70% of 1979 MB)
+[2019.04.09-23.18.09:969][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.09-23.18.09:994][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.09-23.18.09:995][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../AggressiveCart/UnrealCarSelect/Intermediate/Shaders/WorkingDirectory/4768/).
+[2019.04.09-23.18.09:995][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/F1A82D4B4EA54597C3AA0CB9A5C00A20/'.
+[2019.04.09-23.18.10:325][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.09-23.18.10:338][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.09-23.18.10:353][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.09-23.18.10:366][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.09-23.18.10:379][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.09-23.18.10:396][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.09-23.18.10:409][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.09-23.18.10:423][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.09-23.18.10:430][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:515][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-23.18.10:516][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.09-23.18.10:578][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.09-23.18.10:578][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.09-23.18.10:603][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.09-23.18.10:603][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.09-23.18.10:615][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.09-23.18.10:629][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.09-23.18.10:641][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.09-23.18.10:655][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.09-23.18.10:665][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.09-23.18.10:665][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.09-23.18.10:710][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.09-23.18.10:710][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.09-23.18.10:710][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.09-23.18.11:494][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.09-23.18.11:551][  0]LogDerivedDataCache: Loaded boot cache 0.06s 74MB C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.09-23.18.11:551][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.09-23.18.11:551][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../AggressiveCart/UnrealCarSelect/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.09-23.18.11:551][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.09-23.18.11:551][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../AggressiveCart/UnrealCarSelect/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.09-23.18.11:551][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.09-23.18.11:567][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.09-23.18.11:580][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.09-23.18.11:580][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.09-23.18.11:580][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.09-23.18.11:600][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.09-23.18.11:601][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.09-23.18.11:602][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.09-23.18.11:677][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2019.04.09-23.18.12:009][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.09-23.18.12:148][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.09-23.18.12:150][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.09-23.18.12:150][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.09-23.18.12:150][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.09-23.18.12:150][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.09-23.18.12:171][  0]LogNetVersion: UnrealCarSelect 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1018169339)
+[2019.04.09-23.18.12:727][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.080312 seconds
+[2019.04.09-23.18.12:736][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.09-23.18.12:736][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.04.09-23.18.12:736][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.09-23.18.13:596][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.09-23.18.13:610][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.09-23.18.13:752][  0]SourceControl: Source control is disabled
+[2019.04.09-23.18.13:752][  0]SourceControl: Source control is disabled
+[2019.04.09-23.18.13:753][  0]SourceControl: Source control is disabled
+[2019.04.09-23.18.13:753][  0]SourceControl: Source control is disabled
+[2019.04.09-23.18.13:927][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.09-23.18.14:198][  0]LogOcInput: OculusInput pre-init called
+[2019.04.09-23.18.14:260][  0]LogEngine: Initializing Engine...
+[2019.04.09-23.18.14:262][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.09-23.18.14:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.09-23.18.14:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.09-23.18.14:264][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.09-23.18.14:264][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.09-23.18.14:570][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.09-23.18.14:579][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.09-23.18.14:643][  0]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.09-23.18.14:672][  0]LogInit: FAudioDevice initialized.
+[2019.04.09-23.18.14:672][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.09-23.18.14:737][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.09-23.18.14:746][  0]LogInit: Texture streaming: Enabled
+[2019.04.09-23.18.14:760][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.09-23.18.14:772][  0]LogInit: Transaction tracking system initialized
+[2019.04.09-23.18.14:789][  0]BlueprintLog: New page: Editor Load
+[2019.04.09-23.18.14:850][  0]LocalizationService: Localization service is disabled
+[2019.04.09-23.18.15:104][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.09-23.18.15:104][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.09-23.18.15:104][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.09-23.18.15:104][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.09-23.18.15:104][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.09-23.18.15:104][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.09-23.18.15:104][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.09-23.18.15:211][  0]LogFileCache: Scanning file cache for directory 'D:/AggressiveCart/UnrealCarSelect/Content/' took 0.01s
+[2019.04.09-23.18.15:211][  0]SourceControl: Source control is disabled
+[2019.04.09-23.18.15:212][  0]Cmd: MAP LOAD FILE="../../../../AggressiveCart/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.09-23.18.15:212][  0]LightingResults: New page: Lighting Build
+[2019.04.09-23.18.15:214][  0]MapCheck: New page: Map Check
+[2019.04.09-23.18.15:214][  0]LightingResults: New page: Lighting Build
+[2019.04.09-23.18.15:839][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.04.09-23.18.15:856][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.09-23.18.15:882][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.09-23.18.15:936][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.12ms to complete.
+[2019.04.09-23.18.15:937][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.725
+[2019.04.09-23.18.16:047][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.18.16:055][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.18.16:063][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.18.16:072][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.18.16:077][  0]LogCollectionManager: Loaded 0 collections in 0.000995 seconds
+[2019.04.09-23.18.16:117][  0]LogFileCache: Scanning file cache for directory 'D:/AggressiveCart/UnrealCarSelect/Saved/Collections/' took 0.01s
+[2019.04.09-23.18.16:117][  0]LogFileCache: Scanning file cache for directory 'D:/AggressiveCart/UnrealCarSelect/Content/Developers/Owner/Collections/' took 0.01s
+[2019.04.09-23.18.16:117][  0]LogFileCache: Scanning file cache for directory 'D:/AggressiveCart/UnrealCarSelect/Content/Collections/' took 0.01s
+[2019.04.09-23.18.16:117][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.09-23.18.16:126][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2572 classes and 603 folders.
+[2019.04.09-23.18.16:130][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.04.09-23.18.16:174][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.09-23.18.16:179][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.04.09-23.18.16:281][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.09-23.18.16:281][  0]LogLoad: (Engine Initialization) Total time: 9.41 seconds
+[2019.04.09-23.18.16:281][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.09-23.18.16:323][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.09-23.18.16:324][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.09-23.18.16:326][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.09-23.18.16:332][  0]LogSlate: Took 0.000685 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.09-23.18.16:446][  0]LogRenderer: Reallocating scene render targets to support 756x452 Format 10 NumSamples 1 (Frame:1).
+[2019.04.09-23.18.16:511][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.09-23.18.16:557][  1]LogAssetRegistry: Asset discovery search completed in 4.9021 seconds
+[2019.04.09-23.18.16:560][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.09-23.18.16:560][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
+[2019.04.09-23.18.19:198][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-23.18.23:219][393]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.09-23.18.23:397][393]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.09-23.18.23:406][393]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/MainMenuMap.MainMenuMap
+[2019.04.09-23.18.23:432][393]Cmd: MAP LOAD FILE="../../../../AggressiveCart/UnrealCarSelect/Content/Maps/MainMenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.09-23.18.23:432][393]LightingResults: New page: Lighting Build
+[2019.04.09-23.18.23:433][393]LoadErrors: New page: Loading map: MainMenuMap.umap
+[2019.04.09-23.18.23:434][393]MapCheck: New page: Map Check
+[2019.04.09-23.18.23:434][393]LightingResults: New page: Lighting Build
+[2019.04.09-23.18.23:521][393]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.09-23.18.23:562][393]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.09-23.18.23:624][393]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.143ms to complete.
+[2019.04.09-23.18.23:625][393]LogFileHelpers: Loading map 'MainMenuMap' took 0.193
+[2019.04.09-23.18.24:402][437]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-23.18.24:413][437]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.09-23.18.24:413][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-23.18.24:426][437]PIE: New page: PIE session: MainMenuMap (Apr 9, 2019, 3:18:24 PM)
+[2019.04.09-23.18.24:426][437]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2019.04.09-23.18.24:427][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001582s)
+[2019.04.09-23.18.24:428][437]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.09-23.18.24:428][437]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2019.04.09-23.18.24:429][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.002839s)
+[2019.04.09-23.18.24:502][437]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.09-23.18.24:521][437]LogInit: FAudioDevice initialized.
+[2019.04.09-23.18.24:566][437]LogLoad: Game class is 'GameModeBase'
+[2019.04.09-23.18.24:568][437]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 60) at 2019.04.09-19.18.24
+[2019.04.09-23.18.24:568][437]LogWorld: Bringing up level for play took: 0.000383
+[2019.04.09-23.18.24:584][437]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.04.09-23.18.24:585][437]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap -0.458
+[2019.04.09-23.18.24:586][437]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.09-23.18.27:257][578]LogRenderer: Reallocating scene render targets to support 912x460 Format 10 NumSamples 1 (Frame:142).
+[2019.04.09-23.19.18:775][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.09-23.19.18:776][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.19.18:810][377]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-23.19.18:810][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap' with GeneratedClass '/Game/Maps/MainMenuMap.MainMenuMap_C' with ClassGeneratedBy '/Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap'
+[2019.04.09-23.19.18:837][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-23.19.18:885][380]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.04.10-00.03.27:355][919]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.10-00.18.28:463][921]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{91e54df5-58c5-4016-9fb0-8b41ee7cc5ea} was removed. Shutting down audio device.
+[2019.04.10-00.18.29:368][921]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.10-00.18.32:363][928]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.10-18.24.30:499][945]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{91e54df5-58c5-4016-9fb0-8b41ee7cc5ea} was removed. Shutting down audio device.
+[2019.04.10-18.24.32:146][945]LogHttp: Warning: 00000196BBE3EC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-18.24.32:146][945]LogHttp: Warning: 00000196BBE3EC00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1969e0d7fa0 [can pipeline])
+[2019.04.10-18.24.32:146][945]LogHttp: Warning: 00000196BBE3EC00: libcurl info message cache 1 (Re-using existing connection! (#22) with host datarouter.ol.epicgames.com)
+[2019.04.10-18.24.32:146][945]LogHttp: Warning: 00000196BBE3EC00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.169.59.58) port 443 (#22))
+[2019.04.10-18.24.32:146][945]LogHttp: Warning: 00000196BBE3EC00: libcurl info message cache 3 (upload completely sent off: 5518 out of 5518 bytes)
+[2019.04.10-18.24.32:146][945]LogHttp: Warning: 00000196BBE3EC00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.04.10-18.24.32:146][945]LogHttp: Warning: 00000196BBE3EC00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.04.10-18.24.32:146][945]LogHttp: Warning: 00000196BBE3EC00: libcurl info message cache 6 (Closing connection 22)
+[2019.04.10-18.24.32:147][945]LogHttp: Warning: 00000196BBE3EC00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9F104D42-4416-44E6-A97F-4C9C62CA0053%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=d4f8b69b47bf6cb7018273a3f1cf913a%7C6930a40b8b914583837003440dd25107%7Ca1ff9de8-ca87-46bd-be05-25f4e0258eab&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.04.10-18.24.32:148][945]LogHttp: Warning: 00000196BBE3EC00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-18.24.32:148][945]LogHttp: Warning: 00000196BBE3EC00: libcurl info message cache 9 (Closing connection 23)
+[2019.04.10-18.24.32:359][945]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.10-20.51.15:727][480]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.04.11-11.44.22:219][494]LogHttp: Warning: 00000196BBE3F100: HTTP request timed out after 53588.38 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9F104D42-4416-44E6-A97F-4C9C62CA0053%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=d4f8b69b47bf6cb7018273a3f1cf913a%7C6930a40b8b914583837003440dd25107%7Ca1ff9de8-ca87-46bd-be05-25f4e0258eab&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.04.11-11.44.23:514][494]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.04.11-11.44.23:514][494]LogHttp: Warning: 00000196BBE3F100: request failed, libcurl error: 0 (No error)
+[2019.04.11-11.44.23:514][494]LogHttp: Warning: 00000196BBE3F100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1969e0d7fa0 [can pipeline])
+[2019.04.11-11.44.23:514][494]LogHttp: Warning: 00000196BBE3F100: libcurl info message cache 1 (Re-using existing connection! (#87) with host datarouter.ol.epicgames.com)
+[2019.04.11-11.44.23:515][494]LogHttp: Warning: 00000196BBE3F100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.21.102.187) port 443 (#87))
+[2019.04.11-11.44.23:515][494]LogHttp: Warning: 00000196BBE3F100: libcurl info message cache 3 (upload completely sent off: 5622 out of 5622 bytes)
+[2019.04.11-11.44.23:515][494]LogHttp: Warning: 00000196BBE3F100: libcurl info message cache 4 (Closing connection 87)
+[2019.04.11-11.44.25:581][498]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.11-11.44.32:073][516]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.11-11.44.32:343][517]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.11-13.32.47:207][972]LogSlate: Window 'UnrealCarSelect - Unreal Editor' being destroyed
+[2019.04.11-13.32.47:213][972]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.11-13.32.47:685][973]Cmd: QUIT_EDITOR
+[2019.04.11-13.32.48:605][973]LogExit: Preparing to exit.

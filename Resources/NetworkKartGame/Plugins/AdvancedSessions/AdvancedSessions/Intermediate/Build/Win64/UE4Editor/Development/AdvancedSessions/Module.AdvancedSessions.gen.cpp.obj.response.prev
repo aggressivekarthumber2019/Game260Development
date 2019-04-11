@@ -23,7 +23,7 @@
 /wd4838
 /we4668
 /I .
-/I "C:\Users\Raksha\Documents\Unreal Projects\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private"
+/I "C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private"
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Inc\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem\Source
@@ -77,10 +77,10 @@
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Classes
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Public
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils
-/I "C:\Users\Raksha\Documents\Unreal Projects\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Inc\AdvancedSessions"
-/I "C:\Users\Raksha\Documents\Unreal Projects\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Source"
-/I "C:\Users\Raksha\Documents\Unreal Projects\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes"
-/I "C:\Users\Raksha\Documents\Unreal Projects\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions"
+/I "C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Inc\AdvancedSessions"
+/I "C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Source"
+/I "C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes"
+/I "C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
 /I Runtime\CoreUObject
@@ -426,12 +426,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\Raksha\Documents\Unreal Projects\MultiplayerTemplate\Intermediate\Build\Win64\MultiplayerTemplateEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Raksha\Documents\Unreal Projects\MultiplayerTemplate\Intermediate\Build\Win64\MultiplayerTemplateEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Raksha\Documents\Unreal Projects\MultiplayerTemplate\Intermediate\Build\Win64\MultiplayerTemplateEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Raksha\Documents\Unreal Projects\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\Module.AdvancedSessions.gen.cpp"
-/FI"C:\Users\Raksha\Documents\Unreal Projects\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\Definitions.AdvancedSessions.h"
-/Fo"C:\Users\Raksha\Documents\Unreal Projects\MultiplayerTemplate\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\Module.AdvancedSessions.gen.cpp.obj"
+/FI"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\Module.AdvancedSessions.gen.cpp"
+/FI"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\Definitions.AdvancedSessions.h"
+/Fo"C:\Users\Raksha\Documents\Unreal Projects\VehicleMovementProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\Module.AdvancedSessions.gen.cpp.obj"
 /TP
 /GR-
 /W4

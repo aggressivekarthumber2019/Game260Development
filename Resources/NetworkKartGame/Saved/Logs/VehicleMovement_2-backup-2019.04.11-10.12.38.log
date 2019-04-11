@@ -1,0 +1,1526 @@
+﻿Log file open, 04/11/19 10:12:25
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VehicleMovement
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.285527
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AdvancedSessions
+LogPluginManager: Mounting plugin AdvancedSteamSessions
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.054s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steamworks: SteamUtils() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamUser() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamFriends() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamRemoteStorage() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamUserStats() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamMatchmakingServers() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamApps() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamNetworking() failed!
+LogOnline: Warning: STEAM: Steamworks: SteamMatchmaking() failed!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: Warning: STEAM: Steam API failed to initialize!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  /Game/MultiplayerTemplate/Levels/MainMenuMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.11-14.12.25:600][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.11-14.12.25:600][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.11-14.12.25:604][  0]LogHAL: Display: Platform has ~ 16 GB [17061834752 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.11-14.12.25:604][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.11-14.12.25:604][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.11-14.12.25:604][  0]LogInit: Computer: MSI
+[2019.04.11-14.12.25:604][  0]LogInit: User: Owner
+[2019.04.11-14.12.25:605][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.11-14.12.25:605][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.11-14.12.25:605][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.11-14.12.25:605][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.11-14.12.25:605][  0]LogMemory: Process Physical Memory: 102.80 MB used, 102.80 MB peak
+[2019.04.11-14.12.25:605][  0]LogMemory: Process Virtual Memory: 93.70 MB used, 93.70 MB peak
+[2019.04.11-14.12.25:605][  0]LogMemory: Physical Memory: 6272.76 MB used,  9998.67 MB free, 16271.43 MB total
+[2019.04.11-14.12.25:605][  0]LogMemory: Virtual Memory: 4645.96 MB used,  9998.67 MB free, 134217728.00 MB total
+[2019.04.11-14.12.26:105][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.11-14.12.26:105][  0]LogInit: Using OS detected locale (en-CA).
+[2019.04.11-14.12.26:106][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.04.11-14.12.26:514][  0]LogStreaming: Display: Took  0.409s to InitEngineTextLocalization.
+[2019.04.11-14.12.26:541][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.11-14.12.26:542][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.11-14.12.26:574][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.11-14.12.26:574][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.11-14.12.26:662][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.04.11-14.12.26:662][  0]LogD3D11RHI:       1979/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.11-14.12.26:677][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.04.11-14.12.26:678][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.11-14.12.26:682][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.11-14.12.26:682][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.11-14.12.26:682][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.11-14.12.26:716][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.11-14.12.26:716][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.04.11-14.12.26:716][  0]LogWindows: EnumDisplayDevices:
+[2019.04.11-14.12.26:716][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.04.11-14.12.26:717][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.04.11-14.12.26:717][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.04.11-14.12.26:718][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.11-14.12.26:718][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.04.11-14.12.26:718][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.11-14.12.26:718][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.11-14.12.26:718][  0]LogRHI: Texture pool is 1385 MB (70% of 1979 MB)
+[2019.04.11-14.12.26:767][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.11-14.12.26:789][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.11-14.12.26:791][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../AggressiveCart/Resources/NetworkKartGame/Intermediate/Shaders/WorkingDirectory/11428/).
+[2019.04.11-14.12.26:791][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/8D35CD034D064CE4C3FCD7BA00E9FE80/'.
+[2019.04.11-14.12.27:159][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.11-14.12.27:174][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.11-14.12.27:188][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.11-14.12.27:204][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.11-14.12.27:204][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.11-14.12.27:256][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.11-14.12.27:257][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.11-14.12.27:257][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.11-14.12.28:127][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.11-14.12.28:197][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.11-14.12.28:198][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.11-14.12.28:198][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../AggressiveCart/Resources/NetworkKartGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.11-14.12.28:198][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.11-14.12.28:198][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../AggressiveCart/Resources/NetworkKartGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.11-14.12.28:198][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.11-14.12.28:216][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.11-14.12.28:227][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.11-14.12.28:227][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.11-14.12.28:227][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.11-14.12.28:249][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.11-14.12.28:251][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.11-14.12.28:251][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.11-14.12.28:299][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.11-14.12.28:300][  0]LogInit: Using OS detected locale (en-CA).
+[2019.04.11-14.12.28:300][  0]LogTextLocalizationManager: No localization for 'en-GB' exists, so 'en' will be used for the language.
+[2019.04.11-14.12.28:300][  0]LogTextLocalizationManager: No localization for 'en-CA' exists, so 'en' will be used for the locale.
+[2019.04.11-14.12.28:625][  0]LogStreaming: Display: Took  0.326s to InitGameTextLocalization.
+[2019.04.11-14.12.28:633][  0]LogAssetRegistry: FAssetRegistry took 0.0046 seconds to start up
+[2019.04.11-14.12.28:876][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.019360 seconds
+[2019.04.11-14.12.28:997][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.11-14.12.29:137][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.11-14.12.29:140][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.11-14.12.29:140][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.11-14.12.29:140][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.11-14.12.29:140][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.11-14.12.29:160][  0]LogNetVersion: VehicleMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2966596176)
+[2019.04.11-14.12.29:699][  0]LogMoviePlayer: Initializing movie player
+[2019.04.11-14.12.29:886][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.11-14.12.29:899][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.11-14.12.30:094][  0]SourceControl: Source control is disabled
+[2019.04.11-14.12.30:094][  0]SourceControl: Source control is disabled
+[2019.04.11-14.12.30:097][  0]SourceControl: Source control is disabled
+[2019.04.11-14.12.30:225][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.11-14.12.30:488][  0]LogOcInput: OculusInput pre-init called
+[2019.04.11-14.12.30:499][  0]LogUObjectArray: 43146 objects as part of root set at end of initial load.
+[2019.04.11-14.12.30:499][  0]LogUObjectAllocator: 7699368 out of 0 bytes used by permanent object pool.
+[2019.04.11-14.12.30:499][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.11-14.12.30:556][  0]LogEngine: Initializing Engine...
+[2019.04.11-14.12.30:557][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.11-14.12.30:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.11-14.12.30:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.11-14.12.30:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.11-14.12.30:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.11-14.12.30:768][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.11-14.12.30:838][  0]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.11-14.12.30:871][  0]LogInit: FAudioDevice initialized.
+[2019.04.11-14.12.30:883][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.11-14.12.30:888][  0]LogInit: Texture streaming: Enabled
+[2019.04.11-14.12.31:271][  0]AdvancedFriendsInterfaceLog: Warning: UAdvancedFriendsInstance Failed to get voice interface!
+[2019.04.11-14.12.31:272][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-14.12.31:273][  0]LogInit: Display: Game Engine Initialized.
+[2019.04.11-14.12.31:273][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.11-14.12.31:273][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.11-14.12.31:273][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.11-14.12.31:273][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.11-14.12.31:273][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.11-14.12.31:287][  0]LogInit: Display: Starting Game.
+[2019.04.11-14.12.31:287][  0]LogNet: Browse: /Game/MultiplayerTemplate/Levels/MainMenuMap?Name=Player
+[2019.04.11-14.12.31:288][  0]LogLoad: LoadMap: /Game/MultiplayerTemplate/Levels/MainMenuMap?Name=Player
+[2019.04.11-14.12.31:440][  0]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.11-14.12.31:440][  0]LogLoad: Game class is 'MainMenuGameMode_C'
+[2019.04.11-14.12.31:448][  0]LogWorld: Bringing World /Game/MultiplayerTemplate/Levels/MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2019.04.11-10.12.31
+[2019.04.11-14.12.31:449][  0]LogWorld: Bringing up level for play took: 0.001724
+[2019.04.11-14.12.31:449][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.04.11-14.12.31:452][  0]LogLoad: Took 0.164344 seconds to LoadMap(/Game/MultiplayerTemplate/Levels/MainMenuMap)
+[2019.04.11-14.12.31:520][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.04.11-14.12.31:520][  0]LogLoad: (Engine Initialization) Total time: 7.56 seconds
+[2019.04.11-14.12.31:520][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.11-14.12.31:543][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.04.11-14.12.31:544][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.04.11-14.12.31:544][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2019.04.11-14.12.31:544][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2019.04.11-14.12.31:544][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1)
+[2019.04.11-14.12.31:548][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.11-14.12.31:550][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.11-14.12.31:562][  1]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:562][  1]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:563][  1]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:578][  2]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:578][  2]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:578][  2]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:578][  2]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:578][  2]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:578][  2]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:636][  3]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:636][  3]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:636][  3]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:636][  3]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:636][  3]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:636][  3]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:637][  3]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:637][  3]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:637][  3]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:637][  3]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:637][  3]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:637][  3]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:637][  3]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:637][  3]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:637][  3]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:637][  3]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:637][  3]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:637][  3]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:652][  4]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:652][  4]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:653][  4]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:668][  5]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:668][  5]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:668][  5]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:668][  5]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:668][  5]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:668][  5]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:684][  6]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:684][  6]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:685][  6]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:685][  6]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:685][  6]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:685][  6]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:701][  7]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:701][  7]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:701][  7]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:717][  8]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:717][  8]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:717][  8]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:717][  8]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:717][  8]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:717][  8]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:732][  9]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:732][  9]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:732][  9]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:732][  9]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:732][  9]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:732][  9]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:748][ 10]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:748][ 10]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:748][ 10]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:764][ 11]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:764][ 11]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:764][ 11]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:764][ 11]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:764][ 11]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:764][ 11]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:780][ 12]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:780][ 12]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:781][ 12]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:797][ 13]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:797][ 13]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:797][ 13]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:797][ 13]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:797][ 13]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:797][ 13]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:813][ 14]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:813][ 14]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:813][ 14]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:813][ 14]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:813][ 14]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:813][ 14]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:829][ 15]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:829][ 15]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:829][ 15]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:846][ 16]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:846][ 16]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:847][ 16]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:847][ 16]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:847][ 16]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:847][ 16]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:861][ 17]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:862][ 17]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:862][ 17]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:878][ 18]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:878][ 18]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:878][ 18]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:878][ 18]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:878][ 18]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:878][ 18]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:894][ 19]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:894][ 19]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:894][ 19]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:894][ 19]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:894][ 19]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:894][ 19]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:911][ 20]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:911][ 20]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:911][ 20]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:926][ 21]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:926][ 21]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:926][ 21]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:926][ 21]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:926][ 21]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:926][ 21]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:942][ 22]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:942][ 22]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:942][ 22]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:958][ 23]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:958][ 23]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:958][ 23]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:959][ 23]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:959][ 23]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:959][ 23]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:975][ 24]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:975][ 24]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.31:975][ 24]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:975][ 24]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:975][ 24]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:975][ 24]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:991][ 25]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.31:991][ 25]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.31:991][ 25]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:007][ 26]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:007][ 26]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:007][ 26]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:007][ 26]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:007][ 26]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:007][ 26]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:023][ 27]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:023][ 27]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:023][ 27]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:023][ 27]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:023][ 27]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:023][ 27]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:039][ 28]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:040][ 28]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:040][ 28]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:055][ 29]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:055][ 29]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:055][ 29]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:056][ 29]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:056][ 29]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:056][ 29]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:072][ 30]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:072][ 30]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:072][ 30]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:088][ 31]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:088][ 31]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:088][ 31]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:088][ 31]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:088][ 31]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:088][ 31]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:103][ 32]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:103][ 32]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:103][ 32]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:103][ 32]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:103][ 32]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:103][ 32]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:119][ 33]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:119][ 33]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:119][ 33]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:135][ 34]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:135][ 34]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:135][ 34]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:135][ 34]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:136][ 34]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:136][ 34]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:152][ 35]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:152][ 35]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:152][ 35]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:168][ 36]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:168][ 36]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:168][ 36]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:168][ 36]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:168][ 36]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:168][ 36]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:184][ 37]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:184][ 37]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:184][ 37]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:184][ 37]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:184][ 37]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:184][ 37]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:200][ 38]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:200][ 38]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:200][ 38]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:216][ 39]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:216][ 39]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:216][ 39]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:216][ 39]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:216][ 39]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:216][ 39]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:232][ 40]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:232][ 40]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:232][ 40]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:232][ 40]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:232][ 40]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:232][ 40]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:249][ 41]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:249][ 41]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:249][ 41]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:265][ 42]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:265][ 42]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:265][ 42]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:265][ 42]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:265][ 42]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:265][ 42]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:281][ 43]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:281][ 43]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:281][ 43]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:297][ 44]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:297][ 44]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:297][ 44]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:297][ 44]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:297][ 44]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:297][ 44]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:314][ 45]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:314][ 45]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:314][ 45]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:314][ 45]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:314][ 45]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:314][ 45]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:329][ 46]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:329][ 46]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:330][ 46]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:346][ 47]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:346][ 47]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:346][ 47]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:346][ 47]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:346][ 47]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:346][ 47]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:362][ 48]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:363][ 48]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:363][ 48]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:378][ 49]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:378][ 49]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:378][ 49]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:378][ 49]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:378][ 49]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:379][ 49]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:394][ 50]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:394][ 50]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:394][ 50]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:394][ 50]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:394][ 50]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:394][ 50]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:411][ 51]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:411][ 51]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:411][ 51]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:427][ 52]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:427][ 52]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:427][ 52]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:427][ 52]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:427][ 52]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:427][ 52]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:443][ 53]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:443][ 53]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:443][ 53]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:459][ 54]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:459][ 54]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:459][ 54]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:459][ 54]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:459][ 54]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:459][ 54]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:475][ 55]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:475][ 55]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:475][ 55]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:475][ 55]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:475][ 55]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:475][ 55]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:490][ 56]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:490][ 56]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:490][ 56]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:506][ 57]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:507][ 57]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:507][ 57]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:507][ 57]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:507][ 57]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:507][ 57]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:523][ 58]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:523][ 58]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:523][ 58]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:523][ 58]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:523][ 58]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:523][ 58]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:539][ 59]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:539][ 59]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:539][ 59]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:555][ 60]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:555][ 60]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:555][ 60]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:555][ 60]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:555][ 60]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:555][ 60]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:571][ 61]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:571][ 61]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:571][ 61]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:587][ 62]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:587][ 62]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:587][ 62]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:587][ 62]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:587][ 62]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:587][ 62]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:604][ 63]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:604][ 63]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:604][ 63]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:604][ 63]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:604][ 63]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:604][ 63]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:620][ 64]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:620][ 64]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:620][ 64]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:636][ 65]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:636][ 65]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:636][ 65]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:636][ 65]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:636][ 65]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:636][ 65]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:652][ 66]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:652][ 66]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:652][ 66]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:668][ 67]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:668][ 67]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:668][ 67]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:668][ 67]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:668][ 67]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:668][ 67]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:684][ 68]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:684][ 68]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:684][ 68]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:684][ 68]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:684][ 68]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:684][ 68]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:700][ 69]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:700][ 69]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:700][ 69]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:717][ 70]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:717][ 70]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:717][ 70]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:717][ 70]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:717][ 70]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:717][ 70]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:733][ 71]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:733][ 71]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:733][ 71]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:733][ 71]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:733][ 71]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:733][ 71]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:749][ 72]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:749][ 72]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:749][ 72]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:765][ 73]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:765][ 73]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:765][ 73]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:765][ 73]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:765][ 73]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:765][ 73]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:781][ 74]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:781][ 74]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:781][ 74]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:797][ 75]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:798][ 75]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:798][ 75]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:798][ 75]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:798][ 75]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:798][ 75]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:814][ 76]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:814][ 76]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:814][ 76]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:814][ 76]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:814][ 76]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:814][ 76]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:830][ 77]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:830][ 77]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:830][ 77]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:846][ 78]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:846][ 78]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:846][ 78]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:846][ 78]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:846][ 78]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:847][ 78]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:862][ 79]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:862][ 79]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:862][ 79]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:878][ 80]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:878][ 80]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:878][ 80]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:878][ 80]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:878][ 80]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:878][ 80]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:894][ 81]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:894][ 81]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:894][ 81]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:894][ 81]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:894][ 81]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:894][ 81]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:910][ 82]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:910][ 82]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:910][ 82]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:927][ 83]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:927][ 83]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:927][ 83]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:927][ 83]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:927][ 83]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:927][ 83]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:942][ 84]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:942][ 84]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:942][ 84]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:942][ 84]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:942][ 84]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:942][ 84]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:958][ 85]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:958][ 85]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:958][ 85]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:974][ 86]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:975][ 86]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.32:975][ 86]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:975][ 86]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:975][ 86]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:975][ 86]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:991][ 87]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.32:991][ 87]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.32:991][ 87]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:007][ 88]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:007][ 88]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:007][ 88]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:007][ 88]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:007][ 88]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:007][ 88]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:023][ 89]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:023][ 89]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:023][ 89]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:023][ 89]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:023][ 89]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:023][ 89]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:039][ 90]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:039][ 90]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:039][ 90]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:055][ 91]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:055][ 91]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:056][ 91]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:056][ 91]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:056][ 91]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:056][ 91]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:071][ 92]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:071][ 92]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:071][ 92]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:088][ 93]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:088][ 93]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:088][ 93]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:088][ 93]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:088][ 93]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:088][ 93]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:104][ 94]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:104][ 94]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:104][ 94]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:104][ 94]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:104][ 94]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:104][ 94]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:125][ 95]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:125][ 95]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:125][ 95]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:125][ 95]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:125][ 95]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:125][ 95]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:141][ 96]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:141][ 96]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:141][ 96]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:156][ 97]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:156][ 97]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:156][ 97]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:156][ 97]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:156][ 97]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:156][ 97]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:172][ 98]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:172][ 98]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:172][ 98]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:188][ 99]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:188][ 99]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:188][ 99]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:188][ 99]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:188][ 99]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:188][ 99]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:204][100]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:204][100]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:204][100]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:204][100]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:204][100]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:204][100]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:220][101]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:220][101]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:221][101]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:236][102]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:236][102]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:236][102]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:236][102]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:236][102]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:236][102]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:252][103]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:252][103]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:252][103]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:268][104]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:268][104]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:268][104]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:268][104]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:268][104]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:268][104]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:284][105]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:284][105]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:284][105]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:284][105]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:284][105]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:284][105]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:300][106]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:300][106]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:300][106]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:316][107]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:316][107]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:317][107]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:317][107]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:317][107]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:317][107]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:333][108]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:333][108]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:333][108]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:333][108]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:333][108]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:333][108]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:349][109]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:349][109]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:349][109]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:365][110]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:365][110]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:365][110]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:365][110]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:365][110]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:365][110]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:381][111]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:381][111]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:381][111]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:397][112]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:397][112]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:397][112]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:397][112]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:397][112]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:397][112]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:413][113]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:414][113]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:414][113]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:414][113]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:414][113]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:414][113]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:430][114]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:430][114]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:430][114]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:446][115]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:446][115]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:446][115]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:446][115]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:446][115]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:446][115]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:462][116]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:462][116]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:462][116]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:479][117]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:479][117]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:479][117]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:479][117]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:479][117]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:479][117]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:494][118]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:495][118]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:495][118]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:495][118]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:495][118]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:495][118]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:511][119]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:511][119]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:511][119]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:527][120]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:527][120]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:527][120]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:527][120]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:527][120]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:527][120]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:543][121]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:544][121]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:544][121]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:544][121]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:544][121]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:544][121]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:559][122]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:559][122]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:560][122]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:575][123]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:575][123]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:575][123]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:575][123]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:575][123]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:575][123]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:592][124]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:592][124]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:592][124]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:607][125]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:607][125]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:607][125]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:607][125]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:607][125]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:607][125]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:623][126]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:623][126]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:623][126]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:623][126]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:623][126]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:623][126]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:640][127]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:640][127]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:640][127]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:655][128]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:655][128]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:655][128]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:655][128]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:655][128]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:655][128]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:671][129]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:671][129]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:671][129]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:688][130]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:688][130]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:688][130]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:688][130]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:688][130]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:688][130]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:704][131]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:704][131]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:704][131]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:704][131]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:704][131]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:704][131]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:720][132]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:720][132]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:720][132]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:736][133]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:736][133]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:736][133]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:736][133]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:736][133]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:736][133]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:752][134]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:752][134]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:752][134]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:752][134]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:752][134]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:752][134]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:769][135]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:769][135]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:769][135]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:785][136]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:785][136]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:785][136]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:785][136]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:785][136]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:785][136]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:801][137]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:801][137]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:801][137]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:817][138]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:817][138]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:817][138]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:817][138]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:817][138]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:817][138]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:833][139]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:833][139]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:833][139]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:833][139]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:833][139]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:833][139]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:849][140]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:849][140]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:849][140]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:865][141]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:866][141]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:866][141]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:866][141]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:866][141]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:866][141]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:882][142]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:882][142]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:882][142]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:898][143]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:898][143]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:898][143]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:898][143]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:898][143]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:898][143]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:915][144]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:915][144]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:915][144]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:915][144]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:915][144]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:915][144]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:930][145]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:930][145]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:930][145]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:947][146]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:947][146]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:947][146]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:947][146]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:947][146]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:947][146]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:963][147]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:963][147]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:963][147]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:978][148]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:978][148]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:978][148]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:978][148]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:978][148]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:978][148]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:994][149]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:994][149]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.33:994][149]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:994][149]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.33:994][149]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.33:994][149]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:010][150]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:010][150]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:010][150]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:026][151]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:026][151]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:026][151]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:026][151]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:026][151]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:026][151]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:043][152]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:043][152]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:043][152]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:043][152]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:043][152]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:043][152]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:059][153]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:059][153]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:059][153]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:075][154]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:075][154]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:075][154]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:075][154]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:075][154]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:075][154]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:091][155]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:091][155]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:091][155]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:107][156]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:107][156]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:107][156]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:107][156]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:107][156]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:107][156]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:123][157]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:123][157]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:123][157]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:124][157]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:124][157]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:124][157]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:140][158]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:140][158]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:140][158]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:156][159]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:156][159]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:156][159]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:156][159]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:156][159]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:156][159]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:172][160]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:172][160]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:172][160]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:188][161]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:188][161]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:188][161]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:188][161]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:188][161]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:188][161]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:204][162]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:204][162]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:204][162]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:204][162]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:204][162]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:204][162]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:220][163]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:220][163]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:220][163]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:236][164]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:236][164]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:237][164]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:237][164]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:237][164]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:237][164]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:253][165]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:253][165]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:253][165]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:253][165]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:253][165]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:253][165]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:269][166]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:269][166]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:269][166]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:285][167]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:285][167]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:285][167]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:285][167]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:285][167]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:285][167]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:301][168]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:301][168]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:301][168]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:317][169]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:317][169]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:317][169]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:317][169]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:317][169]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:317][169]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:333][170]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:333][170]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:333][170]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:333][170]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:333][170]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:333][170]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:349][171]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:349][171]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:349][171]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:365][172]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:365][172]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:365][172]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:365][172]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:365][172]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:365][172]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:382][173]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:382][173]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:382][173]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:398][174]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:398][174]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:398][174]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:398][174]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:398][174]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:398][174]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:414][175]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:414][175]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:414][175]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:414][175]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:414][175]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:414][175]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:430][176]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:430][176]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:430][176]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:447][177]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:447][177]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:447][177]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:447][177]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:447][177]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:447][177]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:463][178]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:463][178]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:463][178]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:479][179]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:479][179]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:479][179]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:479][179]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:479][179]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:479][179]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:495][180]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:496][180]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:496][180]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:496][180]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:496][180]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:496][180]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:512][181]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:512][181]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:512][181]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:528][182]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:528][182]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:528][182]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:528][182]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:528][182]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:528][182]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:544][183]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:544][183]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:544][183]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:544][183]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:544][183]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:544][183]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:558][184]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:559][184]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:559][184]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:575][185]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:575][185]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:575][185]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:575][185]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:575][185]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:575][185]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:591][186]LogBlueprintUserMessages: [HostButton] true
+[2019.04.11-14.12.34:591][186]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:591][186]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:612][187]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:612][187]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:612][187]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:612][187]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:612][187]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:612][187]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:623][188]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:623][188]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:623][188]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:623][188]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:623][188]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:623][188]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:639][189]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:639][189]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:639][189]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:656][190]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:656][190]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:656][190]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:656][190]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:656][190]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:656][190]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:672][191]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:672][191]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:672][191]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:688][192]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:688][192]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:688][192]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:688][192]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:688][192]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:688][192]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:704][193]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:704][193]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:704][193]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:704][193]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:704][193]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:704][193]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:720][194]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:720][194]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:720][194]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:736][195]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:736][195]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:736][195]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:736][195]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:736][195]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:736][195]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:752][196]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:753][196]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:753][196]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:753][196]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:753][196]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:753][196]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:770][197]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:771][197]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:771][197]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:785][198]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:785][198]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:785][198]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:785][198]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:785][198]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:785][198]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:803][199]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:803][199]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:803][199]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:817][200]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:817][200]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:817][200]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:817][200]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:817][200]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:817][200]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:833][201]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:833][201]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:834][201]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:834][201]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:834][201]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:834][201]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:850][202]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:850][202]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:850][202]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:866][203]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:866][203]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:866][203]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:866][203]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:866][203]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:866][203]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:882][204]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:882][204]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:882][204]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:898][205]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:898][205]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:898][205]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:898][205]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:898][205]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:898][205]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:914][206]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:914][206]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:914][206]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:914][206]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:914][206]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:914][206]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:930][207]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:930][207]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:930][207]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:946][208]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:946][208]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:946][208]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:946][208]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:946][208]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:946][208]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:962][209]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:962][209]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:962][209]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:978][210]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:978][210]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:978][210]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:978][210]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:978][210]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:978][210]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:994][211]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:994][211]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.34:994][211]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:994][211]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.34:994][211]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.34:994][211]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:011][212]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:011][212]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:011][212]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:027][213]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:027][213]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:027][213]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:027][213]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:027][213]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:027][213]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:043][214]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:043][214]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:043][214]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.11-14.12.35:043][214]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:044][214]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:059][215]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:059][215]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:076][216]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:076][216]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:076][216]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:076][216]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:092][217]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:092][217]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:108][218]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:108][218]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:108][218]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:108][218]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:124][219]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:124][219]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:124][219]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:124][219]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:140][220]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:140][220]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:156][221]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:156][221]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:156][221]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:156][221]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:172][222]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:172][222]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:188][223]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:188][223]LogBlueprintUserMessages: [QuitButton] false
+[2019.04.11-14.12.35:188][223]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:189][223]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:205][224]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:205][224]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:205][224]LogBlueprintUserMessages: [FindMatchButton] true
+[2019.04.11-14.12.35:205][224]LogBlueprintUserMessages: [FindMatchButton] true
+[2019.04.11-14.12.35:221][225]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:221][225]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:237][226]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:237][226]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:237][226]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:237][226]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:253][227]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:253][227]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:253][227]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:253][227]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:269][228]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:269][228]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:285][229]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:286][229]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:286][229]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:286][229]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:301][230]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:301][230]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:317][231]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:317][231]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:317][231]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:317][231]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:333][232]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:333][232]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:333][232]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:333][232]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:349][233]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:349][233]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:365][234]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:365][234]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:365][234]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:365][234]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:381][235]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:381][235]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:398][236]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:398][236]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:398][236]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:398][236]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:414][237]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:414][237]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:414][237]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:414][237]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:430][238]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:430][238]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:446][239]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:447][239]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:447][239]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:447][239]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:462][240]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:462][240]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:462][240]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:462][240]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:479][241]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:479][241]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:495][242]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:495][242]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:495][242]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:495][242]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:510][243]Closing by request
+[2019.04.11-14.12.35:511][243]LogWindows: FPlatformMisc::RequestExit(0)
+[2019.04.11-14.12.35:511][243]LogBlueprintUserMessages: [FindMatchButton] false
+[2019.04.11-14.12.35:511][243]LogBlueprintUserMessages: [HostButton] false
+[2019.04.11-14.12.35:516][244]AdvancedFriendsInterfaceLog: Warning: UAdvancedFriendsInstance Failed to get voice interface!
+[2019.04.11-14.12.35:587][244]LogSlate: Window 'VehicleMovement (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.04.11-14.12.35:588][244]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.11-14.12.35:598][244]LogExit: Preparing to exit.
+[2019.04.11-14.12.35:598][244]LogMoviePlayer: Shutting down movie player
+[2019.04.11-14.12.35:921][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-14.12.35:931][244]LogExit: Game engine shut down
+[2019.04.11-14.12.36:119][244]LogExit: Object subsystem successfully closed.
+[2019.04.11-14.12.36:138][244]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.11-14.12.36:141][244]LogD3D11RHI: Shutdown
+[2019.04.11-14.12.36:141][244]LogD3D11RHI: CleanupD3DDevice
+[2019.04.11-14.12.36:143][244]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.11-14.12.36:149][244]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (386)
+[2019.04.11-14.12.36:149][244]LogModuleManager: Shutting down and abandoning module SequenceRecorder (384)
+[2019.04.11-14.12.36:149][244]LogModuleManager: Shutting down and abandoning module AutomationController (382)
+[2019.04.11-14.12.36:149][244]LogModuleManager: Shutting down and abandoning module AutomationWorker (380)
+[2019.04.11-14.12.36:149][244]LogModuleManager: Shutting down and abandoning module AIModule (378)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module GameplayDebugger (377)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module AITestSuite (375)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module NavigationSystem (373)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (370)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (368)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (366)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (364)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (362)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (360)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module CharacterAI (358)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module SessionServices (356)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (354)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module Voice (352)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (350)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module MovieScene (348)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2019.04.11-14.12.36:150][244]LogModuleManager: Shutting down and abandoning module ProfilerService (338)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module TaskGraph (336)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module SteamVRController (334)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (332)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module OculusInput (330)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (328)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module EditableMesh (326)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (324)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module CableComponent (322)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module AudioCapture (320)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (314)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (312)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module MediaCompositing (310)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module LinearTimecode (308)
+[2019.04.11-14.12.36:266][244]LogModuleManager: Shutting down and abandoning module ImgMedia (306)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module RawInput (304)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module HTML5Networking (302)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (300)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (299)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module BackChannel (292)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module AppleVision (290)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module AppleImageUtils (288)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module DatasmithContent (286)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (284)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module CryptoKeys (282)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module HotReload (279)
+[2019.04.11-14.12.36:269][244]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (278)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (274)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module UObjectPlugin (272)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (270)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (268)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (264)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module VehicleMovement (262)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (254)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (252)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (250)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module ActorSequence (248)
+[2019.04.11-14.12.36:270][244]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2019.04.11-14.12.36:371][244]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)

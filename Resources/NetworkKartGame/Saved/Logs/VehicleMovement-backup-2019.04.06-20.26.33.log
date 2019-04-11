@@ -1,0 +1,678 @@
+﻿Log file open, 04/04/19 14:10:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VehicleMovement
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.276238
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AdvancedSessions
+LogPluginManager: Mounting plugin AdvancedSteamSessions
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.106s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steam API disabled!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.04-18.10.17:736][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.04-18.10.17:736][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.04-18.10.17:746][  0]LogHAL: Display: Platform has ~ 16 GB [17061834752 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.04-18.10.17:746][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.04-18.10.17:746][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.04-18.10.17:746][  0]LogInit: Computer: MSI
+[2019.04.04-18.10.17:746][  0]LogInit: User: Owner
+[2019.04.04-18.10.17:746][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.04-18.10.17:746][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.04-18.10.17:746][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.04-18.10.17:746][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.04-18.10.17:746][  0]LogMemory: Process Physical Memory: 100.88 MB used, 100.89 MB peak
+[2019.04.04-18.10.17:746][  0]LogMemory: Process Virtual Memory: 90.98 MB used, 90.98 MB peak
+[2019.04.04-18.10.17:746][  0]LogMemory: Physical Memory: 9580.51 MB used,  6690.93 MB free, 16271.43 MB total
+[2019.04.04-18.10.17:746][  0]LogMemory: Virtual Memory: 4643.89 MB used,  6690.93 MB free, 134217728.00 MB total
+[2019.04.04-18.10.18:217][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.04-18.10.18:218][  0]LogInit: Using OS detected locale (en-CA).
+[2019.04.04-18.10.18:218][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.04.04-18.10.18:596][  0]LogStreaming: Display: Took  0.379s to InitEngineTextLocalization.
+[2019.04.04-18.10.18:596][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.04-18.10.18:637][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.04-18.10.18:637][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.04-18.10.18:872][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.04-18.10.18:872][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.04-18.10.18:944][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.04.04-18.10.18:944][  0]LogD3D11RHI:       1979/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.04-18.10.18:955][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.04.04-18.10.18:955][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.04-18.10.18:957][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.04-18.10.18:957][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.04-18.10.18:957][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.04-18.10.18:988][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.04-18.10.18:988][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.04.04-18.10.18:988][  0]LogWindows: EnumDisplayDevices:
+[2019.04.04-18.10.18:988][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.04.04-18.10.18:988][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.04.04-18.10.18:989][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.04.04-18.10.18:989][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.04-18.10.18:989][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.04.04-18.10.18:989][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.04-18.10.18:989][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.04-18.10.18:989][  0]LogRHI: Texture pool is 1385 MB (70% of 1979 MB)
+[2019.04.04-18.10.19:033][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.04-18.10.19:055][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.04-18.10.19:056][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../AggressiveCart/Resources/NetworkKartGame/Intermediate/Shaders/WorkingDirectory/1100/).
+[2019.04.04-18.10.19:056][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/DDF26068440EF9038B4CE6898701A5F7/'.
+[2019.04.04-18.10.19:365][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.04-18.10.19:378][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.04-18.10.19:391][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.04-18.10.19:404][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.04-18.10.19:418][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.04-18.10.19:431][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.04-18.10.19:444][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.04-18.10.19:457][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.04-18.10.19:463][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.04-18.10.19:541][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.04-18.10.19:601][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.04-18.10.19:601][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.04-18.10.19:625][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.04-18.10.19:625][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.04-18.10.19:638][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.04-18.10.19:651][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.04-18.10.19:667][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.04-18.10.19:683][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.04-18.10.19:691][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.04-18.10.19:691][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.04-18.10.19:736][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.04-18.10.19:736][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.04-18.10.19:736][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.04-18.10.20:486][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.04-18.10.20:544][  0]LogDerivedDataCache: Loaded boot cache 0.06s 74MB C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.04-18.10.20:544][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.04-18.10.20:544][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../AggressiveCart/Resources/NetworkKartGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.04-18.10.20:544][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.04-18.10.20:544][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../AggressiveCart/Resources/NetworkKartGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.04-18.10.20:544][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.04-18.10.20:561][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.04-18.10.20:573][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.04-18.10.20:573][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.04-18.10.20:573][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.04-18.10.20:591][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.04-18.10.20:593][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.04-18.10.20:593][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.04-18.10.20:670][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2019.04.04-18.10.20:983][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.04-18.10.21:113][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.04-18.10.21:116][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.04-18.10.21:116][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.04-18.10.21:116][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.04-18.10.21:116][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.04-18.10.21:132][  0]LogNetVersion: VehicleMovement 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2966596176)
+[2019.04.04-18.10.21:665][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.075945 seconds
+[2019.04.04-18.10.21:671][  0]LogUObjectArray: 38434 objects as part of root set at end of initial load.
+[2019.04.04-18.10.21:671][  0]LogUObjectAllocator: 6701136 out of 0 bytes used by permanent object pool.
+[2019.04.04-18.10.21:671][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.04-18.10.22:507][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.04-18.10.22:521][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.04-18.10.22:764][  0]SourceControl: Source control is disabled
+[2019.04.04-18.10.22:764][  0]SourceControl: Source control is disabled
+[2019.04.04-18.10.22:765][  0]SourceControl: Source control is disabled
+[2019.04.04-18.10.22:765][  0]SourceControl: Source control is disabled
+[2019.04.04-18.10.22:929][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.04-18.10.23:157][  0]LogOcInput: OculusInput pre-init called
+[2019.04.04-18.10.23:215][  0]LogEngine: Initializing Engine...
+[2019.04.04-18.10.23:216][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.04-18.10.23:218][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.04-18.10.23:218][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.04-18.10.23:218][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.04-18.10.23:218][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.04-18.10.23:435][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.04-18.10.23:443][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.04-18.10.23:564][  0]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.04-18.10.23:607][  0]LogInit: FAudioDevice initialized.
+[2019.04.04-18.10.23:608][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.04-18.10.23:671][  0]LogDerivedDataCache: Saved boot cache 0.06s 74MB C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.04-18.10.23:678][  0]LogInit: Texture streaming: Enabled
+[2019.04.04-18.10.23:694][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.04-18.10.23:704][  0]LogInit: Transaction tracking system initialized
+[2019.04.04-18.10.23:722][  0]BlueprintLog: New page: Editor Load
+[2019.04.04-18.10.23:785][  0]LocalizationService: Localization service is disabled
+[2019.04.04-18.10.24:033][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.04-18.10.24:033][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.04-18.10.24:033][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.04-18.10.24:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.04-18.10.24:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.04-18.10.24:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.04-18.10.24:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.04-18.10.24:143][  0]LogFileCache: Scanning file cache for directory 'D:/AggressiveCart/Resources/NetworkKartGame/Content/' took 0.01s
+[2019.04.04-18.10.24:143][  0]SourceControl: Source control is disabled
+[2019.04.04-18.10.24:143][  0]Cmd: MAP LOAD FILE="../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Levels/MainMenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.04-18.10.24:144][  0]LightingResults: New page: Lighting Build
+[2019.04.04-18.10.24:146][  0]MapCheck: New page: Map Check
+[2019.04.04-18.10.24:146][  0]LightingResults: New page: Lighting Build
+[2019.04.04-18.10.24:601][  0]LogAIModule: Creating AISystem for world MainMenuMap
+[2019.04.04-18.10.24:606][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.04-18.10.24:631][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.04-18.10.24:682][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.171ms to complete.
+[2019.04.04-18.10.24:682][  0]LogFileHelpers: Loading map 'MainMenuMap' took 0.538
+[2019.04.04-18.10.24:780][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.10.24:788][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.10.24:797][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.10.24:805][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.10.24:810][  0]LogCollectionManager: Loaded 0 collections in 0.001337 seconds
+[2019.04.04-18.10.24:850][  0]LogFileCache: Scanning file cache for directory 'D:/AggressiveCart/Resources/NetworkKartGame/Saved/Collections/' took 0.01s
+[2019.04.04-18.10.24:850][  0]LogFileCache: Scanning file cache for directory 'D:/AggressiveCart/Resources/NetworkKartGame/Content/Developers/Owner/Collections/' took 0.01s
+[2019.04.04-18.10.24:850][  0]LogFileCache: Scanning file cache for directory 'D:/AggressiveCart/Resources/NetworkKartGame/Content/Collections/' took 0.01s
+[2019.04.04-18.10.24:850][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.04-18.10.24:860][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2613 classes and 619 folders.
+[2019.04.04-18.10.24:865][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.04-18.10.24:908][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.04-18.10.24:913][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.04.04-18.10.24:981][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.04-18.10.24:984][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.04-18.10.24:993][  0]LogSlate: Took 0.000427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.04-18.10.25:073][  0]LogRenderer: Reallocating scene render targets to support 780x460 Format 10 NumSamples 1 (Frame:1).
+[2019.04.04-18.10.25:266][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.04-18.10.25:266][  0]LogLoad: (Engine Initialization) Total time: 9.08 seconds
+[2019.04.04-18.10.25:266][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.04-18.10.25:287][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.04.04-18.10.25:287][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2019.04.04-18.10.25:287][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1)
+[2019.04.04-18.10.25:287][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2019.04.04-18.10.25:287][  0]LogRawInputWindows: VenderID:45e ProductID:2ff
+[2019.04.04-18.10.25:287][  0]LogRawInputWindows: Device was registered succesfully and is connected (Usage:5 UsagePage:1)
+[2019.04.04-18.10.25:307][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.04-18.10.25:334][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.04-18.10.25:361][  1]LogAssetRegistry: Asset discovery search completed in 4.7135 seconds
+[2019.04.04-18.10.25:363][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.04-18.10.25:363][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000084 seconds (updated 0 objects)
+[2019.04.04-18.10.26:305][ 49]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.04-18.10.36:325][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-18.10.46:646][244]LogLinker: Warning: Can't find file '/Script/MPShooter'
+[2019.04.04-18.10.46:647][244]LogLinker: Warning: Can't find file '/Script/MPShooter'
+[2019.04.04-18.10.46:647][244]LogUObjectGlobals: Warning: Failed to find object 'Object /Script/MPShooter.MPCharacter'
+[2019.04.04-18.10.46:691][244]LogAIModule: Creating AISystem for world LobbyMap
+[2019.04.04-18.10.46:699][244]LogAssetEditorManager: Opening Asset editor for World /Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap
+[2019.04.04-18.10.46:725][244]Cmd: MAP LOAD FILE="../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Levels/LobbyMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.04-18.10.46:725][244]LightingResults: New page: Lighting Build
+[2019.04.04-18.10.46:726][244]LoadErrors: New page: Loading map: LobbyMap.umap
+[2019.04.04-18.10.46:726][244]MapCheck: New page: Map Check
+[2019.04.04-18.10.46:726][244]LightingResults: New page: Lighting Build
+[2019.04.04-18.10.46:825][244]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.04-18.10.46:867][244]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.04-18.10.46:920][244]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.802ms to complete.
+[2019.04.04-18.10.46:923][244]LogFileHelpers: Loading map 'LobbyMap' took 0.198
+[2019.04.04-18.10.49:339][384]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.04-18.10.49:352][384]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap' with GeneratedClass '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap_C' with ClassGeneratedBy '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap'
+[2019.04.04-18.10.49:353][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.04-18.10.49:353][384]LogOnline: Warning: STEAM: Steam API disabled!
+[2019.04.04-18.10.49:353][384]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.04.04-18.10.49:366][384]PIE: New page: PIE session: LobbyMap (Apr 4, 2019, 10:10:49 AM)
+[2019.04.04-18.10.49:367][384]LogPlayLevel: Creating play world package: /Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap
+[2019.04.04-18.10.49:370][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003413s)
+[2019.04.04-18.10.49:372][384]LogAIModule: Creating AISystem for world LobbyMap
+[2019.04.04-18.10.49:372][384]LogPlayLevel: PIE: World Init took: (0.001770s)
+[2019.04.04-18.10.49:372][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap to /Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap.LobbyMap (0.005451s)
+[2019.04.04-18.10.49:397][384]AdvancedFriendsInterfaceLog: Warning: UAdvancedFriendsInstance Failed to get voice interface!
+[2019.04.04-18.10.49:444][384]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.04-18.10.49:463][384]LogInit: FAudioDevice initialized.
+[2019.04.04-18.10.49:506][384]LogLoad: Game class is 'LobbyGameMode_C'
+[2019.04.04-18.10.49:511][384]LogWorld: Bringing World /Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap.LobbyMap up for play (max tick rate 60) at 2019.04.04-14.10.49
+[2019.04.04-18.10.49:512][384]LogWorld: Bringing up level for play took: 0.000905
+[2019.04.04-18.10.49:526][384]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.04.04-18.10.49:526][384]LogOnline: Warning: OSS: Can't destroy a null online session (GameSession)
+[2019.04.04-18.10.49:526][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.10.49:531][384]LogOnline: Warning: STEAM: Steam API disabled!
+[2019.04.04-18.10.49:531][384]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.04.04-18.10.49:531][384]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.04.04-18.10.49:531][384]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2019.04.04-18.10.49:531][384]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.04.04-18.10.49:531][384]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.04.04-18.10.49:531][384]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.04.04-18.10.49:534][384]LogInit: WinSock: I am MSI (10.111.48.223:0)
+[2019.04.04-18.10.49:534][384]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.04.04-18.10.49:534][384]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2019.04.04-18.10.49:534][384]PIE: Play in editor start time for /Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap 1.064
+[2019.04.04-18.10.49:535][384]PIE: New page: PIE session: LobbyMap (Apr 4, 2019, 10:10:49 AM)
+[2019.04.04-18.10.49:537][384]AdvancedFriendsInterfaceLog: Warning: UAdvancedFriendsInstance Failed to get voice interface!
+[2019.04.04-18.10.49:543][384]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.04-18.10.49:548][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.10.49:636][384]LogNet: Browse: 127.0.0.1:17777//Game/MultiplayerTemplate/Levels/MainMenuMap
+[2019.04.04-18.10.49:636][384]LogOnline: Warning: STEAM: Steam API disabled!
+[2019.04.04-18.10.49:636][384]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.04.04-18.10.49:636][384]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.04.04-18.10.49:636][384]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2019.04.04-18.10.49:636][384]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.04.04-18.10.49:636][384]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.04.04-18.10.49:637][384]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.04.04-18.10.49:637][384]LogNet: Game client on port 17777, rate 10000
+[2019.04.04-18.10.49:640][384]PIE: Play in editor start time for /Game/MultiplayerTemplate/Levels/MainMenuMap 1.169
+[2019.04.04-18.10.49:651][384]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap' with GeneratedClass '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap_C' with ClassGeneratedBy '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap'
+[2019.04.04-18.10.49:652][384]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58435
+[2019.04.04-18.10.49:652][384]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 010085081154147149187034015248175108085008018174179069000126
+[2019.04.04-18.10.49:655][384]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 010085081154147149187034015248175108085008018174179069000126
+[2019.04.04-18.10.49:735][385]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58435
+[2019.04.04-18.10.49:735][385]LogHandshake: SendChallengeAck. InCookie: 010085081154147149187034015248175108085008018174179069000126
+[2019.04.04-18.10.49:735][385]LogNet: Server accepting post-challenge connection from: 127.0.0.1:58435
+[2019.04.04-18.10.49:736][385]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.04.04-18.10.49:736][385]LogNet: NotifyAcceptedConnection: Name: LobbyMap, TimeStamp: 04/04/19 14:10:49, [UNetConnection] RemoteAddr: 127.0.0.1:58435, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.04.04-18.10.49:736][385]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58435, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.04.04-18.10.49:737][385]LogNetVersion: VehicleMovement 1.0.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1433232907)
+[2019.04.04-18.10.49:737][385]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.04.04-18.10.49:753][386]LogNet: NotifyAcceptingChannel Control 0 server World /Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap.LobbyMap: Accepted
+[2019.04.04-18.10.49:753][386]LogNet: Remote platform little endian=1
+[2019.04.04-18.10.49:753][386]LogNet: This platform little endian=1
+[2019.04.04-18.10.49:774][387]LogNet: Login request: /Game/MultiplayerTemplate/Levels/MainMenuMap?Name=MSI-99FFBDA4499B2D62B9641E8E66CBBE58 userId: MSI-99FFBDA4499B2D62B9641E8E66CBBE58
+[2019.04.04-18.10.49:775][387]LogNet: Welcomed by server (Level: /Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap, Game: /Game/MultiplayerTemplate/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C)
+[2019.04.04-18.10.49:778][387]LogLoad: LoadMap: 127.0.0.1:17777//Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap?game=/Game/MultiplayerTemplate/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C
+[2019.04.04-18.10.49:805][387]LogAIModule: Creating AISystem for world LobbyMap
+[2019.04.04-18.10.49:805][387]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.04.04-18.10.49:809][387]LogWorld: Bringing World /Game/MultiplayerTemplate/Levels/UEDPIE_2_LobbyMap.LobbyMap up for play (max tick rate 60) at 2019.04.04-14.10.49
+[2019.04.04-18.10.49:810][387]LogWorld: Bringing up level for play took: 0.000848
+[2019.04.04-18.10.49:810][387]LogLoad: Took 0.033311 seconds to LoadMap(/Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap)
+[2019.04.04-18.10.49:827][388]LogNet: Client netspeed is 10000
+[2019.04.04-18.10.49:827][388]LogNet: Join request: /Game/MultiplayerTemplate/Levels/MainMenuMap?Name=MSI-99FFBDA4499B2D62B9641E8E66CBBE58?SplitscreenCount=1
+[2019.04.04-18.10.49:828][388]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.04.04-18.10.49:829][388]LogOnline: Warning: OSS: Can't destroy a null online session (GameSession)
+[2019.04.04-18.10.49:829][388]LogNet: Join succeeded: MSI-99FFBDA4499B2D62
+[2019.04.04-18.10.49:833][388]LogRenderer: Reallocating scene render targets to support 1016x544 Format 10 NumSamples 1 (Frame:1).
+[2019.04.04-18.10.49:833][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.10.49:842][388]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.04-18.10.49:894][390]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.04.04-18.10.49:894][390]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.04.04-18.10.54:345][657]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.04-18.10.59:061][940]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car3
+[2019.04.04-18.10.59:362][958]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car2
+[2019.04.04-18.10.59:679][977]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car1
+[2019.04.04-18.11.00:328][ 16]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car2
+[2019.04.04-18.11.00:679][ 37]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car3
+[2019.04.04-18.11.00:978][ 55]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car0
+[2019.04.04-18.11.01:479][ 85]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car3
+[2019.04.04-18.11.02:146][125]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car0
+[2019.04.04-18.11.02:829][166]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car3
+[2019.04.04-18.11.05:779][343]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car2
+[2019.04.04-18.11.06:846][407]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car1
+[2019.04.04-18.11.08:663][516]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car0
+[2019.04.04-18.11.09:830][586]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car3
+[2019.04.04-18.11.10:614][633]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car0
+[2019.04.04-18.11.10:948][653]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car1
+[2019.04.04-18.11.17:376][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.04-18.11.18:094][ 80]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap' with GeneratedClass '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap_C' with ClassGeneratedBy '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap'
+[2019.04.04-18.11.18:094][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.11.18:105][ 80]LogSlate: Window 'VehicleMovement Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.04-18.11.18:108][ 80]AdvancedFriendsInterfaceLog: Warning: UAdvancedFriendsInstance Failed to get voice interface!
+[2019.04.04-18.11.18:140][ 80]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2019.04.04-18.11.18:140][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.11.18:141][ 80]AdvancedFriendsInterfaceLog: Warning: UAdvancedFriendsInstance Failed to get voice interface!
+[2019.04.04-18.11.18:175][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.04-18.11.18:175][ 80]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap' with GeneratedClass '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap_C' with ClassGeneratedBy '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap'
+[2019.04.04-18.11.18:200][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.11.18:200][ 80]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58435, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:MSI-99FFBDA4499B2D62B9641E8E66CBBE58
+[2019.04.04-18.11.18:200][ 80]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:58435, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:MSI-99FFBDA4499B2D62B9641E8E66CBBE58, Channels: 2, Time: 2019.04.04-18.11.18
+[2019.04.04-18.11.18:200][ 80]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58435, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:MSI-99FFBDA4499B2D62B9641E8E66CBBE58
+[2019.04.04-18.11.18:200][ 80]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:MSI-99FFBDA4499B2D62B9641E8E66CBBE58
+[2019.04.04-18.11.18:200][ 80]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:MSI-99FFBDA4499B2D62B9641E8E66CBBE58, Channels: 2, Time: 2019.04.04-18.11.18
+[2019.04.04-18.11.18:201][ 80]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:MSI-99FFBDA4499B2D62B9641E8E66CBBE58
+[2019.04.04-18.11.18:201][ 80]LogExit: GameNetDriver None shut down
+[2019.04.04-18.11.18:201][ 80]LogExit: GameNetDriver None shut down
+[2019.04.04-18.11.18:217][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.04.04-18.11.18:217][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.04.04-18.11.19:287][144]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.04-18.11.19:988][186]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.04-18.11.20:000][186]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap' with GeneratedClass '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap_C' with ClassGeneratedBy '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap'
+[2019.04.04-18.11.20:000][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.04-18.11.20:001][186]PIE: New page: PIE session: LobbyMap (Apr 4, 2019, 10:11:20 AM)
+[2019.04.04-18.11.20:002][186]LogPlayLevel: Creating play world package: /Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap
+[2019.04.04-18.11.20:004][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002324s)
+[2019.04.04-18.11.20:005][186]LogAIModule: Creating AISystem for world LobbyMap
+[2019.04.04-18.11.20:005][186]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2019.04.04-18.11.20:005][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap to /Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap.LobbyMap (0.003763s)
+[2019.04.04-18.11.20:027][186]AdvancedFriendsInterfaceLog: Warning: UAdvancedFriendsInstance Failed to get voice interface!
+[2019.04.04-18.11.20:073][186]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.04-18.11.20:093][186]LogInit: FAudioDevice initialized.
+[2019.04.04-18.11.20:093][186]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.04-18.11.20:127][186]LogLoad: Game class is 'LobbyGameMode_C'
+[2019.04.04-18.11.20:131][186]LogWorld: Bringing World /Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap.LobbyMap up for play (max tick rate 60) at 2019.04.04-14.11.20
+[2019.04.04-18.11.20:132][186]LogWorld: Bringing up level for play took: 0.000813
+[2019.04.04-18.11.20:145][186]LogOnline: Warning: OSS: Can't destroy a null online session (GameSession)
+[2019.04.04-18.11.20:145][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.11.20:149][186]LogOnline: Warning: STEAM: Steam API disabled!
+[2019.04.04-18.11.20:149][186]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.04.04-18.11.20:149][186]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.04.04-18.11.20:149][186]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2019.04.04-18.11.20:149][186]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.04.04-18.11.20:149][186]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.04.04-18.11.20:149][186]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.04.04-18.11.20:150][186]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.04.04-18.11.20:150][186]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2019.04.04-18.11.20:151][186]PIE: Play in editor start time for /Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap -0.32
+[2019.04.04-18.11.20:152][186]PIE: New page: PIE session: LobbyMap (Apr 4, 2019, 10:11:20 AM)
+[2019.04.04-18.11.20:154][186]AdvancedFriendsInterfaceLog: Warning: UAdvancedFriendsInstance Failed to get voice interface!
+[2019.04.04-18.11.20:159][186]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.04-18.11.20:164][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.11.20:246][186]LogNet: Browse: 127.0.0.1:17777//Game/MultiplayerTemplate/Levels/MainMenuMap
+[2019.04.04-18.11.20:246][186]LogOnline: Warning: STEAM: Steam API disabled!
+[2019.04.04-18.11.20:246][186]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2019.04.04-18.11.20:246][186]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.04.04-18.11.20:246][186]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2019.04.04-18.11.20:246][186]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.04.04-18.11.20:246][186]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.04.04-18.11.20:247][186]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.04.04-18.11.20:247][186]LogNet: Game client on port 17777, rate 10000
+[2019.04.04-18.11.20:249][186]PIE: Play in editor start time for /Game/MultiplayerTemplate/Levels/MainMenuMap -0.221
+[2019.04.04-18.11.20:258][186]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap' with GeneratedClass '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap_C' with ClassGeneratedBy '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap'
+[2019.04.04-18.11.20:258][186]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53740
+[2019.04.04-18.11.20:259][186]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 249093119045249153211199187122046224119254236155145148157077
+[2019.04.04-18.11.20:259][186]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 249093119045249153211199187122046224119254236155145148157077
+[2019.04.04-18.11.20:325][187]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53740
+[2019.04.04-18.11.20:325][187]LogHandshake: SendChallengeAck. InCookie: 249093119045249153211199187122046224119254236155145148157077
+[2019.04.04-18.11.20:325][187]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53740
+[2019.04.04-18.11.20:325][187]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.04.04-18.11.20:325][187]LogNet: NotifyAcceptedConnection: Name: LobbyMap, TimeStamp: 04/04/19 14:11:20, [UNetConnection] RemoteAddr: 127.0.0.1:53740, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.04.04-18.11.20:325][187]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53740, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.04.04-18.11.20:327][187]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.04.04-18.11.20:341][188]LogNet: NotifyAcceptingChannel Control 0 server World /Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap.LobbyMap: Accepted
+[2019.04.04-18.11.20:341][188]LogNet: Remote platform little endian=1
+[2019.04.04-18.11.20:341][188]LogNet: This platform little endian=1
+[2019.04.04-18.11.20:361][189]LogNet: Login request: /Game/MultiplayerTemplate/Levels/MainMenuMap?Name=MSI-B77B2729433858F301FBA79BA6534F75 userId: MSI-B77B2729433858F301FBA79BA6534F75
+[2019.04.04-18.11.20:362][189]LogNet: Welcomed by server (Level: /Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap, Game: /Game/MultiplayerTemplate/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C)
+[2019.04.04-18.11.20:363][189]LogLoad: LoadMap: 127.0.0.1:17777//Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap?game=/Game/MultiplayerTemplate/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C
+[2019.04.04-18.11.20:391][189]LogAIModule: Creating AISystem for world LobbyMap
+[2019.04.04-18.11.20:392][189]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.04.04-18.11.20:397][189]LogWorld: Bringing World /Game/MultiplayerTemplate/Levels/UEDPIE_2_LobbyMap.LobbyMap up for play (max tick rate 60) at 2019.04.04-14.11.20
+[2019.04.04-18.11.20:397][189]LogWorld: Bringing up level for play took: 0.000746
+[2019.04.04-18.11.20:397][189]LogLoad: Took 0.034373 seconds to LoadMap(/Game/MultiplayerTemplate/Levels/UEDPIE_1_LobbyMap)
+[2019.04.04-18.11.20:411][190]LogNet: Client netspeed is 10000
+[2019.04.04-18.11.20:411][190]LogNet: Join request: /Game/MultiplayerTemplate/Levels/MainMenuMap?Name=MSI-B77B2729433858F301FBA79BA6534F75?SplitscreenCount=1
+[2019.04.04-18.11.20:411][190]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.04.04-18.11.20:412][190]LogOnline: Warning: OSS: Can't destroy a null online session (GameSession)
+[2019.04.04-18.11.20:413][190]LogNet: Join succeeded: MSI-B77B2729433858F3
+[2019.04.04-18.11.20:414][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.11.20:425][190]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.04-18.11.20:461][192]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.04.04-18.11.20:476][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-18.11.20:478][193]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.04.04-18.11.25:969][519]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.04-18.11.27:758][626]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car3
+[2019.04.04-18.11.27:991][640]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car2
+[2019.04.04-18.11.28:191][652]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car1
+[2019.04.04-18.11.28:674][681]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car2
+[2019.04.04-18.11.28:924][696]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car3
+[2019.04.04-18.11.29:124][708]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car0
+[2019.04.04-18.11.30:274][777]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car3
+[2019.04.04-18.11.30:458][788]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car2
+[2019.04.04-18.11.30:607][797]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car1
+[2019.04.04-18.11.31:209][833]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car0
+[2019.04.04-18.11.31:357][842]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car3
+[2019.04.04-18.11.32:558][914]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car0
+[2019.04.04-18.11.32:724][924]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car1
+[2019.04.04-18.11.32:857][932]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car2
+[2019.04.04-18.11.36:892][174]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car1
+[2019.04.04-18.11.37:059][184]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car0
+[2019.04.04-18.11.37:192][192]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car3
+[2019.04.04-18.11.37:342][201]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car2
+[2019.04.04-18.11.37:475][209]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car1
+[2019.04.04-18.11.37:625][218]LogBlueprintUserMessages: [WBP_LobbyMenu_C_0] Server: car0
+[2019.04.04-18.11.44:481][623]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.04-18.11.45:026][656]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap' with GeneratedClass '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap_C' with ClassGeneratedBy '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap'
+[2019.04.04-18.11.45:026][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.11.45:038][656]LogSlate: Window 'VehicleMovement Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.04-18.11.45:040][656]AdvancedFriendsInterfaceLog: Warning: UAdvancedFriendsInstance Failed to get voice interface!
+[2019.04.04-18.11.45:070][656]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2019.04.04-18.11.45:070][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.11.45:071][656]AdvancedFriendsInterfaceLog: Warning: UAdvancedFriendsInstance Failed to get voice interface!
+[2019.04.04-18.11.45:104][656]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.04-18.11.45:104][656]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel' has LevelScriptBlueprint '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap' with GeneratedClass '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap_C' with ClassGeneratedBy '/Game/MultiplayerTemplate/Levels/LobbyMap.LobbyMap:PersistentLevel.LobbyMap'
+[2019.04.04-18.11.45:128][656]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53740, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:MSI-B77B2729433858F301FBA79BA6534F75
+[2019.04.04-18.11.45:128][656]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:53740, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:MSI-B77B2729433858F301FBA79BA6534F75, Channels: 2, Time: 2019.04.04-18.11.45
+[2019.04.04-18.11.45:128][656]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53740, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:MSI-B77B2729433858F301FBA79BA6534F75
+[2019.04.04-18.11.45:128][656]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:MSI-B77B2729433858F301FBA79BA6534F75
+[2019.04.04-18.11.45:128][656]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:MSI-B77B2729433858F301FBA79BA6534F75, Channels: 2, Time: 2019.04.04-18.11.45
+[2019.04.04-18.11.45:128][656]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:MSI-B77B2729433858F301FBA79BA6534F75
+[2019.04.04-18.11.45:130][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.04-18.11.45:131][656]LogExit: GameNetDriver None shut down
+[2019.04.04-18.11.45:131][656]LogExit: GameNetDriver None shut down
+[2019.04.04-18.11.45:148][657]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.04.04-18.11.45:148][657]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.04.04-18.11.47:275][775]LogSavePackage: Moving '../../../../AggressiveCart/Resources/NetworkKartGame/Saved/LobbyMap0AE0BA294C9C58FC410ED0930F31B2C6.tmp' to '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Levels/LobbyMap.umap'
+[2019.04.04-18.12.38:993][447]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.04-18.12.39:117][447]LogSavePackage: Moving '../../../../AggressiveCart/Resources/NetworkKartGame/Saved/LobbyMap52AD15DC463A233B40E771B4EFD358CD.tmp' to '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Levels/LobbyMap.umap'
+[2019.04.04-18.12.45:922][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.04-18.12.50:055][101]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.WBP_MainMenu
+[2019.04.04-18.12.50:505][101]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.04.04-18.12.51:259][101]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.04-18.12.54:885][314]LogSlate: Took 0.001673 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.04.04-18.13.06:837][  9]LogSavePackage: Moving '../../../../AggressiveCart/Resources/NetworkKartGame/Saved/WBP_MainMenu07C11E5F4E4BED37EFD261986119CA2B.tmp' to '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'
+[2019.04.04-18.13.06:837][  9]LogFileManager: Warning: DeleteFile was unable to delete '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset', retrying in .5s...
+[2019.04.04-18.13.07:339][  9]LogFileManager: Error: Error deleting file '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'.
+[2019.04.04-18.13.07:339][  9]LogSavePackage: Error: Error saving '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'
+[2019.04.04-18.13.19:887][  9]LogSlate: Window 'Message' being destroyed
+[2019.04.04-18.13.19:921][  9]LogSavePackage: Moving '../../../../AggressiveCart/Resources/NetworkKartGame/Saved/WBP_MainMenu1233A9C04558E07C121C3283753220CF.tmp' to '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'
+[2019.04.04-18.13.19:922][  9]LogFileManager: Warning: DeleteFile was unable to delete '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset', retrying in .5s...
+[2019.04.04-18.13.20:423][  9]LogFileManager: Error: Error deleting file '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'.
+[2019.04.04-18.13.20:423][  9]LogSavePackage: Error: Error saving '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'
+[2019.04.04-18.13.21:512][  9]LogSlate: Window 'Message' being destroyed
+[2019.04.04-18.13.21:544][  9]LogSavePackage: Moving '../../../../AggressiveCart/Resources/NetworkKartGame/Saved/WBP_MainMenuD7C375A641D8C74CF828169B2FEA1892.tmp' to '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'
+[2019.04.04-18.13.21:544][  9]LogFileManager: Warning: DeleteFile was unable to delete '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset', retrying in .5s...
+[2019.04.04-18.13.22:044][  9]LogFileManager: Error: Error deleting file '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'.
+[2019.04.04-18.13.22:044][  9]LogSavePackage: Error: Error saving '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'
+[2019.04.04-18.13.22:804][  9]LogSlate: Window 'Message' being destroyed
+[2019.04.04-18.13.22:836][  9]LogSavePackage: Moving '../../../../AggressiveCart/Resources/NetworkKartGame/Saved/WBP_MainMenu83ACE21E493268CFB3DCF4A1DD06A254.tmp' to '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'
+[2019.04.04-18.13.22:837][  9]LogFileManager: Warning: DeleteFile was unable to delete '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset', retrying in .5s...
+[2019.04.04-18.13.23:338][  9]LogFileManager: Error: Error deleting file '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'.
+[2019.04.04-18.13.23:338][  9]LogSavePackage: Error: Error saving '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'
+[2019.04.04-18.13.30:371][  9]LogSlate: Window 'Message' being destroyed
+[2019.04.04-18.13.30:381][  9]EditorErrors: New page: Save Output
+[2019.04.04-18.13.30:381][  9]EditorErrors: Warning: Error saving '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'
+[2019.04.04-18.13.30:381][  9]EditorErrors: Warning: Error saving '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'
+[2019.04.04-18.13.30:381][  9]EditorErrors: Warning: Error saving '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'
+[2019.04.04-18.13.30:381][  9]EditorErrors: Warning: Error saving '../../../../AggressiveCart/Resources/NetworkKartGame/Content/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu.uasset'
+[2019.04.04-18.13.35:006][287]Cmd: TRANSACTION UNDO
+[2019.04.04-18.13.35:006][287]LogEditorTransaction: Undo Move Widget
+[2019.04.04-18.13.35:732][326]Cmd: TRANSACTION UNDO
+[2019.04.04-18.13.35:733][326]LogEditorTransaction: Undo Move Widget
+[2019.04.04-18.13.36:034][340]Cmd: TRANSACTION UNDO
+[2019.04.04-18.13.36:034][340]LogEditorTransaction: Undo Move Widget
+[2019.04.04-18.13.36:366][356]Cmd: TRANSACTION UNDO
+[2019.04.04-18.13.36:366][356]LogEditorTransaction: Undo Add Widget
+[2019.04.04-18.13.39:469][542]BlueprintLog: New page: Compile WBP_MainMenu
+[2019.04.04-18.18.40:587][572]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.04-18.43.06:436][575]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{91e54df5-58c5-4016-9fb0-8b41ee7cc5ea} was removed. Shutting down audio device.
+[2019.04.04-18.43.06:700][575]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.04.04-18.43.07:714][575]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.04.04-18.43.08:531][578]LogHttp: Warning: 00000232CCD391C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.04-18.43.08:531][578]LogHttp: Warning: 00000232CCD391C0: libcurl info message cache 0 (Connection 4 seems to be dead!)
+[2019.04.04-18.43.08:531][578]LogHttp: Warning: 00000232CCD391C0: libcurl info message cache 1 (Closing connection 4)
+[2019.04.04-18.43.08:531][578]LogHttp: Warning: 00000232CCD391C0: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.04.04-18.43.08:531][578]LogHttp: Warning: 00000232CCD391C0: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.04-18.43.08:531][578]LogHttp: Warning: 00000232CCD391C0: libcurl info message cache 4 (Closing connection 5)
+[2019.04.04-18.43.17:049][602]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MultiplayerTemplate/Levels/LobbyMap' took 0.036
+[2019.04.04-18.43.17:110][602]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu] ([1] browsable assets)...
+[2019.04.04-18.43.17:110][602]OBJ SavePackage: Finished generating thumbnails for package [/Game/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu]
+[2019.04.04-18.43.17:143][602]LogSavePackage: Moving '../../../../AggressiveCart/Resources/NetworkKartGame/Saved/WBP_MainMenu_Auto16B93C3FE46EF2E4EAE3E8B8FC0649DA8.tmp' to '../../../../AggressiveCart/Resources/NetworkKartGame/Saved/Autosaves/Game/MultiplayerTemplate/Blueprints/MainMenu/WBP_MainMenu_Auto1.uasset'
+[2019.04.04-18.43.17:143][602]LogFileHelpers: Auto-saving content packages took 0.034
+[2019.04.04-19.27.37:589][849]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.04.04-19.27.37:936][851]LogHttp: Warning: 0000023297421D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.04-19.27.37:936][851]LogHttp: Warning: 0000023297421D00: libcurl info message cache 0 (Connection 20 seems to be dead!)
+[2019.04.04-19.27.37:936][851]LogHttp: Warning: 0000023297421D00: libcurl info message cache 1 (Closing connection 20)
+[2019.04.04-19.27.37:936][851]LogHttp: Warning: 0000023297421D00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.04.04-19.27.37:936][851]LogHttp: Warning: 0000023297421D00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.04-19.27.37:936][851]LogHttp: Warning: 0000023297421D00: libcurl info message cache 4 (Closing connection 21)
+[2019.04.05-18.21.50:548][865]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.04.05-18.21.50:889][867]LogHttp: Warning: 00000232974216C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.05-18.21.50:889][867]LogHttp: Warning: 00000232974216C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.05-18.21.50:889][867]LogHttp: Warning: 00000232974216C0: libcurl info message cache 1 (Closing connection 22)
+[2019.04.05-18.58.03:633][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.04.05-18.58.04:754][290]LogHttp: Warning: 0000023297421D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.05-18.58.04:754][290]LogHttp: Warning: 0000023297421D00: libcurl info message cache 0 (Connection 37 seems to be dead!)
+[2019.04.05-18.58.04:754][290]LogHttp: Warning: 0000023297421D00: libcurl info message cache 1 (Closing connection 37)
+[2019.04.05-18.58.04:754][290]LogHttp: Warning: 0000023297421D00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.04.05-18.58.04:754][290]LogHttp: Warning: 0000023297421D00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.05-18.58.04:754][290]LogHttp: Warning: 0000023297421D00: libcurl info message cache 4 (Closing connection 38)
+[2019.04.05-19.00.05:221][672]LogHttp: Warning: 0000023297421D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.05-19.00.05:221][672]LogHttp: Warning: 0000023297421D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.05-19.00.05:222][672]LogHttp: Warning: 0000023297421D00: libcurl info message cache 1 (Closing connection 39)
+[2019.04.05-19.02.05:864][ 32]LogHttp: Warning: 0000023297421D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.05-19.02.05:864][ 32]LogHttp: Warning: 0000023297421D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.05-19.02.05:865][ 32]LogHttp: Warning: 0000023297421D00: libcurl info message cache 1 (Closing connection 40)
+[2019.04.05-19.04.14:787][416]LogHttp: Warning: 0000023297421D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.05-19.04.14:787][416]LogHttp: Warning: 0000023297421D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.05-19.04.14:788][416]LogHttp: Warning: 0000023297421D00: libcurl info message cache 1 (Closing connection 41)

@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AdvancedSteamSessions-9094.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\AggressiveCart\Resources\NetworkKartGame\Intermediate\Build\Win64\VehicleMovementEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\AggressiveCart\Resources\NetworkKartGame\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.obj"
+"D:\AggressiveCart\Resources\NetworkKartGame\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.gen.cpp.obj"
+"D:\AggressiveCart\Resources\NetworkKartGame\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\PCLaunch.rc.res"
+/OUT:"D:\AggressiveCart\Resources\NetworkKartGame\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-9094.lib"

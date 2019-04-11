@@ -1,0 +1,1300 @@
+﻿Log file open, 03/18/19 12:43:15
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UnrealCarSelect
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.284913
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.177s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal  -epicusername="kcaj912" -epicuserid=6930a40b8b914583837003440dd25107 -epiclocale=en-GB
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.18-16.43.15:816][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.18-16.43.15:816][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.18-16.43.15:844][  0]LogHAL: Display: Platform has ~ 16 GB [17061834752 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.18-16.43.15:844][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.18-16.43.15:844][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.18-16.43.15:844][  0]LogInit: Computer: MSI
+[2019.03.18-16.43.15:844][  0]LogInit: User: Owner
+[2019.03.18-16.43.15:844][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.18-16.43.15:844][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.03.18-16.43.15:845][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.18-16.43.15:845][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.18-16.43.15:845][  0]LogMemory: Process Physical Memory: 99.88 MB used, 99.89 MB peak
+[2019.03.18-16.43.15:845][  0]LogMemory: Process Virtual Memory: 91.20 MB used, 91.20 MB peak
+[2019.03.18-16.43.15:845][  0]LogMemory: Physical Memory: 12575.00 MB used,  3696.43 MB free, 16271.43 MB total
+[2019.03.18-16.43.15:845][  0]LogMemory: Virtual Memory: 4642.63 MB used,  3696.43 MB free, 134217728.00 MB total
+[2019.03.18-16.43.16:767][  0]LogInit: Using OS detected language (en-GB).
+[2019.03.18-16.43.16:767][  0]LogInit: Using OS detected locale (en-CA).
+[2019.03.18-16.43.16:768][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.03.18-16.43.17:148][  0]LogStreaming: Display: Took  0.381s to InitEngineTextLocalization.
+[2019.03.18-16.43.17:148][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.18-16.43.17:192][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.18-16.43.17:192][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.18-16.43.17:410][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.18-16.43.17:410][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.18-16.43.17:479][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.03.18-16.43.17:479][  0]LogD3D11RHI:       1979/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.18-16.43.17:489][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.03.18-16.43.17:489][  0]LogD3D11RHI:       128/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.18-16.43.17:491][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.18-16.43.17:491][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.18-16.43.17:491][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.18-16.43.17:523][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.18-16.43.17:523][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.03.18-16.43.17:523][  0]LogWindows: EnumDisplayDevices:
+[2019.03.18-16.43.17:524][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.03.18-16.43.17:524][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.03.18-16.43.17:524][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.03.18-16.43.17:525][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.18-16.43.17:525][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.03.18-16.43.17:525][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.18-16.43.17:525][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.18-16.43.17:525][  0]LogRHI: Texture pool is 1385 MB (70% of 1979 MB)
+[2019.03.18-16.43.17:568][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.18-16.43.17:615][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.18-16.43.17:616][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../Documents/UnrealCarSelect/Intermediate/Shaders/WorkingDirectory/21800/).
+[2019.03.18-16.43.17:616][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/7CEF52B34DF671023948CDA33266E487/'.
+[2019.03.18-16.43.17:938][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.18-16.43.17:950][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.18-16.43.17:963][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.18-16.43.17:975][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.18-16.43.17:988][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.18-16.43.18:000][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.18-16.43.18:012][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.18-16.43.18:025][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.18-16.43.18:030][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.18-16.43.18:105][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.18-16.43.18:164][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.18-16.43.18:164][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.18-16.43.18:187][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.18-16.43.18:187][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.18-16.43.18:199][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.18-16.43.18:212][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.18-16.43.18:224][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.18-16.43.18:238][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.18-16.43.18:247][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.18-16.43.18:247][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.18-16.43.18:290][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.18-16.43.18:290][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.18-16.43.18:290][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.18-16.43.19:019][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.18-16.43.19:073][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.18-16.43.19:074][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.18-16.43.19:074][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Documents/UnrealCarSelect/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.18-16.43.19:074][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.18-16.43.19:074][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Documents/UnrealCarSelect/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.18-16.43.19:074][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.18-16.43.19:089][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.18-16.43.19:101][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.18-16.43.19:101][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.18-16.43.19:101][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.18-16.43.19:120][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.18-16.43.19:121][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.18-16.43.19:121][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.18-16.43.19:195][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2019.03.18-16.43.19:502][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.18-16.43.19:631][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.18-16.43.19:633][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.18-16.43.19:634][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.18-16.43.19:634][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.18-16.43.19:634][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.18-16.43.19:656][  0]LogNetVersion: UnrealCarSelect 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1018169339)
+[2019.03.18-16.43.20:253][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.138878 seconds
+[2019.03.18-16.43.20:261][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.18-16.43.20:261][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.03.18-16.43.20:261][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.18-16.43.21:123][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.18-16.43.21:136][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.18-16.43.21:279][  0]SourceControl: Source control is disabled
+[2019.03.18-16.43.21:279][  0]SourceControl: Source control is disabled
+[2019.03.18-16.43.21:280][  0]SourceControl: Source control is disabled
+[2019.03.18-16.43.21:280][  0]SourceControl: Source control is disabled
+[2019.03.18-16.43.21:434][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.18-16.43.21:554][  0]LogOcInput: OculusInput pre-init called
+[2019.03.18-16.43.21:611][  0]LogEngine: Initializing Engine...
+[2019.03.18-16.43.21:612][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.18-16.43.21:613][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.18-16.43.21:613][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.18-16.43.21:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.18-16.43.21:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.18-16.43.21:830][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.18-16.43.21:839][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.18-16.43.21:942][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-16.43.22:036][  0]LogInit: FAudioDevice initialized.
+[2019.03.18-16.43.22:036][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.18-16.43.22:099][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Owner/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.18-16.43.22:108][  0]LogInit: Texture streaming: Enabled
+[2019.03.18-16.43.22:125][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.18-16.43.22:137][  0]LogInit: Transaction tracking system initialized
+[2019.03.18-16.43.22:153][  0]BlueprintLog: New page: Editor Load
+[2019.03.18-16.43.22:210][  0]LocalizationService: Localization service is disabled
+[2019.03.18-16.43.22:456][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.18-16.43.22:456][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.18-16.43.22:456][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.18-16.43.22:456][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.18-16.43.22:456][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.18-16.43.22:456][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.18-16.43.22:456][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.18-16.43.22:603][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/UnrealCarSelect/Content/' took 0.02s
+[2019.03.18-16.43.22:603][  0]SourceControl: Source control is disabled
+[2019.03.18-16.43.22:603][  0]Cmd: MAP LOAD FILE="../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.18-16.43.22:604][  0]LightingResults: New page: Lighting Build
+[2019.03.18-16.43.22:606][  0]MapCheck: New page: Map Check
+[2019.03.18-16.43.22:606][  0]LightingResults: New page: Lighting Build
+[2019.03.18-16.43.24:973][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-16.43.25:080][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.18-16.43.25:107][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.18-16.43.25:158][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.742ms to complete.
+[2019.03.18-16.43.25:158][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.555
+[2019.03.18-16.43.25:385][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-16.43.25:394][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-16.43.25:406][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-16.43.25:415][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-16.43.25:420][  0]LogCollectionManager: Loaded 0 collections in 0.000964 seconds
+[2019.03.18-16.43.25:508][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/UnrealCarSelect/Saved/Collections/' took 0.01s
+[2019.03.18-16.43.25:508][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/UnrealCarSelect/Content/Developers/Owner/Collections/' took 0.01s
+[2019.03.18-16.43.25:508][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/UnrealCarSelect/Content/Collections/' took 0.01s
+[2019.03.18-16.43.25:508][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.18-16.43.25:517][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2572 classes and 603 folders.
+[2019.03.18-16.43.25:660][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.03.18-16.43.28:451][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.18-16.43.28:521][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.03.18-16.43.28:617][  0]LogSlate: Took 0.000351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.18-16.43.28:620][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.18-16.43.28:679][  0]LogSlate: Took 0.050320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.18-16.43.28:794][  0]LogRenderer: Reallocating scene render targets to support 964x460 Format 10 NumSamples 1 (Frame:1).
+[2019.03.18-16.43.29:011][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.18-16.43.29:011][  0]LogLoad: (Engine Initialization) Total time: 15.21 seconds
+[2019.03.18-16.43.29:011][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.18-16.43.29:052][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.18-16.43.29:148][  0]LogSlate: Took 0.047711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.18-16.43.29:165][  1]LogAssetRegistry: Asset discovery search completed in 9.9929 seconds
+[2019.03.18-16.43.29:167][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.18-16.43.29:167][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2019.03.18-16.43.30:037][ 41]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.18-16.43.33:734][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-16.43.34:766][168]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/UMG/CharacterSelectorPawn.CharacterSelectorPawn
+[2019.03.18-16.43.35:304][168]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.03.18-16.43.36:102][168]LogLinker: Warning: Can't resolve asset name
+[2019.03.18-16.43.36:115][168]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UMG/CharSelect.CharSelect
+[2019.03.18-16.43.36:453][168]LogSlate: Took 0.000934 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.18-16.43.46:449][733]LogSlate: Window 'CharSelect' being destroyed
+[2019.03.18-16.44.11:968][ 56]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-16.44.12:658][ 58]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-16.44.22:039][ 86]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{91e54df5-58c5-4016-9fb0-8b41ee7cc5ea} was removed. Shutting down audio device.
+[2019.03.18-16.44.22:039][ 86]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-16.44.22:346][ 87]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-16.44.44:476][153]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-16.44.45:222][155]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-16.45.42:946][328]LogInit: XAudio2 using 'Headset (Bose AE2 SoundLink Hands-Free)' : 1 channels at 16 kHz using 16 bits per sample (channel mask 0x4)
+[2019.03.18-16.45.43:687][328]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
+[2019.03.18-16.45.44:772][332]LogInit: XAudio2 using 'Headphones (Bose AE2 SoundLink Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.18-16.55.33:738][356]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{91e54df5-58c5-4016-9fb0-8b41ee7cc5ea} was removed. Shutting down audio device.
+[2019.03.18-16.55.33:738][356]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-16.57.04:178][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-16.57.04:214][543]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect1F53AB594BB0CEE13E40F5BB98DB6477.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-16.57.06:612][686]LogEditorViewport: Clicking on Actor (LMB): Platform_Test_C (Platform_Test2)
+[2019.03.18-16.57.07:527][738]Cmd: DUPLICATE
+[2019.03.18-16.57.07:527][738]Cmd: ACTOR DUPLICATE
+[2019.03.18-16.57.10:987][940]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2019.03.18-16.57.12:165][  5]Cmd: DUPLICATE
+[2019.03.18-16.57.12:165][  5]Cmd: ACTOR DUPLICATE
+[2019.03.18-16.57.15:322][187]LogEditorViewport: Clicking on Actor (LMB): Platform_Test_C (Platform_Test3)
+[2019.03.18-16.57.21:635][557]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2019.03.18-16.57.22:416][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.03.18-16.57.24:693][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.03.18-16.57.25:883][798]LogEditorViewport: Clicking on Actor (LMB): Car4_C (Car4)
+[2019.03.18-16.57.35:479][366]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-16.57.35:800][366]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_DefaultEBC97EEF46FB89B490905CB3D0E4ADF9.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-16.57.35:816][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
+[2019.03.18-16.57.35:850][366]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default_BuiltData4351862140F91B57ACF80588C5D6772A.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.03.18-16.57.42:711][757]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2019.03.18-16.57.43:836][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.03.18-16.57.44:676][865]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2019.03.18-16.57.48:071][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-16.57.57:355][620]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2019.03.18-16.57.59:549][744]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2019.03.18-16.58.01:132][832]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2019.03.18-16.58.04:603][ 33]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2019.03.18-16.58.06:192][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-16.58.10:640][385]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Car1.Car1_C:UserConstructionScript'!
+[2019.03.18-16.58.10:702][388]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Car1.Car1_C:UserConstructionScript'!
+[2019.03.18-16.58.10:719][389]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Car1.Car1_C:UserConstructionScript'!
+[2019.03.18-16.58.10:746][390]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/Car1.Car1_C:UserConstructionScript'!
+[2019.03.18-16.58.11:478][433]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default
+[2019.03.18-16.58.11:990][434]LogSlate: Took 0.013700 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.18-16.59.04:317][537]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_DefaultAFEA455649D4D2EB93415087DF3C00EE.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-16.59.04:329][537]LogFileHelpers: Saving map 'Minimal_Default' took 0.368
+[2019.03.18-17.00.01:419][856]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2019.03.18-17.00.01:421][856]LogBlueprint: Warning: [Compiler PersistentLevel.Minimal_Default] [1007.62] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 0 Warning(s) [in 25 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2019.03.18-17.00.01:651][856]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_DefaultFA3692E64527A05596B9919A8A9E0BFD.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.00.01:663][856]LogFileHelpers: Saving map 'Minimal_Default' took 0.380
+[2019.03.18-17.00.03:227][946]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2019.03.18-17.00.04:633][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-17.00.06:722][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-17.00.14:457][591]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2019.03.18-17.00.14:458][591]LogBlueprint: Warning: [Compiler PersistentLevel.Minimal_Default] [1020.65] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 0 Warning(s) [in 30 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2019.03.18-17.00.14:678][591]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_DefaultA9A7578948450B556BBE609B17DFC71B.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.00.14:692][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
+[2019.03.18-17.00.14:720][591]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default_BuiltData38EBAADA487CD451B29956BCE03AF441.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.03.18-17.00.17:582][753]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default
+[2019.03.18-17.00.38:866][969]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default3EA85BCC41365659920BE89B209F6835.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.00.38:878][969]LogFileHelpers: Saving map 'Minimal_Default' took 0.396
+[2019.03.18-17.00.43:926][238]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default474C2B9E4E894A25A42ECA95D3E35F4F.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.00.43:941][238]LogFileHelpers: Saving map 'Minimal_Default' took 0.404
+[2019.03.18-17.01.09:786][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.01.09:814][768]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect6087D215430873D61B5F94A6EEEAF3E7.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.02.09:855][328]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-17.02.10:708][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.02.10:740][372]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect520BC75341758AD8612D7EB6797860C4.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.02.35:858][855]LogSlate: Took 0.120297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.03.18-17.03.11:544][986]LogEditorTransaction: Undo Move Node
+[2019.03.18-17.03.21:759][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.03.21:793][595]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect3E062B8D49E0F472D90694B5594DCB20.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.03.30:198][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.03.30:231][ 97]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectBD124A1E4F2C882DCD5C609CA441E62B.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.03.39:451][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.03.39:483][649]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectA6E38AF248D16F8FECA033830F543A68.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.04.38:817][207]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-17.04.39:501][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.04.39:667][241]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect0D5C97804E7EAFD5B0E5CF817C37658C.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.08.30:717][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.08.30:758][906]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectBF13ACA54AF185B393B74A8A95C67E72.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.08.48:528][954]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] This blueprint (self) is not a CharSelect_C, therefore ' Target ' must have a connection.
+[2019.03.18-17.08.48:530][954]LogBlueprint: Warning: [Compiler PersistentLevel.Minimal_Default] [1534.73] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 0 Warning(s) [in 32 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2019.03.18-17.08.48:769][954]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_DefaultBBFCDD044F9A85FBB0EF4BB1E3EA4E39.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.08.48:783][954]LogFileHelpers: Saving map 'Minimal_Default' took 0.408
+[2019.03.18-17.08.55:418][325]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_DefaultBB0438D94BC8EB91880027AC024E4F09.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.08.55:431][325]LogFileHelpers: Saving map 'Minimal_Default' took 0.389
+[2019.03.18-17.09.02:502][746]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.09.02:521][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.09.02:522][746]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-17.09.02:539][746]LogPlayLevel: [PlayLevel] Compiling CharSelect before play...
+[2019.03.18-17.09.02:699][746]LogPlayLevel: PlayLevel: Blueprint regeneration took 177 ms (1 blueprints)
+[2019.03.18-17.09.02:713][746]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:09:02 AM)
+[2019.03.18-17.09.02:713][746]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.09.02:719][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006564s)
+[2019.03.18-17.09.02:720][746]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.09.02:721][746]LogPlayLevel: PIE: World Init took: (0.001713s)
+[2019.03.18-17.09.02:721][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008551s)
+[2019.03.18-17.09.02:808][746]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.09.02:901][746]LogInit: FAudioDevice initialized.
+[2019.03.18-17.09.02:911][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.09.03:030][746]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.09.03:032][746]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.09.03
+[2019.03.18-17.09.03:032][746]LogWorld: Bringing up level for play took: 0.001260
+[2019.03.18-17.09.03:071][746]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.03.18-17.09.03:076][746]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.384
+[2019.03.18-17.09.03:076][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.09.03:185][746]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2019.03.18-17.09.33:604][568]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-17.09.33:614][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.09.33:657][568]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.09.33:657][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.09.33:768][569]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.03.18-17.10.17:935][191]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default6BA64BDD48EE4652A922318E77CF05C6.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.10.17:947][191]LogFileHelpers: Saving map 'Minimal_Default' took 0.383
+[2019.03.18-17.11.27:203][237]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default17820C3947D13D28B697618321E0FB56.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.11.27:217][237]LogFileHelpers: Saving map 'Minimal_Default' took 0.390
+[2019.03.18-17.11.47:600][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.11.47:642][454]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectDFFBD2FE48770068042A39A4443BFAEF.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.12.09:574][748]LogEditorTransaction: Undo Add Widget
+[2019.03.18-17.13.48:933][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.13.48:977][668]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect81159AA54C22074426118297CE24114D.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.14.20:676][499]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] Menu2->Menu1  : unable to determine expected signature - is the delegate pin connected?
+[2019.03.18-17.14.20:676][499]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] Could not find an event-dispatcher named "CameraReturnMenu1" in 'CharSelect_C'.
+Make sure 'CharSelect_C' has been compiled for  Bind Event to CameraReturnMenu1
+[2019.03.18-17.14.20:677][499]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] Could not find an event-dispatcher named "CameraReturnMenu0" in 'CharSelect_C'.
+Make sure 'CharSelect_C' has been compiled for  Bind Event to CameraReturnMenu0
+[2019.03.18-17.14.20:677][499]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] Failed to create property K2Node_CreateDelegate_OutputDelegate7 from  <None>  due to a bad or unknown type (Delegate)
+[2019.03.18-17.14.20:677][499]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] Menu2->Menu1  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2019.03.18-17.14.20:678][499]LogBlueprint: Warning: [Compiler PersistentLevel.Minimal_Default] [1866.87] Compile of PersistentLevel.Minimal_Default failed. 5 Fatal Issue(s) 0 Warning(s) [in 30 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2019.03.18-17.14.20:936][499]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_DefaultC9F55D7E4395390EAD068EA6B285530B.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.14.20:952][499]LogFileHelpers: Saving map 'Minimal_Default' took 0.441
+[2019.03.18-17.14.21:801][546]BlueprintLog: New page: Compile Minimal_Default
+[2019.03.18-17.14.21:854][546]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] Menu2->Menu1  : unable to determine expected signature - is the delegate pin connected?
+[2019.03.18-17.14.21:854][546]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] Could not find an event-dispatcher named "CameraReturnMenu1" in 'CharSelect_C'.
+Make sure 'CharSelect_C' has been compiled for  Bind Event to CameraReturnMenu1
+[2019.03.18-17.14.21:855][546]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] Could not find an event-dispatcher named "CameraReturnMenu0" in 'CharSelect_C'.
+Make sure 'CharSelect_C' has been compiled for  Bind Event to CameraReturnMenu0
+[2019.03.18-17.14.21:855][546]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] Failed to create property K2Node_CreateDelegate_OutputDelegate7 from  <None>  due to a bad or unknown type (Delegate)
+[2019.03.18-17.14.21:856][546]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] Menu2->Menu1  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2019.03.18-17.14.22:015][546]LogBlueprint: Warning: [Compiler PersistentLevel.Minimal_Default] [1868.21] Compile of PersistentLevel.Minimal_Default failed. 5 Fatal Issue(s) 0 Warning(s) [in 213 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2019.03.18-17.14.29:064][965]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-17.14.29:763][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.14.29:807][991]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectB265C13F47C2991D5C4A858A61E4C3F0.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.14.31:772][104]BlueprintLog: New page: Compile Minimal_Default
+[2019.03.18-17.14.33:542][169]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_DefaultF57805D04689714700104782BBE01B95.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.14.33:556][169]LogFileHelpers: Saving map 'Minimal_Default' took 0.421
+[2019.03.18-17.14.34:077][170]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default28D395BE42E0B20C4BB8E2A4CA90C1ED.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.14.34:089][170]LogFileHelpers: Saving map 'Minimal_Default' took 0.431
+[2019.03.18-17.14.35:225][227]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.14.35:245][227]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.14.35:245][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-17.14.35:245][227]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:14:35 AM)
+[2019.03.18-17.14.35:245][227]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.14.35:253][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007465s)
+[2019.03.18-17.14.35:253][227]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.14.35:254][227]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2019.03.18-17.14.35:254][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008402s)
+[2019.03.18-17.14.35:316][227]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.14.35:398][227]LogInit: FAudioDevice initialized.
+[2019.03.18-17.14.35:431][227]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.14.35:433][227]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.14.35
+[2019.03.18-17.14.35:433][227]LogWorld: Bringing up level for play took: 0.001213
+[2019.03.18-17.14.35:448][227]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.756
+[2019.03.18-17.14.35:448][227]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.14.55:435][415]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.14.55:435][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.14.55:480][415]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.14.55:480][415]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.14.55:514][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.14.55:542][417]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.03.18-17.15.20:371][857]LogSlate: Took 0.003135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.03.18-17.15.50:951][686]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-17.16.10:992][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.16.11:039][862]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectCD771B1C4FDC6DE0EF2E49944E216F4C.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.16.15:419][123]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-17.16.49:365][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.16.49:413][127]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectE3ED05C94F6FFC7141A713BCEC89BD16.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.17.05:502][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-17.17.13:107][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-17.17.17:968][828]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-17.17.31:445][632]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-17.17.33:824][774]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.33:824][774]LogEditorTransaction: Undo Rotate Actors
+[2019.03.18-17.17.34:994][843]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.34:995][843]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.18-17.17.38:791][ 70]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.38:791][ 70]LogEditorTransaction: Undo Rotate Actors
+[2019.03.18-17.17.39:024][ 83]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.39:024][ 83]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.18-17.17.39:234][ 95]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.39:234][ 95]LogEditorTransaction: Undo Move Actors
+[2019.03.18-17.17.39:426][106]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.39:426][106]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.18-17.17.39:761][126]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.39:761][126]LogEditorTransaction: Undo Move Actors
+[2019.03.18-17.17.39:998][140]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.39:998][140]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.18-17.17.40:181][151]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.40:181][151]LogEditorTransaction: Undo Move Actors
+[2019.03.18-17.17.40:365][162]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.40:365][162]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.18-17.17.40:581][175]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.40:581][175]LogEditorTransaction: Undo Move Actors
+[2019.03.18-17.17.40:815][189]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.40:815][189]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.18-17.17.41:032][202]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.41:032][202]LogEditorTransaction: Undo Move Actors
+[2019.03.18-17.17.41:299][218]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.41:299][218]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.18-17.17.41:550][233]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.41:550][233]LogEditorTransaction: Undo Move Actors
+[2019.03.18-17.17.41:850][251]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.41:850][251]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.18-17.17.42:116][267]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.42:116][267]LogEditorTransaction: Undo Rotate Actors
+[2019.03.18-17.17.42:383][283]Cmd: TRANSACTION UNDO
+[2019.03.18-17.17.42:383][283]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.18-17.17.47:678][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-17.17.52:962][915]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-17.18.00:727][379]Cmd: TRANSACTION UNDO
+[2019.03.18-17.18.00:727][379]LogEditorTransaction: Undo Rotate Actors
+[2019.03.18-17.18.01:185][406]Cmd: TRANSACTION UNDO
+[2019.03.18-17.18.01:185][406]LogEditorTransaction: Undo Animatable Property Changed
+[2019.03.18-17.18.01:578][429]Cmd: TRANSACTION UNDO
+[2019.03.18-17.18.01:578][429]LogEditorTransaction: Undo Rotate Actors
+[2019.03.18-17.18.07:230][767]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-17.18.12:874][103]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-17.18.17:518][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-17.18.23:143][717]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-17.18.27:871][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-17.18.37:287][556]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor2)
+[2019.03.18-17.18.38:606][627]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-17.18.38:938][627]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default29B9A3C646727A2978437192F8E71872.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.18.38:953][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
+[2019.03.18-17.18.38:979][627]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default_BuiltData5F96D3384B32959CC473D6BBB6F0E33A.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.03.18-17.18.40:541][713]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor3)
+[2019.03.18-17.18.42:084][797]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.18-17.18.43:931][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-17.18.50:339][263]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default
+[2019.03.18-17.20.29:539][ 95]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default4337419F4AB82F34242D968FDA34A42F.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.20.29:553][ 95]LogFileHelpers: Saving map 'Minimal_Default' took 0.407
+[2019.03.18-17.20.35:740][437]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_DefaultF08FB93C4E66D754FD1535BBDD76B471.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.20.35:751][437]LogFileHelpers: Saving map 'Minimal_Default' took 0.410
+[2019.03.18-17.20.37:982][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.20.38:029][566]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect612078004E90966E30B319B331EFE546.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.20.38:478][593]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-17.21.04:048][ 70]BlueprintLog: New page: Compile Minimal_Default
+[2019.03.18-17.21.05:199][ 99]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default8800B16A4DF254227D7C0184BDF6CB79.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.21.05:211][ 99]LogFileHelpers: Saving map 'Minimal_Default' took 0.401
+[2019.03.18-17.21.05:691][124]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.21.05:709][124]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.21.05:710][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-17.21.05:710][124]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:21:05 AM)
+[2019.03.18-17.21.05:710][124]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.21.05:717][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006715s)
+[2019.03.18-17.21.05:718][124]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.21.05:718][124]LogPlayLevel: PIE: World Init took: (0.001270s)
+[2019.03.18-17.21.05:718][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008234s)
+[2019.03.18-17.21.05:795][124]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.21.05:878][124]LogInit: FAudioDevice initialized.
+[2019.03.18-17.21.05:889][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.21.06:018][124]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.21.06:020][124]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.21.06
+[2019.03.18-17.21.06:020][124]LogWorld: Bringing up level for play took: 0.001235
+[2019.03.18-17.21.06:038][124]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.653
+[2019.03.18-17.21.06:039][124]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.21.28:447][455]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.21.28:447][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.21.28:457][455]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-17.21.28:508][455]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.21.28:508][455]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.21.28:623][456]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.03.18-17.21.33:483][723]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default251FAB4B4AC133269BFB3BAB9CEF53AD.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.21.33:495][723]LogFileHelpers: Saving map 'Minimal_Default' took 0.399
+[2019.03.18-17.21.34:907][804]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.21.34:922][804]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.21.34:923][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-17.21.34:923][804]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:21:34 AM)
+[2019.03.18-17.21.34:923][804]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.21.34:929][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006259s)
+[2019.03.18-17.21.34:930][804]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.21.34:930][804]LogPlayLevel: PIE: World Init took: (0.001186s)
+[2019.03.18-17.21.34:931][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007675s)
+[2019.03.18-17.21.34:983][804]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.21.35:061][804]LogInit: FAudioDevice initialized.
+[2019.03.18-17.21.35:070][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.21.35:153][804]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.21.35:155][804]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.21.35
+[2019.03.18-17.21.35:155][804]LogWorld: Bringing up level for play took: 0.001085
+[2019.03.18-17.21.35:173][804]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.482
+[2019.03.18-17.21.35:174][804]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.21.49:018][631]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.21.49:018][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.21.49:027][631]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-17.21.49:080][631]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.21.49:080][631]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.21.49:196][632]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.03.18-17.22.28:260][944]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default6F38D0FD4B42C8621EAC41B85F2CF4EE.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.22.28:272][944]LogFileHelpers: Saving map 'Minimal_Default' took 0.411
+[2019.03.18-17.23.02:405][963]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default5258044A4524B88C361E19B7CA3F20F9.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.23.02:418][963]LogFileHelpers: Saving map 'Minimal_Default' took 0.403
+[2019.03.18-17.23.31:577][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.23.31:624][685]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect4D9F28BC4BA2EC3E23A30896BCA59A4A.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.23.33:195][779]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-17.23.55:023][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.23.55:072][ 70]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectF650495646C931C5A2D95A97834425B5.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.24.08:041][842]LogEditorTransaction: Undo Add Node
+[2019.03.18-17.24.47:596][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.24.47:644][178]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectC882E80645F5686CD04302AC67E33FCC.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.25.07:740][377]LogEditorTransaction: Undo Delete current selection
+[2019.03.18-17.25.16:379][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.25.16:445][887]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectD6E40AEC4131A69D26FB1480BBB256C2.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.25.17:559][954]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.25.17:585][954]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.25.17:585][954]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-17.25.17:611][954]LogPlayLevel: [PlayLevel] Compiling CharSelect before play...
+[2019.03.18-17.25.17:798][954]LogPlayLevel: PlayLevel: Blueprint regeneration took 213 ms (1 blueprints)
+[2019.03.18-17.25.17:798][954]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:25:17 AM)
+[2019.03.18-17.25.17:798][954]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.25.17:805][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007005s)
+[2019.03.18-17.25.17:806][954]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.25.17:806][954]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2019.03.18-17.25.17:806][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008454s)
+[2019.03.18-17.25.17:864][954]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.25.17:946][954]LogInit: FAudioDevice initialized.
+[2019.03.18-17.25.17:954][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.25.18:081][954]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.25.18:083][954]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.25.18
+[2019.03.18-17.25.18:084][954]LogWorld: Bringing up level for play took: 0.002187
+[2019.03.18-17.25.18:100][954]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.408
+[2019.03.18-17.25.18:100][954]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.25.25:079][357]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.25.25:080][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.25.25:089][357]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-17.25.25:128][357]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.25.25:129][357]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.25.25:191][358]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.03.18-17.25.40:198][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.25.40:251][254]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect5B30A1EA457885115C8905A137102E3D.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.25.41:468][327]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.25.41:483][327]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.25.41:483][327]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-17.25.41:496][327]LogPlayLevel: [PlayLevel] Compiling CharSelect before play...
+[2019.03.18-17.25.41:667][327]LogPlayLevel: PlayLevel: Blueprint regeneration took 184 ms (1 blueprints)
+[2019.03.18-17.25.41:667][327]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:25:41 AM)
+[2019.03.18-17.25.41:667][327]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.25.41:674][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006567s)
+[2019.03.18-17.25.41:675][327]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.25.41:675][327]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2019.03.18-17.25.41:675][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007961s)
+[2019.03.18-17.25.41:733][327]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.25.41:812][327]LogInit: FAudioDevice initialized.
+[2019.03.18-17.25.41:820][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.25.41:895][327]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.25.41:897][327]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.25.41
+[2019.03.18-17.25.41:897][327]LogWorld: Bringing up level for play took: 0.001240
+[2019.03.18-17.25.41:913][327]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.221
+[2019.03.18-17.25.41:913][327]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.25.50:252][821]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.25.50:253][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.25.50:262][821]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-17.25.50:304][821]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.25.50:304][821]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.25.50:358][822]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.03.18-17.26.44:989][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.26.45:044][ 82]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect1743015D493C1D61601D33B668CF7264.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.26.56:691][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.26.56:749][776]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectE67816D94B54390B8C41CFAF45132B48.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.26.58:667][889]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.26.58:683][889]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.26.58:684][889]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-17.26.58:700][889]LogPlayLevel: [PlayLevel] Compiling CharSelect before play...
+[2019.03.18-17.26.58:883][889]LogPlayLevel: PlayLevel: Blueprint regeneration took 200 ms (1 blueprints)
+[2019.03.18-17.26.58:884][889]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:26:58 AM)
+[2019.03.18-17.26.58:884][889]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.26.58:891][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006866s)
+[2019.03.18-17.26.58:892][889]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.26.58:893][889]LogPlayLevel: PIE: World Init took: (0.001803s)
+[2019.03.18-17.26.58:893][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008837s)
+[2019.03.18-17.26.58:947][889]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.26.59:026][889]LogInit: FAudioDevice initialized.
+[2019.03.18-17.26.59:035][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.26.59:134][889]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.26.59:137][889]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.26.59
+[2019.03.18-17.26.59:138][889]LogWorld: Bringing up level for play took: 0.002020
+[2019.03.18-17.26.59:154][889]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.462
+[2019.03.18-17.26.59:154][889]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.27.06:041][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.27.06:041][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.27.06:050][292]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-17.27.06:087][292]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.27.06:087][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.27.06:147][293]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.03.18-17.27.07:418][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.27.07:475][368]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect6ADFCABB45EE984DB3F28386E4F00CC7.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.27.11:563][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.27.11:621][612]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect630F95F14C302F54372176BBE06D4C8F.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.27.14:730][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.27.14:787][797]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectC340160940A0CDD62F6B0E8E05D32BCF.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.28.03:399][713]LogEditorTransaction: Undo Resize Node
+[2019.03.18-17.28.28:230][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.28.28:285][197]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect42C1778D437232E7DE0E5F9A9D968E6A.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.29.47:315][922]LogEditorTransaction: Undo Move Node
+[2019.03.18-17.29.52:109][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.29.52:166][204]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect46295F124A5AF625C251C78788B7B3C4.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.30.49:112][534]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.18-17.32.03:457][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.32.03:520][958]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectD372FE52420325561D504C9F709CF770.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.32.21:542][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.32.21:605][ 28]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectFBD28F3B46E81F6DF835F6A298D481F7.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.32.27:765][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.32.27:827][396]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect0A6F2E3C46F5A15FD8F58085606AD95F.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.33.14:250][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.33.14:314][147]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectEFAF6E704386CC11228E068376ECC451.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.33.39:726][345]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.33.39:747][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.33.39:747][345]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-17.33.39:777][345]LogPlayLevel: [PlayLevel] Compiling CharSelect before play...
+[2019.03.18-17.33.40:007][345]LogPlayLevel: PlayLevel: Blueprint regeneration took 259 ms (1 blueprints)
+[2019.03.18-17.33.40:007][345]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:33:40 AM)
+[2019.03.18-17.33.40:007][345]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.33.40:014][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007219s)
+[2019.03.18-17.33.40:015][345]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.33.40:016][345]LogPlayLevel: PIE: World Init took: (0.001674s)
+[2019.03.18-17.33.40:016][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009043s)
+[2019.03.18-17.33.40:072][345]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.33.40:261][345]LogInit: FAudioDevice initialized.
+[2019.03.18-17.33.40:270][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.33.40:344][345]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.33.40:347][345]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.33.40
+[2019.03.18-17.33.40:347][345]LogWorld: Bringing up level for play took: 0.001382
+[2019.03.18-17.33.40:363][345]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.329
+[2019.03.18-17.33.40:363][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.33.47:166][746]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.33.47:167][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.33.47:176][746]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-17.33.47:216][746]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.33.47:216][746]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.33.47:274][747]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.03.18-17.33.48:274][807]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.33.48:291][807]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.33.48:291][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-17.33.48:291][807]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:33:48 AM)
+[2019.03.18-17.33.48:291][807]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.33.48:298][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006365s)
+[2019.03.18-17.33.48:298][807]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.33.48:299][807]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2019.03.18-17.33.48:299][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007660s)
+[2019.03.18-17.33.48:352][807]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.33.48:430][807]LogInit: FAudioDevice initialized.
+[2019.03.18-17.33.48:438][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.33.48:518][807]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.33.48:521][807]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.33.48
+[2019.03.18-17.33.48:521][807]LogWorld: Bringing up level for play took: 0.001155
+[2019.03.18-17.33.48:539][807]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.152
+[2019.03.18-17.33.48:539][807]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.34.04:688][771]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.34.04:688][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.34.04:702][771]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-17.34.04:747][771]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.34.04:747][771]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.34.04:807][772]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.03.18-17.34.08:026][961]LogUObjectBase: Warning: Object is not registered
+[2019.03.18-17.34.09:794][961]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.768 s
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: 
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: Stack: 
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: [Callstack] 0x00007fff55eb71f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: [Callstack] 0x00007fff55bf0c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: [Callstack] 0x00007fff55c0b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: [Callstack] 0x00007fff54b511db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: [Callstack] 0x00007fff54b6060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: [Callstack] 0x00007fff6ebbda7a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: [Callstack] 0x00007fff52bbec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: [Callstack] 0x00007fff52b7f337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: [Callstack] 0x00007fff7e648204 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: [Callstack] 0x00007fff7e88e933 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.18-17.34.09:794][961]LogOutputDevice: Error: [Callstack] 0x00007fff7e6a281a UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.18-17.34.09:795][961]LogOutputDevice: Error: [Callstack] 0x00007fff7e69e788 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.18-17.34.09:795][961]LogOutputDevice: Error: [Callstack] 0x00007fff7e69dd17 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.18-17.34.09:795][961]LogOutputDevice: Error: [Callstack] 0x00007ff7752a6aa7 UE4Editor.exe!UnknownFunction []
+[2019.03.18-17.34.09:795][961]LogOutputDevice: Error: [Callstack] 0x00007ff7752b5b3c UE4Editor.exe!UnknownFunction []
+[2019.03.18-17.34.09:795][961]LogOutputDevice: Error: [Callstack] 0x00007ff7752b5bba UE4Editor.exe!UnknownFunction []
+[2019.03.18-17.34.09:795][961]LogOutputDevice: Error: [Callstack] 0x00007ff7752c3dac UE4Editor.exe!UnknownFunction []
+[2019.03.18-17.34.09:795][961]LogOutputDevice: Error: [Callstack] 0x00007ff7752c5aaa UE4Editor.exe!UnknownFunction []
+[2019.03.18-17.34.09:795][961]LogOutputDevice: Error: [Callstack] 0x00007fffbced81f4 KERNEL32.DLL!UnknownFunction []
+[2019.03.18-17.34.09:795][961]LogOutputDevice: Error: [Callstack] 0x00007fffbdaea251 ntdll.dll!UnknownFunction []
+[2019.03.18-17.34.09:795][961]LogOutputDevice: Error: 
+[2019.03.18-17.34.09:800][961]LogStats:                SubmitErrorReport -  0.000 s
+[2019.03.18-17.34.10:299][961]LogStats:                    SendNewReport -  0.499 s
+[2019.03.18-17.34.10:299][961]LogStats:             FDebug::EnsureFailed -  2.273 s
+[2019.03.18-17.34.38:756][544]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2019.03.18-17.34.38:759][544]LogBlueprint: Warning: [Compiler PersistentLevel.Minimal_Default] [3084.95] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 0 Warning(s) [in 32 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2019.03.18-17.34.39:015][544]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default9EE48A8D409EACF80157BF9C86775297.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.34.39:029][544]LogFileHelpers: Saving map 'Minimal_Default' took 0.427
+[2019.03.18-17.34.51:239][257]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2019.03.18-17.34.51:241][257]LogBlueprint: Warning: [Compiler PersistentLevel.Minimal_Default] [3097.44] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 0 Warning(s) [in 32 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2019.03.18-17.34.51:501][257]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default806003EF4CDD35C2F47505B007AD199A.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.34.51:514][257]LogFileHelpers: Saving map 'Minimal_Default' took 0.426
+[2019.03.18-17.34.53:708][380]LogEditorTransaction: Undo Paste clipboard contents
+[2019.03.18-17.34.59:096][667]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_DefaultA0BD0F884DE6D53E8BA4C196E956FCAD.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.34.59:108][667]LogFileHelpers: Saving map 'Minimal_Default' took 0.424
+[2019.03.18-17.35.01:788][798]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default7C9B0EEB43C9C9A92BEE2A8A09758518.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.35.01:800][798]LogFileHelpers: Saving map 'Minimal_Default' took 0.417
+[2019.03.18-17.35.08:867][218]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.35.08:882][218]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.35.08:882][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-17.35.08:882][218]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:35:08 AM)
+[2019.03.18-17.35.08:882][218]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.35.08:889][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006808s)
+[2019.03.18-17.35.08:890][218]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.35.08:890][218]LogPlayLevel: PIE: World Init took: (0.001192s)
+[2019.03.18-17.35.08:891][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008179s)
+[2019.03.18-17.35.08:947][218]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.35.09:027][218]LogInit: FAudioDevice initialized.
+[2019.03.18-17.35.09:036][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.35.09:142][218]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.35.09:144][218]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.35.09
+[2019.03.18-17.35.09:145][218]LogWorld: Bringing up level for play took: 0.001222
+[2019.03.18-17.35.09:165][218]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.474
+[2019.03.18-17.35.09:165][218]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.35.15:741][609]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-17.35.15:751][609]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.35.15:800][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.35.15:800][609]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.35.15:923][610]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.03.18-17.35.48:970][467]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] This blueprint (self) is not a CharSelect_C, therefore ' Target ' must have a connection.
+[2019.03.18-17.35.48:972][467]LogBlueprint: Warning: [Compiler PersistentLevel.Minimal_Default] [3155.17] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 0 Warning(s) [in 32 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2019.03.18-17.35.49:316][467]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default4B278F0B45045B7BE779C1969C635968.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.35.49:328][467]LogFileHelpers: Saving map 'Minimal_Default' took 0.502
+[2019.03.18-17.35.51:595][599]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.35.51:610][599]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.35.51:611][599]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-17.35.51:634][599]LogPlayLevel: [PlayLevel] Compiling Minimal_Default before play...
+[2019.03.18-17.35.51:662][599]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] This blueprint (self) is not a CharSelect_C, therefore ' Target ' must have a connection.
+[2019.03.18-17.35.51:665][599]LogBlueprint: Warning: [Compiler PersistentLevel.Minimal_Default] [3157.86] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 0 Warning(s) [in 31 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2019.03.18-17.35.51:826][599]LogPlayLevel: PlayLevel: Blueprint regeneration took 216 ms (1 blueprints)
+[2019.03.18-17.35.51:827][599]BlueprintLog: Blueprint Minimal_Default failed to compile
+[2019.03.18-17.35.53:065][599]LogSlate: Window 'Message' being destroyed
+[2019.03.18-17.35.53:832][641]BlueprintLog: New page: Compile Minimal_Default
+[2019.03.18-17.35.53:887][641]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] This blueprint (self) is not a CharSelect_C, therefore ' Target ' must have a connection.
+[2019.03.18-17.35.54:045][641]LogBlueprint: Warning: [Compiler PersistentLevel.Minimal_Default] [3160.24] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 0 Warning(s) [in 212 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2019.03.18-17.35.56:207][767]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-17.35.58:218][875]BlueprintLog: New page: Compile Minimal_Default
+[2019.03.18-17.35.58:270][875]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] This blueprint (self) is not a CharSelect_C, therefore ' Target ' must have a connection.
+[2019.03.18-17.35.58:433][875]LogBlueprint: Warning: [Compiler PersistentLevel.Minimal_Default] [3164.63] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 0 Warning(s) [in 215 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2019.03.18-17.36.05:530][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.36.05:595][296]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect67B4DFD44AD6C3FCBBC7C09FF9EF7F68.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.36.06:476][349]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-17.36.13:489][757]BlueprintLog: New page: Compile Minimal_Default
+[2019.03.18-17.36.13:540][757]LogBlueprint: Error: [Compiler PersistentLevel.Minimal_Default] This blueprint (self) is not a CharSelect_C, therefore ' Target ' must have a connection.
+[2019.03.18-17.36.13:702][757]LogBlueprint: Warning: [Compiler PersistentLevel.Minimal_Default] [3179.90] Compile of PersistentLevel.Minimal_Default failed. 1 Fatal Issue(s) 0 Warning(s) [in 213 ms] (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default)
+[2019.03.18-17.36.20:262][121]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default32CBC51446C331E5ABA2E4AA8AA681C2.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.36.20:275][121]LogFileHelpers: Saving map 'Minimal_Default' took 0.416
+[2019.03.18-17.36.22:359][242]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.36.22:375][242]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.36.22:375][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-17.36.22:375][242]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:36:22 AM)
+[2019.03.18-17.36.22:375][242]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.36.22:382][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007172s)
+[2019.03.18-17.36.22:383][242]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.36.22:383][242]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2019.03.18-17.36.22:383][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008465s)
+[2019.03.18-17.36.22:440][242]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.36.22:519][242]LogInit: FAudioDevice initialized.
+[2019.03.18-17.36.22:527][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.36.22:652][242]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.36.22:654][242]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.36.22
+[2019.03.18-17.36.22:654][242]LogWorld: Bringing up level for play took: 0.001232
+[2019.03.18-17.36.22:673][242]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.019
+[2019.03.18-17.36.22:673][242]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.39.19:432][836]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.39.19:434][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.39.19:444][836]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-17.39.19:502][836]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.39.19:502][836]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.39.19:621][837]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.03.18-17.40.01:924][338]LogEditorTransaction: Undo Rename Node
+[2019.03.18-17.40.02:582][372]LogEditorTransaction: Undo Add Node
+[2019.03.18-17.40.25:897][760]BlueprintLog: New page: Compile Minimal_Default
+[2019.03.18-17.40.27:502][813]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default3D34BB5A4FB7A49C90CC8C8C1739A9DA.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.40.27:515][813]LogFileHelpers: Saving map 'Minimal_Default' took 0.415
+[2019.03.18-17.40.28:036][840]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.40.28:050][840]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.40.28:050][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-17.40.28:051][840]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:40:28 AM)
+[2019.03.18-17.40.28:051][840]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.40.28:057][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006610s)
+[2019.03.18-17.40.28:058][840]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.40.28:059][840]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2019.03.18-17.40.28:059][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008045s)
+[2019.03.18-17.40.28:113][840]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.40.28:190][840]LogInit: FAudioDevice initialized.
+[2019.03.18-17.40.28:199][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.40.28:288][840]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.40.28:290][840]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.40.28
+[2019.03.18-17.40.28:290][840]LogWorld: Bringing up level for play took: 0.001479
+[2019.03.18-17.40.28:308][840]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.383
+[2019.03.18-17.40.28:308][840]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.40.38:951][468]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-17.40.38:958][468]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.40.39:009][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.40.39:009][468]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.40.39:133][469]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.03.18-17.43.36:184][ 78]BlueprintLog: New page: Compile Minimal_Default
+[2019.03.18-17.43.51:788][609]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default1ADB919142BA2B1677D8A7A777EE8CEF.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.43.51:802][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
+[2019.03.18-17.43.51:829][609]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default_BuiltData79EE1896454736CCF672B3A73E8BF49B.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.03.18-17.43.54:211][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.18-17.43.54:326][753]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.43.54:340][753]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.43.54:340][753]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-17.43.54:341][753]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:43:54 AM)
+[2019.03.18-17.43.54:341][753]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.43.54:348][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006888s)
+[2019.03.18-17.43.54:349][753]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.43.54:349][753]LogPlayLevel: PIE: World Init took: (0.001209s)
+[2019.03.18-17.43.54:349][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008308s)
+[2019.03.18-17.43.54:401][753]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.43.54:479][753]LogInit: FAudioDevice initialized.
+[2019.03.18-17.43.54:513][753]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.43.54:515][753]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.43.54
+[2019.03.18-17.43.54:515][753]LogWorld: Bringing up level for play took: 0.001166
+[2019.03.18-17.43.54:530][753]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.162
+[2019.03.18-17.43.54:530][753]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.48.34:491][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.48.34:492][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.48.34:528][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.48.34:528][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.48.34:579][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.48.34:593][844]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.03.18-17.50.27:283][173]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.50.27:304][173]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.50.27:304][173]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-17.50.27:327][173]LogPlayLevel: [PlayLevel] Compiling Minimal_Default before play...
+[2019.03.18-17.50.27:518][173]LogPlayLevel: PlayLevel: Blueprint regeneration took 214 ms (1 blueprints)
+[2019.03.18-17.50.27:518][173]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:50:27 AM)
+[2019.03.18-17.50.27:519][173]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.50.27:527][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008434s)
+[2019.03.18-17.50.27:528][173]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.50.27:529][173]LogPlayLevel: PIE: World Init took: (0.001589s)
+[2019.03.18-17.50.27:529][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010305s)
+[2019.03.18-17.50.27:583][173]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.50.27:659][173]LogInit: FAudioDevice initialized.
+[2019.03.18-17.50.27:668][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.50.27:751][173]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.50.27:753][173]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.50.27
+[2019.03.18-17.50.27:754][173]LogWorld: Bringing up level for play took: 0.001453
+[2019.03.18-17.50.27:769][173]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.078
+[2019.03.18-17.50.27:769][173]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.50.38:275][787]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-17.50.38:284][787]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.50.38:337][787]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.50.38:337][787]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.50.38:518][788]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.03.18-17.51.07:840][537]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-17.51.07:856][537]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.51.07:856][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-17.51.07:856][537]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 9:51:07 AM)
+[2019.03.18-17.51.07:857][537]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-17.51.07:863][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006690s)
+[2019.03.18-17.51.07:864][537]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-17.51.07:865][537]LogPlayLevel: PIE: World Init took: (0.001343s)
+[2019.03.18-17.51.07:865][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008278s)
+[2019.03.18-17.51.07:917][537]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-17.51.07:994][537]LogInit: FAudioDevice initialized.
+[2019.03.18-17.51.08:003][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-17.51.08:088][537]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-17.51.08:091][537]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-13.51.08
+[2019.03.18-17.51.08:091][537]LogWorld: Bringing up level for play took: 0.001287
+[2019.03.18-17.51.08:109][537]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.582
+[2019.03.18-17.51.08:110][537]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.51.41:883][555]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-17.51.41:889][555]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.51.41:944][555]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-17.51.41:944][555]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-17.51.42:070][556]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.03.18-17.52.03:451][731]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.03.18-17.52.05:121][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/NewBlueprint" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/NewBlueprint.uasset" SILENT=true
+[2019.03.18-17.52.05:137][807]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/NewBlueprint2878D34E47B999184CC47B9E83D5389A.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/NewBlueprint.uasset'
+[2019.03.18-17.52.05:556][830]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/UMG/NewBlueprint.NewBlueprint
+[2019.03.18-17.52.05:944][831]LogRenderer: Reallocating scene render targets to support 1024x728 Format 10 NumSamples 1 (Frame:1).
+[2019.03.18-17.52.21:365][737]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.18-17.52.26:962][ 39]LogAnimation: Warning: SkeletalMesh JennyCar has no skeleton. This needs to fixed before an animation can be set
+[2019.03.18-17.52.27:085][ 47]LogAnimation: Warning: SkeletalMesh JennyCar has no skeleton. This needs to fixed before an animation can be set
+[2019.03.18-17.52.27:138][ 50]LogAnimation: Warning: SkeletalMesh JennyCar has no skeleton. This needs to fixed before an animation can be set
+[2019.03.18-17.52.27:190][ 53]LogAnimation: Warning: SkeletalMesh JennyCar has no skeleton. This needs to fixed before an animation can be set
+[2019.03.18-17.52.27:237][ 56]LogAnimation: Warning: SkeletalMesh JennyCar has no skeleton. This needs to fixed before an animation can be set
+[2019.03.18-17.52.27:286][ 59]LogAnimation: Warning: SkeletalMesh JennyCar has no skeleton. This needs to fixed before an animation can be set
+[2019.03.18-17.52.27:336][ 62]LogAnimation: Warning: SkeletalMesh JennyCar has no skeleton. This needs to fixed before an animation can be set
+[2019.03.18-17.52.27:387][ 65]LogAnimation: Warning: SkeletalMesh JennyCar has no skeleton. This needs to fixed before an animation can be set
+[2019.03.18-17.52.27:437][ 68]LogAnimation: Warning: SkeletalMesh JennyCar has no skeleton. This needs to fixed before an animation can be set
+[2019.03.18-17.52.27:487][ 71]LogAnimation: Warning: SkeletalMesh JennyCar has no skeleton. This needs to fixed before an animation can be set
+[2019.03.18-17.52.27:537][ 74]LogAnimation: Warning: SkeletalMesh JennyCar has no skeleton. This needs to fixed before an animation can be set
+[2019.03.18-17.52.27:594][ 77]LogAnimation: Warning: SkeletalMesh JennyCar has no skeleton. This needs to fixed before an animation can be set
+[2019.03.18-17.52.27:642][ 80]LogAnimation: Warning: SkeletalMesh JennyCar has no skeleton. This needs to fixed before an animation can be set
+[2019.03.18-17.52.27:688][ 83]LogAnimation: Warning: SkeletalMesh JennyCar has no skeleton. This needs to fixed before an animation can be set
+[2019.03.18-17.52.50:596][425]BlueprintLog: New page: Collapse to Function
+[2019.03.18-17.55.08:882][544]LogSlate: Window 'Save Content' being destroyed
+[2019.03.18-17.55.09:324][544]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/Minimal_Default25E7F3634024670535FD0EB9969F5777.tmp' to '../../../../Documents/UnrealCarSelect/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.03.18-17.55.09:336][544]LogFileHelpers: Saving map 'Minimal_Default' took 0.427
+[2019.03.18-17.55.09:341][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharacterSelectorPawn" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharacterSelectorPawn.uasset" SILENT=true
+[2019.03.18-17.55.09:613][544]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharacterSelectorPawn2FA303114F8079F02A8123946689433B.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharacterSelectorPawn.uasset'
+[2019.03.18-17.55.09:620][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/NewBlueprint" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/NewBlueprint.uasset" SILENT=true
+[2019.03.18-17.55.09:634][544]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/NewBlueprintFA61D09644E029280A6958B1E64CC82E.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/NewBlueprint.uasset'
+[2019.03.18-17.55.34:866][ 30]LogMetaData: Removing '/Game/Blueprints/NewBlueprint.NewBlueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/UMG/NewBlueprint.PackageMetaData'
+[2019.03.18-17.55.34:866][ 30]LogMetaData: Removing '/Game/Blueprints/NewBlueprint.SKEL_NewBlueprint_C:UserConstructionScript' ref from Metadata '/Game/UMG/NewBlueprint.PackageMetaData'
+[2019.03.18-17.55.34:866][ 30]LogMetaData: Removing '/Game/Blueprints/NewBlueprint.SKEL_NewBlueprint_C' ref from Metadata '/Game/UMG/NewBlueprint.PackageMetaData'
+[2019.03.18-17.55.34:866][ 30]LogMetaData: Removing '/Game/Blueprints/NewBlueprint.NewBlueprint_C:DefaultSceneRoot' ref from Metadata '/Game/UMG/NewBlueprint.PackageMetaData'
+[2019.03.18-17.55.34:866][ 30]LogMetaData: Removing '/Game/Blueprints/NewBlueprint.NewBlueprint_C' ref from Metadata '/Game/UMG/NewBlueprint.PackageMetaData'
+[2019.03.18-17.55.34:866][ 30]LogMetaData: Removing '/Game/Blueprints/NewBlueprint.NewBlueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UMG/NewBlueprint.PackageMetaData'
+[2019.03.18-17.55.34:866][ 30]LogMetaData: Removing '/Game/Blueprints/NewBlueprint.NewBlueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UMG/NewBlueprint.PackageMetaData'
+[2019.03.18-17.55.34:866][ 30]LogMetaData: Removing '/Game/Blueprints/NewBlueprint.NewBlueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UMG/NewBlueprint.PackageMetaData'
+[2019.03.18-17.55.34:866][ 30]LogMetaData: Removing '/Game/Blueprints/NewBlueprint.SKEL_NewBlueprint_C:ShowCar' ref from Metadata '/Game/UMG/NewBlueprint.PackageMetaData'
+[2019.03.18-17.55.34:866][ 30]LogMetaData: Removing '/Game/Blueprints/NewBlueprint.SKEL_NewBlueprint_C:ReceiveBeginPlay' ref from Metadata '/Game/UMG/NewBlueprint.PackageMetaData'
+[2019.03.18-17.55.34:866][ 30]LogMetaData: Removing '/Game/Blueprints/NewBlueprint.SKEL_NewBlueprint_C:DefaultSceneRoot' ref from Metadata '/Game/UMG/NewBlueprint.PackageMetaData'
+[2019.03.18-17.55.34:866][ 30]LogMetaData: Removing '/Game/Blueprints/NewBlueprint.SKEL_NewBlueprint_C:car1' ref from Metadata '/Game/UMG/NewBlueprint.PackageMetaData'
+[2019.03.18-17.55.34:866][ 30]LogMetaData: Removing '/Game/Blueprints/NewBlueprint.NewBlueprint:spawnallcars.K2Node_FunctionEntry_0' ref from Metadata '/Game/UMG/NewBlueprint.PackageMetaData'
+[2019.03.18-17.55.34:866][ 30]LogMetaData: Removing '/Game/Blueprints/NewBlueprint.NewBlueprint:ShowCar.K2Node_FunctionEntry_0' ref from Metadata '/Game/UMG/NewBlueprint.PackageMetaData'
+[2019.03.18-17.55.34:898][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewBlueprint" FILE="../../../../Documents/UnrealCarSelect/Content/Blueprints/NewBlueprint.uasset" SILENT=true
+[2019.03.18-17.55.34:910][ 30]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/NewBlueprint83F3B5F0411F1907CEB1FDADB946B50D.tmp' to '../../../../Documents/UnrealCarSelect/Content/Blueprints/NewBlueprint.uasset'
+[2019.03.18-17.56.08:851][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect1" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect1.uasset" SILENT=true
+[2019.03.18-17.56.08:924][979]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect17FF1504A40DF884ECCF81C84C97DF6DC.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect1.uasset'
+[2019.03.18-17.56.24:479][827]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.18-17.56.25:677][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.56.25:749][873]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect188D510A4FD1D3B38E7CDCBA5C3C2BA1.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.57.36:338][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-17.57.36:403][ 47]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect5ACD6FCA4263FD11158288B4D02BE5C9.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-17.57.41:464][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/NewWidgetBlueprint" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/NewWidgetBlueprint.uasset" SILENT=true
+[2019.03.18-17.57.41:471][333]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/NewWidgetBlueprintFD62CEBC4AD8047CF0BBF3BC0143DBDF.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/NewWidgetBlueprint.uasset'
+[2019.03.18-17.57.42:292][376]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UMG/NewWidgetBlueprint.NewWidgetBlueprint
+[2019.03.18-17.59.50:200][927]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.18-18.00.13:836][340]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.18-18.01.04:230][313]LogUObjectHash: Warning: Ambiguous search, could be Overlay /Game/UMG/NewWidgetBlueprint.NewWidgetBlueprint:WidgetTree.Overlay_1 or Overlay /Engine/Transient.World_16:NewWidgetBlueprint_C_13.WidgetTree_0.Overlay_1
+[2019.03.18-18.01.04:230][313]LogProperty: Warning: Illegal TEXT reference to a private object in external package (OverlaySlot /Game/UMG/NewWidgetBlueprint.NewWidgetBlueprint:WidgetTree.Overlay_1.OverlaySlot_0) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_0).  Import failed...
+[2019.03.18-18.01.04:230][313]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'OverlaySlot'"Overlay_1.OverlaySlot_0"''
+[2019.03.18-18.01.27:045][674]BlueprintLog: New page: Compile NewWidgetBlueprint
+[2019.03.18-18.01.27:527][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/NewWidgetBlueprint" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/NewWidgetBlueprint.uasset" SILENT=true
+[2019.03.18-18.01.27:536][692]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/NewWidgetBlueprint48E720C94289CBFF9205FDACFEFEFDB3.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/NewWidgetBlueprint.uasset'
+[2019.03.18-18.02.09:326][192]LogEditorTransaction: Undo Replace Widgets
+[2019.03.18-18.02.12:477][379]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.02.12:917][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-18.02.12:988][397]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectA5F679C34B7E78174299CA89F4C1CCD7.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-18.02.18:348][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect1" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect1.uasset" SILENT=true
+[2019.03.18-18.02.18:419][693]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect19381994546C9FC5AD18F1E9936F1E230.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect1.uasset'
+[2019.03.18-18.02.18:779][714]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UMG/CharSelect1.CharSelect1
+[2019.03.18-18.02.45:012][250]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.VerticalBox_0 or VerticalBox /Engine/Transient.World_16:NewWidgetBlueprint_C_6.WidgetTree_0.VerticalBox_0
+[2019.03.18-18.02.45:012][250]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.VerticalBox_0 or VerticalBox /Engine/Transient.World_16:NewWidgetBlueprint_C_5.WidgetTree_0.VerticalBox_0
+[2019.03.18-18.02.45:012][250]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.VerticalBox_0 or VerticalBox /Engine/Transient.World_16:NewWidgetBlueprint_C_7.WidgetTree_0.VerticalBox_0
+[2019.03.18-18.02.45:012][250]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.VerticalBox_0 or VerticalBox /Game/UMG/CharSelect1.CharSelect1:WidgetTree.VerticalBox_0
+[2019.03.18-18.02.45:012][250]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.VerticalBox_0 or VerticalBox /Engine/Transient.World_16:NewWidgetBlueprint_C_8.WidgetTree_0.VerticalBox_0
+[2019.03.18-18.02.45:013][250]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.VerticalBox_0 or VerticalBox /Engine/Transient.World_18:CharSelect1_C_3.WidgetTree_0.VerticalBox_0
+[2019.03.18-18.02.45:013][250]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.VerticalBox_0 or VerticalBox /Engine/Transient.World_16:NewWidgetBlueprint_C_9.WidgetTree_0.VerticalBox_0
+[2019.03.18-18.02.45:013][250]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.VerticalBox_0 or VerticalBox /Engine/Transient.World_16:NewWidgetBlueprint_C_10.WidgetTree_0.VerticalBox_0
+[2019.03.18-18.02.45:013][250]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.VerticalBox_0 or VerticalBox /Engine/Transient.World_16:NewWidgetBlueprint_C_11.WidgetTree_0.VerticalBox_0
+[2019.03.18-18.02.45:013][250]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.VerticalBox_0 or VerticalBox /Engine/Transient.World_16:NewWidgetBlueprint_C_12.WidgetTree_0.VerticalBox_0
+[2019.03.18-18.02.45:013][250]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.VerticalBox_0 or VerticalBox /Engine/Transient.World_16:NewWidgetBlueprint_C_13.WidgetTree_0.VerticalBox_0
+[2019.03.18-18.02.45:013][250]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.VerticalBox_0 or VerticalBox /Engine/Transient.World_16:NewWidgetBlueprint_C_14.WidgetTree_0.VerticalBox_0
+[2019.03.18-18.02.45:013][250]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Engine/Transient.VerticalBox_0 or VerticalBox /Engine/Transient.World_16:NewWidgetBlueprint_C_15.WidgetTree_0.VerticalBox_0
+[2019.03.18-18.02.45:013][250]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.VerticalBox_0:VerticalBoxSlot_0) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_0).  Import failed...
+[2019.03.18-18.02.45:013][250]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_0.VerticalBoxSlot_0"''
+[2019.03.18-18.03.24:792][483]BlueprintLog: New page: Compile CharSelect1
+[2019.03.18-18.03.25:270][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect1" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect1.uasset" SILENT=true
+[2019.03.18-18.03.25:342][489]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect1682831184ADC7BB34768BDA5345F21F9.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect1.uasset'
+[2019.03.18-18.03.47:730][823]BlueprintLog: New page: Compile CharSelect1
+[2019.03.18-18.03.48:189][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect1" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect1.uasset" SILENT=true
+[2019.03.18-18.03.48:258][835]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect1A7F0401D40807D5B73FA1294C0D20592.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect1.uasset'
+[2019.03.18-18.04.14:374][395]LogEditorTransaction: Undo Remove Widget
+[2019.03.18-18.05.57:444][497]BlueprintLog: New page: Compile CharSelect1
+[2019.03.18-18.05.57:486][497]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.05.57:486][497]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.05.57:486][497]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.05.57:486][497]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.05.57:488][497]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.05.57:488][497]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.05.57:488][497]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.05.57:489][497]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.05.57:648][497]LogBlueprint: Warning: [Compiler CharSelect1] [4963.84] Compile of CharSelect1 failed. 4 Fatal Issue(s) 4 Warning(s) [in 204 ms] (/Game/UMG/CharSelect1.CharSelect1)
+[2019.03.18-18.06.23:371][ 24]BlueprintLog: New page: Compile CharSelect1
+[2019.03.18-18.06.23:410][ 24]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.06.23:411][ 24]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.06.23:411][ 24]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.06.23:411][ 24]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.06.23:413][ 24]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.06.23:413][ 24]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.06.23:413][ 24]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.06.23:413][ 24]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.06.23:567][ 24]LogBlueprint: Warning: [Compiler CharSelect1] [4989.76] Compile of CharSelect1 failed. 4 Fatal Issue(s) 4 Warning(s) [in 195 ms] (/Game/UMG/CharSelect1.CharSelect1)
+[2019.03.18-18.06.24:150][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect1" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect1.uasset" SILENT=true
+[2019.03.18-18.06.24:228][ 56]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect12ADCE27545CBABFDA60CEEB6304F3D5A.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect1.uasset'
+[2019.03.18-18.06.30:919][455]BlueprintLog: New page: Compile CharSelect1
+[2019.03.18-18.06.30:955][455]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.06.30:955][455]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.06.30:955][455]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.06.30:955][455]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.06.30:957][455]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.06.30:957][455]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.06.30:957][455]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.06.30:957][455]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.06.31:029][455]LogBlueprint: Warning: [Compiler CharSelect1] [4997.22] Compile of CharSelect1 failed. 4 Fatal Issue(s) 4 Warning(s) [in 109 ms] (/Game/UMG/CharSelect1.CharSelect1)
+[2019.03.18-18.06.31:370][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect1" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect1.uasset" SILENT=true
+[2019.03.18-18.06.31:444][473]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect1F232D62C41A30DB96B4F1F93A9F0ACE8.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect1.uasset'
+[2019.03.18-18.06.32:980][565]BlueprintLog: New page: Compile CharSelect1
+[2019.03.18-18.06.33:015][565]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.06.33:015][565]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.06.33:015][565]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.06.33:015][565]LogBlueprint: Warning: [Compiler CharSelect1] Could not find a variable named "Menu1" in 'CharSelect1_C'.
+Make sure 'CharSelect1_C' has been compiled for  Get Menu1
+[2019.03.18-18.06.33:017][565]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.06.33:017][565]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.06.33:017][565]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.06.33:017][565]LogBlueprint: Error: [Compiler CharSelect1] The property associated with  Menu 1  could not be found in '/Game/UMG/CharSelect1.CharSelect1_C'
+[2019.03.18-18.06.33:089][565]LogBlueprint: Warning: [Compiler CharSelect1] [4999.29] Compile of CharSelect1 failed. 4 Fatal Issue(s) 4 Warning(s) [in 110 ms] (/Game/UMG/CharSelect1.CharSelect1)
+[2019.03.18-18.07.37:629][386]LogUObjectArray: Warning: Invalid object index 7077985
+[2019.03.18-18.07.37:629][386]LogUObjectArray: Warning: Invalid object index 7077985
+[2019.03.18-18.07.37:632][386]LogUObjectArray: Warning: Invalid object index 7077985
+[2019.03.18-18.07.37:634][386]LogUObjectArray: Warning: Invalid object index 7077985
+[2019.03.18-18.07.37:646][387]LogUObjectArray: Warning: Invalid object index 7077985
+[2019.03.18-18.07.37:649][387]LogUObjectArray: Warning: Invalid object index 7077985
+[2019.03.18-18.07.37:662][388]LogUObjectArray: Warning: Invalid object index 7077985
+[2019.03.18-18.07.37:663][388]LogUObjectArray: Warning: Invalid object index 7077985
+[2019.03.18-18.07.37:666][388]LogUObjectArray: Warning: Invalid object index 7077985
+[2019.03.18-18.07.37:680][389]LogUObjectArray: Warning: Invalid object index 7077985
+[2019.03.18-18.07.37:682][389]LogUObjectArray: Warning: Invalid object index 7077985
+[2019.03.18-18.08.17:486][698]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-18.08.17:504][698]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-18.08.17:504][698]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.18-18.08.17:508][698]LogPlayLevel: [PlayLevel] Compiling NewBlueprint before play...
+[2019.03.18-18.08.17:560][698]LogBlueprint: Error: [Compiler NewBlueprint] Cannot construct objects of type '/Game/Blueprints/Car1.Car1_C' in  Construct Object from Class
+[2019.03.18-18.08.17:560][698]LogBlueprint: Error: [Compiler NewBlueprint] Outer object is required in  Construct Object from Class
+[2019.03.18-18.08.17:562][698]LogBlueprint: Warning: [Compiler NewBlueprint] [5103.76] Compile of NewBlueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 54 ms] (/Game/Blueprints/NewBlueprint.NewBlueprint)
+[2019.03.18-18.08.17:600][698]LogPlayLevel: PlayLevel: Blueprint regeneration took 95 ms (1 blueprints)
+[2019.03.18-18.08.17:600][698]BlueprintLog: Blueprint NewBlueprint failed to compile
+[2019.03.18-18.08.19:691][698]LogSlate: Window 'Message' being destroyed
+[2019.03.18-18.08.19:780][698]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 10:08:19 AM)
+[2019.03.18-18.08.19:780][698]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-18.08.19:788][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007378s)
+[2019.03.18-18.08.19:789][698]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-18.08.19:789][698]LogPlayLevel: PIE: World Init took: (0.001475s)
+[2019.03.18-18.08.19:789][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009134s)
+[2019.03.18-18.08.19:843][698]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-18.08.19:926][698]LogInit: FAudioDevice initialized.
+[2019.03.18-18.08.19:956][698]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-18.08.19:958][698]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-14.08.19
+[2019.03.18-18.08.19:959][698]LogWorld: Bringing up level for play took: 0.001356
+[2019.03.18-18.08.19:974][698]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 3.283
+[2019.03.18-18.08.19:974][698]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-18.08.30:060][289]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-18.08.30:060][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-18.08.30:120][289]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-18.08.30:120][289]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-18.08.30:158][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-18.08.30:172][290]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.03.18-18.08.40:398][900]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.09.27:266][682]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.09.35:846][184]LogEditorTransaction: Undo Edit Top
+[2019.03.18-18.09.36:285][199]LogEditorTransaction: Undo Edit Left
+[2019.03.18-18.09.50:170][988]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.10.06:903][972]LogEditorTransaction: Undo Edit Padding
+[2019.03.18-18.10.07:179][986]LogEditorTransaction: Undo Edit Left
+[2019.03.18-18.10.23:889][949]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.10.29:310][261]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.10.53:591][688]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.11.03:910][297]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.11.04:967][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-18.11.05:034][344]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect51E467EF44F55E8B9A040DA222FAC788.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-18.11.06:449][429]LogEditorTransaction: Undo Edit Padding
+[2019.03.18-18.11.06:700][441]LogEditorTransaction: Undo Edit Padding
+[2019.03.18-18.11.06:887][449]LogEditorTransaction: Undo Move Widget
+[2019.03.18-18.11.07:122][460]LogEditorTransaction: Undo Move Widget
+[2019.03.18-18.11.07:351][471]LogEditorTransaction: Undo Move Widget
+[2019.03.18-18.11.07:581][482]LogEditorTransaction: Undo Edit Left
+[2019.03.18-18.11.26:826][599]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.11.33:333][976]LogEditorTransaction: Undo Edit Normal Padding
+[2019.03.18-18.11.38:684][291]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.11.40:522][388]LogEditorTransaction: Undo Edit Top
+[2019.03.18-18.11.48:386][854]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.11.57:349][378]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.12.00:169][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-18.12.00:237][533]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectAFFAED0E4F6D26D7658E1BBCD42EF951.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-18.12.57:364][959]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.13.04:844][394]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.13.09:451][663]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.14.10:835][220]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.038
+[2019.03.18-18.14.10:857][220]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UMG/CharSelect] ([1] browsable assets)...
+[2019.03.18-18.14.10:857][220]OBJ SavePackage: Finished generating thumbnails for package [/Game/UMG/CharSelect]
+[2019.03.18-18.14.10:857][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Saved/Autosaves/Game/UMG/CharSelect_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.03.18-18.14.10:925][220]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect_Auto1134A41D74CD1E6E7E02068BDDFA51F2C.tmp' to '../../../../Documents/UnrealCarSelect/Saved/Autosaves/Game/UMG/CharSelect_Auto1.uasset'
+[2019.03.18-18.14.10:925][220]LogFileHelpers: Auto-saving content packages took 0.089
+[2019.03.18-18.14.49:389][526]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.14.50:064][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-18.14.50:133][552]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelectA092CDD344AB402F803C6E8C489063EF.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.18-18.14.50:650][583]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.18-18.14.50:665][583]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-18.14.50:665][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.18-18.14.50:665][583]PIE: New page: PIE session: Minimal_Default (Mar 18, 2019, 10:14:50 AM)
+[2019.03.18-18.14.50:665][583]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.03.18-18.14.50:673][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007407s)
+[2019.03.18-18.14.50:674][583]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.03.18-18.14.50:674][583]LogPlayLevel: PIE: World Init took: (0.001673s)
+[2019.03.18-18.14.50:674][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009356s)
+[2019.03.18-18.14.50:729][583]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.03.18-18.14.50:808][583]LogInit: FAudioDevice initialized.
+[2019.03.18-18.14.50:824][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-18.14.50:922][583]LogLoad: Game class is 'CharacterSelect_C'
+[2019.03.18-18.14.50:924][583]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.03.18-14.14.50
+[2019.03.18-18.14.50:924][583]LogWorld: Bringing up level for play took: 0.001339
+[2019.03.18-18.14.50:941][583]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.249
+[2019.03.18-18.14.50:941][583]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-18.14.58:052][999]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-18.14.58:052][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.18-18.14.58:065][999]LogSlate: Window 'UnrealCarSelect Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.18-18.14.58:103][999]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.18-18.14.58:103][999]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.03.18-18.14.58:159][  0]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.03.18-18.15.28:241][785]Cmd: TRANSACTION UNDO
+[2019.03.18-18.15.28:241][785]LogEditorTransaction: Undo Edit Padding
+[2019.03.18-18.15.45:001][785]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.15.52:826][240]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.16.03:866][884]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.16.16:377][614]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.16.26:072][177]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.17.07:295][578]BlueprintLog: New page: Compile CharSelect
+[2019.03.18-18.17.10:811][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.18-18.17.10:880][774]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect1DF875834C01CD500CDCC0AD7FC8B140.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.19-11.55.26:812][907]LogHttp: Warning: 00000199530AA200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.19-11.55.26:812][907]LogHttp: Warning: 00000199530AA200: libcurl info message cache 0 (Connection 56 seems to be dead!)
+[2019.03.19-11.55.26:812][907]LogHttp: Warning: 00000199530AA200: libcurl info message cache 1 (Closing connection 56)
+[2019.03.19-11.55.26:812][907]LogHttp: Warning: 00000199530AA200: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.19-11.55.26:812][907]LogHttp: Warning: 00000199530AA200: libcurl info message cache 3 (Closing connection 57)
+[2019.03.19-11.56.15:035][997]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2019.03.19-11.56.15:722][ 42]Cmd: TRANSACTION UNDO
+[2019.03.19-11.56.15:722][ 42]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2019.03.19-11.56.56:402][144]BlueprintLog: New page: Compile CharSelect
+[2019.03.19-11.56.57:145][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/CharSelect" FILE="../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset" SILENT=true
+[2019.03.19-11.56.57:215][204]LogSavePackage: Moving '../../../../Documents/UnrealCarSelect/Saved/CharSelect09FD6C634E4136EA4BEE5B9748E4A84D.tmp' to '../../../../Documents/UnrealCarSelect/Content/UMG/CharSelect.uasset'
+[2019.03.19-11.57.02:087][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.19-11.57.04:669][443]LogSlate: Window 'UnrealCarSelect - Unreal Editor' being destroyed
+[2019.03.19-11.57.04:691][443]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.19-11.57.05:610][444]Cmd: QUIT_EDITOR
+[2019.03.19-11.57.06:632][444]LogExit: Preparing to exit.
