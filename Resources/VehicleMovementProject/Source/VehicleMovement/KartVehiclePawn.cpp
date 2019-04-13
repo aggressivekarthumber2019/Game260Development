@@ -249,16 +249,16 @@ AKartVehiclePawn::AKartVehiclePawn()
 	/////////////////////////
 	
 	// Mike: Create a simple text renderer for the car speed
-	CarSpeedText = CreateDefaultSubobject<UTextRenderComponent>(TEXT("Car Speed"));
+	//CarSpeedText = CreateDefaultSubobject<UTextRenderComponent>(TEXT("Car Speed"));
 	
 	// Mike: Attach the text to the root component of the car
-	CarSpeedText->SetupAttachment(RootComponent);
+	//CarSpeedText->SetupAttachment(RootComponent);
 
 	// Mike: Rotate the text to face the camera
-	CarSpeedText->SetWorldRotation(FRotator(0.0f, 180.0f, 0.0f));
+	//CarSpeedText->SetWorldRotation(FRotator(0.0f, 180.0f, 0.0f));
 	
 	// Mike: Change the location of the text to face the camera
-	CarSpeedText->SetRelativeLocation(FVector(-120.0f, -85.0f, 70.0f));
+	//CarSpeedText->SetRelativeLocation(FVector(-120.0f, -85.0f, 70.0f));
 
 	/////////////////////////////////////
 	//// PAWN STAT COMPONENT SETUP //-------------------------------------------------------------------
@@ -442,12 +442,6 @@ void AKartVehiclePawn::UpdateSpeedometer()
 {
     // Mike: Get the current speed of the car in INT form
     CurrentCarSpeedReadable = FMath::FloorToInt((PawnMovementComponent->Velocity.Size() / 50.0f));
-
-    // Mike: Turn that int into a string
-    SpeedometerString = FString::FromInt(CurrentCarSpeedReadable);
-
-    // Mike: Set the car speed text
-    CarSpeedText->SetText(SpeedometerString);
 }   
 
 void AKartVehiclePawn::BoostPress()

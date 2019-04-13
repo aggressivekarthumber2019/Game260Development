@@ -43,25 +43,25 @@ void UPawnStatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 	}
 
 	// Mods
-	for (auto& Entry : MStatModifiers)
-	{
-		UStatModTracker* CurrentMod = &Entry.Value;
+	//for (auto& Entry : MStatModifiers)
+	//{
+	//	UStatModTracker* CurrentMod = &Entry.Value;
 
-		// Check that the current mod is valid first then Subtract time
-		if (CurrentMod && CurrentMod->MMod->MMaxTimeMS != 0.f)
-		{
-			// Subtract time
-			CurrentMod->MModTimeRemainMS -= DeltaTime * 1000.f;
+	//	// Check that the current mod is valid first then Subtract time
+	//	if (CurrentMod && CurrentMod->MMod->MMaxTimeMS != 0.f)
+	//	{
+	//		// Subtract time
+	//		CurrentMod->MModTimeRemainMS -= DeltaTime * 1000.f;
 
-			if (CurrentMod->MModTimeRemainMS < 0.f)
-			{
-				// Reset timer
-				CurrentMod->MModTimeRemainMS = CurrentMod->MMod->MMaxTimeMS;
+	//		if (CurrentMod->MModTimeRemainMS < 0.f)
+	//		{
+	//			// Reset timer
+	//			CurrentMod->MModTimeRemainMS = CurrentMod->MMod->MMaxTimeMS;
 
-				DisableMod(CurrentMod->MMod);
-			}
-		}
-	}
+	//			DisableMod(CurrentMod->MMod);
+	//		}
+	//	}
+	//}
 }
 
 UPawnState* UPawnStatComponent::GetCurrentState() const
@@ -113,23 +113,23 @@ void UPawnStatComponent::EnableMod(UPawnStatMod* Mod)
 
 void UPawnStatComponent::DisableMod(UPawnStatMod* Mod)
 {
-	// Mod id
-	FName ObjectID = Mod->StaticClass()->GetDefaultObjectName();
-	// Check if the ObjectID is valid and Check if we have that mod
-	if (ObjectID.IsValid() && MStatModifiers.Contains(ObjectID))
-	{
-		UStatModTracker* CurrentMod = &MStatModifiers[ObjectID];
+	//// Mod id
+	//FName ObjectID = Mod->StaticClass()->GetDefaultObjectName();
+	//// Check if the ObjectID is valid and Check if we have that mod
+	//if (ObjectID.IsValid() && MStatModifiers.Contains(ObjectID))
+	//{
+	//	UStatModTracker* CurrentMod = &MStatModifiers[ObjectID];
 
-		if (CurrentMod->MStackCount <= 1)
-		{
-			MRemoveList.Emplace(ObjectID);
-		}
-		else
-		{
-			// Decurment stack
-			CurrentMod->MStackCount--;
-		}
-	}
+	//	if (CurrentMod->MStackCount <= 1)
+	//	{
+	//		MRemoveList.Emplace(ObjectID);
+	//	}
+	//	else
+	//	{
+	//		// Decurment stack
+	//		CurrentMod->MStackCount--;
+	//	}
+	//}
 
 	//Check if valid before using the mod
 	if (Mod)
